@@ -4,7 +4,7 @@ Dự án chứa dữ liệu học JLPT và các Codex skill sử dụng dữ li�
 
 ## JLPT Vocabulary Coach
 
-Skill `jlpt-vocabulary-coach` hỗ trợ học mới, ôn tập và kiểm tra từ vựng theo từng cấp JLPT.
+Skill `jlpt-vocabulary-coach` hỗ trợ học mới, ôn tập và kiểm tra từ vựng bằng giao diện tương tác: lật thẻ nhớ, bấm đáp án trắc nghiệm và chọn từ điền vào câu.
 
 Skill chỉ sử dụng dữ liệu trong:
 
@@ -24,8 +24,12 @@ jlpt-exam-skills/
     └── jlpt-vocabulary-coach/
         ├── SKILL.md
         ├── agents/openai.yaml
-        ├── references/learning-modes.md
-        └── scripts/load_vocabulary.py
+        ├── references/
+        │   ├── interactive-lessons.md
+        │   └── learning-modes.md
+        └── scripts/
+            ├── build_interactive_lesson.py
+            └── load_vocabulary.py
 ```
 
 ### Cách gọi skill trong Codex
@@ -36,23 +40,24 @@ Khi skill chưa được cài vào danh sách skill toàn cục, hãy chỉ rõ 
 Hãy đọc và làm theo skill:
 jlpt-exam-skills/skills/jlpt-vocabulary-coach/SKILL.md
 
-Tôi muốn học mới 5 từ JLPT N2 từ bài dai1.
-Dạy từng nhóm và kiểm tra theo cả hai chiều Nhật → Việt và Việt → Nhật.
+Tôi muốn một phiên học tương tác 10 từ JLPT N2 từ bài dai1.
+Hãy hiển thị thẻ nhớ, trắc nghiệm và bài điền từ để tôi trả lời bằng nút bấm.
 Không sử dụng từ hoặc câu ví dụ ngoài dữ liệu CSV.
 ```
 
 Nếu Codex đã nhận diện skill, có thể gọi bằng tên:
 
 ```text
-$jlpt-vocabulary-coach Hãy dạy tôi 10 từ JLPT N2 ngẫu nhiên.
+$jlpt-vocabulary-coach Hãy tạo phiên học tương tác 10 từ JLPT N2 ngẫu nhiên.
 ```
 
 ### Prompt mẫu
 
-Học từ mới theo bài:
+Tạo phiên học tương tác theo bài:
 
 ```text
-Dùng skill jlpt-vocabulary-coach để dạy tôi 10 từ đầu tiên của bài dai1 N2.
+Dùng skill jlpt-vocabulary-coach để tạo phiên học tương tác 10 từ đầu tiên của bài dai1 N2.
+Tôi muốn trả lời bằng thao tác bấm, không nhập text.
 ```
 
 Kiểm tra ngẫu nhiên:
@@ -81,14 +86,26 @@ Dùng skill jlpt-vocabulary-coach. Cho tôi chơi chế độ Đảo chiều v�
 Dùng skill jlpt-vocabulary-coach để ôn lại 10 từ N2 với seed 42.
 ```
 
-### Các chế độ học
+### Các chế độ học tương tác
 
-- `Học mới`: xem từ, cách đọc, nghĩa và câu ví dụ nguồn theo nhóm tối đa 5 từ.
-- `Gợi nhớ chủ động`: trả lời Nhật → Việt, Việt → Nhật, cách đọc và điền khuyết.
+- `Thẻ nhớ`: bấm để lật thẻ, sau đó chọn `Đã nhớ` hoặc `Cần ôn`.
+- `Trắc nghiệm`: bấm chọn nghĩa; mọi đáp án nhiễu đều lấy từ CSV trong phiên.
+- `Điền từ`: bấm chọn từ phù hợp với câu ví dụ nguồn đã tạo chỗ trống.
 - `Ôn cách quãng`: ưu tiên từ trả lời sai hoặc từ lâu chưa gặp.
-- `5 giây nhớ nghĩa`: trả lời nhanh nghĩa của từ được hiển thị.
-- `Đảo chiều`: luân phiên Nhật → Việt và Việt → Nhật.
-- `Chuỗi 3 đúng`: hoàn thành một từ sau ba dạng câu hỏi đúng.
+
+Giao diện hiển thị tiến độ, số câu đúng và chuỗi trả lời đúng ngay trong phiên. Việc nhập bàn phím chỉ được dùng khi người học chủ động yêu cầu luyện viết.
+
+### Tạo giao diện tương tác trực tiếp
+
+```bash
+python3 jlpt-exam-skills/skills/jlpt-vocabulary-coach/scripts/build_interactive_lesson.py \
+  --level N2 \
+  --lesson dai1 \
+  --limit 10 \
+  --output /duong-dan-duoc-phep/n2-dai1.html
+```
+
+Đầu ra là HTML fragment để Codex hiển thị trực tiếp trong giao diện artifact/visualization. Dữ liệu được nhúng cục bộ và không có yêu cầu mạng.
 
 ### Kiểm tra dữ liệu trực tiếp
 

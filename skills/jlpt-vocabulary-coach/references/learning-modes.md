@@ -2,7 +2,7 @@
 
 ## Học mới
 
-Mỗi nhóm tối đa 5 mục. Với mỗi mục, trình bày từ, cách đọc, nghĩa và nguyên văn câu ví dụ. Sau nhóm, hỏi nhanh theo thứ tự đảo để buộc người học nhớ lại.
+Ưu tiên thẻ nhớ tương tác. Mỗi nhóm tối đa 5 mục. Mặt trước chỉ hiện từ; người học bấm lật để xem cách đọc, nghĩa và nguyên văn câu ví dụ. Sau khi lật, người học bấm `Đã nhớ` hoặc `Cần ôn`.
 
 ## Gợi nhớ chủ động
 
@@ -13,7 +13,7 @@ Trộn bốn dạng câu hỏi, chỉ dùng trường dữ liệu đã nạp:
 3. Nhìn mục từ, đọc thành tiếng hoặc gõ cách đọc.
 4. Điền mục từ vào câu ví dụ đã thay mục từ bằng `＿＿＿`.
 
-Không hiển thị đáp án trước khi người học trả lời. Sau khi chấm, hỏi lại mục sai ở cuối buổi bằng một dạng câu hỏi khác.
+Không hiển thị đáp án trước khi người học trả lời. Ưu tiên lựa chọn bằng nút; nếu chỉ có văn bản, dùng `A/B/C/D`. Sau khi chấm, hỏi lại mục sai ở cuối buổi bằng một dạng câu hỏi khác.
 
 ## Ôn cách quãng
 
