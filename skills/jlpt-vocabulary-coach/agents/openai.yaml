@@ -1,0 +1,4 @@
+interface:
+  display_name: "JLPT Vocabulary Coach"
+  short_description: "Học từ vựng JLPT theo dữ liệu cục bộ"
+  default_prompt: "Dùng $jlpt-vocabulary-coach để giúp tôi ôn từ vựng JLPT N2."
