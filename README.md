@@ -2,6 +2,24 @@
 
 Dự án chứa dữ liệu học JLPT và các Codex skill sử dụng dữ liệu đó.
 
+## JLPT Image to Vocabulary CSV
+
+Skill `jlpt-image-to-vocabulary-csv` đọc từ vựng trực tiếp từ ảnh được cung cấp, bổ sung trường thiếu bằng kết quả khớp kanji trong `resources`, kiểm tra các ô chưa chắc chắn và xuất CSV đúng schema trong `resources/N*/goi`. Skill không lấy nội dung từ web hoặc tự suy diễn.
+
+```text
+$jlpt-image-to-vocabulary-csv Hãy đọc các ảnh từ vựng này và tạo resources/N2/goi/dai15.csv.
+```
+
+Script đi kèm chuẩn hoá Unicode/whitespace, ghi UTF-8 BOM, chặn ô trống và không ghi đè file có sẵn theo mặc định:
+
+```bash
+python3 skills/jlpt-image-to-vocabulary-csv/scripts/write_vocabulary_csv.py \
+  --input /tmp/rows.json \
+  --output resources/N2/goi/dai15.csv
+```
+
+Xem quy trình đầy đủ tại [`skills/jlpt-image-to-vocabulary-csv/SKILL.md`](skills/jlpt-image-to-vocabulary-csv/SKILL.md).
+
 ## JLPT Vocabulary Coach
 
 Skill `jlpt-vocabulary-coach` hỗ trợ học mới, ôn tập và kiểm tra từ vựng bằng giao diện tương tác: lật thẻ nhớ, bấm đáp án trắc nghiệm và chọn từ điền vào câu.
@@ -151,4 +169,4 @@ Kết quả trả về có `source_file` và `source_line` để kiểm tra từ
 
 ### Dữ liệu hiện có
 
-Hiện dự án có dữ liệu từ vựng N2 trong các tệp `resources/N2/goi/dai1.csv` đến `dai7.csv`. Nếu yêu cầu một cấp chưa có dữ liệu, skill phải báo rõ thay vì sử dụng nguồn khác.
+Hiện dự án có dữ liệu từ vựng N2 trong các tệp `resources/N2/goi/dai1.csv` đến `dai14.csv`. Nếu yêu cầu một cấp chưa có dữ liệu, skill phải báo rõ thay vì sử dụng nguồn khác.

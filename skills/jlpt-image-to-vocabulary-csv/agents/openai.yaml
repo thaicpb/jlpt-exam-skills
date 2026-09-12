@@ -1,0 +1,4 @@
+interface:
+  display_name: "JLPT Image to Vocabulary CSV"
+  short_description: "Chuẩn hoá từ vựng trong ảnh thành CSV JLPT"
+  default_prompt: "Dùng $jlpt-image-to-vocabulary-csv để đọc các ảnh từ vựng này và tạo CSV đúng format resources/N2/goi."
