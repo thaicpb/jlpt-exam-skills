@@ -31,6 +31,34 @@ def fail(message: str) -> None:
     raise SystemExit(message)
 
 
+def load_examples(path):
+    notes_path = path.with_suffix('.examples.json')
+    if not notes_path.exists():
+        return {}, None
+    data = json.loads(notes_path.read_text(encoding='utf-8'))
+    if data.get('version') != 1:
+        fail(f'Unsupported examples version: {notes_path}')
+    notes = {}
+    for note in data['items']:
+        key = (note['word'], note['example'])
+        if key in notes:
+            fail(f'Duplicate example: {key[0]} in {notes_path}')
+        segments = note['example_segments']
+        if not note['example_vi'].strip() or not segments:
+            fail(f'Incomplete example: {key[0]}')
+        if ''.join(s['text'] for s in segments) != note['example']:
+            fail(f'Example text mismatch: {key[0]}')
+        for segment in segments:
+            reading = segment.get('reading')
+            if reading is not None:
+                if not re.fullmatch(r'[ぁ-ゖァ-ヺー・ ]+', reading) or key[0] in segment['text']:
+                    fail(f'Invalid furigana or target word annotated: {key[0]}')
+            elif re.search(r'[一-龯々]', segment['text'].replace(key[0], '')):
+                fail(f'Missing furigana: {key[0]} / {segment["text"]}')
+        notes[key] = note
+    return notes, str(notes_path.relative_to(RESOURCE_ROOT.parent))
+
+
 def main() -> None:
     args = parse_args()
     level = args.level.upper()
@@ -56,6 +84,8 @@ def main() -> None:
     required = ["từ mới", "cách đọc", "nghĩa tiếng việt", "ví dụ sử dụng minh hoạ"]
     rows: list[dict[str, object]] = []
     for path in files:
+        notes, notes_source = load_examples(path)
+        used = set()
         with path.open(encoding="utf-8-sig", newline="") as handle:
             reader = csv.DictReader(handle)
             if reader.fieldnames != required:
@@ -69,6 +99,14 @@ def main() -> None:
                     "source_file": str(path.relative_to(RESOURCE_ROOT.parent)),
                     "source_line": line_number,
                 })
+                key = (row[required[0]], row[required[3]])
+                if key in notes:
+                    note = notes[key]
+                    rows[-1].update({name: note[name] for name in ('example_vi', 'example_segments')})
+                    rows[-1]['example_notes_source'] = notes_source
+                    used.add(key)
+        if set(notes) != used:
+            fail(f'Stale example annotations in {notes_source}; update them to match the CSV')
 
     seed = None
     if args.sample is not None:

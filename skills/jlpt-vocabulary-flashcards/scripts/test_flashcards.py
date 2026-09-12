@@ -6,10 +6,44 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import load_vocabulary
+
 SCRIPTS = Path(__file__).resolve().parent
 
 
 class FlashcardsTest(unittest.TestCase):
+    def test_n1_annotations_preserve_all_sentences(self):
+        source = subprocess.check_output(
+            [sys.executable, str(SCRIPTS / 'load_vocabulary.py'),
+             '--level', 'N1', '--lesson', 'dai1'], text=True)
+        items = json.loads(source)['items']
+        self.assertEqual(len(items), 100)
+        for item in items:
+            self.assertTrue(item['example_vi'].strip())
+            self.assertEqual(''.join(s['text'] for s in item['example_segments']), item['example'])
+            for segment in item['example_segments']:
+                if 'reading' in segment:
+                    self.assertNotIn(item['word'], segment['text'])
+                else:
+                    self.assertIsNone(re.search('[一-龯々]', segment['text'].replace(item['word'], '')))
+
+    def test_invalid_annotations_rejected(self):
+        for segments in ([{'text': '別の文'}],
+                         [{'text': '無理が悪化する。'}],
+                         [{'text': '無理', 'reading': 'むり'}, {'text': 'が'},
+                          {'text': '悪化', 'reading': 'あっか'}, {'text': 'する。'}]):
+            with self.subTest(segments=segments), tempfile.TemporaryDirectory() as folder:
+                path = Path(folder) / 'dai1.csv'
+                path.with_suffix('.examples.json').write_text(json.dumps({
+                    'version': 1, 'items': [{'word': '悪化', 'example': '無理が悪化する。',
+                    'example_vi': 'Bản dịch', 'example_segments': segments}]}))
+                with self.assertRaises(SystemExit):
+                    load_vocabulary.load_examples(path)
+
+    def test_missing_sidecar_compatible(self):
+        with tempfile.TemporaryDirectory() as folder:
+            self.assertEqual(load_vocabulary.load_examples(Path(folder) / 'dai1.csv'), ({}, None))
+
     def build(self, *args):
         with tempfile.TemporaryDirectory() as folder:
             output = Path(folder) / "cards.html"

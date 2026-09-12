@@ -1,6 +1,6 @@
 ---
 name: jlpt-vocabulary-flashcards
-description: Học mới và ôn từ vựng JLPT bằng flashcard từ dữ liệu dự án. Dùng khi muốn lật thẻ, tự học và ghi nhớ; không tạo bài tập, kiểm tra hay chấm điểm.
+description: Học mới và ôn từ vựng JLPT bằng flashcard có bản dịch câu mẫu và furigana từ dữ liệu dự án. Dùng khi muốn lật thẻ, tự học và ghi nhớ; không tạo bài tập, kiểm tra hay chấm điểm.
 ---
 
 # JLPT Vocabulary Flashcards
@@ -11,6 +11,7 @@ Chỉ cung cấp flashcard để tự học. Không tạo trắc nghiệm, đi�
 
 - Luôn chạy `scripts/load_vocabulary.py` của skill này để nạp dữ liệu hiện tại từ `../../resources/N*/goi/*.csv`.
 - Giữ nguyên từ, cách đọc, nghĩa Việt, câu mẫu và nguồn file/dòng. Không tự thêm từ, câu ví dụ hoặc tra nguồn khác.
+- Bổ sung bản dịch tiếng Việt và furigana cho câu mẫu trong tệp `*.examples.json` cạnh CSV theo [schema và quy tắc](references/example-annotations.md). Đây là nội dung biên soạn từ câu gốc, không phải dữ liệu nguyên bản CSV. Không thay câu mẫu hoặc thêm mục từ. Kiểm tra dữ liệu bổ sung cho các thẻ được chọn trước khi tạo.
 - Nếu thiếu cấp độ/bài, báo dữ liệu đang có; không bù bằng kiến thức mô hình.
 
 ## Buổi học
@@ -19,8 +20,8 @@ Chỉ cung cấp flashcard để tự học. Không tạo trắc nghiệm, đi�
 2. Chạy từ thư mục skill:
    `python3 scripts/build_flashcards.py --level N2 --lesson dai1 --limit 10 --output /allowed/path/cards.html`.
    Dùng `--sample 10 --seed 42` để chọn/tái tạo mẫu ngẫu nhiên; có thể lặp `--word <mục-từ>` để chọn chính xác danh sách cần ôn.
-3. Hiển thị thẻ trực tiếp nếu ứng dụng hỗ trợ. Mặt trước chỉ có mục từ; nút lật mở cách đọc, nghĩa, nguyên văn câu mẫu và nguồn. Chữ Nhật lớn, nút dễ bấm trên điện thoại.
-4. Cho lật về mặt trước, xem thẻ trước/sau và đánh dấu “Cần xem lại”. Đây là dấu trang do người học chọn, không phải kết luận đã nhớ hay điểm số. Cho ôn riêng các thẻ đã đánh dấu.
+3. Hiển thị thẻ trực tiếp nếu ứng dụng hỗ trợ. Mặt trước chỉ có mục từ; khi lật, tách khu vực từ đang học, nhóm cách đọc/ý nghĩa và khung câu mẫu. Câu Nhật có furigana bằng ruby ở trên mọi kanji trừ từ đang học; từ đang học được nhấn màu. Bản dịch Việt nằm ngay dưới câu Nhật. Nguồn nằm trong mục thu gọn. Chữ Nhật lớn, khoảng dòng đủ cho ruby, độ tương phản rõ và nút dễ bấm trên điện thoại.
+4. Lật thẻ bằng hiệu ứng xoay 3D hai chiều; đổi nội dung khi thẻ nghiêng 90 độ để không lộ chữ ngược. Chặn thao tác chồng nhau trong lúc lật, giữ focus trên nút lật và bỏ animation khi người dùng bật `prefers-reduced-motion`. Cho lật về mặt trước, xem thẻ trước/sau và đánh dấu “Cần xem lại”. Đây là dấu trang do người học chọn, không phải kết luận đã nhớ hay điểm số. Cho ôn riêng các thẻ đã đánh dấu.
 5. Chỉ giữ dấu trang trong phiên; không tuyên bố lưu lâu dài hoặc tự tạo lịch nhắc. Cuối vòng có thể xem lại toàn bộ hoặc các thẻ đánh dấu, không đưa bài kiểm tra.
 6. Nếu không có giao diện tương tác, trình bày một mặt thẻ mỗi lượt, chờ “lật” hoặc “tiếp”; không hỏi/chấm câu trả lời.
 

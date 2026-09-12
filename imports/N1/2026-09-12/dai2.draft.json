@@ -1,0 +1,602 @@
+[
+  {
+    "từ mới": "顧客",
+    "cách đọc": "こきゃく",
+    "nghĩa tiếng việt": "khách hàng, khách quen",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "後悔",
+    "cách đọc": "こうかい (する)",
+    "nghĩa tiếng việt": "hối hận",
+    "ví dụ sử dụng minh hoạ": "あの時断ったことを後悔した。"
+  },
+  {
+    "từ mới": "語学",
+    "cách đọc": "ごがく",
+    "nghĩa tiếng việt": "ngôn ngữ học",
+    "ví dụ sử dụng minh hoạ": "語学を生かして働く。"
+  },
+  {
+    "từ mới": "誤解",
+    "cách đọc": "ごかい (する)",
+    "nghĩa tiếng việt": "hiểu nhầm (sai)",
+    "ví dụ sử dụng minh hoạ": "説明不足で誤解を招いた。"
+  },
+  {
+    "từ mới": "交付",
+    "cách đọc": "こうふ (する)",
+    "nghĩa tiếng việt": "cấp, phát",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "効果",
+    "cách đọc": "こうか",
+    "nghĩa tiếng việt": "hiệu quả",
+    "ví dụ sử dụng minh hoạ": "この薬は効果がある。"
+  },
+  {
+    "từ mới": "口座",
+    "cách đọc": "こうざ",
+    "nghĩa tiếng việt": "tài khoản",
+    "ví dụ sử dụng minh hoạ": "銀行で新しい口座を開く。"
+  },
+  {
+    "từ mới": "口述",
+    "cách đọc": "こうじゅつ (する)",
+    "nghĩa tiếng việt": "truyền miệng, thuật bằng lời",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "口論",
+    "cách đọc": "こうろん (する)",
+    "nghĩa tiếng việt": "tranh luận",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "向上",
+    "cách đọc": "こうじょう (する)",
+    "nghĩa tiếng việt": "nâng cao",
+    "ví dụ sử dụng minh hoạ": "サービスの質が向上した。"
+  },
+  {
+    "từ mới": "工作",
+    "cách đọc": "こうさく (する)",
+    "nghĩa tiếng việt": "gia công",
+    "ví dụ sử dụng minh hoạ": "木材で本棚を工作した。"
+  },
+  {
+    "từ mới": "工夫",
+    "cách đọc": "くふう (する)",
+    "nghĩa tiếng việt": "nghĩ cách; cải tiến; sáng tạo",
+    "ví dụ sử dụng minh hoạ": "時間を節約するために工夫する。"
+  },
+  {
+    "từ mới": "幸福",
+    "cách đọc": "こうふく (な)",
+    "nghĩa tiếng việt": "hạnh phúc",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "攻撃",
+    "cách đọc": "こうげき (する)",
+    "nghĩa tiếng việt": "tấn công",
+    "ví dụ sử dụng minh hoạ": "敵の基地を攻撃する。"
+  },
+  {
+    "từ mới": "更新",
+    "cách đọc": "こうしん (する)",
+    "nghĩa tiếng việt": "cập nhật, gia hạn",
+    "ví dụ sử dụng minh hoạ": "免許をオンラインで更新する。"
+  },
+  {
+    "từ mới": "構成",
+    "cách đọc": "こうせい (する)",
+    "nghĩa tiếng việt": "cấu tạo, cấu trúc",
+    "ví dụ sử dụng minh hoạ": "チームは五人で構成される。"
+  },
+  {
+    "từ mới": "構造",
+    "cách đọc": "こうぞう",
+    "nghĩa tiếng việt": "kết cấu",
+    "ví dụ sử dụng minh hoạ": "建物の構造を調査する。"
+  },
+  {
+    "từ mới": "行為",
+    "cách đọc": "こうい",
+    "nghĩa tiếng việt": "hành vi",
+    "ví dụ sử dụng minh hoạ": "危険な行為は禁止されている。"
+  },
+  {
+    "từ mới": "行進",
+    "cách đọc": "こうしん (する)",
+    "nghĩa tiếng việt": "diễu hành",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "行政",
+    "cách đọc": "ぎょうせい",
+    "nghĩa tiếng việt": "hành chính",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "講義",
+    "cách đọc": "こうぎ (する)",
+    "nghĩa tiếng việt": "bài giảng",
+    "ví dụ sử dụng minh hoạ": "教授が歴史について講義する。"
+  },
+  {
+    "từ mới": "購入",
+    "cách đọc": "こうにゅう (する)",
+    "nghĩa tiếng việt": "mua vào, nhập vào",
+    "ví dụ sử dụng minh hoạ": "ネットで航空券を購入する。"
+  },
+  {
+    "từ mới": "高原",
+    "cách đọc": "こうげん",
+    "nghĩa tiếng việt": "cao nguyên",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "合意",
+    "cách đọc": "ごうい (する)",
+    "nghĩa tiếng việt": "thoả thuận, sự nhất trí",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "合成",
+    "cách đọc": "ごうせい (する)",
+    "nghĩa tiếng việt": "tổng hợp",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "告白",
+    "cách đọc": "こくはく (する)",
+    "nghĩa tiếng việt": "tỏ tình",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "国有",
+    "cách đọc": "こくゆう",
+    "nghĩa tiếng việt": "sở hữu quốc gia",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "困難",
+    "cách đọc": "こんなん (な)",
+    "nghĩa tiếng việt": "khó khăn, vất vả",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "混同",
+    "cách đọc": "こんどう (する)",
+    "nghĩa tiếng việt": "nhầm lẫn, lẫn lộn",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "再建",
+    "cách đọc": "さいけん (する)",
+    "nghĩa tiếng việt": "tái thiết, xây dựng lại",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "再現",
+    "cách đọc": "さいげん (する)",
+    "nghĩa tiếng việt": "tái hiện",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "才能",
+    "cách đọc": "さいのう",
+    "nghĩa tiếng việt": "tài năng",
+    "ví dụ sử dụng minh hoạ": "音楽の才能を伸ばす。"
+  },
+  {
+    "từ mới": "採用",
+    "cách đọc": "さいよう (する)",
+    "nghĩa tiếng việt": "tuyển dụng",
+    "ví dụ sử dụng minh hoạ": "経験者を正社員に採用する。"
+  },
+  {
+    "từ mới": "在庫",
+    "cách đọc": "ざいこ",
+    "nghĩa tiếng việt": "hàng trong kho",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "財政",
+    "cách đọc": "ざいせい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "作戦",
+    "cách đọc": "さくせん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "作用",
+    "cách đọc": "さよう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "殺人",
+    "cách đọc": "さつじん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "参考",
+    "cách đọc": "さんこう (する)",
+    "nghĩa tiếng việt": "tham khảo",
+    "ví dụ sử dụng minh hoạ": "説明書を参考に組み立てる。"
+  },
+  {
+    "từ mới": "残業",
+    "cách đọc": "ざんぎょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "志望",
+    "cách đọc": "しぼう (する)",
+    "nghĩa tiếng việt": "nguyện vọng; ứng tuyển",
+    "ví dụ sử dụng minh hoạ": "第一志望の大学に合格した。"
+  },
+  {
+    "từ mới": "思考",
+    "cách đọc": "しこう (する)",
+    "nghĩa tiếng việt": "tư duy",
+    "ví dụ sử dụng minh hoạ": "柔軟な思考を身につける。"
+  },
+  {
+    "từ mới": "指示",
+    "cách đọc": "しじ (する)",
+    "nghĩa tiếng việt": "chỉ thị; hướng dẫn",
+    "ví dụ sử dụng minh hoạ": "上司の指示に従って作業する。"
+  },
+  {
+    "từ mới": "支持",
+    "cách đọc": "しじ (する)",
+    "nghĩa tiếng việt": "ủng hộ",
+    "ví dụ sử dụng minh hoạ": "多くの市民が計画を支持した。"
+  },
+  {
+    "từ mới": "支店",
+    "cách đọc": "してん",
+    "nghĩa tiếng việt": "chi nhánh",
+    "ví dụ sử dụng minh hoạ": "銀行の大阪支店で働いている。"
+  },
+  {
+    "từ mới": "脂肪",
+    "cách đọc": "しぼう",
+    "nghĩa tiếng việt": "chất béo",
+    "ví dụ sử dụng minh hoạ": "運動で体の脂肪を減らす。"
+  },
+  {
+    "từ mới": "視線",
+    "cách đọc": "しせん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "視点",
+    "cách đọc": "してん",
+    "nghĩa tiếng việt": "góc nhìn",
+    "ví dụ sử dụng minh hoạ": "別の視点から問題を見る。"
+  },
+  {
+    "từ mới": "視野",
+    "cách đọc": "しや",
+    "nghĩa tiếng việt": "tầm nhìn",
+    "ví dụ sử dụng minh hoạ": "広い視野で判断する。"
+  },
+  {
+    "từ mới": "視力",
+    "cách đọc": "しりょく",
+    "nghĩa tiếng việt": "thị lực",
+    "ví dụ sử dụng minh hoạ": "眼鏡をかけると視力を補える。"
+  },
+  {
+    "từ mới": "資源",
+    "cách đọc": "しげん",
+    "nghĩa tiếng việt": "tài nguyên",
+    "ví dụ sử dụng minh hoạ": "限りある資源を大切に使う。"
+  },
+  {
+    "từ mới": "事項",
+    "cách đọc": "じこう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "事前",
+    "cách đọc": "じぜん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "事例",
+    "cách đọc": "じれい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "持参",
+    "cách đọc": "じさん (する)",
+    "nghĩa tiếng việt": "mang theo",
+    "ví dụ sử dụng minh hoạ": "面接には履歴書を持参してください。"
+  },
+  {
+    "từ mới": "時期",
+    "cách đọc": "じき",
+    "nghĩa tiếng việt": "thời kỳ; thời điểm",
+    "ví dụ sử dụng minh hoạ": "桜が咲く時期になった。"
+  },
+  {
+    "từ mới": "次第",
+    "cách đọc": "しだい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "治療",
+    "cách đọc": "ちりょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "自覚",
+    "cách đọc": "じかく (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "自己",
+    "cách đọc": "じこ",
+    "nghĩa tiếng việt": "bản thân",
+    "ví dụ sử dụng minh hoạ": "自己紹介をお願いします。"
+  },
+  {
+    "từ mới": "失言",
+    "cách đọc": "しつげん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "実家",
+    "cách đọc": "じっか",
+    "nghĩa tiếng việt": "nhà cha mẹ; quê nhà",
+    "ví dụ sử dụng minh hoạ": "休みに実家へ帰る。"
+  },
+  {
+    "từ mới": "実在",
+    "cách đọc": "じつざい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "実践",
+    "cách đọc": "じっせん (する)",
+    "nghĩa tiếng việt": "thực hành",
+    "ví dụ sử dụng minh hoạ": "学んだ方法を仕事で実践する。"
+  },
+  {
+    "từ mới": "車庫",
+    "cách đọc": "しゃこ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "車両",
+    "cách đọc": "しゃりょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "主張",
+    "cách đọc": "しゅちょう (する)",
+    "nghĩa tiếng việt": "khẳng định; chủ trương",
+    "ví dụ sử dụng minh hoạ": "会議で自分の意見を主張する。"
+  },
+  {
+    "từ mới": "取引",
+    "cách đọc": "とりひき (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "取材",
+    "cách đọc": "しゅざい (する)",
+    "nghĩa tiếng việt": "thu thập tin; phỏng vấn",
+    "ví dụ sử dụng minh hoạ": "記者が現地で取材した。"
+  },
+  {
+    "từ mới": "手段",
+    "cách đọc": "しゅだん",
+    "nghĩa tiếng việt": "phương thức; biện pháp",
+    "ví dụ sử dụng minh hoạ": "電車は便利な交通手段だ。"
+  },
+  {
+    "từ mới": "首相",
+    "cách đọc": "しゅしょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "受賞",
+    "cách đọc": "じゅしょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "需要",
+    "cách đọc": "じゅよう",
+    "nghĩa tiếng việt": "nhu cầu",
+    "ví dụ sử dụng minh hoạ": "夏は電力の需要が増える。"
+  },
+  {
+    "từ mới": "収益",
+    "cách đọc": "しゅうえき",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "収入",
+    "cách đọc": "しゅうにゅう",
+    "nghĩa tiếng việt": "thu nhập",
+    "ví dụ sử dụng minh hoạ": "毎月の収入と支出を記録する。"
+  },
+  {
+    "từ mới": "周囲",
+    "cách đọc": "しゅうい",
+    "nghĩa tiếng việt": "xung quanh",
+    "ví dụ sử dụng minh hoạ": "周囲の安全を確認する。"
+  },
+  {
+    "từ mới": "就職",
+    "cách đọc": "しゅうしょく (する)",
+    "nghĩa tiếng việt": "xin việc; đi làm",
+    "ví dụ sử dụng minh hoạ": "卒業後、日本の会社に就職する。"
+  },
+  {
+    "từ mới": "修正",
+    "cách đọc": "しゅうせい (する)",
+    "nghĩa tiếng việt": "sửa chữa",
+    "ví dụ sử dụng minh hoạ": "報告書の数字を修正する。"
+  },
+  {
+    "từ mới": "習慣",
+    "cách đọc": "しゅうかん",
+    "nghĩa tiếng việt": "thói quen; tập quán",
+    "ví dụ sử dụng minh hoạ": "毎朝走ることを習慣にしている。"
+  },
+  {
+    "từ mới": "従来",
+    "cách đọc": "じゅうらい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "重視",
+    "cách đọc": "じゅうし (する)",
+    "nghĩa tiếng việt": "coi trọng",
+    "ví dụ sử dụng minh hoạ": "価格より品質を重視する。"
+  },
+  {
+    "từ mới": "重点",
+    "cách đọc": "じゅうてん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "祝日",
+    "cách đọc": "しゅくじつ",
+    "nghĩa tiếng việt": "ngày lễ",
+    "ví dụ sử dụng minh hoạ": "祝日は銀行が休みになる。"
+  },
+  {
+    "từ mới": "縮小",
+    "cách đọc": "しゅくしょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "準備",
+    "cách đọc": "じゅんび (する)",
+    "nghĩa tiếng việt": "chuẩn bị",
+    "ví dụ sử dụng minh hoạ": "旅行の準備を始める。"
+  },
+  {
+    "từ mới": "初日",
+    "cách đọc": "しょにち",
+    "nghĩa tiếng việt": "ngày đầu tiên",
+    "ví dụ sử dụng minh hoạ": "旅行の初日は京都を観光した。"
+  },
+  {
+    "từ mới": "所有",
+    "cách đọc": "しょゆう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "助言",
+    "cách đọc": "じょげん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "商店",
+    "cách đọc": "しょうてん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "消去",
+    "cách đọc": "しょうきょ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "消費",
+    "cách đọc": "しょうひ (する)",
+    "nghĩa tiếng việt": "tiêu thụ; tiêu dùng",
+    "ví dụ sử dụng minh hoạ": "電気の消費を減らしたい。"
+  },
+  {
+    "từ mới": "消滅",
+    "cách đọc": "しょうめつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "証言",
+    "cách đọc": "しょうげん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "証人",
+    "cách đọc": "しょうにん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "照会",
+    "cách đọc": "しょうかい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "情報",
+    "cách đọc": "じょうほう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "条件",
+    "cách đọc": "じょうけん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "状況",
+    "cách đọc": "じょうきょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "状態",
+    "cách đọc": "じょうたい",
+    "nghĩa tiếng việt": "trạng thái; tình trạng",
+    "ví dụ sử dụng minh hoạ": "機械の状態を確認する。"
+  },
+  {
+    "từ mới": "職業",
+    "cách đọc": "しょくぎょう",
+    "nghĩa tiếng việt": "nghề nghiệp",
+    "ví dụ sử dụng minh hoạ": "将来の職業について考える。"
+  }
+]

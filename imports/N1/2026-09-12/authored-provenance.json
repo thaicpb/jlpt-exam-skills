@@ -1,0 +1,5846 @@
+[
+  {
+    "day": 1,
+    "item": 2,
+    "word": "依存",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "何でも親に依存せず、自分で決めるようにしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 3,
+    "word": "意向",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "本人の意向を聞いてから、留学先を決めましょう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 6,
+    "word": "意欲",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "先生に褒められて、勉強への意欲が高まった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 11,
+    "word": "育成",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この会社は若い技術者の育成に力を入れている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 12,
+    "word": "一時",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "大雨のため、電車の運転が一時止まった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 13,
+    "word": "一体",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "こんな夜中に、一体どこへ行くのですか。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 15,
+    "word": "引用",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "レポートで本の文章を引用するときは、出典を書く。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 17,
+    "word": "運行",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "このバスは土日も通常どおり運行している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 18,
+    "word": "運用",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しい予約システムの運用が来月から始まる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 22,
+    "word": "横顔",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "窓の外を見ている妹の横顔を描いた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 24,
+    "word": "家出",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "家出した少年は、翌日無事に家へ帰った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 27,
+    "word": "過労",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "父は過労で倒れ、一週間仕事を休んだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 29,
+    "word": "解雇",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "工場の閉鎖で、多くの従業員が解雇された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 30,
+    "word": "解除",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "パスワードを入力すると、画面のロックが解除される。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 39,
+    "word": "確立",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "失敗を重ねながら、自分なりの勉強法を確立した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 42,
+    "word": "学歴",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この会社は学歴よりも経験や能力を重視する。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 47,
+    "word": "管理",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "旅行中の貴重品は自分で管理してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 48,
+    "word": "簡易",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "公園には災害時に使える簡易トイレが備えてある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 51,
+    "word": "危機",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "店は売り上げが落ち、経営の危機に直面した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 54,
+    "word": "期末",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "期末試験が近いので、毎日図書館で勉強している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 55,
+    "word": "機関",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "詳しい手続きについては、関係機関に問い合わせてください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 57,
+    "word": "規格",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この部品は規格が違うため、今の機械には使えない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 58,
+    "word": "規制",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "祭りの間、駅前の道路では交通規制が行われる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 61,
+    "word": "規約",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "サービスを利用する前に、利用規約を読んでください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 63,
+    "word": "休戦",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "両国は休戦に合意し、戦闘を停止した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 64,
+    "word": "居住",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この調査は市内に居住する人を対象としている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 67,
+    "word": "共存",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "人と野生動物が共存できる環境を守りたい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 72,
+    "word": "教育",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "祖母は長年、小学校で子どもの教育に携わってきた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 73,
+    "word": "業種",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "就職活動では、さまざまな業種の会社を調べた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 75,
+    "word": "禁止",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この建物の中では喫煙が禁止されている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 76,
+    "word": "緊張",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "面接で緊張して、うまく話せなかった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 80,
+    "word": "空白",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "名前を忘れたので、その欄は空白のままにした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 84,
+    "word": "経過",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "手術後の経過は順調で、来週退院できそうだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 85,
+    "word": "経路",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "駅までの経路を地図アプリで確認した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 87,
+    "word": "芸能",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この番組では、各地に伝わる芸能を紹介している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 90,
+    "word": "権力",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "権力を持つ人ほど、自分の行動に責任を持つべきだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 91,
+    "word": "研究",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "大学で、植物が育つ条件について研究している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 93,
+    "word": "原点",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "仕事で迷ったときは、この仕事を始めた原点に戻って考える。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 94,
+    "word": "原文",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "意味が分からない部分を、翻訳と原文で比べてみた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 95,
+    "word": "減速",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "前方に子どもがいたので、車を減速させた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 98,
+    "word": "現像",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "旅行で撮ったフィルムを写真店で現像してもらった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 1,
+    "item": 100,
+    "word": "雇用",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しい工場ができて、地域の雇用が増えた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 1,
+    "word": "顧客",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "顧客からの意見を参考に、商品の包装を改善した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 5,
+    "word": "交付",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "申請してから一週間後に、証明書が交付された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 8,
+    "word": "口述",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "祖父が口述した思い出を、孫がノートに書き留めた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 9,
+    "word": "口論",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "お金の使い方を巡って、兄弟が口論になった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 13,
+    "word": "幸福",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "家族と食卓を囲む時間に、小さな幸福を感じる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 19,
+    "word": "行進",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "選手たちは国旗を持って、会場を行進した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 20,
+    "word": "行政",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "ごみの問題を解決するには、住民と行政の協力が必要だ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 23,
+    "word": "高原",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "夏休みに、涼しい高原でキャンプをした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 24,
+    "word": "合意",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "話し合いの結果、全員が新しい計画に合意した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 25,
+    "word": "合成",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "二枚の写真を合成して、一枚の画像を作った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 26,
+    "word": "告白",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "卒業式の日に、好きな人に気持ちを告白した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 27,
+    "word": "国有",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この森は国有で、国が管理している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 28,
+    "word": "困難",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "雪が深く、これ以上歩くのは困難だ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 29,
+    "word": "混同",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "名前が似ているので、二つの会社を混同してしまった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 30,
+    "word": "再建",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "火事で焼けた店を、家族で協力して再建した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 31,
+    "word": "再現",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "祖母に教わった味を、自分の台所で再現してみた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 34,
+    "word": "在庫",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この靴の黒は、今は在庫がありません。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 35,
+    "word": "財政",
+    "field": "nghĩa tiếng việt",
+    "value": "tài chính; tình hình thu chi (của nhà nước, tổ chức)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 35,
+    "word": "財政",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "市の財政が厳しく、新しい図書館の建設が延期された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 36,
+    "word": "作戦",
+    "field": "nghĩa tiếng việt",
+    "value": "chiến thuật; kế hoạch hành động",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 36,
+    "word": "作戦",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "試合の前に、チーム全員で作戦を立てた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 37,
+    "word": "作用",
+    "field": "nghĩa tiếng việt",
+    "value": "tác dụng; sự tác động",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 37,
+    "word": "作用",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この実験で、光が植物にどのように作用するか調べる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 38,
+    "word": "殺人",
+    "field": "nghĩa tiếng việt",
+    "value": "việc giết người; tội giết người",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 38,
+    "word": "殺人",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "警察は殺人事件の目撃者を探している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 40,
+    "word": "残業",
+    "field": "nghĩa tiếng việt",
+    "value": "làm thêm giờ; tăng ca",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 40,
+    "word": "残業",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今日は残業せずに、定時で帰れそうだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 47,
+    "word": "視線",
+    "field": "nghĩa tiếng việt",
+    "value": "ánh mắt; hướng nhìn",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 47,
+    "word": "視線",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "発表中、会場の視線が私に集まった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 52,
+    "word": "事項",
+    "field": "nghĩa tiếng việt",
+    "value": "hạng mục; điều; nội dung cần đề cập",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 52,
+    "word": "事項",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "申込書に必要事項を記入してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 53,
+    "word": "事前",
+    "field": "nghĩa tiếng việt",
+    "value": "trước; trước khi sự việc diễn ra",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 53,
+    "word": "事前",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "工場を見学するには、事前に予約が必要です。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 54,
+    "word": "事例",
+    "field": "nghĩa tiếng việt",
+    "value": "trường hợp; ví dụ thực tế",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 54,
+    "word": "事例",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "授業で、地域の課題を解決した事例を紹介する。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 57,
+    "word": "次第",
+    "field": "nghĩa tiếng việt",
+    "value": "tùy vào; ngay sau khi; tình hình, diễn biến",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 57,
+    "word": "次第",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "日程が決まり次第、メールでお知らせします。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 58,
+    "word": "治療",
+    "field": "nghĩa tiếng việt",
+    "value": "điều trị; chữa trị",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 58,
+    "word": "治療",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "けがの治療が終わるまで、練習を休むことにした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 59,
+    "word": "自覚",
+    "field": "nghĩa tiếng việt",
+    "value": "tự nhận thức; ý thức về bản thân, trách nhiệm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 59,
+    "word": "自覚",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "チームの代表だという自覚を持って行動したい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 61,
+    "word": "失言",
+    "field": "nghĩa tiếng việt",
+    "value": "lời nói lỡ; sự lỡ lời",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 61,
+    "word": "失言",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "会議での失言を反省し、相手に謝った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 63,
+    "word": "実在",
+    "field": "nghĩa tiếng việt",
+    "value": "tồn tại thực sự; có thật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 63,
+    "word": "実在",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この小説の主人公は、実在した人物をモデルにしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 65,
+    "word": "車庫",
+    "field": "nghĩa tiếng việt",
+    "value": "nhà để xe; gara",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 65,
+    "word": "車庫",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "雨が降る前に、車を車庫に入れた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 66,
+    "word": "車両",
+    "field": "nghĩa tiếng việt",
+    "value": "phương tiện giao thông; toa xe",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 66,
+    "word": "車両",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "ベビーカーを利用する人は、こちらの車両に乗ってください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 68,
+    "word": "取引",
+    "field": "nghĩa tiếng việt",
+    "value": "giao dịch; việc mua bán, làm ăn",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 68,
+    "word": "取引",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しい会社との取引が来月から始まる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 71,
+    "word": "首相",
+    "field": "nghĩa tiếng việt",
+    "value": "thủ tướng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 71,
+    "word": "首相",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "首相は記者会見で、新しい政策について説明した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 72,
+    "word": "受賞",
+    "field": "nghĩa tiếng việt",
+    "value": "nhận giải thưởng; đoạt giải",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 72,
+    "word": "受賞",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "姉の作品が写真コンクールで受賞した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 74,
+    "word": "収益",
+    "field": "nghĩa tiếng việt",
+    "value": "thu nhập từ hoạt động kinh doanh; khoản thu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 74,
+    "word": "収益",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "このイベントの収益は、地域の活動に使われる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 80,
+    "word": "従来",
+    "field": "nghĩa tiếng việt",
+    "value": "từ trước đến nay; trước đây, vốn có",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 80,
+    "word": "従来",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しい機械は、従来のものより電気を使わない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 82,
+    "word": "重点",
+    "field": "nghĩa tiếng việt",
+    "value": "trọng điểm; điểm được chú trọng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 82,
+    "word": "重点",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今月は会話の練習に重点を置いて勉強する。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 84,
+    "word": "縮小",
+    "field": "nghĩa tiếng việt",
+    "value": "thu nhỏ; thu hẹp; giảm quy mô",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 84,
+    "word": "縮小",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "印刷する前に、画像を半分の大きさに縮小した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 87,
+    "word": "所有",
+    "field": "nghĩa tiếng việt",
+    "value": "sở hữu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 87,
+    "word": "所有",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この土地は市が所有している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 88,
+    "word": "助言",
+    "field": "nghĩa tiếng việt",
+    "value": "lời khuyên; khuyên bảo",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 88,
+    "word": "助言",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "先生の助言を受けて、勉強の計画を見直した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 89,
+    "word": "商店",
+    "field": "nghĩa tiếng việt",
+    "value": "cửa hàng; tiệm buôn",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 89,
+    "word": "商店",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "駅前には、昔からある小さな商店が並んでいる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 90,
+    "word": "消去",
+    "field": "nghĩa tiếng việt",
+    "value": "xóa; xóa bỏ (dữ liệu, chữ viết)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 90,
+    "word": "消去",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "必要なデータまで消去しないように注意してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 92,
+    "word": "消滅",
+    "field": "nghĩa tiếng việt",
+    "value": "biến mất; tiêu vong; không còn tồn tại",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 92,
+    "word": "消滅",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "何も対策をしなければ、この伝統は消滅してしまうかもしれない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 93,
+    "word": "証言",
+    "field": "nghĩa tiếng việt",
+    "value": "lời khai; làm chứng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 93,
+    "word": "証言",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "目撃者は、事故のとき信号が赤だったと証言した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 94,
+    "word": "証人",
+    "field": "nghĩa tiếng việt",
+    "value": "nhân chứng; người làm chứng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 94,
+    "word": "証人",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "事故を見た人が、裁判で証人として話した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 95,
+    "word": "照会",
+    "field": "nghĩa tiếng việt",
+    "value": "hỏi để xác minh; tra hỏi, yêu cầu cung cấp thông tin",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 95,
+    "word": "照会",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "申請の進み具合を担当部署に照会した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 96,
+    "word": "情報",
+    "field": "nghĩa tiếng việt",
+    "value": "thông tin",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 96,
+    "word": "情報",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "旅行に行く前に、現地の交通情報を調べた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 97,
+    "word": "条件",
+    "field": "nghĩa tiếng việt",
+    "value": "điều kiện",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 97,
+    "word": "条件",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "家賃が安く、駅に近いことが部屋探しの条件だ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 98,
+    "word": "状況",
+    "field": "nghĩa tiếng việt",
+    "value": "tình hình; tình trạng; hoàn cảnh",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 2,
+    "item": 98,
+    "word": "状況",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "道路の状況によっては、到着が遅れることがあります。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 1,
+    "word": "職種",
+    "field": "nghĩa tiếng việt",
+    "value": "loại công việc; nhóm nghề",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 1,
+    "word": "職種",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "同じ会社でも、職種によって仕事内容は大きく違う。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 2,
+    "word": "職務",
+    "field": "nghĩa tiếng việt",
+    "value": "nhiệm vụ công việc; chức trách",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 2,
+    "word": "職務",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "彼は毎日、責任を持って職務を果たしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 3,
+    "word": "振込",
+    "field": "nghĩa tiếng việt",
+    "value": "việc chuyển khoản",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 3,
+    "word": "振込",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "家賃の振込は、毎月二十五日までにお願いします。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 4,
+    "word": "新規",
+    "field": "nghĩa tiếng việt",
+    "value": "mới; lần đầu; việc bắt đầu mới",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 4,
+    "word": "新規",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この店では、新規の会員を募集している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 5,
+    "word": "真心",
+    "field": "nghĩa tiếng việt",
+    "value": "tấm lòng chân thành; sự tận tâm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 5,
+    "word": "真心",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "真心のこもった手紙をもらい、胸が温かくなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 7,
+    "word": "身内",
+    "field": "nghĩa tiếng việt",
+    "value": "người thân; người trong gia đình",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 7,
+    "word": "身内",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "結婚式には身内だけを招く予定です。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 8,
+    "word": "進化",
+    "field": "nghĩa tiếng việt",
+    "value": "tiến hóa; phát triển lên một bước mới",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 8,
+    "word": "進化",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "携帯電話は、この二十年で大きく進化した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 9,
+    "word": "進展",
+    "field": "nghĩa tiếng việt",
+    "value": "tiến triển; sự phát triển của tình hình",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 9,
+    "word": "進展",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "話し合いに進展があり、解決の道が見えてきた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 11,
+    "word": "進路",
+    "field": "nghĩa tiếng việt",
+    "value": "hướng đi; định hướng học tập, nghề nghiệp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 11,
+    "word": "進路",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "卒業後の進路について、先生に相談した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 12,
+    "word": "人材",
+    "field": "nghĩa tiếng việt",
+    "value": "nhân lực có năng lực; người tài",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 12,
+    "word": "人材",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この会社は、海外で働ける人材を求めている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 13,
+    "word": "人手",
+    "field": "nghĩa tiếng việt",
+    "value": "nhân công; người phụ giúp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 13,
+    "word": "人手",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "週末は店が忙しく、人手が足りない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 14,
+    "word": "人情",
+    "field": "nghĩa tiếng việt",
+    "value": "tình người; tình cảm tự nhiên của con người",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 14,
+    "word": "人情",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "旅先で道を教えてもらい、人情の温かさを感じた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 15,
+    "word": "人目",
+    "field": "nghĩa tiếng việt",
+    "value": "ánh mắt, sự chú ý của người khác",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 15,
+    "word": "人目",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "人目が気になって、大きな声では話せなかった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 16,
+    "word": "世帯",
+    "field": "nghĩa tiếng việt",
+    "value": "hộ gia đình",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 16,
+    "word": "世帯",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この町では、一人暮らしの世帯が増えている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 18,
+    "word": "性質",
+    "field": "nghĩa tiếng việt",
+    "value": "tính chất; đặc tính; tính nết",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 18,
+    "word": "性質",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この布には、水をはじく性質がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 19,
+    "word": "性別",
+    "field": "nghĩa tiếng việt",
+    "value": "giới tính",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 19,
+    "word": "性別",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "性別に関係なく、誰でもこの仕事に応募できる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 20,
+    "word": "政権",
+    "field": "nghĩa tiếng việt",
+    "value": "chính quyền; quyền điều hành nhà nước",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 20,
+    "word": "政権",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "選挙の結果、新しい政権が誕生した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 21,
+    "word": "政策",
+    "field": "nghĩa tiếng việt",
+    "value": "chính sách",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 21,
+    "word": "政策",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "市は子育てを支援する政策を進めている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 22,
+    "word": "正義",
+    "field": "nghĩa tiếng việt",
+    "value": "chính nghĩa; công lý",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 22,
+    "word": "正義",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この物語の主人公は、正義のために戦う。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 23,
+    "word": "正体",
+    "field": "nghĩa tiếng việt",
+    "value": "thân phận thật; bản chất thật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 23,
+    "word": "正体",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "夜中に聞こえた音の正体は、屋根の上の猫だった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 25,
+    "word": "精神",
+    "field": "nghĩa tiếng việt",
+    "value": "tinh thần; tâm trí",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 25,
+    "word": "精神",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "十分に休んだおかげで、精神的にも落ち着いた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 26,
+    "word": "責任",
+    "field": "nghĩa tiếng việt",
+    "value": "trách nhiệm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 26,
+    "word": "責任",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "最後まで責任を持って、この仕事を終わらせます。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 27,
+    "word": "接近",
+    "field": "nghĩa tiếng việt",
+    "value": "tiếp cận; đến gần",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 27,
+    "word": "接近",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "台風が接近しているため、船は欠航になった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 28,
+    "word": "設置",
+    "field": "nghĩa tiếng việt",
+    "value": "lắp đặt; bố trí, đặt tại một vị trí",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 28,
+    "word": "設置",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "駅の入り口に、新しい案内板が設置された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 29,
+    "word": "設立",
+    "field": "nghĩa tiếng việt",
+    "value": "thành lập (công ty, tổ chức)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 29,
+    "word": "設立",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "父は友人と一緒に、小さな会社を設立した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 31,
+    "word": "専用",
+    "field": "nghĩa tiếng việt",
+    "value": "chuyên dụng; dành riêng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 31,
+    "word": "専用",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "ここは自転車専用の道なので、車は入れません。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 32,
+    "word": "前例",
+    "field": "nghĩa tiếng việt",
+    "value": "tiền lệ; trường hợp trước đó",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 32,
+    "word": "前例",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "前例のない問題でも、まず解決方法を考えよう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 34,
+    "word": "総合",
+    "field": "nghĩa tiếng việt",
+    "value": "tổng hợp; kết hợp nhiều yếu tố",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 34,
+    "word": "総合",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "費用と安全性を総合して、旅行の計画を決めた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 35,
+    "word": "即日",
+    "field": "nghĩa tiếng việt",
+    "value": "ngay trong ngày",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 35,
+    "word": "即日",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この店では、写真を即日受け取ることができる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 36,
+    "word": "存在",
+    "field": "nghĩa tiếng việt",
+    "value": "tồn tại; sự có mặt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 36,
+    "word": "存在",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "友人の存在が、つらいときの支えになった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 37,
+    "word": "存続",
+    "field": "nghĩa tiếng việt",
+    "value": "tiếp tục tồn tại; duy trì sự tồn tại",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 37,
+    "word": "存続",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "生徒が減り、学校の存続が難しくなっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 38,
+    "word": "対応",
+    "field": "nghĩa tiếng việt",
+    "value": "ứng phó; xử lý; đáp ứng, hỗ trợ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 38,
+    "word": "対応",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "店員が問い合わせに丁寧に対応してくれた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 39,
+    "word": "対象",
+    "field": "nghĩa tiếng việt",
+    "value": "đối tượng; mục tiêu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 39,
+    "word": "対象",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この講座は、日本語を初めて学ぶ人を対象としている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 40,
+    "word": "待遇",
+    "field": "nghĩa tiếng việt",
+    "value": "chế độ đãi ngộ; cách đối đãi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 40,
+    "word": "待遇",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "給料だけでなく、休暇などの待遇も確認した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 41,
+    "word": "態度",
+    "field": "nghĩa tiếng việt",
+    "value": "thái độ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 41,
+    "word": "態度",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "相手の話を聞く態度が大切だと思う。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 42,
+    "word": "台所",
+    "field": "nghĩa tiếng việt",
+    "value": "nhà bếp; gian bếp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 42,
+    "word": "台所",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "母が台所で夕食の準備をしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 43,
+    "word": "大衆",
+    "field": "nghĩa tiếng việt",
+    "value": "đại chúng; đông đảo người dân",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 43,
+    "word": "大衆",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この作家の小説は、大衆に広く親しまれている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 44,
+    "word": "単一",
+    "field": "nghĩa tiếng việt",
+    "value": "đơn nhất; chỉ có một loại",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 44,
+    "word": "単一",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この工場では、単一の製品だけを作っている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 45,
+    "word": "担任",
+    "field": "nghĩa tiếng việt",
+    "value": "phụ trách một lớp, môn học; giáo viên chủ nhiệm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 45,
+    "word": "担任",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しいクラスの担任は、数学の先生です。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 47,
+    "word": "団結",
+    "field": "nghĩa tiếng việt",
+    "value": "đoàn kết",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 47,
+    "word": "団結",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "チーム全員が団結して、難しい試合に勝った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 48,
+    "word": "著書",
+    "field": "nghĩa tiếng việt",
+    "value": "sách do một người viết; tác phẩm sách",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 48,
+    "word": "著書",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "講演を聞いてから、その先生の著書を読んでみた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 49,
+    "word": "貯蓄",
+    "field": "nghĩa tiếng việt",
+    "value": "tiết kiệm; tiền tích lũy",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 49,
+    "word": "貯蓄",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "将来のために、毎月少しずつ貯蓄している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 50,
+    "word": "挑戦",
+    "field": "nghĩa tiếng việt",
+    "value": "thử sức; chinh phục thử thách",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 50,
+    "word": "挑戦",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今年は初めて、マラソンに挑戦するつもりだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 51,
+    "word": "調和",
+    "field": "nghĩa tiếng việt",
+    "value": "hài hòa; hòa hợp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 51,
+    "word": "調和",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この建物の色は、周りの自然とよく調和している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 52,
+    "word": "長所",
+    "field": "nghĩa tiếng việt",
+    "value": "ưu điểm; điểm mạnh",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 52,
+    "word": "長所",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "面接で、自分の長所を具体的に説明した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 54,
+    "word": "直感",
+    "field": "nghĩa tiếng việt",
+    "value": "trực giác",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 54,
+    "word": "直感",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "初めて会ったとき、直感で気が合いそうだと思った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 55,
+    "word": "直接",
+    "field": "nghĩa tiếng việt",
+    "value": "trực tiếp; thẳng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 55,
+    "word": "直接",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "メールでは伝わりにくいので、直接会って話しましょう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 56,
+    "word": "賃金",
+    "field": "nghĩa tiếng việt",
+    "value": "tiền công; tiền lương",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 56,
+    "word": "賃金",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "働いた時間に応じて、賃金が支払われる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 57,
+    "word": "賃貸",
+    "field": "nghĩa tiếng việt",
+    "value": "cho thuê; việc cho thuê",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 57,
+    "word": "賃貸",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "駅の近くで、賃貸のマンションを探している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 58,
+    "word": "追跡",
+    "field": "nghĩa tiếng việt",
+    "value": "theo dấu; truy đuổi; theo dõi lộ trình",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 58,
+    "word": "追跡",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "番号を入力すれば、荷物の配送状況を追跡できる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 59,
+    "word": "提案",
+    "field": "nghĩa tiếng việt",
+    "value": "đề xuất; kiến nghị",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 59,
+    "word": "提案",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "会議で、予約をオンラインで受け付ける方法を提案した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 60,
+    "word": "提供",
+    "field": "nghĩa tiếng việt",
+    "value": "cung cấp; phục vụ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 60,
+    "word": "提供",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この食堂では、安くて温かい食事を提供している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 61,
+    "word": "提示",
+    "field": "nghĩa tiếng việt",
+    "value": "trình ra; đưa ra cho xem",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 61,
+    "word": "提示",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "受付で会員証を提示してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 62,
+    "word": "提出",
+    "field": "nghĩa tiếng việt",
+    "value": "nộp; đệ trình",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 62,
+    "word": "提出",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "レポートは金曜日までに提出してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 63,
+    "word": "典型",
+    "field": "nghĩa tiếng việt",
+    "value": "điển hình; mẫu tiêu biểu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 63,
+    "word": "典型",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この失敗は、準備不足が原因となる典型だ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 64,
+    "word": "展開",
+    "field": "nghĩa tiếng việt",
+    "value": "triển khai; diễn biến; mở rộng hoạt động",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 64,
+    "word": "展開",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "物語の意外な展開に、最後まで目が離せなかった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 65,
+    "word": "展示",
+    "field": "nghĩa tiếng việt",
+    "value": "trưng bày; triển lãm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 65,
+    "word": "展示",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "美術館には、子どもたちが描いた絵も展示されている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 66,
+    "word": "展望",
+    "field": "nghĩa tiếng việt",
+    "value": "triển vọng; tầm nhìn; nhìn bao quát",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 66,
+    "word": "展望",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "説明会で、会社の将来の展望について聞いた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 67,
+    "word": "店舗",
+    "field": "nghĩa tiếng việt",
+    "value": "cửa hàng; cơ sở kinh doanh",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 67,
+    "word": "店舗",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "このパン屋は、市内に三つの店舗がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 68,
+    "word": "転送",
+    "field": "nghĩa tiếng việt",
+    "value": "chuyển tiếp (thư, dữ liệu)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 68,
+    "word": "転送",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "担当者が変わったので、メールを新しい担当者に転送した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 70,
+    "word": "伝説",
+    "field": "nghĩa tiếng việt",
+    "value": "truyền thuyết",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 70,
+    "word": "伝説",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この湖には、竜が住んでいたという伝説がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 71,
+    "word": "伝達",
+    "field": "nghĩa tiếng việt",
+    "value": "truyền đạt; chuyển thông tin",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 71,
+    "word": "伝達",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "情報の伝達が遅れ、集合時間を知らない人がいた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 72,
+    "word": "途上",
+    "field": "nghĩa tiếng việt",
+    "value": "trên đường; trong quá trình tiến tới",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 72,
+    "word": "途上",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この技術はまだ発展の途上にある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 73,
+    "word": "投資",
+    "field": "nghĩa tiếng việt",
+    "value": "đầu tư",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 73,
+    "word": "投資",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "会社は新しい設備に投資し、生産量を増やした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 74,
+    "word": "統合",
+    "field": "nghĩa tiếng việt",
+    "value": "hợp nhất; tích hợp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 74,
+    "word": "統合",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "二つの窓口を統合して、手続きを一か所でできるようにした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 75,
+    "word": "統治",
+    "field": "nghĩa tiếng việt",
+    "value": "cai trị; quản lý một quốc gia, vùng đất",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 75,
+    "word": "統治",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "歴史の授業で、王が国を統治していた時代を学んだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 76,
+    "word": "到達",
+    "field": "nghĩa tiếng việt",
+    "value": "đến được; đạt tới",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 76,
+    "word": "到達",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "長い練習の末、目標のレベルに到達した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 77,
+    "word": "同居",
+    "field": "nghĩa tiếng việt",
+    "value": "sống chung; ở cùng nhà",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 77,
+    "word": "同居",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "大学に通っている間は、祖父母と同居していた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 78,
+    "word": "同士",
+    "field": "nghĩa tiếng việt",
+    "value": "những người cùng nhóm, hoàn cảnh; lẫn nhau giữa những người đó",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 78,
+    "word": "同士",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "同じ趣味を持つ者同士で、月に一度集まっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 79,
+    "word": "同情",
+    "field": "nghĩa tiếng việt",
+    "value": "đồng cảm; cảm thông; thương cảm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 79,
+    "word": "同情",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "友人のつらい経験を聞いて、深く同情した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 80,
+    "word": "同様",
+    "field": "nghĩa tiếng việt",
+    "value": "giống nhau; tương tự; như nhau",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 80,
+    "word": "同様",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今年も昨年と同様に、駅前で祭りが開かれる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 81,
+    "word": "導入",
+    "field": "nghĩa tiếng việt",
+    "value": "đưa vào sử dụng; áp dụng; du nhập",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 81,
+    "word": "導入",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "図書館に自動貸出機が導入され、待ち時間が短くなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 82,
+    "word": "特定",
+    "field": "nghĩa tiếng việt",
+    "value": "xác định cụ thể; chỉ định; nhất định",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 82,
+    "word": "特定",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "調査の結果、故障の原因を特定できた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 83,
+    "word": "特別",
+    "field": "nghĩa tiếng việt",
+    "value": "đặc biệt; riêng biệt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 83,
+    "word": "特別",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "誕生日には、いつもより特別な料理を作りたい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 84,
+    "word": "内心",
+    "field": "nghĩa tiếng việt",
+    "value": "trong lòng; nội tâm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 84,
+    "word": "内心",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "平気な顔をしていたが、内心はとても不安だった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 87,
+    "word": "入手",
+    "field": "nghĩa tiếng việt",
+    "value": "có được; lấy được; mua được",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 87,
+    "word": "入手",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "人気のチケットを、ようやく入手できた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 88,
+    "word": "妊娠",
+    "field": "nghĩa tiếng việt",
+    "value": "mang thai; có thai",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 88,
+    "word": "妊娠",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "姉が妊娠したと聞いて、家族みんなで喜んだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 89,
+    "word": "認識",
+    "field": "nghĩa tiếng việt",
+    "value": "nhận thức; nhận biết",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 89,
+    "word": "認識",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今回の経験で、準備の大切さを改めて認識した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 90,
+    "word": "年配",
+    "field": "nghĩa tiếng việt",
+    "value": "lớn tuổi; người tương đối cao tuổi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 90,
+    "word": "年配",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "電車で、年配の方に席を譲った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 92,
+    "word": "農民",
+    "field": "nghĩa tiếng việt",
+    "value": "nông dân",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 92,
+    "word": "農民",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この地域の農民は、主に米と野菜を作っている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 93,
+    "word": "破壊",
+    "field": "nghĩa tiếng việt",
+    "value": "phá hủy; tàn phá",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 93,
+    "word": "破壊",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "洪水で橋が破壊され、村へ行く道が使えなくなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 94,
+    "word": "敗戦",
+    "field": "nghĩa tiếng việt",
+    "value": "thua trận; thất bại trong chiến tranh, thi đấu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 94,
+    "word": "敗戦",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "選手たちは敗戦の原因を話し合い、次の試合に備えた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 95,
+    "word": "背景",
+    "field": "nghĩa tiếng việt",
+    "value": "bối cảnh; hậu cảnh; nguyên nhân phía sau",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 95,
+    "word": "背景",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この物語の背景には、戦後の社会の変化がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 96,
+    "word": "配給",
+    "field": "nghĩa tiếng việt",
+    "value": "phân phát, cấp phát theo chế độ; phân phối phim",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 96,
+    "word": "配給",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "災害の後、避難所で水と食料が配給された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 97,
+    "word": "配信",
+    "field": "nghĩa tiếng việt",
+    "value": "phát, phân phối nội dung qua mạng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 97,
+    "word": "配信",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この講座はオンラインでも配信されるので、自宅から参加できる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 98,
+    "word": "爆撃",
+    "field": "nghĩa tiếng việt",
+    "value": "ném bom; oanh tạc",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 98,
+    "word": "爆撃",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "博物館で、爆撃を受けた町の写真を見た。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 99,
+    "word": "爆弾",
+    "field": "nghĩa tiếng việt",
+    "value": "bom",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 99,
+    "word": "爆弾",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "工事現場で古い爆弾が見つかり、周辺の住民が避難した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 100,
+    "word": "発熱",
+    "field": "nghĩa tiếng việt",
+    "value": "phát sốt; sự sinh nhiệt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 3,
+    "item": 100,
+    "word": "発熱",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "昨夜から発熱しているため、今日は学校を休みます。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 1,
+    "word": "発砲",
+    "field": "nghĩa tiếng việt",
+    "value": "nổ súng; bắn súng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 1,
+    "word": "発砲",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "発砲する音が聞こえ、人々は建物の中に避難した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 2,
+    "word": "判決",
+    "field": "nghĩa tiếng việt",
+    "value": "phán quyết; bản án của tòa",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 2,
+    "word": "判決",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "裁判所は来週、この事件の判決を言い渡す予定だ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 3,
+    "word": "判断",
+    "field": "nghĩa tiếng việt",
+    "value": "phán đoán; nhận định; quyết định dựa trên đánh giá",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 3,
+    "word": "判断",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "見た目だけで人を判断してはいけない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 4,
+    "word": "判定",
+    "field": "nghĩa tiếng việt",
+    "value": "phán định; kết luận, xác định theo tiêu chí",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 4,
+    "word": "判定",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "審判は映像を確認して、得点かどうかを判定した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 5,
+    "word": "反応",
+    "field": "nghĩa tiếng việt",
+    "value": "phản ứng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 5,
+    "word": "反応",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "名前を呼ぶと、赤ちゃんは笑顔で反応した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 6,
+    "word": "反感",
+    "field": "nghĩa tiếng việt",
+    "value": "ác cảm; sự bất bình, phản đối",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 6,
+    "word": "反感",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "一方的な説明は、かえって住民の反感を買った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 7,
+    "word": "反響",
+    "field": "nghĩa tiếng việt",
+    "value": "tiếng vang; sự hưởng ứng, phản hồi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 7,
+    "word": "反響",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新聞に載った記事は、大きな反響を呼んだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 8,
+    "word": "反撃",
+    "field": "nghĩa tiếng việt",
+    "value": "phản công; đánh trả",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 8,
+    "word": "反撃",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "後半に入ると、負けていたチームが反撃を始めた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 9,
+    "word": "反省",
+    "field": "nghĩa tiếng việt",
+    "value": "tự kiểm điểm; suy ngẫm về lỗi lầm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 9,
+    "word": "反省",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "約束を忘れたことを反省し、次からはメモを取ることにした。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 10,
+    "word": "犯罪",
+    "field": "nghĩa tiếng việt",
+    "value": "tội phạm; hành vi phạm tội",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 10,
+    "word": "犯罪",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "地域の人たちが協力して、犯罪のない町を目指している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 12,
+    "word": "批判",
+    "field": "nghĩa tiếng việt",
+    "value": "phê bình; chỉ trích",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 12,
+    "word": "批判",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "他人を批判する前に、自分の行動も振り返ろう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 14,
+    "word": "比率",
+    "field": "nghĩa tiếng việt",
+    "value": "tỉ lệ; tỉ số",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 14,
+    "word": "比率",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "このクラスでは、留学生の比率が去年より高くなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 15,
+    "word": "皮肉",
+    "field": "nghĩa tiếng việt",
+    "value": "mỉa mai; lời châm biếm; trớ trêu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 15,
+    "word": "皮肉",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "遅刻した私に、彼は「ずいぶん早いね」と皮肉を言った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 17,
+    "word": "被害",
+    "field": "nghĩa tiếng việt",
+    "value": "thiệt hại; tổn thất",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 17,
+    "word": "被害",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "台風による農作物の被害が広がっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 18,
+    "word": "筆者",
+    "field": "nghĩa tiếng việt",
+    "value": "tác giả; người viết bài",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 18,
+    "word": "筆者",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この文章の筆者は、読書の大切さを伝えようとしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 19,
+    "word": "表情",
+    "field": "nghĩa tiếng việt",
+    "value": "biểu cảm; nét mặt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 19,
+    "word": "表情",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "試験に合格したと聞いて、妹の表情が明るくなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 20,
+    "word": "評価",
+    "field": "nghĩa tiếng việt",
+    "value": "đánh giá; nhận xét về giá trị, năng lực",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 20,
+    "word": "評価",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "結果だけでなく、努力した過程も評価してほしい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 21,
+    "word": "品種",
+    "field": "nghĩa tiếng việt",
+    "value": "giống; loại (cây trồng, vật nuôi, sản phẩm)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 21,
+    "word": "品種",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この品種のりんごは、甘みが強くて人気がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 22,
+    "word": "貧困",
+    "field": "nghĩa tiếng việt",
+    "value": "nghèo đói; sự túng thiếu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 22,
+    "word": "貧困",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "子どもの貧困を減らすために、食事を支援する活動がある。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 23,
+    "word": "貧富",
+    "field": "nghĩa tiếng việt",
+    "value": "giàu nghèo",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 23,
+    "word": "貧富",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この国では、貧富の差を小さくすることが課題となっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 24,
+    "word": "不順",
+    "field": "nghĩa tiếng việt",
+    "value": "thất thường; không thuận lợi, không theo quy luật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 24,
+    "word": "不順",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "天候不順が続き、野菜の収穫が遅れている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 25,
+    "word": "不調",
+    "field": "nghĩa tiếng việt",
+    "value": "không khỏe; hoạt động không tốt; không suôn sẻ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 25,
+    "word": "不調",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "プリンターが不調で、紙が何度も詰まってしまう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 26,
+    "word": "普及",
+    "field": "nghĩa tiếng việt",
+    "value": "phổ biến; lan rộng; phổ cập",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 26,
+    "word": "普及",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "スマートフォンの普及によって、写真の撮り方も変わった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 27,
+    "word": "浮気",
+    "field": "nghĩa tiếng việt",
+    "value": "ngoại tình; không chung thủy; thay đổi sự ưa thích",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 27,
+    "word": "浮気",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "彼はもう浮気をしないと、妻に約束した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 28,
+    "word": "負債",
+    "field": "nghĩa tiếng việt",
+    "value": "khoản nợ; nợ phải trả",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 28,
+    "word": "負債",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "店の経営が悪化し、多額の負債を抱えてしまった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 29,
+    "word": "負担",
+    "field": "nghĩa tiếng việt",
+    "value": "gánh nặng; sự chịu trách nhiệm, chi phí",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 29,
+    "word": "負担",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "参加費は、学生の負担にならない金額に設定した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 30,
+    "word": "舞台",
+    "field": "nghĩa tiếng việt",
+    "value": "sân khấu; nơi diễn ra, bối cảnh",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 30,
+    "word": "舞台",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この小説は、小さな港町を舞台にしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 31,
+    "word": "部門",
+    "field": "nghĩa tiếng việt",
+    "value": "bộ phận; lĩnh vực; hạng mục",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 31,
+    "word": "部門",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "姉は食品会社の開発部門で働いている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 32,
+    "word": "復習",
+    "field": "nghĩa tiếng việt",
+    "value": "ôn tập; học lại",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 32,
+    "word": "復習",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "授業が終わったら、その日のうちに復習するようにしている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 34,
+    "word": "複合",
+    "field": "nghĩa tiếng việt",
+    "value": "kết hợp nhiều yếu tố; phức hợp",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 34,
+    "word": "複合",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "駅前に、図書館とホールを備えた複合施設ができた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 36,
+    "word": "物資",
+    "field": "nghĩa tiếng việt",
+    "value": "vật tư; hàng hóa, nhu yếu phẩm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 36,
+    "word": "物資",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "被災地に水や毛布などの支援物資を送った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 37,
+    "word": "物事",
+    "field": "nghĩa tiếng việt",
+    "value": "sự vật, sự việc; mọi việc",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 37,
+    "word": "物事",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "物事を一つの面だけでなく、いろいろな角度から考えたい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 38,
+    "word": "物体",
+    "field": "nghĩa tiếng việt",
+    "value": "vật thể",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 38,
+    "word": "物体",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "水に浮く物体と沈む物体の違いを、実験で調べた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 39,
+    "word": "分解",
+    "field": "nghĩa tiếng việt",
+    "value": "tháo rời; phân giải; phân hủy",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 39,
+    "word": "分解",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "修理のために時計を分解し、中の部品を調べた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 40,
+    "word": "分業",
+    "field": "nghĩa tiếng việt",
+    "value": "phân công lao động; chia nhau công việc",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 40,
+    "word": "分業",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "料理と片付けを分業したので、早く作業が終わった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 41,
+    "word": "分析",
+    "field": "nghĩa tiếng việt",
+    "value": "phân tích",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 41,
+    "word": "分析",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "アンケートの結果を分析して、利用者の希望を調べる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 42,
+    "word": "分別",
+    "field": "nghĩa tiếng việt",
+    "value": "phân loại; tách riêng (rác, đồ vật)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 42,
+    "word": "分別",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "ごみは種類ごとに分別して出してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 43,
+    "word": "変換",
+    "field": "nghĩa tiếng việt",
+    "value": "chuyển đổi (dạng thức, mã, đơn vị)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 43,
+    "word": "変換",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "入力したひらがなを漢字に変換する。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 44,
+    "word": "変形",
+    "field": "nghĩa tiếng việt",
+    "value": "biến dạng; thay đổi hình dạng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 44,
+    "word": "変形",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "熱で容器が変形して、ふたが閉まらなくなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 45,
+    "word": "保育",
+    "field": "nghĩa tiếng việt",
+    "value": "chăm sóc, nuôi dạy trẻ nhỏ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 45,
+    "word": "保育",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この施設では、夜間の保育も行っている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 46,
+    "word": "保温",
+    "field": "nghĩa tiếng việt",
+    "value": "giữ ấm; giữ nhiệt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 46,
+    "word": "保温",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この水筒は保温ができるので、冬でも温かいお茶が飲める。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 47,
+    "word": "保管",
+    "field": "nghĩa tiếng việt",
+    "value": "bảo quản; cất giữ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 47,
+    "word": "保管",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "大切な書類は、鍵のかかる引き出しに保管している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 48,
+    "word": "保険",
+    "field": "nghĩa tiếng việt",
+    "value": "bảo hiểm",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 48,
+    "word": "保険",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "海外旅行に行く前に、旅行保険に入った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 49,
+    "word": "補給",
+    "field": "nghĩa tiếng việt",
+    "value": "tiếp tế; bổ sung (nước, nhiên liệu, năng lượng)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 49,
+    "word": "補給",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "山を歩くときは、こまめに水分を補給してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 50,
+    "word": "補充",
+    "field": "nghĩa tiếng việt",
+    "value": "bổ sung cho đủ; bù vào chỗ thiếu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 50,
+    "word": "補充",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "店員が棚に足りない商品を補充している。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 52,
+    "word": "報道",
+    "field": "nghĩa tiếng việt",
+    "value": "đưa tin; tường thuật trên truyền thông",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 52,
+    "word": "報道",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しい駅の開業が、テレビで大きく報道された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 53,
+    "word": "崩壊",
+    "field": "nghĩa tiếng việt",
+    "value": "sụp đổ; tan rã",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 53,
+    "word": "崩壊",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "大雨で斜面が崩壊し、道路が通れなくなった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 54,
+    "word": "方針",
+    "field": "nghĩa tiếng việt",
+    "value": "phương châm; phương hướng, chủ trương",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 54,
+    "word": "方針",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今年の方針を、チーム全員で話し合った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 55,
+    "word": "法律",
+    "field": "nghĩa tiếng việt",
+    "value": "pháp luật; luật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 55,
+    "word": "法律",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "国によって法律が違うので、旅行前に確認しておこう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 56,
+    "word": "暴力",
+    "field": "nghĩa tiếng việt",
+    "value": "bạo lực",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 56,
+    "word": "暴力",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "どんな理由があっても、暴力で問題を解決してはいけない。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 57,
+    "word": "防止",
+    "field": "nghĩa tiếng việt",
+    "value": "ngăn ngừa; phòng chống",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 57,
+    "word": "防止",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "事故の防止のため、暗い道には街灯が設置された。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 58,
+    "word": "本音",
+    "field": "nghĩa tiếng việt",
+    "value": "ý nghĩ, mong muốn thật; lời thật lòng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 58,
+    "word": "本音",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "友人には、遠慮せずに本音を話せる。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 59,
+    "word": "本気",
+    "field": "nghĩa tiếng việt",
+    "value": "nghiêm túc; thật lòng; làm thật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 59,
+    "word": "本気",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "本気で合格したいなら、毎日の勉強を続けよう。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 60,
+    "word": "本場",
+    "field": "nghĩa tiếng việt",
+    "value": "nơi xuất xứ; nơi nổi tiếng, chuẩn gốc của một sản phẩm hay nghệ thuật",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 60,
+    "word": "本場",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "旅行先で、本場の料理を味わった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 61,
+    "word": "本心",
+    "field": "nghĩa tiếng việt",
+    "value": "lòng thật; ý nghĩ thật sự trong lòng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 61,
+    "word": "本心",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "笑っていたが、彼の本心は分からなかった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 62,
+    "word": "本能",
+    "field": "nghĩa tiếng việt",
+    "value": "bản năng",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 62,
+    "word": "本能",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "鳥は本能で巣を作ると言われている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 63,
+    "word": "埋蔵",
+    "field": "nghĩa tiếng việt",
+    "value": "chôn giấu; nằm trong lòng đất (tài nguyên, vật quý)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 63,
+    "word": "埋蔵",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この地域には、大量の天然ガスが埋蔵されている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 64,
+    "word": "万人",
+    "field": "nghĩa tiếng việt",
+    "value": "mọi người; tất cả mọi người",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 64,
+    "word": "万人",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "万人に好かれる作品を作るのは難しい。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 65,
+    "word": "魅力",
+    "field": "nghĩa tiếng việt",
+    "value": "sức hấp dẫn; nét cuốn hút",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 65,
+    "word": "魅力",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この町の魅力は、自然が豊かで人が親切なことだ。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 66,
+    "word": "無言",
+    "field": "nghĩa tiếng việt",
+    "value": "im lặng; không nói lời nào",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 66,
+    "word": "無言",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "二人は無言のまま、駅まで歩いた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 67,
+    "word": "無効",
+    "field": "nghĩa tiếng việt",
+    "value": "vô hiệu; không có hiệu lực",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 67,
+    "word": "無効",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "期限を過ぎたチケットは無効になります。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 68,
+    "word": "無断",
+    "field": "nghĩa tiếng việt",
+    "value": "không xin phép; tự ý",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 68,
+    "word": "無断",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この写真を無断で使用しないでください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 69,
+    "word": "面倒",
+    "field": "nghĩa tiếng việt",
+    "value": "phiền phức; rắc rối; sự chăm sóc",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 69,
+    "word": "面倒",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "弟の面倒を見てから、自分の宿題を始めた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 70,
+    "word": "模様",
+    "field": "nghĩa tiếng việt",
+    "value": "hoa văn; tình hình, diễn biến; có vẻ như",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 70,
+    "word": "模様",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この皿には、青い花の模様が描かれている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 71,
+    "word": "目下",
+    "field": "nghĩa tiếng việt",
+    "value": "hiện nay; ngay lúc này (cách đọc もっか)",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 71,
+    "word": "目下",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "新しいシステムは目下、開発中です。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 72,
+    "word": "目撃",
+    "field": "nghĩa tiếng việt",
+    "value": "tận mắt chứng kiến",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 72,
+    "word": "目撃",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "交差点で事故を目撃し、すぐに警察へ連絡した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 73,
+    "word": "目線",
+    "field": "nghĩa tiếng việt",
+    "value": "tầm mắt; hướng nhìn; góc nhìn",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 73,
+    "word": "目線",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "子どもの目線に立って、教室の安全を確認した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 74,
+    "word": "目的",
+    "field": "nghĩa tiếng việt",
+    "value": "mục đích",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 74,
+    "word": "目的",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "日本へ来た目的は、日本語と料理を学ぶことです。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 75,
+    "word": "優位",
+    "field": "nghĩa tiếng việt",
+    "value": "ưu thế; vị thế vượt trội",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 75,
+    "word": "優位",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "経験の豊富なチームが、試合を優位に進めている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 76,
+    "word": "優先",
+    "field": "nghĩa tiếng việt",
+    "value": "ưu tiên",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 76,
+    "word": "優先",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "混雑時は、予約した人が優先されます。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 77,
+    "word": "有効",
+    "field": "nghĩa tiếng việt",
+    "value": "có hiệu lực; hữu hiệu",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 77,
+    "word": "有効",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この割引券は、今月末まで有効です。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 78,
+    "word": "有力",
+    "field": "nghĩa tiếng việt",
+    "value": "có thế lực, ảnh hưởng; có triển vọng, khả năng cao",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 78,
+    "word": "有力",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "優勝の有力な候補として、彼の名前が挙がっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 79,
+    "word": "予感",
+    "field": "nghĩa tiếng việt",
+    "value": "linh cảm; cảm giác báo trước",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 79,
+    "word": "予感",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "今日は何かいいことがありそうな予感がする。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 80,
+    "word": "予期",
+    "field": "nghĩa tiếng việt",
+    "value": "dự liệu; dự tính trước; mong đợi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 80,
+    "word": "予期",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "予期しない質問をされて、少し戸惑った。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 81,
+    "word": "予言",
+    "field": "nghĩa tiếng việt",
+    "value": "tiên đoán; lời tiên tri",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 81,
+    "word": "予言",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "物語の中で、老人は村の未来を予言した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 82,
+    "word": "予告",
+    "field": "nghĩa tiếng việt",
+    "value": "báo trước; thông báo trước",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 82,
+    "word": "予告",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "映画館で来月公開される映画の予告を見た。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 84,
+    "word": "予防",
+    "field": "nghĩa tiếng việt",
+    "value": "phòng ngừa; phòng tránh",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 84,
+    "word": "予防",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "風邪の予防のため、帰宅したら手を洗っている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 85,
+    "word": "余裕",
+    "field": "nghĩa tiếng việt",
+    "value": "sự dư dả; thời gian, tiền bạc còn đủ; sự thong thả",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 85,
+    "word": "余裕",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "電車に乗り遅れないように、余裕を持って家を出た。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 86,
+    "word": "様子",
+    "field": "nghĩa tiếng việt",
+    "value": "tình hình; dáng vẻ; biểu hiện",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 86,
+    "word": "様子",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "いつもと様子が違うので、友人に声をかけた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 87,
+    "word": "用意",
+    "field": "nghĩa tiếng việt",
+    "value": "chuẩn bị; sắp sẵn",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 87,
+    "word": "用意",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "明日の朝慌てないように、今夜のうちに荷物を用意する。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 88,
+    "word": "用件",
+    "field": "nghĩa tiếng việt",
+    "value": "việc cần trao đổi, giải quyết; nội dung liên hệ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 88,
+    "word": "用件",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "お電話の方は、お名前とご用件をお伝えください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 89,
+    "word": "要求",
+    "field": "nghĩa tiếng việt",
+    "value": "yêu cầu; đòi hỏi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 89,
+    "word": "要求",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "利用者は、サービスの改善を会社に要求した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 90,
+    "word": "要請",
+    "field": "nghĩa tiếng việt",
+    "value": "đề nghị; yêu cầu sự giúp đỡ, hợp tác một cách chính thức",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 90,
+    "word": "要請",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "市は隣の町に、災害復旧の支援を要請した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 91,
+    "word": "要約",
+    "field": "nghĩa tiếng việt",
+    "value": "tóm tắt; bản tóm tắt",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 91,
+    "word": "要約",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "長い文章を、三つの文に要約してください。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 92,
+    "word": "養成",
+    "field": "nghĩa tiếng việt",
+    "value": "đào tạo; bồi dưỡng, rèn luyện năng lực",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 92,
+    "word": "養成",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "この学校は、日本語教師の養成に力を入れている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 94,
+    "word": "利益",
+    "field": "nghĩa tiếng việt",
+    "value": "lợi nhuận; lợi ích",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 94,
+    "word": "利益",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "材料費が上がり、売り上げが増えても利益は少なかった。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 95,
+    "word": "利子",
+    "field": "nghĩa tiếng việt",
+    "value": "tiền lãi; lãi vay, lãi tiền gửi",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 95,
+    "word": "利子",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "借りたお金は、利子を付けて返すことになっている。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 96,
+    "word": "理性",
+    "field": "nghĩa tiếng việt",
+    "value": "lý trí",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 96,
+    "word": "理性",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "腹が立ったが、理性を失わずに落ち着いて話した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 97,
+    "word": "理由",
+    "field": "nghĩa tiếng việt",
+    "value": "lý do; nguyên do",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 97,
+    "word": "理由",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "遅刻した理由を、先生に説明した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 98,
+    "word": "理論",
+    "field": "nghĩa tiếng việt",
+    "value": "lý thuyết; lý luận",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 98,
+    "word": "理論",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "授業で学んだ理論を、実験で確かめてみた。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 99,
+    "word": "流出",
+    "field": "nghĩa tiếng việt",
+    "value": "chảy ra ngoài; thất thoát; rò rỉ",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 99,
+    "word": "流出",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "個人情報の流出を防ぐため、管理方法を見直した。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 100,
+    "word": "了解",
+    "field": "nghĩa tiếng việt",
+    "value": "hiểu và đồng ý; chấp thuận",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  },
+  {
+    "day": 4,
+    "item": 100,
+    "word": "了解",
+    "field": "ví dụ sử dụng minh hoạ",
+    "value": "日程を変更する前に、参加者の了解を得た。",
+    "source": "assistant_authored_at_user_request",
+    "reference_style": [
+      "resources/N2/goi/dai6.csv",
+      "resources/N2/goi/dai10.csv"
+    ]
+  }
+]

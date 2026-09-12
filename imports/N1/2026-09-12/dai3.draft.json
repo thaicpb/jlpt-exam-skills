@@ -1,0 +1,602 @@
+[
+  {
+    "từ mới": "職種",
+    "cách đọc": "しょくしゅ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "職務",
+    "cách đọc": "しょくむ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "振込",
+    "cách đọc": "ふりこみ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "新規",
+    "cách đọc": "しんき",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "真心",
+    "cách đọc": "まごころ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "神経",
+    "cách đọc": "しんけい",
+    "nghĩa tiếng việt": "thần kinh",
+    "ví dụ sử dụng minh hoạ": "緊張で神経が疲れた。"
+  },
+  {
+    "từ mới": "身内",
+    "cách đọc": "みうち",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "進化",
+    "cách đọc": "しんか (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "進展",
+    "cách đọc": "しんてん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "進歩",
+    "cách đọc": "しんぽ (する)",
+    "nghĩa tiếng việt": "tiến bộ",
+    "ví dụ sử dụng minh hoạ": "医療技術が大きく進歩した。"
+  },
+  {
+    "từ mới": "進路",
+    "cách đọc": "しんろ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "人材",
+    "cách đọc": "じんざい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "人手",
+    "cách đọc": "ひとで",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "人情",
+    "cách đọc": "にんじょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "人目",
+    "cách đọc": "ひとめ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "世帯",
+    "cách đọc": "せたい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "制服",
+    "cách đọc": "せいふく",
+    "nghĩa tiếng việt": "đồng phục",
+    "ví dụ sử dụng minh hoạ": "学校では制服を着る。"
+  },
+  {
+    "từ mới": "性質",
+    "cách đọc": "せいしつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "性別",
+    "cách đọc": "せいべつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "政権",
+    "cách đọc": "せいけん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "政策",
+    "cách đọc": "せいさく",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "正義",
+    "cách đọc": "せいぎ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "正体",
+    "cách đọc": "しょうたい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "清掃",
+    "cách đọc": "せいそう (する)",
+    "nghĩa tiếng việt": "quét dọn; vệ sinh",
+    "ví dụ sử dụng minh hoạ": "毎朝、教室を清掃する。"
+  },
+  {
+    "từ mới": "精神",
+    "cách đọc": "せいしん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "責任",
+    "cách đọc": "せきにん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "接近",
+    "cách đọc": "せっきん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "設置",
+    "cách đọc": "せっち (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "設立",
+    "cách đọc": "せつりつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "先日",
+    "cách đọc": "せんじつ",
+    "nghĩa tiếng việt": "hôm trước",
+    "ví dụ sử dụng minh hoạ": "先日はありがとうございました。"
+  },
+  {
+    "từ mới": "専用",
+    "cách đọc": "せんよう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "前例",
+    "cách đọc": "ぜんれい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "想像",
+    "cách đọc": "そうぞう",
+    "nghĩa tiếng việt": "tưởng tượng",
+    "ví dụ sử dụng minh hoạ": "未来の生活を想像する。"
+  },
+  {
+    "từ mới": "総合",
+    "cách đọc": "そうごう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "即日",
+    "cách đọc": "そくじつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "存在",
+    "cách đọc": "そんざい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "存続",
+    "cách đọc": "そんぞく (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "対応",
+    "cách đọc": "たいおう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "対象",
+    "cách đọc": "たいしょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "待遇",
+    "cách đọc": "たいぐう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "態度",
+    "cách đọc": "たいど",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "台所",
+    "cách đọc": "だいどころ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "大衆",
+    "cách đọc": "たいしゅう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "単一",
+    "cách đọc": "たんいつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "担任",
+    "cách đọc": "たんにん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "短縮",
+    "cách đọc": "たんしゅく (する)",
+    "nghĩa tiếng việt": "rút ngắn",
+    "ví dụ sử dụng minh hoạ": "作業時間を半分に短縮した。"
+  },
+  {
+    "từ mới": "団結",
+    "cách đọc": "だんけつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "著書",
+    "cách đọc": "ちょしょ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "貯蓄",
+    "cách đọc": "ちょちく (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "挑戦",
+    "cách đọc": "ちょうせん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "調和",
+    "cách đọc": "ちょうわ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "長所",
+    "cách đọc": "ちょうしょ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "頂上",
+    "cách đọc": "ちょうじょう",
+    "nghĩa tiếng việt": "đỉnh; chóp",
+    "ví dụ sử dụng minh hoạ": "昼前に山の頂上へ着いた。"
+  },
+  {
+    "từ mới": "直感",
+    "cách đọc": "ちょっかん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "直接",
+    "cách đọc": "ちょくせつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "賃金",
+    "cách đọc": "ちんぎん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "賃貸",
+    "cách đọc": "ちんたい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "追跡",
+    "cách đọc": "ついせき (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "提案",
+    "cách đọc": "ていあん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "提供",
+    "cách đọc": "ていきょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "提示",
+    "cách đọc": "ていじ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "提出",
+    "cách đọc": "ていしゅつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "典型",
+    "cách đọc": "てんけい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "展開",
+    "cách đọc": "てんかい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "展示",
+    "cách đọc": "てんじ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "展望",
+    "cách đọc": "てんぼう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "店舗",
+    "cách đọc": "てんぽ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "転送",
+    "cách đọc": "てんそう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "伝言",
+    "cách đọc": "でんごん (する)",
+    "nghĩa tiếng việt": "lời nhắn; nhắn lại",
+    "ví dụ sử dụng minh hoạ": "田中さんに伝言をお願いした。"
+  },
+  {
+    "từ mới": "伝説",
+    "cách đọc": "でんせつ",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "伝達",
+    "cách đọc": "でんたつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "途上",
+    "cách đọc": "とじょう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "投資",
+    "cách đọc": "とうし (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "統合",
+    "cách đọc": "とうごう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "統治",
+    "cách đọc": "とうち (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "到達",
+    "cách đọc": "とうたつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "同居",
+    "cách đọc": "どうきょ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "同士",
+    "cách đọc": "どうし",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "同情",
+    "cách đọc": "どうじょう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "同様",
+    "cách đọc": "どうよう",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "導入",
+    "cách đọc": "どうにゅう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "特定",
+    "cách đọc": "とくてい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "特別",
+    "cách đọc": "とくべつ (な)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "内心",
+    "cách đọc": "ないしん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "内側",
+    "cách đọc": "うちがわ",
+    "nghĩa tiếng việt": "phía trong; mặt trong",
+    "ví dụ sử dụng minh hoạ": "ドアの内側に鍵がある。"
+  },
+  {
+    "từ mới": "日程",
+    "cách đọc": "にってい",
+    "nghĩa tiếng việt": "lịch trình",
+    "ví dụ sử dụng minh hoạ": "旅行の日程を変更する。"
+  },
+  {
+    "từ mới": "入手",
+    "cách đọc": "にゅうしゅ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "妊娠",
+    "cách đọc": "にんしん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "認識",
+    "cách đọc": "にんしき (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "年配",
+    "cách đọc": "ねんぱい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "納得",
+    "cách đọc": "なっとく (する)",
+    "nghĩa tiếng việt": "hiểu và chấp nhận; thuyết phục",
+    "ví dụ sử dụng minh hoạ": "説明を聞いて納得した。"
+  },
+  {
+    "từ mới": "農民",
+    "cách đọc": "のうみん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "破壊",
+    "cách đọc": "はかい (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "敗戦",
+    "cách đọc": "はいせん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "背景",
+    "cách đọc": "はいけい",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "配給",
+    "cách đọc": "はいきゅう (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "配信",
+    "cách đọc": "はいしん (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "爆撃",
+    "cách đọc": "ばくげき",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "爆弾",
+    "cách đọc": "ばくだん",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  },
+  {
+    "từ mới": "発熱",
+    "cách đọc": "はつねつ (する)",
+    "nghĩa tiếng việt": "",
+    "ví dụ sử dụng minh hoạ": ""
+  }
+]
