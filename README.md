@@ -5,7 +5,7 @@ Tự học từ vựng tiếng Nhật bằng thẻ nhớ hoặc luyện bài t�
 Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
 
 - **jlpt-vocabulary-flashcards**: tự học và ôn bằng thẻ nhớ, không bài tập hay chấm điểm.
-- **jlpt-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N2 theo sáu dạng bài.
+- **jlpt-n2-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N2 theo sáu dạng bài.
 - **jlpt-n1-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N1 theo bốn dạng bài.
 - **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
@@ -52,7 +52,7 @@ Dấu xem lại chỉ được giữ trong phiên hiện tại. Để ôn ở bu
 
 ## Luyện sáu dạng bài tập N2
 
-Khi muốn làm bài tập thay vì tự học bằng thẻ, gọi **jlpt-vocabulary-coach**. Skill này độc lập với flashcard và có chấm bài, giải thích đáp án.
+Khi muốn làm bài tập thay vì tự học bằng thẻ, gọi **jlpt-n2-vocabulary-coach**. Skill này độc lập với flashcard và có chấm bài, giải thích đáp án.
 
 | Dạng bài | Bạn cần làm gì? |
 | --- | --- |
@@ -65,15 +65,15 @@ Khi muốn làm bài tập thay vì tự học bằng thẻ, gọi **jlpt-vocabu
 
 **Thử cả sáu dạng**
 
-> Dùng skill jlpt-vocabulary-coach tạo bài luyện N2 gồm 6 câu, mỗi dạng một câu. Cho tôi bấm chọn đáp án và xem giải thích tiếng Việt ngay sau mỗi câu.
+> Dùng skill jlpt-n2-vocabulary-coach tạo bài luyện N2 gồm 6 câu, mỗi dạng một câu. Cho tôi bấm chọn đáp án và xem giải thích tiếng Việt ngay sau mỗi câu.
 
 **Tập trung vào một dạng**
 
-> Dùng skill jlpt-vocabulary-coach tạo 10 câu luyện cách dùng từ N2. Mỗi câu có 4 đáp án để bấm chọn. Giải thích vì sao từng đáp án đúng hoặc sai.
+> Dùng skill jlpt-n2-vocabulary-coach tạo 10 câu luyện cách dùng từ N2. Mỗi câu có 4 đáp án để bấm chọn. Giải thích vì sao từng đáp án đúng hoặc sai.
 
 **Làm bài kiểm tra tổng hợp**
 
-> Dùng skill jlpt-vocabulary-coach tạo bài kiểm tra từ vựng N2 gồm 30 câu đủ sáu dạng. Cho tôi bấm chọn đáp án, chỉ hiện đáp án và giải thích sau khi nộp bài. Cuối bài tổng kết kết quả theo từng dạng và các từ cần ôn.
+> Dùng skill jlpt-n2-vocabulary-coach tạo bài kiểm tra từ vựng N2 gồm 30 câu đủ sáu dạng. Cho tôi bấm chọn đáp án, chỉ hiện đáp án và giải thích sau khi nộp bài. Cuối bài tổng kết kết quả theo từng dạng và các từ cần ôn.
 
 Khi luyện tập, bấm đáp án rồi chọn **Câu tiếp**. Khi kiểm tra, bạn có thể sửa lựa chọn trước khi **Nộp bài / Tổng kết**.
 

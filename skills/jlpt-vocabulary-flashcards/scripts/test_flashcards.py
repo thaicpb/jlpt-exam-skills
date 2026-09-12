@@ -93,6 +93,34 @@ class FlashcardsTest(unittest.TestCase):
         self.assertEqual(payload, json.loads(source))
         self.assertEqual(len(payload["items"]), 3)
 
+    def test_no_javascript_fallback_contains_every_selected_card(self):
+        result, html = self.build("--lesson", "dai1", "--limit", "3")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        no_scripts = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.S)
+        fallback = no_scripts.split('<section id="fc-interactive"', 1)[0]
+        self.assertIn('<section id="fc-static"', fallback)
+        self.assertEqual(fallback.count('class="fc-static-card"'), 3)
+        source = json.loads(subprocess.check_output(
+            [sys.executable, str(SCRIPTS / "load_vocabulary.py"),
+             "--level", "N2", "--lesson", "dai1", "--limit", "3"], text=True))
+        for item in source["items"]:
+            with self.subTest(word=item["word"]):
+                self.assertIn(item["word"], fallback)
+                self.assertIn(item["reading"], fallback)
+                self.assertIn(item["meaning_vi"], fallback)
+                self.assertIn(item["example_vi"], fallback)
+                self.assertIn(f'{item["source_file"]}:{item["source_line"]}', fallback)
+
+    def test_interactive_ui_activates_only_after_render(self):
+        result, html = self.build("--lesson", "dai1", "--limit", "1")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn('<section id="fc-interactive" hidden', html)
+        render_at = html.rindex("render();")
+        reveal_at = html.rindex("get('fc-interactive').hidden=false;")
+        hide_fallback_at = html.rindex("get('fc-static').hidden=true;")
+        self.assertLess(render_at, reveal_at)
+        self.assertLess(reveal_at, hide_fallback_at)
+
     def test_exact_review_list_and_missing_word(self):
         result, html = self.build("--word", "価格")
         self.assertEqual(result.returncode, 0, result.stderr)

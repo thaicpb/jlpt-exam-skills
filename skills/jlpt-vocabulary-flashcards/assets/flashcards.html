@@ -4,21 +4,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flashcard từ vựng JLPT</title>
 <style>
-:root{color-scheme:light dark;--bg:light-dark(#f4f3ef,#141b22);--paper:light-dark(#fffefa,#1d2731);--ink:light-dark(#213c3b,#ecf3f0);--muted:light-dark(#60716e,#b0c2bd);--line:light-dark(#dbe2dc,#3e504f);--accent:light-dark(#17695f,#92d9c5);--soft:light-dark(#eaf3ed,#253c38)}
+:root{color-scheme:light dark;--bg:#f4f3ef;--paper:#fffefa;--ink:#213c3b;--muted:#60716e;--line:#dbe2dc;--accent:#17695f;--soft:#eaf3ed;--bg:light-dark(#f4f3ef,#141b22);--paper:light-dark(#fffefa,#1d2731);--ink:light-dark(#213c3b,#ecf3f0);--muted:light-dark(#60716e,#b0c2bd);--line:light-dark(#dbe2dc,#3e504f);--accent:light-dark(#17695f,#92d9c5);--soft:light-dark(#eaf3ed,#253c38)}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,sans-serif}button{font:inherit;cursor:pointer;touch-action:manipulation}button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button:disabled{opacity:.4;cursor:default}
 #jlpt-flashcards{max-width:880px;margin:auto;padding:36px 24px}.fc-top{display:flex;justify-content:space-between;align-items:center;gap:16px}.fc-eyebrow,.fc-label{font-size:12px;text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:var(--muted)}h1{font-size:26px;margin:3px 0 0;font-weight:650}#fc-meta{font-size:14px;color:var(--muted);margin:0}progress{width:100%;height:5px;accent-color:var(--accent);display:block;margin:22px 0}.fc-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}button{border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);min-height:48px;padding:10px 18px}button[aria-pressed=true]{background:var(--soft);border-color:var(--accent);color:var(--accent)}.fc-card{background:var(--paper);border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 12px 40px #102e2710}.fc-vocab{padding:28px 32px;text-align:center;border-bottom:1px solid var(--line)}.fc-word{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:clamp(52px,10vw,76px);font-weight:650;line-height:1.4;letter-spacing:.07em;margin:8px 0 4px}.fc-front{min-height:300px;display:flex;flex-direction:column;justify-content:center}.fc-hint{color:var(--muted);font-size:15px}.fc-info{display:grid;grid-template-columns:1fr 1.3fr;padding:22px 32px;gap:24px}.fc-info>div+div{border-left:1px solid var(--line);padding-left:24px}.fc-reading{font-size:24px;margin-top:6px}.fc-meaning{font-size:23px;margin-top:6px;font-weight:550}.fc-example{margin:0 24px 24px;background:var(--soft);padding:22px 24px;border-radius:16px}.fc-japanese{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:26px;line-height:2.6;margin:12px 0 8px;overflow-wrap:anywhere;line-break:strict}.fc-japanese ruby{ruby-position:over}.fc-japanese rt{font-size:12px;font-weight:400;color:var(--muted)}.fc-target{color:var(--accent);font-weight:750;border-bottom:2px solid var(--accent);padding-bottom:2px}.fc-translation{margin:8px 0 0;border-top:1px solid var(--line);padding-top:16px;font-size:18px;line-height:1.7}.fc-source{font-size:12px;color:var(--muted);margin:0 32px 22px;overflow-wrap:anywhere}.fc-source summary{cursor:pointer}.fc-source p{margin:6px 0}.fc-primary{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:650}.fc-nav{display:flex;gap:10px;margin-left:auto}#fc-status{font-size:12px;color:var(--muted);text-align:center}.fc-empty{padding:30px}.fc-missing{font-size:14px;color:var(--muted)}
+#fc-static{display:grid;gap:12px;margin-top:22px}.fc-static-card{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}.fc-static-card summary{display:flex;align-items:center;gap:14px;cursor:pointer;min-height:64px;padding:12px 18px}.fc-static-number{color:var(--muted);min-width:2ch}.fc-static-word{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:28px;font-weight:650}.fc-static-answer{border-top:1px solid var(--line);padding-top:20px}.fc-static-answer .fc-source{margin-top:0}.fc-compat-note{color:var(--muted);font-size:14px;margin:8px 0 0}
 @media(max-width:560px){#jlpt-flashcards{padding:20px 14px}.fc-top{align-items:flex-start;flex-direction:column;gap:6px}h1{font-size:23px}.fc-vocab{padding:22px 18px}.fc-info{padding:20px;grid-template-columns:1fr;gap:16px}.fc-info>div+div{border-left:0;border-top:1px solid var(--line);padding:14px 0 0}.fc-example{margin:0 12px 16px;padding:18px}.fc-japanese{font-size:23px}.fc-nav{width:100%;margin:0}.fc-nav button{flex:1}#fc-actions>button{flex:1}.fc-source{margin:0 20px 20px}}
 .fc-card{transform-origin:center center;backface-visibility:hidden;}
 .fc-card.fc-turning{will-change:transform;height:auto;pointer-events:none;}
 @media(prefers-reduced-motion:reduce){.fc-card{transform:none!important;}}
 </style>
 <main id="jlpt-flashcards">
-<header class="fc-top"><div><div class="fc-eyebrow">日本語 · Thẻ từ vựng</div><h1 id="fc-title">Từ vựng JLPT</h1></div><p id="fc-meta"></p></header>
+<header class="fc-top"><div><div class="fc-eyebrow">日本語 · Thẻ từ vựng</div><h1 id="fc-title">__TITLE__</h1></div><p id="fc-meta">__STATIC_META__</p></header>
+<section id="fc-static" aria-label="Danh sách flashcard tương thích">
+<p class="fc-compat-note">Chạm vào từng từ để xem cách đọc, ý nghĩa và câu mẫu.</p>
+__STATIC_CARDS__
+</section>
+<section id="fc-interactive" hidden aria-label="Flashcard tương tác">
 <progress id="fc-progress" aria-label="Vị trí thẻ"></progress>
 <div id="fc-filters" class="fc-actions"></div>
 <article id="fc-card" class="fc-card" aria-live="polite"></article>
 <div id="fc-actions" class="fc-actions"></div>
 <p id="fc-status" role="status"></p>
+</section>
 <script type="application/json" id="fc-data">__DATA__</script>
 <script>
 (()=>{
@@ -113,6 +120,8 @@ function render(){
  const next=button(index===list.length-1?'Về đầu ↺':'Tiếp →',()=>{index=(index+1)%list.length;flipped=false;render()});nav.append(prev,next);actions.append(nav);
 }
 render();
+get('fc-interactive').hidden=false;
+get('fc-static').hidden=true;
 })();
 </script>
 </main>

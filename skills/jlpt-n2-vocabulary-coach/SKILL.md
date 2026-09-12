@@ -1,5 +1,5 @@
 ---
-name: jlpt-vocabulary-coach
+name: jlpt-n2-vocabulary-coach
 description: Tạo bài luyện và kiểm tra từ vựng JLPT N2 theo đúng sáu dạng N2, với đáp án bấm chọn và giải thích tiếng Việt. Chỉ dùng cho N2; yêu cầu N1 phải chuyển sang skill jlpt-n1-vocabulary-coach. Chỉ lấy từ mục tiêu từ CSV dự án; không dùng cho tự học hoặc ôn bằng flashcard.
 ---
 

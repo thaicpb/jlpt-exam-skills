@@ -1,6 +1,6 @@
 ---
 name: jlpt-n1-vocabulary-coach
-description: "Tạo bài luyện và kiểm tra từ vựng JLPT N1 theo đúng bốn dạng N1: 漢字読み, 文脈規定, 言い換え類義 và 用法, với giao diện đáp án bấm chọn và giải thích tiếng Việt. Chỉ dùng cho N1; yêu cầu N2 phải chuyển sang skill jlpt-vocabulary-coach. Chỉ lấy từ mục tiêu từ CSV dự án."
+description: "Tạo bài luyện và kiểm tra từ vựng JLPT N1 theo đúng bốn dạng N1: 漢字読み, 文脈規定, 言い換え類義 và 用法, với giao diện đáp án bấm chọn và giải thích tiếng Việt. Chỉ dùng cho N1; yêu cầu N2 phải chuyển sang skill jlpt-n2-vocabulary-coach. Chỉ lấy từ mục tiêu từ CSV dự án."
 ---
 
 # JLPT N1 Vocabulary Coach — Bài kiểm tra bốn dạng

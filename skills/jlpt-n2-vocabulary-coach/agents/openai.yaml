@@ -1,4 +1,4 @@
 interface:
   display_name: "JLPT N2 Vocabulary Tests"
   short_description: "Chỉ luyện từ vựng N2 theo sáu dạng bài"
-  default_prompt: "Dùng $jlpt-vocabulary-coach tạo bài luyện N2 gồm sáu câu, mỗi dạng một câu."
+  default_prompt: "Dùng $jlpt-n2-vocabulary-coach tạo bài luyện N2 gồm sáu câu, mỗi dạng một câu."
