@@ -1,0 +1,54 @@
+{
+  "level": "N2",
+  "questions": [
+    {
+      "id": "reading-kakunin", "type": "reading", "word": "確認",
+      "source_file": "resources/N2/goi/dai2.csv", "source_line": 3,
+      "prompt": "出発前に、予約の内容を【確認】してください。",
+      "options": ["かくにん", "かくねん", "かっにん", "かくじん"], "answer": 0,
+      "explanations": ["確認 đọc là かくにん, nghĩa là xác nhận/kiểm tra.", "かくねん đổi sai âm にん thành ねん.", "かっにん thêm âm ngắt không có trong cách đọc chuẩn.", "かくじん đổi sai âm にん thành じん."],
+      "origin": "authored"
+    },
+    {
+      "id": "orthography-kakaku", "type": "orthography", "word": "価格",
+      "source_file": "resources/N2/goi/dai1.csv", "source_line": 101,
+      "prompt": "買う前に、二つの商品の【かかく】を比べました。",
+      "options": ["価各", "価格", "格価", "加格"], "answer": 1,
+      "explanations": ["価各 là cách viết nhiễu, thay nhầm 格 bằng 各.", "価格（かかく）là giá cả; phù hợp với việc so sánh hai sản phẩm.", "格価 đảo vị trí hai chữ trong 価格.", "加格 thay sai 価 bằng 加; không phải cách viết của từ mục tiêu."],
+      "origin": "authored"
+    },
+    {
+      "id": "formation-muryou", "type": "formation", "word": "無料",
+      "source_file": "resources/N2/goi/dai5.csv", "source_line": 35,
+      "prompt": "このイベントは入場（　）料なので、お金を払わずに入れます。",
+      "formation": {"prefix": "", "suffix": "料"},
+      "options": ["有", "高", "無", "少"], "answer": 2,
+      "explanations": ["有料 nghĩa là có phí, mâu thuẫn với việc không phải trả tiền.", "高 không tạo thành từ mục tiêu 無料 khi ghép với 料.", "無 + 料 → 無料（むりょう）: không mất phí. Câu có dấu hiệu お金を払わずに.", "少 không diễn đạt nghĩa miễn phí trong tổ hợp này."],
+      "origin": "authored"
+    },
+    {
+      "id": "context-enki", "type": "context", "word": "延期",
+      "source_file": "resources/N2/goi/dai1.csv", "source_line": 80,
+      "prompt": "台風のため、明日の試合は来週に（　）することになりました。",
+      "options": ["維持", "解決", "回収", "延期"], "answer": 3,
+      "explanations": ["維持 là duy trì trạng thái, không diễn đạt chuyển lịch từ ngày mai sang tuần sau.", "解決 là giải quyết vấn đề, không diễn đạt dời lịch thi đấu.", "回収 là thu hồi/thu gom, không kết hợp với việc chuyển trận đấu sang tuần sau.", "延期（えんき）là hoãn. 台風のため và 明日 → 来週 cho biết lịch được dời lại."],
+      "origin": "authored"
+    },
+    {
+      "id": "paraphrase-izen", "type": "paraphrase", "word": "以前",
+      "source_file": "resources/N2/goi/dai1.csv", "source_line": 64,
+      "prompt": "私は【以前】、この町に住んでいました。",
+      "options": ["これから", "今も", "前に", "もうすぐ"], "answer": 2,
+      "explanations": ["これから là từ bây giờ trở đi, hướng tới tương lai.", "今も là hiện giờ vẫn còn, không diễn đạt riêng thời điểm trước đây.", "前に gần nghĩa với 以前 trong câu: trước đây từng sống ở thị trấn này.", "もうすぐ là sắp, hướng tới một thời điểm gần trong tương lai."],
+      "origin": "authored"
+    },
+    {
+      "id": "usage-touchaku", "type": "usage", "word": "到着",
+      "source_file": "resources/N2/goi/dai4.csv", "source_line": 60,
+      "prompt": "到着",
+      "options": ["明日の試験に向けて、漢字を到着しました。", "バスは予定どおり午後三時に空港に到着しました。", "店でパンを二つ到着しました。", "寒かったので、窓を到着しました。"], "answer": 1,
+      "explanations": ["到着 không dùng cho hành động học/ôn kanji; câu sai ở cách kết hợp 漢字を到着する.", "到着（とうちゃく）là đến nơi. Xe buýt đến sân bay vào thời điểm cụ thể là cách dùng đúng.", "到着 không có nghĩa mua; パンを二つ không thể là đối tượng của 到着する theo nghĩa này.", "到着 không có nghĩa đóng cửa sổ; 窓を到着する là kết hợp sai."],
+      "origin": "authored"
+    }
+  ]
+}

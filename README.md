@@ -12,7 +12,7 @@ Skill chỉ sử dụng dữ liệu trong:
 resources/N*/goi/*.csv
 ```
 
-Skill không được tự tạo từ mới, cách đọc, nghĩa tiếng Việt hoặc câu ví dụ từ nguồn bên ngoài.
+Từ mục tiêu, cách đọc chuẩn và nghĩa gốc chỉ lấy từ CSV. Người dùng đã cho phép biên soạn câu hỏi, câu ví dụ và phương án nhiễu phục vụ luyện thi; chúng được phân biệt với câu mẫu nguồn.
 
 ### Cấu trúc
 
@@ -87,6 +87,18 @@ Dùng skill jlpt-vocabulary-coach để ôn lại 10 từ N2 với seed 42.
 ```
 
 ### Các chế độ học tương tác
+
+Skill có thêm [hướng dẫn sáu dạng bài tập N2](skills/jlpt-vocabulary-coach/references/n2-exercise-types.md) theo ảnh tham khảo: đọc kanji, chọn cách viết, cấu tạo từ, ngữ cảnh, diễn đạt gần nghĩa và cách dùng. Cấu hình mô phỏng trong ảnh gồm 30 câu (5–5–3–7–5–5).
+
+Bộ dựng `skills/jlpt-vocabulary-coach/scripts/build_n2_exam.py` hỗ trợ sáu dạng, chấm theo từng câu, giải thích từng phương án và tổng kết theo dạng. Chế độ kiểm tra giữ kín đáp án đến khi nộp; lựa chọn được lưu theo câu để không cộng điểm lặp. Bộ mẫu có sáu câu; agent biên soạn bộ mới khi yêu cầu đề đầy đủ. Bộ dựng ba chế độ cơ bản bên dưới vẫn dành cho flashcard và học nhập môn.
+
+Ví dụ chạy từ thư mục gốc repo:
+
+```bash
+python3 skills/jlpt-vocabulary-coach/scripts/build_n2_exam.py --output /tmp/n2-six-types.html
+```
+
+Prompt: `Dùng jlpt-vocabulary-coach, tạo đề N2 30 câu đủ sáu dạng, từ mục tiêu chỉ lấy trong CSV. Cho tôi bấm đáp án và chỉ giải thích sau khi nộp bài.`
 
 - `Thẻ nhớ`: bấm để lật thẻ, sau đó chọn `Đã nhớ` hoặc `Cần ôn`.
 - `Trắc nghiệm`: bấm chọn nghĩa; mọi đáp án nhiễu đều lấy từ CSV trong phiên.

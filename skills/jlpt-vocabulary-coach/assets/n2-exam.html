@@ -1,0 +1,59 @@
+<div id="n2-exam">
+<style>
+#n2-exam {font:18px/1.65 system-ui,sans-serif;color:light-dark(#202b37,#edf2f7);--surface:light-dark(#f4f7fb,#202b38);--line:light-dark(#c9d4e3,#53657b);--brand:light-dark(#244cb3,#b9ceff);--paper:light-dark(#fff,#141d29)}
+#n2-exam *{box-sizing:border-box}
+#n2-exam header{margin-bottom:24px}
+#n2-exam h2{font-size:30px;margin:0 0 8px}
+#n2-exam p{margin:8px 0}
+#n2-exam button{font:inherit;white-space:normal;overflow-wrap:anywhere;cursor:pointer;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:inherit;min-height:50px}
+#n2-exam button:hover:not(:disabled){border-color:var(--brand)}
+#n2-exam button:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+#n2-exam button[aria-pressed=true]{border:2px solid var(--brand);background:var(--surface)}
+#n2-exam button:disabled{cursor:default}
+#n2-exam .toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}
+#n2-exam article{background:var(--surface);border-radius:20px;padding:28px}
+#n2-exam .sentence{font-size:30px;line-height:1.9;overflow-wrap:anywhere;margin:24px 0}
+#n2-exam .sentence u{text-decoration-color:var(--brand);text-underline-offset:8px;text-decoration-thickness:3px}
+#n2-exam .options{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+#n2-exam .options.long{grid-template-columns:1fr}
+#n2-exam .options button{text-align:left;font-size:24px}
+#n2-exam .details{border-top:1px solid var(--line);margin-top:24px;padding-top:20px}
+#n2-exam .source{font-size:14px;overflow-wrap:anywhere}
+#n2-exam .review-row{padding:14px 0;border-bottom:1px solid var(--line)}
+#n2-exam progress{width:100%;accent-color:var(--brand)}
+@media(max-width:520px){#n2-exam article{padding:18px}#n2-exam .options{grid-template-columns:1fr}#n2-exam .sentence{font-size:26px}#n2-exam .options button{font-size:22px}}
+</style>
+<header><h2>Luyện từ vựng N2</h2><p id="exam-meta"></p><p>Bài tập biên soạn · Từ mục tiêu từ CSV · Không phải đề chính thức</p></header>
+<div id="exam-nav" class="toolbar" aria-label="Chọn câu hỏi"></div>
+<progress id="exam-progress" max="1" value="0" aria-label="Số câu đã trả lời"></progress>
+<article id="exam-stage"></article>
+<div id="exam-actions" class="toolbar"></div>
+<div id="exam-status" role="status" aria-live="polite"></div>
+<script type="application/json" id="exam-data">__EXAM_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('n2-exam'),find=id=>root.querySelector('#'+id);
+const data=JSON.parse(find('exam-data').textContent),questions=data.questions;
+const answers=new Map();let index=0,submitted=false;
+const instructions={reading:'Chọn cách đọc của phần gạch dưới.',orthography:'Chọn cách viết kanji của phần gạch dưới.',formation:'Chọn thành tố để hoàn thành từ.',context:'Chọn từ phù hợp nhất với ngữ cảnh.',paraphrase:'Chọn cách diễn đạt tiếng Nhật gần nghĩa nhất.',usage:'Chọn câu dùng từ mục tiêu đúng.'};
+const node=(tag,value,cls)=>{const e=document.createElement(tag);e.textContent=value;if(cls)e.className=cls;return e};
+function action(label,fn){const b=node('button',label);b.type='button';b.onclick=fn;return b}
+function showPrompt(value){const e=node('div','','sentence');const match=value.match(/^(.*?)【(.*?)】(.*)$/s);if(match)e.append(document.createTextNode(match[1]),node('u',match[2]),document.createTextNode(match[3]));else e.textContent=value;return e}
+function explain(q,chosen){const box=node('section','','details');box.append(node('h3',chosen===q.answer?'Đúng!':chosen===undefined?'Chưa trả lời':'Cần ôn lại'),node('p',`${q.word} · ${q.source.reading} · ${q.source.meaning_vi}`));q.options.forEach((o,i)=>box.append(node('p',`${i+1}. ${o}${i===q.answer?' — Đáp án đúng':''}: ${q.explanations[i]}`)));box.append(node('p',`Câu mẫu gốc: ${q.source.example}`),node('p',`${q.source_file}:${q.source_line}`,'source'));return box}
+function render(){
+const q=questions[index],chosen=answers.get(q.id),stage=find('exam-stage');stage.replaceChildren();find('exam-actions').replaceChildren();
+find('exam-meta').textContent=`${data.mode==='exam'?'Kiểm tra':'Luyện tập'} · ${questions.length} câu · ${answers.size} đã trả lời`;
+find('exam-progress').max=questions.length;find('exam-progress').value=answers.size;
+stage.append(node('h3',`${index+1}/${questions.length} · ${data.types[q.type]}`),node('p',instructions[q.type]),showPrompt(q.prompt));
+const opts=node('div','','options'+(q.type==='usage'?' long':''));q.options.forEach((o,i)=>{const b=action(`${i+1}. ${o}`,()=>{answers.set(q.id,i);render();find('exam-status').textContent=data.mode==='practice'?(i===q.answer?'Đã chọn đáp án đúng.':'Đã ghi nhận. Xem giải thích bên dưới.'):'Đã lưu lựa chọn.'});b.setAttribute('aria-pressed',String(chosen===i));b.disabled=submitted||(data.mode==='practice'&&chosen!==undefined);opts.append(b)});stage.append(opts);
+if(submitted||(data.mode==='practice'&&chosen!==undefined))stage.append(explain(q,chosen));
+const prev=action('← Câu trước',()=>{index--;render()});prev.disabled=index===0;
+const next=action('Câu tiếp →',()=>{index++;render()});next.disabled=index===questions.length-1;
+find('exam-actions').append(prev,next,action(submitted?'Xem tổng kết':'Nộp bài / Tổng kết',()=>{if(!submitted&&data.mode==='exam'&&answers.size<questions.length){find('exam-status').textContent=`Còn ${questions.length-answers.size} câu chưa trả lời. Hãy hoàn thành trước khi nộp.`;return}submitted=true;summary()}));
+find('exam-nav').replaceChildren();questions.forEach((entry,i)=>{const b=action(String(i+1)+(answers.has(entry.id)?' ✓':''),()=>{index=i;render()});b.setAttribute('aria-label',`Câu ${i+1}${answers.has(entry.id)?', đã trả lời':''}`);b.setAttribute('aria-pressed',String(i===index));find('exam-nav').append(b)});
+}
+function summary(){const stage=find('exam-stage');stage.replaceChildren(node('h2','Kết quả luyện tập'));let total=0;for(const [type,label] of Object.entries(data.types)){const rows=questions.filter(q=>q.type===type);if(!rows.length)continue;const correct=rows.filter(q=>answers.get(q.id)===q.answer).length;total+=correct;stage.append(node('p',`${label}: ${correct}/${rows.length}`))}stage.prepend(node('h3',`Đúng ${total}/${questions.length} câu`));stage.append(node('p','Điểm luyện tập, không quy đổi thành điểm JLPT.'));questions.filter(q=>answers.get(q.id)!==q.answer).forEach(q=>{const row=node('div','','review-row');row.append(node('p',`${q.word} · ${q.source.reading} · ${q.source.meaning_vi}`),node('p',`${q.source_file}:${q.source_line}`,'source'),action('Xem lại câu này',()=>{index=questions.indexOf(q);render()}));stage.append(row)});find('exam-actions').replaceChildren(action('Xem đáp án từng câu',()=>{index=0;render()}));find('exam-status').textContent='Đã tổng kết bài. Lựa chọn được giữ nguyên trong phiên này.'}
+render();
+})();
+</script>
+</div>
