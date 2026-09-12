@@ -61,7 +61,7 @@ Cấu hình mô phỏng theo ảnh: 5 + 5 + 3 + 7 + 5 + 5 = 30 câu. Chính tài
 
 ## Trải nghiệm học và kiểm tra
 
-- Giữ flashcard để học trước; sáu dạng kiểm tra là một luồng riêng.
+- Flashcard thuộc skill riêng `jlpt-vocabulary-flashcards`; không tạo thẻ trong luồng kiểm tra này.
 - Cho chọn luyện một dạng hoặc mô phỏng tổng hợp 30 câu theo cấu hình ảnh.
 - Luyện tập: bấm 1–4, chấm ngay, hiện giải thích rồi người học bấm tiếp. Kiểm tra tổng hợp: chỉ hiện đáp án sau khi nộp; cho sửa lựa chọn trước khi nộp.
 - Chữ Nhật lớn, câu hỏi xuống dòng tự nhiên, bốn nút bấm dễ đọc; phương án câu dài của 用法 xếp dọc.
@@ -90,4 +90,4 @@ python3 scripts/build_n2_exam.py --bank /allowed/path/questions.json --type usag
 
 Agent biên soạn một bộ mới theo số lượng/phạm vi được yêu cầu, không chỉ lặp bộ mẫu. `--full` từ chối bộ không đúng số câu theo cấu hình; không tự bù câu. Kiểm tra nguồn và schema bằng script không thay thế thẩm định ngữ nghĩa bốn lựa chọn.
 
-`build_interactive_lesson.py` giữ chức năng flashcard, chọn nghĩa Việt và điền khuyết cơ bản; không phải bộ dựng sáu dạng.
+Tự học bằng thẻ nhớ thuộc skill `jlpt-vocabulary-flashcards`, độc lập với bộ dựng sáu dạng.

@@ -1,0 +1,64 @@
+<div id="jlpt-flashcards">
+<style>
+#jlpt-flashcards{font:18px/1.65 system-ui,sans-serif;color:light-dark(#202b37,#edf2f7);--fc-paper:light-dark(#f4f7fb,#202b38);--fc-line:light-dark(#bccadb,#53657b);--fc-brand:light-dark(#244cb3,#b9ceff)}
+#jlpt-flashcards *{box-sizing:border-box}
+#jlpt-flashcards h2{font-size:28px;margin:0}
+#jlpt-flashcards .fc-card{background:var(--fc-paper);border-radius:20px;padding:28px;margin:18px 0;overflow-wrap:anywhere}
+#jlpt-flashcards .fc-word{font-size:clamp(38px,8vw,64px);margin:12px 0}
+#jlpt-flashcards .fc-reading{font-size:28px}
+#jlpt-flashcards .fc-text{font-size:24px}
+#jlpt-flashcards .fc-source{font-size:14px;overflow-wrap:anywhere}
+#jlpt-flashcards .fc-actions{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+#jlpt-flashcards button{font:inherit;min-height:48px;padding:12px 18px;border:1px solid var(--fc-line);border-radius:12px;background:var(--fc-paper);color:inherit;cursor:pointer}
+#jlpt-flashcards button[aria-pressed=true]{border:2px solid var(--fc-brand)}
+#jlpt-flashcards button:disabled{opacity:.5;cursor:default}
+@media(max-width:420px){#jlpt-flashcards .fc-card{padding:18px}#jlpt-flashcards .fc-text{font-size:22px}}
+</style>
+<h2>Thẻ nhớ từ vựng</h2>
+<p id="fc-meta"></p>
+<div id="fc-filters" class="fc-actions"></div>
+<div id="fc-card" class="fc-card" aria-live="polite"></div>
+<div id="fc-actions" class="fc-actions"></div>
+<p id="fc-status" role="status"></p>
+<script type="application/json" id="fc-data">__DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('jlpt-flashcards');
+const get=id=>root.querySelector('#'+id);
+const payload=JSON.parse(get('fc-data').textContent);
+const items=payload.items,marked=new Set();
+let index=0,flipped=false,reviewOnly=false;
+const key=item=>item.source_file+':'+item.source_line;
+const el=(tag,value,cls)=>{const n=document.createElement(tag);n.textContent=value;if(cls)n.className=cls;return n};
+const button=(label,fn)=>{const b=el('button',label);b.type='button';b.onclick=fn;return b};
+function render(){
+ const list=reviewOnly?items.filter(item=>marked.has(key(item))):items;
+ index=Math.max(0,Math.min(index,list.length-1));
+ get('fc-meta').textContent=payload.level+' · '+items.length+' từ · '+(list.length?'Thẻ '+(index+1)+' / '+list.length:'Không có thẻ được đánh dấu');
+ get('fc-status').textContent='Dấu “Cần xem lại” chỉ lưu trong phiên này, không đánh giá mức độ ghi nhớ.';
+ const filters=get('fc-filters');filters.replaceChildren();
+ for(const [label,value] of [['Tất cả thẻ',false],['Cần xem lại ('+marked.size+')',true]]){
+  const b=button(label,()=>{reviewOnly=value;index=0;flipped=false;render()});b.setAttribute('aria-pressed',String(reviewOnly===value));filters.append(b);
+ }
+ const card=get('fc-card'),actions=get('fc-actions');card.replaceChildren();actions.replaceChildren();
+ if(!list.length){card.append(el('p','Chưa có thẻ cần xem lại. Chọn “Tất cả thẻ” để tiếp tục.'));return}
+ const item=list[index];
+ card.append(el('div',item.word,'fc-word'));
+ if(flipped){
+  card.append(el('div','Cách đọc'),el('div',item.reading,'fc-reading'),el('div','Ý nghĩa'),el('div',item.meaning_vi,'fc-text'),el('div','Câu mẫu'),el('p',item.example,'fc-text'),el('p',key(item),'fc-source'));
+ }else card.append(el('p','Tự nhớ cách đọc và nghĩa, rồi lật thẻ để xem.'));
+ actions.append(button(flipped?'Về mặt trước':'Lật thẻ',()=>{flipped=!flipped;render()}));
+ const mark=button(marked.has(key(item))?'Bỏ dấu xem lại':'Cần xem lại',()=>{
+  const id=key(item);if(marked.has(id))marked.delete(id);else marked.add(id);
+  if(reviewOnly)flipped=false;
+  render();
+ });
+ mark.setAttribute('aria-pressed',String(marked.has(key(item))));actions.append(mark);
+ const prev=button('← Thẻ trước',()=>{index--;flipped=false;render()});prev.disabled=index===0;
+ const next=button(index===list.length-1?'Xem lại từ đầu':'Thẻ tiếp →',()=>{index=(index+1)%list.length;flipped=false;render()});
+ actions.append(prev,next);
+}
+render();
+})();
+</script>
+</div>

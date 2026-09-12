@@ -1,172 +1,96 @@
 # JLPT Exam Skills
 
-Dự án chứa dữ liệu học JLPT và các Codex skill sử dụng dữ liệu đó.
+Tự học từ vựng tiếng Nhật bằng thẻ nhớ hoặc luyện bài tập JLPT ngay khi trò chuyện với AI. Hai hoạt động dùng hai skill riêng, không cần biết lập trình.
 
-## JLPT Image to Vocabulary CSV
+Dự án gồm danh sách từ vựng và ba **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
 
-Skill `jlpt-image-to-vocabulary-csv` đọc từ vựng trực tiếp từ ảnh được cung cấp, bổ sung trường thiếu bằng kết quả khớp kanji trong `resources`, kiểm tra các ô chưa chắc chắn và xuất CSV đúng schema trong `resources/N*/goi`. Skill không lấy nội dung từ web hoặc tự suy diễn.
+- **jlpt-vocabulary-flashcards**: tự học và ôn bằng thẻ nhớ, không bài tập hay chấm điểm.
+- **jlpt-vocabulary-coach**: luyện và kiểm tra từ vựng N2 theo sáu dạng bài.
+- **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
-```text
-$jlpt-image-to-vocabulary-csv Hãy đọc các ảnh từ vựng này và tạo resources/N2/goi/dai15.csv.
-```
+Hiện có từ vựng **N2, bài 1–14**. AI chỉ chọn từ cần học từ dữ liệu của dự án, không tự thêm từ hoặc lấy danh sách từ nguồn khác.
 
-Script đi kèm chuẩn hoá Unicode/whitespace, ghi UTF-8 BOM, chặn ô trống và không ghi đè file có sẵn theo mặc định:
+## Bắt đầu học
 
-```bash
-python3 skills/jlpt-image-to-vocabulary-csv/scripts/write_vocabulary_csv.py \
-  --input /tmp/rows.json \
-  --output resources/N2/goi/dai15.csv
-```
+Mở dự án trong ứng dụng AI có thể đọc các tệp của dự án, chẳng hạn Codex, rồi gửi:
 
-Xem quy trình đầy đủ tại [`skills/jlpt-image-to-vocabulary-csv/SKILL.md`](skills/jlpt-image-to-vocabulary-csv/SKILL.md).
+> Dùng skill jlpt-vocabulary-flashcards cho tôi tự học 10 từ N2 trong bài 1 (dai1) bằng thẻ nhớ. Cho tôi bấm lật thẻ để xem cách đọc, nghĩa tiếng Việt và câu ví dụ.
 
-## JLPT Vocabulary Coach
+Bạn có thể thay **N2**, **bài 1** và **10 từ** theo nhu cầu, miễn là dự án có dữ liệu tương ứng. Nếu chưa biết chọn bài nào, hãy hỏi: “Dự án hiện có những bài từ vựng nào để tôi học?”
 
-Skill `jlpt-vocabulary-coach` hỗ trợ học mới, ôn tập và kiểm tra từ vựng bằng giao diện tương tác: lật thẻ nhớ, bấm đáp án trắc nghiệm và chọn từ điền vào câu.
+Nếu AI chưa nhận diện tên skill, gửi thêm:
 
-Skill chỉ sử dụng dữ liệu trong:
+> Hãy đọc và làm theo tệp skills/jlpt-vocabulary-flashcards/SKILL.md trong dự án này, sau đó bắt đầu buổi học cho tôi.
 
-```text
-resources/N*/goi/*.csv
-```
+Bạn không cần mở hay chỉnh sửa tệp đó. AI cần được cấp quyền đọc dự án; chỉ gửi tên skill trong một cuộc trò chuyện không có dữ liệu dự án là chưa đủ.
 
-Từ mục tiêu, cách đọc chuẩn và nghĩa gốc chỉ lấy từ CSV. Người dùng đã cho phép biên soạn câu hỏi, câu ví dụ và phương án nhiễu phục vụ luyện thi; chúng được phân biệt với câu mẫu nguồn.
+## Học và ôn từ mới
 
-### Cấu trúc
+- Nhìn từ ở mặt trước và tự nhớ cách đọc, ý nghĩa.
+- Bấm **Lật thẻ** để xem cách đọc, nghĩa tiếng Việt và câu mẫu.
+- Dùng **Thẻ trước / Thẻ tiếp** để học theo nhịp của bạn.
+- Đánh dấu **Cần xem lại**, rồi chọn nhóm này để ôn riêng.
 
-```text
-jlpt-exam-skills/
-├── resources/
-│   └── N2/goi/*.csv
-└── skills/
-    └── jlpt-vocabulary-coach/
-        ├── SKILL.md
-        ├── agents/openai.yaml
-        ├── references/
-        │   ├── interactive-lessons.md
-        │   └── learning-modes.md
-        └── scripts/
-            ├── build_interactive_lesson.py
-            └── load_vocabulary.py
-```
+Không có câu hỏi bài tập, điểm số hoặc đánh giá đúng/sai. Dấu “Cần xem lại” chỉ là lựa chọn cá nhân của bạn.
 
-### Cách gọi skill trong Codex
+Một vài yêu cầu có thể sao chép vào cuộc trò chuyện:
 
-Khi skill chưa được cài vào danh sách skill toàn cục, hãy chỉ rõ đường dẫn `SKILL.md`:
+**Học nhanh một nhóm từ**
 
-```text
-Hãy đọc và làm theo skill:
-jlpt-exam-skills/skills/jlpt-vocabulary-coach/SKILL.md
+> Dùng skill jlpt-vocabulary-flashcards cho tôi tự học 5 từ N2 ngẫu nhiên bằng thẻ nhớ.
 
-Tôi muốn một phiên học tương tác 10 từ JLPT N2 từ bài dai1.
-Hãy hiển thị thẻ nhớ, trắc nghiệm và bài điền từ để tôi trả lời bằng nút bấm.
-Không sử dụng từ hoặc câu ví dụ ngoài dữ liệu CSV.
-```
+**Học một bài cụ thể**
 
-Nếu Codex đã nhận diện skill, có thể gọi bằng tên:
+> Dùng skill jlpt-vocabulary-flashcards cho tôi học 10 từ đầu tiên của bài 8 (dai8), N2. Dùng chữ lớn, dễ đọc và lật thẻ bằng nút bấm.
 
-```text
-$jlpt-vocabulary-coach Hãy tạo phiên học tương tác 10 từ JLPT N2 ngẫu nhiên.
-```
+**Ôn những từ còn nhầm**
 
-### Prompt mẫu
+> Đây là danh sách từ tôi cần ôn: [dán danh sách từ]. Hãy dùng skill jlpt-vocabulary-flashcards tạo thẻ nhớ cho các từ này. Chỉ dùng những từ có trong dữ liệu dự án.
 
-Tạo phiên học tương tác theo bài:
+Dấu xem lại chỉ được giữ trong phiên hiện tại. Để ôn ở buổi sau, hãy lưu danh sách từ cần ôn và gửi lại cho AI; đừng mặc định AI đã nhớ toàn bộ lịch sử học. Nếu không có nút bấm, nhắn “lật” hoặc “tiếp” để xem từng thẻ trong cuộc trò chuyện.
 
-```text
-Dùng skill jlpt-vocabulary-coach để tạo phiên học tương tác 10 từ đầu tiên của bài dai1 N2.
-Tôi muốn trả lời bằng thao tác bấm, không nhập text.
-```
+## Luyện sáu dạng bài tập N2
 
-Kiểm tra ngẫu nhiên:
+Khi muốn làm bài tập thay vì tự học bằng thẻ, gọi **jlpt-vocabulary-coach**. Skill này độc lập với flashcard và có chấm bài, giải thích đáp án.
 
-```text
-Dùng skill jlpt-vocabulary-coach để kiểm tra 10 từ N2 ngẫu nhiên.
-Hỏi từng câu một và không hiển thị đáp án trước khi tôi trả lời.
-```
+| Dạng bài | Bạn cần làm gì? |
+| --- | --- |
+| Đọc kanji — 漢字読み | Chọn cách đọc của từ được gạch dưới. |
+| Cách viết — 表記 | Chọn kanji đúng cho từ viết bằng kana. |
+| Cấu tạo từ — 語形成 | Chọn phần còn thiếu để tạo thành từ. |
+| Ngữ cảnh — 文脈規定 | Chọn từ phù hợp để điền vào câu. |
+| Gần nghĩa — 言い換え類義 | Chọn cách diễn đạt tiếng Nhật gần nghĩa nhất. |
+| Cách dùng — 用法 | Chọn câu sử dụng từ đúng. |
 
-Kiểm tra cách đọc:
+**Thử cả sáu dạng**
 
-```text
-Dùng skill jlpt-vocabulary-coach để kiểm tra cách đọc từ vựng bài dai3 N2.
-Hỏi từng câu một.
-```
+> Dùng skill jlpt-vocabulary-coach tạo bài luyện N2 gồm 6 câu, mỗi dạng một câu. Cho tôi bấm chọn đáp án và xem giải thích tiếng Việt ngay sau mỗi câu.
 
-Chơi chế độ đảo chiều:
+**Tập trung vào một dạng**
 
-```text
-Dùng skill jlpt-vocabulary-coach. Cho tôi chơi chế độ Đảo chiều với 5 từ N2.
-```
+> Dùng skill jlpt-vocabulary-coach tạo 10 câu luyện cách dùng từ N2. Mỗi câu có 4 đáp án để bấm chọn. Giải thích vì sao từng đáp án đúng hoặc sai.
 
-Ôn lại bằng seed của buổi trước:
+**Làm bài kiểm tra tổng hợp**
 
-```text
-Dùng skill jlpt-vocabulary-coach để ôn lại 10 từ N2 với seed 42.
-```
+> Dùng skill jlpt-vocabulary-coach tạo bài kiểm tra từ vựng N2 gồm 30 câu đủ sáu dạng. Cho tôi bấm chọn đáp án, chỉ hiện đáp án và giải thích sau khi nộp bài. Cuối bài tổng kết kết quả theo từng dạng và các từ cần ôn.
 
-### Các chế độ học tương tác
+Khi luyện tập, bấm đáp án rồi chọn **Câu tiếp**. Khi kiểm tra, bạn có thể sửa lựa chọn trước khi **Nộp bài / Tổng kết**.
 
-Skill có thêm [hướng dẫn sáu dạng bài tập N2](skills/jlpt-vocabulary-coach/references/n2-exercise-types.md) theo ảnh tham khảo: đọc kanji, chọn cách viết, cấu tạo từ, ngữ cảnh, diễn đạt gần nghĩa và cách dùng. Cấu hình mô phỏng trong ảnh gồm 30 câu (5–5–3–7–5–5).
+Đây là bài tập mô phỏng do AI biên soạn, **không phải đề JLPT chính thức**. Từ được kiểm tra phải có trong dữ liệu dự án; câu hỏi, tình huống và phương án lựa chọn có thể được soạn mới. Nếu không đủ dữ liệu phù hợp, AI phải báo rõ thay vì tự thêm từ cho đủ số câu.
 
-Bộ dựng `skills/jlpt-vocabulary-coach/scripts/build_n2_exam.py` hỗ trợ sáu dạng, chấm theo từng câu, giải thích từng phương án và tổng kết theo dạng. Chế độ kiểm tra giữ kín đáp án đến khi nộp; lựa chọn được lưu theo câu để không cộng điểm lặp. Bộ mẫu có sáu câu; agent biên soạn bộ mới khi yêu cầu đề đầy đủ. Bộ dựng ba chế độ cơ bản bên dưới vẫn dành cho flashcard và học nhập môn.
+Nếu ứng dụng không hỗ trợ nút bấm, hãy yêu cầu AI hỏi từng câu và trả lời bằng số **1–4** hoặc chữ **A–D**.
 
-Ví dụ chạy từ thư mục gốc repo:
+## Bổ sung từ vựng từ ảnh
 
-```bash
-python3 skills/jlpt-vocabulary-coach/scripts/build_n2_exam.py --output /tmp/n2-six-types.html
-```
+Đính kèm ảnh rõ chữ, đúng thứ tự trang rồi gửi:
 
-Prompt: `Dùng jlpt-vocabulary-coach, tạo đề N2 30 câu đủ sáu dạng, từ mục tiêu chỉ lấy trong CSV. Cho tôi bấm đáp án và chỉ giải thích sau khi nộp bài.`
+> Dùng skill jlpt-image-to-vocabulary-csv đọc các ảnh này và tạo bài từ vựng N2 mới. Hãy kiểm tra bài nào đã có để đề xuất số bài tiếp theo, không ghi đè bài cũ. Chỗ nào thiếu thông tin hoặc không đọc chắc thì hỏi lại tôi, không tự đoán.
 
-- `Thẻ nhớ`: bấm để lật thẻ, sau đó chọn `Đã nhớ` hoặc `Cần ôn`.
-- `Trắc nghiệm`: bấm chọn nghĩa; mọi đáp án nhiễu đều lấy từ CSV trong phiên.
-- `Điền từ`: bấm chọn từ phù hợp với câu ví dụ nguồn đã tạo chỗ trống.
-- `Ôn cách quãng`: ưu tiên từ trả lời sai hoặc từ lâu chưa gặp.
+AI sẽ đọc từ trong ảnh, đối chiếu phần thiếu với dữ liệu sẵn có và báo những mục cần bạn xác nhận. Sau khi lưu bài mới, bạn có thể yêu cầu skill học từ vựng sử dụng bài đó.
 
-Giao diện hiển thị tiến độ, số câu đúng và chuỗi trả lời đúng ngay trong phiên. Việc nhập bàn phím chỉ được dùng khi người học chủ động yêu cầu luyện viết.
+## Từ vựng nằm ở đâu?
 
-### Tạo giao diện tương tác trực tiếp
+- **resources**: danh sách từ theo cấp độ và bài; mỗi mục gồm từ, cách đọc, nghĩa tiếng Việt và câu ví dụ.
+- **skills**: hướng dẫn để AI tổ chức việc học và bổ sung dữ liệu từ ảnh.
 
-```bash
-python3 jlpt-exam-skills/skills/jlpt-vocabulary-coach/scripts/build_interactive_lesson.py \
-  --level N2 \
-  --lesson dai1 \
-  --limit 10 \
-  --output /duong-dan-duoc-phep/n2-dai1.html
-```
-
-Đầu ra là HTML fragment để Codex hiển thị trực tiếp trong giao diện artifact/visualization. Dữ liệu được nhúng cục bộ và không có yêu cầu mạng.
-
-### Kiểm tra dữ liệu trực tiếp
-
-Đọc 5 từ đầu tiên của bài `dai1` N2:
-
-```bash
-python3 jlpt-exam-skills/skills/jlpt-vocabulary-coach/scripts/load_vocabulary.py \
-  --level N2 \
-  --lesson dai1 \
-  --limit 5
-```
-
-Lấy ngẫu nhiên 10 từ N2:
-
-```bash
-python3 jlpt-exam-skills/skills/jlpt-vocabulary-coach/scripts/load_vocabulary.py \
-  --level N2 \
-  --sample 10
-```
-
-Lấy lại đúng mẫu ngẫu nhiên bằng seed:
-
-```bash
-python3 jlpt-exam-skills/skills/jlpt-vocabulary-coach/scripts/load_vocabulary.py \
-  --level N2 \
-  --sample 10 \
-  --seed 42
-```
-
-Kết quả trả về có `source_file` và `source_line` để kiểm tra từng từ với CSV gốc.
-
-### Dữ liệu hiện có
-
-Hiện dự án có dữ liệu từ vựng N2 trong các tệp `resources/N2/goi/dai1.csv` đến `dai14.csv`. Nếu yêu cầu một cấp chưa có dữ liệu, skill phải báo rõ thay vì sử dụng nguồn khác.
+Bạn chỉ cần trò chuyện với AI để học; không cần thao tác với các thư mục này trong mỗi buổi học.

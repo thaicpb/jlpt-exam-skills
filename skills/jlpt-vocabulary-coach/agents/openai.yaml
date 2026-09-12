@@ -1,4 +1,4 @@
 interface:
-  display_name: "JLPT Vocabulary Coach"
-  short_description: "Học JLPT bằng thẻ nhớ và trắc nghiệm"
-  default_prompt: "Dùng $jlpt-vocabulary-coach để tạo phiên học tương tác 10 từ JLPT N2."
+  display_name: "JLPT N2 Vocabulary Tests"
+  short_description: "Luyện và kiểm tra từ vựng N2 theo sáu dạng bài"
+  default_prompt: "Dùng $jlpt-vocabulary-coach tạo bài luyện N2 gồm sáu câu, mỗi dạng một câu."

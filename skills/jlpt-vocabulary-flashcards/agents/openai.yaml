@@ -1,0 +1,4 @@
+interface:
+  display_name: "JLPT Vocabulary Flashcards"
+  short_description: "Tự học và ôn từ JLPT bằng thẻ nhớ, không chấm điểm"
+  default_prompt: "Dùng $jlpt-vocabulary-flashcards cho tôi tự học 10 từ N2 bằng thẻ nhớ."
