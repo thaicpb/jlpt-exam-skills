@@ -23,6 +23,7 @@ Lưu tệp `dai1.examples.json` cạnh `dai1.csv` trong `resources/N*/goi/`. CSV
 - Dịch đầy đủ nghĩa câu gốc, tự nhiên bằng tiếng Việt; không thêm tình tiết hay thay câu Nhật.
 - Đọc theo ngữ cảnh. Chia kanji và okurigana khi cần, ví dụ `決[き]める` tương ứng `{"text":"決","reading":"き"}` + `{"text":"める"}`.
 - Mọi kanji ngoài từ đang học phải có cách đọc. Tách từ đang học ra khỏi cụm, ví dụ với `期末`: `期末` không có reading, `試験` có reading `しけん`.
+- Với dạng biến hình, đánh dấu rõ đoạn từ đang học bằng `{"text":"飽きた","target":true}` cho mục từ `飽きる`. Không thêm `reading`; renderer nhấn đoạn này như từ đích. Chỉ đánh dấu dạng thực sự của từ đang học trong ngữ cảnh, không đánh dấu từ khác chỉ vì có chung kanji. Loader kiểm tra kanji của đoạn phải thuộc mục từ gốc; người biên soạn kiểm tra quan hệ biến hình.
 - Ghép `text` của các segment phải khớp tuyệt đối `example` trong CSV, kể cả dấu câu. Không lưu HTML hoặc ruby trực tiếp; template tạo DOM bằng `textContent`.
 - Mỗi cặp `word` + `example` là duy nhất. Loader từ chối ghi chú lỗi thời, thiếu furigana hoặc thêm reading cho từ đang học.
 - Nếu bài chưa có JSON hoặc thiếu mục, biên soạn phần bổ sung cho các thẻ được yêu cầu trước khi tạo bộ thẻ. Nếu chưa xác định chắc cách đọc, báo cụ thể thay vì đoán. Renderer vẫn hỗ trợ CSV cũ và hiển thị “Chưa có bản dịch câu mẫu.” khi thiếu; không coi đó là bộ thẻ đã bổ sung đầy đủ.

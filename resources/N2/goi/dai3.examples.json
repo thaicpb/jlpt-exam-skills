@@ -1,0 +1,2473 @@
+{
+  "version": 1,
+  "provenance": "Bản dịch tiếng Việt và furigana được biên soạn bổ sung từ câu mẫu CSV; không phải nội dung nguyên bản của CSV.",
+  "items": [
+    {
+      "word": "後半",
+      "example": "試合の後半で二点を取った。",
+      "example_vi": "Đã ghi được hai điểm trong nửa sau của trận đấu.",
+      "example_segments": [
+        {
+          "text": "試合",
+          "reading": "しあい"
+        },
+        {
+          "text": "の後半で"
+        },
+        {
+          "text": "二点",
+          "reading": "にてん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "った。"
+        }
+      ]
+    },
+    {
+      "word": "後方",
+      "example": "後方の席に座ってください。",
+      "example_vi": "Xin hãy ngồi ở ghế phía sau.",
+      "example_segments": [
+        {
+          "text": "後方の"
+        },
+        {
+          "text": "席",
+          "reading": "せき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "座",
+          "reading": "すわ"
+        },
+        {
+          "text": "ってください。"
+        }
+      ]
+    },
+    {
+      "word": "交流",
+      "example": "留学生と交流する機会がある。",
+      "example_vi": "Tôi có cơ hội giao lưu với du học sinh.",
+      "example_segments": [
+        {
+          "text": "留学生",
+          "reading": "りゅうがくせい"
+        },
+        {
+          "text": "と交流する"
+        },
+        {
+          "text": "機会",
+          "reading": "きかい"
+        },
+        {
+          "text": "がある。"
+        }
+      ]
+    },
+    {
+      "word": "国語",
+      "example": "国語の授業で小説を読む。",
+      "example_vi": "Đọc tiểu thuyết trong giờ học quốc ngữ.",
+      "example_segments": [
+        {
+          "text": "国語の"
+        },
+        {
+          "text": "授業",
+          "reading": "じゅぎょう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "読",
+          "reading": "よ"
+        },
+        {
+          "text": "む。"
+        }
+      ]
+    },
+    {
+      "word": "国際",
+      "example": "国際会議が東京で開かれる。",
+      "example_vi": "Hội nghị quốc tế được tổ chức tại Tokyo.",
+      "example_segments": [
+        {
+          "text": "国際"
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "東京",
+          "reading": "とうきょう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "開",
+          "reading": "ひら"
+        },
+        {
+          "text": "かれる。"
+        }
+      ]
+    },
+    {
+      "word": "個人",
+      "example": "個人の意見を尊重する。",
+      "example_vi": "Tôn trọng ý kiến của từng cá nhân.",
+      "example_segments": [
+        {
+          "text": "個人の"
+        },
+        {
+          "text": "意見",
+          "reading": "いけん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "尊重",
+          "reading": "そんちょう"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "混雑",
+      "example": "朝の電車はとても混雑する。",
+      "example_vi": "Tàu điện buổi sáng rất đông đúc.",
+      "example_segments": [
+        {
+          "text": "朝",
+          "reading": "あさ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "はとても混雑する。"
+        }
+      ]
+    },
+    {
+      "word": "合格",
+      "example": "日本語の試験に合格した。",
+      "example_vi": "Tôi đã đỗ kỳ thi tiếng Nhật.",
+      "example_segments": [
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "試験",
+          "reading": "しけん"
+        },
+        {
+          "text": "に合格した。"
+        }
+      ]
+    },
+    {
+      "word": "合計",
+      "example": "代金を合計すると五千円になる。",
+      "example_vi": "Cộng tiền lại thì tổng cộng là năm nghìn yên.",
+      "example_segments": [
+        {
+          "text": "代金",
+          "reading": "だいきん"
+        },
+        {
+          "text": "を合計すると"
+        },
+        {
+          "text": "五千円",
+          "reading": "ごせんえん"
+        },
+        {
+          "text": "になる。"
+        }
+      ]
+    },
+    {
+      "word": "最終",
+      "example": "最終電車に間に合った。",
+      "example_vi": "Tôi đã kịp chuyến tàu cuối cùng.",
+      "example_segments": [
+        {
+          "text": "最終"
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "った。"
+        }
+      ]
+    },
+    {
+      "word": "最初",
+      "example": "最初に名前を書いてください。",
+      "example_vi": "Trước hết, xin hãy viết tên.",
+      "example_segments": [
+        {
+          "text": "最初に"
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "いてください。"
+        }
+      ]
+    },
+    {
+      "word": "財布",
+      "example": "電車に財布を忘れた。",
+      "example_vi": "Tôi đã để quên ví trên tàu điện.",
+      "example_segments": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "に財布を"
+        },
+        {
+          "text": "忘",
+          "reading": "わす"
+        },
+        {
+          "text": "れた。"
+        }
+      ]
+    },
+    {
+      "word": "作業",
+      "example": "安全を確認してから作業する。",
+      "example_vi": "Kiểm tra an toàn rồi mới làm việc.",
+      "example_segments": [
+        {
+          "text": "安全",
+          "reading": "あんぜん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "text": "してから作業する。"
+        }
+      ]
+    },
+    {
+      "word": "作者",
+      "example": "この小説の作者は有名だ。",
+      "example_vi": "Tác giả của cuốn tiểu thuyết này rất nổi tiếng.",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ"
+        },
+        {
+          "text": "の作者は"
+        },
+        {
+          "text": "有名",
+          "reading": "ゆうめい"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "word": "作品",
+      "example": "美術館で彼の作品を見た。",
+      "example_vi": "Tôi đã xem tác phẩm của anh ấy tại bảo tàng mỹ thuật.",
+      "example_segments": [
+        {
+          "text": "美術館",
+          "reading": "びじゅつかん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "の作品を"
+        },
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "た。"
+        }
+      ]
+    },
+    {
+      "word": "昨夜",
+      "example": "昨夜は遅くまで勉強した。",
+      "example_vi": "Tối qua tôi đã học đến khuya.",
+      "example_segments": [
+        {
+          "text": "昨夜は"
+        },
+        {
+          "text": "遅",
+          "reading": "おそ"
+        },
+        {
+          "text": "くまで"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "した。"
+        }
+      ]
+    },
+    {
+      "word": "作家",
+      "example": "彼女は人気のある作家だ。",
+      "example_vi": "Cô ấy là một nhà văn được yêu thích.",
+      "example_segments": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "人気",
+          "reading": "にんき"
+        },
+        {
+          "text": "のある作家だ。"
+        }
+      ]
+    },
+    {
+      "word": "算数",
+      "example": "弟は算数が得意だ。",
+      "example_vi": "Em trai tôi giỏi số học.",
+      "example_segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "text": "は算数が"
+        },
+        {
+          "text": "得意",
+          "reading": "とくい"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "word": "賛成",
+      "example": "私はその提案に賛成する。",
+      "example_vi": "Tôi tán thành đề xuất đó.",
+      "example_segments": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "はその"
+        },
+        {
+          "text": "提案",
+          "reading": "ていあん"
+        },
+        {
+          "text": "に賛成する。"
+        }
+      ]
+    },
+    {
+      "word": "材料",
+      "example": "料理の材料を買いに行く。",
+      "example_vi": "Đi mua nguyên liệu nấu ăn.",
+      "example_segments": [
+        {
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "の材料を"
+        },
+        {
+          "text": "買",
+          "reading": "か"
+        },
+        {
+          "text": "いに"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く。"
+        }
+      ]
+    },
+    {
+      "word": "雑誌",
+      "example": "図書館で雑誌を読む。",
+      "example_vi": "Đọc tạp chí ở thư viện.",
+      "example_segments": [
+        {
+          "text": "図書館",
+          "reading": "としょかん"
+        },
+        {
+          "text": "で雑誌を"
+        },
+        {
+          "text": "読",
+          "reading": "よ"
+        },
+        {
+          "text": "む。"
+        }
+      ]
+    },
+    {
+      "word": "試験",
+      "example": "来週、日本語の試験を受ける。",
+      "example_vi": "Tuần sau tôi sẽ dự thi tiếng Nhật.",
+      "example_segments": [
+        {
+          "text": "来週",
+          "reading": "らいしゅう"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "の試験を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "ける。"
+        }
+      ]
+    },
+    {
+      "word": "資源",
+      "example": "限りある資源を大切に使う。",
+      "example_vi": "Sử dụng tiết kiệm và trân trọng nguồn tài nguyên hữu hạn.",
+      "example_segments": [
+        {
+          "text": "限",
+          "reading": "かぎ"
+        },
+        {
+          "text": "りある資源を"
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "う。"
+        }
+      ]
+    },
+    {
+      "word": "指示",
+      "example": "上司の指示に従って作業する。",
+      "example_vi": "Làm việc theo chỉ thị của cấp trên.",
+      "example_segments": [
+        {
+          "text": "上司",
+          "reading": "じょうし"
+        },
+        {
+          "text": "の指示に"
+        },
+        {
+          "text": "従",
+          "reading": "したが"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "姿勢",
+      "example": "正しい姿勢で椅子に座る。",
+      "example_vi": "Ngồi trên ghế với tư thế đúng.",
+      "example_segments": [
+        {
+          "text": "正",
+          "reading": "ただ"
+        },
+        {
+          "text": "しい姿勢で"
+        },
+        {
+          "text": "椅子",
+          "reading": "いす"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "座",
+          "reading": "すわ"
+        },
+        {
+          "text": "る。"
+        }
+      ]
+    },
+    {
+      "word": "自然",
+      "example": "この地域は自然が豊かだ。",
+      "example_vi": "Khu vực này có thiên nhiên phong phú.",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "地域",
+          "reading": "ちいき"
+        },
+        {
+          "text": "は自然が"
+        },
+        {
+          "text": "豊",
+          "reading": "ゆた"
+        },
+        {
+          "text": "かだ。"
+        }
+      ]
+    },
+    {
+      "word": "市長",
+      "example": "市長が式典であいさつした。",
+      "example_vi": "Thị trưởng đã phát biểu chào mừng tại buổi lễ.",
+      "example_segments": [
+        {
+          "text": "市長が"
+        },
+        {
+          "text": "式典",
+          "reading": "しきてん"
+        },
+        {
+          "text": "であいさつした。"
+        }
+      ]
+    },
+    {
+      "word": "失敗",
+      "example": "失敗を恐れずに挑戦する。",
+      "example_vi": "Thử thách bản thân mà không sợ thất bại.",
+      "example_segments": [
+        {
+          "text": "失敗を"
+        },
+        {
+          "text": "恐",
+          "reading": "おそ"
+        },
+        {
+          "text": "れずに"
+        },
+        {
+          "text": "挑戦",
+          "reading": "ちょうせん"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "指定",
+      "example": "指定された席に座る。",
+      "example_vi": "Ngồi vào chỗ đã được chỉ định.",
+      "example_segments": [
+        {
+          "text": "指定された"
+        },
+        {
+          "text": "席",
+          "reading": "せき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "座",
+          "reading": "すわ"
+        },
+        {
+          "text": "る。"
+        }
+      ]
+    },
+    {
+      "word": "支店",
+      "example": "銀行の大阪支店で働いている。",
+      "example_vi": "Tôi đang làm việc tại chi nhánh Osaka của ngân hàng.",
+      "example_segments": [
+        {
+          "text": "銀行",
+          "reading": "ぎんこう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "大阪",
+          "reading": "おおさか"
+        },
+        {
+          "text": "支店で"
+        },
+        {
+          "text": "働",
+          "reading": "はたら"
+        },
+        {
+          "text": "いている。"
+        }
+      ]
+    },
+    {
+      "word": "指導",
+      "example": "先生が学生を丁寧に指導する。",
+      "example_vi": "Giáo viên hướng dẫn học sinh một cách chu đáo.",
+      "example_segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "丁寧",
+          "reading": "ていねい"
+        },
+        {
+          "text": "に指導する。"
+        }
+      ]
+    },
+    {
+      "word": "始発",
+      "example": "始発の電車で空港へ向かった。",
+      "example_vi": "Tôi đã đi đến sân bay bằng chuyến tàu đầu tiên.",
+      "example_segments": [
+        {
+          "text": "始発の"
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "空港",
+          "reading": "くうこう"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "向",
+          "reading": "む"
+        },
+        {
+          "text": "かった。"
+        }
+      ]
+    },
+    {
+      "word": "芝生",
+      "example": "芝生の上で子どもが遊んでいる。",
+      "example_vi": "Trẻ em đang chơi trên bãi cỏ.",
+      "example_segments": [
+        {
+          "text": "芝生の"
+        },
+        {
+          "text": "上",
+          "reading": "うえ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "どもが"
+        },
+        {
+          "text": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "んでいる。"
+        }
+      ]
+    },
+    {
+      "word": "市民",
+      "example": "多くの市民がイベントに参加した。",
+      "example_vi": "Nhiều người dân thành phố đã tham gia sự kiện.",
+      "example_segments": [
+        {
+          "text": "多",
+          "reading": "おお"
+        },
+        {
+          "text": "くの市民がイベントに"
+        },
+        {
+          "text": "参加",
+          "reading": "さんか"
+        },
+        {
+          "text": "した。"
+        }
+      ]
+    },
+    {
+      "word": "氏名",
+      "example": "用紙に氏名を記入してください。",
+      "example_vi": "Xin hãy điền họ tên vào tờ giấy.",
+      "example_segments": [
+        {
+          "text": "用紙",
+          "reading": "ようし"
+        },
+        {
+          "text": "に氏名を"
+        },
+        {
+          "text": "記入",
+          "reading": "きにゅう"
+        },
+        {
+          "text": "してください。"
+        }
+      ]
+    },
+    {
+      "word": "車内",
+      "example": "車内では携帯電話を静かに使う。",
+      "example_vi": "Hãy sử dụng điện thoại di động một cách yên lặng trong xe.",
+      "example_segments": [
+        {
+          "text": "車内では"
+        },
+        {
+          "text": "携帯電話",
+          "reading": "けいたいでんわ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "静",
+          "reading": "しず"
+        },
+        {
+          "text": "かに"
+        },
+        {
+          "text": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "う。"
+        }
+      ]
+    },
+    {
+      "word": "習慣",
+      "example": "毎朝走ることを習慣にしている。",
+      "example_vi": "Tôi duy trì thói quen chạy bộ mỗi sáng.",
+      "example_segments": [
+        {
+          "text": "毎朝",
+          "reading": "まいあさ"
+        },
+        {
+          "text": "走",
+          "reading": "はし"
+        },
+        {
+          "text": "ることを習慣にしている。"
+        }
+      ]
+    },
+    {
+      "word": "就職",
+      "example": "卒業後、日本の会社に就職する。",
+      "example_vi": "Sau khi tốt nghiệp, tôi sẽ vào làm tại một công ty Nhật Bản.",
+      "example_segments": [
+        {
+          "text": "卒業後",
+          "reading": "そつぎょうご"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "日本",
+          "reading": "にほん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "に就職する。"
+        }
+      ]
+    },
+    {
+      "word": "集中",
+      "example": "静かな部屋で勉強に集中する。",
+      "example_vi": "Tập trung học trong căn phòng yên tĩnh.",
+      "example_segments": [
+        {
+          "text": "静",
+          "reading": "しず"
+        },
+        {
+          "text": "かな"
+        },
+        {
+          "text": "部屋",
+          "reading": "へや"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "に集中する。"
+        }
+      ]
+    },
+    {
+      "word": "収入",
+      "example": "毎月の収入と支出を記録する。",
+      "example_vi": "Ghi chép thu nhập và chi tiêu hằng tháng.",
+      "example_segments": [
+        {
+          "text": "毎月",
+          "reading": "まいつき"
+        },
+        {
+          "text": "の収入と"
+        },
+        {
+          "text": "支出",
+          "reading": "ししゅつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "記録",
+          "reading": "きろく"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "終了",
+      "example": "会議は午後五時に終了する。",
+      "example_vi": "Cuộc họp kết thúc lúc năm giờ chiều.",
+      "example_segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "午後",
+          "reading": "ごご"
+        },
+        {
+          "text": "五時",
+          "reading": "ごじ"
+        },
+        {
+          "text": "に終了する。"
+        }
+      ]
+    },
+    {
+      "word": "祝日",
+      "example": "祝日は銀行が休みになる。",
+      "example_vi": "Ngân hàng nghỉ vào ngày lễ.",
+      "example_segments": [
+        {
+          "text": "祝日は"
+        },
+        {
+          "text": "銀行",
+          "reading": "ぎんこう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "休",
+          "reading": "やす"
+        },
+        {
+          "text": "みになる。"
+        }
+      ]
+    },
+    {
+      "word": "手術",
+      "example": "父は来週、病院で手術を受ける。",
+      "example_vi": "Tuần sau bố tôi sẽ được phẫu thuật tại bệnh viện.",
+      "example_segments": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "来週",
+          "reading": "らいしゅう"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "病院",
+          "reading": "びょういん"
+        },
+        {
+          "text": "で手術を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "ける。"
+        }
+      ]
+    },
+    {
+      "word": "手段",
+      "example": "電車は便利な交通手段だ。",
+      "example_vi": "Tàu điện là phương tiện giao thông tiện lợi.",
+      "example_segments": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "便利",
+          "reading": "べんり"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "交通",
+          "reading": "こうつう"
+        },
+        {
+          "text": "手段だ。"
+        }
+      ]
+    },
+    {
+      "word": "主張",
+      "example": "会議で自分の意見を主張する。",
+      "example_vi": "Trình bày và bảo vệ ý kiến của mình trong cuộc họp.",
+      "example_segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "意見",
+          "reading": "いけん"
+        },
+        {
+          "text": "を主張する。"
+        }
+      ]
+    },
+    {
+      "word": "出勤",
+      "example": "毎朝八時に会社へ出勤する。",
+      "example_vi": "Mỗi sáng tôi đến công ty làm việc lúc tám giờ.",
+      "example_segments": [
+        {
+          "text": "毎朝",
+          "reading": "まいあさ"
+        },
+        {
+          "text": "八時",
+          "reading": "はちじ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "へ出勤する。"
+        }
+      ]
+    },
+    {
+      "word": "出身",
+      "example": "私はハノイ出身です。",
+      "example_vi": "Tôi quê ở Hà Nội.",
+      "example_segments": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "はハノイ出身です。"
+        }
+      ]
+    },
+    {
+      "word": "種類",
+      "example": "店には多くの種類の商品がある。",
+      "example_vi": "Cửa hàng có nhiều loại sản phẩm.",
+      "example_segments": [
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "多",
+          "reading": "おお"
+        },
+        {
+          "text": "くの種類の"
+        },
+        {
+          "text": "商品",
+          "reading": "しょうひん"
+        },
+        {
+          "text": "がある。"
+        }
+      ]
+    },
+    {
+      "word": "使用",
+      "example": "この機械を使用する前に説明を読む。",
+      "example_vi": "Đọc hướng dẫn trước khi sử dụng máy này.",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "機械",
+          "reading": "きかい"
+        },
+        {
+          "text": "を使用する"
+        },
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "読",
+          "reading": "よ"
+        },
+        {
+          "text": "む。"
+        }
+      ]
+    },
+    {
+      "word": "紹介",
+      "example": "友達に新しい先生を紹介する。",
+      "example_vi": "Giới thiệu giáo viên mới với bạn.",
+      "example_segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "新",
+          "reading": "あたら"
+        },
+        {
+          "text": "しい"
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "text": "を紹介する。"
+        }
+      ]
+    },
+    {
+      "word": "招待",
+      "example": "友人を誕生日会に招待する。",
+      "example_vi": "Mời bạn đến tiệc sinh nhật.",
+      "example_segments": [
+        {
+          "text": "友人",
+          "reading": "ゆうじん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "誕生日会",
+          "reading": "たんじょうびかい"
+        },
+        {
+          "text": "に招待する。"
+        }
+      ]
+    },
+    {
+      "word": "消費",
+      "example": "電気の消費を減らしたい。",
+      "example_vi": "Tôi muốn giảm lượng điện tiêu thụ.",
+      "example_segments": [
+        {
+          "text": "電気",
+          "reading": "でんき"
+        },
+        {
+          "text": "の消費を"
+        },
+        {
+          "text": "減",
+          "reading": "へ"
+        },
+        {
+          "text": "らしたい。"
+        }
+      ]
+    },
+    {
+      "word": "商品",
+      "example": "新しい商品が店に並んだ。",
+      "example_vi": "Sản phẩm mới đã được bày bán trong cửa hàng.",
+      "example_segments": [
+        {
+          "text": "新",
+          "reading": "あたら"
+        },
+        {
+          "text": "しい商品が"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "並",
+          "reading": "なら"
+        },
+        {
+          "text": "んだ。"
+        }
+      ]
+    },
+    {
+      "word": "証明",
+      "example": "身分を証明する書類が必要だ。",
+      "example_vi": "Cần giấy tờ chứng minh danh tính.",
+      "example_segments": [
+        {
+          "text": "身分",
+          "reading": "みぶん"
+        },
+        {
+          "text": "を証明する"
+        },
+        {
+          "text": "書類",
+          "reading": "しょるい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "word": "正面",
+      "example": "駅の正面で待ち合わせる。",
+      "example_vi": "Hẹn gặp trước mặt nhà ga.",
+      "example_segments": [
+        {
+          "text": "駅",
+          "reading": "えき"
+        },
+        {
+          "text": "の正面で"
+        },
+        {
+          "text": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わせる。"
+        }
+      ]
+    },
+    {
+      "word": "将来",
+      "example": "将来は医者になりたい。",
+      "example_vi": "Trong tương lai, tôi muốn trở thành bác sĩ.",
+      "example_segments": [
+        {
+          "text": "将来は"
+        },
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "になりたい。"
+        }
+      ]
+    },
+    {
+      "word": "食欲",
+      "example": "暑くて食欲がない。",
+      "example_vi": "Trời nóng nên tôi không muốn ăn.",
+      "example_segments": [
+        {
+          "text": "暑",
+          "reading": "あつ"
+        },
+        {
+          "text": "くて食欲がない。"
+        }
+      ]
+    },
+    {
+      "word": "食器",
+      "example": "食事の後で食器を洗う。",
+      "example_vi": "Rửa bát đĩa sau bữa ăn.",
+      "example_segments": [
+        {
+          "text": "食事",
+          "reading": "しょくじ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "後",
+          "reading": "あと"
+        },
+        {
+          "text": "で食器を"
+        },
+        {
+          "text": "洗",
+          "reading": "あら"
+        },
+        {
+          "text": "う。"
+        }
+      ]
+    },
+    {
+      "word": "書類",
+      "example": "必要な書類を提出する。",
+      "example_vi": "Nộp các giấy tờ cần thiết.",
+      "example_segments": [
+        {
+          "text": "必要",
+          "reading": "ひつよう"
+        },
+        {
+          "text": "な書類を"
+        },
+        {
+          "text": "提出",
+          "reading": "ていしゅつ"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "資料",
+      "example": "会議の資料を準備する。",
+      "example_vi": "Chuẩn bị tài liệu cho cuộc họp.",
+      "example_segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "の資料を"
+        },
+        {
+          "text": "準備",
+          "reading": "じゅんび"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "進学",
+      "example": "高校卒業後、大学に進学する。",
+      "example_vi": "Sau khi tốt nghiệp trung học phổ thông, tôi sẽ học tiếp lên đại học.",
+      "example_segments": [
+        {
+          "text": "高校",
+          "reading": "こうこう"
+        },
+        {
+          "text": "卒業後",
+          "reading": "そつぎょうご"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "に進学する。"
+        }
+      ]
+    },
+    {
+      "word": "進行",
+      "example": "司会者が会議を進行する。",
+      "example_vi": "Người điều phối điều hành cuộc họp.",
+      "example_segments": [
+        {
+          "text": "司会者",
+          "reading": "しかいしゃ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "を進行する。"
+        }
+      ]
+    },
+    {
+      "word": "申請",
+      "example": "市役所でビザの更新を申請する。",
+      "example_vi": "Xin gia hạn thị thực tại tòa thị chính.",
+      "example_segments": [
+        {
+          "text": "市役所",
+          "reading": "しやくしょ"
+        },
+        {
+          "text": "でビザの"
+        },
+        {
+          "text": "更新",
+          "reading": "こうしん"
+        },
+        {
+          "text": "を申請する。"
+        }
+      ]
+    },
+    {
+      "word": "心臓",
+      "example": "運動すると心臓が速く動く。",
+      "example_vi": "Khi vận động, tim đập nhanh.",
+      "example_segments": [
+        {
+          "text": "運動",
+          "reading": "うんどう"
+        },
+        {
+          "text": "すると心臓が"
+        },
+        {
+          "text": "速",
+          "reading": "はや"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "動",
+          "reading": "うご"
+        },
+        {
+          "text": "く。"
+        }
+      ]
+    },
+    {
+      "word": "心配",
+      "example": "遅いので家族が心配している。",
+      "example_vi": "Vì đã muộn nên gia đình đang lo lắng.",
+      "example_segments": [
+        {
+          "text": "遅",
+          "reading": "おそ"
+        },
+        {
+          "text": "いので"
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "text": "が心配している。"
+        }
+      ]
+    },
+    {
+      "word": "進歩",
+      "example": "医療技術が大きく進歩した。",
+      "example_vi": "Kỹ thuật y tế đã tiến bộ vượt bậc.",
+      "example_segments": [
+        {
+          "text": "医療",
+          "reading": "いりょう"
+        },
+        {
+          "text": "技術",
+          "reading": "ぎじゅつ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きく進歩した。"
+        }
+      ]
+    },
+    {
+      "word": "森林",
+      "example": "森林を火事から守る。",
+      "example_vi": "Bảo vệ rừng khỏi hỏa hoạn.",
+      "example_segments": [
+        {
+          "text": "森林を"
+        },
+        {
+          "text": "火事",
+          "reading": "かじ"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "守",
+          "reading": "まも"
+        },
+        {
+          "text": "る。"
+        }
+      ]
+    },
+    {
+      "word": "時期",
+      "example": "桜が咲く時期になった。",
+      "example_vi": "Đã đến mùa hoa anh đào nở.",
+      "example_segments": [
+        {
+          "text": "桜",
+          "reading": "さくら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "咲",
+          "reading": "さ"
+        },
+        {
+          "text": "く時期になった。"
+        }
+      ]
+    },
+    {
+      "word": "時給",
+      "example": "この店の時給は千二百円だ。",
+      "example_vi": "Tiền công theo giờ tại cửa hàng này là một nghìn hai trăm yên.",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "の時給は"
+        },
+        {
+          "text": "千二百円",
+          "reading": "せんにひゃくえん"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "word": "事件",
+      "example": "警察が事件を調べている。",
+      "example_vi": "Cảnh sát đang điều tra vụ việc.",
+      "example_segments": [
+        {
+          "text": "警察",
+          "reading": "けいさつ"
+        },
+        {
+          "text": "が事件を"
+        },
+        {
+          "text": "調",
+          "reading": "しら"
+        },
+        {
+          "text": "べている。"
+        }
+      ]
+    },
+    {
+      "word": "時刻",
+      "example": "電車の出発時刻を確認する。",
+      "example_vi": "Kiểm tra giờ khởi hành của tàu.",
+      "example_segments": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "出発",
+          "reading": "しゅっぱつ"
+        },
+        {
+          "text": "時刻を"
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "持参",
+      "example": "面接には履歴書を持参してください。",
+      "example_vi": "Hãy mang theo sơ yếu lý lịch đến buổi phỏng vấn.",
+      "example_segments": [
+        {
+          "text": "面接",
+          "reading": "めんせつ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "履歴書",
+          "reading": "りれきしょ"
+        },
+        {
+          "text": "を持参してください。"
+        }
+      ]
+    },
+    {
+      "word": "事情",
+      "example": "家庭の事情で仕事を休んだ。",
+      "example_vi": "Tôi đã nghỉ làm vì hoàn cảnh gia đình.",
+      "example_segments": [
+        {
+          "text": "家庭",
+          "reading": "かてい"
+        },
+        {
+          "text": "の事情で"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "休",
+          "reading": "やす"
+        },
+        {
+          "text": "んだ。"
+        }
+      ]
+    },
+    {
+      "word": "自信",
+      "example": "練習を重ねて自信がついた。",
+      "example_vi": "Qua nhiều lần luyện tập, tôi đã có thêm tự tin.",
+      "example_segments": [
+        {
+          "text": "練習",
+          "reading": "れんしゅう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "重",
+          "reading": "かさ"
+        },
+        {
+          "text": "ねて自信がついた。"
+        }
+      ]
+    },
+    {
+      "word": "時代",
+      "example": "時代とともに生活が変わる。",
+      "example_vi": "Cuộc sống thay đổi theo thời đại.",
+      "example_segments": [
+        {
+          "text": "時代とともに"
+        },
+        {
+          "text": "生活",
+          "reading": "せいかつ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "変",
+          "reading": "か"
+        },
+        {
+          "text": "わる。"
+        }
+      ]
+    },
+    {
+      "word": "自宅",
+      "example": "今日は自宅で仕事をする。",
+      "example_vi": "Hôm nay tôi làm việc tại nhà.",
+      "example_segments": [
+        {
+          "text": "今日",
+          "reading": "きょう"
+        },
+        {
+          "text": "は自宅で"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "をする。"
+        }
+      ]
+    },
+    {
+      "word": "実家",
+      "example": "休みに実家へ帰る。",
+      "example_vi": "Về nhà bố mẹ vào dịp nghỉ.",
+      "example_segments": [
+        {
+          "text": "休",
+          "reading": "やす"
+        },
+        {
+          "text": "みに実家へ"
+        },
+        {
+          "text": "帰",
+          "reading": "かえ"
+        },
+        {
+          "text": "る。"
+        }
+      ]
+    },
+    {
+      "word": "実験",
+      "example": "科学室で水の実験をする。",
+      "example_vi": "Làm thí nghiệm về nước trong phòng khoa học.",
+      "example_segments": [
+        {
+          "text": "科学室",
+          "reading": "かがくしつ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "水",
+          "reading": "みず"
+        },
+        {
+          "text": "の実験をする。"
+        }
+      ]
+    },
+    {
+      "word": "実行",
+      "example": "決めた計画をすぐ実行する。",
+      "example_vi": "Thực hiện ngay kế hoạch đã quyết định.",
+      "example_segments": [
+        {
+          "text": "決",
+          "reading": "き"
+        },
+        {
+          "text": "めた"
+        },
+        {
+          "text": "計画",
+          "reading": "けいかく"
+        },
+        {
+          "text": "をすぐ実行する。"
+        }
+      ]
+    },
+    {
+      "word": "実用",
+      "example": "この道具は実用性が高い。",
+      "example_vi": "Dụng cụ này có tính ứng dụng thực tế cao.",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ"
+        },
+        {
+          "text": "は実用"
+        },
+        {
+          "text": "性",
+          "reading": "せい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "い。"
+        }
+      ]
+    },
+    {
+      "word": "実力",
+      "example": "試合で自分の実力を発揮する。",
+      "example_vi": "Phát huy thực lực của bản thân trong trận đấu.",
+      "example_segments": [
+        {
+          "text": "試合",
+          "reading": "しあい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "text": "の実力を"
+        },
+        {
+          "text": "発揮",
+          "reading": "はっき"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "自慢",
+      "example": "父は故郷の料理を自慢する。",
+      "example_vi": "Bố tôi tự hào kể về món ăn quê hương.",
+      "example_segments": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "故郷",
+          "reading": "ふるさと"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "を自慢する。"
+        }
+      ]
+    },
+    {
+      "word": "事務",
+      "example": "会社で事務の仕事をしている。",
+      "example_vi": "Tôi đang làm công việc hành chính tại công ty.",
+      "example_segments": [
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "で事務の"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "をしている。"
+        }
+      ]
+    },
+    {
+      "word": "渋滞",
+      "example": "事故で道路が渋滞している。",
+      "example_vi": "Đường đang ùn tắc do tai nạn.",
+      "example_segments": [
+        {
+          "text": "事故",
+          "reading": "じこ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "道路",
+          "reading": "どうろ"
+        },
+        {
+          "text": "が渋滞している。"
+        }
+      ]
+    },
+    {
+      "word": "受験",
+      "example": "来年、大学を受験する。",
+      "example_vi": "Năm sau tôi sẽ thi vào đại học.",
+      "example_segments": [
+        {
+          "text": "来年",
+          "reading": "らいねん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "を受験する。"
+        }
+      ]
+    },
+    {
+      "word": "需要",
+      "example": "夏は電力の需要が増える。",
+      "example_vi": "Nhu cầu điện tăng vào mùa hè.",
+      "example_segments": [
+        {
+          "text": "夏",
+          "reading": "なつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "電力",
+          "reading": "でんりょく"
+        },
+        {
+          "text": "の需要が"
+        },
+        {
+          "text": "増",
+          "reading": "ふ"
+        },
+        {
+          "text": "える。"
+        }
+      ]
+    },
+    {
+      "word": "順番",
+      "example": "順番を守って並んでください。",
+      "example_vi": "Xin hãy xếp hàng đúng thứ tự.",
+      "example_segments": [
+        {
+          "text": "順番を"
+        },
+        {
+          "text": "守",
+          "reading": "まも"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "並",
+          "reading": "なら"
+        },
+        {
+          "text": "んでください。"
+        }
+      ]
+    },
+    {
+      "word": "準備",
+      "example": "旅行の準備を始める。",
+      "example_vi": "Bắt đầu chuẩn bị cho chuyến du lịch.",
+      "example_segments": [
+        {
+          "text": "旅行",
+          "reading": "りょこう"
+        },
+        {
+          "text": "の準備を"
+        },
+        {
+          "text": "始",
+          "reading": "はじ"
+        },
+        {
+          "text": "める。"
+        }
+      ]
+    },
+    {
+      "word": "上司",
+      "example": "上司に仕事の結果を報告する。",
+      "example_vi": "Báo cáo kết quả công việc với cấp trên.",
+      "example_segments": [
+        {
+          "text": "上司に"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "結果",
+          "reading": "けっか"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "報告",
+          "reading": "ほうこく"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "乗車",
+      "example": "切符を買って電車に乗車する。",
+      "example_vi": "Mua vé rồi lên tàu điện.",
+      "example_segments": [
+        {
+          "text": "切符",
+          "reading": "きっぷ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "買",
+          "reading": "か"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "に乗車する。"
+        }
+      ]
+    },
+    {
+      "word": "状態",
+      "example": "機械の状態を確認する。",
+      "example_vi": "Kiểm tra tình trạng của máy.",
+      "example_segments": [
+        {
+          "text": "機械",
+          "reading": "きかい"
+        },
+        {
+          "text": "の状態を"
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "冗談",
+      "example": "冗談を言ってみんなを笑わせた。",
+      "example_vi": "Tôi đã nói đùa khiến mọi người cười.",
+      "example_segments": [
+        {
+          "text": "冗談を"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "ってみんなを"
+        },
+        {
+          "text": "笑",
+          "reading": "わら"
+        },
+        {
+          "text": "わせた。"
+        }
+      ]
+    },
+    {
+      "word": "女性",
+      "example": "多くの女性がその講座に参加した。",
+      "example_vi": "Nhiều phụ nữ đã tham gia khóa học đó.",
+      "example_segments": [
+        {
+          "text": "多",
+          "reading": "おお"
+        },
+        {
+          "text": "くの女性がその"
+        },
+        {
+          "text": "講座",
+          "reading": "こうざ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "参加",
+          "reading": "さんか"
+        },
+        {
+          "text": "した。"
+        }
+      ]
+    },
+    {
+      "word": "神社",
+      "example": "正月に家族で神社へ行く。",
+      "example_vi": "Cả gia đình đi đền vào dịp năm mới.",
+      "example_segments": [
+        {
+          "text": "正月",
+          "reading": "しょうがつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "text": "で神社へ"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く。"
+        }
+      ]
+    },
+    {
+      "word": "人生",
+      "example": "人生について深く考える。",
+      "example_vi": "Suy nghĩ sâu sắc về cuộc đời.",
+      "example_segments": [
+        {
+          "text": "人生について"
+        },
+        {
+          "text": "深",
+          "reading": "ふか"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "考",
+          "reading": "かんが"
+        },
+        {
+          "text": "える。"
+        }
+      ]
+    },
+    {
+      "word": "人体",
+      "example": "人体の仕組みを学ぶ。",
+      "example_vi": "Học về cấu tạo và cơ chế hoạt động của cơ thể người.",
+      "example_segments": [
+        {
+          "text": "人体の"
+        },
+        {
+          "text": "仕組",
+          "reading": "しく"
+        },
+        {
+          "text": "みを"
+        },
+        {
+          "text": "学",
+          "reading": "まな"
+        },
+        {
+          "text": "ぶ。"
+        }
+      ]
+    },
+    {
+      "word": "睡眠",
+      "example": "健康には十分な睡眠が必要だ。",
+      "example_vi": "Ngủ đủ giấc là cần thiết cho sức khỏe.",
+      "example_segments": [
+        {
+          "text": "健康",
+          "reading": "けんこう"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "十分",
+          "reading": "じゅうぶん"
+        },
+        {
+          "text": "な睡眠が"
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "word": "数学",
+      "example": "兄は大学で数学を勉強している。",
+      "example_vi": "Anh trai tôi đang học toán tại đại học.",
+      "example_segments": [
+        {
+          "text": "兄",
+          "reading": "あに"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "で数学を"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
+    },
+    {
+      "word": "数字",
+      "example": "暗証番号の数字を入力する。",
+      "example_vi": "Nhập các chữ số của mã PIN.",
+      "example_segments": [
+        {
+          "text": "暗証番号",
+          "reading": "あんしょうばんごう"
+        },
+        {
+          "text": "の数字を"
+        },
+        {
+          "text": "入力",
+          "reading": "にゅうりょく"
+        },
+        {
+          "text": "する。"
+        }
+      ]
+    },
+    {
+      "word": "正解",
+      "example": "三問目の答えが正解だった。",
+      "example_vi": "Đáp án cho câu hỏi thứ ba đã đúng.",
+      "example_segments": [
+        {
+          "text": "三問目",
+          "reading": "さんもんめ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "答",
+          "reading": "こた"
+        },
+        {
+          "text": "えが正解だった。"
+        }
+      ]
+    }
+  ]
+}

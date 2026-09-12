@@ -50,7 +50,12 @@ def load_examples(path):
             fail(f'Example text mismatch: {key[0]}')
         for segment in segments:
             reading = segment.get('reading')
-            if reading is not None:
+            if segment.get('target') is True:
+                target_kanji = ''.join(re.findall(r'[一-龯々]', key[0]))
+                surface_kanji = ''.join(re.findall(r'[一-龯々]', segment['text']))
+                if reading is not None or not surface_kanji or surface_kanji not in target_kanji:
+                    fail(f'Invalid target inflection: {key[0]} / {segment["text"]}')
+            elif reading is not None:
                 if not re.fullmatch(r'[ぁ-ゖァ-ヺー・ ]+', reading) or key[0] in segment['text']:
                     fail(f'Invalid furigana or target word annotated: {key[0]}')
             elif re.search(r'[一-龯々]', segment['text'].replace(key[0], '')):

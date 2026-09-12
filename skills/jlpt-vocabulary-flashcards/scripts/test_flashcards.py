@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import load_vocabulary
 
@@ -12,6 +13,35 @@ SCRIPTS = Path(__file__).resolve().parent
 
 
 class FlashcardsTest(unittest.TestCase):
+    def test_entire_corpus_has_complete_annotations(self):
+        for level in ('N1', 'N2'):
+            source = subprocess.check_output(
+                [sys.executable, str(SCRIPTS / 'load_vocabulary.py'), '--level', level], text=True)
+            items = json.loads(source)['items']
+            self.assertTrue(items)
+            for item in items:
+                with self.subTest(source=item['source_file'], word=item['word']):
+                    self.assertTrue(item.get('example_vi', '').strip())
+                    self.assertTrue(item.get('example_segments'))
+                    self.assertTrue(item.get('example_notes_source'))
+
+    def test_target_inflections(self):
+        for segment, valid in (({'text': '飽きた', 'target': True}, True),
+                               ({'text': '飽きた', 'target': True, 'reading': 'あきた'}, False),
+                               ({'text': '食べた', 'target': True}, False)):
+            with self.subTest(segment=segment), tempfile.TemporaryDirectory() as folder:
+                path = Path(folder) / 'dai1.csv'
+                entry = {'word': '飽きる', 'example': segment['text'] + '。',
+                         'example_vi': 'Đã chán.', 'example_segments': [segment, {'text': '。'}]}
+                path.with_suffix('.examples.json').write_text(json.dumps({'version': 1, 'items': [entry]}))
+                with patch.object(load_vocabulary, 'RESOURCE_ROOT', Path(folder) / 'resources'):
+                    if valid:
+                        notes, _ = load_vocabulary.load_examples(path)
+                        self.assertEqual(notes[('飽きる', '飽きた。')], entry)
+                    else:
+                        with self.assertRaises(SystemExit):
+                            load_vocabulary.load_examples(path)
+
     def test_n1_annotations_preserve_all_sentences(self):
         source = subprocess.check_output(
             [sys.executable, str(SCRIPTS / 'load_vocabulary.py'),

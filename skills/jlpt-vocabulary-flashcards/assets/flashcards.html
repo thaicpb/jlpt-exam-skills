@@ -39,7 +39,8 @@ function example(item){
  const section=el('section',undefined,'fc-example');section.append(label('Câu mẫu'));
  const sentence=el('p',undefined,'fc-japanese');sentence.lang='ja';
  for(const segment of item.example_segments||[{text:item.example}]){
-  if(segment.reading){const ruby=el('ruby');ruby.append(document.createTextNode(segment.text),el('rp','('),el('rt',segment.reading),el('rp',')'));sentence.append(ruby)}
+  if(segment.target===true)sentence.append(el('span',segment.text,'fc-target'));
+  else if(segment.reading){const ruby=el('ruby');ruby.append(document.createTextNode(segment.text),el('rp','('),el('rt',segment.reading),el('rp',')'));sentence.append(ruby)}
   else appendPlain(sentence,segment.text,item.word);
  }
  section.append(sentence,el('p',item.example_vi||'Chưa có bản dịch câu mẫu.',item.example_vi?'fc-translation':'fc-missing'));
