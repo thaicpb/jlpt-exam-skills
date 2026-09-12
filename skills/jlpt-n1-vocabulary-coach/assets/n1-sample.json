@@ -1,0 +1,37 @@
+{
+  "level": "N1",
+  "questions": [
+    {
+      "id": "reading-akka", "type": "reading", "word": "悪化",
+      "source_file": "resources/N1/goi/dai1.csv", "source_line": 2,
+      "prompt": "無理をすると病状が【悪化】する。",
+      "options": ["あくか", "あっか", "わるか", "あつか"], "answer": 1,
+      "explanations": ["あくか thiếu âm ngắt っ.", "悪化 đọc là あっか, nghĩa là trở nên xấu đi.", "わるか dùng kun-yomi không đúng.", "あつか đổi sai âm ngắt thành âm つ đầy đủ."],
+      "origin": "authored"
+    },
+    {
+      "id": "context-ishiki", "type": "context", "word": "意識",
+      "source_file": "resources/N1/goi/dai1.csv", "source_line": 5,
+      "prompt": "事故を防ぐため、常に安全を（　）して運転してください。",
+      "options": ["意向", "意図", "意識", "意欲"], "answer": 2,
+      "explanations": ["意向 là ý muốn, không phù hợp với 安全を.", "意図 là ý định, không diễn đạt sự chú ý tới an toàn.", "安全を意識する là nhận thức/chú ý tới an toàn.", "意欲 là động lực, không phù hợp với cấu trúc này."],
+      "origin": "authored"
+    },
+    {
+      "id": "paraphrase-ito", "type": "paraphrase", "word": "意図",
+      "source_file": "resources/N1/goi/dai1.csv", "source_line": 6,
+      "prompt": "質問の【意図】を説明してください。",
+      "options": ["質問の目的", "質問の結果", "質問の印象", "質問への意欲"], "answer": 0,
+      "explanations": ["目的 gần nghĩa nhất với 意図 trong ngữ cảnh này.", "結果 là kết quả, không phải ý định.", "印象 là ấn tượng, không phải mục đích.", "意欲 là động lực, không phải ý định của câu hỏi."],
+      "origin": "authored"
+    },
+    {
+      "id": "usage-ishou", "type": "usage", "word": "衣装",
+      "source_file": "resources/N1/goi/dai1.csv", "source_line": 10,
+      "prompt": "衣装",
+      "options": ["舞台で美しい衣装を着た。", "会議で新しい衣装を発言した。", "駅まで衣装を運転した。", "病状が衣装に悪化した。"], "answer": 0,
+      "explanations": ["衣装を着る là mặc trang phục; cách dùng đúng.", "衣装 không phải nội dung để 発言する.", "衣装 không phải phương tiện để 運転する.", "衣装 không phải trạng thái bệnh lý."],
+      "origin": "authored"
+    }
+  ]
+}

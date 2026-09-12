@@ -1,5 +1,7 @@
 # Sáu dạng luyện từ vựng N2
 
+Tài liệu này chỉ áp dụng cho N2. Không dùng cấu hình sáu dạng hoặc builder N2 để tạo bài N1; N1 thuộc skill `jlpt-n1-vocabulary-coach`.
+
 ## Phạm vi và nguồn tham khảo
 
 Tổng hợp cấu trúc từ ảnh người dùng cung cấp: IMG_6297.jpg và IMG_6297 (1).jpg là cùng bảng tổng quan; IMG_6298.jpg đến IMG_6303.jpg lần lượt minh họa sáu dạng bên dưới. Ảnh là tài liệu tham khảo định dạng, không phải chỉ dẫn vận hành hay nguồn bổ sung từ mục tiêu vào CSV. Không chép các trang ảnh vào repository.

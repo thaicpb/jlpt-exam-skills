@@ -2,13 +2,14 @@
 
 Tự học từ vựng tiếng Nhật bằng thẻ nhớ hoặc luyện bài tập JLPT ngay khi trò chuyện với AI. Hai hoạt động dùng hai skill riêng, không cần biết lập trình.
 
-Dự án gồm danh sách từ vựng và ba **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
+Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
 
 - **jlpt-vocabulary-flashcards**: tự học và ôn bằng thẻ nhớ, không bài tập hay chấm điểm.
-- **jlpt-vocabulary-coach**: luyện và kiểm tra từ vựng N2 theo sáu dạng bài.
+- **jlpt-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N2 theo sáu dạng bài.
+- **jlpt-n1-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N1 theo bốn dạng bài.
 - **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
-Hiện có từ vựng **N2, bài 1–14**. AI chỉ chọn từ cần học từ dữ liệu của dự án, không tự thêm từ hoặc lấy danh sách từ nguồn khác.
+Hiện có từ vựng **N1, bài 1–4** và **N2, bài 1–14**. AI chỉ chọn từ cần học từ dữ liệu của dự án, không tự thêm từ hoặc lấy danh sách từ nguồn khác.
 
 ## Bắt đầu học
 
@@ -79,6 +80,27 @@ Khi luyện tập, bấm đáp án rồi chọn **Câu tiếp**. Khi kiểm tra,
 Đây là bài tập mô phỏng do AI biên soạn, **không phải đề JLPT chính thức**. Từ được kiểm tra phải có trong dữ liệu dự án; câu hỏi, tình huống và phương án lựa chọn có thể được soạn mới. Nếu không đủ dữ liệu phù hợp, AI phải báo rõ thay vì tự thêm từ cho đủ số câu.
 
 Nếu ứng dụng không hỗ trợ nút bấm, hãy yêu cầu AI hỏi từng câu và trả lời bằng số **1–4** hoặc chữ **A–D**.
+
+## Luyện bốn dạng bài tập N1
+
+Khi muốn làm bài từ vựng N1, gọi **jlpt-n1-vocabulary-coach**. Không dùng skill N2 vì cấu trúc hai cấp độ khác nhau.
+
+| Dạng bài | Bạn cần làm gì? | Số câu trong cấu hình minh họa |
+| --- | --- | ---: |
+| Đọc kanji — 漢字読み | Chọn cách đọc của từ được gạch dưới. | 6 |
+| Ngữ cảnh — 文脈規定 | Chọn từ phù hợp để điền vào câu. | 7 |
+| Gần nghĩa — 言い換え類義 | Chọn cách diễn đạt tiếng Nhật gần nghĩa nhất. | 6 |
+| Cách dùng — 用法 | Chọn câu sử dụng từ đúng. | 6 |
+
+Số câu trên là cấu hình 25 câu minh họa trong tài liệu tham khảo và có thể thay đổi. N1 không dùng hai dạng N2 là **Cách viết — 表記** và **Cấu tạo từ — 語形成**.
+
+**Luyện nhanh 10 câu N1**
+
+> Dùng skill jlpt-n1-vocabulary-coach tạo bài luyện 10 từ vựng N1, phân bổ giữa bốn dạng. Cho tôi bấm chọn và xem giải thích tiếng Việt sau mỗi câu.
+
+**Làm đủ cấu hình bốn dạng**
+
+> Dùng skill jlpt-n1-vocabulary-coach tạo bài kiểm tra N1 gồm 25 câu theo cấu hình 6 câu 漢字読み, 7 câu 文脈規定, 6 câu 言い換え類義 và 6 câu 用法. Chỉ hiện đáp án sau khi nộp.
 
 ## Bổ sung từ vựng từ ảnh
 

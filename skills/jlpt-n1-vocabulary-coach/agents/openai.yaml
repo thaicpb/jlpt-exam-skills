@@ -1,0 +1,4 @@
+interface:
+  display_name: "JLPT N1 Vocabulary Tests"
+  short_description: "Bài kiểm tra N1 theo bốn dạng bài"
+  default_prompt: "Dùng $jlpt-n1-vocabulary-coach tạo bài luyện N1 gồm bốn dạng và hiển thị đáp án bấm chọn."
