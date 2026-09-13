@@ -25,6 +25,7 @@ __STATIC_CARDS__
 <div id="fc-filters" class="fc-actions"></div>
 <article id="fc-card" class="fc-card" aria-live="polite"></article>
 <div id="fc-actions" class="fc-actions"></div>
+<p id="fc-audio-status" class="fc-compat-note" role="status"></p>
 <p id="fc-status" role="status"></p>
 </section>
 <script type="application/json" id="fc-data">__DATA__</script>
@@ -39,6 +40,33 @@ const key=item=>item.source_file+':'+item.source_line;
 const el=(tag,value,cls)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(cls)n.className=cls;return n};
 const button=(label,fn)=>{const b=el('button',label);b.type='button';b.onclick=()=>{if(!turning)fn()};return b};
 const label=text=>el('div',text,'fc-label');
+const synth=window.speechSynthesis;
+const canSpeak=Boolean(synth&&window.SpeechSynthesisUtterance);
+let utterance=null;
+function stopSpeech(){
+ const previous=utterance;utterance=null;
+ if(previous)synth.cancel();
+ get('fc-audio-status').textContent='';
+}
+function speak(item){
+ stopSpeech();
+ if(!canSpeak){get('fc-audio-status').textContent='Trình duyệt này chưa hỗ trợ phát âm.';return}
+ const voices=synth.getVoices().filter(voice=>/^ja(?:[-_]|$)/i.test(voice.lang));
+ if(!voices.length){
+  get('fc-audio-status').textContent='Chưa có giọng tiếng Nhật. Hãy bật hoặc cài giọng Nhật trên thiết bị rồi thử lại.';
+  return;
+ }
+ const current=new SpeechSynthesisUtterance(item.reading);
+ current.lang='ja-JP';current.voice=voices.find(voice=>voice.localService)||voices[0];
+ current.rate=0.85;utterance=current;
+ current.onend=()=>{if(utterance===current){utterance=null;get('fc-audio-status').textContent=''}};
+ current.onerror=()=>{if(utterance===current){utterance=null;get('fc-audio-status').textContent='Không phát được âm thanh. Hãy thử lại hoặc mở bằng trình duyệt khác.'}};
+ get('fc-audio-status').textContent='Đang phát âm…';
+ try{synth.speak(current)}catch(error){current.onerror()}
+}
+// Prime asynchronous voice loading; each click reads the latest voice list.
+if(canSpeak)synth.getVoices();
+window.addEventListener('pagehide',stopSpeech);
 function appendPlain(parent,text,word){
  const parts=text.split(word);
  parts.forEach((part,i)=>{if(i)parent.append(el('span',word,'fc-target'));parent.append(document.createTextNode(part))});
@@ -89,6 +117,7 @@ async function flipCard(){
  }
 }
 function render(){
+ stopSpeech();
  const list=reviewOnly?items.filter(item=>marked.has(key(item))):items;
  index=Math.max(0,Math.min(index,list.length-1));
  const lessons=[...new Set(items.map(item=>item.source_file.match(/dai(\d+)\.csv$/)?.[1]).filter(Boolean))];
@@ -105,6 +134,9 @@ function render(){
  const item=list[index];
  const vocab=el('div',undefined,'fc-vocab'+(flipped?'':' fc-front'));
  vocab.append(label('Từ đang học'));const word=el('div',item.word,'fc-word');word.lang='ja';vocab.append(word);card.append(vocab);
+ const audio=button('🔊 Phát âm',()=>speak(item));
+ audio.setAttribute('aria-label','Phát âm từ '+item.word);
+ const audioControls=el('div');audioControls.append(audio);vocab.append(audioControls);
  if(flipped){
   const info=el('div',undefined,'fc-info');
   const reading=el('div');const readingText=el('div',item.reading,'fc-reading');readingText.lang='ja';reading.append(label('Cách đọc'),readingText);
