@@ -111,6 +111,16 @@ class FlashcardsTest(unittest.TestCase):
                 self.assertIn(item["example_vi"], fallback)
                 self.assertIn(f'{item["source_file"]}:{item["source_line"]}', fallback)
 
+    def test_offset_selects_a_contiguous_card_set(self):
+        result, html = self.build("--lesson", "dai1", "--offset", "2", "--limit", "3")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        payload = json.loads(re.search(r'id="fc-data">(.*?)</script>', html, re.S)[1])
+        source = json.loads(subprocess.check_output(
+            [sys.executable, str(SCRIPTS / "load_vocabulary.py"),
+             "--level", "N2", "--lesson", "dai1"], text=True))
+        self.assertEqual(payload["items"], source["items"][2:5])
+        self.assertEqual(payload["count"], 3)
+
     def test_interactive_ui_activates_only_after_render(self):
         result, html = self.build("--lesson", "dai1", "--limit", "1")
         self.assertEqual(result.returncode, 0, result.stderr)
@@ -129,6 +139,12 @@ class FlashcardsTest(unittest.TestCase):
         self.assertTrue(all(item["word"] == "価格" for item in data["items"]))
         result, html = self.build("--word", "NOT_IN_CORPUS")
         self.assertNotEqual(result.returncode, 0)
+        self.assertEqual(html, "")
+
+    def test_word_cannot_be_combined_with_offset(self):
+        result, html = self.build("--word", "価格", "--offset", "1")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("--word cannot be combined", result.stderr)
         self.assertEqual(html, "")
 
     def test_missing_lesson(self):

@@ -44,6 +44,12 @@ Một vài yêu cầu có thể sao chép vào cuộc trò chuyện:
 
 > Dùng skill jlpt-vocabulary-flashcards cho tôi học 10 từ đầu tiên của bài 8 (dai8), N2. Dùng chữ lớn, dễ đọc và lật thẻ bằng nút bấm.
 
+**Chia một bài thành nhiều bộ thẻ**
+
+> Dùng skill jlpt-vocabulary-flashcards tạo toàn bộ thẻ của bài 1, N1 và chia tuần tự thành các bộ 20 từ. Không bỏ sót hoặc lặp từ giữa các bộ.
+
+Khi tạo nhiều bộ, skill dùng `--offset` cùng `--limit` để giữ nguyên thứ tự trong dữ liệu. Ví dụ, năm bộ 20 từ lần lượt có offset `0`, `20`, `40`, `60` và `80`. Mỗi bộ là một tệp HTML độc lập.
+
 **Ôn những từ còn nhầm**
 
 > Đây là danh sách từ tôi cần ôn: [dán danh sách từ]. Hãy dùng skill jlpt-vocabulary-flashcards tạo thẻ nhớ cho các từ này. Chỉ dùng những từ có trong dữ liệu dự án.

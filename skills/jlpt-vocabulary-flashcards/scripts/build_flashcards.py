@@ -56,14 +56,15 @@ def main():
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--limit", type=int)
     group.add_argument("--sample", type=int)
+    parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--seed", type=int)
     parser.add_argument("--word", action="append")
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
-    if args.word and (args.limit is not None or args.sample is not None):
-        parser.error("--word cannot be combined with --limit or --sample")
+    if args.word and (args.limit is not None or args.sample is not None or args.offset):
+        parser.error("--word cannot be combined with --limit, --sample, or --offset")
     command = [sys.executable, str(ROOT / "scripts/load_vocabulary.py"), "--level", args.level]
-    for key in ("lesson", "limit", "sample", "seed"):
+    for key in ("lesson", "limit", "sample", "seed", "offset"):
         value = getattr(args, key)
         if value is not None:
             command.extend(["--" + key, str(value)])

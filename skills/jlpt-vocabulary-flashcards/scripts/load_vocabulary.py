@@ -23,6 +23,7 @@ def parse_args() -> argparse.Namespace:
     selection = parser.add_mutually_exclusive_group()
     selection.add_argument("--limit", type=int, help="Take the first N matching rows")
     selection.add_argument("--sample", type=int, help="Randomly sample N matching rows")
+    parser.add_argument("--offset", type=int, default=0, help="Skip the first N matching rows")
     parser.add_argument("--seed", type=int, help="Seed used with --sample")
     return parser.parse_args()
 
@@ -75,6 +76,10 @@ def main() -> None:
         fail("--limit must be at least 1")
     if args.sample is not None and args.sample < 1:
         fail("--sample must be at least 1")
+    if args.offset < 0:
+        fail("--offset must be at least 0")
+    if args.sample is not None and args.offset:
+        fail("--offset cannot be combined with --sample")
 
     goi_dir = RESOURCE_ROOT / level / "goi"
     if not goi_dir.is_dir():
@@ -118,7 +123,9 @@ def main() -> None:
         seed = args.seed if args.seed is not None else secrets.randbits(32)
         rows = random.Random(seed).sample(rows, min(args.sample, len(rows)))
     elif args.limit is not None:
-        rows = rows[:args.limit]
+        rows = rows[args.offset:args.offset + args.limit]
+    elif args.offset:
+        rows = rows[args.offset:]
 
     print(json.dumps({"level": level, "count": len(rows), "seed": seed, "items": rows}, ensure_ascii=False, indent=2))
 
