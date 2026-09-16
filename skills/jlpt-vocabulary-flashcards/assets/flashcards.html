@@ -23,6 +23,7 @@ __STATIC_CARDS__
 <section id="fc-interactive" hidden aria-label="Flashcard tương tác">
 <progress id="fc-progress" aria-label="Vị trí thẻ"></progress>
 <div id="fc-filters" class="fc-actions"></div>
+<div id="fc-display-mode" class="fc-actions" aria-label="Chế độ hiển thị nghĩa"></div>
 <div id="fc-actions" class="fc-actions"></div>
 <article id="fc-card" class="fc-card" aria-live="polite"></article>
 <p id="fc-audio-status" class="fc-compat-note" role="status"></p>
@@ -35,7 +36,7 @@ const root=document.getElementById('jlpt-flashcards');
 const get=id=>root.querySelector('#'+id);
 const payload=JSON.parse(get('fc-data').textContent);
 const items=payload.items,marked=new Set();
-let index=0,flipped=false,reviewOnly=false,turning=false;
+let index=0,flipped=false,showMeaningByDefault=false,reviewOnly=false,turning=false;
 const key=item=>item.source_file+':'+item.source_line;
 const el=(tag,value,cls)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(cls)n.className=cls;return n};
 const button=(label,fn)=>{const b=el('button',label);b.type='button';b.onclick=()=>{if(!turning)fn()};return b};
@@ -127,8 +128,14 @@ function render(){
  get('fc-status').textContent='Dấu “Cần xem lại” chỉ lưu trong phiên này.';
  const filters=get('fc-filters');filters.replaceChildren();
  for(const [text,value] of [['Tất cả · '+items.length,false],['Cần xem lại · '+marked.size,true]]){
-  const b=button(text,()=>{reviewOnly=value;index=0;flipped=false;render()});b.setAttribute('aria-pressed',String(reviewOnly===value));filters.append(b);
+  const b=button(text,()=>{reviewOnly=value;index=0;flipped=showMeaningByDefault;render()});b.setAttribute('aria-pressed',String(reviewOnly===value));filters.append(b);
  }
+ const displayMode=get('fc-display-mode');displayMode.replaceChildren();
+ const meaningMode=button('Luôn hiện nghĩa: '+(showMeaningByDefault?'Bật':'Tắt'),()=>{
+  showMeaningByDefault=!showMeaningByDefault;flipped=showMeaningByDefault;render();
+  get('fc-display-mode').querySelector('button').focus({preventScroll:true});
+ });
+ meaningMode.setAttribute('aria-pressed',String(showMeaningByDefault));displayMode.append(meaningMode);
  const card=get('fc-card'),actions=get('fc-actions');card.replaceChildren();actions.replaceChildren();
  if(!list.length){card.append(el('p','Chưa có thẻ cần xem lại. Chọn “Tất cả” để tiếp tục.','fc-empty'));return}
  const item=list[index];
@@ -146,11 +153,11 @@ function render(){
   card.append(info,example(item),source);
  }else vocab.append(el('p','Nhớ cách đọc và ý nghĩa trước khi lật thẻ.','fc-hint'));
  const flip=button(flipped?'↶ Mặt trước':'Lật thẻ',flipCard);flip.className='fc-primary';actions.append(flip);
- const mark=button(marked.has(key(item))?'✓ Đã đánh dấu':'☆ Cần xem lại',()=>{const id=key(item);if(marked.has(id))marked.delete(id);else marked.add(id);if(reviewOnly)flipped=false;render()});
+ const mark=button(marked.has(key(item))?'✓ Đã đánh dấu':'☆ Cần xem lại',()=>{const id=key(item);if(marked.has(id))marked.delete(id);else marked.add(id);if(reviewOnly)flipped=showMeaningByDefault;render()});
  mark.setAttribute('aria-pressed',String(marked.has(key(item))));actions.append(mark);
  const nav=el('div',undefined,'fc-nav');
- const prev=button('← Trước',()=>{index--;flipped=false;render()});prev.disabled=index===0;
- const next=button(index===list.length-1?'Về đầu ↺':'Tiếp →',()=>{index=(index+1)%list.length;flipped=false;render()});nav.append(prev,next);actions.append(nav);
+ const prev=button('← Trước',()=>{index--;flipped=showMeaningByDefault;render()});prev.disabled=index===0;
+ const next=button(index===list.length-1?'Về đầu ↺':'Tiếp →',()=>{index=(index+1)%list.length;flipped=showMeaningByDefault;render()});nav.append(prev,next);actions.append(nav);
 }
 render();
 get('fc-interactive').hidden=false;
