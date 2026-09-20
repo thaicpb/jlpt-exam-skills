@@ -15,3 +15,5 @@ venv/
 # Editor settings
 .idea/
 .vscode/
+
+output/
