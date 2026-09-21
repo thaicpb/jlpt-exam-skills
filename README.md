@@ -9,7 +9,7 @@ Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫ
 - **jlpt-n1-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N1 theo bốn dạng bài.
 - **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
-Hiện có từ vựng **N1, bài 1–4** và **N2, bài 1–14**. Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI được bổ sung nghĩa Việt và ví dụ còn thiếu theo phong cách các bài hiện có; không tự thêm từ ngoài ảnh.
+Hiện có từ vựng **N1, bài 1–22** và **N2, bài 1–14**. Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI được bổ sung nghĩa Việt và ví dụ còn thiếu theo phong cách các bài hiện có; không tự thêm từ ngoài ảnh.
 
 ## Bắt đầu học
 
