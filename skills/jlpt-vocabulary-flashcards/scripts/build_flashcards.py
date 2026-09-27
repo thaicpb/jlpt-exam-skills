@@ -37,9 +37,10 @@ def render_static_cards(items):
         cards.append(
             f'<details class="fc-static-card" data-card-index="{index}">'
             f'<summary><span class="fc-static-number">{index}</span>'
-            f'<span lang="ja" class="fc-static-word">{word}</span></summary>'
+            f'<span lang="ja" class="fc-static-word">{word}</span>'
+            f'<span lang="ja" class="fc-static-reading">{reading}</span></summary>'
             '<div class="fc-static-answer">'
-            f'<div class="fc-info"><div><div class="fc-label">Cách đọc</div><div lang="ja" class="fc-reading">{reading}</div></div>'
+            '<div class="fc-info">'
             f'<div><div class="fc-label">Ý nghĩa</div><div class="fc-meaning">{meaning}</div></div></div>'
             f'<section class="fc-example"><div class="fc-label">Câu mẫu</div><p lang="ja" class="fc-japanese">{render_example(item)}</p>'
             f'<p class="fc-translation">{translation}</p></section>'
