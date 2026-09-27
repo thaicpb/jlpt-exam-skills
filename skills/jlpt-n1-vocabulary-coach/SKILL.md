@@ -19,7 +19,7 @@ Chỉ phụ trách bốn dạng N1: 漢字読み, 文脈規定, 言い換え類�
 1. Đọc đầy đủ [references/n1-exercise-types.md](references/n1-exercise-types.md).
 2. Xác định số câu, dạng bài, phạm vi và chế độ. Nếu người dùng chỉ nêu tổng số câu, phân bổ cân bằng nhất có thể giữa bốn dạng; không tự thêm dạng thứ năm.
 3. Nạp CSV, biên soạn bank JSON theo `assets/n1-sample.json`. Mỗi câu có bốn lựa chọn khác nhau, đúng một đáp án và giải thích tiếng Việt cho cả bốn lựa chọn.
-4. Chạy `scripts/build_n1_exam.py --bank <bank.json> --output <output.html>`. Dùng `--mode exam --full` chỉ khi cần đúng cấu hình 25 câu minh họa: 6–7–6–6.
+4. Chạy `scripts/build_n1_exam.py --bank <bank.json> --output <output.html>`. Dùng `--mode exam --full` chỉ khi cần đúng cấu hình 25 câu minh họa: 6–7–6–6. Giao diện hiển thị toàn bộ câu dạng danh sách, nhóm theo từng 問題 như đề thật (đề bài tiếng Nhật, phần gạch dưới/chỗ trống); người học chuyển được Kiểm tra/Luyện tập ngay trong trang, `--mode` chỉ đặt chế độ mặc định. Sau khi nộp: điểm tổng, điểm theo dạng bài, danh sách từ cần ôn, tô đúng/sai và giải thích từng phương án, nút làm lại câu sai.
 5. Dùng HTML do builder tạo làm đầu ra; không viết lại giao diện chỉ để đổi cách hiển thị. Mặc định lưu vào `outputs/<tên-bài>/` ở thư mục gốc dự án (đã gitignore) trừ khi người dùng chỉ định nơi khác. Cách đưa file cho người dùng theo môi trường:
    - **Claude Code (CLI/IDE):** báo đường dẫn tuyệt đối của file HTML để người dùng mở bằng browser; có thể chạy `open <file>` (macOS) nếu người dùng muốn.
    - **Claude Desktop/Cowork, Claude.ai:** lưu file vào thư mục người dùng đã chọn rồi trình bày file bằng công cụ chia sẻ/preview file sẵn có; chỉ đăng thành artifact/trang web khi người dùng muốn giữ lâu hoặc chia sẻ.

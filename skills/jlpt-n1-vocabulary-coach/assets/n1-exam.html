@@ -1,107 +1,255 @@
 <!doctype html>
 <html lang="vi">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Luyện từ vựng N1</title>
-<div id="n1-exam">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luyện từ vựng JLPT</title>
+<div id="jlpt-exam" data-level="N1">
 <style>
-#n1-exam {box-sizing:border-box;width:100%;max-width:960px;margin:auto;padding:clamp(10px,3vw,24px);font:clamp(15px,2vw,17px)/1.5 system-ui,sans-serif;color:light-dark(#202b37,#edf2f7);--surface:light-dark(#f4f7fb,#202b38);--line:light-dark(#c9d4e3,#53657b);--brand:light-dark(#244cb3,#b9ceff);--paper:light-dark(#fff,#141d29)}
-#n1-exam *{box-sizing:border-box}
-#n1-exam header{margin-bottom:14px}
-#n1-exam h2{font-size:clamp(22px,4vw,28px);line-height:1.25;margin:0 0 4px}
-#n1-exam h3{margin:0 0 6px}
-#n1-exam p{margin:6px 0}
-#n1-exam button{font:inherit;white-space:normal;overflow-wrap:anywhere;cursor:pointer;padding:9px 13px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:inherit;min-height:44px;touch-action:manipulation}
-#n1-exam button:hover:not(:disabled){border-color:var(--brand)}
-#n1-exam button:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
-#n1-exam button[aria-pressed=true]{border:2px solid var(--brand);background:var(--surface)}
-#n1-exam button:disabled{cursor:default}
-#n1-exam .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0}
-#n1-exam #exam-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-inline:contain;padding:2px 1px 6px;scrollbar-width:thin}
-#n1-exam #exam-nav button{flex:0 0 auto;min-width:42px;padding:6px 9px}
-#n1-exam article{background:var(--surface);border-radius:clamp(14px,3vw,20px);padding:clamp(16px,3vw,26px)}
-#n1-exam .sentence{font-size:clamp(20px,4vw,28px);line-height:1.65;overflow-wrap:anywhere;margin:clamp(12px,2vw,20px) 0}
-#n1-exam .sentence u{text-decoration-color:var(--brand);text-underline-offset:8px;text-decoration-thickness:3px}
-#n1-exam .options{display:grid;gap:8px;grid-template-columns:repeat(2,minmax(0,1fr))}
-#n1-exam .options.long{grid-template-columns:1fr}
-#n1-exam .options button{text-align:left;font-size:clamp(16px,3vw,20px)}
-#n1-exam .details{border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
-#n1-exam .source{font-size:12px;overflow-wrap:anywhere}
-#n1-exam .review-row{margin:12px 0;padding:14px;border:1px solid var(--line);border-left:5px solid var(--line);border-radius:10px;overflow-wrap:anywhere}
-#n1-exam .review-row.correct{border-left-color:#15803d;background:#f0fdf4;background:light-dark(#f0fdf4,#153126)}
-#n1-exam .review-row.incorrect{border-left-color:#dc2626;background:#fff1f2;background:light-dark(#fff1f2,#3a2027)}
-#n1-exam .review-row.unanswered{background:var(--paper)}
-#n1-exam .result-label{font-weight:700}
-#n1-exam .correct .result-label{color:#166534;color:light-dark(#166534,#86efac)}
-#n1-exam .incorrect .result-label{color:#b91c1c;color:light-dark(#b91c1c,#fda4af)}
-#n1-exam .review-row button{margin-top:6px}
-#n1-exam progress{width:100%;height:6px;accent-color:var(--brand);display:block}
-#n1-exam #exam-actions button:last-child{margin-left:auto}
-#n1-exam #exam-status{font-size:13px;min-height:1.5em}
-@media(max-width:560px){#n1-exam{padding:10px 8px}#n1-exam header{margin-bottom:8px}#n1-exam header>p:last-child{font-size:12px;color:light-dark(#5c6874,#bbc7d3)}#n1-exam .toolbar{margin:8px 0}#n1-exam article{padding:14px 12px}#n1-exam .sentence{font-size:clamp(19px,5vw,23px);line-height:1.55;margin:10px 0}#n1-exam .options button{font-size:15px;min-height:42px;padding:8px 10px}#n1-exam #exam-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#n1-exam #exam-actions button{width:100%}#n1-exam #exam-actions button:last-child{grid-column:1/-1;margin-left:0}}
-@media(max-width:360px){#n1-exam .options{grid-template-columns:1fr}#n1-exam .options button{min-height:40px}}
-@media(max-height:720px) and (max-width:760px){#n1-exam{padding-top:6px;padding-bottom:6px}#n1-exam header>p:last-child{display:none}#n1-exam header{margin-bottom:5px}#n1-exam .toolbar{margin:6px 0}#n1-exam article{padding-top:11px;padding-bottom:11px}#n1-exam .sentence{margin:7px 0;line-height:1.45}#n1-exam .options{gap:6px}#n1-exam .options button{min-height:38px;padding-top:6px;padding-bottom:6px}}
+#jlpt-exam{
+  --bg:#f4e9e5;--paper:#fffaf6;--ink:#422b2b;--muted:#815e5b;--line:#e4c9c5;--accent:#b32230;--on-accent:#fff9f4;--soft:#f7dfdc;
+  --ok:#1f7a4d;--ok-soft:#dcefe3;--bad:#b3261e;--bad-soft:#f7dcd9;
+  --jp:'Hiragino Mincho ProN','Yu Mincho','Noto Serif CJK JP',serif;
+  color-scheme:light;
+}
+#jlpt-exam[data-level="N2"]{--bg:#e8edf4;--paper:#fcfcff;--ink:#1c2e4b;--muted:#5e6e87;--line:#cbd5e3;--accent:#12285d;--soft:#dfe8f5}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) #jlpt-exam{--bg:#1d1716;--paper:#2a2120;--ink:#f3e6e2;--muted:#bfa29d;--line:#4a3835;--accent:#e2525f;--on-accent:#1d1716;--soft:#3a2b29;--ok:#6fd39b;--ok-soft:#173a29;--bad:#ff8a80;--bad-soft:#48201d;color-scheme:dark}
+  :root:not([data-theme="light"]) #jlpt-exam[data-level="N2"]{--bg:#141a24;--paper:#1d2533;--ink:#e6ecf6;--muted:#9aabc4;--line:#334159;--accent:#7ea2ea;--on-accent:#141a24;--soft:#253047}
+}
+:root[data-theme="dark"] #jlpt-exam{--bg:#1d1716;--paper:#2a2120;--ink:#f3e6e2;--muted:#bfa29d;--line:#4a3835;--accent:#e2525f;--on-accent:#1d1716;--soft:#3a2b29;--ok:#6fd39b;--ok-soft:#173a29;--bad:#ff8a80;--bad-soft:#48201d;color-scheme:dark}
+:root[data-theme="dark"] #jlpt-exam[data-level="N2"]{--bg:#141a24;--paper:#1d2533;--ink:#e6ecf6;--muted:#9aabc4;--line:#334159;--accent:#7ea2ea;--on-accent:#141a24;--soft:#253047}
+html,body{margin:0}
+#jlpt-exam{box-sizing:border-box;min-height:100vh;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+#jlpt-exam *{box-sizing:border-box}
+#jlpt-exam button{font:inherit;color:inherit;cursor:pointer;touch-action:manipulation}
+#jlpt-exam button:focus-visible,#jlpt-exam a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#jlpt-exam .wrap{max-width:720px;margin:0 auto;padding:calc(env(safe-area-inset-top,0px) + 14px) 16px 0}
+#jlpt-exam .brand{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+#jlpt-exam h1{font-size:24px;font-weight:600;letter-spacing:-.02em;margin:2px 0 2px;text-wrap:balance}
+#jlpt-exam .meta{font-size:13px;color:var(--muted);margin:0 0 14px}
+#jlpt-exam .segmented{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;background:var(--soft);border-radius:10px;padding:3px;gap:3px}
+#jlpt-exam .segmented button{border:0;background:transparent;border-radius:8px;min-height:40px;font-weight:600;color:var(--muted)}
+#jlpt-exam .segmented button[aria-pressed=true]{background:var(--paper);color:var(--accent);box-shadow:0 1px 3px #0002}
+#jlpt-exam .mode-hint{font-size:13px;color:var(--muted);margin:6px 0 14px}
+#jlpt-exam .part{margin:0 0 18px}
+#jlpt-exam .part-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:0 0 8px}
+#jlpt-exam .part-head b{font:600 17px/1.3 var(--jp)}
+#jlpt-exam .part-head span{font-size:13px;color:var(--muted)}
+#jlpt-exam .instruction{font:15px/1.7 var(--jp);background:var(--soft);border-radius:10px;padding:10px 12px;margin:0 0 12px}
+#jlpt-exam .q-list{display:grid;gap:12px}
+#jlpt-exam .q{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px 14px 14px;scroll-margin:80px}
+#jlpt-exam .q.is-right{border-color:var(--ok)}
+#jlpt-exam .q.is-wrong,#jlpt-exam .q.is-skipped{border-color:var(--bad)}
+#jlpt-exam .q-head{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
+#jlpt-exam .q-verdict{font-weight:700;letter-spacing:0}
+#jlpt-exam .is-right .q-verdict{color:var(--ok)}
+#jlpt-exam .is-wrong .q-verdict,#jlpt-exam .is-skipped .q-verdict{color:var(--bad)}
+#jlpt-exam .q-sentence{font:19px/1.8 var(--jp);margin:6px 0 10px;overflow-wrap:anywhere}
+#jlpt-exam .q-sentence.word{font-size:26px;font-weight:600;letter-spacing:.04em}
+#jlpt-exam .q-sentence u{text-decoration-thickness:2px;text-underline-offset:5px;text-decoration-color:var(--accent)}
+#jlpt-exam .blank{display:inline-block;min-width:3.2em;border-bottom:2px solid var(--accent);margin:0 .2em;text-align:center;color:var(--accent)}
+#jlpt-exam .opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#jlpt-exam .opts.long{grid-template-columns:1fr}
+#jlpt-exam .opt{display:flex;align-items:center;justify-content:flex-start;gap:10px;min-height:48px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);text-align:left;font:17px/1.45 var(--jp)}
+#jlpt-exam .opt>span:last-child{flex:1;text-align:left;overflow-wrap:anywhere}
+#jlpt-exam .opt-n{display:grid;place-items:center;flex-shrink:0;width:24px;height:24px;border-radius:50%;border:1px solid var(--line);font:600 12px/1 -apple-system,sans-serif;color:var(--muted)}
+#jlpt-exam .opt.chosen{border-color:var(--ink);background:var(--paper);box-shadow:inset 0 0 0 1px var(--ink)}
+#jlpt-exam .opt.chosen .opt-n{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+#jlpt-exam .opt.right{border-color:var(--ok);background:var(--ok-soft)}
+#jlpt-exam .opt.right .opt-n{background:var(--ok);border-color:var(--ok);color:var(--paper)}
+#jlpt-exam .opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+#jlpt-exam .opt.wrong .opt-n{background:var(--bad);border-color:var(--bad);color:var(--paper)}
+#jlpt-exam .opt:disabled{cursor:default}
+#jlpt-exam .opt:not(.right):not(.wrong):disabled{opacity:.55}
+#jlpt-exam details.explain{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+#jlpt-exam details.explain summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--accent);min-height:32px;display:flex;align-items:center}
+#jlpt-exam .word-line{font:16px/1.6 var(--jp);margin:6px 0}
+#jlpt-exam .word-line b{font-size:18px}
+#jlpt-exam .ex{display:grid;gap:4px;margin:6px 0 0;padding:0;list-style:none}
+#jlpt-exam .ex li{font-size:14px;line-height:1.55;padding:6px 8px;border-radius:8px;background:var(--bg)}
+#jlpt-exam .ex li.right{background:var(--ok-soft)}
+#jlpt-exam .ex li.wrong{background:var(--bad-soft)}
+#jlpt-exam .ex li span{font-family:var(--jp);font-weight:600}
+#jlpt-exam .source{font-size:11px;color:var(--muted);margin:6px 0 0;overflow-wrap:anywhere}
+#jlpt-exam .result{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 16px}
+#jlpt-exam .result-score{display:flex;align-items:baseline;gap:10px}
+#jlpt-exam .result-score b{font-size:40px;line-height:1.1;color:var(--accent);font-variant-numeric:tabular-nums}
+#jlpt-exam .result-score span{font-size:15px;color:var(--muted)}
+#jlpt-exam .label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:10px 0 4px}
+#jlpt-exam .by-type{display:grid;gap:4px;margin:0;padding:0;list-style:none;font-size:14px}
+#jlpt-exam .by-type li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding:3px 0;font-variant-numeric:tabular-nums}
+#jlpt-exam .chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+#jlpt-exam .chip-word{font:15px/1.3 var(--jp);color:var(--bad);background:var(--bad-soft);border-radius:8px;padding:5px 9px;text-decoration:none}
+#jlpt-exam .note{font-size:12px;color:var(--muted);margin:6px 0 10px}
+#jlpt-exam .row{display:flex;flex-wrap:wrap;gap:8px}
+#jlpt-exam .btn{min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--bg);padding:0 14px;font-weight:600}
+#jlpt-exam .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+#jlpt-exam .bar{position:sticky;bottom:0;display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px;padding:12px 0 calc(env(safe-area-inset-bottom,0px) + 12px);background:linear-gradient(transparent,var(--bg) 30%);margin-top:6px}
+#jlpt-exam .bar span{font-size:14px;color:var(--muted)}
+#jlpt-exam .bar button{min-height:52px;border-radius:12px;border:1px solid var(--accent);background:var(--accent);color:var(--on-accent);font-weight:600;padding:0 18px}
+#jlpt-exam .foot{font-size:12px;color:var(--muted);text-align:center;padding:10px 0 calc(env(safe-area-inset-bottom,0px) + 20px)}
+@media (max-width:360px){#jlpt-exam .opts{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){#jlpt-exam *{scroll-behavior:auto!important}}
 </style>
-<header><h2>Luyện từ vựng N1</h2><p id="exam-meta"></p><p>Bài tập biên soạn · Từ mục tiêu từ CSV · Không phải đề chính thức</p></header>
-<div id="exam-nav" class="toolbar" aria-label="Chọn câu hỏi"></div>
-<progress id="exam-progress" max="1" value="0" aria-label="Số câu đã trả lời"></progress>
-<article id="exam-stage"></article>
-<div id="exam-actions" class="toolbar"></div>
-<div id="exam-status" role="status" aria-live="polite"></div>
+<div class="wrap">
+  <header>
+    <div class="brand">日本語 · Luyện từ vựng</div>
+    <h1 id="exam-title">Luyện từ vựng JLPT</h1>
+    <p class="meta" id="exam-meta"></p>
+  </header>
+  <div id="exam-root"><noscript>Bài luyện cần bật JavaScript.</noscript></div>
+  <p class="foot">Bài tập do AI biên soạn · Từ mục tiêu lấy từ CSV của dự án · Không phải đề JLPT chính thức</p>
+</div>
 <script type="application/json" id="exam-data">__EXAM_DATA__</script>
 <script>
-(()=>{
-const root=document.getElementById('n1-exam'),find=id=>root.querySelector('#'+id);
-const data=JSON.parse(find('exam-data').textContent),questions=data.questions;
-const answers=new Map();let index=0,submitted=false;
-const instructions={reading:'Chọn cách đọc của phần gạch dưới.',context:'Chọn từ phù hợp nhất với ngữ cảnh.',paraphrase:'Chọn cách diễn đạt tiếng Nhật gần nghĩa nhất.',usage:'Chọn câu dùng từ mục tiêu đúng.'};
-const node=(tag,value,cls)=>{const e=document.createElement(tag);e.textContent=value;if(cls)e.className=cls;return e};
-function action(label,fn){const b=node('button',label);b.type='button';b.onclick=fn;return b}
-function showPrompt(value){const e=node('div','','sentence');const match=value.match(/^(.*?)【(.*?)】(.*)$/s);if(match)e.append(document.createTextNode(match[1]),node('u',match[2]),document.createTextNode(match[3]));else e.textContent=value;return e}
-function explain(q,chosen){const box=node('section','','details');box.append(node('h3',chosen===q.answer?'Đúng!':chosen===undefined?'Chưa trả lời':'Cần ôn lại'),node('p',`${q.word} · ${q.source.reading} · ${q.source.meaning_vi}`));q.options.forEach((o,i)=>box.append(node('p',`${i+1}. ${o}${i===q.answer?' — Đáp án đúng':''}: ${q.explanations[i]}`)));box.append(node('p',`Câu mẫu gốc: ${q.source.example}`),node('p',`${q.source_file}:${q.source_line}`,'source'));return box}
-function render(){
-const q=questions[index],chosen=answers.get(q.id),stage=find('exam-stage');stage.replaceChildren();find('exam-actions').replaceChildren();
-find('exam-meta').textContent=`${data.mode==='exam'?'Kiểm tra':'Luyện tập'} · ${questions.length} câu · ${answers.size} đã trả lời`;
-find('exam-progress').max=questions.length;find('exam-progress').value=answers.size;
-stage.append(node('h3',`${index+1}/${questions.length} · ${data.types[q.type]}`),node('p',instructions[q.type]),showPrompt(q.prompt));
-const opts=node('div','','options'+(q.type==='usage'?' long':''));q.options.forEach((o,i)=>{const b=action(`${i+1}. ${o}`,()=>{answers.set(q.id,i);render();find('exam-status').textContent=data.mode==='practice'?(i===q.answer?'Đã chọn đáp án đúng.':'Đã ghi nhận. Xem giải thích bên dưới.'):'Đã lưu lựa chọn.'});b.setAttribute('aria-pressed',String(chosen===i));b.disabled=submitted||(data.mode==='practice'&&chosen!==undefined);opts.append(b)});stage.append(opts);
-if(submitted||(data.mode==='practice'&&chosen!==undefined))stage.append(explain(q,chosen));
-const prev=action('← Câu trước',()=>{index--;render()});prev.disabled=index===0;
-const next=action('Câu tiếp →',()=>{index++;render()});next.disabled=index===questions.length-1;
-find('exam-actions').append(prev,next,action(submitted?'Xem tổng kết':'Nộp bài / Tổng kết',()=>{if(!submitted&&data.mode==='exam'&&answers.size<questions.length){find('exam-status').textContent=`Còn ${questions.length-answers.size} câu chưa trả lời. Hãy hoàn thành trước khi nộp.`;return}submitted=true;summary()}));
-find('exam-nav').replaceChildren();questions.forEach((entry,i)=>{const b=action(String(i+1)+(answers.has(entry.id)?' ✓':''),()=>{index=i;render()});b.setAttribute('aria-label',`Câu ${i+1}${answers.has(entry.id)?', đã trả lời':''}`);b.setAttribute('aria-pressed',String(i===index));find('exam-nav').append(b)});
-const nav=find('exam-nav'),active=nav.querySelector('[aria-pressed="true"]');
-if(active)nav.scrollLeft+=active.getBoundingClientRect().left-nav.getBoundingClientRect().left-(nav.clientWidth-active.offsetWidth)/2;
-}
-function summary(){
- const stage=find('exam-stage');stage.replaceChildren(node('h2','Kết quả luyện tập'));
- const total=questions.filter(q=>answers.get(q.id)===q.answer).length;
- const unanswered=questions.filter(q=>!answers.has(q.id)).length;
- const incorrect=questions.length-total-unanswered;
- stage.append(node('h3',`Đúng ${total}/${questions.length} câu`),node('p',`✓ Đúng: ${total} · ✗ Sai: ${incorrect} · — Chưa trả lời: ${unanswered}`));
- for(const [type,label] of Object.entries(data.types)){
-  const rows=questions.filter(q=>q.type===type);if(!rows.length)continue;
-  const correct=rows.filter(q=>answers.get(q.id)===q.answer).length;
-  stage.append(node('p',`${label}: ${correct}/${rows.length}`));
- }
- stage.append(node('p','Điểm luyện tập, không quy đổi thành điểm JLPT.'),node('h3','Kết quả từng câu'));
- questions.forEach((q,questionIndex)=>{
-  const chosen=answers.get(q.id),correct=chosen===q.answer;
-  const state=chosen===undefined?'unanswered':correct?'correct':'incorrect';
-  const label=chosen===undefined?'— Chưa trả lời':correct?'✓ Đúng':'✗ Sai';
-  const row=node('section','','review-row '+state);
-  row.append(node('h3',`Câu ${questionIndex+1} · ${label}`,'result-label'),node('p',`${q.word} · ${q.source.reading} · ${q.source.meaning_vi}`));
-  row.append(node('p',chosen===undefined?'Bạn chưa chọn đáp án.':`Bạn chọn: ${chosen+1}. ${q.options[chosen]}`));
-  if(!correct)row.append(node('p',`Đáp án đúng: ${q.answer+1}. ${q.options[q.answer]}`));
-  row.append(node('p',`${q.source_file}:${q.source_line}`,'source'),action('Xem lại câu này',()=>{index=questionIndex;render()}));
-  stage.append(row);
- });
- find('exam-actions').replaceChildren(action('Xem đáp án từng câu',()=>{index=0;render()}));
- find('exam-status').textContent='Đã tổng kết bài. Lựa chọn được giữ nguyên trong phiên này.';
-}
-render();
+(() => {
+  const root = document.getElementById('jlpt-exam');
+  const data = JSON.parse(document.getElementById('exam-data').textContent);
+  const JP = {
+    reading: '下線の言葉の読み方として正しいものを、1・2・3・4から一つ選んでください。',
+    orthography: '下線の言葉を漢字で書くとき、正しいものを1・2・3・4から一つ選んでください。',
+    formation: '（　）に入れるのに最もよいものを、1・2・3・4から一つ選んでください。',
+    context: '（　）に入れるのに最もよいものを、1・2・3・4から一つ選んでください。',
+    paraphrase: '下線の言葉に意味が最も近いものを、1・2・3・4から一つ選んでください。',
+    usage: '次の言葉の使い方として最もよいものを、1・2・3・4から一つ選んでください。',
+  };
+  const typeOrder = Object.keys(data.types);
+  const all = data.questions.slice().sort((a, b) => typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type));
+  all.forEach((q, i) => { q.no = i + 1; });
+  const S = { mode: data.mode === 'exam' ? 'exam' : 'practice', answers: {}, submitted: false, confirm: false, only: null };
+
+  root.dataset.level = data.level || 'N1';
+  document.getElementById('exam-title').textContent = `Luyện từ vựng ${data.level || ''}`.trim();
+  document.title = `Luyện từ vựng ${data.level || ''}`.trim();
+  const paint = () => { document.body.style.background = getComputedStyle(root).getPropertyValue('--bg'); };
+  paint(); matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', paint);
+
+  function h(tag, attrs, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === 'class') el.className = v;
+      else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid.nodeType ? kid : String(kid));
+    return el;
+  }
+  const questions = () => (S.only ? all.filter((q) => S.only.includes(q.id)) : all);
+  const revealed = (q) => S.submitted || (S.mode === 'practice' && S.answers[q.id] != null);
+
+  function prompt(q) {
+    const p = h('p', { class: 'q-sentence' + (q.type === 'usage' ? ' word' : ''), lang: 'ja' });
+    const m = q.prompt.match(/^([\s\S]*?)【([\s\S]*?)】([\s\S]*)$/);
+    if (m) { p.append(m[1], h('u', null, m[2]), m[3]); return p; }
+    const parts = q.prompt.split('（　）');
+    parts.forEach((part, i) => { if (i) p.append(h('span', { class: 'blank', 'aria-label': 'chỗ trống' }, '　')); p.append(part); });
+    return p;
+  }
+  function explanation(q) {
+    const chosen = S.answers[q.id];
+    const src = q.source || {};
+    return h('details', { class: 'explain', open: S.mode === 'practice' || chosen !== q.answer },
+      h('summary', null, 'Giải thích'),
+      h('p', { class: 'word-line', lang: 'ja' }, h('b', null, q.word), `　${src.reading || ''}　·　`, h('span', { lang: 'vi' }, src.meaning_vi || '')),
+      h('ul', { class: 'ex' }, q.options.map((o, i) => h('li', { class: i === q.answer ? 'right' : i === chosen ? 'wrong' : '' },
+        h('span', { lang: 'ja' }, `${i + 1}. ${o}`), i === q.answer ? ' — đáp án đúng' : '', h('br'), q.explanations[i]))),
+      h('p', { class: 'source' }, `Nguồn: ${q.source_file}:${q.source_line}`));
+  }
+  function card(q) {
+    const chosen = S.answers[q.id];
+    const show = revealed(q);
+    const cls = !show ? '' : chosen === q.answer ? ' is-right' : chosen == null ? ' is-skipped' : ' is-wrong';
+    const long = q.type === 'usage' || q.type === 'paraphrase' || q.options.some((o) => o.length > 9);
+    return h('section', { class: 'q' + cls, id: `q-${q.id}` },
+      h('div', { class: 'q-head' }, h('span', null, `Câu ${q.no}`),
+        show ? h('span', { class: 'q-verdict' }, chosen === q.answer ? 'Đúng' : chosen == null ? `Chưa làm · đáp án ${q.answer + 1}` : `Sai · đáp án ${q.answer + 1}`) : null),
+      prompt(q),
+      h('div', { class: 'opts' + (long ? ' long' : ''), role: 'radiogroup', 'aria-label': `Câu ${q.no}` },
+        q.options.map((o, i) => {
+          let c = 'opt';
+          if (chosen === i) c += ' chosen';
+          if (show && i === q.answer) c += ' right';
+          if (show && chosen === i && i !== q.answer) c += ' wrong';
+          return h('button', { type: 'button', class: c, role: 'radio', 'aria-checked': String(chosen === i), disabled: show,
+            onclick: () => choose(q, i) }, h('span', { class: 'opt-n' }, i + 1), h('span', { lang: 'ja' }, o));
+        })),
+      show ? explanation(q) : null);
+  }
+  function choose(q, i) {
+    S.answers[q.id] = i; S.confirm = false;
+    document.getElementById(`q-${q.id}`).replaceWith(card(q));
+    bar();
+    if (S.mode === 'practice' && questions().every((x) => S.answers[x.id] != null)) setTimeout(submit, 400);
+  }
+  function score(list = questions()) {
+    return { right: list.filter((q) => S.answers[q.id] === q.answer).length, done: list.filter((q) => S.answers[q.id] != null).length, total: list.length };
+  }
+  function bar() {
+    const el = document.getElementById('exam-bar');
+    if (!el) return;
+    const s = score();
+    el.replaceChildren(
+      h('span', null, S.mode === 'practice' ? `Đúng ${s.right} / ${s.done} câu đã làm` : `Đã chọn ${s.done} / ${s.total}`),
+      h('button', { type: 'button', onclick: () => {
+        if (s.done < s.total && !S.confirm) { S.confirm = true; bar(); return; }
+        submit();
+      } }, S.confirm ? `Còn ${s.total - s.done} câu chưa làm · Nộp luôn` : 'Nộp bài'));
+  }
+  function submit() { if (S.submitted) return; S.submitted = true; draw(); }
+  function setMode(mode) { if (S.mode !== mode) { Object.assign(S, { mode, answers: {}, submitted: false, confirm: false, only: null }); draw(); } }
+  function retry(onlyWrong) {
+    const wrong = questions().filter((q) => S.answers[q.id] !== q.answer).map((q) => q.id);
+    Object.assign(S, { only: onlyWrong ? wrong : null, answers: {}, submitted: false, confirm: false });
+    draw();
+  }
+  function result() {
+    const list = questions();
+    const s = score(list);
+    const wrong = list.filter((q) => S.answers[q.id] !== q.answer);
+    return h('section', { class: 'result' },
+      h('div', { class: 'result-score' }, h('b', null, `${s.right}/${s.total}`), h('span', null, `${Math.round((s.right / s.total) * 100)}% đúng`)),
+      h('p', { class: 'label' }, 'Theo dạng bài'),
+      h('ul', { class: 'by-type' }, typeOrder.map((t) => {
+        const rows = list.filter((q) => q.type === t);
+        if (!rows.length) return null;
+        return h('li', null, h('span', null, data.types[t]), h('b', null, `${score(rows).right}/${rows.length}`));
+      })),
+      wrong.length ? [h('p', { class: 'label' }, 'Từ cần ôn'),
+        h('div', { class: 'chips' }, wrong.map((q) => h('a', { class: 'chip-word', href: `#q-${q.id}`, lang: 'ja',
+          onclick: (e) => { e.preventDefault(); document.getElementById(`q-${q.id}`).scrollIntoView({ behavior: 'smooth', block: 'center' }); } },
+          `${q.word} · ${(q.source || {}).reading || q.options[q.answer]}`)))] : h('p', { class: 'note' }, 'Không sai câu nào.'),
+      h('p', { class: 'note' }, S.only ? 'Lượt làm lại câu sai. ' : '', 'Điểm luyện tập, không quy đổi thành điểm JLPT. Lựa chọn chỉ giữ trong phiên này.'),
+      h('div', { class: 'row' },
+        wrong.length ? h('button', { type: 'button', class: 'btn primary', onclick: () => retry(true) }, `Làm lại ${wrong.length} câu sai`) : null,
+        h('button', { type: 'button', class: 'btn', onclick: () => retry(false) }, 'Làm lại cả bài')));
+  }
+  function draw() {
+    const list = questions();
+    document.getElementById('exam-meta').textContent =
+      `${list.length} câu · ${typeOrder.filter((t) => list.some((q) => q.type === t)).length} dạng bài${data.full ? ' · cấu hình đề đầy đủ' : ''}`;
+    const parts = typeOrder.map((t, i) => {
+      const rows = list.filter((q) => q.type === t);
+      if (!rows.length) return null;
+      const [jpLabel, viLabel] = String(data.types[t]).split(' · ');
+      return h('section', { class: 'part' },
+        h('div', { class: 'part-head' }, h('b', { lang: 'ja' }, `問題${i + 1}　${jpLabel}`), viLabel ? h('span', null, viLabel) : null),
+        h('p', { class: 'instruction', lang: 'ja' }, JP[t] || ''),
+        h('div', { class: 'q-list' }, rows.map(card)));
+    });
+    document.getElementById('exam-root').replaceChildren(...[
+      h('div', { class: 'segmented', role: 'group', 'aria-label': 'Chế độ làm bài' },
+        h('button', { type: 'button', 'aria-pressed': String(S.mode === 'exam'), onclick: () => setMode('exam') }, 'Kiểm tra'),
+        h('button', { type: 'button', 'aria-pressed': String(S.mode === 'practice'), onclick: () => setMode('practice') }, 'Luyện tập')),
+      h('p', { class: 'mode-hint' }, S.mode === 'exam' ? 'Chọn hết rồi bấm Nộp bài để xem đáp án và giải thích.' : 'Đáp án và giải thích hiện ngay sau mỗi lựa chọn.'),
+      S.submitted ? result() : null,
+      parts,
+      S.submitted ? null : h('div', { class: 'bar', id: 'exam-bar' })].flat().filter(Boolean));
+    bar();
+    window.scrollTo(0, 0);
+  }
+  draw();
 })();
 </script>
 </div>
-
 </html>
