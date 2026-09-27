@@ -9,7 +9,7 @@ Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫ
 - **jlpt-n1-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N1 theo bốn dạng bài.
 - **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
-Hiện có từ vựng **N1, bài 1–26** và **N2, bài 1–14**. Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI lấy ảnh làm nguồn chuẩn, chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự bổ sung nghĩa Việt và ví dụ còn thiếu; không quét kho CSV để tra từ hoặc tìm trùng. Chỉ kiểm tra dữ liệu bài mới, không tự thêm từ ngoài ảnh.
+Hiện có từ vựng **N1, bài 1–29** và **N2, bài 1–14** (xem thư mục `resources/`). Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI lấy ảnh làm nguồn chuẩn, chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự bổ sung nghĩa Việt và ví dụ còn thiếu; không quét kho CSV để tra từ hoặc tìm trùng. Chỉ kiểm tra dữ liệu bài mới, không tự thêm từ ngoài ảnh.
 
 ## Bắt đầu học
 
@@ -122,6 +122,32 @@ Số câu trên là cấu hình 25 câu minh họa trong tài liệu tham khảo
 > Dùng skill jlpt-image-to-vocabulary-csv đọc các ảnh này và tạo bài từ vựng N2 mới. Hãy kiểm tra bài nào đã có để đề xuất số bài tiếp theo, không ghi đè bài cũ. Chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự soạn nghĩa Việt và ví dụ còn thiếu, không tra toàn bộ kho CSV; nếu không đọc chắc chữ hoặc cách đọc trong ảnh thì hỏi lại tôi, không tự đoán.
 
 AI sẽ đọc từ trong ảnh, đối chiếu phần thiếu với dữ liệu sẵn có và báo những mục cần bạn xác nhận. Sau khi lưu bài mới, bạn có thể yêu cầu skill học từ vựng sử dụng bài đó.
+
+## App thẻ nhớ trên iPhone (web app)
+
+Thư mục `webapp/` là một web app thẻ nhớ dùng toàn bộ dữ liệu trong `resources/`. Web app này cài lên màn hình chính iPhone như một app, dùng được offline và không hết hạn. Dấu **★ Cần xem lại** và tiến độ “đã xem” được lưu trên máy. Web app có thêm nút nghe phát âm, vuốt trái/phải để chuyển thẻ và chế độ mặt trước là nghĩa tiếng Việt.
+
+**Bật lần đầu (GitHub Pages):**
+
+1. Push code lên GitHub.
+2. Trên GitHub, vào **Settings → Pages → Build and deployment → Source**, chọn **GitHub Actions**.
+3. Vào tab **Actions**, chạy workflow **Deploy flashcard web app** (hoặc push thay đổi bất kỳ trong `resources/`).
+4. Workflow chạy xong sẽ hiện đường link, dạng `https://<tài-khoản>.github.io/jlpt-exam-skills/`.
+5. Trên iPhone, mở link bằng **Safari**, bấm **Chia sẻ → Thêm vào MH chính**.
+
+GitHub Pages miễn phí yêu cầu repo **public**. Nếu muốn giữ repo private, dùng Cloudflare Pages với lệnh build `python3 tools/build_webapp.py --output dist` và thư mục xuất `dist`.
+
+**Cập nhật bài học:** thêm hoặc sửa CSV trong `resources/`, rồi commit và push. Workflow tự tạo lại app. Lần mở app kế tiếp sẽ hiện thông báo **“Có bài học mới → Cập nhật”**.
+
+**Sao lưu tiến độ:** Safari có thể xoá dữ liệu của web app nếu lâu không mở. Vào ⚙︎ → **Sao chép** mã sao lưu và cất vào Ghi chú; khi cần, dán vào **Khôi phục**.
+
+**Xem thử trên máy tính:**
+
+```bash
+python3 tools/build_webapp.py        # tạo dist/
+python3 -m http.server 8000 --directory dist
+# mở http://localhost:8000
+```
 
 ## Từ vựng nằm ở đâu?
 

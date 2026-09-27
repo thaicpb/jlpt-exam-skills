@@ -4,11 +4,12 @@ Tài liệu dùng chung cho mọi agent (Claude, Codex…). Người dùng là n
 
 ## Cấu trúc
 
-- `resources/<LEVEL>/goi/daiN.csv`: từ vựng theo cấp độ/bài, UTF-8 BOM, bốn cột `từ mới, cách đọc, nghĩa tiếng việt, ví dụ sử dụng minh hoạ`. Hiện có N1 dai1–26, N2 dai1–14.
+- `resources/<LEVEL>/goi/daiN.csv`: từ vựng theo cấp độ/bài, UTF-8 BOM, bốn cột `từ mới, cách đọc, nghĩa tiếng việt, ví dụ sử dụng minh hoạ`. Danh sách bài hiện có: liệt kê `resources/*/goi/*.csv`.
 - `resources/<LEVEL>/goi/daiN.examples.json`: bản dịch Việt + furigana cho câu mẫu (dùng cho flashcard).
 - `skills/<tên>/`: nguồn chính của bốn skill (`SKILL.md`, `scripts/`, `assets/`, `references/`).
 - `.claude/skills/<tên>`: symlink tới `skills/<tên>` để Claude Code tự nhận skill. Luôn sửa trong `skills/`, không tạo bản sao.
 - `outputs/`: nơi lưu HTML/JSON tạo ra cho người học (đã gitignore).
+- `webapp/` + `tools/build_webapp.py`: web app flashcard (PWA) cho iPhone. Build ra `dist/` (gitignore); GitHub Actions `.github/workflows/webapp.yml` tự build và deploy lên GitHub Pages khi `resources/` thay đổi. Sau khi thêm/sửa bài, chạy `python3 tools/build_webapp.py` để chắc dữ liệu hợp lệ.
 
 ## Chọn skill
 

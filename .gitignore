@@ -20,3 +20,6 @@ output/
 outputs/
 # Claude local settings
 .claude/settings.local.json
+
+# Web app build output
+dist/
