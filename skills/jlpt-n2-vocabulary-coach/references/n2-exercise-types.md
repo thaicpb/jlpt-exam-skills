@@ -14,13 +14,13 @@ Cấu hình mô phỏng theo ảnh: 5 + 5 + 3 + 7 + 5 + 5 = 30 câu. Chính tài
 - Chọn một cách đọc đúng với từ trong ngữ cảnh. Không hiện furigana hay nghĩa Việt trước khi trả lời.
 - Nhiễu cần kiểm tra nhầm âm dài, âm ngắt, âm đục, âm bán đục hoặc on/kun; tránh bốn cách đọc khác nhau hoàn toàn khiến câu hỏi quá dễ.
 - Sau khi trả lời: hiện từ, cách đọc chuẩn, nghĩa Việt và giải thích khác biệt âm ở từng phương án sai.
-- Không tự bỏ ghi chú như （する） hoặc chọn một cách đọc trong chuỗi có ／ nếu chưa xác định được dạng thực tế trong câu.
+- Phần `【…】` phải là nguyên văn mục từ. Builder bỏ riêng ghi chú cuối `(する)`/`（する）`/`(な)` khi đối chiếu và tách cách đọc theo `/`/`／`; đúng một lựa chọn phải khớp CSV. AI vẫn xác minh cách đọc phù hợp ngữ cảnh; không đặt hai cách đọc hợp lệ làm hai đáp án.
 
 ## 2. 表記 — Chọn cách viết (5 câu)
 
 - Hiển thị câu có mục tiêu viết bằng kana và được gạch dưới; bốn lựa chọn là cách viết bằng kanji.
 - Nhiễu có thể là chữ gần hình hoặc đồng âm khác nghĩa. Không để kanji đáp án lộ trong tiêu đề hoặc gợi ý.
-- Câu sau khi thay kana bằng đáp án phải tự nhiên, đúng nghĩa và đúng dạng chia.
+- Câu sau khi thay kana bằng đáp án phải tự nhiên, đúng nghĩa. Builder yêu cầu đáp án đúng bằng nguyên văn mục từ CSV và phần kana được đánh dấu khớp cách đọc CSV; chọn câu giữ nguyên dạng đó.
 - Giải thích vì sao cách viết đúng phù hợp; không dạy phương án viết sai như một từ có thật.
 
 ## 3. 語形成 — Cấu tạo từ (3 câu)

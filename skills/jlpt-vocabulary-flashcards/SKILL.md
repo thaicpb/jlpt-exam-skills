@@ -9,7 +9,7 @@ Chỉ cung cấp flashcard để tự học. Không tạo trắc nghiệm, đi�
 
 ## Nguồn
 
-- Luôn chạy `scripts/load_vocabulary.py` của skill này để nạp dữ liệu hiện tại từ `../../resources/N*/goi/*.csv`.
+- Builder tự gọi loader để nạp dữ liệu hiện tại. Không chạy loader toàn cấp độ rồi đưa JSON vào hội thoại. Khi cần kiểm tra/bổ sung annotation, chỉ nạp nhóm thẻ được chọn bằng `--lesson` và `--limit`/`--offset` hoặc `--sample`/`--seed`, hay lặp `--word` cho danh sách cụ thể; dùng cùng tham số khi dựng. Loader chọn từ trước khi kiểm tra annotation; kiểm tra toàn corpus chỉ dành cho tác vụ kiểm toán dữ liệu. Với toàn bộ bài, lưu dữ liệu ra file và xử lý từng nhóm.
 - Giữ nguyên từ, cách đọc, nghĩa Việt, câu mẫu và nguồn file/dòng. Không tự thêm từ, câu ví dụ hoặc tra nguồn khác.
 - Bổ sung bản dịch tiếng Việt và furigana cho câu mẫu trong tệp `*.examples.json` cạnh CSV theo [schema và quy tắc](references/example-annotations.md). Đây là nội dung biên soạn từ câu gốc, không phải dữ liệu nguyên bản CSV. Không thay câu mẫu hoặc thêm mục từ. Kiểm tra dữ liệu bổ sung cho các thẻ được chọn trước khi tạo.
 - Nếu thiếu cấp độ/bài, báo dữ liệu đang có; không bù bằng kiến thức mô hình.

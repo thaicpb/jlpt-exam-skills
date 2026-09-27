@@ -2,6 +2,8 @@
 """Validate authored exercises against the local corpus and render a quiz."""
 import argparse
 import json
+import re
+import unicodedata
 import subprocess
 import sys
 from pathlib import Path
@@ -62,6 +64,23 @@ def validate(bank):
                 raise ValueError(f"{identity}: formation must leave part of the word visible")
             if form["prefix"] + options[q["answer"]] + form["suffix"] != row["word"]:
                 raise ValueError(f"{identity}: formation must reconstruct the CSV target")
+        if q["type"] in ("reading", "orthography"):
+            marked = prompt.split("【", 1)[1].split("】", 1)[0]
+            # Remove only the corpus's grammatical annotations, not arbitrary text.
+            reading = unicodedata.normalize("NFKC", row["reading"]).strip()
+            reading = re.sub(r"\s*\((?:する|な)\)$", "", reading)
+            readings = {part.strip() for part in re.split(r"[/／]", reading)}
+            kana = lambda value: unicodedata.normalize("NFKC", value).strip()
+            if q["type"] == "reading":
+                if marked != row["word"]:
+                    raise ValueError(f"{identity}: reading brackets must contain the exact CSV target")
+                if not all(re.fullmatch(r"[ぁ-ゖァ-ヺー・]+", kana(x)) for x in options):
+                    raise ValueError(f"{identity}: reading options must be kana")
+                matches = [i for i, option in enumerate(options) if kana(option) in readings]
+                if matches != [q["answer"]]:
+                    raise ValueError(f"{identity}: reading answer must uniquely match the CSV reading")
+            elif options[q["answer"]] != row["word"] or kana(marked) not in readings:
+                raise ValueError(f"{identity}: orthography answer/marked reading must match CSV")
         if q["type"] == "usage" and not all(row["word"] in x for x in options):
             raise ValueError(f"{identity}: all usage sentences must contain target")
         q["source"] = row

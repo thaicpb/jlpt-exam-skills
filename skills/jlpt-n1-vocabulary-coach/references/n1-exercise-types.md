@@ -16,7 +16,7 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 ## 1. 漢字読み — Đọc kanji
 
 - Hiển thị câu tiếng Nhật và gạch dưới đúng một từ mục tiêu bằng `【…】`.
-- Bốn lựa chọn là kana; một cách đọc đúng theo cùng hàng CSV.
+- Bốn lựa chọn là kana; đúng một lựa chọn khớp cách đọc cùng hàng CSV. Phần `【…】` phải là nguyên văn mục từ. Builder chỉ bỏ ghi chú cuối `(する)`/`（する）`/`(な)` khi đối chiếu cách đọc; dấu `/`/`／` phân tách các cách đọc đã có. Không đưa hai cách đọc hợp lệ vào cùng câu; AI vẫn xác minh cách đọc phù hợp ngữ cảnh.
 - Nhiễu nên kiểm tra nhầm on/kun, trường âm `ー`, âm ngắt `っ`, âm đục `゛` hoặc bán đục `゜` thay vì tạo bốn cách đọc hoàn toàn khác nhau.
 - Sau khi chấm, hiện cách đọc chuẩn, nghĩa Việt và giải thích sai khác của từng phương án.
 
@@ -36,7 +36,7 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 
 ## 4. 用法 — Cách dùng
 
-- Hiển thị một từ mục tiêu và bốn câu đầy đủ; cả bốn câu phải chứa nguyên văn từ mục tiêu hoặc dạng chia hợp lệ đã được xác minh.
+- Hiển thị một từ mục tiêu và bốn câu đầy đủ; cả bốn câu phải chứa nguyên văn từ mục tiêu vì builder hiện đối chiếu chuỗi chính xác. Chọn từ/câu phù hợp giới hạn này; không dùng dạng biến hình mất nguyên văn mục từ.
 - Một câu dùng đúng nghĩa và kết hợp từ; ba câu còn lại sai cách dùng từ mục tiêu, không chỉ sai ngữ pháp không liên quan.
 - Giải thích riêng từng câu và chỉ ra kết hợp hoặc nghĩa dùng sai.
 
@@ -46,7 +46,7 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 2. Mỗi câu có đúng bốn lựa chọn khác nhau, một đáp án, bốn giải thích tiếng Việt và `origin: authored`.
 3. Không thêm 表記 hoặc 語形成; đây là ranh giới khác với skill N2.
 4. Luyện tập chấm ngay. Kiểm tra chỉ chấm sau khi nộp và cho phép sửa trước khi nộp.
-5. Đầu ra mặc định là giao diện bấm chọn tương tác; text chỉ là fallback khi môi trường không hỗ trợ.
+5. Đầu ra mặc định là HTML tương tác; mở preview/browser hoặc cung cấp liên kết file theo bước 5 của SKILL.md. Text là fallback khi người dùng yêu cầu hoặc không thể cung cấp HTML sử dụng được.
 
 ## Schema và lệnh dựng
 
@@ -60,3 +60,11 @@ python3 scripts/build_n1_exam.py --output /allowed/path/n1-four-types.html
 python3 scripts/build_n1_exam.py --bank /allowed/path/questions.json --mode exam --full --output /allowed/path/n1-exam.html
 python3 scripts/build_n1_exam.py --bank /allowed/path/questions.json --type usage --output /allowed/path/n1-usage.html
 ```
+
+## Năm bộ cho toàn bộ dai2
+
+Biên soạn bank 100 câu từ CSV dai2: mỗi từ một câu, giữ thứ tự CSV, mỗi nhóm 20 câu có 5 câu mỗi dạng. Rà ngữ nghĩa bốn lựa chọn trước khi dựng: nhiễu phải phù hợp từ loại/ngữ cảnh; không dùng lại bộ nhiễu chung hoặc câu vô nghĩa chỉ thay mục từ.
+
+`python3 scripts/build_dai2_exams.py --bank /allowed/path/dai2-reviewed.json --output-dir /allowed/path/dai2-tests --seed 42`
+
+Script nhận bank đã biên soạn, kiểm tra độ phủ/thứ tự/phân bổ, từ chối bộ nhiễu lặp cho paraphrase/usage, xáo lựa chọn cùng đáp án/giải thích theo seed rồi tạo năm HTML và manifest. Script không tự sinh nội dung hoặc chứng nhận ngữ nghĩa; không dùng các bank cũ có nhiễu máy móc mà chưa biên soạn lại.

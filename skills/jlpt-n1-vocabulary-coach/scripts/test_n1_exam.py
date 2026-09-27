@@ -46,5 +46,32 @@ class N1ExamValidationTests(unittest.TestCase):
                 validate(bank)
 
 
+    def test_reading_answer_and_bracket_must_match_source(self):
+        for change in (
+            lambda q: q['options'].__setitem__(q['answer'], 'まちがい'),
+            lambda q: q.update(prompt='これは【別の語】です。'),
+            lambda q: q['options'].__setitem__((q['answer'] + 1) % 4, 'not kana'),
+        ):
+            bank = copy.deepcopy(self.bank)
+            change(bank['questions'][0])
+            with self.assertRaises(ValueError):
+                validate(bank)
+
+    def test_suru_annotation_and_multiple_readings(self):
+        from types import SimpleNamespace
+        from unittest.mock import patch
+        question = copy.deepcopy(self.bank['questions'][0])
+        row = {'source_file': question['source_file'], 'source_line': question['source_line'],
+               'word': question['word'], 'reading': 'あっか （する）'}
+        question.update(options=['あっか', 'あくか', 'わるか', 'あつか'], answer=0)
+        bank = {'level': self.bank['level'], 'questions': [question]}
+        with patch('build_n1_exam.subprocess.run', return_value=SimpleNamespace(stdout=json.dumps({'items': [row]}))):
+            validate(bank)
+        row['reading'] = 'あっか／あくか'
+        with patch('build_n1_exam.subprocess.run', return_value=SimpleNamespace(stdout=json.dumps({'items': [row]}))):
+            with self.assertRaisesRegex(ValueError, 'uniquely'):
+                validate(bank)
+
+
 if __name__ == "__main__":
     unittest.main()

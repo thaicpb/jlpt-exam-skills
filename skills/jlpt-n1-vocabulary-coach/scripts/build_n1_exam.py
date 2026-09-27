@@ -2,6 +2,8 @@
 """Validate N1 exercises against the local corpus and render a quiz."""
 import argparse
 import json
+import re
+import unicodedata
 import subprocess
 import sys
 from pathlib import Path
@@ -54,6 +56,20 @@ def validate(bank):
                 raise ValueError(f"{identity}: mark exactly one target with brackets")
         if q["type"] == "context" and prompt.count("（　）") != 1:
             raise ValueError(f"{identity}: exactly one blank required")
+        if q["type"] == "reading":
+            marked = prompt.split("【", 1)[1].split("】", 1)[0]
+            # Strip only known grammar notes; the marked target stays uninflected.
+            reading = unicodedata.normalize("NFKC", row["reading"]).strip()
+            reading = re.sub(r"\s*\((?:する|な)\)$", "", reading)
+            readings = {part.strip() for part in re.split(r"[/／]", reading)}
+            normalized_options = [unicodedata.normalize("NFKC", x).strip() for x in options]
+            if marked != row["word"]:
+                raise ValueError(f"{identity}: reading brackets must contain the exact CSV target")
+            if not all(re.fullmatch(r"[ぁ-ゖァ-ヺー・]+", x) for x in normalized_options):
+                raise ValueError(f"{identity}: reading options must be kana")
+            matches = [i for i, option in enumerate(normalized_options) if option in readings]
+            if matches != [q["answer"]]:
+                raise ValueError(f"{identity}: reading answer must uniquely match the CSV reading")
         if q["type"] == "usage" and not all(row["word"] in x for x in options):
             raise ValueError(f"{identity}: all usage sentences must contain target")
         q["source"] = row

@@ -25,6 +25,38 @@ class FlashcardsTest(unittest.TestCase):
                     self.assertTrue(item.get('example_segments'))
                     self.assertTrue(item.get('example_notes_source'))
 
+    def test_scoped_load_ignores_unselected_invalid_annotations(self):
+        import contextlib
+        import csv
+        import io
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder) / 'resources'
+            path = root / 'N1/goi/dai1.csv'
+            path.parent.mkdir(parents=True)
+            with path.open('w', encoding='utf-8-sig', newline='') as stream:
+                writer = csv.writer(stream)
+                writer.writerow(['từ mới', 'cách đọc', 'nghĩa tiếng việt', 'ví dụ sử dụng minh hoạ'])
+                writer.writerows([['穴', 'あな', 'lỗ', '穴がある。'], ['土', 'つち', 'đất', '土がある。']])
+            path.with_suffix('.examples.json').write_text(json.dumps({'version': 1, 'items': [
+                {'word': '穴', 'example': '穴がある。', 'example_vi': 'Có lỗ.',
+                 'example_segments': [{'text': '穴がある。'}]},
+                {'word': '土', 'example': '土がある。', 'example_vi': '', 'example_segments': []},
+            ]}), encoding='utf-8')
+            for selection in (['--limit', '1'], ['--word', '穴']):
+                output = io.StringIO()
+                with patch.object(load_vocabulary, 'RESOURCE_ROOT', root), \
+                     patch('sys.argv', ['loader', '--level', 'N1', '--lesson', 'dai1', *selection]), \
+                     contextlib.redirect_stdout(output):
+                    load_vocabulary.main()
+                payload = json.loads(output.getvalue())
+                self.assertEqual([x['word'] for x in payload['items']], ['穴'])
+                self.assertEqual(payload['items'][0]['example_vi'], 'Có lỗ.')
+            for selection in ([], ['--word', '土']):
+                with patch.object(load_vocabulary, 'RESOURCE_ROOT', root), \
+                     patch('sys.argv', ['loader', '--level', 'N1', '--lesson', 'dai1', *selection]), \
+                     self.assertRaisesRegex(SystemExit, 'Incomplete example'):
+                    load_vocabulary.main()
+
     def test_target_inflections(self):
         for segment, valid in (({'text': '飽きた', 'target': True}, True),
                                ({'text': '飽きた', 'target': True, 'reading': 'あきた'}, False),

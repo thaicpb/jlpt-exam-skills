@@ -25,6 +25,7 @@ def parse_args() -> argparse.Namespace:
     selection.add_argument("--sample", type=int, help="Randomly sample N matching rows")
     parser.add_argument("--offset", type=int, default=0, help="Skip the first N matching rows")
     parser.add_argument("--seed", type=int, help="Seed used with --sample")
+    parser.add_argument("--word", action="append", help="Select exact target words before loading annotations")
     return parser.parse_args()
 
 
@@ -32,7 +33,7 @@ def fail(message: str) -> None:
     raise SystemExit(message)
 
 
-def load_examples(path):
+def load_examples(path, selected_keys=None):
     notes_path = path.with_suffix('.examples.json')
     if not notes_path.exists():
         return {}, None
@@ -42,6 +43,8 @@ def load_examples(path):
     notes = {}
     for note in data['items']:
         key = (note['word'], note['example'])
+        if selected_keys is not None and key not in selected_keys:
+            continue
         if key in notes:
             fail(f'Duplicate example: {key[0]} in {notes_path}')
         segments = note['example_segments']
@@ -81,6 +84,9 @@ def main() -> None:
     if args.sample is not None and args.offset:
         fail("--offset cannot be combined with --sample")
 
+    if args.word and (args.limit is not None or args.sample is not None or args.offset):
+        fail("--word cannot be combined with --limit, --sample, or --offset")
+
     goi_dir = RESOURCE_ROOT / level / "goi"
     if not goi_dir.is_dir():
         available = sorted(path.parent.name for path in RESOURCE_ROOT.glob("N[1-5]/goi"))
@@ -94,8 +100,6 @@ def main() -> None:
     required = ["từ mới", "cách đọc", "nghĩa tiếng việt", "ví dụ sử dụng minh hoạ"]
     rows: list[dict[str, object]] = []
     for path in files:
-        notes, notes_source = load_examples(path)
-        used = set()
         with path.open(encoding="utf-8-sig", newline="") as handle:
             reader = csv.DictReader(handle)
             if reader.fieldnames != required:
@@ -109,14 +113,12 @@ def main() -> None:
                     "source_file": str(path.relative_to(RESOURCE_ROOT.parent)),
                     "source_line": line_number,
                 })
-                key = (row[required[0]], row[required[3]])
-                if key in notes:
-                    note = notes[key]
-                    rows[-1].update({name: note[name] for name in ('example_vi', 'example_segments')})
-                    rows[-1]['example_notes_source'] = notes_source
-                    used.add(key)
-        if set(notes) != used:
-            fail(f'Stale example annotations in {notes_source}; update them to match the CSV')
+
+    if args.word:
+        missing = set(args.word) - {row['word'] for row in rows}
+        if missing:
+            fail('Words not found in selected CSV scope: ' + ', '.join(sorted(missing)))
+        rows = [row for row in rows if row['word'] in args.word]
 
     seed = None
     if args.sample is not None:
@@ -126,6 +128,21 @@ def main() -> None:
         rows = rows[args.offset:args.offset + args.limit]
     elif args.offset:
         rows = rows[args.offset:]
+
+    selected = {}
+    for row in rows:
+        selected.setdefault(row['source_file'], []).append(row)
+    scoped = args.word is not None or args.limit is not None or args.sample is not None or args.offset != 0
+    for source_file, selected_rows in selected.items():
+        keys = {(row['word'], row['example']) for row in selected_rows}
+        notes, notes_source = load_examples(RESOURCE_ROOT.parent / source_file, keys if scoped else None)
+        for row in selected_rows:
+            key = (row['word'], row['example'])
+            if key in notes:
+                row.update({name: notes[key][name] for name in ('example_vi', 'example_segments')})
+                row['example_notes_source'] = notes_source
+        if not scoped and set(notes) != keys.intersection(notes):
+            fail(f'Stale example annotations in {notes_source}; update them to match the CSV')
 
     print(json.dumps({"level": level, "count": len(rows), "seed": seed, "items": rows}, ensure_ascii=False, indent=2))
 

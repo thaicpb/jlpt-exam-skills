@@ -68,16 +68,11 @@ def main():
         value = getattr(args, key)
         if value is not None:
             command.extend(["--" + key, str(value)])
+    for word in args.word or []:
+        command.extend(['--word', word])
     try:
         result = subprocess.run(command, check=True, capture_output=True, text=True)
         payload = json.loads(result.stdout)
-        if args.word:
-            available = {item["word"] for item in payload["items"]}
-            missing = set(args.word) - available
-            if missing:
-                parser.error("Words not found in selected CSV scope: " + ", ".join(sorted(missing)))
-            payload["items"] = [item for item in payload["items"] if item["word"] in args.word]
-            payload["count"] = len(payload["items"])
         if not payload["items"]:
             parser.error("No vocabulary matched")
         encoded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c").replace("&", "\\u0026")
