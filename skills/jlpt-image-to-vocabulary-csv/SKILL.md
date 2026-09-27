@@ -1,68 +1,57 @@
 ---
 name: jlpt-image-to-vocabulary-csv
-description: "Đọc từ vựng JLPT từ ảnh (ảnh chụp, scan, trang sách, screenshot) và xuất CSV bài từ vựng mới vào resources/<LEVEL>/goi theo đúng schema bốn cột; ưu tiên bổ sung dữ liệu từ resources hiện có, tự bổ sung nghĩa Việt và câu ví dụ còn thiếu theo phong cách các bài hiện có. Dùng khi người dùng đính kèm ảnh danh sách từ vựng và muốn nhập, thêm bài mới, số hoá hoặc chuyển ảnh thành CSV. Không tự thêm từ ngoài ảnh, không đoán kanji/cách đọc mơ hồ, không ghi đè bài cũ."
+description: "Đọc danh sách từ vựng JLPT từ ảnh sách và nhập bài mới vào thư mục từ vựng của cấp độ tương ứng theo schema CSV bốn cột. Lấy ảnh làm nguồn chuẩn, chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự bổ sung nghĩa Việt và câu ví dụ. Không tự tra toàn bộ kho CSV, không thêm từ ngoài ảnh, không đoán chữ mơ hồ, không ghi đè bài cũ."
 ---
 
 # JLPT Image to Vocabulary CSV
 
-Chuyển dữ liệu nhìn thấy trong ảnh thành CSV có thể kiểm tra lại. Ưu tiên CSV hiện có trong `../../resources`; khi nguồn chưa đủ, được dùng kiến thức tiếng Nhật để bổ sung nghĩa Việt và viết câu ví dụ. Không cần xin phép lại chỉ vì thiếu hai trường này.
+Ưu tiên tốc độ và độ chính xác: đọc trực tiếp ảnh, giữ đúng từ/cách đọc/thứ tự trong sách và tự soạn phần còn thiếu. Chỉ đọc dữ liệu cũ đủ để hiểu phong cách trình bày.
 
-## Đầu ra bắt buộc
+## Phạm vi đọc dữ liệu
 
-- Xuất đúng bốn cột, đúng thứ tự: `từ mới`, `cách đọc`, `nghĩa tiếng việt`, `ví dụ sử dụng minh hoạ`.
-- Dùng UTF-8 có BOM (`utf-8-sig`), dấu phẩy làm delimiter và một bản ghi trên mỗi dòng.
-- Mặc định đặt file vào `../../resources/<LEVEL>/goi/<LESSON>.csv`. Xác định `<LEVEL>` và `<LESSON>` từ yêu cầu hoặc thông tin rõ ràng trên ảnh; không đoán khi chúng ảnh hưởng tên file.
-- Không ghi đè file đã tồn tại nếu người dùng chưa yêu cầu rõ. Script cũng chặn ghi đè trừ khi truyền `--force`.
+- Ảnh người dùng cung cấp là nguồn chuẩn cho danh sách từ và cách đọc. Không đối chiếu từng từ với kho CSV, không tìm từ trùng giữa các bài/cấp độ và không lấy nghĩa/ví dụ cũ bằng tra cứu tự động.
+- Chỉ tham khảo khoảng 3–5 dòng của **1–2 bài cùng cấp độ** để nắm độ dài, giọng văn và cách viết ví dụ. Nếu mẫu phù hợp đã có trong context, dùng lại, không đọc thêm. Nếu chưa có bài cùng cấp độ, dùng hướng dẫn bên dưới.
+- Chỉ liệt kê tên file khi cần biết số bài hiện có; không mở nội dung mọi CSV. Xác định cấp độ/số bài từ yêu cầu hoặc tiêu đề ảnh, rồi kiểm tra đúng file đích có tồn tại không.
+- Không chạy `enrich_from_resources.py` trong luồng nhập ảnh. Script cũ chỉ dành cho yêu cầu tra cứu/tái sử dụng dữ liệu được người dùng chỉ định riêng.
 
-## Nguồn và độ trung thực
+## Độ trung thực và nội dung bổ sung
 
-- Ưu tiên nội dung thực sự xuất hiện trong ảnh; không thay thế nội dung đã đọc rõ bằng kiến thức của mô hình. Không tự thêm từ ngoài ảnh hoặc đoán kanji/cách đọc còn mơ hồ.
-- Nếu ảnh chỉ có `từ mới` hoặc thiếu trường, tra cứu khớp chính xác trường `từ mới` trong mọi file `../../resources/**/goi/*.csv`. Chỉ điền phần thiếu từ kết quả nội bộ; không thay thế trường đã nhìn thấy trong ảnh.
-- Với từ chỉ viết bằng kana, có thể dùng chính kana đó làm cách đọc; chuyển katakana sang hiragana tương ứng theo quy ước CSV hiện có, giữ trường âm và kana nhỏ. Đặt chú thích `(する)` vào trường cách đọc khi tách khỏi từ katakana để thống nhất schema; giữ bản chép nguồn để đối chiếu. Không suy ra cách đọc kanji còn thiếu bằng quy tắc này.
-- Khi đã đọc rõ cách đọc từ ảnh, chỉ dùng nguồn khớp chính xác cả từ và cách đọc. Nếu ảnh thiếu cách đọc và nguồn có nhiều cách đọc hoặc cách đọc trống, giữ các trường thiếu để xác nhận trước, không ghép nghĩa/ví dụ giữa các cách đọc. Trong các nguồn cùng cách đọc, chỉ tự điền một trường nếu giá trị không rỗng của trường đó giống nhau ở tất cả kết quả. Nếu có nhiều giá trị khác nhau, giữ trống trường đó và báo các file/dòng nguồn để người dùng chọn.
-- Nếu nguồn chưa có nghĩa hoặc ví dụ, tham khảo vài dòng trong các bài cùng cấp độ rồi tự bổ sung hai trường này theo hướng dẫn bên dưới. Không coi phần tự bổ sung là nội dung trích từ ảnh hoặc sao chép từ kho CSV.
-- Giữ nguyên cách viết kanji/kana, nghĩa tiếng Việt và câu ví dụ; chỉ chuẩn hoá Unicode về NFC, bỏ khoảng trắng thừa ở đầu/cuối và đổi xuống dòng trong một ô thành một dấu cách.
-- Không tự động loại bản ghi trùng: cùng một từ có thể có cách đọc, nghĩa hoặc ngữ cảnh khác. Báo các bản ghi trùng hoàn toàn để người dùng quyết định.
-- Để chuỗi rỗng ở bản nháp cho trường chưa giải quyết. Sau khi tra nguồn và bổ sung nghĩa/ví dụ, chỉ hỏi về cách đọc còn thiếu, xung đột chưa giải quyết hoặc nội dung không đủ chắc chắn. Chỉ xuất CSV cuối khi mọi trường đều có dữ liệu hoặc người dùng xác nhận chấp nhận ô trống.
-- Với ký tự không đọc chắc, không đoán. Ghi vị trí ảnh/hàng và các khả năng nhìn thấy được, rồi yêu cầu người dùng xác nhận trước khi xuất CSV cuối.
+- Giữ nguyên cách viết kanji/kana, cách đọc, biến thể và thứ tự mục nhìn thấy trong ảnh. Không bỏ một từ chỉ vì nó có thể đã có ở bài khác; không thêm từ ngoài ảnh.
+- Chỉ chuẩn hoá Unicode NFC, khoảng trắng đầu/cuối và xuống dòng trong ô. Với từ chỉ có kana, có thể dùng chính kana làm cách đọc, chuyển katakana sang hiragana theo quy ước dự án và giữ trường âm/kana nhỏ. Nếu tách `(する)` sang trường cách đọc, lưu cách viết gốc trong nguồn đối chiếu.
+- Với kanji/cách đọc không rõ hoặc bị thiếu: phóng to đúng vùng cần đọc; nếu vẫn chưa chắc, ghi ảnh/mục và hỏi người dùng. Không đoán hoặc thay bằng dữ liệu bài khác.
+- Giữ nghĩa/ví dụ nếu ảnh có sẵn. Nếu thiếu, tự viết nghĩa Việt ngắn, tự nhiên, tách các nghĩa thông dụng bằng `;`; khớp cách đọc và từ loại. Không cần xin phép để bổ sung hai trường này.
+- Viết một câu tiếng Nhật tự nhiên cho mỗi mục, dùng từ mục tiêu hoặc dạng chia phù hợp. Kiểm tra trợ từ, tự/tha động từ và kết hợp từ ngay khi soạn; chọn ngữ cảnh thể hiện rõ nghĩa. Không dùng một khuôn câu cho hàng loạt từ.
+- Chỉ xuất CSV cuối khi đủ bốn trường hoặc người dùng đã chấp nhận ô trống. Khi có vấn đề, xử lý đúng mục đó, không đọc lại cả kho dữ liệu.
 
-## Bổ sung nghĩa và ví dụ
+## Đầu ra
 
-- Viết nghĩa Việt ngắn, tự nhiên; tách các nghĩa thông dụng bằng `;`. Nghĩa phải khớp cách đọc và từ loại của mục trong ảnh, đặc biệt với từ đồng tự nhiều cách đọc.
-- Viết một câu tiếng Nhật tự nhiên, có ngữ cảnh giúp hiểu nghĩa và cách dùng. Dùng chính từ mục tiêu hoặc dạng chia phù hợp; kiểm tra trợ từ, tính tự/tha động từ và kết hợp từ. Không dùng một mẫu câu chung cho hàng loạt từ.
-- Tham khảo độ dài và giọng văn của các bài đã có; không sao chép máy móc ví dụ của một từ gần nghĩa sang từ đang bổ sung.
-- Rà lại cả nghĩa và ví dụ lấy từ resources nếu cách đọc trong nguồn khác ảnh; không dùng dữ liệu khớp chữ nhưng khác nghĩa/cách đọc. Nếu không xác định chắc nghĩa đang học, giữ mục cần xác nhận.
-- Script tự lưu `<output-stem>.provenance.json` cạnh JSON nháp; đọc [schema provenance](references/provenance.md) khi bổ sung dữ liệu hoặc bàn giao file. Sau khi AI bổ sung ô thiếu, cập nhật giá trị và nguồn `authored` trong sidecar, thêm vị trí ảnh/hàng cho dữ liệu ảnh. Giữ CSV đúng bốn cột; lưu sidecar cuối thành `<LESSON>.provenance.json` cạnh CSV để truy vết lâu dài.
+- `../../resources/<LEVEL>/goi/<LESSON>.csv`: UTF-8 BOM (`utf-8-sig`), delimiter dấu phẩy, một bản ghi mỗi dòng; đúng thứ tự bốn cột `từ mới`, `cách đọc`, `nghĩa tiếng việt`, `ví dụ sử dụng minh hoạ`.
+- Không ghi đè bài cũ khi chưa được yêu cầu rõ. Không thêm thông tin nguồn vào bốn cột CSV.
+- `<LESSON>.provenance.json`: tạo trực tiếp từ bản chép ảnh và dữ liệu đã soạn theo [schema nguồn](references/provenance.md); không cần chạy bước tra cứu để tạo file này.
+- `<LESSON>.examples.json`: bổ sung bản dịch câu mẫu và chú thích cách đọc theo định dạng flashcard của dự án. Dùng một entry mẫu từ 1–2 bài tham khảo; chỉ đọc `load_examples` trong `skills/jlpt-vocabulary-flashcards/scripts/load_vocabulary.py` nếu cần làm rõ schema. Tạo cùng lúc với câu mẫu để tránh phải soạn lại; giữ nguyên câu mẫu CSV, không gắn furigana cho từ mục tiêu/dạng chia.
 
-## Quy trình
+## Quy trình gọn
 
-1. Liệt kê ảnh đầu vào theo đúng thứ tự trang. Nếu thứ tự không rõ và có thể làm thay đổi thứ tự từ, hỏi người dùng.
-2. Mở từng ảnh ở độ phân giải đủ đọc. Phóng to hoặc chia vùng khi chữ nhỏ; kiểm tra lại riêng kanji, kana và dấu câu.
-3. Chép các hàng vào một file JSON tạm. Có thể dùng chuỗi kanji hoặc object chứa `từ mới` và các trường đọc được từ ảnh.
-4. Bổ sung trường thiếu từ dữ liệu dự án bằng script:
+Chạy script từ thư mục skill để các đường dẫn `../../resources` đúng vị trí.
+
+1. Xếp ảnh theo trang/bài, xác định số mục nhìn thấy trên mỗi trang. Đọc ảnh đã đính kèm trực tiếp; chỉ mở lại/cắt vùng khi chưa đọc rõ. Không cần OCR lại ảnh đã đọc chắc.
+2. Tham khảo mẫu nhỏ như trên, rồi chép từ/cách đọc theo đúng thứ tự và soạn nghĩa/ví dụ còn thiếu. Lưu bản chép nguồn và JSON hoàn chỉnh, kèm provenance và chú thích câu mẫu. Không tạo nhiều bản nháp trung gian nếu không cần.
+3. Đối chiếu một lượt danh sách mới với ảnh: số mục, thứ tự, chữ/cách đọc và ranh giới trang. Chú ý cặp chữ dễ nhầm, dakuten, trường âm và các cách đọc kép. Bài có 99 mục thì giữ 99, không ép đủ 100.
+4. Ghi và kiểm tra CSV mới bằng một lệnh cho mỗi bài:
 
    ```bash
-   python3 scripts/enrich_from_resources.py \
-     --input /tmp/extracted.json \
-     --resources ../../resources \
-     --output /tmp/enriched.json
+   python3 scripts/write_vocabulary_csv.py \
+     --input /tmp/dai27.final.json \
+     --output ../../resources/N1/goi/dai27.csv
    ```
 
-   Mã thoát `0` nghĩa là tra nguồn không có vấn đề; mã `2` nghĩa là file nháp đã được tạo nhưng còn mục không tìm thấy hoặc trường mâu thuẫn cần kiểm tra. Script chỉ tra dữ liệu nội bộ, không tự viết nghĩa/ví dụ. Nguồn thành công và lỗi đều có trong sidecar provenance. Đọc các vấn đề được báo trên stderr; tự bổ sung nghĩa/ví dụ còn thiếu theo hướng dẫn trên rồi lưu JSON hoàn chỉnh. Không dùng mã thoát này thay cho bước kiểm tra đủ bốn trường.
-5. Đối chiếu số hàng với số mục nhìn thấy trên từng ảnh. Rà lại các cặp dễ nhầm như `未/末`, `土/士`, dakuten/handakuten, trường âm và chữ kana nhỏ.
-6. Chạy script để kiểm tra và ghi file:
+   Lệnh ghi đã kiểm tra schema và dữ liệu đầu vào; không chạy thêm `--check` hoặc đọc lại toàn bộ CSV chỉ để lặp cùng kiểm tra. `--allow-empty` chỉ dùng khi người dùng chấp nhận ô trống; `--force` chỉ dùng khi người dùng yêu cầu ghi đè.
+5. Kiểm tra đúng các bài vừa tạo: số hàng/thứ tự khớp bản chép ảnh, BOM, nguồn từng ô khớp dữ liệu cuối và chú thích ghép lại đúng câu mẫu. Khi dùng loader, luôn truyền `--level` và `--lesson`; không chạy kiểm tra toàn corpus/toàn bộ test suite cho một lần chỉ nhập dữ liệu. Chỉ kiểm tra lại phần đã sửa nếu phát hiện lỗi. Dòng trùng hoàn toàn trong bài mới cần đối chiếu ảnh, không tự xoá.
+6. Báo file, số từ mỗi bài và phần tự biên soạn; chỉ nêu vấn đề còn tồn tại. Không lập báo cáo từ trùng giữa các bài khi người dùng không yêu cầu.
 
-   ```bash
-   python3 scripts/write_vocabulary_csv.py --input /tmp/enriched.json --output ../../resources/N2/goi/dai15.csv
-   ```
+## JSON cho script ghi CSV
 
-   Dùng `--allow-empty` chỉ sau khi người dùng chấp nhận trường thiếu. Dùng `--force` chỉ khi người dùng yêu cầu thay thế file hiện có.
-7. Đọc lại CSV bằng `utf-8-sig`; xác nhận header, số bản ghi và vài hàng đầu/cuối so với ảnh. Chạy `scripts/write_vocabulary_csv.py --check <file.csv>` để kiểm tra file cuối.
-8. Báo đường dẫn file, số bản ghi, ảnh/trang đã xử lý, phần lấy từ `resources` và phần tự bổ sung, bản ghi trùng và mọi xung đột hoặc ô trống đã được người dùng xác nhận.
-
-## Dữ liệu JSON cho script
-
-Chấp nhận một mảng trực tiếp hoặc object có khóa `rows`:
+Chấp nhận mảng trực tiếp hoặc object có khóa `rows`:
 
 ```json
 [
@@ -74,5 +63,3 @@ Chấp nhận một mảng trực tiếp hoặc object có khóa `rows`:
   }
 ]
 ```
-
-Không đưa tên ảnh, số trang, độ tin cậy OCR hoặc ghi chú kiểm duyệt vào CSV vì chúng không thuộc schema hiện tại.
