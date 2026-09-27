@@ -1,0 +1,1578 @@
+{
+  "version": 1,
+  "provenance": "Bản dịch tiếng Việt và furigana được biên soạn bổ sung từ câu mẫu CSV; không phải nội dung nguyên bản của CSV.",
+  "items": [
+    {
+      "word": "仕返し",
+      "example": "いじめられた仕返しをした。",
+      "example_segments": [
+        {
+          "text": "いじめられた"
+        },
+        {
+          "text": "仕返し"
+        },
+        {
+          "text": "をした。"
+        }
+      ],
+      "example_vi": "Tôi đã trả đũa vì bị bắt nạt."
+    },
+    {
+      "word": "質疑応答",
+      "example": "せつめいのあとで質疑応答をおこなう。",
+      "example_segments": [
+        {
+          "text": "せつめいのあとで"
+        },
+        {
+          "text": "質疑応答"
+        },
+        {
+          "text": "をおこなう。"
+        }
+      ],
+      "example_vi": "Tiến hành phần hỏi đáp sau khi giải thích."
+    },
+    {
+      "word": "思い切り",
+      "example": "きょうは思い切りあそんだ。",
+      "example_segments": [
+        {
+          "text": "きょうは"
+        },
+        {
+          "text": "思い切り"
+        },
+        {
+          "text": "あそんだ。"
+        }
+      ],
+      "example_vi": "Hôm nay tôi đã chơi thỏa thích."
+    },
+    {
+      "word": "指折り",
+      "example": "このみせは指折りのにんきてんだ。",
+      "example_segments": [
+        {
+          "text": "このみせは"
+        },
+        {
+          "text": "指折り"
+        },
+        {
+          "text": "のにんきてんだ。"
+        }
+      ],
+      "example_vi": "Cửa hàng này thuộc hàng nổi tiếng nhất."
+    },
+    {
+      "word": "便り",
+      "example": "ふるさとから便りがとどいた。",
+      "example_segments": [
+        {
+          "text": "ふるさとから"
+        },
+        {
+          "text": "便り"
+        },
+        {
+          "text": "がとどいた。"
+        }
+      ],
+      "example_vi": "Tôi nhận được tin từ quê nhà."
+    },
+    {
+      "word": "持ち込み",
+      "example": "のみものの持ち込みはきんしだ。",
+      "example_segments": [
+        {
+          "text": "のみものの"
+        },
+        {
+          "text": "持ち込み"
+        },
+        {
+          "text": "はきんしだ。"
+        }
+      ],
+      "example_vi": "Không được mang đồ uống vào."
+    },
+    {
+      "word": "取り柄",
+      "example": "かれの取り柄はあかるさだ。",
+      "example_segments": [
+        {
+          "text": "かれの"
+        },
+        {
+          "text": "取り柄"
+        },
+        {
+          "text": "はあかるさだ。"
+        }
+      ],
+      "example_vi": "Ưu điểm của anh ấy là tính vui vẻ."
+    },
+    {
+      "word": "取り返し",
+      "example": "もう取り返しがつかない。",
+      "example_segments": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "取り返し"
+        },
+        {
+          "text": "がつかない。"
+        }
+      ],
+      "example_vi": "Giờ đã không thể cứu vãn được nữa."
+    },
+    {
+      "word": "手さばき",
+      "example": "りょうりにんの手さばきがみごとだ。",
+      "example_segments": [
+        {
+          "text": "りょうりにんの"
+        },
+        {
+          "text": "手さばき"
+        },
+        {
+          "text": "がみごとだ。"
+        }
+      ],
+      "example_vi": "Thao tác tay của đầu bếp thật điêu luyện."
+    },
+    {
+      "word": "手ざわり",
+      "example": "このぬのは手ざわりがやわらかい。",
+      "example_segments": [
+        {
+          "text": "このぬのは"
+        },
+        {
+          "text": "手ざわり"
+        },
+        {
+          "text": "がやわらかい。"
+        }
+      ],
+      "example_vi": "Tấm vải này có bề mặt mềm mại."
+    },
+    {
+      "word": "手の平",
+      "example": "手の平にあせをかいた。",
+      "example_segments": [
+        {
+          "text": "手の平"
+        },
+        {
+          "text": "にあせをかいた。"
+        }
+      ],
+      "example_vi": "Lòng bàn tay tôi toát mồ hôi."
+    },
+    {
+      "word": "手引き",
+      "example": "せんぱいがしごとの手引きをしてくれた。",
+      "example_segments": [
+        {
+          "text": "せんぱいがしごとの"
+        },
+        {
+          "text": "手引き"
+        },
+        {
+          "text": "をしてくれた。"
+        }
+      ],
+      "example_vi": "Tiền bối đã hướng dẫn tôi công việc."
+    },
+    {
+      "word": "手掛かり",
+      "example": "はんにんをさがす手掛かりがみつかった。",
+      "example_segments": [
+        {
+          "text": "はんにんをさがす"
+        },
+        {
+          "text": "手掛かり"
+        },
+        {
+          "text": "がみつかった。"
+        }
+      ],
+      "example_vi": "Đã tìm thấy manh mối để truy tìm thủ phạm."
+    },
+    {
+      "word": "手続き",
+      "example": "ひっこしの手続きをすませた。",
+      "example_segments": [
+        {
+          "text": "ひっこしの"
+        },
+        {
+          "text": "手続き"
+        },
+        {
+          "text": "をすませた。"
+        }
+      ],
+      "example_vi": "Tôi đã hoàn tất thủ tục chuyển nhà."
+    },
+    {
+      "word": "手遅れ",
+      "example": "いまさらあやまっても手遅れだ。",
+      "example_segments": [
+        {
+          "text": "いまさらあやまっても"
+        },
+        {
+          "text": "手遅れ"
+        },
+        {
+          "text": "だ。"
+        }
+      ],
+      "example_vi": "Bây giờ có xin lỗi thì cũng đã quá muộn."
+    },
+    {
+      "word": "手直し",
+      "example": "ぶんしょうをすこし手直しする。",
+      "example_segments": [
+        {
+          "text": "ぶんしょうをすこし"
+        },
+        {
+          "text": "手直し"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Chỉnh sửa đôi chút bài viết."
+    },
+    {
+      "word": "手つき",
+      "example": "かれの手つきはとてもなれている。",
+      "example_segments": [
+        {
+          "text": "かれの"
+        },
+        {
+          "text": "手つき"
+        },
+        {
+          "text": "はとてもなれている。"
+        }
+      ],
+      "example_vi": "Động tác tay của anh ấy trông rất thành thạo."
+    },
+    {
+      "word": "手分け",
+      "example": "みんなで手分けしてさがした。",
+      "example_segments": [
+        {
+          "text": "みんなで"
+        },
+        {
+          "text": "手分け"
+        },
+        {
+          "text": "してさがした。"
+        }
+      ],
+      "example_vi": "Mọi người chia nhau đi tìm."
+    },
+    {
+      "word": "狩り",
+      "example": "あさはやく狩りにでかけた。",
+      "example_segments": [
+        {
+          "text": "あさはやく"
+        },
+        {
+          "text": "狩り"
+        },
+        {
+          "text": "にでかけた。"
+        }
+      ],
+      "example_vi": "Họ đi săn từ sáng sớm."
+    },
+    {
+      "word": "首飾り",
+      "example": "たんじょうびに首飾りをもらった。",
+      "example_segments": [
+        {
+          "text": "たんじょうびに"
+        },
+        {
+          "text": "首飾り"
+        },
+        {
+          "text": "をもらった。"
+        }
+      ],
+      "example_vi": "Tôi được tặng một chiếc vòng cổ vào sinh nhật."
+    },
+    {
+      "word": "受け持ち",
+      "example": "わたしの受け持ちはこのくみだ。",
+      "example_segments": [
+        {
+          "text": "わたしの"
+        },
+        {
+          "text": "受け持ち"
+        },
+        {
+          "text": "はこのくみだ。"
+        }
+      ],
+      "example_vi": "Phần tôi phụ trách là nhóm này."
+    },
+    {
+      "word": "終始一貫",
+      "example": "かれのたいどは終始一貫している。",
+      "example_segments": [
+        {
+          "text": "かれのたいどは"
+        },
+        {
+          "text": "終始一貫"
+        },
+        {
+          "text": "している。"
+        }
+      ],
+      "example_vi": "Thái độ của anh ấy nhất quán từ đầu đến cuối."
+    },
+    {
+      "word": "重み",
+      "example": "そのことばには重みがある。",
+      "example_segments": [
+        {
+          "text": "そのことばには"
+        },
+        {
+          "text": "重み"
+        },
+        {
+          "text": "がある。"
+        }
+      ],
+      "example_vi": "Lời nói đó có sức nặng."
+    },
+    {
+      "word": "商い",
+      "example": "ちいさな商いからはじめた。",
+      "example_segments": [
+        {
+          "text": "ちいさな"
+        },
+        {
+          "text": "商い"
+        },
+        {
+          "text": "からはじめた。"
+        }
+      ],
+      "example_vi": "Tôi bắt đầu từ một việc kinh doanh nhỏ."
+    },
+    {
+      "word": "情け",
+      "example": "かれは情けのあついひとだ。",
+      "example_segments": [
+        {
+          "text": "かれは"
+        },
+        {
+          "text": "情け"
+        },
+        {
+          "text": "のあついひとだ。"
+        }
+      ],
+      "example_vi": "Anh ấy là người giàu lòng thương."
+    },
+    {
+      "word": "色合い",
+      "example": "このぬのは色合いがうつくしい。",
+      "example_segments": [
+        {
+          "text": "このぬのは"
+        },
+        {
+          "text": "色合い"
+        },
+        {
+          "text": "がうつくしい。"
+        }
+      ],
+      "example_vi": "Tấm vải này có sắc màu đẹp."
+    },
+    {
+      "word": "心構え",
+      "example": "しごとへの心構えをきく。",
+      "example_segments": [
+        {
+          "text": "しごとへの"
+        },
+        {
+          "text": "心構え"
+        },
+        {
+          "text": "をきく。"
+        }
+      ],
+      "example_vi": "Hỏi về tâm thế đối với công việc."
+    },
+    {
+      "word": "振り出し",
+      "example": "しっぱいして振り出しにもどった。",
+      "example_segments": [
+        {
+          "text": "しっぱいして"
+        },
+        {
+          "text": "振り出し"
+        },
+        {
+          "text": "にもどった。"
+        }
+      ],
+      "example_vi": "Vì thất bại nên lại trở về điểm xuất phát."
+    },
+    {
+      "word": "振る舞い",
+      "example": "かれの振る舞いはれいぎただしい。",
+      "example_segments": [
+        {
+          "text": "かれの"
+        },
+        {
+          "text": "振る舞い"
+        },
+        {
+          "text": "はれいぎただしい。"
+        }
+      ],
+      "example_vi": "Cách cư xử của anh ấy rất lễ phép."
+    },
+    {
+      "word": "身なり",
+      "example": "きちんとした身なりででかける。",
+      "example_segments": [
+        {
+          "text": "きちんとした"
+        },
+        {
+          "text": "身なり"
+        },
+        {
+          "text": "ででかける。"
+        }
+      ],
+      "example_vi": "Ra ngoài với trang phục chỉnh tề."
+    },
+    {
+      "word": "身の回り",
+      "example": "身の回りをきれいにかたづける。",
+      "example_segments": [
+        {
+          "text": "身の回り"
+        },
+        {
+          "text": "をきれいにかたづける。"
+        }
+      ],
+      "example_vi": "Dọn dẹp sạch sẽ những thứ quanh mình."
+    },
+    {
+      "word": "身振り",
+      "example": "ことばがなくても身振りでつうじた。",
+      "example_segments": [
+        {
+          "text": "ことばがなくても"
+        },
+        {
+          "text": "身振り"
+        },
+        {
+          "text": "でつうじた。"
+        }
+      ],
+      "example_vi": "Dù không nói nhưng vẫn hiểu nhau qua cử chỉ."
+    },
+    {
+      "word": "人込み",
+      "example": "えきの人込みをさけた。",
+      "example_segments": [
+        {
+          "text": "えきの"
+        },
+        {
+          "text": "人込み"
+        },
+        {
+          "text": "をさけた。"
+        }
+      ],
+      "example_vi": "Tôi tránh đám đông ở ga."
+    },
+    {
+      "word": "人事異動",
+      "example": "らいげつ人事異動がある。",
+      "example_segments": [
+        {
+          "text": "らいげつ"
+        },
+        {
+          "text": "人事異動"
+        },
+        {
+          "text": "がある。"
+        }
+      ],
+      "example_vi": "Tháng sau sẽ có điều chuyển nhân sự."
+    },
+    {
+      "word": "人通り",
+      "example": "このみちは人通りがおおい。",
+      "example_segments": [
+        {
+          "text": "このみちは"
+        },
+        {
+          "text": "人通り"
+        },
+        {
+          "text": "がおおい。"
+        }
+      ],
+      "example_vi": "Con đường này có nhiều người qua lại."
+    },
+    {
+      "word": "人並み",
+      "example": "人並みのせいかつをおくりたい。",
+      "example_segments": [
+        {
+          "text": "人並み"
+        },
+        {
+          "text": "のせいかつをおくりたい。"
+        }
+      ],
+      "example_vi": "Tôi muốn sống một cuộc sống bình thường như mọi người."
+    },
+    {
+      "word": "成り行き",
+      "example": "しばらく成り行きをみまもろう。",
+      "example_segments": [
+        {
+          "text": "しばらく"
+        },
+        {
+          "text": "成り行き"
+        },
+        {
+          "text": "をみまもろう。"
+        }
+      ],
+      "example_vi": "Hãy tạm thời theo dõi diễn biến."
+    },
+    {
+      "word": "跡継ぎ",
+      "example": "むすこがいえの跡継ぎになった。",
+      "example_segments": [
+        {
+          "text": "むすこがいえの"
+        },
+        {
+          "text": "跡継ぎ"
+        },
+        {
+          "text": "になった。"
+        }
+      ],
+      "example_vi": "Người con trai đã trở thành người kế nghiệp gia đình."
+    },
+    {
+      "word": "戦い",
+      "example": "ながい戦いがおわった。",
+      "example_segments": [
+        {
+          "text": "ながい"
+        },
+        {
+          "text": "戦い"
+        },
+        {
+          "text": "がおわった。"
+        }
+      ],
+      "example_vi": "Cuộc chiến kéo dài đã kết thúc."
+    },
+    {
+      "word": "前かけ",
+      "example": "りょうりをするとき前かけをつける。",
+      "example_segments": [
+        {
+          "text": "りょうりをするとき"
+        },
+        {
+          "text": "前かけ"
+        },
+        {
+          "text": "をつける。"
+        }
+      ],
+      "example_vi": "Tôi đeo tạp dề khi nấu ăn."
+    },
+    {
+      "word": "前触れ",
+      "example": "あらしの前触れでかぜがつよくなった。",
+      "example_segments": [
+        {
+          "text": "あらしの"
+        },
+        {
+          "text": "前触れ"
+        },
+        {
+          "text": "でかぜがつよくなった。"
+        }
+      ],
+      "example_vi": "Gió mạnh lên như dấu hiệu báo trước cơn bão."
+    },
+    {
+      "word": "前置き",
+      "example": "ながい前置きはぬきにしよう。",
+      "example_segments": [
+        {
+          "text": "ながい"
+        },
+        {
+          "text": "前置き"
+        },
+        {
+          "text": "はぬきにしよう。"
+        }
+      ],
+      "example_vi": "Hãy bỏ qua phần mở đầu dài dòng."
+    },
+    {
+      "word": "前売り",
+      "example": "えんそうかいの前売りがはじまった。",
+      "example_segments": [
+        {
+          "text": "えんそうかいの"
+        },
+        {
+          "text": "前売り"
+        },
+        {
+          "text": "がはじまった。"
+        }
+      ],
+      "example_vi": "Việc bán vé trước cho buổi hòa nhạc đã bắt đầu."
+    },
+    {
+      "word": "素振り",
+      "example": "しらない素振りをみせた。",
+      "example_segments": [
+        {
+          "text": "しらない"
+        },
+        {
+          "text": "素振り"
+        },
+        {
+          "text": "をみせた。"
+        }
+      ],
+      "example_vi": "Anh ấy tỏ vẻ như không biết."
+    },
+    {
+      "word": "息抜き",
+      "example": "しごとのあいまに息抜きする。",
+      "example_segments": [
+        {
+          "text": "しごとのあいまに"
+        },
+        {
+          "text": "息抜き"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Tôi thư giãn giữa giờ làm việc."
+    },
+    {
+      "word": "打ち合わせ",
+      "example": "あしたのよていを打ち合わせする。",
+      "example_segments": [
+        {
+          "text": "あしたのよていを"
+        },
+        {
+          "text": "打ち合わせ"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Chúng tôi họp bàn về kế hoạch ngày mai."
+    },
+    {
+      "word": "体つき",
+      "example": "がっしりした体つきのせんしゅだ。",
+      "example_segments": [
+        {
+          "text": "がっしりした"
+        },
+        {
+          "text": "体つき"
+        },
+        {
+          "text": "のせんしゅだ。"
+        }
+      ],
+      "example_vi": "Đó là một vận động viên có vóc dáng rắn chắc."
+    },
+    {
+      "word": "台無し",
+      "example": "あめでえんそくが台無しになった。",
+      "example_segments": [
+        {
+          "text": "あめでえんそくが"
+        },
+        {
+          "text": "台無し"
+        },
+        {
+          "text": "になった。"
+        }
+      ],
+      "example_vi": "Chuyến dã ngoại bị mưa làm hỏng hết."
+    },
+    {
+      "word": "第一人者",
+      "example": "かれはこのぶんやの第一人者だ。",
+      "example_segments": [
+        {
+          "text": "かれはこのぶんやの"
+        },
+        {
+          "text": "第一人者"
+        },
+        {
+          "text": "だ。"
+        }
+      ],
+      "example_vi": "Ông ấy là chuyên gia hàng đầu trong lĩnh vực này."
+    },
+    {
+      "word": "断トツ",
+      "example": "かれのせいせきは断トツだ。",
+      "example_segments": [
+        {
+          "text": "かれのせいせきは"
+        },
+        {
+          "text": "断トツ"
+        },
+        {
+          "text": "だ。"
+        }
+      ],
+      "example_vi": "Thành tích của anh ấy vượt trội hẳn."
+    },
+    {
+      "word": "値打ち",
+      "example": "このえにはたかい値打ちがある。",
+      "example_segments": [
+        {
+          "text": "このえにはたかい"
+        },
+        {
+          "text": "値打ち"
+        },
+        {
+          "text": "がある。"
+        }
+      ],
+      "example_vi": "Bức tranh này có giá trị cao."
+    },
+    {
+      "word": "仲直り",
+      "example": "けんかしたともだちと仲直りした。",
+      "example_segments": [
+        {
+          "text": "けんかしたともだちと"
+        },
+        {
+          "text": "仲直り"
+        },
+        {
+          "text": "した。"
+        }
+      ],
+      "example_vi": "Tôi đã làm hòa với người bạn từng cãi nhau."
+    },
+    {
+      "word": "宙返り",
+      "example": "みごとな宙返りをみせた。",
+      "example_segments": [
+        {
+          "text": "みごとな"
+        },
+        {
+          "text": "宙返り"
+        },
+        {
+          "text": "をみせた。"
+        }
+      ],
+      "example_vi": "Anh ấy biểu diễn một cú lộn nhào đẹp mắt."
+    },
+    {
+      "word": "兆し",
+      "example": "はるの兆しがみえてきた。",
+      "example_segments": [
+        {
+          "text": "はるの"
+        },
+        {
+          "text": "兆し"
+        },
+        {
+          "text": "がみえてきた。"
+        }
+      ],
+      "example_vi": "Những dấu hiệu của mùa xuân đã xuất hiện."
+    },
+    {
+      "word": "締め切り",
+      "example": "もうしこみの締め切りはあしただ。",
+      "example_segments": [
+        {
+          "text": "もうしこみの"
+        },
+        {
+          "text": "締め切り"
+        },
+        {
+          "text": "はあしただ。"
+        }
+      ],
+      "example_vi": "Hạn chót đăng ký là ngày mai."
+    },
+    {
+      "word": "渡り鳥",
+      "example": "あきになると渡り鳥がやってくる。",
+      "example_segments": [
+        {
+          "text": "あきになると"
+        },
+        {
+          "text": "渡り鳥"
+        },
+        {
+          "text": "がやってくる。"
+        }
+      ],
+      "example_vi": "Đến mùa thu, chim di trú bay tới."
+    },
+    {
+      "word": "ど忘れ",
+      "example": "かれのなまえをど忘れした。",
+      "example_segments": [
+        {
+          "text": "かれのなまえを"
+        },
+        {
+          "text": "ど忘れ"
+        },
+        {
+          "text": "した。"
+        }
+      ],
+      "example_vi": "Tôi bỗng quên mất tên anh ấy."
+    },
+    {
+      "word": "当たり前",
+      "example": "約束を守るのは当たり前だ。",
+      "example_segments": [
+        {
+          "text": "約束",
+          "reading": "やくそく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "守",
+          "reading": "まも"
+        },
+        {
+          "text": "るのは"
+        },
+        {
+          "text": "当たり前"
+        },
+        {
+          "text": "だ。"
+        }
+      ],
+      "example_vi": "Giữ lời hứa là chuyện đương nhiên."
+    },
+    {
+      "word": "当て",
+      "example": "たずねられるひとに当てがある。",
+      "example_segments": [
+        {
+          "text": "たずねられるひとに"
+        },
+        {
+          "text": "当て"
+        },
+        {
+          "text": "がある。"
+        }
+      ],
+      "example_vi": "Tôi biết một người có thể hỏi chuyện này."
+    },
+    {
+      "word": "踏み場",
+      "example": "にもつがおおくて踏み場もない。",
+      "example_segments": [
+        {
+          "text": "にもつがおおくて"
+        },
+        {
+          "text": "踏み場"
+        },
+        {
+          "text": "もない。"
+        }
+      ],
+      "example_vi": "Đồ đạc nhiều đến mức không còn chỗ đặt chân."
+    },
+    {
+      "word": "頭打ち",
+      "example": "うりあげは頭打ちになった。",
+      "example_segments": [
+        {
+          "text": "うりあげは"
+        },
+        {
+          "text": "頭打ち"
+        },
+        {
+          "text": "になった。"
+        }
+      ],
+      "example_vi": "Doanh số đã chạm trần."
+    },
+    {
+      "word": "同時進行",
+      "example": "ふたつのけいかくを同時進行する。",
+      "example_segments": [
+        {
+          "text": "ふたつのけいかくを"
+        },
+        {
+          "text": "同時進行"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Tiến hành đồng thời hai kế hoạch."
+    },
+    {
+      "word": "憧れ",
+      "example": "憧れのひとにあえた。",
+      "example_segments": [
+        {
+          "text": "憧れ"
+        },
+        {
+          "text": "のひとにあえた。"
+        }
+      ],
+      "example_vi": "Tôi đã gặp được người mình ngưỡng mộ."
+    },
+    {
+      "word": "日取り",
+      "example": "けっこんしきのくわしい日取りをきめる。",
+      "example_segments": [
+        {
+          "text": "けっこんしきのくわしい"
+        },
+        {
+          "text": "日取り"
+        },
+        {
+          "text": "をきめる。"
+        }
+      ],
+      "example_vi": "Quyết định ngày cụ thể cho lễ cưới."
+    },
+    {
+      "word": "年末年始",
+      "example": "年末年始はみせをやすむ。",
+      "example_segments": [
+        {
+          "text": "年末年始"
+        },
+        {
+          "text": "はみせをやすむ。"
+        }
+      ],
+      "example_vi": "Cửa hàng nghỉ dịp cuối năm và đầu năm."
+    },
+    {
+      "word": "排せつ",
+      "example": "からだのそとへ排せつする。",
+      "example_segments": [
+        {
+          "text": "からだのそとへ"
+        },
+        {
+          "text": "排せつ"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Bài tiết ra ngoài cơ thể."
+    },
+    {
+      "word": "抜てき",
+      "example": "わかいてんいんが抜てきされた。",
+      "example_segments": [
+        {
+          "text": "わかいてんいんが"
+        },
+        {
+          "text": "抜てき"
+        },
+        {
+          "text": "された。"
+        }
+      ],
+      "example_vi": "Một nhân viên trẻ đã được đề bạt."
+    },
+    {
+      "word": "表向き",
+      "example": "表向きはなにもかわっていない。",
+      "example_segments": [
+        {
+          "text": "表向き"
+        },
+        {
+          "text": "はなにもかわっていない。"
+        }
+      ],
+      "example_vi": "Bề ngoài thì không có gì thay đổi."
+    },
+    {
+      "word": "辺り",
+      "example": "この辺りに銀行はありますか。",
+      "example_segments": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "辺り"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "銀行",
+          "reading": "ぎんこう"
+        },
+        {
+          "text": "はありますか。"
+        }
+      ],
+      "example_vi": "Quanh khu vực này có ngân hàng không?"
+    },
+    {
+      "word": "福利厚生",
+      "example": "このかいしゃは福利厚生がよい。",
+      "example_segments": [
+        {
+          "text": "このかいしゃは"
+        },
+        {
+          "text": "福利厚生"
+        },
+        {
+          "text": "がよい。"
+        }
+      ],
+      "example_vi": "Công ty này có chế độ phúc lợi tốt."
+    },
+    {
+      "word": "無駄遣い",
+      "example": "おかしに無駄遣いしてしまった。",
+      "example_segments": [
+        {
+          "text": "おかしに"
+        },
+        {
+          "text": "無駄遣い"
+        },
+        {
+          "text": "してしまった。"
+        }
+      ],
+      "example_vi": "Tôi đã tiêu tiền hoang phí vào bánh kẹo."
+    },
+    {
+      "word": "目盛り",
+      "example": "めもりざらの目盛りをよむ。",
+      "example_segments": [
+        {
+          "text": "めもりざらの"
+        },
+        {
+          "text": "目盛り"
+        },
+        {
+          "text": "をよむ。"
+        }
+      ],
+      "example_vi": "Đọc vạch chia trên cốc đo."
+    },
+    {
+      "word": "目当て",
+      "example": "目当てのみせはもうしまっていた。",
+      "example_segments": [
+        {
+          "text": "目当て"
+        },
+        {
+          "text": "のみせはもうしまっていた。"
+        }
+      ],
+      "example_vi": "Cửa hàng tôi định đến đã đóng cửa."
+    },
+    {
+      "word": "目つき",
+      "example": "するどい目つきでにらまれた。",
+      "example_segments": [
+        {
+          "text": "するどい"
+        },
+        {
+          "text": "目つき"
+        },
+        {
+          "text": "でにらまれた。"
+        }
+      ],
+      "example_vi": "Tôi bị nhìn bằng ánh mắt sắc lạnh."
+    },
+    {
+      "word": "夜更かし",
+      "example": "ゆうべは夜更かししてしまった。",
+      "example_segments": [
+        {
+          "text": "ゆうべは"
+        },
+        {
+          "text": "夜更かし"
+        },
+        {
+          "text": "してしまった。"
+        }
+      ],
+      "example_vi": "Tối qua tôi đã thức khuya."
+    },
+    {
+      "word": "夜更け",
+      "example": "夜更けまでほんをよんだ。",
+      "example_segments": [
+        {
+          "text": "夜更け"
+        },
+        {
+          "text": "までほんをよんだ。"
+        }
+      ],
+      "example_vi": "Tôi đọc sách đến tận đêm khuya."
+    },
+    {
+      "word": "夜明け",
+      "example": "夜明けとともにしゅっぱつした。",
+      "example_segments": [
+        {
+          "text": "夜明け"
+        },
+        {
+          "text": "とともにしゅっぱつした。"
+        }
+      ],
+      "example_vi": "Chúng tôi xuất phát lúc bình minh."
+    },
+    {
+      "word": "夕焼け",
+      "example": "そらが夕焼けであかくそまった。",
+      "example_segments": [
+        {
+          "text": "そらが"
+        },
+        {
+          "text": "夕焼け"
+        },
+        {
+          "text": "であかくそまった。"
+        }
+      ],
+      "example_vi": "Bầu trời nhuộm đỏ bởi ánh hoàng hôn."
+    },
+    {
+      "word": "夕暮れ",
+      "example": "夕暮れになるとすずしくなる。",
+      "example_segments": [
+        {
+          "text": "夕暮れ"
+        },
+        {
+          "text": "になるとすずしくなる。"
+        }
+      ],
+      "example_vi": "Đến chiều tối thì trời trở nên mát hơn."
+    },
+    {
+      "word": "予行練習",
+      "example": "ほんばんまえに予行練習する。",
+      "example_segments": [
+        {
+          "text": "ほんばんまえに"
+        },
+        {
+          "text": "予行練習"
+        },
+        {
+          "text": "する。"
+        }
+      ],
+      "example_vi": "Tổng duyệt trước buổi chính thức."
+    },
+    {
+      "word": "裏返し",
+      "example": "ふくを裏返しにしてあらう。",
+      "example_segments": [
+        {
+          "text": "ふくを"
+        },
+        {
+          "text": "裏返し"
+        },
+        {
+          "text": "にしてあらう。"
+        }
+      ],
+      "example_vi": "Lộn trái quần áo rồi giặt."
+    },
+    {
+      "word": "立入禁止",
+      "example": "このさきは立入禁止だ。",
+      "example_segments": [
+        {
+          "text": "このさきは"
+        },
+        {
+          "text": "立入禁止"
+        },
+        {
+          "text": "だ。"
+        }
+      ],
+      "example_vi": "Phía trước cấm vào."
+    },
+    {
+      "word": "ありふれる",
+      "example": "「ありふれる」はめずらしくないといういみだ。",
+      "example_segments": [
+        {
+          "text": "「"
+        },
+        {
+          "text": "ありふれる"
+        },
+        {
+          "text": "」はめずらしくないといういみだ。"
+        }
+      ],
+      "example_vi": "“ありふれる” có nghĩa là không hiếm."
+    },
+    {
+      "word": "いじける",
+      "example": "ちゅういされていじける。",
+      "example_segments": [
+        {
+          "text": "ちゅういされて"
+        },
+        {
+          "text": "いじける"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Bị nhắc nhở rồi hờn dỗi."
+    },
+    {
+      "word": "いじる",
+      "example": "きかいをかってにいじるな。",
+      "example_segments": [
+        {
+          "text": "きかいをかってに"
+        },
+        {
+          "text": "いじる"
+        },
+        {
+          "text": "な。"
+        }
+      ],
+      "example_vi": "Đừng tự ý nghịch cái máy."
+    },
+    {
+      "word": "いらだつ",
+      "example": "すすまないしごとにいらだつ。",
+      "example_segments": [
+        {
+          "text": "すすまないしごとに"
+        },
+        {
+          "text": "いらだつ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Tôi bực bội vì công việc không tiến triển."
+    },
+    {
+      "word": "いらつく",
+      "example": "まちじかんがながくていらつく。",
+      "example_segments": [
+        {
+          "text": "まちじかんがながくて"
+        },
+        {
+          "text": "いらつく"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Tôi bực mình vì phải chờ lâu."
+    },
+    {
+      "word": "うかがう",
+      "example": "まどからようすをうかがう。",
+      "example_segments": [
+        {
+          "text": "まどからようすを"
+        },
+        {
+          "text": "うかがう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Nhìn qua cửa sổ để thăm dò tình hình."
+    },
+    {
+      "word": "うぬぼれる",
+      "example": "じぶんのちからにうぬぼれる。",
+      "example_segments": [
+        {
+          "text": "じぶんのちからに"
+        },
+        {
+          "text": "うぬぼれる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Tự mãn về năng lực của bản thân."
+    },
+    {
+      "word": "うろつく",
+      "example": "よなかにえきのまわりをうろつく。",
+      "example_segments": [
+        {
+          "text": "よなかにえきのまわりを"
+        },
+        {
+          "text": "うろつく"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Đi lang thang quanh ga lúc nửa đêm."
+    },
+    {
+      "word": "おごる",
+      "example": "きょうはわたしがおごる。",
+      "example_segments": [
+        {
+          "text": "きょうはわたしが"
+        },
+        {
+          "text": "おごる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Hôm nay tôi sẽ bao."
+    },
+    {
+      "word": "おだてる",
+      "example": "こどもをおだてるとよくてつだう。",
+      "example_segments": [
+        {
+          "text": "こどもを"
+        },
+        {
+          "text": "おだてる"
+        },
+        {
+          "text": "とよくてつだう。"
+        }
+      ],
+      "example_vi": "Khi được nịnh, đứa trẻ thường giúp việc."
+    },
+    {
+      "word": "かさばる",
+      "example": "このにもつはかるいがかさばる。",
+      "example_segments": [
+        {
+          "text": "このにもつはかるいが"
+        },
+        {
+          "text": "かさばる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Hành lý này nhẹ nhưng cồng kềnh."
+    },
+    {
+      "word": "かする",
+      "example": "たまがかたをかする。",
+      "example_segments": [
+        {
+          "text": "たまがかたを"
+        },
+        {
+          "text": "かする"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Quả bóng sượt qua vai."
+    },
+    {
+      "word": "かばう",
+      "example": "ともだちをかばう。",
+      "example_segments": [
+        {
+          "text": "ともだちを"
+        },
+        {
+          "text": "かばう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Che chở cho bạn."
+    },
+    {
+      "word": "かわす",
+      "example": "とんできたたまをかわす。",
+      "example_segments": [
+        {
+          "text": "とんできたたまを"
+        },
+        {
+          "text": "かわす"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Né quả bóng bay tới."
+    },
+    {
+      "word": "くぐる",
+      "example": "とんねるをくぐる。",
+      "example_segments": [
+        {
+          "text": "とんねるを"
+        },
+        {
+          "text": "くぐる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Đi xuyên qua đường hầm."
+    },
+    {
+      "word": "くじける",
+      "example": "しっぱいしてもくじけるな。",
+      "example_segments": [
+        {
+          "text": "しっぱいしても"
+        },
+        {
+          "text": "くじける"
+        },
+        {
+          "text": "な。"
+        }
+      ],
+      "example_vi": "Dù thất bại cũng đừng nản lòng."
+    },
+    {
+      "word": "くつろぐ",
+      "example": "いえでゆっくりくつろぐ。",
+      "example_segments": [
+        {
+          "text": "いえでゆっくり"
+        },
+        {
+          "text": "くつろぐ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "example_vi": "Thư giãn thong thả ở nhà."
+    }
+  ]
+}
