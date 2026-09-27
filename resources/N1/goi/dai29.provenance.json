@@ -1,0 +1,3114 @@
+{
+  "version": 1,
+  "input_file": "../../../outputs/n1-import-27-29/dai29.image.json",
+  "rows": [
+    {
+      "input_row": 1,
+      "word": "結び付ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "結び付ける",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 1,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むすびつける",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 1,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "gắn kết; liên hệ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "授業では理論を実際の経験と結び付けて説明した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 2,
+      "word": "見計らう",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見計らう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 2,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みはからう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 2,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lựa thời điểm; ước lượng cho phù hợp",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "雨が弱まるのを見計らって家を出た。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 3,
+      "word": "見合わせる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見合わせる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 3,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みあわせる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 3,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tạm hoãn; nhìn nhau",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "悪天候のため登山を見合わせることにした。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 4,
+      "word": "見失う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見失う",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 4,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みうしなう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 4,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mất dấu; lạc mất",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "人混みの中で友人を見失った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 5,
+      "word": "見守る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見守る",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 5,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みまもる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 5,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dõi theo; trông nom",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "親は子供の成長を温かく見守っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 6,
+      "word": "見習う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見習う",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 6,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みならう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 6,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "noi theo; học theo",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "先輩の丁寧な仕事ぶりを見習いたい。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 7,
+      "word": "見出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見出す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 7,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みいだす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 7,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tìm ra; phát hiện",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は困難な状況の中にも希望を見出した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 8,
+      "word": "見積もる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見積もる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 8,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みつもる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 8,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ước tính; dự toán",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "修理に必要な費用を見積もってもらった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 9,
+      "word": "見損なう",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見損なう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 9,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みそこなう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 9,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhìn lầm; đánh giá sai; bỏ lỡ dịp xem",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "人の手柄を横取りするなんて、君を見損なった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 10,
+      "word": "見渡す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見渡す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 10,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みわたす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 10,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhìn bao quát; phóng tầm mắt",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "展望台から町全体を見渡せる。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 11,
+      "word": "見逃す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見逃す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 11,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みのがす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 11,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bỏ lỡ; bỏ sót; làm ngơ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "忙しくて楽しみにしていた番組を見逃した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 12,
+      "word": "見入る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見入る",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 12,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みいる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 12,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mải mê nhìn; nhìn chăm chú",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供たちは美しい映像に見入っていた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 13,
+      "word": "見抜く",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見抜く",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 13,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みぬく",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 13,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhìn thấu; nhận ra bản chất",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は相手のうそをすぐに見抜いた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 14,
+      "word": "立て直す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "立て直す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 14,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "たてなおす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 14,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "khôi phục; chấn chỉnh; xây dựng lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "新しい社長が会社の経営を立て直した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 15,
+      "word": "見分ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見分ける",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 15,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みわける",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 15,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "phân biệt bằng cách nhìn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "この二つの絵が本物か偽物かを見分けるのは難しい。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 16,
+      "word": "見落とす",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "見落とす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 16,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "みおとす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 16,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bỏ sót; không nhận thấy",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "契約書の重要な条件を見落としていた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 17,
+      "word": "言いふらす",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "言いふらす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 17,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いいふらす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 17,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "rêu rao; đồn ra khắp nơi",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "人の秘密を言いふらしてはいけない。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 18,
+      "word": "言い残す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "言い残す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 18,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いいのこす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 18,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dặn lại; để lại lời nói",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "父は「すぐ戻る」と言い残して出かけた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 19,
+      "word": "言い張る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "言い張る",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 19,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いいはる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 19,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "khăng khăng nói; cố chấp khẳng định",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は証拠を示されても自分は正しいと言い張った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 20,
+      "word": "言い渡す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "言い渡す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 20,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いいわたす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 20,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tuyên bố; thông báo quyết định",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "裁判官は被告に有罪判決を言い渡した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 21,
+      "word": "言い放つ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "言い放つ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 21,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いいはなつ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 21,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "buông lời dứt khoát; nói thẳng lạnh lùng",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は「もう関係ない」と言い放って部屋を出た。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 22,
+      "word": "呼び込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "呼び込む",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 22,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "よびこむ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 22,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thu hút; mời gọi vào",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "商店街は新しい催しで客を呼び込もうとしている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 23,
+      "word": "込み上げる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "込み上げる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 23,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "こみあげる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 23,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dâng trào; trào lên",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "再会の瞬間、喜びが胸に込み上げた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 24,
+      "word": "込み入る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "込み入る",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 24,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "こみいる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 24,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "phức tạp; rắc rối",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "話が込み入っているので、詳しく説明します。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 25,
+      "word": "差し引く",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "差し引く",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 25,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さしひく",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 25,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trừ đi; khấu trừ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "売上から経費を差し引いた額が利益になる。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 26,
+      "word": "差し支える",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "差し支える",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 26,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さしつかえる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 26,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "gây trở ngại; ảnh hưởng xấu",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "夜更かしすると明日の仕事に差し支える。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 27,
+      "word": "差し出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "差し出す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 27,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さしだす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 27,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đưa ra; chìa ra; gửi đi",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は困っている人に手を差し出した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 28,
+      "word": "使いこなす",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "使いこなす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 28,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "つかいこなす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 28,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "sử dụng thành thạo",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "このソフトを使いこなすには練習が必要だ。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 29,
+      "word": "思い詰める",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "思い詰める",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 29,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おもいつめる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 29,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nghĩ quẩn; lo nghĩ đến bế tắc",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "一人で思い詰めず、誰かに相談してほしい。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 30,
+      "word": "思い上がる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "思い上がる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 30,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おもいあがる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 30,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tự cao; kiêu ngạo",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "少し成功したからといって思い上がってはいけない。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 31,
+      "word": "思い返す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "思い返す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 31,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おもいかえす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 31,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhớ lại; nghĩ lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "学生時代を思い返すと懐かしい。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 32,
+      "word": "似通う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "似通う",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 32,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "にかよう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 32,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "giống nhau; tương tự",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "二人の考え方はよく似通っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 33,
+      "word": "持ち越す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "持ち越す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 33,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もちこす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 33,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chuyển sang lần sau; hoãn sang",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "結論が出ず、議論は次回に持ち越された。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 34,
+      "word": "持ち直す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "持ち直す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 34,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もちなおす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 34,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "hồi phục; khá trở lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "午後になって祖父の容体が持ち直した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 35,
+      "word": "取りそろえる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取りそろえる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 35,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりそろえる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 35,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chuẩn bị đầy đủ; tập hợp đủ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "申請に必要な書類を取りそろえた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 36,
+      "word": "取りとめる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取りとめる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 36,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりとめる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 36,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "cứu giữ được (tính mạng)",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "迅速な処置のおかげで一命を取りとめた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 37,
+      "word": "取り扱う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り扱う",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 37,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりあつかう",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 37,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "xử lý; sử dụng; kinh doanh",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "この店では海外の食品も取り扱っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 38,
+      "word": "取り押さえる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り押さえる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 38,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりおさえる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 38,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "khống chế; bắt giữ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "警備員が逃げようとした男を取り押さえた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 39,
+      "word": "取り下げる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り下げる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 39,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりさげる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 39,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "rút lại (đơn, yêu cầu)",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は提出した申請を取り下げた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 40,
+      "word": "取り外す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り外す",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 40,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりはずす",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 40,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tháo ra; gỡ ra",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "掃除のためにエアコンのフィルターを取り外した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 41,
+      "word": "取り巻く",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り巻く",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 41,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりまく",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 41,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bao quanh; vây quanh",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供たちを取り巻く環境は大きく変化している。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 42,
+      "word": "取り寄せる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り寄せる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 42,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりよせる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 42,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đặt gửi đến; đặt mua từ nơi khác",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "近くの店にない本を出版社から取り寄せた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 43,
+      "word": "取り仕切る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り仕切る",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 43,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりしきる",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 43,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "điều hành toàn bộ; quán xuyến",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女が会場の準備から進行まで取り仕切った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 44,
+      "word": "取り持つ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り持つ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 44,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりもつ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 44,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "làm cầu nối; hòa giải; tiếp đãi",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "共通の友人が二人の仲を取り持った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 45,
+      "word": "取り次ぐ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り次ぐ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 45,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりつぐ",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 45,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chuyển lời; nối máy; làm trung gian",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "担当者に電話を取り次いでください。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 46,
+      "word": "取り除く",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り除く",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 46,
+          "image_page": 69
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりのぞく",
+          "image_file": "IMG_6389.jpg",
+          "image_row": 46,
+          "image_page": 69
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "loại bỏ; gỡ bỏ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "作業を始める前に危険な物を取り除いた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 47,
+      "word": "取り消す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り消す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 47,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりけす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 47,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "resources",
+          "value": "hủy bỏ; thu hồi",
+          "sources": [
+            {
+              "file": "../../resources/N2/goi/dai8.csv",
+              "line": 5
+            }
+          ]
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "resources",
+          "value": "都合が悪くなり予約を取り消した。",
+          "sources": [
+            {
+              "file": "../../resources/N2/goi/dai8.csv",
+              "line": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "input_row": 48,
+      "word": "取り組む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り組む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 48,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりくむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 48,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tập trung giải quyết; dốc sức làm",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "地域全体でごみの削減に取り組んでいる。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 49,
+      "word": "取り調べる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り調べる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 49,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりしらべる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 49,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "điều tra; thẩm vấn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "警察は目撃者から話を聞き、事件の経緯を取り調べた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 50,
+      "word": "取り締まる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り締まる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 50,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりしまる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 50,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "kiểm soát; xử lý vi phạm",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "警察は飲酒運転を厳しく取り締まっている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 51,
+      "word": "取り入る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り入る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 51,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりいる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 51,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lấy lòng; nịnh bợ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は上司に取り入ろうとして、お世辞ばかり言っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 52,
+      "word": "取り付ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り付ける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 52,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりつける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 52,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lắp đặt; giành được (sự đồng ý)",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "壁に新しい棚を取り付けた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 53,
+      "word": "取り戻す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り戻す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 53,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりもどす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 53,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lấy lại; khôi phục",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "休養してようやく元気を取り戻した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 54,
+      "word": "取り立てる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "取り立てる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 54,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりたてる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 54,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thu đòi; đề bạt; đặc biệt nêu ra",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "銀行は返済期限を過ぎた借金を取り立てた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 55,
+      "word": "受け継ぐ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "受け継ぐ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 55,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うけつぐ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 55,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "kế thừa; tiếp nối",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "娘は母から店と伝統の味を受け継いだ。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 56,
+      "word": "受け入れる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "受け入れる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 56,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うけいれる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 56,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chấp nhận; tiếp nhận",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "学校は海外からの留学生を受け入れている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 57,
+      "word": "蹴飛ばす",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "蹴飛ばす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 57,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "けとばす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 57,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đá văng; đá mạnh",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "道に落ちていた空き缶を蹴飛ばした。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 58,
+      "word": "出直す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "出直す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 58,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "でなおす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 58,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "quay lại lần khác; làm lại từ đầu",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "担当者が不在だったので、午後に出直した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 59,
+      "word": "乗っ取る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "乗っ取る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 59,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "のっとる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 59,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chiếm đoạt; cướp quyền kiểm soát",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "不正アクセスによってアカウントが乗っ取られた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 60,
+      "word": "乗り越える",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "乗り越える",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 60,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "のりこえる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 60,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vượt qua",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "仲間と協力して多くの困難を乗り越えた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 61,
+      "word": "食い違う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "食い違う",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 61,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "くいちがう",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 61,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "không khớp; mâu thuẫn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "二人の証言は重要な点で食い違っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 62,
+      "word": "食い込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "食い込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 62,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "くいこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 62,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ăn sâu; lấn vào",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "荷物の重みでひもが肩に食い込んだ。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 63,
+      "word": "食い止める",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "食い止める",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 63,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "くいとめる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 63,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngăn chặn; chặn đứng",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "感染の拡大を食い止めるために対策を講じた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 64,
+      "word": "振り返る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "振り返る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 64,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふりかえる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 64,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngoảnh lại; nhìn lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "名前を呼ばれて後ろを振り返った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 65,
+      "word": "申し込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "申し込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 65,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もうしこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 65,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "resources",
+          "value": "đăng ký; nộp đơn",
+          "sources": [
+            {
+              "file": "../../resources/N2/goi/dai8.csv",
+              "line": 15
+            }
+          ]
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "resources",
+          "value": "インターネットで講座に申し込む。",
+          "sources": [
+            {
+              "file": "../../resources/N2/goi/dai8.csv",
+              "line": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "input_row": 66,
+      "word": "申し出る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "申し出る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 66,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もうしでる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 66,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đề nghị; tự nguyện đứng ra",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は重い荷物を運ぶ手伝いを申し出た。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 67,
+      "word": "申し入れる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "申し入れる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 67,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もうしいれる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 67,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chính thức đề nghị; yêu cầu",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "住民は市に道路の改善を申し入れた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 68,
+      "word": "積み立てる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "積み立てる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 68,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "つみたてる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 68,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tiết kiệm định kỳ; tích góp",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "将来のために毎月一定額を積み立てている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 69,
+      "word": "切り捨てる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "切り捨てる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 69,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "きりすてる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 69,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "cắt bỏ; loại bỏ; làm tròn xuống",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "小数点以下を切り捨てて整数で答えてください。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 70,
+      "word": "切り出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "切り出す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 70,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "きりだす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 70,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mở lời; bắt đầu đề cập; cắt lấy",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は夕食の後で留学の話を切り出した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 71,
+      "word": "組み合わせる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "組み合わせる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 71,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "くみあわせる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 71,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "kết hợp; ghép lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "複数の色を組み合わせて模様を作った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 72,
+      "word": "組み込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "組み込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 72,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "くみこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 72,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lồng vào; đưa vào cấu trúc",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "研修の日程に工場見学を組み込んだ。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 73,
+      "word": "打ち込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "打ち込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 73,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うちこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 73,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đóng vào; nhập; say mê dốc sức",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は学生時代、陸上競技に打ち込んでいた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 74,
+      "word": "打ち消す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "打ち消す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 74,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うちけす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 74,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "phủ nhận; xóa bỏ; triệt tiêu",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "会社は倒産するといううわさを打ち消した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 75,
+      "word": "打ち切る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "打ち切る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 75,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うちきる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 75,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chấm dứt giữa chừng; ngừng hẳn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "悪天候のため捜索を打ち切った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 76,
+      "word": "打ち明ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "打ち明ける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 76,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うちあける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 76,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thổ lộ; tâm sự",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "親友に長年の悩みを打ち明けた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 77,
+      "word": "待ち望む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "待ち望む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 77,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "まちのぞむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 77,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mong đợi; nóng lòng chờ",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "住民は新しい病院の完成を待ち望んでいる。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 78,
+      "word": "着飾る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "着飾る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 78,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "きかざる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 78,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ăn diện; diện đẹp",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供たちは晴れ着で着飾って式に出席した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 79,
+      "word": "張り合う",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "張り合う",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 79,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はりあう",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 79,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ganh đua; cạnh tranh",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "兄弟は何をするにも互いに張り合っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 80,
+      "word": "張り出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "張り出す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 80,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はりだす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 80,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhô ra; vươn ra; căng ra",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "大きな木の枝が道路に張り出している。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 81,
+      "word": "貼り出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "貼り出す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 81,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はりだす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 81,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dán lên để công bố; niêm yết",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "試験の結果が掲示板に貼り出された。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 82,
+      "word": "張り切る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "張り切る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 82,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はりきる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 82,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "hăng hái; đầy nhiệt tình",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供たちは運動会に向けて張り切っている。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 83,
+      "word": "張り裂ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "張り裂ける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 83,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はりさける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 83,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "rách toạc; như vỡ tung",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "別れの悲しみで胸が張り裂けそうだった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 84,
+      "word": "跳ね上がる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "跳ね上がる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 84,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はねあがる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 84,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhảy vọt; tăng vọt; bật lên",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "原材料の不足で価格が急に跳ね上がった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 85,
+      "word": "跳ね返る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "跳ね返る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 85,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "はねかえる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 85,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bật lại; dội lại",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "壁に当たったボールが跳ね返ってきた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 86,
+      "word": "跳び上がる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "跳び上がる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 86,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とびあがる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 86,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhảy bật lên",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "大きな音に驚いて思わず跳び上がった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 87,
+      "word": "追い込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "追い込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 87,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おいこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 87,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dồn vào; đẩy đến tình thế",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "過度な競争が社員を精神的に追い込んでいる。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 88,
+      "word": "投げ出す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "投げ出す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 88,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "なげだす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 88,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ném ra; bỏ dở; buông xuôi",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "難しくても途中で仕事を投げ出したくない。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 89,
+      "word": "当てはめる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "当てはめる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 89,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "あてはめる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 89,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "áp dụng vào; đối chiếu cho khớp",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "この公式に数字を当てはめて計算する。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 90,
+      "word": "踏み込む",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "踏み込む",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 90,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふみこむ",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 90,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bước sâu vào; đi sâu vào; xông vào",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "会議では問題の核心に踏み込んだ議論が行われた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 91,
+      "word": "突き止める",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "突き止める",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 91,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "つきとめる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 91,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tìm ra chính xác; xác định đến cùng",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "調査の結果、事故の原因を突き止めた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 92,
+      "word": "突っ張る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "突っ張る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 92,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "つっぱる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 92,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "căng cứng; chống thẳng; bướng bỉnh",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "洗顔後、肌が突っ張る感じがする。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 93,
+      "word": "粘り着く",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "粘り着く",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 93,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ねばりつく",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 93,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dính chặt; bám dính",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "靴の裏に粘土が粘り着いて取れない。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 94,
+      "word": "飛び越す",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "飛び越す",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 94,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とびこす",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 94,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhảy qua; vượt qua",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供は小さな水たまりを飛び越した。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 95,
+      "word": "飛び掛かる",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "飛び掛かる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 95,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とびかかる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 95,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhảy xổ vào; lao vào",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "猫がおもちゃに勢いよく飛び掛かった。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 96,
+      "word": "飛び散る",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "飛び散る",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 96,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とびちる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 96,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bắn tung tóe; văng tứ phía",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "コップが割れてガラスの破片が飛び散った。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 97,
+      "word": "飛び抜ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "飛び抜ける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 97,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とびぬける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 97,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vượt trội; nổi bật hẳn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女はクラスの中でも飛び抜けて歌がうまい。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 98,
+      "word": "備え付ける",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "備え付ける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 98,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "そなえつける",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 98,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trang bị sẵn; lắp đặt sẵn",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "各部屋に机と椅子を備え付けた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 99,
+      "word": "付け加える",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "付け加える",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 99,
+          "image_page": 70
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "つけくわえる",
+          "image_file": "IMG_6390.jpg",
+          "image_row": 99,
+          "image_page": 70
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thêm vào; bổ sung",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "説明の最後に注意点を一つ付け加えた。",
+          "note": "Tự soạn nghĩa Việt/câu ví dụ theo từ và cách đọc trong ảnh; không phải nội dung trích từ ảnh."
+        }
+      }
+    }
+  ],
+  "issues": [
+    "row 1 '結び付ける': not found in resources",
+    "row 2 '見計らう': not found in resources",
+    "row 3 '見合わせる': not found in resources",
+    "row 4 '見失う': not found in resources",
+    "row 5 '見守る': not found in resources",
+    "row 6 '見習う': not found in resources",
+    "row 7 '見出す': not found in resources",
+    "row 8 '見積もる': not found in resources",
+    "row 9 '見損なう': not found in resources",
+    "row 10 '見渡す': not found in resources",
+    "row 11 '見逃す': not found in resources",
+    "row 12 '見入る': not found in resources",
+    "row 13 '見抜く': not found in resources",
+    "row 14 '立て直す': not found in resources",
+    "row 15 '見分ける': not found in resources",
+    "row 16 '見落とす': not found in resources",
+    "row 17 '言いふらす': not found in resources",
+    "row 18 '言い残す': not found in resources",
+    "row 19 '言い張る': not found in resources",
+    "row 20 '言い渡す': not found in resources",
+    "row 21 '言い放つ': not found in resources",
+    "row 22 '呼び込む': not found in resources",
+    "row 23 '込み上げる': not found in resources",
+    "row 24 '込み入る': not found in resources",
+    "row 25 '差し引く': not found in resources",
+    "row 26 '差し支える': not found in resources",
+    "row 27 '差し出す': not found in resources",
+    "row 28 '使いこなす': not found in resources",
+    "row 29 '思い詰める': not found in resources",
+    "row 30 '思い上がる': not found in resources",
+    "row 31 '思い返す': not found in resources",
+    "row 32 '似通う': not found in resources",
+    "row 33 '持ち越す': not found in resources",
+    "row 34 '持ち直す': not found in resources",
+    "row 35 '取りそろえる': not found in resources",
+    "row 36 '取りとめる': not found in resources",
+    "row 37 '取り扱う': not found in resources",
+    "row 38 '取り押さえる': not found in resources",
+    "row 39 '取り下げる': not found in resources",
+    "row 40 '取り外す': not found in resources",
+    "row 41 '取り巻く': not found in resources",
+    "row 42 '取り寄せる': not found in resources",
+    "row 43 '取り仕切る': not found in resources",
+    "row 44 '取り持つ': not found in resources",
+    "row 45 '取り次ぐ': not found in resources",
+    "row 46 '取り除く': not found in resources",
+    "row 48 '取り組む': not found in resources",
+    "row 49 '取り調べる': not found in resources",
+    "row 50 '取り締まる': not found in resources",
+    "row 51 '取り入る': not found in resources",
+    "row 52 '取り付ける': not found in resources",
+    "row 53 '取り戻す': not found in resources",
+    "row 54 '取り立てる': not found in resources",
+    "row 55 '受け継ぐ': not found in resources",
+    "row 56 '受け入れる': not found in resources",
+    "row 57 '蹴飛ばす': not found in resources",
+    "row 58 '出直す': not found in resources",
+    "row 59 '乗っ取る': not found in resources",
+    "row 60 '乗り越える': not found in resources",
+    "row 61 '食い違う': not found in resources",
+    "row 62 '食い込む': not found in resources",
+    "row 63 '食い止める': not found in resources",
+    "row 64 '振り返る': not found in resources",
+    "row 66 '申し出る': not found in resources",
+    "row 67 '申し入れる': not found in resources",
+    "row 68 '積み立てる': not found in resources",
+    "row 69 '切り捨てる': not found in resources",
+    "row 70 '切り出す': not found in resources",
+    "row 71 '組み合わせる': not found in resources",
+    "row 72 '組み込む': not found in resources",
+    "row 73 '打ち込む': not found in resources",
+    "row 74 '打ち消す': not found in resources",
+    "row 75 '打ち切る': not found in resources",
+    "row 76 '打ち明ける': not found in resources",
+    "row 77 '待ち望む': not found in resources",
+    "row 78 '着飾る': not found in resources",
+    "row 79 '張り合う': not found in resources",
+    "row 80 '張り出す': not found in resources",
+    "row 81 '貼り出す': not found in resources",
+    "row 82 '張り切る': not found in resources",
+    "row 83 '張り裂ける': not found in resources",
+    "row 84 '跳ね上がる': not found in resources",
+    "row 85 '跳ね返る': not found in resources",
+    "row 86 '跳び上がる': not found in resources",
+    "row 87 '追い込む': not found in resources",
+    "row 88 '投げ出す': not found in resources",
+    "row 89 '当てはめる': not found in resources",
+    "row 90 '踏み込む': not found in resources",
+    "row 91 '突き止める': not found in resources",
+    "row 92 '突っ張る': not found in resources",
+    "row 93 '粘り着く': not found in resources",
+    "row 94 '飛び越す': not found in resources",
+    "row 95 '飛び掛かる': not found in resources",
+    "row 96 '飛び散る': not found in resources",
+    "row 97 '飛び抜ける': not found in resources",
+    "row 98 '備え付ける': not found in resources",
+    "row 99 '付け加える': not found in resources"
+  ],
+  "source_images": [
+    {
+      "file": "IMG_6389.jpg",
+      "page": 69,
+      "rows": [
+        1,
+        46
+      ]
+    },
+    {
+      "file": "IMG_6390.jpg",
+      "page": 70,
+      "rows": [
+        47,
+        99
+      ]
+    }
+  ],
+  "resolution_note": "Đã giữ nguyên từ/cách đọc trong ảnh, bổ sung nghĩa và ví dụ còn thiếu bằng authored. issues giữ lịch sử tra nguồn; không còn ô trống hay xung đột chưa giải quyết."
+}
