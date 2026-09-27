@@ -1,6 +1,6 @@
 ---
 name: jlpt-image-to-vocabulary-csv
-description: Đọc từ vựng JLPT từ ảnh và xuất CSV theo từng bài; ưu tiên bổ sung dữ liệu từ resources, đồng thời tự bổ sung nghĩa Việt và ví dụ tiếng Nhật còn thiếu theo phong cách các bài hiện có. Dùng cho ảnh trang sách, ảnh chụp hoặc scan; không tự thêm từ ngoài ảnh.
+description: "Đọc từ vựng JLPT từ ảnh (ảnh chụp, scan, trang sách, screenshot) và xuất CSV bài từ vựng mới vào resources/<LEVEL>/goi theo đúng schema bốn cột; ưu tiên bổ sung dữ liệu từ resources hiện có, tự bổ sung nghĩa Việt và câu ví dụ còn thiếu theo phong cách các bài hiện có. Dùng khi người dùng đính kèm ảnh danh sách từ vựng và muốn nhập, thêm bài mới, số hoá hoặc chuyển ảnh thành CSV. Không tự thêm từ ngoài ảnh, không đoán kanji/cách đọc mơ hồ, không ghi đè bài cũ."
 ---
 
 # JLPT Image to Vocabulary CSV

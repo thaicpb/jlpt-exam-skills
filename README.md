@@ -13,7 +13,7 @@ Hiện có từ vựng **N1, bài 1–26** và **N2, bài 1–14**. Khi tạo b�
 
 ## Bắt đầu học
 
-Mở dự án trong ứng dụng AI có thể đọc các tệp của dự án, chẳng hạn Codex, rồi gửi:
+Mở dự án trong ứng dụng AI có thể đọc các tệp của dự án, chẳng hạn Claude Code, Claude Desktop (Cowork) hoặc Codex, rồi gửi:
 
 > Dùng skill jlpt-vocabulary-flashcards cho tôi tự học 10 từ N2 trong bài 1 (dai1) bằng thẻ nhớ. Cho tôi bấm lật thẻ để xem cách đọc, nghĩa tiếng Việt và câu ví dụ.
 
@@ -24,6 +24,13 @@ Nếu AI chưa nhận diện tên skill, gửi thêm:
 > Hãy đọc và làm theo tệp skills/jlpt-vocabulary-flashcards/SKILL.md trong dự án này, sau đó bắt đầu buổi học cho tôi.
 
 Bạn không cần mở hay chỉnh sửa tệp đó. AI cần được cấp quyền đọc dự án; chỉ gửi tên skill trong một cuộc trò chuyện không có dữ liệu dự án là chưa đủ.
+
+### Dùng với Claude
+
+- **Claude Code** (terminal/IDE): mở terminal tại thư mục dự án rồi chạy `claude`. Bốn skill được nhận tự động qua thư mục `.claude/skills/`, nên chỉ cần nói tự nhiên, ví dụ “cho tôi học 10 từ N2 bài 1 bằng thẻ nhớ” hoặc “tạo 10 câu luyện N1”. Có thể gọi trực tiếp bằng `/jlpt-vocabulary-flashcards`, `/jlpt-n2-vocabulary-coach`, `/jlpt-n1-vocabulary-coach`, `/jlpt-image-to-vocabulary-csv`. Claude sẽ báo đường dẫn file HTML trong `outputs/` để bạn mở bằng trình duyệt.
+- **Claude Desktop (Cowork)**: chọn thư mục dự án này làm thư mục làm việc, rồi gửi yêu cầu như trên. Nếu Claude chưa dùng skill, thêm câu “Hãy đọc CLAUDE.md và làm theo skill phù hợp trong dự án”.
+
+Tệp `CLAUDE.md` (cho Claude) và `AGENTS.md` (dùng chung, Codex đọc được) mô tả cách chọn skill và các quy tắc dữ liệu. Nếu clone trên Windows, bật `git config core.symlinks true` trước khi clone để `.claude/skills` hoạt động.
 
 ## Học và ôn từ mới
 

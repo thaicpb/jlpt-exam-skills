@@ -1,0 +1,36 @@
+# JLPT Exam Skills — hướng dẫn cho AI agent
+
+Tài liệu dùng chung cho mọi agent (Claude, Codex…). Người dùng là người học tiếng Nhật, thường không lập trình; trả lời bằng tiếng Việt.
+
+## Cấu trúc
+
+- `resources/<LEVEL>/goi/daiN.csv`: từ vựng theo cấp độ/bài, UTF-8 BOM, bốn cột `từ mới, cách đọc, nghĩa tiếng việt, ví dụ sử dụng minh hoạ`. Hiện có N1 dai1–26, N2 dai1–14.
+- `resources/<LEVEL>/goi/daiN.examples.json`: bản dịch Việt + furigana cho câu mẫu (dùng cho flashcard).
+- `skills/<tên>/`: nguồn chính của bốn skill (`SKILL.md`, `scripts/`, `assets/`, `references/`).
+- `.claude/skills/<tên>`: symlink tới `skills/<tên>` để Claude Code tự nhận skill. Luôn sửa trong `skills/`, không tạo bản sao.
+- `outputs/`: nơi lưu HTML/JSON tạo ra cho người học (đã gitignore).
+
+## Chọn skill
+
+| Yêu cầu của người dùng | Skill |
+| --- | --- |
+| Tự học, ôn, lật thẻ, flashcard (N1/N2) | `jlpt-vocabulary-flashcards` |
+| Bài tập / quiz / kiểm tra từ vựng **N2** (6 dạng) | `jlpt-n2-vocabulary-coach` |
+| Bài tập / quiz / kiểm tra từ vựng **N1** (4 dạng) | `jlpt-n1-vocabulary-coach` |
+| Ảnh danh sách từ → bài CSV mới | `jlpt-image-to-vocabulary-csv` |
+| "Có những bài nào?" | Liệt kê `resources/*/goi/*.csv`, không cần skill |
+
+Luôn đọc đầy đủ `SKILL.md` của skill được chọn trước khi làm. Không trộn phạm vi: flashcard không chấm điểm; N1 và N2 không dùng chung builder.
+
+## Quy tắc bắt buộc
+
+- Từ mục tiêu chỉ lấy từ CSV của dự án; không lấy từ web hoặc trí nhớ. Thiếu dữ liệu thì báo rõ, không ép đủ số câu.
+- Không ghi đè CSV trong `resources/` nếu người dùng chưa yêu cầu rõ.
+- Chạy script từ thư mục skill (`cd skills/<tên>`); các đường dẫn `../../resources`, `../../outputs` tính từ đó. Chỉ cần Python 3 chuẩn, không cài thêm gói.
+- Không đưa toàn bộ corpus vào hội thoại; nạp đúng phạm vi bằng `--lesson`, `--limit`, `--sample`.
+
+## Kiểm tra
+
+```bash
+for d in skills/*/; do (cd "$d/scripts" && python3 -m unittest discover -p 'test_*.py'); done
+```
