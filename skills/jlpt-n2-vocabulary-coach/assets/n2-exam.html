@@ -1,27 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luyện từ vựng N2</title>
 <div id="n2-exam">
 <style>
-#n2-exam {font:18px/1.65 system-ui,sans-serif;color:light-dark(#202b37,#edf2f7);--surface:light-dark(#f4f7fb,#202b38);--line:light-dark(#c9d4e3,#53657b);--brand:light-dark(#244cb3,#b9ceff);--paper:light-dark(#fff,#141d29)}
+#n2-exam {box-sizing:border-box;width:100%;max-width:960px;margin:auto;padding:clamp(10px,3vw,24px);font:clamp(15px,2vw,17px)/1.5 system-ui,sans-serif;color:light-dark(#202b37,#edf2f7);--surface:light-dark(#f4f7fb,#202b38);--line:light-dark(#c9d4e3,#53657b);--brand:light-dark(#244cb3,#b9ceff);--paper:light-dark(#fff,#141d29)}
 #n2-exam *{box-sizing:border-box}
-#n2-exam header{margin-bottom:24px}
-#n2-exam h2{font-size:30px;margin:0 0 8px}
-#n2-exam p{margin:8px 0}
-#n2-exam button{font:inherit;white-space:normal;overflow-wrap:anywhere;cursor:pointer;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:inherit;min-height:50px}
+#n2-exam header{margin-bottom:14px}
+#n2-exam h2{font-size:clamp(22px,4vw,28px);line-height:1.25;margin:0 0 4px}
+#n2-exam h3{margin:0 0 6px}
+#n2-exam p{margin:6px 0}
+#n2-exam button{font:inherit;white-space:normal;overflow-wrap:anywhere;cursor:pointer;padding:9px 13px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:inherit;min-height:44px;touch-action:manipulation}
 #n2-exam button:hover:not(:disabled){border-color:var(--brand)}
 #n2-exam button:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
 #n2-exam button[aria-pressed=true]{border:2px solid var(--brand);background:var(--surface)}
 #n2-exam button:disabled{cursor:default}
-#n2-exam .toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}
-#n2-exam article{background:var(--surface);border-radius:20px;padding:28px}
-#n2-exam .sentence{font-size:30px;line-height:1.9;overflow-wrap:anywhere;margin:24px 0}
+#n2-exam .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0}
+#n2-exam #exam-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-inline:contain;padding:2px 1px 6px;scrollbar-width:thin}
+#n2-exam #exam-nav button{flex:0 0 auto;min-width:42px;padding:6px 9px}
+#n2-exam article{background:var(--surface);border-radius:clamp(14px,3vw,20px);padding:clamp(16px,3vw,26px)}
+#n2-exam .sentence{font-size:clamp(20px,4vw,28px);line-height:1.65;overflow-wrap:anywhere;margin:clamp(12px,2vw,20px) 0}
 #n2-exam .sentence u{text-decoration-color:var(--brand);text-underline-offset:8px;text-decoration-thickness:3px}
-#n2-exam .options{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+#n2-exam .options{display:grid;gap:8px;grid-template-columns:repeat(2,minmax(0,1fr))}
 #n2-exam .options.long{grid-template-columns:1fr}
-#n2-exam .options button{text-align:left;font-size:24px}
-#n2-exam .details{border-top:1px solid var(--line);margin-top:24px;padding-top:20px}
-#n2-exam .source{font-size:14px;overflow-wrap:anywhere}
-#n2-exam .review-row{padding:14px 0;border-bottom:1px solid var(--line)}
-#n2-exam progress{width:100%;accent-color:var(--brand)}
-@media(max-width:520px){#n2-exam article{padding:18px}#n2-exam .options{grid-template-columns:1fr}#n2-exam .sentence{font-size:26px}#n2-exam .options button{font-size:22px}}
+#n2-exam .options button{text-align:left;font-size:clamp(16px,3vw,20px)}
+#n2-exam .details{border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
+#n2-exam .source{font-size:12px;overflow-wrap:anywhere}
+#n2-exam .review-row{padding:10px 0;border-bottom:1px solid var(--line)}
+#n2-exam progress{width:100%;height:6px;accent-color:var(--brand);display:block}
+#n2-exam #exam-actions button:last-child{margin-left:auto}
+#n2-exam #exam-status{font-size:13px;min-height:1.5em}
+@media(max-width:560px){#n2-exam{padding:10px 8px}#n2-exam header{margin-bottom:8px}#n2-exam header>p:last-child{font-size:12px;color:light-dark(#5c6874,#bbc7d3)}#n2-exam .toolbar{margin:8px 0}#n2-exam article{padding:14px 12px}#n2-exam .sentence{font-size:clamp(19px,5vw,23px);line-height:1.55;margin:10px 0}#n2-exam .options button{font-size:15px;min-height:42px;padding:8px 10px}#n2-exam #exam-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#n2-exam #exam-actions button{width:100%}#n2-exam #exam-actions button:last-child{grid-column:1/-1;margin-left:0}}
+@media(max-width:360px){#n2-exam .options{grid-template-columns:1fr}#n2-exam .options button{min-height:40px}}
+@media(max-height:720px) and (max-width:760px){#n2-exam{padding-top:6px;padding-bottom:6px}#n2-exam header>p:last-child{display:none}#n2-exam header{margin-bottom:5px}#n2-exam .toolbar{margin:6px 0}#n2-exam article{padding-top:11px;padding-bottom:11px}#n2-exam .sentence{margin:7px 0;line-height:1.45}#n2-exam .options{gap:6px}#n2-exam .options button{min-height:38px;padding-top:6px;padding-bottom:6px}}
 </style>
 <header><h2>Luyện từ vựng N2</h2><p id="exam-meta"></p><p>Bài tập biên soạn · Từ mục tiêu từ CSV · Không phải đề chính thức</p></header>
 <div id="exam-nav" class="toolbar" aria-label="Chọn câu hỏi"></div>
@@ -51,9 +63,13 @@ const prev=action('← Câu trước',()=>{index--;render()});prev.disabled=inde
 const next=action('Câu tiếp →',()=>{index++;render()});next.disabled=index===questions.length-1;
 find('exam-actions').append(prev,next,action(submitted?'Xem tổng kết':'Nộp bài / Tổng kết',()=>{if(!submitted&&data.mode==='exam'&&answers.size<questions.length){find('exam-status').textContent=`Còn ${questions.length-answers.size} câu chưa trả lời. Hãy hoàn thành trước khi nộp.`;return}submitted=true;summary()}));
 find('exam-nav').replaceChildren();questions.forEach((entry,i)=>{const b=action(String(i+1)+(answers.has(entry.id)?' ✓':''),()=>{index=i;render()});b.setAttribute('aria-label',`Câu ${i+1}${answers.has(entry.id)?', đã trả lời':''}`);b.setAttribute('aria-pressed',String(i===index));find('exam-nav').append(b)});
+const nav=find('exam-nav'),active=nav.querySelector('[aria-pressed="true"]');
+if(active)nav.scrollLeft+=active.getBoundingClientRect().left-nav.getBoundingClientRect().left-(nav.clientWidth-active.offsetWidth)/2;
 }
 function summary(){const stage=find('exam-stage');stage.replaceChildren(node('h2','Kết quả luyện tập'));let total=0;for(const [type,label] of Object.entries(data.types)){const rows=questions.filter(q=>q.type===type);if(!rows.length)continue;const correct=rows.filter(q=>answers.get(q.id)===q.answer).length;total+=correct;stage.append(node('p',`${label}: ${correct}/${rows.length}`))}stage.prepend(node('h3',`Đúng ${total}/${questions.length} câu`));stage.append(node('p','Điểm luyện tập, không quy đổi thành điểm JLPT.'));questions.filter(q=>answers.get(q.id)!==q.answer).forEach(q=>{const row=node('div','','review-row');row.append(node('p',`${q.word} · ${q.source.reading} · ${q.source.meaning_vi}`),node('p',`${q.source_file}:${q.source_line}`,'source'),action('Xem lại câu này',()=>{index=questions.indexOf(q);render()}));stage.append(row)});find('exam-actions').replaceChildren(action('Xem đáp án từng câu',()=>{index=0;render()}));find('exam-status').textContent='Đã tổng kết bài. Lựa chọn được giữ nguyên trong phiên này.'}
 render();
 })();
 </script>
 </div>
+
+</html>
