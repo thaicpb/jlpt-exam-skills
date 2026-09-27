@@ -84,6 +84,8 @@ def main():
         title = payload["level"] + (f" · Bài {lessons[0]}" if len(lessons) == 1 else " · Từ vựng")
         document = (template
                     .replace("__TITLE__", html.escape(title))
+                    .replace("__LEVEL__", html.escape(payload["level"]))
+                    .replace("__COUNT__", str(len(payload["items"])))
                     .replace("__STATIC_META__", f'{len(payload["items"])} thẻ · Chạm vào từ để xem đáp án')
                     .replace("__STATIC_CARDS__", render_static_cards(payload["items"]))
                     .replace("__DATA__", encoded))
