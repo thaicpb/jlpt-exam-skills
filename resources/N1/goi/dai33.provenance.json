@@ -1,0 +1,3095 @@
+{
+  "version": 1,
+  "input_file": "../../../outputs/n1-import-30-33/dai33.image.json",
+  "rows": [
+    {
+      "input_row": 1,
+      "word": "悲惨な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "悲惨な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 1,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひさんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 1,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bi thảm; thảm khốc",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "戦争の悲惨な現実を知った。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 2,
+      "word": "微かな",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "微かな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 2,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "かすかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 2,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "yếu ớt; lờ mờ, thoang thoảng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "遠くから微かな音が聞こえた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 3,
+      "word": "微妙な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "微妙な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 3,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "びみょうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 3,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tinh tế, khó nhận ra; tế nhị",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "二つの色には微妙な違いがある。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 4,
+      "word": "貧弱な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "貧弱な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 4,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひんじゃくな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 4,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "yếu ớt; nghèo nàn, thiếu thốn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "その主張は根拠が貧弱だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 5,
+      "word": "頻繁な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "頻繁な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 5,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひんぱんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 5,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thường xuyên",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "頻繁な停電で仕事が進まない。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 6,
+      "word": "敏感な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "敏感な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 6,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "びんかんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 6,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhạy cảm; nhạy bén",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "私は音に敏感で、すぐ目が覚める。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 7,
+      "word": "不穏な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不穏な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 7,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふおんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 7,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bất ổn; đáng lo ngại",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "町には不穏な空気が漂っていた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 8,
+      "word": "不振な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不振な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 8,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふしんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 8,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "sa sút; trì trệ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "売り上げが不振で、対策が急がれる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 9,
+      "word": "不服な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不服な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 9,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふふくな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 9,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bất mãn; không đồng tình",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は判定が不服な様子だった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 10,
+      "word": "不毛な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不毛な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 10,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふもうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 10,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "cằn cỗi; vô ích",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "責任を押し付け合う不毛な議論はやめよう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 11,
+      "word": "不用意な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不用意な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 11,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふよういな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 11,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "sơ suất; thiếu thận trọng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "不用意な発言で相手を傷つけた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 12,
+      "word": "不利な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不利な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 12,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふりな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 12,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bất lợi",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "こちらに不利な条件は受け入れられない。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 13,
+      "word": "物好きな",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "物好きな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 13,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ものずきな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 13,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thích chuyện lạ; có sở thích khác thường",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "雨の中で釣りをするとは、君も物好きだね。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 14,
+      "word": "粉々な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "粉々な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 14,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "こなごなな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 14,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vỡ vụn; tan tành",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "落とした皿が粉々になった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 15,
+      "word": "平凡な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "平凡な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 15,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "へいぼんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 15,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bình thường; không đặc biệt",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "平凡な毎日にも小さな喜びがある。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 16,
+      "word": "膨大な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "膨大な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 16,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ぼうだいな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 16,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đồ sộ; khổng lồ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "研究のために膨大な資料を読んだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 17,
+      "word": "密かな",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "密かな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 17,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひそかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 17,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "kín đáo; thầm kín",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "作家になるのが私の密かな夢だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 18,
+      "word": "無残な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無残な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 18,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むざんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 18,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thê thảm; tan hoang",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "台風で庭の花が無残な姿になった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 19,
+      "word": "無邪気な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無邪気な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 19,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むじゃきな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 19,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "hồn nhiên; ngây thơ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供たちの無邪気な笑顔に和んだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 20,
+      "word": "無情な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無情な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 20,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むじょうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 20,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vô tình; nhẫn tâm",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "雨は無情にも試合開始直前に降り出した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 21,
+      "word": "無造作な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無造作な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 21,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むぞうさな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 21,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "qua loa; không để tâm, không cầu kỳ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は上着を椅子に無造作に置いた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 22,
+      "word": "無鉄砲な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無鉄砲な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 22,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むてっぽうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 22,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "liều lĩnh; bất chấp hậu quả",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "装備なしで山に入るなんて無鉄砲だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 23,
+      "word": "無謀な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "無謀な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 23,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "むぼうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 23,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "liều lĩnh; thiếu tính toán",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "準備もなく挑戦するのは無謀だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 24,
+      "word": "明瞭な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "明瞭な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 24,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "めいりょうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 24,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "rõ ràng; rành mạch",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "明瞭な声で名前を告げた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 25,
+      "word": "明朗な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "明朗な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 25,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "めいろうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 25,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vui vẻ; minh bạch",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は明朗な性格で周囲を明るくする。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 26,
+      "word": "綿密な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "綿密な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 26,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "めんみつな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 26,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tỉ mỉ; kỹ lưỡng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "出発前に綿密な計画を立てた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 27,
+      "word": "猛烈な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "猛烈な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 27,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "もうれつな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 27,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mãnh liệt; dữ dội",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "猛烈な暑さで外出を控えた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 28,
+      "word": "厄介な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "厄介な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 28,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "やっかいな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 28,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "phiền toái; khó giải quyết",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "厄介な問題を一人で抱えている。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 29,
+      "word": "愉快な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "愉快な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 29,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ゆかいな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 29,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vui vẻ; thú vị",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "友人の話はいつも愉快だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 30,
+      "word": "優雅な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "優雅な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 30,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ゆうがな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 30,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tao nhã; duyên dáng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "白鳥が湖を優雅に泳いでいる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 31,
+      "word": "勇敢な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "勇敢な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 31,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ゆうかんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 31,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dũng cảm",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "消防士の勇敢な行動が命を救った。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 32,
+      "word": "憂鬱な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "憂鬱な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 32,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ゆううつな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 32,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "u sầu; phiền muộn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "試験の結果が気になって憂鬱だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 33,
+      "word": "有望な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "有望な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 33,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ゆうぼうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 33,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đầy triển vọng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は将来有望な研究者だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 34,
+      "word": "余計な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "余計な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 34,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "よけいな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 34,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thừa; không cần thiết",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "余計なことを言って相手を怒らせた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 35,
+      "word": "理不尽な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "理不尽な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 35,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "りふじんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 35,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vô lý; bất công",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "理由もなく解雇するのは理不尽だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 36,
+      "word": "裏腹な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "裏腹な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 36,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "うらはらな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 36,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trái ngược; mâu thuẫn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "期待とは裏腹な結果になった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 37,
+      "word": "律儀な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "律儀な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 37,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "りちぎな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 37,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chu đáo, giữ lễ; ngay thẳng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "律儀な彼は借りた物を必ず返す。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 38,
+      "word": "率直な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "率直な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 38,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "そっちょくな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 38,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thẳng thắn; thành thật",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "率直な意見を聞かせてください。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 39,
+      "word": "流暢な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "流暢な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 39,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "りゅうちょうな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 39,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lưu loát; trôi chảy",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は流暢な日本語を話す。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 40,
+      "word": "倫理的な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "倫理的な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 40,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "りんりてきな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 40,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thuộc đạo đức; phù hợp đạo đức",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "研究の倫理的な問題を検討した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 41,
+      "word": "冷酷な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "冷酷な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 41,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "れいこくな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 41,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lạnh lùng, tàn nhẫn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "助けを求める声を無視するのは冷酷だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 42,
+      "word": "冷淡な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "冷淡な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 42,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "れいたんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 42,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lạnh nhạt; thờ ơ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "相談しても冷淡な返事しかなかった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 43,
+      "word": "露骨な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "露骨な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 43,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ろこつな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 43,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lộ liễu; trắng trợn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼は露骨に嫌な顔をした。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 44,
+      "word": "朗らかな",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "朗らかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 44,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ほがらかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 44,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vui tươi; cởi mở",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "祖母はいつも朗らかに笑う。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 45,
+      "word": "和やかな",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "和やかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 45,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "なごやかな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 45,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "hòa nhã; ấm cúng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "会食は和やかな雰囲気で進んだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 46,
+      "word": "傲慢な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "傲慢な",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 46,
+          "image_page": 77
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ごうまんな",
+          "image_file": "IMG_6397.jpg",
+          "image_row": 46,
+          "image_page": 77
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngạo mạn; kiêu căng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "人の忠告を聞かない傲慢な態度だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 47,
+      "word": "几帳面な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "几帳面な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 47,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "きちょうめんな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 47,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngăn nắp; cẩn thận, chỉn chu",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "几帳面な姉は書類を日付順に並べる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 48,
+      "word": "曖昧な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "曖昧な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 48,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "あいまいな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 48,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mơ hồ; không rõ ràng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "曖昧な返事では予定が立てられない。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 49,
+      "word": "緻密な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "緻密な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 49,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ちみつな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 49,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tỉ mỉ; chặt chẽ, tinh xảo",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "この小説は緻密な構成が魅力だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 50,
+      "word": "貪欲な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "貪欲な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 50,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "どんよくな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 50,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tham lam; khao khát mạnh mẽ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼女は新しい知識を貪欲に吸収する。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 51,
+      "word": "斬新な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "斬新な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 51,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ざんしんな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 51,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "mới mẻ; độc đáo, sáng tạo",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "斬新なデザインが注目を集めた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 52,
+      "word": "不吉な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不吉な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 52,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふきつな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 52,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "không lành; báo điềm xấu",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "突然の静けさに不吉な予感がした。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 53,
+      "word": "不審な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "不審な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 53,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふしんな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 53,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đáng ngờ; khả nghi",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "駅で不審な荷物が見つかった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 54,
+      "word": "良質な",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "良質な",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 54,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "りょうしつな",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 54,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chất lượng tốt",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "良質な睡眠は健康に欠かせない。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 55,
+      "word": "いつの間にか",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いつの間にか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 55,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いつのまにか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 55,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "từ lúc nào không hay",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "話しているうちにいつの間にか夜になった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 56,
+      "word": "あいにく",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "あいにく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 56,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "あいにく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 56,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tiếc là; không may",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "あいにく、その日は予定が入っています。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 57,
+      "word": "あえて",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "あえて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 57,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "あえて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 57,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dám; cố ý làm dù biết khó hoặc không cần",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "反対されると知りながら、あえて提案した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 58,
+      "word": "あたかも",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "あたかも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 58,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "あたかも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 58,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "cứ như thể; hệt như",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼はあたかも現場を見たかのように話した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 59,
+      "word": "いかに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 59,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 59,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "như thế nào; đến mức nào",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "支援がいかに大切かを実感した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 60,
+      "word": "いかにも",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いかにも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 60,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いかにも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 60,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "quả đúng là; trông có vẻ rất",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼はいかにも眠そうな顔をしている。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 61,
+      "word": "いざ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いざ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 61,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いざ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 61,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "khi thực sự bắt đầu; nào, đến lúc",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "いざ話そうとすると、言葉が出てこない。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 62,
+      "word": "いたって",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いたって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 62,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いたって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 62,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "rất; hết sức",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "本人はいたって元気だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 63,
+      "word": "いっそ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いっそ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 63,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いっそ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 63,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thà; chi bằng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "迷うくらいなら、いっそ両方買おう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 64,
+      "word": "偽りなく",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "偽りなく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 64,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いつわりなく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 64,
+          "image_page": 78
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thành thật; không gian dối",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "見たことを偽りなく話してください。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 65,
+      "word": "いとも",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いとも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 65,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いとも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 65,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "vô cùng; hết sức dễ dàng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼はいとも簡単に難問を解いた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 66,
+      "word": "いやに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "いやに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 66,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "いやに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 66,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "lạ thường; quá mức thường lệ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "今日はいやに静かだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 67,
+      "word": "おおむね",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "おおむね",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 67,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おおむね",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 67,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "nhìn chung; đại thể",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "工事はおおむね予定どおりに進んでいる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 68,
+      "word": "おおよそ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "おおよそ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 68,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おおよそ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 68,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "khoảng chừng; đại khái",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "完成までおおよそ三週間かかる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 69,
+      "word": "おかまいなく",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "おかまいなく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 69,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おかまいなく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 69,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "xin đừng bận tâm; không cần khách sáo",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "お茶は結構ですので、どうぞおかまいなく。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 70,
+      "word": "おのずと",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "おのずと",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 70,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "おのずと",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 70,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "tự nhiên; tự khắc",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "経験を積めば、おのずと自信がつく。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 71,
+      "word": "かえって",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "かえって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 71,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "かえって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 71,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngược lại; trái với mong đợi",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "急いだせいで、かえって時間がかかった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 72,
+      "word": "かつ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "かつ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 72,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "かつ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 72,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đồng thời; và còn",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "この製品は軽く、かつ丈夫だ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 73,
+      "word": "かつて",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "かつて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 73,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "かつて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 73,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đã từng; thuở trước",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "ここにはかつて城があった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 74,
+      "word": "こぞって",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "こぞって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 74,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "こぞって",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 74,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đồng loạt; tất cả cùng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "村人がこぞって祭りに参加した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 75,
+      "word": "ことごとく",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ことごとく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 75,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ことごとく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 75,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "toàn bộ; không chừa cái nào",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "出した案はことごとく却下された。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 76,
+      "word": "ことのほか",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ことのほか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 76,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ことのほか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 76,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngoài sức tưởng tượng; hơn hẳn thường lệ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "祖母は贈り物をことのほか喜んだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 77,
+      "word": "さしあたり",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "さしあたり",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 77,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さしあたり",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 77,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trước mắt; tạm thời",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "さしあたり必要な物だけ買おう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 78,
+      "word": "さぞ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "さぞ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 78,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さぞ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 78,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chắc hẳn rất",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "長い旅で、さぞお疲れでしょう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 79,
+      "word": "さぞかし",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "さぞかし",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 79,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さぞかし",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 79,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chắc hẳn là rất",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "合格して、ご両親もさぞかし喜んだでしょう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 80,
+      "word": "さぞや",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "さぞや",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 80,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さぞや",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 80,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "chắc hẳn rất",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "故郷を離れ、さぞや寂しかったことだろう。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 81,
+      "word": "さも",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "さも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 81,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "さも",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 81,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ra vẻ; cứ như thể",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼はさも知っているかのようにうなずいた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 82,
+      "word": "しいて",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "しいて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 82,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "しいて",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 82,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "cố; nếu buộc phải",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "しいて選ぶなら、こちらの案にします。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 83,
+      "word": "じかに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "じかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 83,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "じかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 83,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trực tiếp; không qua trung gian",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "専門家からじかに話を聞いた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 84,
+      "word": "しきりに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "しきりに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 84,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "しきりに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 84,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "liên tục; nhiều lần",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "彼はしきりに時計を見ている。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 85,
+      "word": "すかさず",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "すかさず",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 85,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "すかさず",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 85,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "ngay lập tức; không bỏ lỡ lúc",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "質問が終わると、彼女はすかさず答えた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 86,
+      "word": "どうにか",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "どうにか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 86,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "どうにか",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 86,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bằng cách nào đó; xoay xở được",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "終電にどうにか間に合った。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 87,
+      "word": "どうやら",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "どうやら",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 87,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "どうやら",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 87,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "có vẻ như; xem chừng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "どうやら雨はやんだようだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 88,
+      "word": "どうりで",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "どうりで",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 88,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "どうりで",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 88,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thảo nào; hèn gì",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "今日は祝日か。どうりで店が閉まっている。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 89,
+      "word": "とかく",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "とかく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 89,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とかく",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 89,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thường hay; có xu hướng",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "人はとかく自分に甘くなりがちだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 90,
+      "word": "とっくに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "とっくに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 90,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とっくに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 90,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đã từ lâu; lâu rồi",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "その映画なら、とっくに見た。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 91,
+      "word": "とっさに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "とっさに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 91,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とっさに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 91,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trong tích tắc; theo phản xạ",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "子供が転びそうになり、とっさに手を伸ばした。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 92,
+      "word": "とりわけ",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "とりわけ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 92,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "とりわけ",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 92,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đặc biệt là; nhất là",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "果物の中では、とりわけ桃が好きだ。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 93,
+      "word": "なお",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "なお",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 93,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "なお",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 93,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "thêm nữa; vẫn; xin nói thêm",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "会議は三時です。なお、会場は二階です。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 94,
+      "word": "なにかと",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "なにかと",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 94,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "なにかと",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 94,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đủ việc; về nhiều mặt",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "引っ越しにはなにかとお金がかかる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 95,
+      "word": "にわかに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "にわかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 95,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "にわかに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 95,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "đột nhiên; ngay lập tức",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "空がにわかに暗くなった。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 96,
+      "word": "ひいては",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ひいては",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 96,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひいては",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 96,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "xa hơn nữa; từ đó dẫn tới",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "地域の発展は、ひいては国の発展につながる。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 97,
+      "word": "ひたすら",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ひたすら",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 97,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひたすら",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 97,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "một mực; chỉ chuyên tâm",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "合格を目指してひたすら勉強した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 98,
+      "word": "ひとまず",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ひとまず",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 98,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ひとまず",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 98,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "trước mắt; tạm thời",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "話がまとまったので、ひとまず安心した。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 99,
+      "word": "ふいに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ふいに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 99,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふいに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 99,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "bất chợt; đột ngột",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "ふいに名前を呼ばれて振り向いた。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    },
+    {
+      "input_row": 100,
+      "word": "ふんだんに",
+      "fields": {
+        "từ mới": {
+          "origin": "image",
+          "value": "ふんだんに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 100,
+          "image_page": 78
+        },
+        "cách đọc": {
+          "origin": "image",
+          "value": "ふんだんに",
+          "image_file": "IMG_6398.jpg",
+          "image_row": 100,
+          "image_page": 78,
+          "source_value": "",
+          "note": "Ảnh không ghi riêng cách đọc cho từ toàn kana; dùng chính kana của từ mục tiêu."
+        },
+        "nghĩa tiếng việt": {
+          "origin": "authored",
+          "value": "dồi dào; hào phóng, không tiếc",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        },
+        "ví dụ sử dụng minh hoạ": {
+          "origin": "authored",
+          "value": "野菜をふんだんに使ったスープを作った。",
+          "note": "Nghĩa Việt và câu mẫu tự biên soạn theo từ/cách đọc trong ảnh; không trích từ ảnh."
+        }
+      }
+    }
+  ],
+  "issues": []
+}
