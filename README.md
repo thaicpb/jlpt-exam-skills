@@ -1,6 +1,6 @@
 # JLPT Exam Skills
 
-Tự học từ vựng tiếng Nhật bằng thẻ nhớ hoặc luyện bài tập JLPT ngay khi trò chuyện với AI. Hai hoạt động dùng hai skill riêng, không cần biết lập trình.
+Tự học từ vựng tiếng Nhật bằng [web app thẻ nhớ](https://thaicpb.github.io/jlpt-exam-skills/) hoặc luyện bài tập JLPT khi trò chuyện với AI. Không cần biết lập trình.
 
 Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
 
@@ -9,11 +9,23 @@ Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫ
 - **jlpt-n1-vocabulary-coach**: chỉ luyện và kiểm tra từ vựng N1 theo bốn dạng bài.
 - **jlpt-image-to-vocabulary-csv**: giúp bổ sung danh sách từ vựng từ ảnh bạn cung cấp.
 
-Hiện có từ vựng **N1, bài 1–29** và **N2, bài 1–14** (xem thư mục `resources/`). Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI lấy ảnh làm nguồn chuẩn, chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự bổ sung nghĩa Việt và ví dụ còn thiếu; không quét kho CSV để tra từ hoặc tìm trùng. Chỉ kiểm tra dữ liệu bài mới, không tự thêm từ ngoài ảnh.
+Danh sách từ vựng hiện có trong `resources/`:
+
+| Cấp độ | Bài học | Số từ |
+| --- | --- | ---: |
+| N1 | Bài 1–38 | 3.796 |
+| N2 | Bài 1–14 | 1.399 |
+| **Tổng** | **52 bài** | **5.195** |
+
+Các bài N1 30–38 bổ sung **902 từ**, kèm bản dịch tiếng Việt và furigana cho câu ví dụ.
+
+Khi tạo bài học, AI chọn từ từ dữ liệu của dự án. Khi nhập ảnh bằng `jlpt-image-to-vocabulary-csv`, AI lấy ảnh làm nguồn chuẩn, chỉ tham khảo vài dòng của 1–2 bài cùng cấp độ để tự bổ sung nghĩa Việt và ví dụ còn thiếu; không quét kho CSV để tra từ hoặc tìm trùng. Chỉ kiểm tra dữ liệu bài mới, không tự thêm từ ngoài ảnh.
 
 ## Bắt đầu học
 
-Mở dự án trong ứng dụng AI có thể đọc các tệp của dự án, chẳng hạn Claude Code, Claude Desktop (Cowork) hoặc Codex, rồi gửi:
+**Học ngay trên trình duyệt:** mở [JLPT Flashcards](https://thaicpb.github.io/jlpt-exam-skills/), chọn cấp độ N1 hoặc N2, rồi chọn bài. Không cần mở dự án trong ứng dụng AI.
+
+**Học cùng AI hoặc tạo bài tập:** mở dự án trong ứng dụng AI có thể đọc các tệp của dự án, chẳng hạn Claude Code, Claude Desktop (Cowork) hoặc Codex, rồi gửi:
 
 > Dùng skill jlpt-vocabulary-flashcards cho tôi tự học 10 từ N2 trong bài 1 (dai1) bằng thẻ nhớ. Cho tôi bấm lật thẻ để xem cách đọc, nghĩa tiếng Việt và câu ví dụ.
 
@@ -61,7 +73,7 @@ Khi tạo nhiều bộ, skill dùng `--offset` cùng `--limit` để giữ nguy�
 
 > Đây là danh sách từ tôi cần ôn: [dán danh sách từ]. Hãy dùng skill jlpt-vocabulary-flashcards tạo thẻ nhớ cho các từ này. Chỉ dùng những từ có trong dữ liệu dự án.
 
-Dấu xem lại chỉ được giữ trong phiên hiện tại. Để ôn ở buổi sau, hãy lưu danh sách từ cần ôn và gửi lại cho AI; đừng mặc định AI đã nhớ toàn bộ lịch sử học. Nếu không có nút bấm, nhắn “lật” hoặc “tiếp” để xem từng thẻ trong cuộc trò chuyện.
+Với bộ thẻ do skill tạo, dấu xem lại chỉ được giữ trong phiên hiện tại. Để ôn ở buổi sau, hãy lưu danh sách từ cần ôn và gửi lại cho AI; đừng mặc định AI đã nhớ toàn bộ lịch sử học. Nếu không có nút bấm, nhắn “lật” hoặc “tiếp” để xem từng thẻ trong cuộc trò chuyện. Web app lưu dấu xem lại và tiến độ trên thiết bị như hướng dẫn bên dưới.
 
 ## Luyện sáu dạng bài tập N2
 
@@ -125,19 +137,30 @@ AI sẽ đọc từ trong ảnh, đối chiếu phần thiếu với dữ liệu
 
 ## App thẻ nhớ trên iPhone (web app)
 
-Thư mục `webapp/` là một web app thẻ nhớ dùng toàn bộ dữ liệu trong `resources/`. Web app này cài lên màn hình chính iPhone như một app, dùng được offline và không hết hạn. Dấu **★ Cần xem lại** và tiến độ “đã xem” được lưu trên máy. Web app có thêm nút nghe phát âm, vuốt trái/phải để chuyển thẻ và chế độ mặt trước là nghĩa tiếng Việt.
+**Link web app:** [https://thaicpb.github.io/jlpt-exam-skills/](https://thaicpb.github.io/jlpt-exam-skills/)
 
-**Bật lần đầu (GitHub Pages):**
+Thư mục `webapp/` là một web app thẻ nhớ dùng toàn bộ dữ liệu trong `resources/`, hiện gồm N1 bài 1–38 và N2 bài 1–14. Dấu **★ Cần xem lại** và tiến độ “đã xem” được lưu trên máy. Web app có thêm nút nghe phát âm, vuốt trái/phải để chuyển thẻ và chế độ mặt trước là nghĩa tiếng Việt.
+
+**Cài trên iPhone:** mở link bằng **Safari**, bấm **Chia sẻ → Thêm vào MH chính**. Lần đầu, mở app khi có mạng và chờ thông báo **“Đã lưu toàn bộ bài để dùng offline”** trước khi học offline.
+
+**Thiết lập GitHub Pages cho bản sao dự án:**
 
 1. Push code lên GitHub.
 2. Trên GitHub, vào **Settings → Pages → Build and deployment → Source**, chọn **GitHub Actions**.
-3. Vào tab **Actions**, chạy workflow **Deploy flashcard web app** (hoặc push thay đổi bất kỳ trong `resources/`).
+3. Vào tab **Actions**, chạy workflow **Deploy flashcard web app** (hoặc push thay đổi trong `resources/` lên nhánh `main`).
 4. Workflow chạy xong sẽ hiện đường link, dạng `https://<tài-khoản>.github.io/jlpt-exam-skills/`.
 5. Trên iPhone, mở link bằng **Safari**, bấm **Chia sẻ → Thêm vào MH chính**.
 
+Nếu link chỉ hiện README, kiểm tra **Settings → Pages → Source** đang là **GitHub Actions**. Chế độ **Deploy from a branch** với `main` và `/ (root)` sẽ xuất bản nội dung ở thư mục gốc, có thể ghi đè web app bằng trang README. Sau khi đổi nguồn, chạy lại workflow **Deploy flashcard web app**.
+
 GitHub Pages miễn phí yêu cầu repo **public**. Nếu muốn giữ repo private, dùng Cloudflare Pages với lệnh build `python3 tools/build_webapp.py --output dist` và thư mục xuất `dist`.
 
-**Cập nhật bài học:** thêm hoặc sửa CSV trong `resources/`, rồi commit và push. Workflow tự tạo lại app. Lần mở app kế tiếp sẽ hiện thông báo **“Có bài học mới → Cập nhật”**.
+**Cập nhật bài học:**
+
+1. Thêm hoặc sửa `resources/<LEVEL>/goi/daiN.csv` (UTF-8 BOM) và `daiN.examples.json` tương ứng cho bản dịch, furigana của câu ví dụ.
+2. Chạy `python3 tools/build_webapp.py` để kiểm tra dữ liệu và tạo bản web app trong `dist/`. Builder tự nhận các bài trong `resources/`, không cần khai báo thêm danh sách bài trong mã nguồn.
+3. Commit và push dữ liệu lên nhánh `main`. Workflow [Deploy flashcard web app](https://github.com/thaicpb/jlpt-exam-skills/actions/workflows/webapp.yml) tự build và triển khai lên GitHub Pages. Thư mục `dist/` đã được gitignore, không cần commit.
+4. Sau khi triển khai thành công, mở lại web app khi có mạng. Khi hiện **“Có bài học mới”**, bấm **Cập nhật** để tải lại app với dữ liệu mới.
 
 **Sao lưu tiến độ:** Safari có thể xoá dữ liệu của web app nếu lâu không mở. Vào ⚙︎ → **Sao chép** mã sao lưu và cất vào Ghi chú; khi cần, dán vào **Khôi phục**.
 
@@ -151,7 +174,9 @@ python3 -m http.server 8000 --directory dist
 
 ## Từ vựng nằm ở đâu?
 
-- **resources**: danh sách từ theo cấp độ và bài; mỗi mục gồm từ, cách đọc, nghĩa tiếng Việt và câu ví dụ.
+- **resources**: mỗi bài gồm `daiN.csv` chứa từ, cách đọc, nghĩa tiếng Việt, câu ví dụ và `daiN.examples.json` chứa bản dịch, furigana của câu ví dụ.
 - **skills**: hướng dẫn để AI tổ chức việc học và bổ sung dữ liệu từ ảnh.
+- **webapp**: giao diện thẻ nhớ trên trình duyệt và iPhone.
+- **tools/build_webapp.py**: kiểm tra, chuyển dữ liệu bài học và đóng gói web app vào `dist/`.
 
-Bạn chỉ cần trò chuyện với AI để học; không cần thao tác với các thư mục này trong mỗi buổi học.
+Bạn chỉ cần mở web app hoặc trò chuyện với AI để học; không cần thao tác với các thư mục này trong mỗi buổi học.
