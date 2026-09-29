@@ -6,6 +6,7 @@ Tài liệu dùng chung cho mọi agent (Claude, Codex…). Người dùng là n
 
 - `resources/<LEVEL>/goi/daiN.csv`: từ vựng theo cấp độ/bài, UTF-8 BOM, bốn cột `từ mới, cách đọc, nghĩa tiếng việt, ví dụ sử dụng minh hoạ`. Danh sách bài hiện có: liệt kê `resources/*/goi/*.csv`.
 - `resources/<LEVEL>/goi/daiN.examples.json`: bản dịch Việt + furigana cho câu mẫu (dùng cho flashcard).
+- Dữ liệu mỗi bài chỉ gồm `.csv` và `.examples.json`; không tạo hoặc yêu cầu tệp `.provenance.json`.
 - `skills/<tên>/`: nguồn chính của bốn skill (`SKILL.md`, `scripts/`, `assets/`, `references/`).
 - `.claude/skills/<tên>`: symlink tới `skills/<tên>` để Claude Code tự nhận skill. Luôn sửa trong `skills/`, không tạo bản sao.
 - `outputs/`: nơi lưu HTML/JSON tạo ra cho người học (đã gitignore).

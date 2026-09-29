@@ -5,7 +5,6 @@ Lưu tệp `dai1.examples.json` cạnh `dai1.csv` trong `resources/N*/goi/`. CSV
 ```json
 {
   "version": 1,
-  "provenance": "Bản dịch tiếng Việt và furigana biên soạn từ câu mẫu CSV.",
   "items": [{
     "word": "悪化",
     "example": "無理をすると病状が悪化する。",
