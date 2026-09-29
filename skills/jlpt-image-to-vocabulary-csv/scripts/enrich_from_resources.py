@@ -10,7 +10,6 @@ import sys
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
-from typing import Any
 
 
 HEADERS = ("từ mới", "cách đọc", "nghĩa tiếng việt", "ví dụ sử dụng minh hoạ")
@@ -68,16 +67,9 @@ def build_index(resources: Path) -> dict[str, list[tuple[dict[str, str], Path, i
 def enrich(
     rows: list[dict[str, str]],
     index: dict[str, list[tuple[dict[str, str], Path, int]]],
-    provenance: list[dict[str, Any]] | None = None,
 ) -> tuple[list[dict[str, str]], list[str]]:
     issues: list[str] = []
     for number, row in enumerate(rows, start=1):
-        fields = {
-            header: {"origin": "image" if value else "unresolved", "value": value}
-            for header, value in row.items()
-        }
-        if provenance is not None:
-            provenance.append({"input_row": number, "word": row["từ mới"], "fields": fields})
         if all(row.values()):
             continue
         matches = index.get(row["từ mới"], [])
@@ -102,11 +94,6 @@ def enrich(
             values = {match[header] for match, _, _ in matches if match[header]}
             if len(values) == 1:
                 row[header] = values.pop()
-                fields[header] = {
-                    "origin": "resources", "value": row[header],
-                    "sources": [{"file": str(path), "line": line}
-                                for match, path, line in matches if match[header] == row[header]],
-                }
             elif not values:
                 issues.append(f"row {number} {row['từ mới']!r}, {header!r}: empty in {sources}")
             else:
@@ -130,21 +117,13 @@ def main() -> int:
     try:
         rows = load_input(args.input)
         index = build_index(args.resources)
-        provenance = []
-        rows, issues = enrich(rows, index, provenance)
-        provenance_path = args.output.with_suffix(".provenance.json")
-        if provenance_path.resolve() in (args.input.resolve(), args.output.resolve()):
-            raise ValueError("Provenance path must differ from input and output")
+        rows, issues = enrich(rows, index)
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(
             json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        provenance_path.write_text(json.dumps({
-            "version": 1, "input_file": str(args.input.resolve()),
-            "rows": provenance, "issues": issues,
-        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"OK: {args.output} ({len(rows)} rows, {len(issues)} unresolved); provenance: {provenance_path}")
+        print(f"OK: {args.output} ({len(rows)} rows, {len(issues)} unresolved)")
         for issue in issues:
             print(f"WARNING: {issue}", file=sys.stderr)
         return 2 if issues else 0

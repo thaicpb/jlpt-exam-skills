@@ -93,7 +93,7 @@ class EnrichFromResourcesTest(unittest.TestCase):
             self.assertIn("conflict", result.stderr)
             self.assertIn("dai1.csv:2", result.stderr)
 
-    def test_reading_disambiguation_and_per_cell_provenance(self):
+    def test_reading_disambiguation_without_provenance_file(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             first = dict(zip(HEADERS, ['生物', 'せいぶつ', 'sinh vật', '生物を研究する。']))
@@ -104,23 +104,15 @@ class EnrichFromResourcesTest(unittest.TestCase):
             result = self.run_script(source, root / 'resources', output)
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual(json.loads(output.read_text()), [second])
-            provenance = json.loads(output.with_suffix('.provenance.json').read_text())
-            fields = provenance['rows'][0]['fields']
-            self.assertEqual(fields['cách đọc']['origin'], 'image')
-            self.assertEqual(fields['nghĩa tiếng việt']['origin'], 'resources')
-            self.assertEqual(fields['nghĩa tiếng việt']['sources'],
-                             [{'file': str(root / 'resources/N1/goi/dai1.csv'), 'line': 3}])
-            self.assertEqual(fields['nghĩa tiếng việt']['value'], second['nghĩa tiếng việt'])
+            self.assertFalse(output.with_suffix('.provenance.json').exists())
 
     def test_mismatched_reading_never_fills_meaning(self):
         from enrich_from_resources import enrich
         row = dict(zip(HEADERS, ['生物', 'なまもの', '', '']))
         stored = dict(zip(HEADERS, ['生物', 'せいぶつ', 'sinh vật', '生物を研究する。']))
-        provenance = []
-        rows, issues = enrich([row], {'生物': [(stored, Path('source.csv'), 2)]}, provenance)
+        rows, issues = enrich([row], {'生物': [(stored, Path('source.csv'), 2)]})
         self.assertEqual(rows[0]['nghĩa tiếng việt'], '')
         self.assertIn('reading mismatch', issues[0])
-        self.assertEqual(provenance[0]['fields']['nghĩa tiếng việt']['origin'], 'unresolved')
 
     def test_unknown_reading_does_not_merge_even_identical_meanings(self):
         from enrich_from_resources import enrich
