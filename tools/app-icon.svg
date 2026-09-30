@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><rect width="512" height="512" fill="#f7dfdc"/><g transform="translate(-25 -21)"><rect x="96" y="116" width="330" height="250" rx="28" fill="#422b2b"/>
+<rect x="80" y="100" width="330" height="250" rx="28" fill="#fffaf6" stroke="#422b2b" stroke-width="12"/>
+<text x="245" y="262" text-anchor="middle" font-size="112" font-weight="bold" fill="#422b2b" stroke="#422b2b" stroke-width="5" stroke-linejoin="round" font-family="Noto Sans CJK JP" letter-spacing="-2">JLPT</text>
+<g transform="rotate(8 367 394)">
+<rect x="272" y="354" width="210" height="100" rx="50" fill="#422b2b"/>
+<rect x="262" y="344" width="210" height="100" rx="50" fill="#b32230" stroke="#422b2b" stroke-width="10"/>
+<text x="367" y="416" text-anchor="middle" font-size="62" font-weight="bold" fill="#fffaf6" stroke="#fffaf6" stroke-width="2.5" stroke-linejoin="round" font-family="Noto Serif CJK JP">合格</text>
+</g></g></svg>
