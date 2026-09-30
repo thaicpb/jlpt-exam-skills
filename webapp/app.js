@@ -180,7 +180,7 @@ function renderExams(levelId) {
     h('p', { class: 'exam-intro' }, 'Chọn đáp án rồi nộp bài để xem điểm, giải thích và làm lại câu sai. Khi tải lại trang, lượt làm hiện tại sẽ bắt đầu lại.'),
     h('div', { class: 'lessons' }, exams.map((exam) =>
       h('a', { class: 'lesson exam-link', href: exam.file },
-        h('b', null, exam.title), h('span', null, `${exam.count} từ · 4 dạng bài`),
+        h('b', null, exam.title), h('span', null, `${exam.count} từ · ${exam.type_count ?? 4} dạng bài`),
         h('span', { class: 'flag' }, 'Bắt đầu làm bài →')))),
     exams.length ? null : h('p', { class: 'empty' }, 'Cấp độ này chưa có đề kiểm tra.'),
     h('footer', { class: 'foot' }, 'Đáp án chỉ hiện sau khi nộp trong chế độ Kiểm tra.')));

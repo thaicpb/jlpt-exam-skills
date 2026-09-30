@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai32-30",
+  "title": "N1 · Bài 32 · 30 câu",
+  "level": "N1",
+  "lesson": "dai32",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093032,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai32.csv"
+  },
+  "choice_seed": 2026100032,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai32-01",
+      "type": "reading",
+      "word": "絶大な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 54,
+      "prompt": "彼は若者から【絶大な】支持を受けている。",
+      "origin": "authored",
+      "options": [
+        "ぜつだいな",
+        "かんだいな",
+        "ぼうだいな",
+        "そうだいな"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "絶大な",
+          "reading": "ぜつだいな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 54
+        },
+        {
+          "word": "寛大な",
+          "reading": "かんだいな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 79
+        },
+        {
+          "word": "膨大な",
+          "reading": "ぼうだいな",
+          "source_file": "resources/N1/goi/dai33.csv",
+          "source_line": 17
+        },
+        {
+          "word": "壮大な",
+          "reading": "そうだいな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 63
+        }
+      ],
+      "explanations": [
+        "ぜつだいな là cách đọc của 絶大な (vô cùng lớn; tuyệt đối). Khớp từ và ngữ cảnh được hỏi.",
+        "かんだいな là cách đọc của 寛大な (khoan dung; rộng lượng). Đây là cách đọc có thật, nhưng không phải của 絶大な trong câu.",
+        "ぼうだいな là cách đọc của 膨大な (đồ sộ; khổng lồ). Đây là cách đọc có thật, nhưng không phải của 絶大な trong câu.",
+        "そうだいな là cách đọc của 壮大な (hùng vĩ; quy mô lớn). Đây là cách đọc có thật, nhưng không phải của 絶大な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-02",
+      "type": "reading",
+      "word": "質素な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 31,
+      "prompt": "祖父は【質素な】暮らしを好む。",
+      "origin": "authored",
+      "options": [
+        "しっそな",
+        "しんしな",
+        "かんそな",
+        "しなやかな"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "質素な",
+          "reading": "しっそな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 31
+        },
+        {
+          "word": "真摯な",
+          "reading": "しんしな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 41
+        },
+        {
+          "word": "簡素な",
+          "reading": "かんそな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 82
+        },
+        {
+          "word": "しなやかな",
+          "reading": "しなやかな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 43
+        }
+      ],
+      "explanations": [
+        "しっそな là cách đọc của 質素な (giản dị; đạm bạc). Khớp từ và ngữ cảnh được hỏi.",
+        "しんしな là cách đọc của 真摯な (chân thành; nghiêm túc). Đây là cách đọc có thật, nhưng không phải của 質素な trong câu.",
+        "かんそな là cách đọc của 簡素な (đơn giản; giản dị). Đây là cách đọc có thật, nhưng không phải của 質素な trong câu.",
+        "しなやかな là cách đọc của しなやかな (mềm mại; dẻo dai). Đây là cách đọc có thật, nhưng không phải của 質素な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-03",
+      "type": "reading",
+      "word": "大ざっぱな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 73,
+      "prompt": "まず【大ざっぱな】予算を決めよう。",
+      "origin": "authored",
+      "options": [
+        "おおらかな",
+        "おおざっぱな",
+        "おおまかな",
+        "おおげさな"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "おおらかな",
+          "reading": "おおらかな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 38
+        },
+        {
+          "word": "大ざっぱな",
+          "reading": "おおざっぱな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 73
+        },
+        {
+          "word": "大まかな",
+          "reading": "おおまかな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 74
+        },
+        {
+          "word": "大げさな",
+          "reading": "おおげさな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 72
+        }
+      ],
+      "explanations": [
+        "おおらかな là cách đọc của おおらかな (rộng lượng; khoáng đạt). Đây là cách đọc có thật, nhưng không phải của 大ざっぱな trong câu.",
+        "おおざっぱな là cách đọc của 大ざっぱな (đại khái; không tỉ mỉ). Khớp từ và ngữ cảnh được hỏi.",
+        "おおまかな là cách đọc của 大まかな (khái quát; sơ bộ). Đây là cách đọc có thật, nhưng không phải của 大ざっぱな trong câu.",
+        "おおげさな là cách đọc của 大げさな (phóng đại; làm quá). Đây là cách đọc có thật, nhưng không phải của 大ざっぱな trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-04",
+      "type": "reading",
+      "word": "謙虚な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 12,
+      "prompt": "成功しても【謙虚な】姿勢を忘れない。",
+      "origin": "authored",
+      "options": [
+        "けんちょな",
+        "けんきょな",
+        "けんじつな",
+        "けんめいな"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "顕著な",
+          "reading": "けんちょな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 14
+        },
+        {
+          "word": "謙虚な",
+          "reading": "けんきょな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 12
+        },
+        {
+          "word": "堅実な",
+          "reading": "けんじつな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 10
+        },
+        {
+          "word": "懸命な",
+          "reading": "けんめいな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 11
+        }
+      ],
+      "explanations": [
+        "けんちょな là cách đọc của 顕著な (rõ rệt; nổi bật). Đây là cách đọc có thật, nhưng không phải của 謙虚な trong câu.",
+        "けんきょな là cách đọc của 謙虚な (khiêm tốn). Khớp từ và ngữ cảnh được hỏi.",
+        "けんじつな là cách đọc của 堅実な (vững chắc; chắc chắn, thực tế). Đây là cách đọc có thật, nhưng không phải của 謙虚な trong câu.",
+        "けんめいな là cách đọc của 懸命な (hết sức; tận lực). Đây là cách đọc có thật, nhưng không phải của 謙虚な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-05",
+      "type": "reading",
+      "word": "厳粛な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 16,
+      "prompt": "参列者は【厳粛な】面持ちで黙とうした。",
+      "origin": "authored",
+      "options": [
+        "げんせいな",
+        "げんしゅくな",
+        "げんみつな",
+        "ひんじゃくな"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "厳正な",
+          "reading": "げんせいな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 17
+        },
+        {
+          "word": "厳粛な",
+          "reading": "げんしゅくな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 16
+        },
+        {
+          "word": "厳密な",
+          "reading": "げんみつな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 18
+        },
+        {
+          "word": "貧弱な",
+          "reading": "ひんじゃくな",
+          "source_file": "resources/N1/goi/dai33.csv",
+          "source_line": 5
+        }
+      ],
+      "explanations": [
+        "げんせいな là cách đọc của 厳正な (nghiêm minh; công bằng và chặt chẽ). Đây là cách đọc có thật, nhưng không phải của 厳粛な trong câu.",
+        "げんしゅくな là cách đọc của 厳粛な (nghiêm trang; trang nghiêm). Khớp từ và ngữ cảnh được hỏi.",
+        "げんみつな là cách đọc của 厳密な (chặt chẽ; chính xác đến từng chi tiết). Đây là cách đọc có thật, nhưng không phải của 厳粛な trong câu.",
+        "ひんじゃくな là cách đọc của 貧弱な (yếu ớt; nghèo nàn, thiếu thốn). Đây là cách đọc có thật, nhưng không phải của 厳粛な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-06",
+      "type": "reading",
+      "word": "重厚な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 39,
+      "prompt": "入口には【重厚な】木製の扉がある。",
+      "origin": "authored",
+      "options": [
+        "のうこうな",
+        "じゅうこうな",
+        "じゅうなんな",
+        "きょうこうな"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "濃厚な",
+          "reading": "のうこうな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 93
+        },
+        {
+          "word": "重厚な",
+          "reading": "じゅうこうな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 39
+        },
+        {
+          "word": "柔軟な",
+          "reading": "じゅうなんな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 38
+        },
+        {
+          "word": "強硬な",
+          "reading": "きょうこうな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 99
+        }
+      ],
+      "explanations": [
+        "のうこうな là cách đọc của 濃厚な (đậm đặc; khả năng cao). Đây là cách đọc có thật, nhưng không phải của 重厚な trong câu.",
+        "じゅうこうな là cách đọc của 重厚な (nặng và dày; bề thế, trang trọng). Khớp từ và ngữ cảnh được hỏi.",
+        "じゅうなんな là cách đọc của 柔軟な (mềm dẻo; linh hoạt). Đây là cách đọc có thật, nhưng không phải của 重厚な trong câu.",
+        "きょうこうな là cách đọc của 強硬な (cứng rắn; kiên quyết). Đây là cách đọc có thật, nhưng không phải của 重厚な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-07",
+      "type": "reading",
+      "word": "独裁的な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 91,
+      "prompt": "【独裁的な】指導者は反対意見を認めなかった。",
+      "origin": "authored",
+      "options": [
+        "かくいつてきな",
+        "こうていてきな",
+        "どくさいてきな",
+        "そうたいてきな"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "画一的な",
+          "reading": "かくいつてきな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 73
+        },
+        {
+          "word": "肯定的な",
+          "reading": "こうていてきな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 23
+        },
+        {
+          "word": "独裁的な",
+          "reading": "どくさいてきな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 91
+        },
+        {
+          "word": "相対的な",
+          "reading": "そうたいてきな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 67
+        }
+      ],
+      "explanations": [
+        "かくいつてきな là cách đọc của 画一的な (rập khuôn; đồng loạt như nhau). Đây là cách đọc có thật, nhưng không phải của 独裁的な trong câu.",
+        "こうていてきな là cách đọc của 肯定的な (mang tính khẳng định; tích cực, tán thành). Đây là cách đọc có thật, nhưng không phải của 独裁的な trong câu.",
+        "どくさいてきな là cách đọc của 独裁的な (độc tài; chuyên quyền). Khớp từ và ngữ cảnh được hỏi.",
+        "そうたいてきな là cách đọc của 相対的な (tương đối). Đây là cách đọc có thật, nhưng không phải của 独裁的な trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-08",
+      "type": "reading",
+      "word": "厳かな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 15,
+      "prompt": "式は【厳かな】雰囲気の中で始まった。",
+      "origin": "authored",
+      "options": [
+        "おろそかな",
+        "おおまかな",
+        "おごそかな",
+        "おおらかな"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "疎かな",
+          "reading": "おろそかな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 61
+        },
+        {
+          "word": "大まかな",
+          "reading": "おおまかな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 74
+        },
+        {
+          "word": "厳かな",
+          "reading": "おごそかな",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 15
+        },
+        {
+          "word": "おおらかな",
+          "reading": "おおらかな",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 38
+        }
+      ],
+      "explanations": [
+        "おろそかな là cách đọc của 疎かな (lơ là; cẩu thả). Đây là cách đọc có thật, nhưng không phải của 厳かな trong câu.",
+        "おおまかな là cách đọc của 大まかな (khái quát; sơ bộ). Đây là cách đọc có thật, nhưng không phải của 厳かな trong câu.",
+        "おごそかな là cách đọc của 厳かな (trang nghiêm; long trọng). Khớp từ và ngữ cảnh được hỏi.",
+        "おおらかな là cách đọc của おおらかな (rộng lượng; khoáng đạt). Đây là cách đọc có thật, nhưng không phải của 厳かな trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai32-09",
+      "type": "context",
+      "word": "濃厚な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 93,
+      "prompt": "生クリームをたっぷり使った、（　）味わいのチーズケーキだ。",
+      "origin": "authored",
+      "options": [
+        "無味な",
+        "濃厚な",
+        "希薄な",
+        "淡白な"
+      ],
+      "explanations": [
+        "無味な là không có vị, trái ngữ cảnh.",
+        "濃厚な là đậm đặc, giàu vị.",
+        "希薄な là loãng, ít hàm lượng.",
+        "淡白な là thanh nhẹ, trái với nhiều kem đậm vị."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai32-10",
+      "type": "context",
+      "word": "親密な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 43,
+      "prompt": "二人は長年本音を語り合い、互いを深く信頼する（　）関係になった。",
+      "origin": "authored",
+      "options": [
+        "敵対的な",
+        "形式的な",
+        "疎遠な",
+        "親密な"
+      ],
+      "explanations": [
+        "敵対的な là đối địch.",
+        "形式的な là chỉ trên hình thức, trái tin cậy sâu sắc.",
+        "疎遠な là ít qua lại, xa cách.",
+        "親密な là thân thiết, gần gũi."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-11",
+      "type": "context",
+      "word": "軽薄な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 7,
+      "prompt": "重要な約束を冗談半分で簡単に破る、（　）態度を注意された。",
+      "origin": "authored",
+      "options": [
+        "慎重な",
+        "軽薄な",
+        "誠実な",
+        "厳粛な"
+      ],
+      "explanations": [
+        "慎重な là thận trọng.",
+        "軽薄な là nông nổi, thiếu nghiêm túc.",
+        "誠実な là chân thành, giữ trách nhiệm.",
+        "厳粛な là nghiêm trang, trái với đùa cợt thất hứa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai32-12",
+      "type": "context",
+      "word": "善良な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 60,
+      "prompt": "彼は人をだましたことがなく、困った人を助ける（　）市民だ。",
+      "origin": "authored",
+      "options": [
+        "悪質な",
+        "冷酷な",
+        "善良な",
+        "狡猾な"
+      ],
+      "explanations": [
+        "悪質な là có tính chất xấu.",
+        "冷酷な là tàn nhẫn, trái với giúp người.",
+        "善良な là tốt bụng, lương thiện.",
+        "狡猾な là xảo quyệt."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai32-13",
+      "type": "context",
+      "word": "単調な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 79,
+      "prompt": "朝から晩まで同じ操作を繰り返す、変化のない（　）仕事に飽きてしまった。",
+      "origin": "authored",
+      "options": [
+        "単調な",
+        "多彩な",
+        "複雑な",
+        "波乱に満ちた"
+      ],
+      "explanations": [
+        "単調な là đơn điệu, không thay đổi.",
+        "多彩な là đa dạng, phong phú.",
+        "複雑な là phức tạp, không đồng nghĩa lặp một thao tác.",
+        "Nhiều biến động trái với không thay đổi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-14",
+      "type": "context",
+      "word": "精密な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 51,
+      "prompt": "千分の一ミリの違いまで測れる（　）機器を使う。",
+      "origin": "authored",
+      "options": [
+        "ずさんな",
+        "粗雑な",
+        "精密な",
+        "大ざっぱな"
+      ],
+      "explanations": [
+        "ずさんな là thiếu chặt chẽ, không hợp đo chính xác.",
+        "粗雑な là thô, cẩu thả.",
+        "精密な là rất chính xác, tinh vi.",
+        "Đại khái trái với đo cực nhỏ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai32-15",
+      "type": "context",
+      "word": "抜本的な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 97,
+      "prompt": "一時しのぎでは解決しない。制度の根本から変える（　）改革が必要だ。",
+      "origin": "authored",
+      "options": [
+        "抜本的な",
+        "表面的な",
+        "暫定的な",
+        "局所的な"
+      ],
+      "explanations": [
+        "抜本的な là sửa tận gốc.",
+        "Chỉ bề mặt trái nghĩa.",
+        "暫定的な là tạm thời, trái yêu cầu tận gốc.",
+        "局所的な là cục bộ, không phải toàn bộ căn nguyên."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-16",
+      "type": "context",
+      "word": "速やかな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 68,
+      "prompt": "被害の拡大を防ぐため、待たずに行う（　）対応が求められる。",
+      "origin": "authored",
+      "options": [
+        "緩慢な",
+        "長期的な",
+        "速やかな",
+        "悠長な"
+      ],
+      "explanations": [
+        "緩慢な là chậm chạp.",
+        "長期的な là dài hạn, không nhấn xử lý ngay.",
+        "速やかな là nhanh chóng, không chậm trễ.",
+        "悠長な là thong thả, không hợp khẩn cấp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai32-17",
+      "type": "paraphrase",
+      "word": "著名な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 84,
+      "prompt": "世界的に【著名な】研究者が講演する。",
+      "origin": "authored",
+      "options": [
+        "誰にも知られていない",
+        "実績のない",
+        "最近引退した",
+        "よく知られている"
+      ],
+      "explanations": [
+        "Không ai biết trái nghĩa.",
+        "Không thành tích không phải著名な.",
+        "Mới nghỉ hưu không đồng nghĩa nổi tiếng.",
+        "著名な là nổi tiếng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-18",
+      "type": "paraphrase",
+      "word": "濃密な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 94,
+      "prompt": "短い滞在だったが、【濃密な】時間を過ごせた。",
+      "origin": "authored",
+      "options": [
+        "内容が充実した",
+        "長さだけが目立つ",
+        "何もせず退屈な",
+        "予定を忘れた"
+      ],
+      "explanations": [
+        "濃密な ở đây là nhiều trải nghiệm, nội dung sâu.",
+        "Chỉ kéo dài khác với nội dung đậm đặc.",
+        "Trống rỗng nhàm chán trái nghĩa.",
+        "Quên lịch không phải濃密な."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-19",
+      "type": "paraphrase",
+      "word": "清純な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 50,
+      "prompt": "その絵には【清純な】少女の姿が描かれている。",
+      "origin": "authored",
+      "options": [
+        "気力を失った",
+        "計算高くずるい",
+        "悪意に満ちた",
+        "心が清らかで汚れのない"
+      ],
+      "explanations": [
+        "Mất tinh thần không phải nghĩa trong sáng.",
+        "Xảo tính, gian xảo trái nghĩa.",
+        "Đầy ác ý trái nghĩa.",
+        "清純な là trong sáng, thuần khiết."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-20",
+      "type": "paraphrase",
+      "word": "怠慢な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 70,
+      "prompt": "確認を怠る【怠慢な】姿勢が事故を招いた。",
+      "origin": "authored",
+      "options": [
+        "何事にも注意深い",
+        "進んで責任を負う",
+        "必要以上に急ぐ",
+        "すべきことをしない"
+      ],
+      "explanations": [
+        "Cẩn thận mọi việc trái nghĩa.",
+        "Chủ động trách nhiệm trái với chểnh mảng.",
+        "Quá vội không đồng nghĩa lười trách nhiệm.",
+        "怠慢な là lơ là việc phải làm."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-21",
+      "type": "paraphrase",
+      "word": "険悪な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 13,
+      "prompt": "口論の後、二人は【険悪な】雰囲気になった。",
+      "origin": "authored",
+      "options": [
+        "眠くなるほど静かな",
+        "仲が悪く緊張した",
+        "親しみのある",
+        "打ち解けて和やかな"
+      ],
+      "explanations": [
+        "Yên đến buồn ngủ không phải bất hòa.",
+        "険悪な là căng thẳng, bất hòa.",
+        "Thân thiện trái với căng thẳng.",
+        "Thân mật hòa nhã trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai32-22",
+      "type": "paraphrase",
+      "word": "控えめな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 22,
+      "prompt": "彼女はいつも【控えめな】発言をする。",
+      "origin": "authored",
+      "options": [
+        "自分だけを強調する",
+        "相手を威圧する",
+        "根拠を無視した",
+        "出過ぎず穏やかな"
+      ],
+      "explanations": [
+        "Chỉ đề cao bản thân trái nghĩa.",
+        "Uy hiếp đối phương trái nghĩa.",
+        "Bỏ căn cứ không đồng nghĩa tiết chế.",
+        "控えめな là tiết chế, không lấn át."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-23",
+      "type": "paraphrase",
+      "word": "疎遠な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 62,
+      "prompt": "引っ越して以来、彼とは【疎遠な】関係だ。",
+      "origin": "authored",
+      "options": [
+        "強く信頼し合う",
+        "同じ家で暮らす",
+        "毎日親しく会う",
+        "あまり付き合いのない"
+      ],
+      "explanations": [
+        "Tin cậy sâu không diễn đạt xa cách.",
+        "Cùng sống một nhà khác nghĩa xa cách.",
+        "Gặp thân thiết hằng ngày trái nghĩa.",
+        "疎遠な là ít liên lạc, xa cách."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-24",
+      "type": "usage",
+      "word": "極端な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 3,
+      "prompt": "極端な",
+      "origin": "authored",
+      "options": [
+        "三角形の角を極端な角度と数えた。",
+        "毎日同じ量を適度に食べることを極端な食生活という。",
+        "一日中食べず、翌日は大量に食べるような極端な食生活は避けたい。",
+        "箱の端にある部分を極端な部分と呼ぶ。"
+      ],
+      "explanations": [
+        "極端な không phải cách đếm các góc hình học.",
+        "Điều độ không phải cực đoan.",
+        "極端な là thiên quá mức về một phía.",
+        "Mép vật là 端; 極端な không chỉ vị trí ngoài rìa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai32-25",
+      "type": "usage",
+      "word": "健やかな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 9,
+      "prompt": "健やかな",
+      "origin": "authored",
+      "options": [
+        "子どもの健やかな成長を願っている。",
+        "頑丈な金属製の机を健やかな机と呼ぶ。",
+        "今月の料金は健やかな五千円だ。",
+        "病気で弱り切った状態を健やかな状態という。"
+      ],
+      "explanations": [
+        "健やかな là khỏe mạnh, phát triển tốt.",
+        "Độ chắc vật dụng không dùng健やかな.",
+        "健やかな không chỉ mức tiền.",
+        "Kiệt sức vì bệnh trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-26",
+      "type": "usage",
+      "word": "堅実な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 10,
+      "prompt": "堅実な",
+      "origin": "authored",
+      "options": [
+        "無理な借金をせず、堅実な経営を続けている。",
+        "根拠のない賭けに全財産を投入する堅実な方法だ。",
+        "果物が甘いので、堅実な味がする。",
+        "金属が硬くて曲がらないので、堅実な棒だ。"
+      ],
+      "explanations": [
+        "堅実な là thực tế, chắc chắn, ít rủi ro.",
+        "Liều toàn bộ tiền trái với chắc chắn.",
+        "Vị ngọt không dùng堅実な.",
+        "Vật cứng dùng 硬い; 堅実な nói cách sống, làm việc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-27",
+      "type": "usage",
+      "word": "厳密な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 18,
+      "prompt": "厳密な",
+      "origin": "authored",
+      "options": [
+        "密度が低くて隙間の多い布を厳密な布という。",
+        "実験では、温度を厳密な基準に従って管理する。",
+        "細部は全く気にしない厳密な計算をした。",
+        "階段を急いで上る厳密な速度だった。"
+      ],
+      "explanations": [
+        "Độ dệt của vải không được gọi厳密な.",
+        "厳密な là chặt chẽ, không bỏ qua sai lệch nhỏ.",
+        "Bỏ qua chi tiết trái với nghiêm ngặt.",
+        "Tốc độ nhanh dùng 速い; không phải厳密な."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai32-28",
+      "type": "usage",
+      "word": "定期的な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 86,
+      "prompt": "定期的な",
+      "origin": "authored",
+      "options": [
+        "毎月一日に定期的な点検を行う。",
+        "今回一度きりで二度と行わない定期的な行事だ。",
+        "いつ行うか全く決まっていない定期的な予定だ。",
+        "期限を過ぎた食品を定期的な食品という。"
+      ],
+      "explanations": [
+        "定期的な là lặp theo kỳ hạn xác định.",
+        "Chỉ một lần không phải định kỳ.",
+        "Không có kỳ hoặc lịch trái với định kỳ.",
+        "Quá hạn là 期限切れ; không phải定期的な."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai32-29",
+      "type": "usage",
+      "word": "適度な",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 88,
+      "prompt": "適度な",
+      "origin": "authored",
+      "options": [
+        "体を壊すほど過剰な運動を適度な運動と呼ぶ。",
+        "別々の会社が合併することを適度な関係という。",
+        "全く量を調節せず入れすぎるのが適度な加え方だ。",
+        "健康のため、無理のない適度な運動を続ける。"
+      ],
+      "explanations": [
+        "Quá sức gây hại trái nghĩa.",
+        "適度な không phải tên quan hệ sáp nhập.",
+        "Thêm quá nhiều trái với vừa phải.",
+        "適度な là vừa đủ, không quá sức."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai32-30",
+      "type": "usage",
+      "word": "浅はかな",
+      "source_file": "resources/N1/goi/dai32.csv",
+      "source_line": 55,
+      "prompt": "浅はかな",
+      "origin": "authored",
+      "options": [
+        "布が薄いので浅はかな服だ。",
+        "水深が十センチの浅はかな池で遊んだ。",
+        "結果を考えずに秘密を話すとは、浅はかな行動だった。",
+        "あらゆる結果を深く検討した判断を浅はかな判断という。"
+      ],
+      "explanations": [
+        "Độ mỏng vật dùng 薄い; 浅はかな chỉ suy nghĩ.",
+        "Nước nông dùng 浅い; không dùng浅はかな.",
+        "浅はかな là thiếu suy nghĩ, nông cạn.",
+        "Cân nhắc sâu trái nghĩa."
+      ],
+      "answer": 2
+    }
+  ]
+}

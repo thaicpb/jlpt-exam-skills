@@ -50,7 +50,8 @@ def build_exams(level: str, lessons: list[str], out: Path, digest) -> list[dict]
         target.write_text(html, encoding="utf-8")
         digest.update(rel.encode() + html.encode())
         exams.append({"id": bank["id"], "lesson": path.stem, "title": bank["title"],
-                      "count": len(bank["questions"]), "file": rel})
+                      "count": len(bank["questions"]), "file": rel,
+                      "type_count": len({q["type"] for q in bank["questions"]})})
     return exams
 
 

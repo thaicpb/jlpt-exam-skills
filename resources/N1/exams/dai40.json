@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai40-30",
+  "title": "N1 · Bài 40 · 30 câu",
+  "level": "N1",
+  "lesson": "dai40",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093040,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai40.csv"
+  },
+  "choice_seed": 2026100040,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai40-01",
+      "type": "reading",
+      "word": "お考えになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 36,
+      "prompt": "先生が【お考えになる】計画を伺いたい。",
+      "origin": "authored",
+      "options": [
+        "おつたえになる",
+        "おかけになる",
+        "おかえりになる",
+        "おかんがえになる"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "お伝えになる",
+          "reading": "おつたえになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 41
+        },
+        {
+          "word": "お掛けになる",
+          "reading": "おかけになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 30
+        },
+        {
+          "word": "お帰りになる",
+          "reading": "おかえりになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 31
+        },
+        {
+          "word": "お考えになる",
+          "reading": "おかんがえになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 36
+        }
+      ],
+      "explanations": [
+        "おつたえになる là cách đọc của お伝えになる (truyền đạt; báo lại (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お考えになる trong câu.",
+        "おかけになる là cách đọc của お掛けになる (ngồi (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お考えになる trong câu.",
+        "おかえりになる là cách đọc của お帰りになる (trở về (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お考えになる trong câu.",
+        "おかんがえになる là cách đọc của お考えになる (suy nghĩ (tôn kính ngữ)). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai40-02",
+      "type": "reading",
+      "word": "差し上げる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 63,
+      "prompt": "先生に写真を【差し上げる】つもりです。",
+      "origin": "authored",
+      "options": [
+        "もうしあげる",
+        "めしあがる",
+        "さしあげる",
+        "かしこまる"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "申し上げる",
+          "reading": "もうしあげる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 72
+        },
+        {
+          "word": "召し上がる",
+          "reading": "めしあがる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 51
+        },
+        {
+          "word": "差し上げる",
+          "reading": "さしあげる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 63
+        },
+        {
+          "word": "かしこまる",
+          "reading": "かしこまる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 60
+        }
+      ],
+      "explanations": [
+        "もうしあげる là cách đọc của 申し上げる (nói; thưa (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 差し上げる trong câu.",
+        "めしあがる là cách đọc của 召し上がる (ăn; uống (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của 差し上げる trong câu.",
+        "さしあげる là cách đọc của 差し上げる (biếu; tặng; làm cho ai (khiêm nhường ngữ)). Khớp từ và ngữ cảnh được hỏi.",
+        "かしこまる là cách đọc của かしこまる (kính cẩn vâng lời; giữ thái độ cung kính). Đây là cách đọc có thật, nhưng không phải của 差し上げる trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai40-04",
+      "type": "reading",
+      "word": "平行線をたどる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 10,
+      "prompt": "双方が譲らなければ、話し合いは【平行線をたどる】。",
+      "origin": "authored",
+      "options": [
+        "もうしつたえる",
+        "はいけんする",
+        "めんどうをみる",
+        "へいこうせんをたどる"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "申し伝える",
+          "reading": "もうしつたえる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 73
+        },
+        {
+          "word": "拝見する",
+          "reading": "はいけんする",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 67
+        },
+        {
+          "word": "面倒を見る",
+          "reading": "めんどうをみる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 13
+        },
+        {
+          "word": "平行線をたどる",
+          "reading": "へいこうせんをたどる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 10
+        }
+      ],
+      "explanations": [
+        "もうしつたえる là cách đọc của 申し伝える (chuyển lời (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 平行線をたどる trong câu.",
+        "はいけんする là cách đọc của 拝見する (xem; đọc (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 平行線をたどる trong câu.",
+        "めんどうをみる là cách đọc của 面倒を見る (chăm sóc; trông nom). Đây là cách đọc có thật, nhưng không phải của 平行線をたどる trong câu.",
+        "へいこうせんをたどる là cách đọc của 平行線をたどる (không đi đến thống nhất; tiếp tục bất đồng). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai40-16",
+      "type": "reading",
+      "word": "焼け石に水",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 2,
+      "prompt": "この程度の援助では【焼け石に水】だ。",
+      "origin": "authored",
+      "options": [
+        "やっきになる",
+        "ながいめでみる",
+        "やけいしにみず",
+        "おいでになる"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "躍起になる",
+          "reading": "やっきになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 15
+        },
+        {
+          "word": "長い目で見る",
+          "reading": "ながいめでみる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 5
+        },
+        {
+          "word": "焼け石に水",
+          "reading": "やけいしにみず",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 2
+        },
+        {
+          "word": "おいでになる",
+          "reading": "おいでになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 25
+        }
+      ],
+      "explanations": [
+        "やっきになる là cách đọc của 躍起になる (cuống cuồng; ra sức bằng mọi cách). Đây là cách đọc có thật, nhưng không phải của 焼け石に水 trong câu.",
+        "ながいめでみる là cách đọc của 長い目で見る (nhìn về lâu dài; kiên nhẫn theo dõi). Đây là cách đọc có thật, nhưng không phải của 焼け石に水 trong câu.",
+        "やけいしにみず là cách đọc của 焼け石に水 (như muối bỏ bể; chẳng thấm vào đâu). Khớp từ và ngữ cảnh được hỏi.",
+        "おいでになる là cách đọc của おいでになる (đi; đến; ở (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của 焼け石に水 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai40-06",
+      "type": "reading",
+      "word": "申し上げる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 72,
+      "prompt": "皆様にお礼を【申し上げる】ため、こちらへ参りました。",
+      "origin": "authored",
+      "options": [
+        "さしあげる",
+        "もうしつたえる",
+        "ぞんじあげる",
+        "もうしあげる"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "差し上げる",
+          "reading": "さしあげる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 63
+        },
+        {
+          "word": "申し伝える",
+          "reading": "もうしつたえる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 73
+        },
+        {
+          "word": "存じ上げる",
+          "reading": "ぞんじあげる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 65
+        },
+        {
+          "word": "申し上げる",
+          "reading": "もうしあげる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 72
+        }
+      ],
+      "explanations": [
+        "さしあげる là cách đọc của 差し上げる (biếu; tặng; làm cho ai (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 申し上げる trong câu.",
+        "もうしつたえる là cách đọc của 申し伝える (chuyển lời (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 申し上げる trong câu.",
+        "ぞんじあげる là cách đọc của 存じ上げる (biết một người (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 申し上げる trong câu.",
+        "もうしあげる là cách đọc của 申し上げる (nói; thưa (khiêm nhường ngữ)). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai40-07",
+      "type": "reading",
+      "word": "お気に召す",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 32,
+      "prompt": "お客様の【お気に召す】品が見つかれば幸いです。",
+      "origin": "authored",
+      "options": [
+        "おききになる",
+        "おきにめす",
+        "おとしをめす",
+        "おっしゃる"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "お聞きになる",
+          "reading": "おききになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 45
+        },
+        {
+          "word": "お気に召す",
+          "reading": "おきにめす",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 32
+        },
+        {
+          "word": "お年を召す",
+          "reading": "おとしをめす",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 43
+        },
+        {
+          "word": "おっしゃる",
+          "reading": "おっしゃる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 26
+        }
+      ],
+      "explanations": [
+        "おききになる là cách đọc của お聞きになる (nghe; hỏi (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お気に召す trong câu.",
+        "おきにめす là cách đọc của お気に召す (vừa ý; thích (tôn kính ngữ)). Khớp từ và ngữ cảnh được hỏi.",
+        "おとしをめす là cách đọc của お年を召す (cao tuổi; có tuổi (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お気に召す trong câu.",
+        "おっしゃる là cách đọc của おっしゃる (nói (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お気に召す trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai40-08",
+      "type": "reading",
+      "word": "腹が立つ",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 21,
+      "prompt": "何度も約束を破られると【腹が立つ】。",
+      "origin": "authored",
+      "options": [
+        "はなをつく",
+        "はらがたつ",
+        "うかがう",
+        "むらがある"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "鼻をつく",
+          "reading": "はなをつく",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 9
+        },
+        {
+          "word": "腹が立つ",
+          "reading": "はらがたつ",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 21
+        },
+        {
+          "word": "伺う",
+          "reading": "うかがう",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 54
+        },
+        {
+          "word": "ムラがある",
+          "reading": "むらがある",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 20
+        }
+      ],
+      "explanations": [
+        "はなをつく là cách đọc của 鼻をつく (xộc vào mũi; có mùi hắc). Đây là cách đọc có thật, nhưng không phải của 腹が立つ trong câu.",
+        "はらがたつ là cách đọc của 腹が立つ (tức giận; bực mình). Khớp từ và ngữ cảnh được hỏi.",
+        "うかがう là cách đọc của 伺う (hỏi; nghe; đến thăm (khiêm nhường ngữ)). Đây là cách đọc có thật, nhưng không phải của 腹が立つ trong câu.",
+        "むらがある là cách đọc của ムラがある (không đồng đều; thất thường). Đây là cách đọc có thật, nhưng không phải của 腹が立つ trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai40-09",
+      "type": "reading",
+      "word": "お求めになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 34,
+      "prompt": "お客様が【お求めになる】商品をお包みします。",
+      "origin": "authored",
+      "options": [
+        "おやすみになる",
+        "おもとめになる",
+        "おわかりになる",
+        "おつたえになる"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "お休みになる",
+          "reading": "おやすみになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 33
+        },
+        {
+          "word": "お求めになる",
+          "reading": "おもとめになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 34
+        },
+        {
+          "word": "おわかりになる",
+          "reading": "おわかりになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 27
+        },
+        {
+          "word": "お伝えになる",
+          "reading": "おつたえになる",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 41
+        }
+      ],
+      "explanations": [
+        "おやすみになる là cách đọc của お休みになる (nghỉ; ngủ (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お求めになる trong câu.",
+        "おもとめになる là cách đọc của お求めになる (mua; tìm mua (tôn kính ngữ)). Khớp từ và ngữ cảnh được hỏi.",
+        "おわかりになる là cách đọc của おわかりになる (hiểu; biết (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お求めになる trong câu.",
+        "おつたえになる là cách đọc của お伝えになる (truyền đạt; báo lại (tôn kính ngữ)). Đây là cách đọc có thật, nhưng không phải của お求めになる trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai40-03",
+      "type": "context",
+      "word": "ご厚意に感謝いたします。",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 93,
+      "prompt": "取引先から親切な援助を受けた。相手の善意に礼を述べるには「（　）」が適切だ。",
+      "origin": "authored",
+      "options": [
+        "ご厚意に感謝いたします。",
+        "ご無沙汰しております。",
+        "ご遠慮ください。",
+        "お詫び申し上げます。"
+      ],
+      "explanations": [
+        "Câu này cảm ơn lòng tốt, sự giúp đỡ.",
+        "Lời chào lâu không liên lạc, không phải cảm ơn hỗ trợ.",
+        "Xin hạn chế/đừng làm, không phải cảm ơn.",
+        "Xin lỗi, không phải cảm ơn lòng tốt."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-10",
+      "type": "context",
+      "word": "ご遠慮ください。",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 91,
+      "prompt": "館内は禁煙です。入館者に喫煙を控えてもらうため「喫煙は（　）」と掲示した。",
+      "origin": "authored",
+      "options": [
+        "ご確認ください。",
+        "ご覧ください。",
+        "ご遠慮ください。",
+        "ご利用ください。"
+      ],
+      "explanations": [
+        "Xin xác nhận, không truyền đạt hạn chế hành vi.",
+        "Mời xem, không phải yêu cầu ngừng hút.",
+        "Xin vui lòng không hút thuốc.",
+        "Mời sử dụng, trái ý cấm."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai40-11",
+      "type": "context",
+      "word": "お祭りムード一色",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 17,
+      "prompt": "祭りの日、町中が提灯や踊る人であふれ、（　）だった。",
+      "origin": "authored",
+      "options": [
+        "お祭りムード一色",
+        "閑散",
+        "緊張状態",
+        "意気消沈"
+      ],
+      "explanations": [
+        "Cả thị trấn tràn ngập không khí lễ hội.",
+        "閑散 là vắng vẻ, trái với đông người.",
+        "緊張状態 là trạng thái căng thẳng, không tả vui lễ hội.",
+        "意気消沈 là mất tinh thần."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-12",
+      "type": "context",
+      "word": "いたしかねます。",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 77,
+      "prompt": "規定上、返品には応じられない。店員は客に「申し訳ありませんが、返品は（　）」と伝えた。",
+      "origin": "authored",
+      "options": [
+        "いたしかねます。",
+        "かしこまりました。",
+        "承ります。",
+        "ご用意できます。"
+      ],
+      "explanations": [
+        "いたしかねます là không thể thực hiện, lời từ chối lịch sự.",
+        "Xin tuân theo, không thông báo không thể nhận.",
+        "承ります là xin nhận việc, trái với không nhận đổi trả.",
+        "Có thể chuẩn bị, không phải từ chối."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-13",
+      "type": "context",
+      "word": "おいでになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 25,
+      "prompt": "「先生がこちらに来る」の「来る」を尊敬語にすると、「先生がこちらに（　）」となる。",
+      "origin": "authored",
+      "options": [
+        "伺う",
+        "おいでになる",
+        "参る",
+        "申し上げる"
+      ],
+      "explanations": [
+        "伺う là khiêm nhường khi đến thăm.",
+        "おいでになる là tôn kính của đến/đi/ở.",
+        "参る là khiêm nhường/lịch sự, không nâng hành động của thầy.",
+        "申し上げる là khiêm nhường của nói, không phải đến."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai40-14",
+      "type": "context",
+      "word": "お伝えになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 41,
+      "prompt": "「社長が方針を伝える」の「伝える」を尊敬語にすると、社長が方針を（　）となる。",
+      "origin": "authored",
+      "options": [
+        "お伝えになる",
+        "存じ上げる",
+        "申し伝える",
+        "申し上げる"
+      ],
+      "explanations": [
+        "お伝えになる nâng hành động truyền đạt của giám đốc.",
+        "存じ上げる là khiêm nhường biết người, không phải truyền đạt.",
+        "申し伝える là khiêm nhường chuyển lời của phía mình.",
+        "申し上げる là khiêm nhường nói, không phải tôn kính."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-15",
+      "type": "context",
+      "word": "お聞きになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 45,
+      "prompt": "お客様の「聞く」という動作を高める表現は（　）です。",
+      "origin": "authored",
+      "options": [
+        "お聞きになる",
+        "拝聴する",
+        "伺う",
+        "承る"
+      ],
+      "explanations": [
+        "お聞きになる là tôn kính của nghe/hỏi.",
+        "拝聴する là khiêm nhường nghe của phía mình.",
+        "伺う có nghĩa khiêm nhường hỏi/nghe, không nâng khách.",
+        "承る là khiêm nhường nhận lời/nghe, không phải tôn kính."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-05",
+      "type": "context",
+      "word": "ムラがある",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 20,
+      "prompt": "この選手は好調な日と不調な日の差が激しく、成績に（　）。",
+      "origin": "authored",
+      "options": [
+        "一貫性がある",
+        "ムラがある",
+        "規則性がある",
+        "安定感がある"
+      ],
+      "explanations": [
+        "Nhất quán trái với chênh lệch lớn giữa các ngày.",
+        "ムラがある là có sự không đồng đều, phong độ lúc tốt lúc kém.",
+        "Có quy luật không diễn tả phong độ thiếu đồng đều.",
+        "Ổn định trái với lên xuống thất thường."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai40-17",
+      "type": "paraphrase",
+      "word": "参る",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 71,
+      "prompt": "担当者が明日そちらへ【参ります】。",
+      "origin": "authored",
+      "options": [
+        "おっしゃいます",
+        "帰ってきます",
+        "ご覧になります",
+        "行きます"
+      ],
+      "explanations": [
+        "Tôn kính nói, không phải di chuyển.",
+        "Trở về đây trái hướngそちらへ.",
+        "Tôn kính xem, không phải đi.",
+        "参る ở đây là cách nói nhún nhường/lịch sự của đi."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai40-18",
+      "type": "paraphrase",
+      "word": "ご覧になる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 47,
+      "prompt": "先生が資料を【ご覧になった】。",
+      "origin": "authored",
+      "options": [
+        "借りた",
+        "書いた",
+        "見た",
+        "捨てた"
+      ],
+      "explanations": [
+        "Mượn khác nghĩa.",
+        "Viết khác với xem.",
+        "ご覧になる là tôn kính của xem.",
+        "Vứt bỏ không phải xem."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai40-19",
+      "type": "paraphrase",
+      "word": "お休みになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 33,
+      "prompt": "先生は今、お部屋で【お休みになっている】。",
+      "origin": "authored",
+      "options": [
+        "働いている",
+        "休んでいる",
+        "出かけている",
+        "話している"
+      ],
+      "explanations": [
+        "Làm việc trái với nghỉ.",
+        "お休みになる là tôn kính của nghỉ/ngủ.",
+        "Ra ngoài trái với ở phòng nghỉ.",
+        "Nói chuyện khác nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai40-20",
+      "type": "paraphrase",
+      "word": "優柔不断",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 19,
+      "prompt": "彼は【優柔不断だ】。",
+      "origin": "authored",
+      "options": [
+        "なかなか決断できない",
+        "一度も意見を変えない",
+        "何でも強引に進める",
+        "すぐに決断する"
+      ],
+      "explanations": [
+        "優柔不断 là do dự, không quyết được.",
+        "Không đổi ý chưa đồng nghĩa do dự.",
+        "Ép làm mọi việc trái sắc thái.",
+        "Quyết ngay trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-21",
+      "type": "paraphrase",
+      "word": "ご理解いただく",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 49,
+      "prompt": "事情を説明して、お客様に【ご理解いただく】必要がある。",
+      "origin": "authored",
+      "options": [
+        "返してもらう",
+        "隠してもらう",
+        "忘れてもらう",
+        "分かってもらう"
+      ],
+      "explanations": [
+        "Nhờ trả vật không phải thông cảm.",
+        "Nhờ giấu khác nghĩa.",
+        "Nhờ quên khác nghĩa.",
+        "ご理解いただく là nhún nhường nói nhận được sự hiểu từ khách."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai40-22",
+      "type": "paraphrase",
+      "word": "拝借する",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 68,
+      "prompt": "先生の辞書を【拝借する】。",
+      "origin": "authored",
+      "options": [
+        "贈る",
+        "借りる",
+        "買う",
+        "貸す"
+      ],
+      "explanations": [
+        "Tặng khác với mượn.",
+        "拝借する là khiêm nhường của mượn.",
+        "Mua không phải mượn.",
+        "Cho mượn ngược hướng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai40-23",
+      "type": "paraphrase",
+      "word": "お気になさらないでください。",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 78,
+      "prompt": "相手が小さな失敗を謝ったので「【お気になさらないでください。】」と答えた。",
+      "origin": "authored",
+      "options": [
+        "もっと詳しく謝ってください。",
+        "早く決めてください。",
+        "気にしないでください。",
+        "必ず覚えておいてください。"
+      ],
+      "explanations": [
+        "Yêu cầu xin lỗi thêm trái với trấn an.",
+        "Yêu cầu quyết nhanh khác nghĩa.",
+        "Xin đừng bận tâm; cách nói lịch sự nâng đối phương.",
+        "Bắt nhớ mãi khác nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai40-24",
+      "type": "usage",
+      "word": "面倒を見る",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 13,
+      "prompt": "面倒を見る",
+      "origin": "authored",
+      "options": [
+        "両親が仕事の間、祖母が子どもの面倒を見る。",
+        "交通の混雑を窓から眺めることを面倒を見るという。",
+        "複雑な書類を目で読むだけのことを面倒を見るという。",
+        "人を困らせるため問題を増やすことを面倒を見るという。"
+      ],
+      "explanations": [
+        "面倒を見る là chăm sóc, trông nom.",
+        "Chỉ quan sát cảnh không phải thành ngữ chăm sóc.",
+        "Nhìn giấy khó không phải chăm sóc người/việc.",
+        "Gây phiền trái với giúp trông nom."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-25",
+      "type": "usage",
+      "word": "おわかりになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 27,
+      "prompt": "おわかりになる",
+      "origin": "authored",
+      "options": [
+        "自分をへりくだらせて「私がおわかりになる」と言った。",
+        "「私がおわかりになる」を「私が伺う」と同じく訪問の意味で使った。",
+        "先生ならこの図の意味がおわかりになると思います。",
+        "自分の不明点について「私はまだおわかりになる」と断定した。"
+      ],
+      "explanations": [
+        "Không dùng tôn kính nâng mình khi cần khiêm nhường.",
+        "おわかりになる là hiểu, không phải đến thăm.",
+        "おわかりになる nâng hành động hiểu của thầy.",
+        "Vừa không hiểu vừa nói hiểu, lại nâng bản thân không phù hợp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai40-26",
+      "type": "usage",
+      "word": "みるみるうちに",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 23,
+      "prompt": "みるみるうちに",
+      "origin": "authored",
+      "options": [
+        "全く変化しない状態を、みるみるうちに変わったという。",
+        "雲が広がり、空はみるみるうちに暗くなった。",
+        "何十年もかけた、誰にも変化が見えない過程をみるみるうちに進んだという。",
+        "目を閉じて眠る方法をみるみるうちにという。"
+      ],
+      "explanations": [
+        "Không đổi trái nghĩa.",
+        "みるみるうちに là biến đổi nhanh ngay trước mắt.",
+        "Thay đổi rất chậm không thấy khác với nhanh rõ rệt.",
+        "Không phải tên cách ngủ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai40-27",
+      "type": "usage",
+      "word": "なさる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 50,
+      "prompt": "なさる",
+      "origin": "authored",
+      "options": [
+        "物を借りる意味で「私は辞書をなさる」と言った。",
+        "自分の行動を低める語として「私がなさる」を選んだ。",
+        "客に自分の仕事を説明して「私が確認をなさる」と言った。",
+        "社内で部長について「部長は休日に何をなさるのでしょうか」と話した。"
+      ],
+      "explanations": [
+        "なさる là làm, không phải mượn辞書.",
+        "なさる nâng chủ thể, không hạ mình.",
+        "Phía mình khiêm nhường nên 確認いたします.",
+        "なさる là tôn kính củaする, ở đây nói về cấp trên."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai40-28",
+      "type": "usage",
+      "word": "くれぐれもお気をつけください。",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 87,
+      "prompt": "くれぐれもお気をつけください。",
+      "origin": "authored",
+      "options": [
+        "自分が注意するという約束として「くれぐれもお気をつけください。」と言った。",
+        "代金の受領だけを知らせるため「くれぐれもお気をつけください。」と書いた。",
+        "長旅に出るお客様に「くれぐれもお気をつけください。」と声をかけた。",
+        "相手の提案に賛成する返事として、それだけで「くれぐれもお気をつけください。」と言った。"
+      ],
+      "explanations": [
+        "Đây là lời nhờ đối phương, không phải lời hứa của mình.",
+        "Không có nghĩa đã nhận tiền.",
+        "Lời nhắc khách hết sức cẩn thận, giữ gìn.",
+        "Nhắc giữ gìn không phải xác nhận tán thành đề xuất."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai40-29",
+      "type": "usage",
+      "word": "お掛けになる",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 30,
+      "prompt": "お掛けになる",
+      "origin": "authored",
+      "options": [
+        "お客様が椅子にお掛けになるまで、係員は待っていた。",
+        "椅子を修理する意味で「大工が椅子をお掛けになる」と説明した。",
+        "自分が客に席を譲ることを「私がお掛けになる」と表した。",
+        "自分が座ることを謙遜して「私がお掛けになる」と言った。"
+      ],
+      "explanations": [
+        "お掛けになる ở đây là tôn kính của ngồi.",
+        "Không có nghĩa sửa ghế; ngồi dùng 椅子に.",
+        "Cụm này nghĩa mình ngồi, không phải nhường ghế.",
+        "Tôn kính không dùng để hạ hành động mình."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai40-30",
+      "type": "usage",
+      "word": "致す",
+      "source_file": "resources/N1/goi/dai40.csv",
+      "source_line": 52,
+      "prompt": "致す",
+      "origin": "authored",
+      "options": [
+        "「致す」を品物をもらう意味だけで使った。",
+        "お客様に敬意を表すため「お客様がご確認致す」と言った。",
+        "先生の行動を高める尊敬語として「先生が致す」を選んだ。",
+        "自分の行動を丁寧に述べ、「私が責任を持って対応致す所存です」と伝えた。"
+      ],
+      "explanations": [
+        "致す là làm, không phải nhận vật.",
+        "ご確認いたす hạ người thực hiện; khách nên ご確認なさる.",
+        "Nâng thầy nên なさる, không dùng致す như尊敬語.",
+        "致す là khiêm nhường/lịch sự của làm khi nói phía mình."
+      ],
+      "answer": 3
+    }
+  ]
+}

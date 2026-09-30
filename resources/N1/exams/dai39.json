@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai39-30",
+  "title": "N1 · Bài 39 · 30 câu",
+  "level": "N1",
+  "lesson": "dai39",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093039,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai39.csv"
+  },
+  "choice_seed": 2026100039,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai39-01",
+      "type": "reading",
+      "word": "解答欄",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 69,
+      "prompt": "【解答欄】を一つずらして書いてしまった。",
+      "origin": "authored",
+      "options": [
+        "がいようらん",
+        "かいとうらん",
+        "かいていばん",
+        "きにゅうらん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "概要欄",
+          "reading": "がいようらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 65
+        },
+        {
+          "word": "解答欄",
+          "reading": "かいとうらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 69
+        },
+        {
+          "word": "改訂版",
+          "reading": "かいていばん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 50
+        },
+        {
+          "word": "記入欄",
+          "reading": "きにゅうらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 66
+        }
+      ],
+      "explanations": [
+        "がいようらん là cách đọc của 概要欄 (phần mô tả; ô tóm tắt). Đây là cách đọc có thật, nhưng không phải của 解答欄 trong câu.",
+        "かいとうらん là cách đọc của 解答欄 (ô trả lời). Khớp từ và ngữ cảnh được hỏi.",
+        "かいていばん là cách đọc của 改訂版 (bản sửa đổi). Đây là cách đọc có thật, nhưng không phải của 解答欄 trong câu.",
+        "きにゅうらん là cách đọc của 記入欄 (ô điền thông tin). Đây là cách đọc có thật, nhưng không phải của 解答欄 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-02",
+      "type": "reading",
+      "word": "空欄",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 68,
+      "prompt": "【空欄】に適切な言葉を入れなさい。",
+      "origin": "authored",
+      "options": [
+        "こうこくらん",
+        "きにゅうらん",
+        "がいようらん",
+        "くうらん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "広告欄",
+          "reading": "こうこくらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 64
+        },
+        {
+          "word": "記入欄",
+          "reading": "きにゅうらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 66
+        },
+        {
+          "word": "概要欄",
+          "reading": "がいようらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 65
+        },
+        {
+          "word": "空欄",
+          "reading": "くうらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 68
+        }
+      ],
+      "explanations": [
+        "こうこくらん là cách đọc của 広告欄 (mục quảng cáo). Đây là cách đọc có thật, nhưng không phải của 空欄 trong câu.",
+        "きにゅうらん là cách đọc của 記入欄 (ô điền thông tin). Đây là cách đọc có thật, nhưng không phải của 空欄 trong câu.",
+        "がいようらん là cách đọc của 概要欄 (phần mô tả; ô tóm tắt). Đây là cách đọc có thật, nhưng không phải của 空欄 trong câu.",
+        "くうらん là cách đọc của 空欄 (ô trống; chỗ trống). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai39-03",
+      "type": "reading",
+      "word": "肩を持つ",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 78,
+      "prompt": "母はいつも弟の【肩を持つ】。",
+      "origin": "authored",
+      "options": [
+        "かおがひろい",
+        "きをつかう",
+        "かたをもつ",
+        "はらをきめる"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "顔が広い",
+          "reading": "かおがひろい",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 92
+        },
+        {
+          "word": "気を使う",
+          "reading": "きをつかう",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 95
+        },
+        {
+          "word": "肩を持つ",
+          "reading": "かたをもつ",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 78
+        },
+        {
+          "word": "腹を決める",
+          "reading": "はらをきめる",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 85
+        }
+      ],
+      "explanations": [
+        "かおがひろい là cách đọc của 顔が広い (quen biết rộng). Đây là cách đọc có thật, nhưng không phải của 肩を持つ trong câu.",
+        "きをつかう là cách đọc của 気を使う (để ý; giữ ý; quan tâm đến người khác). Đây là cách đọc có thật, nhưng không phải của 肩を持つ trong câu.",
+        "かたをもつ là cách đọc của 肩を持つ (bênh vực; đứng về phía ai). Khớp từ và ngữ cảnh được hỏi.",
+        "はらをきめる là cách đọc của 腹を決める (hạ quyết tâm). Đây là cách đọc có thật, nhưng không phải của 肩を持つ trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-05",
+      "type": "reading",
+      "word": "収入源",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 18,
+      "prompt": "翻訳が主な【収入源】だ。",
+      "origin": "authored",
+      "options": [
+        "きょうきゅうげん",
+        "しゅうにゅうげん",
+        "しゅどうけん",
+        "じゅうぎょういん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "供給源",
+          "reading": "きょうきゅうげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 20
+        },
+        {
+          "word": "収入源",
+          "reading": "しゅうにゅうげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 18
+        },
+        {
+          "word": "主導権",
+          "reading": "しゅどうけん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 16
+        },
+        {
+          "word": "従業員",
+          "reading": "じゅうぎょういん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 34
+        }
+      ],
+      "explanations": [
+        "きょうきゅうげん là cách đọc của 供給源 (nguồn cung cấp). Đây là cách đọc có thật, nhưng không phải của 収入源 trong câu.",
+        "しゅうにゅうげん là cách đọc của 収入源 (nguồn thu nhập). Khớp từ và ngữ cảnh được hỏi.",
+        "しゅどうけん là cách đọc của 主導権 (quyền chủ động; quyền dẫn dắt). Đây là cách đọc có thật, nhưng không phải của 収入源 trong câu.",
+        "じゅうぎょういん là cách đọc của 従業員 (nhân viên; người làm công). Đây là cách đọc có thật, nhưng không phải của 収入源 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-06",
+      "type": "reading",
+      "word": "首都圏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 10,
+      "prompt": "【首都圏】では家賃が高い。",
+      "origin": "authored",
+      "options": [
+        "ぶんかけん",
+        "しゅとけん",
+        "しゅどうけん",
+        "せんきょけん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "文化圏",
+          "reading": "ぶんかけん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 14
+        },
+        {
+          "word": "首都圏",
+          "reading": "しゅとけん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 10
+        },
+        {
+          "word": "主導権",
+          "reading": "しゅどうけん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 16
+        },
+        {
+          "word": "選挙権",
+          "reading": "せんきょけん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 17
+        }
+      ],
+      "explanations": [
+        "ぶんかけん là cách đọc của 文化圏 (khu vực văn hóa). Đây là cách đọc có thật, nhưng không phải của 首都圏 trong câu.",
+        "しゅとけん là cách đọc của 首都圏 (vùng thủ đô). Khớp từ và ngữ cảnh được hỏi.",
+        "しゅどうけん là cách đọc của 主導権 (quyền chủ động; quyền dẫn dắt). Đây là cách đọc có thật, nhưng không phải của 首都圏 trong câu.",
+        "せんきょけん là cách đọc của 選挙権 (quyền bầu cử). Đây là cách đọc có thật, nhưng không phải của 首都圏 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-07",
+      "type": "reading",
+      "word": "警察隊",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 46,
+      "prompt": "【警察隊】が周辺を警戒している。",
+      "origin": "authored",
+      "options": [
+        "けいさつたい",
+        "そうさくたい",
+        "けいやくしょ",
+        "けいさつしょ"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "警察隊",
+          "reading": "けいさつたい",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 46
+        },
+        {
+          "word": "捜索隊",
+          "reading": "そうさくたい",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 42
+        },
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 65
+        },
+        {
+          "word": "警察署",
+          "reading": "けいさつしょ",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 28
+        }
+      ],
+      "explanations": [
+        "けいさつたい là cách đọc của 警察隊 (đội cảnh sát). Khớp từ và ngữ cảnh được hỏi.",
+        "そうさくたい là cách đọc của 捜索隊 (đội tìm kiếm). Đây là cách đọc có thật, nhưng không phải của 警察隊 trong câu.",
+        "けいやくしょ là cách đọc của 契約書 (hợp đồng; văn bản hợp đồng). Đây là cách đọc có thật, nhưng không phải của 警察隊 trong câu.",
+        "けいさつしょ là cách đọc của 警察署 (sở cảnh sát; đồn cảnh sát). Đây là cách đọc có thật, nhưng không phải của 警察隊 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-08",
+      "type": "reading",
+      "word": "発生源",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 23,
+      "prompt": "騒音の【発生源】が分かった。",
+      "origin": "authored",
+      "options": [
+        "じょせいじん",
+        "はっせいげん",
+        "じんせいかん",
+        "はっしんげん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "女性陣",
+          "reading": "じょせいじん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 40
+        },
+        {
+          "word": "発生源",
+          "reading": "はっせいげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 23
+        },
+        {
+          "word": "人生観",
+          "reading": "じんせいかん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 2
+        },
+        {
+          "word": "発信源",
+          "reading": "はっしんげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 21
+        }
+      ],
+      "explanations": [
+        "じょせいじん là cách đọc của 女性陣 (nhóm nữ giới). Đây là cách đọc có thật, nhưng không phải của 発生源 trong câu.",
+        "はっせいげん là cách đọc của 発生源 (nguồn phát sinh). Khớp từ và ngữ cảnh được hỏi.",
+        "じんせいかん là cách đọc của 人生観 (quan niệm về cuộc sống). Đây là cách đọc có thật, nhưng không phải của 発生源 trong câu.",
+        "はっしんげん là cách đọc của 発信源 (nguồn phát; nơi phát tán). Đây là cách đọc có thật, nhưng không phải của 発生源 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-09",
+      "type": "reading",
+      "word": "舞台裏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 73,
+      "prompt": "番組で制作の【舞台裏】を紹介した。",
+      "origin": "authored",
+      "options": [
+        "ぶたい",
+        "ぶあいそう",
+        "ぶたいうら",
+        "ぶきよう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "部隊",
+          "reading": "ぶたい",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 44
+        },
+        {
+          "word": "無愛想",
+          "reading": "ぶあいそう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 23
+        },
+        {
+          "word": "舞台裏",
+          "reading": "ぶたいうら",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 73
+        },
+        {
+          "word": "不器用",
+          "reading": "ぶきよう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 16
+        }
+      ],
+      "explanations": [
+        "ぶたい là cách đọc của 部隊 (đơn vị quân đội; đội quân). Đây là cách đọc có thật, nhưng không phải của 舞台裏 trong câu.",
+        "ぶあいそう là cách đọc của 無愛想 (lạnh nhạt; thiếu niềm nở). Đây là cách đọc có thật, nhưng không phải của 舞台裏 trong câu.",
+        "ぶたいうら là cách đọc của 舞台裏 (hậu trường; chuyện phía sau). Khớp từ và ngữ cảnh được hỏi.",
+        "ぶきよう là cách đọc của 不器用 (vụng về; không khéo). Đây là cách đọc có thật, nhưng không phải của 舞台裏 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai39-04",
+      "type": "context",
+      "word": "いわゆる",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 75,
+      "prompt": "週末だけ農業をする、（　）「週末農家」が増えている。",
+      "origin": "authored",
+      "options": [
+        "さまざまな",
+        "それぞれ",
+        "あらゆる",
+        "いわゆる"
+      ],
+      "explanations": [
+        "さまざまな là đa dạng, không chỉ cách gọi thuật ngữ.",
+        "それぞれ là từng đối tượng.",
+        "あらゆる là mọi loại, không dẫn tên gọi chung.",
+        "いわゆる là cái thường được gọi là."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-10",
+      "type": "context",
+      "word": "講師陣",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 37,
+      "prompt": "この予備校は、指導経験が豊富な教師を集め、優秀な（　）をそろえている。",
+      "origin": "authored",
+      "options": [
+        "報道陣",
+        "取材陣",
+        "講師陣",
+        "経営陣"
+      ],
+      "explanations": [
+        "報道陣 là giới báo chí.",
+        "取材陣 là nhóm phóng viên.",
+        "講師陣 là đội ngũ giảng viên.",
+        "経営陣 là ban quản lý, không phải những người giảng dạy."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai39-11",
+      "type": "context",
+      "word": "流通網",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 61,
+      "prompt": "全国の店に商品を届けるため、倉庫や配送業者を結ぶ（　）を整備した。",
+      "origin": "authored",
+      "options": [
+        "情報網",
+        "監視網",
+        "通信網",
+        "流通網"
+      ],
+      "explanations": [
+        "情報網 là mạng thu thập thông tin.",
+        "監視網 là mạng giám sát.",
+        "通信網 là mạng truyền thông, không phải chuyển hàng.",
+        "流通網 là mạng phân phối hàng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-12",
+      "type": "context",
+      "word": "文化圏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 14,
+      "prompt": "言語だけでなく、習慣や価値観を共有する地域を一つの（　）として捉える。",
+      "origin": "authored",
+      "options": [
+        "安全圏",
+        "合格圏",
+        "文化圏",
+        "大気圏"
+      ],
+      "explanations": [
+        "安全圏 là vùng an toàn.",
+        "合格圏 là mức có khả năng đỗ thi.",
+        "文化圏 là vùng chung văn hóa.",
+        "大気圏 là khí quyển."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai39-13",
+      "type": "context",
+      "word": "取材陣",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 41,
+      "prompt": "記者やカメラマンからなる（　）が、事件現場に集まった。",
+      "origin": "authored",
+      "options": [
+        "男性陣",
+        "経営陣",
+        "講師陣",
+        "取材陣"
+      ],
+      "explanations": [
+        "男性陣 chỉ nhóm nam giới; không phải tên đội ngũ làm báo.",
+        "経営陣 là ban lãnh đạo.",
+        "講師陣 là giảng viên.",
+        "取材陣 là nhóm phóng viên tác nghiệp."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-14",
+      "type": "context",
+      "word": "寝心地",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 34,
+      "prompt": "このマットレスは適度な硬さで、朝まで快適に眠れるほど（　）がよい。",
+      "origin": "authored",
+      "options": [
+        "住み心地",
+        "書き心地",
+        "乗り心地",
+        "寝心地"
+      ],
+      "explanations": [
+        "住み心地 là cảm giác sống trong nhà hoặc khu vực, không riêng đệm.",
+        "書き心地 là cảm giác khi viết.",
+        "乗り心地 là cảm giác ngồi trên xe.",
+        "寝心地 là cảm giác khi nằm ngủ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-15",
+      "type": "context",
+      "word": "もってのほか",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 88,
+      "prompt": "他人の作品を盗んで自分のものとして発表するなど、（　）だ。",
+      "origin": "authored",
+      "options": [
+        "もってのほか",
+        "お手のもの",
+        "思うつぼ",
+        "願ったりかなったり"
+      ],
+      "explanations": [
+        "もってのほか là không thể chấp nhận.",
+        "お手のもの là sở trường.",
+        "思うつぼ là đúng mưu tính, không phải lời lên án không chấp nhận.",
+        "Đúng điều mong ước, trái với hành vi sai trái."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-16",
+      "type": "context",
+      "word": "税源",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 22,
+      "prompt": "自治体は安定した税収を得るため、課税の対象となる（　）の確保を目指す。",
+      "origin": "authored",
+      "options": [
+        "税源",
+        "語源",
+        "情報源",
+        "音源"
+      ],
+      "explanations": [
+        "税源 là nguồn phát sinh thuế.",
+        "語源 là nguồn gốc từ.",
+        "情報源 là nguồn thông tin.",
+        "音源 là nguồn âm thanh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-17",
+      "type": "paraphrase",
+      "word": "女性陣",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 40,
+      "prompt": "会合では【女性陣】からも意見が出た。",
+      "origin": "authored",
+      "options": [
+        "欠席者だけ",
+        "女性の参加者たち",
+        "男性の参加者たち",
+        "進行役だけ"
+      ],
+      "explanations": [
+        "Chỉ người vắng không phải女性陣.",
+        "女性陣 là nhóm phụ nữ trong tập thể.",
+        "Nhóm nam trái nghĩa.",
+        "Chỉ người điều phối khác với nhóm nữ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai39-18",
+      "type": "paraphrase",
+      "word": "合格圏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 11,
+      "prompt": "模試の成績が志望校の【合格圏】に入った。",
+      "origin": "authored",
+      "options": [
+        "合格を見込める成績の範囲",
+        "受験できない年齢の範囲",
+        "試験会場の周辺",
+        "必ず不合格になる範囲"
+      ],
+      "explanations": [
+        "合格圏 là mức điểm có triển vọng đỗ.",
+        "Giới hạn tuổi không phải mức điểm.",
+        "Vùng quanh địa điểm thi không phải nghĩa bóng này.",
+        "Chắc trượt trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-19",
+      "type": "paraphrase",
+      "word": "交通網",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 58,
+      "prompt": "この都市は【交通網】が発達している。",
+      "origin": "authored",
+      "options": [
+        "鉄道や道路などのつながり",
+        "医師と病院の名簿",
+        "電話や放送のつながり",
+        "税金を徴収する仕組み"
+      ],
+      "explanations": [
+        "交通網 là hệ thống các tuyến giao thông.",
+        "Danh sách bệnh viện không phải mạng giao thông.",
+        "Đây là truyền thông, không phải vận tải.",
+        "Thu thuế khác nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-20",
+      "type": "paraphrase",
+      "word": "相談係",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 7,
+      "prompt": "窓口の【相談係】に事情を説明した。",
+      "origin": "authored",
+      "options": [
+        "相談に応じる担当者",
+        "建物を設計する人",
+        "商品を配達する人",
+        "料金だけを徴収する人"
+      ],
+      "explanations": [
+        "相談係 là người phụ trách nhận tư vấn.",
+        "Kiến trúc sư khác nghĩa.",
+        "Người giao hàng khác nghĩa.",
+        "Người thu phí không nhất thiết tư vấn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-21",
+      "type": "paraphrase",
+      "word": "部隊",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 44,
+      "prompt": "救援のために【部隊】が派遣された。",
+      "origin": "authored",
+      "options": [
+        "演劇を行う場所",
+        "偶然集まった観客",
+        "組織された軍の集団",
+        "商品の保管場所"
+      ],
+      "explanations": [
+        "Sân khấu là 舞台, đồng âm khác nghĩa.",
+        "Khán giả ngẫu nhiên không phải đơn vị.",
+        "部隊 là đơn vị quân đội có tổ chức.",
+        "Kho hàng không phải部隊."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai39-22",
+      "type": "paraphrase",
+      "word": "英語圏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 9,
+      "prompt": "彼は【英語圏】で暮らした経験がある。",
+      "origin": "authored",
+      "options": [
+        "英語の試験会場",
+        "英語を使わない地域",
+        "英語の辞書の中",
+        "英語が広く使われる地域"
+      ],
+      "explanations": [
+        "Địa điểm thi không đồng nghĩa vùng Anh ngữ.",
+        "Không dùng Anh ngữ trái nghĩa.",
+        "Trong từ điển không phải vùng địa lý.",
+        "英語圏 là vùng sử dụng tiếng Anh phổ biến."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-23",
+      "type": "paraphrase",
+      "word": "実写版",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 51,
+      "prompt": "人気漫画の【実写版】が公開された。",
+      "origin": "authored",
+      "options": [
+        "実際の俳優などを撮影した作品",
+        "絵だけを動かした作品",
+        "文章だけで構成した作品",
+        "音声だけを録音した作品"
+      ],
+      "explanations": [
+        "実写版 là bản quay diễn viên thật thay cho hình vẽ.",
+        "Hoạt hình không phải người đóng.",
+        "Chỉ chữ là dạng khác.",
+        "Chỉ âm thanh không phải phim."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-24",
+      "type": "usage",
+      "word": "情報源",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 19,
+      "prompt": "情報源",
+      "origin": "authored",
+      "options": [
+        "川の水が始まる場所を情報源という。",
+        "生活費を稼ぐ仕事を情報源という。",
+        "音が出る場所だけを情報源と呼ぶ。",
+        "記事を書く前に、情報源が信頼できるか確認した。"
+      ],
+      "explanations": [
+        "Nguồn sông là 水源.",
+        "Nguồn sống là 収入源.",
+        "Nguồn âm là 音源; không mặc nhiên là nguồn tin.",
+        "情報源 là nơi/người cung cấp thông tin."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-25",
+      "type": "usage",
+      "word": "さじを投げる",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 81,
+      "prompt": "さじを投げる",
+      "origin": "authored",
+      "options": [
+        "最後まで必ず直すと決意して努力を続けることを、さじを投げるという。",
+        "何度直しても故障するので、修理の専門家もさじを投げるほどだった。",
+        "料理を丁寧に皿に盛ることを、さじを投げるという。",
+        "相手の意見を熱心に支持することを、さじを投げるという。"
+      ],
+      "explanations": [
+        "Kiên trì đến cùng trái với bỏ cuộc.",
+        "さじを投げる là bó tay, từ bỏ xử lý.",
+        "Bày món không phải nghĩa thành ngữ.",
+        "Ủng hộ không phải bó tay."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai39-26",
+      "type": "usage",
+      "word": "所持品",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 52,
+      "prompt": "所持品",
+      "origin": "authored",
+      "options": [
+        "入場の際、係員がかばんの中の所持品を確認した。",
+        "本人の性格を所持品の一覧に記入した。",
+        "他人が遠方で管理する建物だけを所持品という。",
+        "来週買う予定でまだ持っていない物を、現在の所持品として提出した。"
+      ],
+      "explanations": [
+        "所持品 là đồ mang theo hoặc đang giữ.",
+        "Tính cách không phải vật dụng.",
+        "Đồ đang mang/giữ khác với mọi bất động sản của người khác.",
+        "Chưa có vật không phải đồ đang giữ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai39-27",
+      "type": "usage",
+      "word": "気に障る",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 94,
+      "prompt": "気に障る",
+      "origin": "authored",
+      "options": [
+        "荷物が通路をふさぐ物理的な状態を気に障るという。",
+        "相手が心から喜ぶだけで不快にならないことを、気に障るという。",
+        "相手の気に障る言い方をしてしまい、謝った。",
+        "寒いので窓を閉める操作を気に障るという。"
+      ],
+      "explanations": [
+        "Cản lối là 邪魔になる; 気に障る nói cảm xúc.",
+        "Chỉ vui không khó chịu trái nghĩa.",
+        "気に障る là làm phật ý, khó chịu.",
+        "Thao tác cửa không phải cảm xúc phật ý."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai39-28",
+      "type": "usage",
+      "word": "あらゆる",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 76,
+      "prompt": "あらゆる",
+      "origin": "authored",
+      "options": [
+        "一つだけを選び、ほかを全く調べずにあらゆる可能性を検討した。",
+        "ただ一種類だけを試し、それ以外は試さず、「あらゆる方法を試した」と報告した。",
+        "「あらゆる店で使える」と聞き、使える店は一軒だけという意味だと理解した。",
+        "成功のために、あらゆる可能性を検討した。"
+      ],
+      "explanations": [
+        "Chỉ một, bỏ các khả năng khác trái với mọi.",
+        "あらゆる chỉ mọi loại, trái với chỉ thử đúng một loại.",
+        "あらゆる店 là mọi cửa hàng, không phải chỉ một cửa hàng.",
+        "あらゆる là tất cả các loại, mọi khả năng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai39-29",
+      "type": "usage",
+      "word": "安全圏",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 12,
+      "prompt": "安全圏",
+      "origin": "authored",
+      "options": [
+        "入試の会場のことだけを安全圏と呼ぶ。",
+        "追加点を取り、チームは勝利の安全圏に入った。",
+        "危険が最も集中し、避難が必要な場所を安全圏という。",
+        "まだ十分に追い付かれる危険が高いのに、完全な安全圏だと定義した。"
+      ],
+      "explanations": [
+        "安全圏 không phải tên địa điểm thi.",
+        "安全圏 ở đây là mức dẫn khá bảo đảm thắng.",
+        "Vùng nguy hiểm trái nghĩa.",
+        "Rủi ro cao trái với mức bảo đảm an toàn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai39-30",
+      "type": "usage",
+      "word": "ピークに達する",
+      "source_file": "resources/N1/goi/dai39.csv",
+      "source_line": 86,
+      "prompt": "ピークに達する",
+      "origin": "authored",
+      "options": [
+        "量が最小になることをピークに達するという。",
+        "山のふもとに下り切ることをピークに達するという。",
+        "花粉の飛散量は三月にピークに達する。",
+        "全く増減せず初めから同じ量なのに、急増してピークに達すると説明した。"
+      ],
+      "explanations": [
+        "Mức nhỏ nhất trái với đỉnh.",
+        "Đến chân núi không phải đạt đỉnh.",
+        "ピークに達する là đạt mức cao nhất.",
+        "Không đổi không phải diễn biến tăng tới đỉnh."
+      ],
+      "answer": 2
+    }
+  ]
+}

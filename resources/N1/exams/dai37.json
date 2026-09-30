@@ -1,0 +1,702 @@
+{
+  "id": "n1-dai37-30",
+  "title": "N1 · Bài 37 · 30 câu",
+  "level": "N1",
+  "lesson": "dai37",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093037,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai37.csv"
+  },
+  "choice_seed": 2026100037,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai37-16",
+      "type": "reading",
+      "word": "誤字",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 100,
+      "prompt": "提出前に【誤字】を直した。",
+      "origin": "authored",
+      "options": [
+        "ごほう",
+        "ぺあ",
+        "ごじ",
+        "ごげん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "誤報",
+          "reading": "ごほう",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 99
+        },
+        {
+          "word": "ペア",
+          "reading": "ぺあ",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 45
+        },
+        {
+          "word": "誤字",
+          "reading": "ごじ",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 100
+        },
+        {
+          "word": "語源",
+          "reading": "ごげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 24
+        }
+      ],
+      "explanations": [
+        "ごほう là cách đọc của 誤報 (tin sai; báo động nhầm). Đây là cách đọc có thật, nhưng không phải của 誤字 trong câu.",
+        "ぺあ là cách đọc của ペア (cặp; đôi). Đây là cách đọc có thật, nhưng không phải của 誤字 trong câu.",
+        "ごじ là cách đọc của 誤字 (lỗi chữ; chữ viết sai). Khớp từ và ngữ cảnh được hỏi.",
+        "ごげん là cách đọc của 語源 (nguồn gốc của từ; từ nguyên). Đây là cách đọc có thật, nhưng không phải của 誤字 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai37-01",
+      "type": "context",
+      "word": "バッジ",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 18,
+      "prompt": "大会の係員であることが分かるよう、胸に（　）を付けた。",
+      "origin": "authored",
+      "options": [
+        "ベンチ",
+        "バッグ",
+        "バッジ",
+        "バット"
+      ],
+      "explanations": [
+        "ベンチ là ghế dài.",
+        "バッグ là túi.",
+        "バッジ là huy hiệu gắn lên áo.",
+        "バット là gậy bóng chày."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-02",
+      "type": "context",
+      "word": "パトカー",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 21,
+      "prompt": "警察官は赤色灯をつけた（　）に乗って現場へ向かった。",
+      "origin": "authored",
+      "options": [
+        "フォークリフト",
+        "パトロン",
+        "パトカー",
+        "タンクローリー"
+      ],
+      "explanations": [
+        "フォークリフト là xe nâng hàng.",
+        "パトロン là người bảo trợ.",
+        "パトカー là xe tuần tra cảnh sát.",
+        "タンクローリー là xe bồn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-03",
+      "type": "context",
+      "word": "ついては",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 89,
+      "prompt": "来月、説明会を開催します。（　）、参加人数を今週中にお知らせください。",
+      "origin": "authored",
+      "options": [
+        "それなのに",
+        "ところが",
+        "にもかかわらず",
+        "ついては"
+      ],
+      "explanations": [
+        "それなのに là mặc dù vậy, không phải quan hệ đề nghị từ thông báo.",
+        "ところが chỉ sự trái dự đoán, không hợp lời yêu cầu kéo theo.",
+        "にもかかわらず là mặc dù, không có sự đối lập trong câu.",
+        "ついては nối sự kiện vừa thông báo với lời yêu cầu liên quan."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-04",
+      "type": "context",
+      "word": "プレゼンテーション・プレゼン",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 39,
+      "prompt": "会議で新企画を説明するため、図表を使った（　）を行った。",
+      "origin": "authored",
+      "options": [
+        "プレゼンテーション",
+        "ストライキ",
+        "アンコール",
+        "デコレーション"
+      ],
+      "explanations": [
+        "プレゼンテーション, viết ngắn プレゼン, là thuyết trình.",
+        "ストライキ là đình công.",
+        "アンコール là yêu cầu diễn thêm.",
+        "デコレーション là trang trí."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-05",
+      "type": "context",
+      "word": "ところが",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 90,
+      "prompt": "天気予報では晴れだった。（　）、出発するとすぐに雨が降り出した。",
+      "origin": "authored",
+      "options": [
+        "したがって",
+        "すなわち",
+        "ところが",
+        "それゆえ"
+      ],
+      "explanations": [
+        "したがって là do đó, không hợp quan hệ trái dự đoán.",
+        "すなわち là nói cách khác, không giải thích việc trái dự báo.",
+        "ところが nối kết quả trái dự đoán.",
+        "それゆえ là vì vậy, không phải đối lập."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-06",
+      "type": "context",
+      "word": "パニック",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 24,
+      "prompt": "突然出口が塞がれ、人々は冷静さを失って（　）に陥った。",
+      "origin": "authored",
+      "options": [
+        "バランス",
+        "ハーモニー",
+        "リラックス",
+        "パニック"
+      ],
+      "explanations": [
+        "バランス là cân bằng, trái hỗn loạn.",
+        "ハーモニー là hài hòa.",
+        "リラックス là thư giãn, trái nghĩa.",
+        "パニック là hoảng loạn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-07",
+      "type": "context",
+      "word": "フェリー",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 30,
+      "prompt": "車をそのまま載せて対岸へ渡れる（　）を利用した。",
+      "origin": "authored",
+      "options": [
+        "モノレール",
+        "フェリー",
+        "ケーブルカー",
+        "ヘリコプター"
+      ],
+      "explanations": [
+        "Tàu một ray không chở nguyên xe qua nước theo cách này.",
+        "フェリー là phà chở người và xe.",
+        "Xe cáp không phải phà.",
+        "Trực thăng không phải phương tiện tàu vượt sông biển được mô tả."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-08",
+      "type": "context",
+      "word": "トーン",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 4,
+      "prompt": "厳しい内容でも、声の（　）を柔らかくすると印象が変わる。",
+      "origin": "authored",
+      "options": [
+        "タウン",
+        "トーン",
+        "ターン",
+        "タイヤ"
+      ],
+      "explanations": [
+        "タウン là thị trấn.",
+        "トーン là giọng, sắc thái âm thanh.",
+        "ターン là lượt hoặc vòng quay.",
+        "タイヤ là lốp xe."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-09",
+      "type": "context",
+      "word": "パトロン",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 22,
+      "prompt": "無名の画家の生活費や制作費を支える（　）が現れた。",
+      "origin": "authored",
+      "options": [
+        "パイロット",
+        "パスポート",
+        "パトロン",
+        "パトカー"
+      ],
+      "explanations": [
+        "パイロット là phi công, không phải vai trò tài trợ.",
+        "パスポート là hộ chiếu.",
+        "パトロン là người bảo trợ tài chính.",
+        "パトカー là xe cảnh sát."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-10",
+      "type": "context",
+      "word": "ピンチ",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 28,
+      "prompt": "締め切り直前に資料が消え、仕事が間に合わない（　）に立たされた。",
+      "origin": "authored",
+      "options": [
+        "チャンス",
+        "ゴール",
+        "ピンチ",
+        "ピーク"
+      ],
+      "explanations": [
+        "チャンス là cơ hội tốt, trái nguy cơ không kịp.",
+        "ゴール là đích, không phải khó khăn bất ngờ.",
+        "ピンチ là tình thế khó khăn, nguy cấp.",
+        "ピーク là đỉnh điểm, không phải từ chỉ tình thế nguy cấp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-11",
+      "type": "paraphrase",
+      "word": "デリケート",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 3,
+      "prompt": "相手の家庭の事情は【デリケートな】問題だ。",
+      "origin": "authored",
+      "options": [
+        "慎重に扱う必要のある",
+        "誰にでも公表すべき",
+        "簡単に無視できる",
+        "全く重要でない"
+      ],
+      "explanations": [
+        "デリケートな là tế nhị, nhạy cảm.",
+        "Cần công bố cho mọi người trái sắc thái thận trọng.",
+        "Dễ bỏ qua trái nghĩa.",
+        "Không quan trọng không phải nhạy cảm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-12",
+      "type": "paraphrase",
+      "word": "もしくは",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 93,
+      "prompt": "申請書は窓口【もしくは】郵送で提出してください。",
+      "origin": "authored",
+      "options": [
+        "および",
+        "したがって",
+        "または",
+        "しかし"
+      ],
+      "explanations": [
+        "および là và, không phải chọn một cách.",
+        "Do đó không chỉ lựa chọn.",
+        "もしくは là hoặc, nêu lựa chọn.",
+        "Nhưng không phải hoặc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-13",
+      "type": "paraphrase",
+      "word": "あるいは",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 82,
+      "prompt": "支払いは現金、【あるいは】カードでお願いします。",
+      "origin": "authored",
+      "options": [
+        "それでも",
+        "または",
+        "なぜなら",
+        "つまり"
+      ],
+      "explanations": [
+        "Dù vậy là nhượng bộ.",
+        "あるいは ở đây là hoặc.",
+        "Vì rằng là nêu lý do.",
+        "つまり là tức là, không nêu phương án khác."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-14",
+      "type": "paraphrase",
+      "word": "ハーモニー",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 16,
+      "prompt": "合唱団の美しい【ハーモニー】に感動した。",
+      "origin": "authored",
+      "options": [
+        "楽器の値段",
+        "和音の調和",
+        "観客の人数",
+        "演奏の中断"
+      ],
+      "explanations": [
+        "Giá nhạc cụ không phải hài hòa.",
+        "ハーモニー là hòa âm, các âm kết hợp hài hòa.",
+        "Số khán giả không phải âm nhạc.",
+        "Gián đoạn biểu diễn không phải hòa âm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-15",
+      "type": "paraphrase",
+      "word": "ニュアンス",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 10,
+      "prompt": "同じ意味でも、言葉の【ニュアンス】は少し違う。",
+      "origin": "authored",
+      "options": [
+        "微妙な意味合い",
+        "発音の速さ",
+        "文字の総数",
+        "辞書の厚さ"
+      ],
+      "explanations": [
+        "ニュアンス là sắc thái tinh tế.",
+        "Tốc độ nói khác với hàm ý.",
+        "Tổng số chữ không phải sắc thái.",
+        "Độ dày từ điển không phảiニュアンス."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-17",
+      "type": "paraphrase",
+      "word": "ネック",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 11,
+      "prompt": "資金不足が事業拡大の【ネック】になっている。",
+      "origin": "authored",
+      "options": [
+        "余った資源",
+        "有利な条件",
+        "最終的な目標",
+        "障害となる部分"
+      ],
+      "explanations": [
+        "Nguồn lực dư trái với thiếu vốn.",
+        "Điều kiện thuận lợi trái nghĩa.",
+        "Mục tiêu cuối không phải trở ngại.",
+        "ネック ở đây là nút vướng, trở ngại."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-18",
+      "type": "paraphrase",
+      "word": "リード",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 65,
+      "prompt": "彼女がチームを【リードした】。",
+      "origin": "authored",
+      "options": [
+        "途中で見捨てた",
+        "先頭に立って導いた",
+        "外から眺めた",
+        "後ろから妨害した"
+      ],
+      "explanations": [
+        "Bỏ rơi khác với dẫn.",
+        "リード là dẫn dắt.",
+        "Chỉ đứng xem không phảiリード.",
+        "Cản trở trái với lãnh đạo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-19",
+      "type": "paraphrase",
+      "word": "バット",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 20,
+      "prompt": "選手は【バット】を強く握った。",
+      "origin": "authored",
+      "options": [
+        "頭を守る防具",
+        "球を受ける手袋",
+        "胸に付ける印",
+        "野球で球を打つ道具"
+      ],
+      "explanations": [
+        "Mũ bảo hộ là ヘルメット.",
+        "Găng bắt bóng là グローブ.",
+        "Huy hiệu là バッジ.",
+        "バット là gậy bóng chày."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-20",
+      "type": "paraphrase",
+      "word": "ルーズ",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 71,
+      "prompt": "彼は【時間にルーズだ】。",
+      "origin": "authored",
+      "options": [
+        "時間をきちんと守らない",
+        "時間を厳格に守る",
+        "時間に関心がないふりをする",
+        "時間について詳しい知識を持つ"
+      ],
+      "explanations": [
+        "時間にルーズ là không đúng giờ, thiếu nghiêm túc.",
+        "Nghiêm ngặt trái nghĩa.",
+        "Giả không quan tâm khác với thực tế hay trễ.",
+        "Am hiểu không chỉ kỷ luật thời gian."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-21",
+      "type": "paraphrase",
+      "word": "ピーク",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 27,
+      "prompt": "観光客の数は八月に【ピーク】を迎える。",
+      "origin": "authored",
+      "options": [
+        "増え始める直前",
+        "最も多い時期",
+        "集計をやめる日",
+        "最も少ない時期"
+      ],
+      "explanations": [
+        "Trước lúc tăng chưa phải đỉnh.",
+        "ピーク là cao điểm, mức cực đại.",
+        "Ngày dừng thống kê không phải cao điểm.",
+        "Ít nhất trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-22",
+      "type": "usage",
+      "word": "ハード",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 14,
+      "prompt": "ハード",
+      "origin": "authored",
+      "options": [
+        "優しく柔らかな態度だけをハードな態度という。",
+        "この果物は甘いので、ハードな甘さと数えた。",
+        "負担が全くない気楽な散歩を、ハードな訓練という。",
+        "今週はハードな練習が続き、体を休める時間が少なかった。"
+      ],
+      "explanations": [
+        "Mềm mại trái với cứng rắn.",
+        "ハード không phải đơn vị hoặc mức vị ngọt.",
+        "Không gắng sức trái với nặng nhọc.",
+        "ハード là nặng, vất vả, khắc nghiệt."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-23",
+      "type": "usage",
+      "word": "プロフィール",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 42,
+      "prompt": "プロフィール",
+      "origin": "authored",
+      "options": [
+        "写真の明暗差をプロフィールで調節した。",
+        "登壇者のプロフィールを読んで、経歴を確認した。",
+        "実験で発生した気体をプロフィールに入れた。",
+        "電車の発車時刻だけを並べた表を、その人のプロフィールという。"
+      ],
+      "explanations": [
+        "Độ tương phản là コントラスト.",
+        "プロフィール là giới thiệu thông tin, tiểu sử cá nhân.",
+        "Vật chứa không phải tiểu sử.",
+        "Giờ tàu không phải lý lịch của người."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-24",
+      "type": "usage",
+      "word": "マッチ",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 54,
+      "prompt": "マッチ",
+      "origin": "authored",
+      "options": [
+        "このネクタイは上着の色によくマッチしている。",
+        "服と色が全く合わないことを、よくマッチするという。",
+        "水を足して火をマッチした。",
+        "友人の話を日本語にマッチして訳した。"
+      ],
+      "explanations": [
+        "マッチ là phù hợp, hài hòa.",
+        "Không hợp trái nghĩa.",
+        "Dập lửa dùng 消す; マッチ không phải động từ dập.",
+        "Dịch dùng 翻訳; không phải phù hợp."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-25",
+      "type": "usage",
+      "word": "ランク",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 63,
+      "prompt": "ランク",
+      "origin": "authored",
+      "options": [
+        "自転車の空気をランクで入れた。",
+        "品質に応じて商品を三つのランクに分けている。",
+        "一円玉を数えてランクを支払った。",
+        "本人の名前を隠すことをランクという。"
+      ],
+      "explanations": [
+        "Dụng cụ bơm là ポンプ.",
+        "ランク là cấp, thứ hạng.",
+        "Thanh toán tiền là 代金; không phải cấp bậc.",
+        "Ẩn tên không phải thứ hạng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai37-26",
+      "type": "usage",
+      "word": "ホース",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 48,
+      "prompt": "ホース",
+      "origin": "authored",
+      "options": [
+        "小銭を入れる財布をホースと呼ぶ。",
+        "舞台で歌う人の声をホースという。",
+        "野球の球を打つため、ホースを振って試合に出た。",
+        "庭の花に水をやるため、蛇口にホースをつないだ。"
+      ],
+      "explanations": [
+        "Ví là 財布, không phảiホース.",
+        "Giọng là 声; không phải ống.",
+        "Gậy bóng chày là バット.",
+        "ホース là ống mềm dẫn nước."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai37-27",
+      "type": "usage",
+      "word": "リアリティー",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 64,
+      "prompt": "リアリティー",
+      "origin": "authored",
+      "options": [
+        "細かな生活描写があり、この小説にはリアリティーがある。",
+        "事実とかけ離れて全く現実味がないことを、リアリティーがあるという。",
+        "窓ガラスの厚さをリアリティーで測った。",
+        "店の売上金をリアリティーとして銀行に預けた。"
+      ],
+      "explanations": [
+        "リアリティー là cảm giác chân thực.",
+        "Không thực tế trái nghĩa.",
+        "Không phải dụng cụ đo chiều dày.",
+        "Tiền thu không phải tính chân thực."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-28",
+      "type": "usage",
+      "word": "したがって",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 84,
+      "prompt": "したがって",
+      "origin": "authored",
+      "options": [
+        "今日は祝日だ。したがって、役所の窓口は休みだ。",
+        "売上は増えた。したがって、予想に反して利益は減った。",
+        "雨だと予報されていた。したがって、予報に反して晴れた。",
+        "彼は欠席すると連絡した。したがって、連絡とは反対に会場に現れた。"
+      ],
+      "explanations": [
+        "したがって nối nguyên nhân với kết quả.",
+        "Ngữ cảnh chủ ý tương phản cần しかし/ところが; したがって nối kết quả thuận.",
+        "Kết quả trái dự báo cần ところが; không phải suy ra thuận.",
+        "Kết quả trái thông báo cần liên từ tương phản như ところが."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai37-29",
+      "type": "usage",
+      "word": "ボディーガード",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 51,
+      "prompt": "ボディーガード",
+      "origin": "authored",
+      "options": [
+        "道路脇の金属製の柵をボディーガードという。",
+        "料理の味見を専門にする人をボディーガードという。",
+        "有名人の周囲をボディーガードが警戒している。",
+        "健康診断の結果をボディーガードと呼ぶ。"
+      ],
+      "explanations": [
+        "Hộ lan là ガードレール.",
+        "Người nếm món không phải vệ sĩ.",
+        "ボディーガード là vệ sĩ bảo vệ người.",
+        "Kết quả khám không phải người bảo vệ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai37-30",
+      "type": "usage",
+      "word": "フロント",
+      "source_file": "resources/N1/goi/dai37.csv",
+      "source_line": 44,
+      "prompt": "フロント",
+      "origin": "authored",
+      "options": [
+        "宿泊室で寝るための布団をフロントという。",
+        "髪を整える専門家をフロントという。",
+        "夕食の献立をフロントとして食べた。",
+        "ホテルに着いたら、フロントでチェックインした。"
+      ],
+      "explanations": [
+        "Chăn nệm không phải quầy lễ tân.",
+        "Thợ làm tóc là 美容師.",
+        "Món ăn hoặc thực đơn không phảiフロント.",
+        "フロント ở khách sạn là quầy lễ tân."
+      ],
+      "answer": 3
+    }
+  ]
+}

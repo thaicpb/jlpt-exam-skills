@@ -1,0 +1,676 @@
+{
+  "id": "n1-dai36-30",
+  "title": "N1 · Bài 36 · 30 câu",
+  "level": "N1",
+  "lesson": "dai36",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093036,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai36.csv"
+  },
+  "choice_seed": 2026100036,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai36-01",
+      "type": "context",
+      "word": "コンセプト",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 50,
+      "prompt": "新商品の開発を通じて一貫して大切にする、基本的な考え方である（　）を決めた。",
+      "origin": "authored",
+      "options": [
+        "コントラスト",
+        "コンセプト",
+        "コンテスト",
+        "コンセント"
+      ],
+      "explanations": [
+        "コントラスト là sự tương phản.",
+        "コンセプト là ý tưởng chủ đạo.",
+        "コンテスト là cuộc thi.",
+        "コンセント là ổ cắm điện."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-02",
+      "type": "context",
+      "word": "キャスター",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 32,
+      "prompt": "毎晩のニュース番組で、（　）がその日の出来事を視聴者に伝える。",
+      "origin": "authored",
+      "options": [
+        "キャスター",
+        "キャスト",
+        "パトロン",
+        "ゲスト"
+      ],
+      "explanations": [
+        "キャスター là người dẫn bản tin.",
+        "キャスト là dàn diễn viên.",
+        "パトロン là người bảo trợ tài chính.",
+        "ゲスト là khách mời, không phải người dẫn thường lệ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-03",
+      "type": "context",
+      "word": "コンテスト",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 52,
+      "prompt": "応募作品を審査して優勝者を決める写真（　）が開催された。",
+      "origin": "authored",
+      "options": [
+        "コンプレックス",
+        "コンテスト",
+        "コンセプト",
+        "コンセント"
+      ],
+      "explanations": [
+        "コンプレックス là mặc cảm.",
+        "コンテスト là cuộc thi.",
+        "コンセプト là ý tưởng nền tảng.",
+        "コンセント là ổ cắm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-04",
+      "type": "context",
+      "word": "ウェブ",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 13,
+      "prompt": "ブラウザーを使って（　）上のページを閲覧する。",
+      "origin": "authored",
+      "options": [
+        "ベルト",
+        "ウェブ",
+        "ベンチ",
+        "ウエート"
+      ],
+      "explanations": [
+        "ベルト là dây đai.",
+        "ウェブ là mạng các trang thông tin trực tuyến.",
+        "ベンチ là ghế dài.",
+        "ウエート là trọng lượng hoặc tỷ trọng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-05",
+      "type": "context",
+      "word": "インターチェンジ",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 2,
+      "prompt": "高速道路を降りるため、次の（　）で一般道へ向かった。",
+      "origin": "authored",
+      "options": [
+        "インタビュー",
+        "インターチェンジ",
+        "インターフォン",
+        "インテリア"
+      ],
+      "explanations": [
+        "インタビュー là phỏng vấn.",
+        "インターチェンジ là nút lên xuống cao tốc.",
+        "インターフォン là máy liên lạc cửa.",
+        "インテリア là nội thất."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-06",
+      "type": "context",
+      "word": "デコレーション",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 98,
+      "prompt": "ケーキにクリームや果物を飾る（　）を、子どもたちが楽しんだ。",
+      "origin": "authored",
+      "options": [
+        "デモンストレーション",
+        "デコレーション",
+        "ディスカッション",
+        "データベース"
+      ],
+      "explanations": [
+        "デモンストレーション là trình diễn minh họa, không phải trang trí bánh.",
+        "デコレーション là trang trí.",
+        "ディスカッション là thảo luận.",
+        "データベース là cơ sở dữ liệu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-07",
+      "type": "context",
+      "word": "ストライキ",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 76,
+      "prompt": "労働者たちは賃上げを求め、全員で仕事を止める（　）に入った。",
+      "origin": "authored",
+      "options": [
+        "ストレッチ",
+        "ストライキ",
+        "ストック",
+        "ストライプ"
+      ],
+      "explanations": [
+        "ストレッチ là giãn cơ.",
+        "ストライキ là đình công.",
+        "ストック là dự trữ.",
+        "ストライプ là họa tiết sọc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-08",
+      "type": "context",
+      "word": "エレガント",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 14,
+      "prompt": "彼女は上品で洗練された、（　）なドレスを着ていた。",
+      "origin": "authored",
+      "options": [
+        "ルーズ",
+        "ハード",
+        "エレガント",
+        "ラフ"
+      ],
+      "explanations": [
+        "ルーズ là lỏng lẻo, thiếu chặt chẽ.",
+        "ハード là khắc nghiệt hoặc cứng.",
+        "エレガント là thanh lịch.",
+        "ラフ là thô hoặc xuề xòa, trái sắc thái trang nhã."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-09",
+      "type": "context",
+      "word": "ステータス",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 73,
+      "prompt": "その職業は社会的な（　）が高く、人々から尊敬されている。",
+      "origin": "authored",
+      "options": [
+        "スタミナ",
+        "スケジュール",
+        "ステータス",
+        "スローガン"
+      ],
+      "explanations": [
+        "スタミナ là sức bền.",
+        "スケジュール là lịch trình.",
+        "ステータス là địa vị xã hội.",
+        "スローガン là khẩu hiệu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-10",
+      "type": "context",
+      "word": "カウンセラー",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 23,
+      "prompt": "心の悩みを専門家に相談するため、学校の（　）と面談した。",
+      "origin": "authored",
+      "options": [
+        "カウンセラー",
+        "コメンテーター",
+        "コレクター",
+        "カメラマン"
+      ],
+      "explanations": [
+        "カウンセラー là chuyên viên tư vấn tâm lý.",
+        "コメンテーター là người bình luận trên truyền thông.",
+        "コレクター là nhà sưu tầm.",
+        "カメラマン là người chụp ảnh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-11",
+      "type": "paraphrase",
+      "word": "スケール",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 70,
+      "prompt": "この事業は【スケール】が大きい。",
+      "origin": "authored",
+      "options": [
+        "予定の遅れ",
+        "費用の不足",
+        "作業の順序",
+        "規模"
+      ],
+      "explanations": [
+        "Chậm lịch không đồng nghĩa.",
+        "Thiếu kinh phí không phải quy mô.",
+        "Trình tự công việc khác với quy mô.",
+        "スケール ở đây là quy mô."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-12",
+      "type": "paraphrase",
+      "word": "インターフォン",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 4,
+      "prompt": "玄関の【インターフォン】で来客と話した。",
+      "origin": "authored",
+      "options": [
+        "室温を調節する装置",
+        "道路料金を払う装置",
+        "映像だけを印刷する装置",
+        "室内と玄関を結ぶ通話装置"
+      ],
+      "explanations": [
+        "Thiết bị điều chỉnh nhiệt không phải máy gọi cửa.",
+        "Thiết bị trả phí đường không phảiインターフォン.",
+        "Máy in ảnh không phải liên lạc thoại.",
+        "インターフォン là thiết bị liên lạc nội bộ/cửa ra vào."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-13",
+      "type": "paraphrase",
+      "word": "データ",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 96,
+      "prompt": "調査で集めた【データ】を分析した。",
+      "origin": "authored",
+      "options": [
+        "商品の包装材料",
+        "数値などの情報",
+        "会場までの交通手段",
+        "作業を手伝う人々"
+      ],
+      "explanations": [
+        "Vật liệu đóng gói không phải thông tin.",
+        "データ là thông tin, số liệu.",
+        "Phương tiện đến nơi khác với dữ liệu nghiên cứu.",
+        "Người hỗ trợ không phải dữ liệu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-14",
+      "type": "paraphrase",
+      "word": "スローガン",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 82,
+      "prompt": "会社は新しい【スローガン】を掲げた。",
+      "origin": "authored",
+      "options": [
+        "詳細な会計書類",
+        "社員の個人情報",
+        "目標を短く表した言葉",
+        "製品の設計図"
+      ],
+      "explanations": [
+        "Tài liệu kế toán chi tiết không phải khẩu hiệu.",
+        "Thông tin cá nhân không phải khẩu hiệu.",
+        "スローガン là khẩu hiệu ngắn thể hiện mục tiêu.",
+        "Bản vẽ kỹ thuật không phảiスローガン."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-15",
+      "type": "paraphrase",
+      "word": "キャスト",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 33,
+      "prompt": "この映画は【キャスト】が豪華だ。",
+      "origin": "authored",
+      "options": [
+        "出演者の顔ぶれ",
+        "物語の長さ",
+        "撮影場所の広さ",
+        "上映する回数"
+      ],
+      "explanations": [
+        "キャスト là dàn diễn viên.",
+        "Độ dài truyện không phải dàn vai.",
+        "Độ rộng địa điểm quay không phải diễn viên.",
+        "Số buổi chiếu không phảiキャスト."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-16",
+      "type": "paraphrase",
+      "word": "シェア",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 60,
+      "prompt": "この企業の市場【シェア】は三割だ。",
+      "origin": "authored",
+      "options": [
+        "成長にかかる年数",
+        "占有率",
+        "商品の重さ",
+        "社員の平均年齢"
+      ],
+      "explanations": [
+        "Số năm tăng trưởng không phải tỷ phần.",
+        "シェア ở đây là tỷ lệ chiếm thị trường.",
+        "Trọng lượng sản phẩm khác nghĩa.",
+        "Tuổi nhân viên không phải thị phần."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai36-17",
+      "type": "paraphrase",
+      "word": "セレモニー",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 86,
+      "prompt": "開業を祝う【セレモニー】が行われた。",
+      "origin": "authored",
+      "options": [
+        "式典",
+        "予行練習",
+        "休憩時間",
+        "意見調査"
+      ],
+      "explanations": [
+        "セレモニー là nghi lễ, buổi lễ.",
+        "Tập dượt không phải buổi lễ chính.",
+        "Giờ nghỉ khác với buổi lễ.",
+        "Khảo sát ý kiến không phải nghi lễ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-18",
+      "type": "paraphrase",
+      "word": "ジャンボ",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 66,
+      "prompt": "空港に【ジャンボな】旅客機が到着した。",
+      "origin": "authored",
+      "options": [
+        "非常に大きい",
+        "飛べなくなった",
+        "乗客のいない",
+        "極めて小さい"
+      ],
+      "explanations": [
+        "ジャンボ là kích cỡ rất lớn.",
+        "Không bay được không nói kích thước.",
+        "Không hành khách khác với cỡ lớn.",
+        "Rất nhỏ trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-19",
+      "type": "paraphrase",
+      "word": "カレンダー",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 28,
+      "prompt": "壁の【カレンダー】に予定を書き込んだ。",
+      "origin": "authored",
+      "options": [
+        "時刻を音で知らせるもの",
+        "場所を示した地図",
+        "気温を測るもの",
+        "日付を一覧にしたもの"
+      ],
+      "explanations": [
+        "Thiết bị báo giờ khác với lịch.",
+        "Bản đồ địa điểm không phải lịch.",
+        "Nhiệt kế không phải lịch.",
+        "カレンダー là lịch liệt kê ngày tháng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-20",
+      "type": "paraphrase",
+      "word": "コントラスト",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 53,
+      "prompt": "写真の明暗の【コントラスト】を強くした。",
+      "origin": "authored",
+      "options": [
+        "調和",
+        "省略",
+        "類似",
+        "対比"
+      ],
+      "explanations": [
+        "Hài hòa không đồng nghĩa đối chiếu sáng tối.",
+        "Lược bỏ không phải tương phản.",
+        "Tương tự trái với tương phản.",
+        "コントラスト là sự tương phản."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-21",
+      "type": "usage",
+      "word": "ガードレール",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 22,
+      "prompt": "ガードレール",
+      "origin": "authored",
+      "options": [
+        "高速道路の料金をガードレールで支払った。",
+        "建物の入口で客を案内する人をガードレールという。",
+        "電車の車輪が走る二本のガードレールを点検した。",
+        "車が崖から落ちないよう、道路脇にガードレールが設置されている。"
+      ],
+      "explanations": [
+        "Trả ở 料金所; hộ lan không phải trạm thu phí.",
+        "Người bảo vệ là ガードマン, không phải lan can.",
+        "Đường ray là レール; không phải hộ lan.",
+        "ガードレール là hộ lan ven đường."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-22",
+      "type": "usage",
+      "word": "コーディネート",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 43,
+      "prompt": "コーディネート",
+      "origin": "authored",
+      "options": [
+        "服と靴の色を合わせて、全体をコーディネートした。",
+        "約束を全部取り消すためにコーディネートした。",
+        "故障したパソコンの部品を工具でコーディネートして直した。",
+        "文書を日本語にコーディネートして翻訳を終えた。"
+      ],
+      "explanations": [
+        "コーディネート là phối hợp cho hài hòa.",
+        "Hủy là キャンセル; không đồng nghĩa điều phối.",
+        "Sửa thiết bị dùng 修理; không phải phối đồ hoặc điều phối.",
+        "Dịch dùng 翻訳, không phải điều phối."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-23",
+      "type": "usage",
+      "word": "データベース",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 97,
+      "prompt": "データベース",
+      "origin": "authored",
+      "options": [
+        "会場の土台となるコンクリートをデータベースという。",
+        "音楽の低い音を担当する楽器がデータベースだ。",
+        "空の紙箱を、そのまま顧客データベースと呼ぶ。",
+        "顧客情報をデータベースに登録し、必要な条件で検索する。"
+      ],
+      "explanations": [
+        "Nền vật lý không phải cơ sở dữ liệu.",
+        "Nhạc cụ âm trầm là ベース, không phảiデータベース.",
+        "Hộp rỗng không có dữ liệu tổ chức để tra cứu.",
+        "データベース là tập dữ liệu được tổ chức để truy xuất."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-24",
+      "type": "usage",
+      "word": "ストック",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 75,
+      "prompt": "ストック",
+      "origin": "authored",
+      "options": [
+        "災害に備えて、飲料水をストックしている。",
+        "演説の最後に拍手をストックして賛成を示した。",
+        "倉庫の商品を全部捨て、何も残さずストックした。",
+        "列車が駅でストックして客を降ろした。"
+      ],
+      "explanations": [
+        "ストック là dự trữ để dùng sau.",
+        "Vỗ tay dùng 拍手する; không dùngストック cho phản ứng tức thì.",
+        "Bỏ hết không phải dự trữ.",
+        "Tàu dừng là ストップ・停車; không phải dự trữ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-25",
+      "type": "usage",
+      "word": "エンターテイメント",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 15,
+      "prompt": "エンターテイメント",
+      "origin": "authored",
+      "options": [
+        "法的な納税義務そのものをエンターテイメントという。",
+        "機械を動かすために必要な電力をエンターテイメントという。",
+        "この施設では音楽や演劇など、多彩なエンターテイメントを楽しめる。",
+        "書類を保管する封筒をエンターテイメントという。"
+      ],
+      "explanations": [
+        "Nghĩa vụ nộp thuế không phải hoạt động giải trí.",
+        "Năng lượng là エネルギー, không phải giải trí.",
+        "エンターテイメント là hoạt động giải trí.",
+        "Phong bì là 封筒; không phải giải trí."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-26",
+      "type": "usage",
+      "word": "コンプレックス",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 55,
+      "prompt": "コンプレックス",
+      "origin": "authored",
+      "options": [
+        "店への行き方をコンプレックスで調べた。",
+        "誰より優れていると確信する自信をコンプレックスという。",
+        "バネを押して縮める操作をコンプレックスという。",
+        "彼は背が低いことにコンプレックスを抱いている。"
+      ],
+      "explanations": [
+        "コンプレックス không phải công cụ tra đường.",
+        "Tự tin ưu việt trái với mặc cảm trong nghĩa được hỏi.",
+        "Nén là 圧縮; không phải mặc cảm.",
+        "コンプレックス ở đây là mặc cảm tự ti."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai36-27",
+      "type": "usage",
+      "word": "シャトル",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 65,
+      "prompt": "シャトル",
+      "origin": "authored",
+      "options": [
+        "空港とホテルの間をシャトルバスが往復している。",
+        "舞台の台本をシャトルとして配った。",
+        "寒いので窓のシャトルを閉めた。",
+        "銀行の窓口で預金のシャトルを引き出した。"
+      ],
+      "explanations": [
+        "シャトル là phương tiện hoặc hoạt động chạy qua lại giữa hai điểm.",
+        "Kịch bản là 台本; không phải tàu con thoi hay cầu lông.",
+        "Cửa cuốn/chớp là シャッター; khác vớiシャトル.",
+        "Số dư tiền gửi là 残高; không phảiシャトル."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai36-28",
+      "type": "usage",
+      "word": "サイクル",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 56,
+      "prompt": "サイクル",
+      "origin": "authored",
+      "options": [
+        "一度だけ起きて繰り返さない現象をサイクルという。",
+        "商品の価格を値札のサイクルに書いた。",
+        "睡眠のサイクルが乱れ、生活のリズムが崩れた。",
+        "会議の結論を一行のサイクルにまとめた。"
+      ],
+      "explanations": [
+        "Không lặp không tạo chu kỳ.",
+        "Ô ghi giá là 欄; không phải chu kỳ.",
+        "サイクル là chu kỳ lặp lại.",
+        "Tóm tắt là 要約; サイクル không phải câu kết luận."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-29",
+      "type": "usage",
+      "word": "チャイム",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 93,
+      "prompt": "チャイム",
+      "origin": "authored",
+      "options": [
+        "玄関の鍵をチャイムで開けた。",
+        "時計の長い針をチャイムと呼ぶ。",
+        "授業の開始を知らせるチャイムが鳴った。",
+        "書類を留める小さな金具をチャイムという。"
+      ],
+      "explanations": [
+        "Chuông không phải chìa khóa.",
+        "Kim phút là 長針; không phải chuông.",
+        "チャイム là chuông báo.",
+        "Kẹp giấy là クリップ; không phải chuông."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai36-30",
+      "type": "usage",
+      "word": "ウエート",
+      "source_file": "resources/N1/goi/dai36.csv",
+      "source_line": 11,
+      "prompt": "ウエート",
+      "origin": "authored",
+      "options": [
+        "混んでいたので、店先でウエートを歩いた。",
+        "ドアの取っ手をウエートして開けた。",
+        "今回の選考では、実務経験に大きなウエートを置く。",
+        "服の腰回りをウエートと呼ぶ。"
+      ],
+      "explanations": [
+        "Chờ dùng ウエートする・待つ; ウエートを歩く không diễn đạt chờ.",
+        "Kéo tay nắm dùng 引く; không dùngウエート.",
+        "ウエートを置く là coi trọng một yếu tố.",
+        "Vòng eo là ウエスト, khác với trọng lượng."
+      ],
+      "answer": 2
+    }
+  ]
+}

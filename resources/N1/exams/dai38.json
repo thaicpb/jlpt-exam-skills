@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai38-30",
+  "title": "N1 · Bài 38 · 30 câu",
+  "level": "N1",
+  "lesson": "dai38",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093038,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai38.csv"
+  },
+  "choice_seed": 2026100038,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai38-01",
+      "type": "reading",
+      "word": "被雇用者",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 11,
+      "prompt": "【被雇用者】の労働環境を改善する。",
+      "origin": "authored",
+      "options": [
+        "ひほけんしゃ",
+        "ひふようしゃ",
+        "ひがいしゃ",
+        "ひこようしゃ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "被保険者",
+          "reading": "ひほけんしゃ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 9
+        },
+        {
+          "word": "被扶養者",
+          "reading": "ひふようしゃ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 12
+        },
+        {
+          "word": "被害者",
+          "reading": "ひがいしゃ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 64
+        },
+        {
+          "word": "被雇用者",
+          "reading": "ひこようしゃ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 11
+        }
+      ],
+      "explanations": [
+        "ひほけんしゃ là cách đọc của 被保険者 (người được bảo hiểm). Đây là cách đọc có thật, nhưng không phải của 被雇用者 trong câu.",
+        "ひふようしゃ là cách đọc của 被扶養者 (người phụ thuộc được chu cấp). Đây là cách đọc có thật, nhưng không phải của 被雇用者 trong câu.",
+        "ひがいしゃ là cách đọc của 被害者 (nạn nhân; người bị thiệt hại). Đây là cách đọc có thật, nhưng không phải của 被雇用者 trong câu.",
+        "ひこようしゃ là cách đọc của 被雇用者 (người được thuê; người lao động làm thuê). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai38-02",
+      "type": "reading",
+      "word": "幼稚園",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 37,
+      "prompt": "娘は来年【幼稚園】に入る。",
+      "origin": "authored",
+      "options": [
+        "ようちえん",
+        "こうしじん",
+        "ようぎしゃ",
+        "こうきしん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "幼稚園",
+          "reading": "ようちえん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 37
+        },
+        {
+          "word": "講師陣",
+          "reading": "こうしじん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 37
+        },
+        {
+          "word": "容疑者",
+          "reading": "ようぎしゃ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 61
+        },
+        {
+          "word": "好奇心",
+          "reading": "こうきしん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 70
+        }
+      ],
+      "explanations": [
+        "ようちえん là cách đọc của 幼稚園 (trường mẫu giáo). Khớp từ và ngữ cảnh được hỏi.",
+        "こうしじん là cách đọc của 講師陣 (đội ngũ giảng viên). Đây là cách đọc có thật, nhưng không phải của 幼稚園 trong câu.",
+        "ようぎしゃ là cách đọc của 容疑者 (nghi phạm; người bị nghi ngờ phạm tội). Đây là cách đọc có thật, nhưng không phải của 幼稚園 trong câu.",
+        "こうきしん là cách đọc của 好奇心 (tính tò mò; lòng ham hiểu biết). Đây là cách đọc có thật, nhưng không phải của 幼稚園 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-03",
+      "type": "reading",
+      "word": "商店街",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 101,
+      "prompt": "駅前の【商店街】で買い物をした。",
+      "origin": "authored",
+      "options": [
+        "しょくみんち",
+        "しょうしょう",
+        "しょうてんがい",
+        "しょじひん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "植民地",
+          "reading": "しょくみんち",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 79
+        },
+        {
+          "word": "少々",
+          "reading": "しょうしょう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 23
+        },
+        {
+          "word": "商店街",
+          "reading": "しょうてんがい",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 101
+        },
+        {
+          "word": "所持品",
+          "reading": "しょじひん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 52
+        }
+      ],
+      "explanations": [
+        "しょくみんち là cách đọc của 植民地 (thuộc địa). Đây là cách đọc có thật, nhưng không phải của 商店街 trong câu.",
+        "しょうしょう là cách đọc của 少々 (một chút (lịch sự)). Đây là cách đọc có thật, nhưng không phải của 商店街 trong câu.",
+        "しょうてんがい là cách đọc của 商店街 (phố mua sắm; dãy cửa hàng). Khớp từ và ngữ cảnh được hỏi.",
+        "しょじひん là cách đọc của 所持品 (đồ mang theo; vật đang sở hữu). Đây là cách đọc có thật, nhưng không phải của 商店街 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-04",
+      "type": "reading",
+      "word": "超人",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 6,
+      "prompt": "あの選手の体力は【超人】並みだ。",
+      "origin": "authored",
+      "options": [
+        "しょじひん",
+        "かんぶじん",
+        "ちょうじん",
+        "ちょうまんいん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "所持品",
+          "reading": "しょじひん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 52
+        },
+        {
+          "word": "幹部陣",
+          "reading": "かんぶじん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 38
+        },
+        {
+          "word": "超人",
+          "reading": "ちょうじん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 6
+        },
+        {
+          "word": "超満員",
+          "reading": "ちょうまんいん",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 101
+        }
+      ],
+      "explanations": [
+        "しょじひん là cách đọc của 所持品 (đồ mang theo; vật đang sở hữu). Đây là cách đọc có thật, nhưng không phải của 超人 trong câu.",
+        "かんぶじん là cách đọc của 幹部陣 (đội ngũ cán bộ lãnh đạo). Đây là cách đọc có thật, nhưng không phải của 超人 trong câu.",
+        "ちょうじん là cách đọc của 超人 (siêu nhân; người có năng lực phi thường). Khớp từ và ngữ cảnh được hỏi.",
+        "ちょうまんいん là cách đọc của 超満員 (chật kín quá mức; đông nghẹt). Đây là cách đọc có thật, nhưng không phải của 超人 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-05",
+      "type": "reading",
+      "word": "当人",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 8,
+      "prompt": "詳しい事情は【当人】に聞いてください。",
+      "origin": "authored",
+      "options": [
+        "とうにん",
+        "とうめん",
+        "とうてい",
+        "とうぶん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "当人",
+          "reading": "とうにん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 8
+        },
+        {
+          "word": "当面",
+          "reading": "とうめん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 77
+        },
+        {
+          "word": "到底",
+          "reading": "とうてい",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 92
+        },
+        {
+          "word": "当分",
+          "reading": "とうぶん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 76
+        }
+      ],
+      "explanations": [
+        "とうにん là cách đọc của 当人 (chính người đó; đương sự). Khớp từ và ngữ cảnh được hỏi.",
+        "とうめん là cách đọc của 当面 (trước mắt; hiện tại). Đây là cách đọc có thật, nhưng không phải của 当人 trong câu.",
+        "とうてい là cách đọc của 到底 (dù thế nào cũng không; khó lòng). Đây là cách đọc có thật, nhưng không phải của 当人 trong câu.",
+        "とうぶん là cách đọc của 当分 (một thời gian tới; tạm thời). Đây là cách đọc có thật, nhưng không phải của 当人 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-06",
+      "type": "reading",
+      "word": "不十分",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 15,
+      "prompt": "その説明だけでは【不十分】だ。",
+      "origin": "authored",
+      "options": [
+        "きにゅうらん",
+        "ふじゅうぶん",
+        "ふちゅうい",
+        "むじょうけん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "記入欄",
+          "reading": "きにゅうらん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 66
+        },
+        {
+          "word": "不十分",
+          "reading": "ふじゅうぶん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 15
+        },
+        {
+          "word": "不注意",
+          "reading": "ふちゅうい",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 14
+        },
+        {
+          "word": "無条件",
+          "reading": "むじょうけん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 20
+        }
+      ],
+      "explanations": [
+        "きにゅうらん là cách đọc của 記入欄 (ô điền thông tin). Đây là cách đọc có thật, nhưng không phải của 不十分 trong câu.",
+        "ふじゅうぶん là cách đọc của 不十分 (không đủ; chưa đầy đủ). Khớp từ và ngữ cảnh được hỏi.",
+        "ふちゅうい là cách đọc của 不注意 (bất cẩn; thiếu chú ý). Đây là cách đọc có thật, nhưng không phải của 不十分 trong câu.",
+        "むじょうけん là cách đọc của 無条件 (vô điều kiện). Đây là cách đọc có thật, nhưng không phải của 不十分 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-07",
+      "type": "reading",
+      "word": "超高速",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 2,
+      "prompt": "【超高速】の通信サービスが始まった。",
+      "origin": "authored",
+      "options": [
+        "ちょうこうそう",
+        "ちょうまんいん",
+        "ちょうのうりょく",
+        "ちょうこうそく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "超高層",
+          "reading": "ちょうこうそう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 4
+        },
+        {
+          "word": "超満員",
+          "reading": "ちょうまんいん",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 101
+        },
+        {
+          "word": "超能力",
+          "reading": "ちょうのうりょく",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 5
+        },
+        {
+          "word": "超高速",
+          "reading": "ちょうこうそく",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 2
+        }
+      ],
+      "explanations": [
+        "ちょうこうそう là cách đọc của 超高層 (siêu cao tầng). Đây là cách đọc có thật, nhưng không phải của 超高速 trong câu.",
+        "ちょうまんいん là cách đọc của 超満員 (chật kín quá mức; đông nghẹt). Đây là cách đọc có thật, nhưng không phải của 超高速 trong câu.",
+        "ちょうのうりょく là cách đọc của 超能力 (siêu năng lực). Đây là cách đọc có thật, nhưng không phải của 超高速 trong câu.",
+        "ちょうこうそく là cách đọc của 超高速 (tốc độ siêu cao). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai38-08",
+      "type": "reading",
+      "word": "猛練習",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 28,
+      "prompt": "大会に向けて【猛練習】を重ねた。",
+      "origin": "authored",
+      "options": [
+        "もうれんしゅう",
+        "もうはんたい",
+        "もうしょび",
+        "もうべんきょう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "猛練習",
+          "reading": "もうれんしゅう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 28
+        },
+        {
+          "word": "猛反対",
+          "reading": "もうはんたい",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 26
+        },
+        {
+          "word": "猛暑日",
+          "reading": "もうしょび",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 29
+        },
+        {
+          "word": "猛勉強",
+          "reading": "もうべんきょう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 27
+        }
+      ],
+      "explanations": [
+        "もうれんしゅう là cách đọc của 猛練習 (luyện tập hết sức; luyện tập miệt mài). Khớp từ và ngữ cảnh được hỏi.",
+        "もうはんたい là cách đọc của 猛反対 (phản đối kịch liệt). Đây là cách đọc có thật, nhưng không phải của 猛練習 trong câu.",
+        "もうしょび là cách đọc của 猛暑日 (ngày có nhiệt độ cao nhất từ 35°C trở lên). Đây là cách đọc có thật, nhưng không phải của 猛練習 trong câu.",
+        "もうべんきょう là cách đọc của 猛勉強 (học cật lực; học miệt mài). Đây là cách đọc có thật, nhưng không phải của 猛練習 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai38-09",
+      "type": "context",
+      "word": "担当者",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 54,
+      "prompt": "この案件については、責任を持って処理している（　）に直接確認してください。",
+      "origin": "authored",
+      "options": [
+        "所有者",
+        "著者",
+        "担当者",
+        "目撃者"
+      ],
+      "explanations": [
+        "所有者 là người sở hữu vật.",
+        "著者 là tác giả, không phải vai trò xử lý vụ việc.",
+        "担当者 là người phụ trách công việc.",
+        "目撃者 là người chứng kiến sự kiện."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-10",
+      "type": "context",
+      "word": "超特急",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 3,
+      "prompt": "締め切りまで一時間しかないため、この書類は（　）で仕上げてほしい。",
+      "origin": "authored",
+      "options": [
+        "後回し",
+        "超特急",
+        "長期計画",
+        "順延"
+      ],
+      "explanations": [
+        "後回し là để sau, trái khẩn cấp.",
+        "超特急で là làm cực kỳ gấp.",
+        "長期計画 là kế hoạch dài hạn.",
+        "順延 là lần lượt hoãn, trái với phải xong ngay."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-11",
+      "type": "context",
+      "word": "無秩序",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 24,
+      "prompt": "誰も列に並ばず、勝手に押し合う会場は（　）な状態だった。",
+      "origin": "authored",
+      "options": [
+        "平穏",
+        "統一的",
+        "組織的",
+        "無秩序"
+      ],
+      "explanations": [
+        "平穏な là yên bình, trái với chen lấn hỗn loạn.",
+        "統一的 là thống nhất, trái hỗn loạn.",
+        "組織的 là có tổ chức, trái cảnh chen lấn.",
+        "無秩序 là không có trật tự."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai38-12",
+      "type": "context",
+      "word": "閲覧室",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 53,
+      "prompt": "図書館で資料を借り出さずに読むため、（　）へ向かった。",
+      "origin": "authored",
+      "options": [
+        "手術室",
+        "閲覧室",
+        "待合室",
+        "更衣室"
+      ],
+      "explanations": [
+        "手術室 là phòng mổ.",
+        "閲覧室 là phòng đọc, xem tài liệu.",
+        "待合室 là phòng chờ, không phải nơi đọc của thư viện.",
+        "更衣室 là phòng thay đồ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-13",
+      "type": "context",
+      "word": "被選挙権",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 10,
+      "prompt": "投票する権利ではなく、選挙に立候補できる権利を（　）という。",
+      "origin": "authored",
+      "options": [
+        "著作権",
+        "選挙権",
+        "所有権",
+        "被選挙権"
+      ],
+      "explanations": [
+        "著作権 là quyền tác giả.",
+        "選挙権 là quyền bỏ phiếu.",
+        "所有権 là quyền sở hữu.",
+        "被選挙権 là quyền ứng cử."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai38-14",
+      "type": "context",
+      "word": "猛特訓",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 31,
+      "prompt": "大会直前、弱点を集中的に克服するため、一週間の（　）を受けた。",
+      "origin": "authored",
+      "options": [
+        "長期休暇",
+        "自主休業",
+        "猛特訓",
+        "自由行動"
+      ],
+      "explanations": [
+        "Kỳ nghỉ dài trái tập luyện tập trung.",
+        "Tự nghỉ làm không phải tập luyện.",
+        "猛特訓 là huấn luyện đặc biệt rất gắt gao.",
+        "Hoạt động tự do không phải huấn luyện đặc biệt."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-15",
+      "type": "context",
+      "word": "無計画",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 22,
+      "prompt": "予算も日程も決めず、思いつくまま行動する（　）な旅だった。",
+      "origin": "authored",
+      "options": [
+        "計画的",
+        "規則的",
+        "組織的",
+        "無計画"
+      ],
+      "explanations": [
+        "計画的 là có kế hoạch, trái câu.",
+        "規則的 là đều đặn theo quy luật.",
+        "組織的 là có tổ chức.",
+        "無計画 là không lập kế hoạch."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai38-16",
+      "type": "context",
+      "word": "汚職がらみ",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 89,
+      "prompt": "役人への賄賂が発覚し、会社は（　）の事件として捜査された。",
+      "origin": "authored",
+      "options": [
+        "交通事故",
+        "汚職がらみ",
+        "自然災害",
+        "恋愛がらみ"
+      ],
+      "explanations": [
+        "Tai nạn giao thông không phải hối lộ.",
+        "汚職がらみ là có liên quan tham nhũng.",
+        "Thiên tai không phải tham nhũng.",
+        "恋愛がらみ là liên quan tình cảm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-17",
+      "type": "paraphrase",
+      "word": "美容師",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 50,
+      "prompt": "【美容師】に髪を切ってもらった。",
+      "origin": "authored",
+      "options": [
+        "髪を切ったり整えたりする専門家",
+        "歯を治療する専門家",
+        "写真を撮影する専門家",
+        "衣服を仕立てる専門家"
+      ],
+      "explanations": [
+        "美容師 là chuyên viên làm tóc.",
+        "Nha sĩ không phải thợ tóc.",
+        "Nhiếp ảnh gia khác nghĩa.",
+        "Thợ may không phải美容師."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai38-18",
+      "type": "paraphrase",
+      "word": "猛勉強",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 27,
+      "prompt": "試験前の一か月、彼は【猛勉強した】。",
+      "origin": "authored",
+      "options": [
+        "非常に熱心に勉強した",
+        "他人に勉強を任せた",
+        "教科書を捨てた",
+        "全く勉強しなかった"
+      ],
+      "explanations": [
+        "猛勉強 là học cật lực.",
+        "Nhờ người học thay không phải học chăm.",
+        "Bỏ sách khác nghĩa.",
+        "Không học trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai38-19",
+      "type": "paraphrase",
+      "word": "競争率",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 85,
+      "prompt": "この大学の入試は【競争率】が高い。",
+      "origin": "authored",
+      "options": [
+        "合格者に対する教員の割合",
+        "定員に対する受験者の割合",
+        "授業時間に対する休日の割合",
+        "卒業生の就職先の数"
+      ],
+      "explanations": [
+        "Tỷ lệ giáo viên không phải tỷ lệ chọi.",
+        "競争率 là tỷ lệ thí sinh so với chỉ tiêu.",
+        "Ngày nghỉ không liên quan.",
+        "Số nơi làm không phải tỷ lệ chọi."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-20",
+      "type": "paraphrase",
+      "word": "死傷者",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 58,
+      "prompt": "事故による【死傷者】の数が発表された。",
+      "origin": "authored",
+      "options": [
+        "救助に向かった人",
+        "亡くなった人とけがをした人",
+        "事故を調べる人",
+        "現場を見ていた人"
+      ],
+      "explanations": [
+        "Người cứu hộ không phải nhóm tử vong, bị thương.",
+        "死傷者 gồm người chết và bị thương.",
+        "Người điều tra khác nghĩa.",
+        "Người chứng kiến không nhất thiết bị nạn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-21",
+      "type": "paraphrase",
+      "word": "活性化",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 40,
+      "prompt": "商店街の【活性化】を目指す。",
+      "origin": "authored",
+      "options": [
+        "人数だけを数えること",
+        "活動を完全に止めること",
+        "活動を盛んにすること",
+        "建物を取り壊すこと"
+      ],
+      "explanations": [
+        "Chỉ đếm người khác nghĩa.",
+        "Ngừng hoàn toàn trái nghĩa.",
+        "活性化 là làm hoạt động sôi nổi hơn.",
+        "Phá công trình không phải ý kích thích hoạt động."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-22",
+      "type": "paraphrase",
+      "word": "研究室",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 52,
+      "prompt": "教授の【研究室】を訪ねた。",
+      "origin": "authored",
+      "options": [
+        "運動をする広場",
+        "研究を行う部屋",
+        "車を保管する場所",
+        "料理を作る部屋"
+      ],
+      "explanations": [
+        "Sân tập không phải phòng nghiên cứu.",
+        "研究室 là phòng làm nghiên cứu.",
+        "Ga ra khác nghĩa.",
+        "Bếp khác với研究室."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai38-23",
+      "type": "paraphrase",
+      "word": "恋愛がらみ",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 91,
+      "prompt": "それは【恋愛がらみの】悩みだ。",
+      "origin": "authored",
+      "options": [
+        "健康だけに関係する",
+        "仕事の手順に関する",
+        "恋愛に関係する",
+        "住居の構造に関する"
+      ],
+      "explanations": [
+        "Chỉ sức khỏe khác nghĩa.",
+        "Trình tự công việc không phải tình cảm.",
+        "～がらみ là liên quan tới; ở đây là tình yêu.",
+        "Cấu trúc nhà không liên quan tình yêu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-24",
+      "type": "usage",
+      "word": "危険性",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 73,
+      "prompt": "危険性",
+      "origin": "authored",
+      "options": [
+        "合格できるという良い見込みを危険性と呼んだ。",
+        "品物の重さを量って危険性を三キロと記録した。",
+        "百人中七十人が合格したので、合格の危険性は七割だ。",
+        "この斜面には崩れる危険性があるため、立ち入りを制限した。"
+      ],
+      "explanations": [
+        "Kết quả tốt là 可能性; 危険性 mang rủi ro xấu.",
+        "Khối lượng không phải nguy cơ.",
+        "Tỷ lệ đỗ là 合格率, không phải nguy cơ.",
+        "危険性 là nguy cơ dẫn đến tổn hại."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai38-25",
+      "type": "usage",
+      "word": "尊敬語",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 48,
+      "prompt": "尊敬語",
+      "origin": "authored",
+      "options": [
+        "「です・ます」を使うだけの表現を、すべて尊敬語という。",
+        "相手を見下して悪口を言う言葉を尊敬語と呼ぶ。",
+        "相手の先生の行動を高めて述べるため、尊敬語を使った。",
+        "自分の行動を低める表現だけを尊敬語という。"
+      ],
+      "explanations": [
+        "です・ます thuộc 丁寧語; không tự động thành尊敬語.",
+        "Hạ thấp đối phương trái tôn kính.",
+        "尊敬語 nâng hành động của người được kính trọng.",
+        "Hạ hành động mình là 謙譲語."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-26",
+      "type": "usage",
+      "word": "猛反対",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 26,
+      "prompt": "猛反対",
+      "origin": "authored",
+      "options": [
+        "何も意見を示さず棄権することを猛反対という。",
+        "風向きが逆になることを猛反対と呼ぶ。",
+        "住民の猛反対を受け、計画は見直された。",
+        "全員が心から賛成し、計画に猛反対した。"
+      ],
+      "explanations": [
+        "Không bỏ ý kiến không phải phản đối gay gắt.",
+        "Ngược hướng gió không phải hành vi phản đối.",
+        "猛反対 là phản đối kịch liệt.",
+        "Tán thành trái với phản đối."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai38-27",
+      "type": "usage",
+      "word": "猛攻撃",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 30,
+      "prompt": "猛攻撃",
+      "origin": "authored",
+      "options": [
+        "後半、相手チームの猛攻撃を守備陣がしのいだ。",
+        "一度も攻めず守りに徹することを猛攻撃という。",
+        "けが人を優しく介抱することを猛攻撃と呼ぶ。",
+        "昨日の予定を確認するだけの会議を猛攻撃という。"
+      ],
+      "explanations": [
+        "猛攻撃 là tấn công dữ dội.",
+        "Chỉ phòng thủ trái nghĩa.",
+        "Chăm sóc không phải tấn công.",
+        "Xác nhận lịch không phải công kích."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai38-28",
+      "type": "usage",
+      "word": "契約書",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 65,
+      "prompt": "契約書",
+      "origin": "authored",
+      "options": [
+        "料理の作り方だけを説明した紙を契約書として読んだ。",
+        "生徒の出欠だけを記録する表を契約書と呼ぶ。",
+        "買い物の支払いを証明するだけの紙を契約書という。",
+        "条件を確認してから、双方が契約書に署名した。"
+      ],
+      "explanations": [
+        "Công thức là レシピ; không phải văn bản hợp đồng.",
+        "Bảng điểm danh là 出席簿, không phải hợp đồng.",
+        "Biên lai thanh toán là 領収書.",
+        "契約書 là văn bản xác lập thỏa thuận."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai38-29",
+      "type": "usage",
+      "word": "領収書",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 67,
+      "prompt": "領収書",
+      "origin": "authored",
+      "options": [
+        "代金を支払った後、店から領収書を受け取った。",
+        "商品の説明だけが載った冊子を領収書という。",
+        "まだ受け取っていない代金の支払いを求める紙を領収書という。",
+        "商品の値段を見積もっただけの書類を領収書と呼ぶ。"
+      ],
+      "explanations": [
+        "領収書 xác nhận bên bán đã nhận tiền.",
+        "Tài liệu giới thiệu là カタログ; không phải biên lai.",
+        "Yêu cầu thanh toán là 請求書.",
+        "Báo giá là 見積書; chưa xác nhận đã nhận tiền."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai38-30",
+      "type": "usage",
+      "word": "合格率",
+      "source_file": "resources/N1/goi/dai38.csv",
+      "source_line": 86,
+      "prompt": "合格率",
+      "origin": "authored",
+      "options": [
+        "試験の満点を合格率という。",
+        "答案の枚数を合格率として数えた。",
+        "定員十人に百人が応募したので、合格率は十倍だ。",
+        "百人が受験して八十人が受かったので、合格率は八十パーセントだ。"
+      ],
+      "explanations": [
+        "Điểm tối đa không phải tỷ lệ đỗ.",
+        "Số bài làm không phải tỷ lệ đỗ.",
+        "Mười lần là 競争率; tỷ lệ đỗ không phải chỉ số này.",
+        "合格率 là tỷ lệ người đỗ trong số dự thi."
+      ],
+      "answer": 3
+    }
+  ]
+}

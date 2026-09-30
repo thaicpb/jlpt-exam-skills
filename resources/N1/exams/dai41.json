@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai41-30",
+  "title": "N1 · Bài 41 · 30 câu",
+  "level": "N1",
+  "lesson": "dai41",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093041,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai41.csv"
+  },
+  "choice_seed": 2026100041,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai41-03",
+      "type": "reading",
+      "word": "只今",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 29,
+      "prompt": "【只今】、担当者を呼んでまいります。",
+      "origin": "authored",
+      "options": [
+        "たいがい",
+        "ただいま",
+        "たいへん",
+        "たいして"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "大概",
+          "reading": "たいがい",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 71
+        },
+        {
+          "word": "只今",
+          "reading": "ただいま",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 29
+        },
+        {
+          "word": "大変",
+          "reading": "たいへん",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 28
+        },
+        {
+          "word": "大して",
+          "reading": "たいして",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 70
+        }
+      ],
+      "explanations": [
+        "たいがい là cách đọc của 大概 (phần lớn; thường; đại khái). Đây là cách đọc có thật, nhưng không phải của 只今 trong câu.",
+        "ただいま là cách đọc của 只今 (bây giờ; hiện tại; ngay lập tức). Khớp từ và ngữ cảnh được hỏi.",
+        "たいへん là cách đọc của 大変 (rất; vô cùng; vất vả). Đây là cách đọc có thật, nhưng không phải của 只今 trong câu.",
+        "たいして là cách đọc của 大して (không mấy; không đáng kể). Đây là cách đọc có thật, nhưng không phải của 只今 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-04",
+      "type": "reading",
+      "word": "不手際",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 38,
+      "prompt": "こちらの【不手際】でご迷惑をおかけしました。",
+      "origin": "authored",
+      "options": [
+        "ふじゅうぶん",
+        "ふてぎわ",
+        "ぶきよう",
+        "ふちゅうい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "不十分",
+          "reading": "ふじゅうぶん",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 15
+        },
+        {
+          "word": "不手際",
+          "reading": "ふてぎわ",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 38
+        },
+        {
+          "word": "不器用",
+          "reading": "ぶきよう",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 16
+        },
+        {
+          "word": "不注意",
+          "reading": "ふちゅうい",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 14
+        }
+      ],
+      "explanations": [
+        "ふじゅうぶん là cách đọc của 不十分 (không đủ; chưa đầy đủ). Đây là cách đọc có thật, nhưng không phải của 不手際 trong câu.",
+        "ふてぎわ là cách đọc của 不手際 (sự vụng về; sai sót trong xử lý). Khớp từ và ngữ cảnh được hỏi.",
+        "ぶきよう là cách đọc của 不器用 (vụng về; không khéo). Đây là cách đọc có thật, nhưng không phải của 不手際 trong câu.",
+        "ふちゅうい là cách đọc của 不注意 (bất cẩn; thiếu chú ý). Đây là cách đọc có thật, nhưng không phải của 不手際 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-07",
+      "type": "reading",
+      "word": "貴行",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 41,
+      "prompt": "【貴行】の求人を拝見しました。",
+      "origin": "authored",
+      "options": [
+        "きこう",
+        "きしゃ",
+        "きのう",
+        "きてん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "貴行",
+          "reading": "きこう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 41
+        },
+        {
+          "word": "貴社",
+          "reading": "きしゃ",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 42
+        },
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 19
+        },
+        {
+          "word": "貴店",
+          "reading": "きてん",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 43
+        }
+      ],
+      "explanations": [
+        "きこう là cách đọc của 貴行 (quý ngân hàng (thường dùng trong văn viết)). Khớp từ và ngữ cảnh được hỏi.",
+        "きしゃ là cách đọc của 貴社 (quý công ty (thường dùng trong văn viết)). Đây là cách đọc có thật, nhưng không phải của 貴行 trong câu.",
+        "きのう là cách đọc của 昨日 (hôm qua). Đây là cách đọc có thật, nhưng không phải của 貴行 trong câu.",
+        "きてん là cách đọc của 貴店 (quý cửa hàng (trang trọng, thường dùng trong văn viết)). Đây là cách đọc có thật, nhưng không phải của 貴行 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-08",
+      "type": "reading",
+      "word": "御校",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 44,
+      "prompt": "【御校】ではどのような授業に力を入れていますか。",
+      "origin": "authored",
+      "options": [
+        "おんげん",
+        "おんしゃ",
+        "おんこう",
+        "へいこう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "音源",
+          "reading": "おんげん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 25
+        },
+        {
+          "word": "御社",
+          "reading": "おんしゃ",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 46
+        },
+        {
+          "word": "御校",
+          "reading": "おんこう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 44
+        },
+        {
+          "word": "弊校",
+          "reading": "へいこう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 47
+        }
+      ],
+      "explanations": [
+        "おんげん là cách đọc của 音源 (nguồn âm; bản ghi âm). Đây là cách đọc có thật, nhưng không phải của 御校 trong câu.",
+        "おんしゃ là cách đọc của 御社 (quý công ty (thường dùng trong lời nói)). Đây là cách đọc có thật, nhưng không phải của 御校 trong câu.",
+        "おんこう là cách đọc của 御校 (quý trường (thường dùng trong lời nói)). Khớp từ và ngữ cảnh được hỏi.",
+        "へいこう là cách đọc của 弊校 (trường chúng tôi (khiêm nhường)). Đây là cách đọc có thật, nhưng không phải của 御校 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-09",
+      "type": "reading",
+      "word": "後程",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 25,
+      "prompt": "詳細は【後程】ご連絡いたします。",
+      "origin": "authored",
+      "options": [
+        "さきほど",
+        "ほんじつ",
+        "しょうしょう",
+        "のちほど"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "先程",
+          "reading": "さきほど",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 26
+        },
+        {
+          "word": "本日",
+          "reading": "ほんじつ",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 30
+        },
+        {
+          "word": "少々",
+          "reading": "しょうしょう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 23
+        },
+        {
+          "word": "後程",
+          "reading": "のちほど",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 25
+        }
+      ],
+      "explanations": [
+        "さきほど là cách đọc của 先程 (vừa nãy; lúc nãy). Đây là cách đọc có thật, nhưng không phải của 後程 trong câu.",
+        "ほんじつ là cách đọc của 本日 (hôm nay (trang trọng)). Đây là cách đọc có thật, nhưng không phải của 後程 trong câu.",
+        "しょうしょう là cách đọc của 少々 (một chút (lịch sự)). Đây là cách đọc có thật, nhưng không phải của 後程 trong câu.",
+        "のちほど là cách đọc của 後程 (lát nữa; sau đây). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai41-10",
+      "type": "reading",
+      "word": "本年",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 31,
+      "prompt": "【本年】もよろしくお願いいたします。",
+      "origin": "authored",
+      "options": [
+        "ほんねん",
+        "ほんじつ",
+        "さくねん",
+        "おととし"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "本年",
+          "reading": "ほんねん",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 31
+        },
+        {
+          "word": "本日",
+          "reading": "ほんじつ",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 30
+        },
+        {
+          "word": "昨年",
+          "reading": "さくねん",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 20
+        },
+        {
+          "word": "一昨年",
+          "reading": "おととし",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 18
+        }
+      ],
+      "explanations": [
+        "ほんねん là cách đọc của 本年 (năm nay (trang trọng)). Khớp từ và ngữ cảnh được hỏi.",
+        "ほんじつ là cách đọc của 本日 (hôm nay (trang trọng)). Đây là cách đọc có thật, nhưng không phải của 本年 trong câu.",
+        "さくねん là cách đọc của 昨年 (năm ngoái (trang trọng)). Đây là cách đọc có thật, nhưng không phải của 本年 trong câu.",
+        "おととし là cách đọc của 一昨年 (năm kia). Đây là cách đọc có thật, nhưng không phải của 本年 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-11",
+      "type": "reading",
+      "word": "ご健勝",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 51,
+      "prompt": "皆様の【ご健勝】をお祈り申し上げます。",
+      "origin": "authored",
+      "options": [
+        "こうしじん",
+        "ごしそく",
+        "けんじょうご",
+        "ごけんしょう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "講師陣",
+          "reading": "こうしじん",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 37
+        },
+        {
+          "word": "ご子息",
+          "reading": "ごしそく",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 35
+        },
+        {
+          "word": "謙譲語",
+          "reading": "けんじょうご",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 47
+        },
+        {
+          "word": "ご健勝",
+          "reading": "ごけんしょう",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 51
+        }
+      ],
+      "explanations": [
+        "こうしじん là cách đọc của 講師陣 (đội ngũ giảng viên). Đây là cách đọc có thật, nhưng không phải của ご健勝 trong câu.",
+        "ごしそく là cách đọc của ご子息 (con trai của người khác (tôn kính)). Đây là cách đọc có thật, nhưng không phải của ご健勝 trong câu.",
+        "けんじょうご là cách đọc của 謙譲語 (khiêm nhường ngữ). Đây là cách đọc có thật, nhưng không phải của ご健勝 trong câu.",
+        "ごけんしょう là cách đọc của ご健勝 (sức khỏe tốt (tôn kính)). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai41-12",
+      "type": "reading",
+      "word": "この度",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 12,
+      "prompt": "【この度】はご来店いただき、ありがとうございます。",
+      "origin": "authored",
+      "options": [
+        "こいに",
+        "このたび",
+        "どなたさま",
+        "こちら"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "故意に",
+          "reading": "こいに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 43
+        },
+        {
+          "word": "この度",
+          "reading": "このたび",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 12
+        },
+        {
+          "word": "どなた様",
+          "reading": "どなたさま",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 15
+        },
+        {
+          "word": "こちら",
+          "reading": "こちら",
+          "source_file": "resources/N1/goi/dai41.csv",
+          "source_line": 11
+        }
+      ],
+      "explanations": [
+        "こいに là cách đọc của 故意に (cố ý). Đây là cách đọc có thật, nhưng không phải của この度 trong câu.",
+        "このたび là cách đọc của この度 (lần này; dịp này (trang trọng)). Khớp từ và ngữ cảnh được hỏi.",
+        "どなたさま là cách đọc của どなた様 (vị nào; ai (tôn kính)). Đây là cách đọc có thật, nhưng không phải của この度 trong câu.",
+        "こちら là cách đọc của こちら (phía này; chỗ này; người này; phía chúng tôi (lịch sự)). Đây là cách đọc có thật, nhưng không phải của この度 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai41-01",
+      "type": "context",
+      "word": "よろしいでしょうか。",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 8,
+      "prompt": "会議の日程を提案し、相手の都合を確認するため「来週の火曜日で（　）」と尋ねた。",
+      "origin": "authored",
+      "options": [
+        "お悔やみ申し上げます。",
+        "かしこまりました。",
+        "よろしいでしょうか。",
+        "ご無沙汰しております。"
+      ],
+      "explanations": [
+        "Lời chia buồn, không dùng hỏi lịch.",
+        "Lời nhận yêu cầu, không hỏi đồng ý.",
+        "よろしいでしょうか hỏi có phù hợp, được không.",
+        "Chào lâu không gặp, không hỏi lịch."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-02",
+      "type": "context",
+      "word": "承知しました。",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 2,
+      "prompt": "上司から資料の修正を頼まれ、依頼を理解して引き受ける返事として「（　）」と答えた。",
+      "origin": "authored",
+      "options": [
+        "いたしかねます。",
+        "失礼ですが。",
+        "承知しました。",
+        "ご遠慮ください。"
+      ],
+      "explanations": [
+        "Không thể thực hiện, trái với nhận việc.",
+        "Lời mở đầu hỏi lịch sự, không xác nhận hiểu và nhận.",
+        "承知しました là đã rõ, xin nhận.",
+        "Đề nghị đối phương không làm, không phải nhận việc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-05",
+      "type": "context",
+      "word": "何卒よろしくお願いします。",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 7,
+      "prompt": "取引先に協力を依頼するメールの結びとして、丁重に「（　）」と書いた。",
+      "origin": "authored",
+      "options": [
+        "お大事になさってください。",
+        "ご愁傷様です。",
+        "何卒よろしくお願いします。",
+        "お先に失礼します。"
+      ],
+      "explanations": [
+        "Chúc người bệnh giữ gìn, khác ngữ cảnh.",
+        "Chia buồn về mất mát, không phải xin hợp tác.",
+        "Lời kính mong hợp tác, giúp đỡ.",
+        "Chào rời đi trước, không phải lời xin hợp tác."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-06",
+      "type": "context",
+      "word": "あちら",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 10,
+      "prompt": "離れた建物を指さし、「受付は（　）の建物にございます」と案内した。",
+      "origin": "authored",
+      "options": [
+        "どなた",
+        "こちら",
+        "どちら",
+        "あちら"
+      ],
+      "explanations": [
+        "どなた hỏi người nào, không chỉ tòa nhà.",
+        "こちら là phía này gần người nói, trái với tòa nhà xa.",
+        "どちら là phía nào, hỏi chứ không chỉ nơi đã xác định.",
+        "あちら là phía kia, lịch sự chỉ nơi xa."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai41-13",
+      "type": "context",
+      "word": "大変",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 28,
+      "prompt": "多大な迷惑をかけたことを強く謝り、「（　）申し訳ございません」と述べた。",
+      "origin": "authored",
+      "options": [
+        "少しも",
+        "めったに",
+        "大変",
+        "必ずしも"
+      ],
+      "explanations": [
+        "少しも thường phủ định, không nhấn lời xin lỗi.",
+        "めったに là hiếm khi, không phù hợp lời xin lỗi trực tiếp.",
+        "大変 bổ nghĩa rất, vô cùng xin lỗi.",
+        "必ずしも mang nghĩa không hẳn, trái xin lỗi mạnh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-14",
+      "type": "context",
+      "word": "～ほど",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 9,
+      "prompt": "「ご確認の（　）、よろしくお願いいたします」の空欄に入れて、依頼を和らげる語はどれか。",
+      "origin": "authored",
+      "options": [
+        "だけ",
+        "せい",
+        "ほど",
+        "くせ"
+      ],
+      "explanations": [
+        "だけ giới hạn chỉ việc đó, không tạo lối nhờ trang trọng này.",
+        "せい là lỗi do, không phải nhờ xác nhận.",
+        "～ほど làm mềm cách nhờ ご確認のほど; ký hiệu ～ trong mục nguồn không phải chữ điền vào câu.",
+        "くせ là thói hoặc lời chê, không phải lời nhờ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-15",
+      "type": "context",
+      "word": "昨夜",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 22,
+      "prompt": "昨日の夜のことを改まった言い方で述べると「（　）は遅くまでありがとうございました」となる。",
+      "origin": "authored",
+      "options": [
+        "翌年",
+        "昨夜",
+        "今夜",
+        "明朝"
+      ],
+      "explanations": [
+        "翌年 là năm kế tiếp.",
+        "昨夜 là đêm qua, đọcさくや trong bài này.",
+        "今夜 là tối nay.",
+        "明朝 là sáng mai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai41-16",
+      "type": "context",
+      "word": "昨年",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 20,
+      "prompt": "今年より一年前の一年を、改まった言い方で（　）という。",
+      "origin": "authored",
+      "options": [
+        "昨年",
+        "本年",
+        "一昨年",
+        "来年"
+      ],
+      "explanations": [
+        "昨年 là năm ngoái.",
+        "本年 là năm nay.",
+        "一昨年 là hai năm trước.",
+        "来年 là năm sau."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai41-17",
+      "type": "paraphrase",
+      "word": "申し上げにくいのですが、",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 3,
+      "prompt": "断りを伝える前に「【申し上げにくいのですが、】」と切り出した。",
+      "origin": "authored",
+      "options": [
+        "簡単にお答えできますので、",
+        "言いにくいことですが、",
+        "もう説明は不要ですから、",
+        "喜んでお引き受けしますので、"
+      ],
+      "explanations": [
+        "Dễ trả lời không phải khó nói.",
+        "Cụm khiêm nhường báo có điều khó nói.",
+        "Không cần giải thích khác nghĩa.",
+        "Vui nhận lời trái lời dẫn từ chối."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai41-18",
+      "type": "paraphrase",
+      "word": "明朝",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 33,
+      "prompt": "資料は【明朝】お届けします。",
+      "origin": "authored",
+      "options": [
+        "今日の夕方",
+        "昨日の朝",
+        "明後日の夜",
+        "明日の朝"
+      ],
+      "explanations": [
+        "Chiều nay khác ngày buổi.",
+        "Sáng qua trái thời gian.",
+        "Đêm ngày kia khác nghĩa.",
+        "明朝 là sáng mai."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai41-19",
+      "type": "paraphrase",
+      "word": "明日",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 34,
+      "prompt": "担当者は【明日】出社します。",
+      "origin": "authored",
+      "options": [
+        "今日の二日後に",
+        "今日の前の日に",
+        "今日の次の日に",
+        "一週間後に"
+      ],
+      "explanations": [
+        "Hai ngày sau là ngày kia.",
+        "Ngày trước hôm nay là hôm qua.",
+        "明日 là ngày sau hôm nay; có cách đọc あした・あす・みょうにち.",
+        "Một tuần sau không phải明日."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-20",
+      "type": "paraphrase",
+      "word": "なんなりとお申し付けください。",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 5,
+      "prompt": "客に「【なんなりとお申し付けください。】」と伝えた。",
+      "origin": "authored",
+      "options": [
+        "どのようなご用件でもお知らせください。",
+        "ご自分で全て処理してください。",
+        "今後は連絡しないでください。",
+        "ご用件は一切受け付けません。"
+      ],
+      "explanations": [
+        "Xin cứ nói mọi yêu cầu; lời mời khách cho biết mong muốn.",
+        "Tự xử lý hết khác với mời nhờ.",
+        "Đừng liên lạc trái nghĩa.",
+        "Không nhận yêu cầu trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai41-21",
+      "type": "paraphrase",
+      "word": "早速ですが、",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 4,
+      "prompt": "メールで「【早速ですが、】日程についてご相談します」と書いた。",
+      "origin": "authored",
+      "options": [
+        "かなり以前の話ですが、",
+        "ご返事は不要ですが、",
+        "話はすべて終わりましたが、",
+        "すぐ本題に入りますが、"
+      ],
+      "explanations": [
+        "Câu chuyện trước lâu khác nghĩa.",
+        "Không cần trả lời khác với đi thẳng chủ đề.",
+        "Đã nói xong trái với vào việc.",
+        "早速ですが là xin vào việc ngay."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai41-22",
+      "type": "paraphrase",
+      "word": "拝啓",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 36,
+      "prompt": "手紙の冒頭に書く【拝啓】は、敬意を表す挨拶だ。",
+      "origin": "authored",
+      "options": [
+        "お金を受け取りましたという言葉",
+        "しばらく待ってくださいという言葉",
+        "先に帰りますという言葉",
+        "謹んで申し上げますという言葉"
+      ],
+      "explanations": [
+        "Báo nhận tiền không phải拝啓.",
+        "Nhờ chờ không phải lời mở thư.",
+        "Chào về trước không phải mở đầu thư.",
+        "拝啓 là lời mở đầu thư trang trọng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai41-23",
+      "type": "paraphrase",
+      "word": "取り急ぎご報告させていただきました。",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 6,
+      "prompt": "メールの末尾に「【取り急ぎご報告させていただきました。】」と書いた。",
+      "origin": "authored",
+      "options": [
+        "まずは急いでお知らせしました。",
+        "今回の報告はすべて取り消しました。",
+        "報告は必要ないと判断しました。",
+        "十分に時間を置いてから知らせます。"
+      ],
+      "explanations": [
+        "Báo nhanh điều cần thiết trước; chi tiết có thể bổ sung sau.",
+        "Hủy báo cáo khác nghĩa.",
+        "Không cần báo trái với đã báo.",
+        "Sẽ chờ lâu rồi báo trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai41-24",
+      "type": "usage",
+      "word": "誠に",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 24,
+      "prompt": "誠に",
+      "origin": "authored",
+      "options": [
+        "数量が一つだけという意味で「誠に一個」と数えた。",
+        "お客様に「誠にありがとうございます」と感謝を伝えた。",
+        "場所が近いことを「駅が誠に」とだけ説明した。",
+        "まだ一度も起きていないことを「誠に起きた」と述べた。"
+      ],
+      "explanations": [
+        "誠に nhấn tính chân thành/mức độ, không có nghĩa chỉ một.",
+        "誠に là thật sự, hết sức; dùng trang trọng.",
+        "誠に không thay cho tính từ gần hoặc thông tin địa điểm.",
+        "誠に không có nghĩa chưa xảy ra hay tương lai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai41-25",
+      "type": "usage",
+      "word": "弊校",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 47,
+      "prompt": "弊校",
+      "origin": "authored",
+      "options": [
+        "自分の学校を代表する手紙で「弊校の教育方針をご説明します」と書いた。",
+        "銀行を丁寧に呼ぶつもりで「弊校」と書いた。",
+        "相手の学校への敬意を表す呼称として、相手を「弊校」と呼んだ。",
+        "客の会社を高めて「弊校」と呼んだ。"
+      ],
+      "explanations": [
+        "弊校 là trường phía mình, khiêm nhường.",
+        "校 chỉ trường; ngân hàng dùng 行.",
+        "Gọi trường đối phương dùng 貴校・御校.",
+        "Công ty đối phương là 貴社・御社, không phải弊校."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai41-26",
+      "type": "usage",
+      "word": "一昨年",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 18,
+      "prompt": "一昨年",
+      "origin": "authored",
+      "options": [
+        "二年前に卒業したので、その年を一昨年と呼んでいる。",
+        "一年前に当たる年を一昨年という。",
+        "二日後の朝を一昨年という。",
+        "今年の次の年を一昨年という。"
+      ],
+      "explanations": [
+        "一昨年 là năm kia, hai năm trước.",
+        "Một năm trước là 昨年.",
+        "Ngày và năm khác nhau; hai ngày sau là 明後日.",
+        "Năm tiếp là 来年."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai41-27",
+      "type": "usage",
+      "word": "少々",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 23,
+      "prompt": "少々",
+      "origin": "authored",
+      "options": [
+        "数え切れないほど大量にあることを「少々しかない」と表した。",
+        "一時間も一日も同じ長さという意味で少々を使った。",
+        "自分が先に帰る挨拶として「少々」だけを言った。",
+        "客に「確認しますので、少々お待ちください」と伝えた。"
+      ],
+      "explanations": [
+        "大量 không phải chỉ có chút.",
+        "少々 không định nghĩa hai thời lượng bằng nhau.",
+        "Chào về trước dùng お先に失礼します, không phải少々.",
+        "少々 là một chút, lịch sự."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai41-28",
+      "type": "usage",
+      "word": "貴社",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 42,
+      "prompt": "貴社",
+      "origin": "authored",
+      "options": [
+        "自分の会社をへりくだる表現として「貴社」を選んだ。",
+        "応募先の会社への手紙に「貴社の事業に魅力を感じています」と書いた。",
+        "大学の入学願書で、その大学への敬称として「貴社」を用いた。",
+        "自分が通っている学校を「貴社」と紹介した。"
+      ],
+      "explanations": [
+        "Phía mình khiêm nhường dùng 弊社.",
+        "貴社 là công ty đối phương, thường trong văn viết.",
+        "Đại học dùng 貴学; 貴社 chỉ công ty đối phương.",
+        "Trường không phải社; phía mình dùng 弊校など."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai41-29",
+      "type": "usage",
+      "word": "どちら",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 14,
+      "prompt": "どちら",
+      "origin": "authored",
+      "options": [
+        "遅れた理由を聞くつもりで「どちらからいらっしゃいましたか」と尋ねた。",
+        "参加者の人数だけを聞くつもりで「会場はどちらですか」と尋ねた。",
+        "道に迷ったので「駅はどちらでしょうか」と尋ねた。",
+        "値段を知りたいだけなのに「お店はどちらですか」と尋ねた。"
+      ],
+      "explanations": [
+        "Câu này hỏi đến từ đâu, không hỏi lý do đi muộn.",
+        "Câu này hỏi địa điểm, không hỏi số người.",
+        "どちら là phía/nơi nào, lịch sự hỏi hướng.",
+        "Câu này hỏi địa điểm cửa hàng, không hỏi giá."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai41-30",
+      "type": "usage",
+      "word": "貴校",
+      "source_file": "resources/N1/goi/dai41.csv",
+      "source_line": 40,
+      "prompt": "貴校",
+      "origin": "authored",
+      "options": [
+        "取引先の会社に「貴校の製品」と書いた。",
+        "志望先の学校に送る願書で「貴校で学びたい」と書いた。",
+        "自分の学校をへりくだって紹介するため「貴校」と書いた。",
+        "応募先の銀行を「貴校」と呼んだ。"
+      ],
+      "explanations": [
+        "Công ty dùng 貴社; không gọi là貴校.",
+        "貴校 là trường đối phương, thường trong văn viết.",
+        "Trường mình khiêm nhường là 弊校.",
+        "Ngân hàng dùng 貴行, không phải校."
+      ],
+      "answer": 1
+    }
+  ]
+}

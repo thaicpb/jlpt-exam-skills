@@ -10,9 +10,9 @@ from build_n1_exam import ROOT, validate, render
 class PublishedExamsTests(unittest.TestCase):
     def setUp(self):
         self.banks = [json.loads((ROOT.parent.parent / f"resources/N1/exams/dai{n}.json").read_text())
-                      for n in range(1, 31)]
+                      for n in range(1, 42)]
 
-    def test_all_thirty_random_banks_and_balanced_answer_positions(self):
+    def test_all_published_random_banks_and_balanced_answer_positions(self):
         for n, bank in enumerate(self.banks, 1):
             with self.subTest(lesson=n):
                 validate(bank)
@@ -22,8 +22,30 @@ class PublishedExamsTests(unittest.TestCase):
                 self.assertEqual({q["source_file"] for q in qs}, {f"resources/N1/goi/dai{n}.csv"})
                 self.assertEqual(sorted(Counter(q["answer"] for q in qs).values()), [7, 7, 8, 8])
                 readings = [q for q in qs if q["type"] == "reading"]
-                self.assertEqual(len(readings), 7 if n == 7 else 8)
+                self.assertEqual(len(readings), {7: 7, 35: 0, 36: 0, 37: 1}.get(n, 8))
                 self.assertTrue(all(len(q["option_lexemes"]) == 4 for q in readings))
+
+    def test_kana_only_target_cannot_be_a_reading_question(self):
+        bank = self.banks[34]
+        q = bank["questions"][0]
+        q.update(type="reading", prompt=f"【{q['word']}】")
+        with self.assertRaisesRegex(ValueError, "must contain kanji"):
+            validate(bank)
+
+    def test_kanji_scarcity_still_requires_balanced_remaining_types(self):
+        bank = self.banks[34]
+        q = bank["questions"][0]
+        q.update(type="paraphrase", prompt=f"【{q['word']}】")
+        with self.assertRaisesRegex(ValueError, "must balance N1 types"):
+            validate(bank)
+
+    def test_kanji_rich_selection_cannot_claim_scarcity(self):
+        bank = self.banks[0]
+        for q in bank["questions"]:
+            if q["type"] == "reading":
+                q["type"] = "paraphrase"
+        with self.assertRaisesRegex(ValueError, "must balance N1 types"):
+            validate(bank)
 
     def test_fake_reading_even_with_correct_answer_is_rejected(self):
         bank = self.banks[0]

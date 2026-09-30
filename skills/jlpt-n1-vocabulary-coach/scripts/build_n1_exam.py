@@ -80,6 +80,8 @@ def validate(bank):
         if q["type"] == "context" and prompt.count("（　）") != 1:
             raise ValueError(f"{identity}: exactly one blank required")
         if q["type"] == "reading":
+            if not re.search(r"[一-龯々]", row["word"]):
+                raise ValueError(f"{identity}: reading target must contain kanji")
             marked = prompt.split("【", 1)[1].split("】", 1)[0]
             # Strip only known grammar notes; the marked target stays uninflected.
             readings = normalized_readings(row["reading"])
@@ -120,7 +122,13 @@ def validate(bank):
             raise ValueError("Questions must match the unique random lesson selection")
         counts = [sum(q["type"] == kind for q in questions) for kind in TYPES]
         if max(counts) - min(counts) > 1:
-            raise ValueError("Random lesson exams must balance the four N1 types")
+            # Do not turn kana-only entries into questions that display their answer.
+            # Scarcity is derived from the actual selected CSV rows, not bank claims.
+            kanji_count = sum(bool(re.search(r"[一-龯々]", q["word"])) for q in questions)
+            remaining = counts[1:]
+            if not (kanji_count < count // 4 and counts[0] == kanji_count
+                    and max(remaining) - min(remaining) <= 1):
+                raise ValueError("Random lesson exams must balance N1 types, allowing only source-based kanji scarcity")
     return bank
 
 

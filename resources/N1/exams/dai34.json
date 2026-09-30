@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai34-30",
+  "title": "N1 · Bài 34 · 30 câu",
+  "level": "N1",
+  "lesson": "dai34",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093034,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai34.csv"
+  },
+  "choice_seed": 2026100034,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai34-01",
+      "type": "reading",
+      "word": "今や",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 46,
+      "prompt": "彼女は【今や】世界的な歌手だ。",
+      "origin": "authored",
+      "options": [
+        "いまや",
+        "いくた",
+        "いまだ",
+        "いぜん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "今や",
+          "reading": "いまや",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 46
+        },
+        {
+          "word": "幾多",
+          "reading": "いくた",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 33
+        },
+        {
+          "word": "未だ",
+          "reading": "いまだ",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 85
+        },
+        {
+          "word": "依然",
+          "reading": "いぜん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 20
+        }
+      ],
+      "explanations": [
+        "いまや là cách đọc của 今や (giờ đây; ngày nay). Khớp từ và ngữ cảnh được hỏi.",
+        "いくた là cách đọc của 幾多 (nhiều; biết bao). Đây là cách đọc có thật, nhưng không phải của 今や trong câu.",
+        "いまだ là cách đọc của 未だ (đến nay vẫn; vẫn chưa). Đây là cách đọc có thật, nhưng không phải của 今や trong câu.",
+        "いぜん là cách đọc của 依然 (vẫn; vẫn như trước). Đây là cách đọc có thật, nhưng không phải của 今や trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai34-02",
+      "type": "reading",
+      "word": "真っ二つに",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 59,
+      "prompt": "りんごを【真っ二つに】切った。",
+      "origin": "authored",
+      "options": [
+        "まっさきに",
+        "まったく",
+        "まさしく",
+        "まっぷたつに"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "真っ先に",
+          "reading": "まっさきに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 58
+        },
+        {
+          "word": "全く",
+          "reading": "まったく",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 5
+        },
+        {
+          "word": "まさしく",
+          "reading": "まさしく",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 3
+        },
+        {
+          "word": "真っ二つに",
+          "reading": "まっぷたつに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 59
+        }
+      ],
+      "explanations": [
+        "まっさきに là cách đọc của 真っ先に (trước tiên; đầu tiên). Đây là cách đọc có thật, nhưng không phải của 真っ二つに trong câu.",
+        "まったく là cách đọc của 全く (hoàn toàn; thật là). Đây là cách đọc có thật, nhưng không phải của 真っ二つに trong câu.",
+        "まさしく là cách đọc của まさしく (quả đúng là; đích thực). Đây là cách đọc có thật, nhưng không phải của 真っ二つに trong câu.",
+        "まっぷたつに là cách đọc của 真っ二つに (thành hai phần; làm đôi). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai34-03",
+      "type": "reading",
+      "word": "並びに",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 83,
+      "prompt": "住所【並びに】氏名をご記入ください。",
+      "origin": "authored",
+      "options": [
+        "なおさら",
+        "ざらに",
+        "ならびに",
+        "こうごに"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "尚更",
+          "reading": "なおさら",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 57
+        },
+        {
+          "word": "ざらに",
+          "reading": "ざらに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 93
+        },
+        {
+          "word": "並びに",
+          "reading": "ならびに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 83
+        },
+        {
+          "word": "交互に",
+          "reading": "こうごに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 44
+        }
+      ],
+      "explanations": [
+        "なおさら là cách đọc của 尚更 (càng hơn nữa). Đây là cách đọc có thật, nhưng không phải của 並びに trong câu.",
+        "ざらに là cách đọc của ざらに (nhan nhản; rất thường). Đây là cách đọc có thật, nhưng không phải của 並びに trong câu.",
+        "ならびに là cách đọc của 並びに (và; cùng với). Khớp từ và ngữ cảnh được hỏi.",
+        "こうごに là cách đọc của 交互に (luân phiên; xen kẽ). Đây là cách đọc có thật, nhưng không phải của 並びに trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai34-04",
+      "type": "reading",
+      "word": "兼ねて",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 41,
+      "prompt": "出張を【兼ねて】、故郷の両親を訪ねた。",
+      "origin": "authored",
+      "options": [
+        "かそか",
+        "きわめて",
+        "まして",
+        "かねて"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "過疎化",
+          "reading": "かそか",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 41
+        },
+        {
+          "word": "極めて",
+          "reading": "きわめて",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 38
+        },
+        {
+          "word": "まして",
+          "reading": "まして",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 4
+        },
+        {
+          "word": "兼ねて",
+          "reading": "かねて",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 41
+        }
+      ],
+      "explanations": [
+        "かそか là cách đọc của 過疎化 (tình trạng thưa dân; suy giảm dân số vùng). Đây là cách đọc có thật, nhưng không phải của 兼ねて trong câu.",
+        "きわめて là cách đọc của 極めて (cực kỳ; hết sức). Đây là cách đọc có thật, nhưng không phải của 兼ねて trong câu.",
+        "まして là cách đọc của まして (huống chi; huống hồ). Đây là cách đọc có thật, nhưng không phải của 兼ねて trong câu.",
+        "かねて là cách đọc của 兼ねて. Trong câu này, 兼ねて nghĩa là kết hợp hai mục đích: đi công tác và thăm cha mẹ."
+      ]
+    },
+    {
+      "id": "n1-dai34-06",
+      "type": "reading",
+      "word": "到底",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 92,
+      "prompt": "一人では【到底】終わらせられない。",
+      "origin": "authored",
+      "options": [
+        "だんぜん",
+        "とうめん",
+        "とうてい",
+        "いぜん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "断然",
+          "reading": "だんぜん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 74
+        },
+        {
+          "word": "当面",
+          "reading": "とうめん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 77
+        },
+        {
+          "word": "到底",
+          "reading": "とうてい",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 92
+        },
+        {
+          "word": "依然",
+          "reading": "いぜん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 20
+        }
+      ],
+      "explanations": [
+        "だんぜん là cách đọc của 断然 (hơn hẳn; dứt khoát). Đây là cách đọc có thật, nhưng không phải của 到底 trong câu.",
+        "とうめん là cách đọc của 当面 (trước mắt; hiện tại). Đây là cách đọc có thật, nhưng không phải của 到底 trong câu.",
+        "とうてい là cách đọc của 到底 (dù thế nào cũng không; khó lòng). Khớp từ và ngữ cảnh được hỏi.",
+        "いぜん là cách đọc của 依然 (vẫn; vẫn như trước). Đây là cách đọc có thật, nhưng không phải của 到底 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai34-07",
+      "type": "reading",
+      "word": "丸々",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 31,
+      "prompt": "準備に【丸々】一日かかった。",
+      "origin": "authored",
+      "options": [
+        "まるまる",
+        "まさしく",
+        "のるま",
+        "さんざん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "丸々",
+          "reading": "まるまる",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 31
+        },
+        {
+          "word": "まさしく",
+          "reading": "まさしく",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 3
+        },
+        {
+          "word": "ノルマ",
+          "reading": "のるま",
+          "source_file": "resources/N1/goi/dai37.csv",
+          "source_line": 13
+        },
+        {
+          "word": "散々",
+          "reading": "さんざん",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 47
+        }
+      ],
+      "explanations": [
+        "まるまる là cách đọc của 丸々 (trọn; nguyên cả). Khớp từ và ngữ cảnh được hỏi.",
+        "まさしく là cách đọc của まさしく (quả đúng là; đích thực). Đây là cách đọc có thật, nhưng không phải của 丸々 trong câu.",
+        "のるま là cách đọc của ノルマ (chỉ tiêu; định mức). Đây là cách đọc có thật, nhưng không phải của 丸々 trong câu.",
+        "さんざん là cách đọc của 散々 (rất nhiều; thậm tệ). Đây là cách đọc có thật, nhưng không phải của 丸々 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai34-09",
+      "type": "reading",
+      "word": "突如",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 80,
+      "prompt": "空が【突如】暗くなった。",
+      "origin": "authored",
+      "options": [
+        "とうてい",
+        "とつじょ",
+        "きゅうきょ",
+        "とうじつ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "到底",
+          "reading": "とうてい",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 92
+        },
+        {
+          "word": "突如",
+          "reading": "とつじょ",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 80
+        },
+        {
+          "word": "急遽",
+          "reading": "きゅうきょ",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 37
+        },
+        {
+          "word": "当日",
+          "reading": "とうじつ",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 7
+        }
+      ],
+      "explanations": [
+        "とうてい là cách đọc của 到底 (dù thế nào cũng không; khó lòng). Đây là cách đọc có thật, nhưng không phải của 突如 trong câu.",
+        "とつじょ là cách đọc của 突如 (đột nhiên; bất ngờ). Khớp từ và ngữ cảnh được hỏi.",
+        "きゅうきょ là cách đọc của 急遽 (đột xuất; gấp gáp). Đây là cách đọc có thật, nhưng không phải của 突如 trong câu.",
+        "とうじつ là cách đọc của 当日 (ngày diễn ra; chính ngày đó). Đây là cách đọc có thật, nhưng không phải của 突如 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai34-10",
+      "type": "reading",
+      "word": "極力",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 39,
+      "prompt": "ごみを【極力】減らすようにしている。",
+      "origin": "authored",
+      "options": [
+        "きわめて",
+        "きゅうきょ",
+        "いくた",
+        "きょくりょく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "極めて",
+          "reading": "きわめて",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 38
+        },
+        {
+          "word": "急遽",
+          "reading": "きゅうきょ",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 37
+        },
+        {
+          "word": "幾多",
+          "reading": "いくた",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 33
+        },
+        {
+          "word": "極力",
+          "reading": "きょくりょく",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 39
+        }
+      ],
+      "explanations": [
+        "きわめて là cách đọc của 極めて (cực kỳ; hết sức). Đây là cách đọc có thật, nhưng không phải của 極力 trong câu.",
+        "きゅうきょ là cách đọc của 急遽 (đột xuất; gấp gáp). Đây là cách đọc có thật, nhưng không phải của 極力 trong câu.",
+        "いくた là cách đọc của 幾多 (nhiều; biết bao). Đây là cách đọc có thật, nhưng không phải của 極力 trong câu.",
+        "きょくりょく là cách đọc của 極力 (hết sức có thể; tối đa). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai34-05",
+      "type": "context",
+      "word": "もれなく",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 11,
+      "prompt": "期間中に応募した方には、一人の例外もなく（　）記念品を差し上げます。",
+      "origin": "authored",
+      "options": [
+        "まれに",
+        "もれなく",
+        "たまに",
+        "交互に"
+      ],
+      "explanations": [
+        "まれに là hiếm khi.",
+        "もれなく là không bỏ sót ai.",
+        "たまに là thỉnh thoảng, trái với tất cả.",
+        "交互に là luân phiên, không chỉ mọi người đều nhận."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-08",
+      "type": "context",
+      "word": "やたらに",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 14,
+      "prompt": "必要性も考えず、広告を見るたび（　）物を買うのはやめよう。",
+      "origin": "authored",
+      "options": [
+        "やたらに",
+        "慎重に",
+        "控えめに",
+        "計画的に"
+      ],
+      "explanations": [
+        "やたらに là bừa bãi, quá mức.",
+        "慎重に là thận trọng, trái không xét cần thiết.",
+        "Tiết chế trái với thấy quảng cáo là mua.",
+        "Có kế hoạch trái với mua bừa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai34-11",
+      "type": "context",
+      "word": "一際",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 25,
+      "prompt": "大勢が並ぶ中で、赤い服の彼女が（　）目立っていた。",
+      "origin": "authored",
+      "options": [
+        "一応",
+        "一向に",
+        "一律に",
+        "一際"
+      ],
+      "explanations": [
+        "一応 là tạm, sơ bộ.",
+        "一向に thường phủ định, không chỉ vượt trội.",
+        "一律に là đồng loạt cùng mức, trái nổi bật riêng.",
+        "一際 là nổi bật hơn hẳn phần còn lại."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai34-12",
+      "type": "context",
+      "word": "まして",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 4,
+      "prompt": "大人にも難しい問題だ。（　）小学生には解けないだろう。",
+      "origin": "authored",
+      "options": [
+        "むしろ",
+        "それでも",
+        "まして",
+        "ところが"
+      ],
+      "explanations": [
+        "むしろ là đúng hơn, không phải huống chi.",
+        "それでも là dù vậy, không phải tăng lập luận.",
+        "まして là huống chi, tăng mức suy luận.",
+        "ところが là thế nhưng, trái hướng suy luận."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-13",
+      "type": "context",
+      "word": "当面",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 77,
+      "prompt": "恒久的な制度ができるまで、（　）は今の方法を続ける。",
+      "origin": "authored",
+      "options": [
+        "当面",
+        "すでに",
+        "永久に",
+        "かつて"
+      ],
+      "explanations": [
+        "当面 là trước mắt, trong thời gian này.",
+        "すでに là đã, không chỉ giai đoạn tạm thời phía trước.",
+        "永久に là mãi mãi, trái với chờ chế độ mới.",
+        "かつて là từng trong quá khứ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai34-14",
+      "type": "context",
+      "word": "断然",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 74,
+      "prompt": "新型の処理速度は旧型の十倍で、性能は新型のほうが（　）優れている。",
+      "origin": "authored",
+      "options": [
+        "多少",
+        "かろうじて",
+        "断然",
+        "わずかに"
+      ],
+      "explanations": [
+        "多少 là ít nhiều, không nhấn vượt trội lớn.",
+        "かろうじて là vừa đủ, không phải vượt xa.",
+        "断然 là hơn hẳn, chênh lệch rõ.",
+        "わずかに là chỉ nhỉnh ít, trái với gấp mười."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-15",
+      "type": "context",
+      "word": "大概",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 71,
+      "prompt": "例外も少しあるが、この店の商品は（　）千円以下だ。",
+      "origin": "authored",
+      "options": [
+        "必ず",
+        "例外なく",
+        "絶対に",
+        "大概"
+      ],
+      "explanations": [
+        "必ず không cho phép ngoại lệ đã nêu.",
+        "Không ngoại lệ trái câu.",
+        "絶対に là tuyệt đối, không phù hợp có ngoại lệ.",
+        "大概 là phần lớn, thường là vậy."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai34-16",
+      "type": "context",
+      "word": "真っ先に",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 58,
+      "prompt": "非常ベルを聞くと、彼は誰よりも早く（　）出口へ向かった。",
+      "origin": "authored",
+      "options": [
+        "徐々に",
+        "真っ先に",
+        "後回しに",
+        "最後に"
+      ],
+      "explanations": [
+        "徐々に là dần dần, không chỉ vị trí đầu tiên.",
+        "真っ先に là trước mọi người, đầu tiên.",
+        "後回しに là để sau.",
+        "最後に là cuối cùng, trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-17",
+      "type": "paraphrase",
+      "word": "まんざら",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 8,
+      "prompt": "初めは気が進まなかったが、やってみると【まんざら悪くない】。",
+      "origin": "authored",
+      "options": [
+        "全く良い点がない",
+        "予想よりずっと悪い",
+        "必ず失敗する",
+        "それほど悪いわけではない"
+      ],
+      "explanations": [
+        "Không điểm tốt trái nghĩa.",
+        "Tệ hơn nhiều trái sắc thái.",
+        "Chắc thất bại không đồng nghĩa.",
+        "まんざら～ない là cũng không đến nỗi."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai34-18",
+      "type": "paraphrase",
+      "word": "まさしく",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 3,
+      "prompt": "この写真の人物は【まさしく】彼だ。",
+      "origin": "authored",
+      "options": [
+        "たまたま",
+        "おそらく",
+        "間違いなく",
+        "いつの間にか"
+      ],
+      "explanations": [
+        "たまたま là tình cờ.",
+        "おそらく chỉ phỏng đoán, yếu hơn xác quyết.",
+        "まさしく là đích thực, không nhầm.",
+        "Không biết từ lúc nào không xác nhận danh tính."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-19",
+      "type": "paraphrase",
+      "word": "うっとり",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 99,
+      "prompt": "美しい歌声に【うっとりした】。",
+      "origin": "authored",
+      "options": [
+        "退屈して眠くなった",
+        "驚いて逃げ出した",
+        "心を奪われて聞きほれた",
+        "腹を立てた"
+      ],
+      "explanations": [
+        "Buồn ngủ vì chán khác với mê say.",
+        "Giật mình bỏ chạy trái nghĩa.",
+        "うっとり là say mê, ngây ngất.",
+        "Nổi giận khác với say mê."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-20",
+      "type": "paraphrase",
+      "word": "気兼ねなく",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 36,
+      "prompt": "ここでは【気兼ねなく】くつろいでください。",
+      "origin": "authored",
+      "options": [
+        "誰にも知られずに",
+        "遠慮せずに",
+        "時間を細かく計って",
+        "周囲に気を使いながら"
+      ],
+      "explanations": [
+        "Bí mật không đồng nghĩa không ngại.",
+        "気兼ねなく là không ngại làm phiền, thoải mái.",
+        "Bấm giờ không phải thoải mái tâm lý.",
+        "Luôn ngại xung quanh trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-21",
+      "type": "paraphrase",
+      "word": "歴然と",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 91,
+      "prompt": "両者の実力差は【歴然としている】。",
+      "origin": "authored",
+      "options": [
+        "ほとんど分からない",
+        "少しずつ消えている",
+        "誰の目にも明らかだ",
+        "まだ決まっていない"
+      ],
+      "explanations": [
+        "Khó nhận ra trái nghĩa.",
+        "Dần mất đi không đồng nghĩa rõ.",
+        "歴然とする là rõ ràng, hiển nhiên.",
+        "Chưa quyết định không phải hiển nhiên."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-22",
+      "type": "paraphrase",
+      "word": "散々",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 47,
+      "prompt": "道に迷って【散々】歩き回った。",
+      "origin": "authored",
+      "options": [
+        "長い間あちこち",
+        "全く疲れずに",
+        "ほんの一瞬だけ",
+        "決まった場所だけ"
+      ],
+      "explanations": [
+        "散々 ở đây là rất nhiều, vất vả đi khắp nơi.",
+        "Không mệt không diễn đạt nghĩa散々.",
+        "Chỉ chốc lát trái mức độ.",
+        "Chỉ chỗ cố định không phải đi khắp."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai34-23",
+      "type": "paraphrase",
+      "word": "呆然と",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 84,
+      "prompt": "突然の知らせに【呆然とした】。",
+      "origin": "authored",
+      "options": [
+        "うれしくて踊り出した",
+        "落ち着いてすぐ判断した",
+        "驚いて何も考えられなくなった",
+        "理由を詳しく説明した"
+      ],
+      "explanations": [
+        "Vui nhảy không phải sững sờ.",
+        "Bình tĩnh xử lý trái nghĩa.",
+        "呆然と là sững sờ, trống rỗng đầu óc.",
+        "Giải thích kỹ không phải phản ứng đờ người."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai34-24",
+      "type": "usage",
+      "word": "嫌々",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 42,
+      "prompt": "嫌々",
+      "origin": "authored",
+      "options": [
+        "気が進まなかったが、頼まれて嫌々引き受けた。",
+        "大好きな料理を喜びいっぱいに嫌々食べた。",
+        "心から楽しみにし、自分から喜んで嫌々参加した。",
+        "品物が二つずつ並ぶことを嫌々という。"
+      ],
+      "explanations": [
+        "嫌々 là miễn cưỡng, không muốn.",
+        "Vui sướng ăn món thích trái với miễn cưỡng.",
+        "Vui vẻ tự nguyện trái nghĩa.",
+        "Xếp từng cặp không phải trạng thái miễn cưỡng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai34-25",
+      "type": "usage",
+      "word": "思う存分",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 49,
+      "prompt": "思う存分",
+      "origin": "authored",
+      "options": [
+        "試験が終わったので、今日は思う存分遊びたい。",
+        "遊びたいのを我慢して一分だけ、思う存分遊んだ。",
+        "十分遊べたので、全く遊べずに思う存分過ごしたと言った。",
+        "量を少なく制限してもらうため、「思う存分入れてください」と頼んだ。"
+      ],
+      "explanations": [
+        "思う存分 là thỏa thích, tới mức mình muốn.",
+        "Phải nhịn và chưa thỏa mãn trái nghĩa.",
+        "思う存分 là thỏa thích; không tương ứng với hoàn toàn không được chơi.",
+        "思う存分 yêu cầu tùy ý thỏa thích, không phải giới hạn ít."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai34-26",
+      "type": "usage",
+      "word": "全く",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 5,
+      "prompt": "全く",
+      "origin": "authored",
+      "options": [
+        "少しだけ似ていて大半が異なる二つの物を、全く同じ物だと言った。",
+        "そのうわさは全くの誤解だ。",
+        "誤りが半分残っているのに、誤りを全く残していないと説明した。",
+        "半分だけ同意することを全く賛成するという。"
+      ],
+      "explanations": [
+        "全く同じ là hoàn toàn giống, không chỉ giống một chút.",
+        "全くの là hoàn toàn, thuần là.",
+        "全く～ない phủ định hoàn toàn, trái với còn nửa số lỗi.",
+        "Đồng ý một nửa không phải hoàn toàn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-27",
+      "type": "usage",
+      "word": "未だ",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 85,
+      "prompt": "未だ",
+      "origin": "authored",
+      "options": [
+        "とうに解決したと確認できた問題を、未だ解決していないと説明した。",
+        "事故の原因は未だ明らかになっていない。",
+        "初めて明日始める予定だけを伝えるため、「未だ始めている」と言った。",
+        "これから初めて行うことを、未だ完了したという。"
+      ],
+      "explanations": [
+        "未だ～ない là vẫn chưa, trái với đã xác nhận giải quyết xong.",
+        "未だ là đến nay vẫn chưa, đọcいまだ ở đây.",
+        "未だ diễn tả trạng thái vẫn tiếp tục, không thay cho 明日.",
+        "Chưa làm không phải hoàn tất; 未だ không chỉ tương lai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-28",
+      "type": "usage",
+      "word": "案の定",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 19,
+      "prompt": "案の定",
+      "origin": "authored",
+      "options": [
+        "予想とは正反対の結果だったので、案の定だと思った。",
+        "渋滞すると予想していたが、案の定、到着が遅れた。",
+        "誰も全く予想しなかった結末なので、案の定だった。",
+        "結果を全く予想していなかったのに、「予想していなかったという意味で案の定だ」と説明した。"
+      ],
+      "explanations": [
+        "案の定 là đúng như dự đoán, không phải ngược dự đoán.",
+        "案の定 là đúng như đã dự đoán.",
+        "Hoàn toàn ngoài dự đoán trái nghĩa.",
+        "案の定 không có nghĩa chưa hề dự đoán."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai34-29",
+      "type": "usage",
+      "word": "漠然と",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 82,
+      "prompt": "漠然と",
+      "origin": "authored",
+      "options": [
+        "細部まではっきり理解したという意味で「漠然と理解した」と言った。",
+        "輪郭が鮮明で細部まで見える景色を、漠然と見えると説明した。",
+        "数字も手順も一つ残らず具体的に決め、漠然と計画した。",
+        "卒業後は海外で働きたいと、漠然と考えている。"
+      ],
+      "explanations": [
+        "漠然と là mơ hồ, không phải rõ hết chi tiết.",
+        "漠然と không diễn đạt nhìn rõ nét từng chi tiết.",
+        "Quy định hết chi tiết trái với mơ hồ.",
+        "漠然と là mơ hồ, chưa cụ thể."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai34-30",
+      "type": "usage",
+      "word": "交互に",
+      "source_file": "resources/N1/goi/dai34.csv",
+      "source_line": 44,
+      "prompt": "交互に",
+      "origin": "authored",
+      "options": [
+        "順序もなく偶然重なることを交互にという。",
+        "二人が同時に同じハンドルを握って交互に運転した。",
+        "全員が一斉に交互に立ち上がった。",
+        "二人が交互に運転して、長距離を移動した。"
+      ],
+      "explanations": [
+        "交互に yêu cầu thay lượt, không phải ngẫu nhiên.",
+        "Cùng lúc không phải luân phiên.",
+        "Đồng loạt cùng lúc trái với xen kẽ.",
+        "交互に là thay phiên nhau."
+      ],
+      "answer": 3
+    }
+  ]
+}

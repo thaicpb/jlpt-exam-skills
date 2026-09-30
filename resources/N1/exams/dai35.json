@@ -1,0 +1,676 @@
+{
+  "id": "n1-dai35-30",
+  "title": "N1 · Bài 35 · 30 câu",
+  "level": "N1",
+  "lesson": "dai35",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093035,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai35.csv"
+  },
+  "choice_seed": 2026100035,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai35-01",
+      "type": "context",
+      "word": "ぺこぺこ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 62,
+      "prompt": "朝から何も食べていないので、お腹が（　）だ。",
+      "origin": "authored",
+      "options": [
+        "こそこそ",
+        "すらすら",
+        "だぶだぶ",
+        "ぺこぺこ"
+      ],
+      "explanations": [
+        "こそこそ là lén lút.",
+        "すらすら là trôi chảy.",
+        "だぶだぶ là rộng thùng thình.",
+        "お腹がぺこぺこ là đói meo."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-02",
+      "type": "context",
+      "word": "アクセス",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 90,
+      "prompt": "会員番号を入力して、専用サイトに（　）する。",
+      "origin": "authored",
+      "options": [
+        "アンコール",
+        "ストライキ",
+        "アクセス",
+        "デコレーション"
+      ],
+      "explanations": [
+        "アンコール là yêu cầu biểu diễn thêm.",
+        "ストライキ là đình công.",
+        "アクセスする là truy cập.",
+        "デコレーション là trang trí."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-03",
+      "type": "context",
+      "word": "だぶだぶ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 34,
+      "prompt": "兄の上着は私には大きすぎて、（　）している。",
+      "origin": "authored",
+      "options": [
+        "ぴったり",
+        "だぶだぶ",
+        "ぎゅうぎゅう",
+        "きっちり"
+      ],
+      "explanations": [
+        "ぴったり là vừa khít, trái nghĩa.",
+        "だぶだぶ là quần áo quá rộng.",
+        "ぎゅうぎゅう là chật ních, trái quá rộng.",
+        "きっちり là chính xác, chặt chẽ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-04",
+      "type": "context",
+      "word": "イメージ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 99,
+      "prompt": "説明を聞きながら、完成した建物の姿を頭の中で（　）した。",
+      "origin": "authored",
+      "options": [
+        "キャンセル",
+        "アクセス",
+        "イメージ",
+        "ストック"
+      ],
+      "explanations": [
+        "キャンセル là hủy bỏ.",
+        "アクセス là truy cập.",
+        "イメージする là hình dung.",
+        "ストック là dự trữ vật hoặc nguồn lực."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-05",
+      "type": "context",
+      "word": "こっそり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 15,
+      "prompt": "本人には内緒で、誕生日の贈り物を（　）用意した。",
+      "origin": "authored",
+      "options": [
+        "大っぴらに",
+        "公然と",
+        "堂々と",
+        "こっそり"
+      ],
+      "explanations": [
+        "大っぴらに là công khai cho mọi người biết.",
+        "公然と là công nhiên, trái với nội mật.",
+        "堂々と là công khai, đường hoàng.",
+        "こっそり là kín đáo, không để biết."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-06",
+      "type": "context",
+      "word": "ちょくちょく",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 37,
+      "prompt": "毎月何度も顔を合わせる。彼はこの店に（　）来る常連だ。",
+      "origin": "authored",
+      "options": [
+        "めったに",
+        "たった一度",
+        "初めて",
+        "ちょくちょく"
+      ],
+      "explanations": [
+        "めったに thường đi với phủ định, nghĩa hiếm khi.",
+        "Chỉ một lần trái với khách quen nhiều lần.",
+        "Lần đầu trái với常連.",
+        "ちょくちょく là khá thường xuyên."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-07",
+      "type": "context",
+      "word": "ひっそり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 54,
+      "prompt": "観光客が帰った後、夜の山里は物音もなく（　）していた。",
+      "origin": "authored",
+      "options": [
+        "がやがや",
+        "ざわざわ",
+        "ひっそり",
+        "わいわい"
+      ],
+      "explanations": [
+        "がやがや là tiếng người ồn ào.",
+        "ざわざわ là xôn xao, trái yên lặng.",
+        "ひっそり là vắng lặng, yên ắng.",
+        "わいわい là náo nhiệt, trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-08",
+      "type": "context",
+      "word": "ねちねち",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 45,
+      "prompt": "上司は昔の小さな失敗を何度も持ち出し、相手を（　）責め続けた。",
+      "origin": "authored",
+      "options": [
+        "さらりと",
+        "ねちねち",
+        "さっぱり",
+        "あっさり"
+      ],
+      "explanations": [
+        "さらりと là nhẹ, lướt qua, trái với bám riết.",
+        "ねちねち là dai dẳng khó chịu, không chịu thôi.",
+        "さっぱり là dứt khoát, không níu chuyện cũ.",
+        "あっさり là nhanh gọn, không dai dẳng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-09",
+      "type": "context",
+      "word": "ふらふら",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 59,
+      "prompt": "高熱で足元がおぼつかず、立つと（　）する。",
+      "origin": "authored",
+      "options": [
+        "きびきび",
+        "どっしり",
+        "しゃきっと",
+        "ふらふら"
+      ],
+      "explanations": [
+        "きびきび là nhanh nhẹn, dứt khoát.",
+        "どっしり là vững chãi.",
+        "しゃきっと là tỉnh táo, vững vàng.",
+        "ふらふら là loạng choạng, không vững."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-10",
+      "type": "context",
+      "word": "ひょっと",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 87,
+      "prompt": "確信はないが、（　）すると明日は雪かもしれない。",
+      "origin": "authored",
+      "options": [
+        "ひょっと",
+        "断じて",
+        "必ず",
+        "絶対に"
+      ],
+      "explanations": [
+        "ひょっとすると là biết đâu, có thể.",
+        "断じて là dứt khoát, không phải phỏng đoán.",
+        "必ず là chắc chắn; 必ずすると không tạo cụm phỏng đoán này.",
+        "絶対に là tuyệt đối, trái với không chắc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-11",
+      "type": "paraphrase",
+      "word": "ふと",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 86,
+      "prompt": "道を歩いていて、【ふと】昔の友人を思い出した。",
+      "origin": "authored",
+      "options": [
+        "長い時間をかけて計画的に",
+        "何のきっかけもなく突然",
+        "相手に命令されて",
+        "いつもの決まった手順で"
+      ],
+      "explanations": [
+        "Theo kế hoạch lâu dài trái nghĩa.",
+        "ふと là chợt nảy ra không chủ ý.",
+        "Bị ra lệnh khác với chợt nghĩ.",
+        "Đúng quy trình không phải bất chợt."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-12",
+      "type": "paraphrase",
+      "word": "げっそり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 13,
+      "prompt": "病気が長引き、彼は【げっそりした】。",
+      "origin": "authored",
+      "options": [
+        "ひどくやせてやつれた",
+        "元気になって太った",
+        "怒って声を上げた",
+        "緊張して黙った"
+      ],
+      "explanations": [
+        "げっそり là gầy rộc, hốc hác.",
+        "Béo khỏe lên trái nghĩa.",
+        "Nổi giận không phải hốc hác.",
+        "Im vì căng thẳng khác nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-13",
+      "type": "paraphrase",
+      "word": "ぶらぶら",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 60,
+      "prompt": "目的もなく商店街を【ぶらぶら】歩いた。",
+      "origin": "authored",
+      "options": [
+        "のんびりあてもなく",
+        "決まった時間に正確に",
+        "息を切らして全速力で",
+        "急いで一直線に"
+      ],
+      "explanations": [
+        "ぶらぶら là dạo không mục đích rõ.",
+        "Đúng giờ không diễn tả dạo chơi.",
+        "Hết tốc lực trái với thong dong.",
+        "Đi vội thẳng đích trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-14",
+      "type": "paraphrase",
+      "word": "ぐったり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 10,
+      "prompt": "炎天下で働いて、【ぐったりした】。",
+      "origin": "authored",
+      "options": [
+        "急に元気が出た",
+        "怒りで震えた",
+        "疲れて力が抜けた",
+        "楽しく笑い続けた"
+      ],
+      "explanations": [
+        "Bỗng khỏe lên trái nghĩa.",
+        "Run giận không phải mệt lả.",
+        "ぐったり là mệt rũ, không còn sức.",
+        "Cười vui không phải kiệt sức."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-15",
+      "type": "paraphrase",
+      "word": "しんなり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 25,
+      "prompt": "加熱すると野菜が【しんなりした】。",
+      "origin": "authored",
+      "options": [
+        "大きく膨らんだ",
+        "固くなって割れた",
+        "凍って動かなくなった",
+        "柔らかくなって張りがなくなった"
+      ],
+      "explanations": [
+        "Phồng lên không phải mềm rũ.",
+        "Cứng rồi vỡ trái nghĩa.",
+        "Đóng băng trái với mềm do nấu.",
+        "しんなり là mềm, giảm độ cứng giòn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-16",
+      "type": "paraphrase",
+      "word": "きっぱり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 6,
+      "prompt": "無理な依頼を【きっぱり】断った。",
+      "origin": "authored",
+      "options": [
+        "少しずつ話を変えて",
+        "曖昧な態度で",
+        "迷いを見せずはっきり",
+        "小声でためらいながら"
+      ],
+      "explanations": [
+        "Dần đổi chủ đề không phải từ chối rõ ràng.",
+        "Thái độ mơ hồ trái nghĩa.",
+        "きっぱり là dứt khoát.",
+        "Ngập ngừng trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-17",
+      "type": "paraphrase",
+      "word": "ぼつぼつ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 68,
+      "prompt": "もう遅いので、【ぼつぼつ】帰ろう。",
+      "origin": "authored",
+      "options": [
+        "そろそろ",
+        "一斉に",
+        "いつまでも",
+        "必ずしも"
+      ],
+      "explanations": [
+        "ぼつぼつ ở đây là đến lúc nên làm việc gì.",
+        "Cùng lúc không chỉ đã đến lúc.",
+        "Mãi mãi khác nghĩa.",
+        "Không hẳn khác nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-18",
+      "type": "paraphrase",
+      "word": "アシスタント",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 91,
+      "prompt": "撮影では【アシスタント】が準備を手伝った。",
+      "origin": "authored",
+      "options": [
+        "競争相手の代表",
+        "補助をする人",
+        "作品を批評する人",
+        "費用を請求される客"
+      ],
+      "explanations": [
+        "Đại diện đối thủ không phải trợ lý.",
+        "アシスタント là trợ lý.",
+        "Nhà phê bình không phải trợ lý.",
+        "Khách trả tiền khác nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-19",
+      "type": "paraphrase",
+      "word": "ぽつぽつ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 69,
+      "prompt": "空から雨粒が【ぽつぽつ】落ち始めた。",
+      "origin": "authored",
+      "options": [
+        "間を置いて少しずつ",
+        "一か所に固まって",
+        "音もなく完全に止まって",
+        "絶え間なく大量に"
+      ],
+      "explanations": [
+        "ぽつぽつ là từng giọt lác đác.",
+        "Dồn thành khối không chỉ giọt rời rạc.",
+        "Đã dừng trái với bắt đầu rơi.",
+        "Liên tục ào ạt trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-20",
+      "type": "paraphrase",
+      "word": "ひんやり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 57,
+      "prompt": "石の床は足の裏に【ひんやり】感じられた。",
+      "origin": "authored",
+      "options": [
+        "刺すように痛く",
+        "心地よく冷たく",
+        "焼けるほど熱く",
+        "ねばねばして"
+      ],
+      "explanations": [
+        "Đau nhói khác với mát.",
+        "ひんやり là hơi mát lạnh.",
+        "Nóng bỏng trái nghĩa.",
+        "Dính nhớp không chỉ nhiệt độ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-21",
+      "type": "usage",
+      "word": "こそこそ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 14,
+      "prompt": "こそこそ",
+      "origin": "authored",
+      "options": [
+        "全校生徒に向かって大声で公然とこそこそ演説した。",
+        "二人は他人に聞かれないよう、こそこそ話していた。",
+        "広場で隠れる気もなく、全員に見せるためこそこそ踊った。",
+        "正々堂々と名乗って、こそこそ自分の実績を公表した。"
+      ],
+      "explanations": [
+        "Công khai hét lớn trái với lén lút.",
+        "こそこそ là lén lút, tránh để biết.",
+        "Cố cho mọi người thấy trái với giấu giếm.",
+        "Công bố đường hoàng trái sắc thái giấu giếm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-22",
+      "type": "usage",
+      "word": "くよくよ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 11,
+      "prompt": "くよくよ",
+      "origin": "authored",
+      "options": [
+        "小さな失敗をいつまでもくよくよ悩まないほうがいい。",
+        "予定どおり到着した列車が、くよくよ停車した。",
+        "何も心配せず、くよくよ安心して眠った。",
+        "嫌なことを完全に忘れ、くよくよ楽しく笑った。"
+      ],
+      "explanations": [
+        "くよくよ là buồn lo dai dẳng.",
+        "くよくよ chỉ tâm trạng lo buồn, không chỉ tàu dừng.",
+        "Hoàn toàn không lo trái nghĩa.",
+        "Quên hết và cười vui trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-23",
+      "type": "usage",
+      "word": "はっきり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 49,
+      "prompt": "はっきり",
+      "origin": "authored",
+      "options": [
+        "答えを知らず黙り続けることを、はっきり答えるという。",
+        "結論を曖昧にぼかすことを、はっきり説明するという。",
+        "輪郭が全く見えず、はっきり映っていた。",
+        "聞こえなかったので、もう一度はっきり言ってください。"
+      ],
+      "explanations": [
+        "Không trả lời không phải đáp rõ.",
+        "Làm mờ kết luận trái nghĩa.",
+        "Không thấy đường nét trái với rõ.",
+        "はっきり là rõ ràng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-24",
+      "type": "usage",
+      "word": "アンコール",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 98,
+      "prompt": "アンコール",
+      "origin": "authored",
+      "options": [
+        "演奏をまだ一曲もしていない最初の出演をアンコールという。",
+        "商品の注文を全部取り消すため、アンコールを申し込んだ。",
+        "試験の答案を採点することをアンコールという。",
+        "演奏が終わると、観客からアンコールの拍手が起こった。"
+      ],
+      "explanations": [
+        "アンコール là diễn lại hoặc thêm sau phần diễn.",
+        "Hủy đơn là キャンセル, không phảiアンコール.",
+        "Chấm bài khác với diễn thêm.",
+        "アンコール là yêu cầu biểu diễn thêm."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-25",
+      "type": "usage",
+      "word": "てっきり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 83,
+      "prompt": "てっきり",
+      "origin": "authored",
+      "options": [
+        "何も予想せず初めて結果を知ったので、「てっきりそうなると思っていた」と自分の当初の考えを説明した。",
+        "可能性は低いと疑っていた状態を、「てっきりそうだと信じていた」と表した。",
+        "てっきり休みだと思っていたが、今日は出勤日だった。",
+        "相手も自分も全く信じていなかった話を、「てっきり事実だと信じていた」と説明した。"
+      ],
+      "explanations": [
+        "てっきり yêu cầu đã đinh ninh từ trước; không phù hợp khi chưa hề nghĩ.",
+        "Đã tin chắc khác với nghĩ ít khả năng và còn nghi ngờ.",
+        "てっきり là đã đinh ninh như vậy.",
+        "てっきり nêu suy đoán chắc chắn, trái với hoàn toàn không tin."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-26",
+      "type": "usage",
+      "word": "アドバイス",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 93,
+      "prompt": "アドバイス",
+      "origin": "authored",
+      "options": [
+        "進路に迷ったので、先生にアドバイスを求めた。",
+        "道路を渡る歩道橋をアドバイスと呼ぶ。",
+        "試験の点数を一方的に決定する判定をアドバイスという。",
+        "注文した料理のアドバイスをレジで払った。"
+      ],
+      "explanations": [
+        "アドバイス là lời khuyên.",
+        "Cầu bộ hành không phải lời tư vấn.",
+        "Phán định kết quả không phải lời khuyên.",
+        "Tiền món ăn là 代金."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai35-27",
+      "type": "usage",
+      "word": "くっきり",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 8,
+      "prompt": "くっきり",
+      "origin": "authored",
+      "options": [
+        "輪郭をぼかし、境目をくっきり分からなくした。",
+        "雨上がりの空に、虹の輪郭がくっきり見えた。",
+        "心配事をくっきり悩み続けた。",
+        "深い霧で何も見えず、山がくっきり見えた。"
+      ],
+      "explanations": [
+        "くっきり không diễn đạt làm mờ không nhận ra.",
+        "くっきり là rõ nét.",
+        "Lo dai dẳng là くよくよ; không phải rõ đường nét.",
+        "Không nhìn thấy trái với rõ nét."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai35-28",
+      "type": "usage",
+      "word": "びくびく",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 51,
+      "prompt": "びくびく",
+      "origin": "authored",
+      "options": [
+        "心から安心して、びくびくくつろいだ。",
+        "紙に文字をびくびくと鮮明に印刷した。",
+        "何も恐れず、びくびく堂々と挑戦した。",
+        "叱られるのではないかと、子どもはびくびくしている。"
+      ],
+      "explanations": [
+        "Thư giãn an tâm trái nghĩa.",
+        "Độ nét in không diễn đạt bằng tâm trạng run sợ.",
+        "Không sợ, đường hoàng trái nghĩa.",
+        "びくびく là sợ sệt, thấp thỏm."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai35-29",
+      "type": "usage",
+      "word": "じわじわ",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 24,
+      "prompt": "じわじわ",
+      "origin": "authored",
+      "options": [
+        "全く変化がないのに、温度がじわじわ上昇した。",
+        "目的地まで一歩も動かず、じわじわ進んだ。",
+        "時間がたつにつれて、痛みがじわじわ強くなった。",
+        "一瞬で一気に全てが変わることを、じわじわ変わるという。"
+      ],
+      "explanations": [
+        "Tăng dần vẫn là có thay đổi.",
+        "Không di chuyển không thể tiến dần.",
+        "じわじわ là từ từ, tăng từng chút.",
+        "Đổi tức thì toàn bộ trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai35-30",
+      "type": "usage",
+      "word": "すらすら",
+      "source_file": "resources/N1/goi/dai35.csv",
+      "source_line": 29,
+      "prompt": "すらすら",
+      "origin": "authored",
+      "options": [
+        "十分練習したので、長い文章もすらすら読めた。",
+        "何も書けずに止まっている状態を、すらすら書くという。",
+        "激しく怒って机をすらすら殴った。",
+        "一文字ごとに何度もつかえながら、すらすら読んだ。"
+      ],
+      "explanations": [
+        "すらすら là trôi chảy, không vấp.",
+        "Không viết được trái với viết trôi chảy.",
+        "すらすら không chỉ động tác đập bàn dữ dội.",
+        "Liên tục vấp trái nghĩa."
+      ],
+      "answer": 0
+    }
+  ]
+}
