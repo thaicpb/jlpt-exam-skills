@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.util
 import json
 import re
 import shutil
@@ -21,6 +22,36 @@ PROJECT = Path(__file__).resolve().parent.parent
 RESOURCES = PROJECT / "resources"
 WEBAPP = PROJECT / "webapp"
 LOADER = PROJECT / "skills/jlpt-vocabulary-flashcards/scripts/load_vocabulary.py"
+EXAM_BUILDER = PROJECT / "skills/jlpt-n1-vocabulary-coach/scripts/build_n1_exam.py"
+
+
+def build_exams(level: str, lessons: list[str], out: Path, digest) -> list[dict]:
+    banks = sorted((RESOURCES / level / "exams").glob("*.json"), key=lambda p: lesson_number(p.stem))
+    if not banks:
+        return []
+    if level != "N1":
+        raise ValueError(f"No exam builder configured for {level}")
+    spec = importlib.util.spec_from_file_location("n1_exam_builder", EXAM_BUILDER)
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
+    exams = []
+    for path in banks:
+        bank = json.loads(path.read_text(encoding="utf-8"))
+        if (bank.get("lesson") != path.stem or path.stem not in lessons
+                or bank.get("id") != f"n1-{path.stem}-30"
+                or not isinstance(bank.get("title"), str) or not bank["title"].strip()
+                or bank.get("reading_policy") != "attested-csv"
+                or bank.get("selection", {}).get("count") != 30):
+            raise ValueError(f"Invalid published exam metadata: {path}")
+        rel = f"exams/{level}/{path.stem}.html"
+        html = builder.render(bank, mode="exam", home_href="../../#/exams/N1")
+        target = out / rel
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(html, encoding="utf-8")
+        digest.update(rel.encode() + html.encode())
+        exams.append({"id": bank["id"], "lesson": path.stem, "title": bank["title"],
+                      "count": len(bank["questions"]), "file": rel})
+    return exams
 
 
 def lesson_number(stem: str) -> int:
@@ -86,7 +117,9 @@ def main() -> None:
             digest.update(dump(out / rel, cards))
             data_files.append(rel)
             lessons.append({"id": stem, "title": f"Bài {lesson_number(stem)}", "count": len(cards), "file": rel})
-        catalog["levels"].append({"id": level_dir.name, "lessons": lessons})
+        exams = build_exams(level_dir.name, stems, out, digest)
+        data_files.extend(exam["file"] for exam in exams)
+        catalog["levels"].append({"id": level_dir.name, "lessons": lessons, "exams": exams})
 
     static_files = []
     for src in sorted(WEBAPP.rglob("*")):
@@ -98,6 +131,8 @@ def main() -> None:
             digest.update(rel.encode() + src.read_bytes())
             static_files.append(rel)
 
+    # Navigation/cache changes must also invalidate an already-installed PWA.
+    digest.update((WEBAPP / "sw.js").read_bytes())
     version = digest.hexdigest()[:12]
     catalog["version"] = version
     dump(out / "data/catalog.json", catalog)
@@ -110,7 +145,8 @@ def main() -> None:
 
     total = sum(len(l["lessons"]) for l in catalog["levels"])
     words = sum(x["count"] for l in catalog["levels"] for x in l["lessons"])
-    print(f"Built {out} · version {version} · {total} lessons · {words} cards")
+    exams = sum(len(level["exams"]) for level in catalog["levels"])
+    print(f"Built {out} · version {version} · {total} lessons · {words} cards · {exams} exams")
 
 
 if __name__ == "__main__":

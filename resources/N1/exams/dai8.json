@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai8-30",
+  "title": "N1 · Bài 8 · 30 câu",
+  "level": "N1",
+  "lesson": "dai8",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093008,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai8.csv"
+  },
+  "choice_seed": 2026100008,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai8-01",
+      "type": "reading",
+      "word": "跡",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 50,
+      "prompt": "雪の上に動物の足の【跡】が残っている。",
+      "origin": "authored",
+      "options": [
+        "あな",
+        "あと",
+        "あか",
+        "あし"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "穴",
+          "reading": "あな",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 20
+        },
+        {
+          "word": "跡",
+          "reading": "あと",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 50
+        },
+        {
+          "word": "垢",
+          "reading": "あか",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 25
+        },
+        {
+          "word": "脚",
+          "reading": "あし",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 12
+        }
+      ],
+      "explanations": [
+        "あな là cách đọc của 穴 (lỗ; hang). Đây là từ có thật, nhưng không phải cách đọc của 跡 trong câu.",
+        "あと là cách đọc của 跡 (dấu vết; vết tích; di tích). Khớp từ được gạch dưới trong câu.",
+        "あか là cách đọc của 垢 (ghét; chất bẩn bám trên da). Đây là từ có thật, nhưng không phải cách đọc của 跡 trong câu.",
+        "あし là cách đọc của 脚 (chân; chân bàn ghế). Đây là từ có thật, nhưng không phải cách đọc của 跡 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-02",
+      "type": "reading",
+      "word": "霜",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 54,
+      "prompt": "冷え込んだ朝、畑一面に【霜】が降りた。",
+      "origin": "authored",
+      "options": [
+        "しお",
+        "しも",
+        "しや",
+        "しじ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "潮",
+          "reading": "しお",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 61
+        },
+        {
+          "word": "霜",
+          "reading": "しも",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 54
+        },
+        {
+          "word": "視野",
+          "reading": "しや",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 50
+        },
+        {
+          "word": "指示",
+          "reading": "しじ",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 44
+        }
+      ],
+      "explanations": [
+        "しお là cách đọc của 潮 (thủy triều; nước biển). Đây là từ có thật, nhưng không phải cách đọc của 霜 trong câu.",
+        "しも là cách đọc của 霜 (sương muối). Khớp từ được gạch dưới trong câu.",
+        "しや là cách đọc của 視野 (tầm nhìn). Đây là từ có thật, nhưng không phải cách đọc của 霜 trong câu.",
+        "しじ là cách đọc của 指示 (chỉ thị; hướng dẫn). Đây là từ có thật, nhưng không phải cách đọc của 霜 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-03",
+      "type": "reading",
+      "word": "器",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 10,
+      "prompt": "料理を大きな【器】に盛り付ける。",
+      "origin": "authored",
+      "options": [
+        "うわき",
+        "うず",
+        "うちがわ",
+        "うつわ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "浮気",
+          "reading": "うわき",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 28
+        },
+        {
+          "word": "渦",
+          "reading": "うず",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 100
+        },
+        {
+          "word": "内側",
+          "reading": "うちがわ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 86
+        },
+        {
+          "word": "器",
+          "reading": "うつわ",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 10
+        }
+      ],
+      "explanations": [
+        "うわき là cách đọc của 浮気 (ngoại tình; không chung thủy; thay đổi sự ưa thích). Đây là từ có thật, nhưng không phải cách đọc của 器 trong câu.",
+        "うず là cách đọc của 渦 (xoáy nước; vòng xoáy). Đây là từ có thật, nhưng không phải cách đọc của 器 trong câu.",
+        "うちがわ là cách đọc của 内側 (phía trong; mặt trong). Đây là từ có thật, nhưng không phải cách đọc của 器 trong câu.",
+        "うつわ là cách đọc của 器 (đồ đựng; bát đĩa; tầm vóc con người). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-04",
+      "type": "reading",
+      "word": "節",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 51,
+      "prompt": "この竹は【節】と節の間が長い。",
+      "origin": "authored",
+      "options": [
+        "がし",
+        "ふし",
+        "りし",
+        "あし"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "餓死",
+          "reading": "がし",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 5
+        },
+        {
+          "word": "節",
+          "reading": "ふし",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 51
+        },
+        {
+          "word": "利子",
+          "reading": "りし",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 96
+        },
+        {
+          "word": "脚",
+          "reading": "あし",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 12
+        }
+      ],
+      "explanations": [
+        "がし là cách đọc của 餓死 (chết đói). Đây là từ có thật, nhưng không phải cách đọc của 節 trong câu.",
+        "ふし là cách đọc của 節 (đốt; mấu; điểm đáng chú ý). Khớp từ được gạch dưới trong câu.",
+        "りし là cách đọc của 利子 (tiền lãi; lãi vay, lãi tiền gửi). Đây là từ có thật, nhưng không phải cách đọc của 節 trong câu.",
+        "あし là cách đọc của 脚 (chân; chân bàn ghế). Đây là từ có thật, nhưng không phải cách đọc của 節 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-06",
+      "type": "reading",
+      "word": "魂",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 30,
+      "prompt": "亡くなった人の【魂】が安らかであるよう祈る。",
+      "origin": "authored",
+      "options": [
+        "たましい",
+        "たいおう",
+        "たいぐう",
+        "たぐい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "魂",
+          "reading": "たましい",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 30
+        },
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 39
+        },
+        {
+          "word": "待遇",
+          "reading": "たいぐう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 41
+        },
+        {
+          "word": "類",
+          "reading": "たぐい",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 96
+        }
+      ],
+      "explanations": [
+        "たましい là cách đọc của 魂 (linh hồn; tinh thần). Khớp từ được gạch dưới trong câu.",
+        "たいおう là cách đọc của 対応 (ứng phó; xử lý; đáp ứng, hỗ trợ). Đây là từ có thật, nhưng không phải cách đọc của 魂 trong câu.",
+        "たいぐう là cách đọc của 待遇 (chế độ đãi ngộ; cách đối đãi). Đây là từ có thật, nhưng không phải cách đọc của 魂 trong câu.",
+        "たぐい là cách đọc của 類 (loại; hạng; thứ). Đây là từ có thật, nhưng không phải cách đọc của 魂 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-08",
+      "type": "reading",
+      "word": "癌",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 9,
+      "prompt": "早期の検査で【癌】が見つかった。",
+      "origin": "authored",
+      "options": [
+        "がし",
+        "ぜん",
+        "がん",
+        "けん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "餓死",
+          "reading": "がし",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 5
+        },
+        {
+          "word": "禅",
+          "reading": "ぜん",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 52
+        },
+        {
+          "word": "癌",
+          "reading": "がん",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 9
+        },
+        {
+          "word": "件",
+          "reading": "けん",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 21
+        }
+      ],
+      "explanations": [
+        "がし là cách đọc của 餓死 (chết đói). Đây là từ có thật, nhưng không phải cách đọc của 癌 trong câu.",
+        "ぜん là cách đọc của 禅 (thiền; Thiền tông). Đây là từ có thật, nhưng không phải cách đọc của 癌 trong câu.",
+        "がん là cách đọc của 癌 (bệnh ung thư). Khớp từ được gạch dưới trong câu.",
+        "けん là cách đọc của 件 (vụ; trường hợp; mục). Đây là từ có thật, nhưng không phải cách đọc của 癌 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-09",
+      "type": "reading",
+      "word": "獣",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 43,
+      "prompt": "森の奥から【獣】の鳴き声が聞こえた。",
+      "origin": "authored",
+      "options": [
+        "けいろ",
+        "えもの",
+        "けもの",
+        "けいか"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "経路",
+          "reading": "けいろ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 86
+        },
+        {
+          "word": "獲物",
+          "reading": "えもの",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 44
+        },
+        {
+          "word": "獣",
+          "reading": "けもの",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 43
+        },
+        {
+          "word": "経過",
+          "reading": "けいか",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 85
+        }
+      ],
+      "explanations": [
+        "けいろ là cách đọc của 経路 (lộ trình, hướng đi). Đây là từ có thật, nhưng không phải cách đọc của 獣 trong câu.",
+        "えもの là cách đọc của 獲物 (con mồi; chiến lợi phẩm). Đây là từ có thật, nhưng không phải cách đọc của 獣 trong câu.",
+        "けもの là cách đọc của 獣 (thú; loài thú). Khớp từ được gạch dưới trong câu.",
+        "けいか là cách đọc của 経過 (quá trình, trải qua). Đây là từ có thật, nhưng không phải cách đọc của 獣 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-26",
+      "type": "reading",
+      "word": "志",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 35,
+      "prompt": "医師になるという【志】を持って勉強している。",
+      "origin": "authored",
+      "options": [
+        "こころざし",
+        "したごころ",
+        "こころがける",
+        "こころみる"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "志",
+          "reading": "こころざし",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 35
+        },
+        {
+          "word": "下心",
+          "reading": "したごころ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 79
+        },
+        {
+          "word": "心掛ける",
+          "reading": "こころがける",
+          "source_file": "resources/N1/goi/dai5.csv",
+          "source_line": 75
+        },
+        {
+          "word": "試みる",
+          "reading": "こころみる",
+          "source_file": "resources/N1/goi/dai5.csv",
+          "source_line": 64
+        }
+      ],
+      "explanations": [
+        "こころざし là cách đọc của 志 (chí hướng; hoài bão). Khớp từ được gạch dưới trong câu.",
+        "したごころ là cách đọc của 下心 (ý đồ riêng giấu kín; dụng ý không trong sáng). Đây là từ có thật, nhưng không phải cách đọc của 志 trong câu.",
+        "こころがける là cách đọc của 心掛ける (chú ý thực hiện; cố gắng duy trì thói quen). Đây là từ có thật, nhưng không phải cách đọc của 志 trong câu.",
+        "こころみる là cách đọc của 試みる (thử; thử thực hiện). Đây là từ có thật, nhưng không phải cách đọc của 志 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai8-05",
+      "type": "context",
+      "word": "株",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 6,
+      "prompt": "会社の一部を所有する権利として、上場企業の（　）を百株買った。",
+      "origin": "authored",
+      "options": [
+        "株",
+        "債券",
+        "預金",
+        "為替"
+      ],
+      "explanations": [
+        "株 là cổ phần, được đếm bằng 株.",
+        "債券 là chứng khoán nợ; không trao quyền sở hữu công ty, không đếm 百株.",
+        "預金 là tiền gửi, không mua quyền sở hữu doanh nghiệp.",
+        "為替 là phương tiện chuyển tiền hoặc tỷ giá, không phải cổ phần."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai8-07",
+      "type": "context",
+      "word": "禅",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 52,
+      "prompt": "仏教の中でも、座って精神を集中する修行を重視する（　）に関心がある。",
+      "origin": "authored",
+      "options": [
+        "禅",
+        "儒教",
+        "民俗",
+        "神道"
+      ],
+      "explanations": [
+        "禅 là truyền thống Phật giáo chú trọng thiền tọa.",
+        "儒教 là Nho giáo, không phải Phật giáo.",
+        "民俗 chỉ phong tục dân gian, không phải tên truyền thống thiền.",
+        "神道 là Thần đạo, không phải nhánh Phật giáo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai8-10",
+      "type": "context",
+      "word": "軸",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 39,
+      "prompt": "この車輪は、中心を通る金属の（　）を中心に回転する。",
+      "origin": "authored",
+      "options": [
+        "角",
+        "面",
+        "幅",
+        "軸"
+      ],
+      "explanations": [
+        "角 là góc hoặc sừng, không phải tâm quay.",
+        "面 là mặt phẳng, không phải bộ phận làm trục.",
+        "幅 là chiều rộng, không phải thanh kim loại.",
+        "軸 là trục quay xuyên qua tâm bánh xe."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-13",
+      "type": "context",
+      "word": "枠",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 99,
+      "prompt": "定員は十人だが九人が申し込んでいるので、あと一人分の（　）が残っている。",
+      "origin": "authored",
+      "options": [
+        "枠",
+        "列",
+        "縁",
+        "層"
+      ],
+      "explanations": [
+        "枠 là suất nằm trong số lượng giới hạn.",
+        "列 là hàng, không phải số suất đăng ký còn lại.",
+        "縁 là mép hoặc duyên, không phải chỉ tiêu tuyển nhận.",
+        "層 là tầng lớp hoặc lớp vật chất, không phải suất."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai8-15",
+      "type": "context",
+      "word": "巣",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 53,
+      "prompt": "ツバメが軒下に（　）を作り、その中でひなを育てている。",
+      "origin": "authored",
+      "options": [
+        "殻",
+        "巣",
+        "檻",
+        "穴"
+      ],
+      "explanations": [
+        "殻 là vỏ trứng/vỏ cứng, không phải tổ én tự dựng.",
+        "巣 là tổ động vật làm để ở và nuôi con.",
+        "檻 là chuồng lồng do người làm để nhốt, không phải tổ chim tự xây.",
+        "穴 là lỗ; én làm tổ dưới mái hiên, không đào lỗ ở đây."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai8-17",
+      "type": "context",
+      "word": "寮",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 95,
+      "prompt": "家から大学まで遠いため、大学が学生のために用意した（　）に住んでいる。",
+      "origin": "authored",
+      "options": [
+        "庁",
+        "塾",
+        "寮",
+        "倉"
+      ],
+      "explanations": [
+        "庁 là cơ quan hành chính, không phải chỗ ở sinh viên.",
+        "塾 là trường học thêm, không phải ký túc xá.",
+        "寮 là ký túc xá cho sinh viên.",
+        "倉 là kho chứa, không phải nơi ở được chuẩn bị cho sinh viên."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai8-18",
+      "type": "context",
+      "word": "盾",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 45,
+      "prompt": "戦士は敵の矢を防ぐため、左手に持った（　）で体を守った。",
+      "origin": "authored",
+      "options": [
+        "弓",
+        "鞘",
+        "矛",
+        "盾"
+      ],
+      "explanations": [
+        "弓 là cung bắn, không phải tấm che bảo vệ.",
+        "鞘 là vỏ kiếm, không phải vật che thân chống tên.",
+        "矛 là vũ khí cán dài để tấn công, không phải khiên.",
+        "盾 là khiên dùng đỡ đòn tấn công."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-19",
+      "type": "context",
+      "word": "扉",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 75,
+      "prompt": "部屋に入るとき、閉まっていた（　）をノックしてから開けた。",
+      "origin": "authored",
+      "options": [
+        "天井",
+        "壁",
+        "床",
+        "扉"
+      ],
+      "explanations": [
+        "天井 là trần, không phải vị trí gõ cửa trước khi vào.",
+        "壁 là tường, không phải cánh cửa mở ra.",
+        "床 là sàn, không mở để vào phòng thông thường.",
+        "扉 là cánh cửa để mở đi vào phòng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-11",
+      "type": "paraphrase",
+      "word": "端",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 57,
+      "prompt": "机の【端】に本を置いた。",
+      "origin": "authored",
+      "options": [
+        "真下の空間",
+        "中央の部分",
+        "縁の部分",
+        "表面の模様"
+      ],
+      "explanations": [
+        "Không gian dưới bàn không phải mép bàn.",
+        "Phần giữa đối lập mép.",
+        "端 ở đây là mép bàn.",
+        "Hoa văn trên mặt bàn không chỉ vị trí mép."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai8-12",
+      "type": "paraphrase",
+      "word": "件",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 21,
+      "prompt": "例の【件】について相談したい。",
+      "origin": "authored",
+      "options": [
+        "道具",
+        "人物",
+        "場所",
+        "事柄"
+      ],
+      "explanations": [
+        "道具 là công cụ, không phải nội dung cần bàn.",
+        "人物 là người, không phải vụ việc.",
+        "場所 là địa điểm, không phải việc đang đề cập.",
+        "件 là sự việc đang được nói tới."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-14",
+      "type": "paraphrase",
+      "word": "証",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 47,
+      "prompt": "この賞状は努力の【証】だ。",
+      "origin": "authored",
+      "options": [
+        "努力を妨げるもの",
+        "証明となるもの",
+        "努力する前の約束",
+        "偶然の出来事"
+      ],
+      "explanations": [
+        "Thứ cản nỗ lực khác bằng chứng.",
+        "証 là thứ chứng minh nỗ lực.",
+        "Lời hứa trước khi nỗ lực không phải minh chứng kết quả.",
+        "Sự việc tình cờ không khẳng định sự cố gắng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai8-20",
+      "type": "paraphrase",
+      "word": "頂",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 63,
+      "prompt": "ようやく山の【頂】に立った。",
+      "origin": "authored",
+      "options": [
+        "休むための小屋",
+        "いちばん高い所",
+        "登り始める所",
+        "山の向こう側"
+      ],
+      "explanations": [
+        "Chòi nghỉ không phải điểm cao nhất.",
+        "頂 là điểm cao nhất của núi.",
+        "Chân núi, nơi bắt đầu, khác đỉnh.",
+        "Bên kia núi không nhất thiết đỉnh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai8-24",
+      "type": "paraphrase",
+      "word": "沖",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 2,
+      "prompt": "船は【沖】に向かって進んだ。",
+      "origin": "authored",
+      "options": [
+        "船を造る建物の方",
+        "川の上流の方",
+        "岸から離れた海の方",
+        "海に接する陸の方"
+      ],
+      "explanations": [
+        "Xưởng tàu không phải vùng biển xa bờ.",
+        "Thượng nguồn sông không phải biển ngoài khơi.",
+        "沖 là vùng biển xa bờ.",
+        "Bờ đất trái với ngoài khơi."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai8-28",
+      "type": "paraphrase",
+      "word": "逆",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 13,
+      "prompt": "説明書とは【逆】の順番で組み立ててしまった。",
+      "origin": "authored",
+      "options": [
+        "反対",
+        "最初",
+        "同じ",
+        "途中"
+      ],
+      "explanations": [
+        "逆 là ngược, đối lập trình tự đã hướng dẫn.",
+        "最初 là đầu tiên, không phải đảo thứ tự.",
+        "同じ là giống, trái nghĩa.",
+        "途中 là giữa chừng, không có nghĩa ngược."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai8-29",
+      "type": "paraphrase",
+      "word": "類",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 96,
+      "prompt": "その【類】の話は何度も聞いた。",
+      "origin": "authored",
+      "options": [
+        "始まり",
+        "結末",
+        "種類",
+        "続き"
+      ],
+      "explanations": [
+        "始まり là khởi đầu, không chỉ nhóm cùng tính chất.",
+        "結末 là kết thúc câu chuyện, không phải loại.",
+        "類 chỉ cùng loại, hạng.",
+        "続き là phần tiếp theo, không phải loại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai8-16",
+      "type": "usage",
+      "word": "尾",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 76,
+      "prompt": "尾",
+      "origin": "authored",
+      "options": [
+        "靴を履く前に、足の尾を洗った。",
+        "犬がうれしそうに尾を振っている。",
+        "授業の尾に、先生が宿題を出した。",
+        "手紙の尾に切手を貼った。"
+      ],
+      "explanations": [
+        "Ngón hoặc gót chân không gọi là 尾; đuôi là bộ phận khác.",
+        "尾 là đuôi con vật.",
+        "Cuối buổi học là 終わり／最後; không dùng 授業の尾 trong cách nói thông thường.",
+        "Tem dán phong bì 封筒; 尾 không chỉ vị trí dán tem."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai8-21",
+      "type": "usage",
+      "word": "班",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 74,
+      "prompt": "班",
+      "origin": "authored",
+      "options": [
+        "紙を半分の班に切って使った。",
+        "生徒を五人ずつの班に分けた。",
+        "会議は午前の班から午後の班まで三時間続いた。",
+        "家の班を測ると百平方メートルあった。"
+      ],
+      "explanations": [
+        "Một phần hoặc mảnh giấy là 部分／枚; 班 không phải phần vật liệu.",
+        "班 là nhóm nhỏ được phân chia để hoạt động.",
+        "Khung buổi sáng/chiều là 時間帯; 班 chỉ nhóm người.",
+        "Diện tích là 面積; 班 không phải đại lượng đo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai8-22",
+      "type": "usage",
+      "word": "芽",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 3,
+      "prompt": "芽",
+      "origin": "authored",
+      "options": [
+        "時計の芽が動かなくなった。",
+        "花粉が目に入って、芽が赤くなった。",
+        "本の芽を開いて、読み始めた。",
+        "春になり、土から小さな芽が出てきた。"
+      ],
+      "explanations": [
+        "Kim đồng hồ là 針; 芽 không phải chi tiết đồng hồ.",
+        "Mắt là 目; 芽 là mầm thực vật.",
+        "Mở sách từ trang đầu là 最初のページ; 芽 không chỉ trang.",
+        "芽 là mầm cây mới nhú."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-23",
+      "type": "usage",
+      "word": "沼",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 46,
+      "prompt": "沼",
+      "origin": "authored",
+      "options": [
+        "この沼は底の泥が深いので、近づかないでください。",
+        "海岸で沼の満ち引きを観察した。",
+        "雨上がりの靴に付いた沼を布で拭いた。",
+        "コップの沼を飲み干した。"
+      ],
+      "explanations": [
+        "沼 là vùng nước có bùn sâu, cần cẩn thận.",
+        "Thủy triều là 潮; 沼 không có nghĩa mực triều biển.",
+        "Bùn bám giày là 泥; 沼 là đầm nước, không phải bùn.",
+        "Nước trong cốc là 水; 沼 chỉ địa hình chứa nước, không phải bản thân chất lỏng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai8-25",
+      "type": "usage",
+      "word": "頃",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 28,
+      "prompt": "頃",
+      "origin": "authored",
+      "options": [
+        "彼は私より五歳頃若い。",
+        "本を三冊買ったので、三冊頃になった。",
+        "子どもの頃は、この川でよく遊んだ。",
+        "駅まで二キロ頃歩いた。"
+      ],
+      "explanations": [
+        "Chênh lệch tuổi ước lượng là 五歳ぐらい; 頃 không biểu thị mức chênh lệch.",
+        "Ước lượng số vật là ぐらい; 頃 dùng cho thời gian.",
+        "頃 chỉ một giai đoạn thời gian, ở đây thời thơ ấu.",
+        "Khoảng cách xấp xỉ dùng ぐらい; 頃 không đi với kilomet."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai8-27",
+      "type": "usage",
+      "word": "判",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 73,
+      "prompt": "判",
+      "origin": "authored",
+      "options": [
+        "写真を撮るため、カメラの判を押した。",
+        "この道が安全かどうか、よく判を考えた。",
+        "字を間違えたので、判で消した。",
+        "内容を確認してから、契約書に判を押した。"
+      ],
+      "explanations": [
+        "Nút chụp là シャッター; 判 không chỉ nút bấm.",
+        "Phán đoán cần 判断する; 判 riêng trong câu này không có nghĩa toàn bộ quá trình suy nghĩ.",
+        "Dụng cụ xóa là 消しゴム; con dấu không xóa được chữ.",
+        "判 là con dấu, đi với 押す."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai8-30",
+      "type": "usage",
+      "word": "管",
+      "source_file": "resources/N1/goi/dai8.csv",
+      "source_line": 8,
+      "prompt": "管",
+      "origin": "authored",
+      "options": [
+        "地下に水を通す管が埋められている。",
+        "靴の管を結び直してから走った。",
+        "管を編んでセーターを作った。",
+        "電線の中を流れる管で照明を点灯させる。"
+      ],
+      "explanations": [
+        "管 là ống rỗng dẫn chất lỏng hoặc khí.",
+        "Dây giày là ひも, không phải ống.",
+        "Nguyên liệu đan áo là 糸／毛糸; 管 không có nghĩa sợi len.",
+        "Thứ chạy qua dây để thắp đèn là 電流; 管 là ống dẫn, không phải dòng điện."
+      ],
+      "answer": 0
+    }
+  ]
+}

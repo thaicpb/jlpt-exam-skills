@@ -25,6 +25,7 @@ html,body{margin:0}
 #jlpt-exam button:focus-visible,#jlpt-exam a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #jlpt-exam .wrap{max-width:720px;margin:0 auto;padding:calc(env(safe-area-inset-top,0px) + 14px) 16px 0}
 #jlpt-exam .brand{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+#jlpt-exam .home-link{display:inline-flex;align-items:center;min-height:44px;color:var(--accent);font-size:14px;text-decoration:none}
 #jlpt-exam h1{font-size:24px;font-weight:600;letter-spacing:-.02em;margin:2px 0 2px;text-wrap:balance}
 #jlpt-exam .meta{font-size:13px;color:var(--muted);margin:0 0 14px}
 #jlpt-exam .segmented{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;background:var(--soft);border-radius:10px;padding:3px;gap:3px}
@@ -93,6 +94,7 @@ html,body{margin:0}
 </style>
 <div class="wrap">
   <header>
+    <nav id="exam-home"></nav>
     <div class="brand">日本語 · Luyện từ vựng</div>
     <h1 id="exam-title">Luyện từ vựng JLPT</h1>
     <p class="meta" id="exam-meta"></p>
@@ -119,8 +121,12 @@ html,body{margin:0}
   const S = { mode: data.mode === 'exam' ? 'exam' : 'practice', answers: {}, submitted: false, confirm: false, only: null };
 
   root.dataset.level = data.level || 'N1';
-  document.getElementById('exam-title').textContent = `Luyện từ vựng ${data.level || ''}`.trim();
-  document.title = `Luyện từ vựng ${data.level || ''}`.trim();
+  const title = data.title || `Luyện từ vựng ${data.level || ''}`.trim();
+  document.getElementById('exam-title').textContent = title;
+  document.title = title;
+  if (data.home_href) {
+    document.getElementById('exam-home').append(h('a', { class: 'home-link', href: data.home_href }, '‹ Danh sách đề kiểm tra'));
+  }
   const paint = () => { document.body.style.background = getComputedStyle(root).getPropertyValue('--bg'); };
   paint(); matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', paint);
 

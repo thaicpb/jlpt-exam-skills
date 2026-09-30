@@ -1,0 +1,858 @@
+{
+  "id": "n1-dai7-30",
+  "title": "N1 · Bài 7 · 30 câu",
+  "level": "N1",
+  "lesson": "dai7",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093007,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai7.csv"
+  },
+  "choice_seed": 2026100007,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai7-01",
+      "type": "reading",
+      "word": "再び",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 35,
+      "prompt": "来年、【再び】この町を訪れたい。",
+      "origin": "authored",
+      "options": [
+        "したび",
+        "じゅんび",
+        "ふたたび",
+        "かんび"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "下火",
+          "reading": "したび",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 78
+        },
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 86
+        },
+        {
+          "word": "再び",
+          "reading": "ふたたび",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 35
+        },
+        {
+          "word": "完備",
+          "reading": "かんび",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 66
+        }
+      ],
+      "explanations": [
+        "したび là cách đọc của 下火 (sự suy giảm; trạng thái lắng xuống). Đây là từ có thật, nhưng không phải cách đọc của 再び trong câu.",
+        "じゅんび là cách đọc của 準備 (chuẩn bị). Đây là từ có thật, nhưng không phải cách đọc của 再び trong câu.",
+        "ふたたび là cách đọc của 再び (lại; một lần nữa). Khớp từ được gạch dưới trong câu.",
+        "かんび là cách đọc của 完備 (trang bị đầy đủ). Đây là từ có thật, nhưng không phải cách đọc của 再び trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-02",
+      "type": "reading",
+      "word": "大量に",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 42,
+      "prompt": "注文に備えて材料を【大量に】仕入れた。",
+      "origin": "authored",
+      "options": [
+        "ひじょうに",
+        "たしかに",
+        "たいりょうに",
+        "きゅうに"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "非常に",
+          "reading": "ひじょうに",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 46
+        },
+        {
+          "word": "確かに",
+          "reading": "たしかに",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 30
+        },
+        {
+          "word": "大量に",
+          "reading": "たいりょうに",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 42
+        },
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 32
+        }
+      ],
+      "explanations": [
+        "ひじょうに là cách đọc của 非常に (rất; vô cùng). Đây là từ có thật, nhưng không phải cách đọc của 大量に trong câu.",
+        "たしかに là cách đọc của 確かに (đúng là; chắc chắn). Đây là từ có thật, nhưng không phải cách đọc của 大量に trong câu.",
+        "たいりょうに là cách đọc của 大量に (với số lượng lớn). Khớp từ được gạch dưới trong câu.",
+        "きゅうに là cách đọc của 急に (đột nhiên; gấp). Đây là từ có thật, nhưng không phải cách đọc của 大量に trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-08",
+      "type": "reading",
+      "word": "堂々と",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 44,
+      "prompt": "大勢の前でも【堂々と】意見を述べた。",
+      "origin": "authored",
+      "options": [
+        "わざと",
+        "やっと",
+        "ものごと",
+        "どうどうと"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "わざと",
+          "reading": "わざと",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 24
+        },
+        {
+          "word": "やっと",
+          "reading": "やっと",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 23
+        },
+        {
+          "word": "物事",
+          "reading": "ものごと",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 38
+        },
+        {
+          "word": "堂々と",
+          "reading": "どうどうと",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 44
+        }
+      ],
+      "explanations": [
+        "わざと là cách đọc của わざと (cố ý; có chủ đích). Đây là từ có thật, nhưng không phải cách đọc của 堂々と trong câu.",
+        "やっと là cách đọc của やっと (cuối cùng cũng; mãi mới). Đây là từ có thật, nhưng không phải cách đọc của 堂々と trong câu.",
+        "ものごと là cách đọc của 物事 (sự vật, sự việc; mọi việc). Đây là từ có thật, nhưng không phải cách đọc của 堂々と trong câu.",
+        "どうどうと là cách đọc của 堂々と (đường hoàng; tự tin; công khai). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-19",
+      "type": "reading",
+      "word": "当然",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 43,
+      "prompt": "約束を守るのは【当然】のことだ。",
+      "origin": "authored",
+      "options": [
+        "とつぜん",
+        "とうごう",
+        "とうたつ",
+        "とうぜん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "突然",
+          "reading": "とつぜん",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 45
+        },
+        {
+          "word": "統合",
+          "reading": "とうごう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 75
+        },
+        {
+          "word": "到達",
+          "reading": "とうたつ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 77
+        },
+        {
+          "word": "当然",
+          "reading": "とうぜん",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 43
+        }
+      ],
+      "explanations": [
+        "とつぜん là cách đọc của 突然 (đột nhiên). Đây là từ có thật, nhưng không phải cách đọc của 当然 trong câu.",
+        "とうごう là cách đọc của 統合 (hợp nhất; tích hợp). Đây là từ có thật, nhưng không phải cách đọc của 当然 trong câu.",
+        "とうたつ là cách đọc của 到達 (đến được; đạt tới). Đây là từ có thật, nhưng không phải cách đọc của 当然 trong câu.",
+        "とうぜん là cách đọc của 当然 (đương nhiên). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-25",
+      "type": "reading",
+      "word": "一体",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 27,
+      "prompt": "これは【一体】どういうことなのだろう。",
+      "origin": "authored",
+      "options": [
+        "いったい",
+        "ぶったい",
+        "いっかつ",
+        "いくせい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "一体",
+          "reading": "いったい",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 27
+        },
+        {
+          "word": "物体",
+          "reading": "ぶったい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 39
+        },
+        {
+          "word": "一括",
+          "reading": "いっかつ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 35
+        },
+        {
+          "word": "育成",
+          "reading": "いくせい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 12
+        }
+      ],
+      "explanations": [
+        "いったい là cách đọc của 一体 (rốt cuộc, tóm lại). Khớp từ được gạch dưới trong câu.",
+        "ぶったい là cách đọc của 物体 (vật thể). Đây là từ có thật, nhưng không phải cách đọc của 一体 trong câu.",
+        "いっかつ là cách đọc của 一括 (gộp chung; xử lý một lần; trọn gói). Đây là từ có thật, nhưng không phải cách đọc của 一体 trong câu.",
+        "いくせい là cách đọc của 育成 (nuôi dưỡng). Đây là từ có thật, nhưng không phải cách đọc của 一体 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-27",
+      "type": "reading",
+      "word": "突然",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 45,
+      "prompt": "晴れていたのに、【突然】雨が降り始めた。",
+      "origin": "authored",
+      "options": [
+        "かいぜん",
+        "とうぜん",
+        "さつじん",
+        "とつぜん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 36
+        },
+        {
+          "word": "当然",
+          "reading": "とうぜん",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 43
+        },
+        {
+          "word": "殺人",
+          "reading": "さつじん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 39
+        },
+        {
+          "word": "突然",
+          "reading": "とつぜん",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 45
+        }
+      ],
+      "explanations": [
+        "かいぜん là cách đọc của 改善 (cải thiện). Đây là từ có thật, nhưng không phải cách đọc của 突然 trong câu.",
+        "とうぜん là cách đọc của 当然 (đương nhiên). Đây là từ có thật, nhưng không phải cách đọc của 突然 trong câu.",
+        "さつじん là cách đọc của 殺人 (việc giết người; tội giết người). Đây là từ có thật, nhưng không phải cách đọc của 突然 trong câu.",
+        "とつぜん là cách đọc của 突然 (đột nhiên). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-30",
+      "type": "reading",
+      "word": "例えば",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 48,
+      "prompt": "果物なら、【例えば】りんごやみかんが好きだ。",
+      "origin": "authored",
+      "options": [
+        "たとえば",
+        "たんいつ",
+        "たいぐう",
+        "たいおう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "例えば",
+          "reading": "たとえば",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 48
+        },
+        {
+          "word": "単一",
+          "reading": "たんいつ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 45
+        },
+        {
+          "word": "待遇",
+          "reading": "たいぐう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 41
+        },
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 39
+        }
+      ],
+      "explanations": [
+        "たとえば là cách đọc của 例えば (ví dụ; chẳng hạn). Khớp từ được gạch dưới trong câu.",
+        "たんいつ là cách đọc của 単一 (đơn nhất; chỉ có một loại). Đây là từ có thật, nhưng không phải cách đọc của 例えば trong câu.",
+        "たいぐう là cách đọc của 待遇 (chế độ đãi ngộ; cách đối đãi). Đây là từ có thật, nhưng không phải cách đọc của 例えば trong câu.",
+        "たいおう là cách đọc của 対応 (ứng phó; xử lý; đáp ứng, hỗ trợ). Đây là từ có thật, nhưng không phải cách đọc của 例えば trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai7-04",
+      "type": "context",
+      "word": "ヒント",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 81,
+      "prompt": "正解そのものは教えないので、解くための（　）だけ出します。",
+      "origin": "authored",
+      "options": [
+        "テーマ",
+        "データ",
+        "ルール",
+        "ヒント"
+      ],
+      "explanations": [
+        "テーマ là chủ đề, không trực tiếp là gợi ý tìm đáp án.",
+        "データ là dữ liệu; câu chủ ý giúp giải mà không nói đáp án là ヒント.",
+        "ルール là quy tắc phải tuân theo, không phải manh mối giải bài.",
+        "ヒント là gợi ý dẫn đến đáp án, không phải đáp án hoàn chỉnh."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai7-06",
+      "type": "context",
+      "word": "ホール",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 88,
+      "prompt": "五百人が一度に座って演奏を聴ける（　）を予約した。",
+      "origin": "authored",
+      "options": [
+        "フロント",
+        "ホーム",
+        "フォーム",
+        "ホール"
+      ],
+      "explanations": [
+        "フロント là quầy tiếp tân, không phải nơi 500 người ngồi nghe.",
+        "ホーム là sân ga hoặc cơ sở sinh hoạt, không phải phòng hòa nhạc.",
+        "フォーム là biểu mẫu hoặc tư thế, không chỉ không gian.",
+        "ホール là hội trường đủ chỗ cho buổi biểu diễn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai7-07",
+      "type": "context",
+      "word": "メロディー",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 93,
+      "prompt": "歌詞は思い出せないが、あの曲の（　）なら鼻歌で歌える。",
+      "origin": "authored",
+      "options": [
+        "リズム",
+        "ボリューム",
+        "メロディー",
+        "テンポ"
+      ],
+      "explanations": [
+        "リズム là nhịp điệu; 鼻歌で歌える chỉ tuyến giai điệu, không chỉ phách.",
+        "ボリューム là âm lượng, không thể hát lại âm lượng như một bài.",
+        "メロディー là giai điệu có thể ngân nga không cần lời.",
+        "テンポ là tốc độ bài nhạc, không phải phần giai điệu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai7-09",
+      "type": "context",
+      "word": "チャレンジ",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 73,
+      "prompt": "経験はないが、失敗を恐れず新しい競技に（　）してみたい。",
+      "origin": "authored",
+      "options": [
+        "チェック",
+        "チャレンジ",
+        "チェンジ",
+        "キャンセル"
+      ],
+      "explanations": [
+        "チェックする là kiểm tra, không phải tham gia thử sức.",
+        "チャレンジする là thử sức với việc khó hoặc mới.",
+        "チェンジする là đổi; không có nghĩa thách thức bản thân với môn mới.",
+        "キャンセルする là hủy, trái ý thử làm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-14",
+      "type": "context",
+      "word": "デザイン",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 76,
+      "prompt": "機能は同じだが、形や色の（　）が気に入ったのでこちらを買った。",
+      "origin": "authored",
+      "options": [
+        "デザイン",
+        "プラン",
+        "サイズ",
+        "サイン"
+      ],
+      "explanations": [
+        "デザイン là thiết kế hình dáng, màu sắc.",
+        "プラン là kế hoạch; ở đây đánh giá ngoại hình sản phẩm đã hoàn thành.",
+        "サイズ là kích thước, không bao quát hình dáng và màu.",
+        "サイン là dấu hiệu hoặc chữ ký, không chỉ kiểu thiết kế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-16",
+      "type": "context",
+      "word": "パンク",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 79,
+      "prompt": "道路のくぎが刺さり、タイヤが（　）して空気が抜けた。",
+      "origin": "authored",
+      "options": [
+        "スリップ",
+        "パンク",
+        "ストップ",
+        "パニック"
+      ],
+      "explanations": [
+        "スリップ là trượt bánh; không đồng nghĩa thủng lốp.",
+        "パンク là thủng lốp, làm thoát hơi.",
+        "ストップ là dừng lại, không diễn đạt thủng gây mất hơi.",
+        "パニック là hoảng loạn, không phải hỏng lốp."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-17",
+      "type": "context",
+      "word": "カーペット",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 56,
+      "prompt": "足元が冷えるので、床一面に厚い（　）を敷いた。",
+      "origin": "authored",
+      "options": [
+        "カーテン",
+        "カーペット",
+        "シーツ",
+        "タオル"
+      ],
+      "explanations": [
+        "カーテン là rèm, thường treo ở cửa.",
+        "カーペット là thảm trải sàn, đi với 敷く.",
+        "シーツ là ga giường, không phải thảm dày trải sàn.",
+        "タオル là khăn lau, không phải lớp phủ cả sàn để giữ ấm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-18",
+      "type": "context",
+      "word": "ネックレス",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 78,
+      "prompt": "首に着けている、真珠をつないだ（　）は母からの贈り物だ。",
+      "origin": "authored",
+      "options": [
+        "ネックレス",
+        "リング",
+        "イヤリング",
+        "ブレスレット"
+      ],
+      "explanations": [
+        "ネックレス là vòng đeo cổ.",
+        "リング là nhẫn hoặc vòng tròn; vòng ngọc trai đeo cổ là ネックレス.",
+        "イヤリング đeo ở tai, không phải quanh cổ.",
+        "ブレスレット đeo ở cổ tay, không phải cổ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-03",
+      "type": "paraphrase",
+      "word": "グローバル",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 59,
+      "prompt": "【グローバルな】視点で環境問題を考える。",
+      "origin": "authored",
+      "options": [
+        "過去だけを重視した",
+        "一つの町だけに限った",
+        "個人の利益だけを考えた",
+        "世界全体に目を向けた"
+      ],
+      "explanations": [
+        "Chỉ coi trọng quá khứ không nói phạm vi quốc tế.",
+        "Chỉ một thị trấn trái với toàn cầu.",
+        "Chỉ lợi ích cá nhân không phải tầm nhìn thế giới.",
+        "グローバル là phạm vi toàn cầu."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai7-10",
+      "type": "paraphrase",
+      "word": "いきなり",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 10,
+      "prompt": "彼は何も言わずに【いきなり】走り出した。",
+      "origin": "authored",
+      "options": [
+        "突然",
+        "順番に",
+        "徐々に",
+        "普段から"
+      ],
+      "explanations": [
+        "いきなり là bất ngờ, không báo trước.",
+        "順番に là lần lượt, không phải bất ngờ.",
+        "徐々に là dần dần, trái nghĩa.",
+        "普段から là từ thường ngày, không chỉ khởi đầu đột ngột."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-11",
+      "type": "paraphrase",
+      "word": "プロ",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 86,
+      "prompt": "彼女は料理の【プロ】だ。",
+      "origin": "authored",
+      "options": [
+        "専門家",
+        "依頼者",
+        "初心者",
+        "見学者"
+      ],
+      "explanations": [
+        "プロ là người làm lĩnh vực đó một cách chuyên nghiệp.",
+        "依頼者 là người yêu cầu công việc, không phải chuyên gia thực hiện.",
+        "初心者 là người mới bắt đầu, khác người chuyên nghiệp.",
+        "見学者 chỉ người đến quan sát."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-12",
+      "type": "paraphrase",
+      "word": "エース",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 52,
+      "prompt": "彼はこのチームの【エース】だ。",
+      "origin": "authored",
+      "options": [
+        "引退したばかりの選手",
+        "試合を裁く人",
+        "応援に来た人",
+        "中心となって活躍する選手"
+      ],
+      "explanations": [
+        "Vừa giải nghệ không diễn đạt vị trí chủ lực hiện tại.",
+        "Người điều khiển và xử lý vi phạm là trọng tài.",
+        "Khán giả cổ vũ không phải cầu thủ chủ lực.",
+        "エース là tuyển thủ chủ lực."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai7-13",
+      "type": "paraphrase",
+      "word": "わざわざ",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 25,
+      "prompt": "遠いところを【わざわざ】来てくれた。",
+      "origin": "authored",
+      "options": [
+        "誰にも気付かれないように",
+        "何の予定もなく偶然",
+        "いつもと同じように",
+        "特に手間をかけて"
+      ],
+      "explanations": [
+        "Giấu không để ai biết là こっそり, không phải わざわざ.",
+        "Tình cờ không có dự định trái với cất công.",
+        "Như thường lệ không thể hiện nỗ lực đặc biệt.",
+        "わざわざ là cất công làm riêng việc đó."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai7-21",
+      "type": "paraphrase",
+      "word": "たまたま",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 18,
+      "prompt": "駅で【たまたま】昔の友人に会った。",
+      "origin": "authored",
+      "options": [
+        "何度も",
+        "偶然",
+        "予定どおりに",
+        "急いで"
+      ],
+      "explanations": [
+        "Nhiều lần không chỉ sự ngẫu nhiên.",
+        "たまたま là tình cờ, không hẹn trước.",
+        "Theo kế hoạch trái với tình cờ.",
+        "Vội vàng nói tốc độ, không phải tình cờ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-22",
+      "type": "paraphrase",
+      "word": "レベル",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 95,
+      "prompt": "このクラスは学習者の【レベル】に合っている。",
+      "origin": "authored",
+      "options": [
+        "将来の夢",
+        "勉強する時間帯",
+        "能力の段階",
+        "出身の地域"
+      ],
+      "explanations": [
+        "Ước mơ tương lai không phải trình độ hiện tại.",
+        "Khung giờ học không phải mức độ thành thạo.",
+        "レベル là mức trình độ.",
+        "Quê quán không chỉ năng lực."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai7-29",
+      "type": "paraphrase",
+      "word": "たいてい",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 17,
+      "prompt": "休日は【たいてい】家にいる。",
+      "origin": "authored",
+      "options": [
+        "一度も欠かさず",
+        "ほとんどの場合",
+        "その一回だけ",
+        "めったに"
+      ],
+      "explanations": [
+        "Không lần nào ngoại lệ mạnh hơn たいてい, vốn cho phép ngoại lệ.",
+        "たいてい là thường, trong phần lớn trường hợp.",
+        "Chỉ đúng lần đó khác thường xuyên.",
+        "めったに thường đi với phủ định, mang nghĩa hiếm khi."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-05",
+      "type": "usage",
+      "word": "メディア",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 92,
+      "prompt": "メディア",
+      "origin": "authored",
+      "options": [
+        "テレビのメディアを大きくして、声を聞きやすくした。",
+        "テレビのメディアを押して、チャンネルを替えた。",
+        "新聞やテレビなどのメディアが事件を報じた。",
+        "記者会見でメディアを一人ずつ配った。"
+      ],
+      "explanations": [
+        "Âm lượng là ボリューム; メディア là phương tiện, không phải mức âm thanh.",
+        "Nút hoặc điều khiển đổi kênh là ボタン／リモコン; メディア không phải nút điều khiển.",
+        "メディア là phương tiện truyền thông.",
+        "Một thông cáo để phát là 資料; メディア không chỉ tờ thông cáo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai7-15",
+      "type": "usage",
+      "word": "プライド",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 84,
+      "prompt": "プライド",
+      "origin": "authored",
+      "options": [
+        "外国で道が分からず、プライドに案内を頼んだ。",
+        "自分の仕事にプライドを持っている。",
+        "締め切りが迫り、上司からのプライドを感じた。",
+        "不良品だったので、店にプライドを伝えた。"
+      ],
+      "explanations": [
+        "Người hướng dẫn là ガイド; プライド không chỉ người.",
+        "プライド là lòng tự trọng và tự hào nghề nghiệp.",
+        "Áp lực từ cấp trên là プレッシャー, không phải lòng tự trọng.",
+        "Phàn nàn về sản phẩm là クレーム／苦情; không phải lòng kiêu hãnh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-20",
+      "type": "usage",
+      "word": "ストーリー",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 67,
+      "prompt": "ストーリー",
+      "origin": "authored",
+      "options": [
+        "この小説はストーリーの展開が面白い。",
+        "撮影前に髪のストーリーを整えた。",
+        "上映のストーリーは午後七時だ。",
+        "登場人物のストーリーがうまいので、この俳優が好きだ。"
+      ],
+      "explanations": [
+        "ストーリー là câu chuyện, cốt truyện.",
+        "Kiểu tóc là スタイル; không phải cốt truyện.",
+        "Giờ chiếu là 時刻／開始時間; ストーリー không chỉ giờ bắt đầu.",
+        "Kỹ năng diễn là 演技; ストーリー không có nghĩa diễn xuất."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-23",
+      "type": "usage",
+      "word": "エプロン",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 53,
+      "prompt": "エプロン",
+      "origin": "authored",
+      "options": [
+        "靴を汚さないよう、足にエプロンを履いた。",
+        "熱い鍋を持つので、両手にエプロンをはめた。",
+        "服を汚さないよう、エプロンを着けて料理した。",
+        "料理をこぼしたので、紙のエプロンで口を拭いた。"
+      ],
+      "explanations": [
+        "Vật mang ở chân là giày hoặc vỏ bọc giày; エプロン không đi với 履く.",
+        "Vật xỏ vào hai tay cầm nồi nóng là ミトン, không phải tạp dề.",
+        "エプロン là tạp dề bảo vệ quần áo.",
+        "Giấy lau miệng là ナプキン; tạp dề không có chức năng đó."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai7-24",
+      "type": "usage",
+      "word": "ロマンチック",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 55,
+      "prompt": "ロマンチック",
+      "origin": "authored",
+      "options": [
+        "星空の下で過ごす、ロマンチックな夜だった。",
+        "事故を防ぐための規則はロマンチックに守る。",
+        "作業の無駄を省くことを、ロマンチックと呼ぶ。",
+        "書類の数字が正しいので、ロマンチックな計算だ。"
+      ],
+      "explanations": [
+        "ロマンチック diễn tả không khí thơ mộng, lãng mạn.",
+        "Tuân thủ nghiêm ngặt là 厳格に; ロマンチック không mang nghĩa nghiêm túc chấp hành.",
+        "Hợp lý hóa là 合理化; không phải tạo không khí lãng mạn.",
+        "Tính đúng là 正確な; không phải lãng mạn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai7-26",
+      "type": "usage",
+      "word": "ユニフォーム",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 94,
+      "prompt": "ユニフォーム",
+      "origin": "authored",
+      "options": [
+        "チームのユニフォームを話し合って、次の試合の作戦を決めた。",
+        "選手たちは同じユニフォームを着て入場した。",
+        "左右のユニフォームをそろえて髪を切った。",
+        "選手登録のユニフォームに住所を入力した。"
+      ],
+      "explanations": [
+        "Bàn chiến thuật là 戦術／方針; đồng phục không phải chiến lược thi đấu.",
+        "ユニフォーム là đồng phục của đội.",
+        "Độ dài hai bên là 長さ; ユニフォーム không có nghĩa sự cân đối.",
+        "Biểu mẫu điện tử là フォーム; ユニフォーム là quần áo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai7-28",
+      "type": "usage",
+      "word": "タッチ",
+      "source_file": "resources/N1/goi/dai7.csv",
+      "source_line": 72,
+      "prompt": "タッチ",
+      "origin": "authored",
+      "options": [
+        "相手の意見にタッチしたので、賛成票を入れた。",
+        "試合で一点タッチしたので、同点になった。",
+        "画面に軽くタッチすると、次のページが開く。",
+        "パソコンを買う前に、値段をタッチした。"
+      ],
+      "explanations": [
+        "Tán thành ý kiến là 賛同した; タッチ không có nghĩa đồng ý.",
+        "Ghi một điểm là 得点した; タッチ không mang nghĩa có điểm.",
+        "タッチする là chạm nhẹ lên bề mặt.",
+        "Kiểm tra giá là チェックした; không phải chạm giá."
+      ],
+      "answer": 2
+    }
+  ]
+}

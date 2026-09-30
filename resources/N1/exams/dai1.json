@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai1-30",
+  "title": "N1 · Bài 1 · 30 câu",
+  "level": "N1",
+  "lesson": "dai1",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093001,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai1.csv"
+  },
+  "choice_seed": 2026100001,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai1-01",
+      "type": "reading",
+      "word": "一時",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 13,
+      "prompt": "大雪のため、高速道路は【一時】通行止めになった。",
+      "origin": "authored",
+      "options": [
+        "いちじ",
+        "いえじ",
+        "いくじ",
+        "いじ"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "一時",
+          "reading": "いちじ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 13
+        },
+        {
+          "word": "家路",
+          "reading": "いえじ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 90
+        },
+        {
+          "word": "育児",
+          "reading": "いくじ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 34
+        },
+        {
+          "word": "維持",
+          "reading": "いじ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 9
+        }
+      ],
+      "explanations": [
+        "いちじ là cách đọc của 一時 (tạm thời, một lần). Khớp từ được gạch dưới trong câu.",
+        "いえじ là cách đọc của 家路 (đường về nhà). Đây là từ có thật, nhưng không phải cách đọc của 一時 trong câu.",
+        "いくじ là cách đọc của 育児 (nuôi dạy trẻ). Đây là từ có thật, nhưng không phải cách đọc của 一時 trong câu.",
+        "いじ là cách đọc của 維持 (duy trì). Đây là từ có thật, nhưng không phải cách đọc của 一時 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-03",
+      "type": "reading",
+      "word": "確率",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 39,
+      "prompt": "この実験で成功する【確率】を求めた。",
+      "origin": "authored",
+      "options": [
+        "かいせつ",
+        "かくりつ",
+        "かくだい",
+        "かいけつ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "解説",
+          "reading": "かいせつ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 33
+        },
+        {
+          "word": "確率",
+          "reading": "かくりつ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 39
+        },
+        {
+          "word": "拡大",
+          "reading": "かくだい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 37
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 29
+        }
+      ],
+      "explanations": [
+        "かいせつ là cách đọc của 解説 (giải thích). Đây là từ có thật, nhưng không phải cách đọc của 確率 trong câu.",
+        "かくりつ là cách đọc của 確率 (xác suất). Khớp từ được gạch dưới trong câu.",
+        "かくだい là cách đọc của 拡大 (mở rộng, phóng to). Đây là từ có thật, nhưng không phải cách đọc của 確率 trong câu.",
+        "かいけつ là cách đọc của 解決 (giải quyết). Đây là từ có thật, nhưng không phải cách đọc của 確率 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-04",
+      "type": "reading",
+      "word": "課題",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 26,
+      "prompt": "人口減少はこの町の大きな【課題】だ。",
+      "origin": "authored",
+      "options": [
+        "かてい",
+        "かんい",
+        "かだい",
+        "かけい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "過程",
+          "reading": "かてい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 27
+        },
+        {
+          "word": "簡易",
+          "reading": "かんい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 49
+        },
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 26
+        },
+        {
+          "word": "家計",
+          "reading": "かけい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 24
+        }
+      ],
+      "explanations": [
+        "かてい là cách đọc của 過程 (quá trình, giai đoạn). Đây là từ có thật, nhưng không phải cách đọc của 課題 trong câu.",
+        "かんい là cách đọc của 簡易 (đơn giản). Đây là từ có thật, nhưng không phải cách đọc của 課題 trong câu.",
+        "かだい là cách đọc của 課題 (chủ đề, đề tài). Khớp từ được gạch dưới trong câu.",
+        "かけい là cách đọc của 家計 (kinh tế (tài chính) gđình). Đây là từ có thật, nhưng không phải cách đọc của 課題 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-05",
+      "type": "reading",
+      "word": "育成",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 12,
+      "prompt": "若い技術者の【育成】に力を入れる。",
+      "origin": "authored",
+      "options": [
+        "いくせい",
+        "いるい",
+        "いったい",
+        "いらい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "育成",
+          "reading": "いくせい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 12
+        },
+        {
+          "word": "衣類",
+          "reading": "いるい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 31
+        },
+        {
+          "word": "一体",
+          "reading": "いったい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 14
+        },
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 22
+        }
+      ],
+      "explanations": [
+        "いくせい là cách đọc của 育成 (nuôi dưỡng). Khớp từ được gạch dưới trong câu.",
+        "いるい là cách đọc của 衣類 (quần áo). Đây là từ có thật, nhưng không phải cách đọc của 育成 trong câu.",
+        "いったい là cách đọc của 一体 (rốt cuộc, tóm lại). Đây là từ có thật, nhưng không phải cách đọc của 育成 trong câu.",
+        "いらい là cách đọc của 依頼 (nhờ; yêu cầu). Đây là từ có thật, nhưng không phải cách đọc của 育成 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-06",
+      "type": "reading",
+      "word": "企業",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 51,
+      "prompt": "地元の【企業】と共同で研究を進める。",
+      "origin": "authored",
+      "options": [
+        "きぎょう",
+        "きんゆう",
+        "きょうふ",
+        "きにゅう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 51
+        },
+        {
+          "word": "金融",
+          "reading": "きんゆう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 79
+        },
+        {
+          "word": "恐怖",
+          "reading": "きょうふ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 72
+        },
+        {
+          "word": "記入",
+          "reading": "きにゅう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 63
+        }
+      ],
+      "explanations": [
+        "きぎょう là cách đọc của 企業 (doanh nghiệp). Khớp từ được gạch dưới trong câu.",
+        "きんゆう là cách đọc của 金融 (tài chính, tín dụng). Đây là từ có thật, nhưng không phải cách đọc của 企業 trong câu.",
+        "きょうふ là cách đọc của 恐怖 (nỗi sợ hãi). Đây là từ có thật, nhưng không phải cách đọc của 企業 trong câu.",
+        "きにゅう là cách đọc của 記入 (ghi chép, điền vào). Đây là từ có thật, nhưng không phải cách đọc của 企業 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-07",
+      "type": "reading",
+      "word": "緊張",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 77,
+      "prompt": "面接の前はひどく【緊張】した。",
+      "origin": "authored",
+      "options": [
+        "きんゆう",
+        "きぎょう",
+        "きんちょう",
+        "きょうちょう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "金融",
+          "reading": "きんゆう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 79
+        },
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 51
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 77
+        },
+        {
+          "word": "強調",
+          "reading": "きょうちょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 71
+        }
+      ],
+      "explanations": [
+        "きんゆう là cách đọc của 金融 (tài chính, tín dụng). Đây là từ có thật, nhưng không phải cách đọc của 緊張 trong câu.",
+        "きぎょう là cách đọc của 企業 (doanh nghiệp). Đây là từ có thật, nhưng không phải cách đọc của 緊張 trong câu.",
+        "きんちょう là cách đọc của 緊張 (căng thẳng). Khớp từ được gạch dưới trong câu.",
+        "きょうちょう là cách đọc của 強調 (nhấn mạnh). Đây là từ có thật, nhưng không phải cách đọc của 緊張 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-08",
+      "type": "reading",
+      "word": "栄養",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 21,
+      "prompt": "十分な【栄養】を取って休んでください。",
+      "origin": "authored",
+      "options": [
+        "えいよう",
+        "がいよう",
+        "さいよう",
+        "えいゆう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "栄養",
+          "reading": "えいよう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 21
+        },
+        {
+          "word": "概要",
+          "reading": "がいよう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 33
+        },
+        {
+          "word": "採用",
+          "reading": "さいよう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 34
+        },
+        {
+          "word": "英雄",
+          "reading": "えいゆう",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 54
+        }
+      ],
+      "explanations": [
+        "えいよう là cách đọc của 栄養 (dinh dưỡng). Khớp từ được gạch dưới trong câu.",
+        "がいよう là cách đọc của 概要 (tổng quan). Đây là từ có thật, nhưng không phải cách đọc của 栄養 trong câu.",
+        "さいよう là cách đọc của 採用 (tuyển dụng). Đây là từ có thật, nhưng không phải cách đọc của 栄養 trong câu.",
+        "えいゆう là cách đọc của 英雄 (anh hùng). Đây là từ có thật, nhưng không phải cách đọc của 栄養 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-13",
+      "type": "reading",
+      "word": "故郷",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 100,
+      "prompt": "十年ぶりに【故郷】を訪れた。",
+      "origin": "authored",
+      "options": [
+        "こきゃく",
+        "こうぞう",
+        "こきょう",
+        "こくゆう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "顧客",
+          "reading": "こきゃく",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 2
+        },
+        {
+          "word": "構造",
+          "reading": "こうぞう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 18
+        },
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 100
+        },
+        {
+          "word": "国有",
+          "reading": "こくゆう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 28
+        }
+      ],
+      "explanations": [
+        "こきゃく là cách đọc của 顧客 (khách hàng, khách quen). Đây là từ có thật, nhưng không phải cách đọc của 故郷 trong câu.",
+        "こうぞう là cách đọc của 構造 (kết cấu). Đây là từ có thật, nhưng không phải cách đọc của 故郷 trong câu.",
+        "こきょう là cách đọc của 故郷 (cố hương, quê hương). Khớp từ được gạch dưới trong câu.",
+        "こくゆう là cách đọc của 国有 (sở hữu quốc gia). Đây là từ có thật, nhưng không phải cách đọc của 故郷 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai1-02",
+      "type": "context",
+      "word": "苦労",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 80,
+      "prompt": "資金も人手も足りず、新しい店を開くまでには大変な（　）があった。",
+      "origin": "authored",
+      "options": [
+        "苦痛",
+        "苦労",
+        "苦情",
+        "疲労"
+      ],
+      "explanations": [
+        "苦痛 là đau đớn, khổ sở về thân thể hoặc tinh thần; ở đây nói công sức vượt khó để mở cửa hàng.",
+        "Chỉ sự vất vả do thiếu tiền và nhân lực trước khi mở cửa hàng.",
+        "苦情 là lời phàn nàn từ người khác; câu không nói có người khiếu nại.",
+        "疲労 là mệt mỏi tích tụ về thể chất, không bao quát những khó khăn gây dựng cửa hàng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-09",
+      "type": "context",
+      "word": "意向",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 4,
+      "prompt": "手術を受けるかどうかは、医師だけで決めず、患者本人の（　）を尊重する。",
+      "origin": "authored",
+      "options": [
+        "意義",
+        "意図",
+        "意向",
+        "意識"
+      ],
+      "explanations": [
+        "意義 là ý nghĩa, giá trị của việc gì, không phải nguyện vọng cá nhân.",
+        "意図 nhấn mạnh mục đích đứng sau hành động; ở đây chưa có hành động mà đang hỏi ý muốn lựa chọn.",
+        "意向 là ý muốn của người bệnh, điều cần tôn trọng khi quyết định.",
+        "意識 là ý thức, sự tỉnh táo; câu hỏi người bệnh có muốn phẫu thuật hay không."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai1-10",
+      "type": "context",
+      "word": "減速",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 96,
+      "prompt": "制限速度が低くなる区間に入ったので、車を（　）させた。",
+      "origin": "authored",
+      "options": [
+        "発進",
+        "加速",
+        "減速",
+        "停車"
+      ],
+      "explanations": [
+        "発進 là bắt đầu cho xe chạy; xe trong câu đã chạy.",
+        "加速 là tăng tốc, ngược yêu cầu giới hạn thấp hơn.",
+        "Giảm tốc độ để phù hợp giới hạn thấp hơn.",
+        "停車 là dừng xe, không phải điều chỉnh xuống mức tốc độ thấp hơn; 車を停車させた cũng cần ngữ cảnh dừng hẳn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai1-11",
+      "type": "context",
+      "word": "回収",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 34,
+      "prompt": "欠陥が見つかった製品を市場からすべて（　）し、購入者に代金を返した。",
+      "origin": "authored",
+      "options": [
+        "回転",
+        "回収",
+        "回答",
+        "回復"
+      ],
+      "explanations": [
+        "回転 là quay hoặc xoay vòng; không mang nghĩa thu hồi.",
+        "回収 là thu hồi sản phẩm đã đưa ra thị trường.",
+        "回答 là trả lời câu hỏi; sản phẩm không phải câu hỏi để trả lời.",
+        "回復 là hồi phục trạng thái tốt, không phải thu gom sản phẩm từ khách hàng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-14",
+      "type": "context",
+      "word": "管理",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 48,
+      "prompt": "個人情報が外部に漏れないよう、顧客データを厳重に（　）する。",
+      "origin": "authored",
+      "options": [
+        "監視",
+        "整理",
+        "処理",
+        "管理"
+      ],
+      "explanations": [
+        "監視 là theo dõi đối tượng hoặc hoạt động; dữ liệu khách hàng cần được quản lý, không phải giám sát hành động của nó.",
+        "整理 là sắp xếp; riêng việc sắp xếp không diễn đạt kiểm soát nghiêm ngặt chống rò rỉ.",
+        "処理 là xử lý công việc hoặc dữ liệu; 厳重に管理する là kết hợp thể hiện bảo vệ quyền truy cập.",
+        "管理 là quản lý, bảo vệ dữ liệu theo quy tắc."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-16",
+      "type": "context",
+      "word": "競争",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 67,
+      "prompt": "同じ地域の二つのスーパーが、客を獲得しようと激しく（　）している。",
+      "origin": "authored",
+      "options": [
+        "共存",
+        "協力",
+        "競技",
+        "競争"
+      ],
+      "explanations": [
+        "共存 là cùng tồn tại; không kết hợp 激しく để nói tranh giành.",
+        "協力 là hợp tác, trái quan hệ tranh giành khách trong câu.",
+        "競技 là thi đấu thể thao theo luật, không phải cạnh tranh giữa cửa hàng.",
+        "競争 là cạnh tranh để giành khách hàng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-19",
+      "type": "context",
+      "word": "検査",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 90,
+      "prompt": "感染しているか確認するため、採取した血液を（　）に回した。",
+      "origin": "authored",
+      "options": [
+        "検査",
+        "検索",
+        "検討",
+        "点検"
+      ],
+      "explanations": [
+        "血液検査 là xét nghiệm máu để xác định nhiễm bệnh.",
+        "検索 là tra cứu thông tin trong dữ liệu, không phân tích mẫu bệnh phẩm.",
+        "検討 là cân nhắc phương án, không phải xét nghiệm mẫu máu.",
+        "点検 dùng khi kiểm tra hỏng hóc hoặc tình trạng thiết bị; mẫu máu được 検査."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai1-20",
+      "type": "context",
+      "word": "移行",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 8,
+      "prompt": "紙の申請書を廃止し、来月からオンライン申請に（　）する。",
+      "origin": "authored",
+      "options": [
+        "移転",
+        "移行",
+        "移動",
+        "移住"
+      ],
+      "explanations": [
+        "移転 chủ yếu chuyển địa điểm văn phòng hoặc quyền sở hữu; không diễn đạt chuyển phương thức申請.",
+        "移行 là chuyển từ phương thức cũ sang phương thức mới.",
+        "移動 là di chuyển vị trí; ở đây thay đổi hệ thống thủ tục.",
+        "移住 là chuyển nơi cư trú của người; không áp dụng cho thủ tục."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-12",
+      "type": "paraphrase",
+      "word": "感心",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 46,
+      "prompt": "彼の粘り強さに【感心】した。",
+      "origin": "authored",
+      "options": [
+        "同情",
+        "安心",
+        "警戒",
+        "感服"
+      ],
+      "explanations": [
+        "同情 là thương cảm, không phải đánh giá cao năng lực hoặc thái độ.",
+        "安心 là yên tâm, không phải thán phục tính kiên trì.",
+        "警戒 là cảnh giác, trái với sự khâm phục ở đây.",
+        "感服 là khâm phục, gần nghĩa với 感心 trong câu."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-15",
+      "type": "paraphrase",
+      "word": "覚悟",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 41,
+      "prompt": "反対される【覚悟】はできている。",
+      "origin": "authored",
+      "options": [
+        "強い不満",
+        "成功の見込み",
+        "詳しい知識",
+        "心の準備"
+      ],
+      "explanations": [
+        "強い不満 là bất mãn mạnh, không mang nghĩa chấp nhận trước hậu quả.",
+        "成功の見込み là triển vọng thành công, không phải tâm thế chịu phản đối.",
+        "詳しい知識 là kiến thức chi tiết, không phải sự sẵn sàng tinh thần.",
+        "覚悟 là chuẩn bị tinh thần đón nhận điều khó khăn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-17",
+      "type": "paraphrase",
+      "word": "影響",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 20,
+      "prompt": "この法律は暮らしに【大きな影響を与える】。",
+      "origin": "authored",
+      "options": [
+        "過去の記録を残す",
+        "厳しい条件を設ける",
+        "大きな変化をもたらす",
+        "新しい名前を付ける"
+      ],
+      "explanations": [
+        "Lưu ghi chép quá khứ không phải gây thay đổi đời sống.",
+        "Đặt điều kiện khắt khe là hành động cụ thể khác với tác động nói chung.",
+        "影響を与える là tác động khiến đời sống thay đổi.",
+        "Đặt tên mới không phải nghĩa của 影響を与える."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai1-18",
+      "type": "paraphrase",
+      "word": "意欲",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 7,
+      "prompt": "彼女は【研究への意欲を持ち続けている】。",
+      "origin": "authored",
+      "options": [
+        "他人の研究成果を疑っている",
+        "研究に進んで取り組もうとしている",
+        "研究の失敗を恐れている",
+        "研究を途中でやめようとしている"
+      ],
+      "explanations": [
+        "Nghi ngờ kết quả người khác không phải động lực.",
+        "意欲 là động lực và mong muốn chủ động làm việc.",
+        "Lo thất bại khác mong muốn thực hiện nghiên cứu.",
+        "Muốn bỏ giữa chừng trái với duy trì động lực."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-21",
+      "type": "paraphrase",
+      "word": "過程",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 27,
+      "prompt": "完成までの【過程】を記録する。",
+      "origin": "authored",
+      "options": [
+        "費用",
+        "道筋",
+        "期限",
+        "結論"
+      ],
+      "explanations": [
+        "費用 là chi phí, không phải diễn tiến.",
+        "過程 là diễn tiến, các bước từ bắt đầu đến hoàn thành.",
+        "期限 là hạn chót, không phải các bước diễn ra.",
+        "結論 là kết luận cuối, không phải tiến trình."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-24",
+      "type": "paraphrase",
+      "word": "一体",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 14,
+      "prompt": "彼は【一体】どこへ行ったのだろう。",
+      "origin": "authored",
+      "options": [
+        "少しずつ",
+        "たいてい",
+        "必ず",
+        "いったいぜんたい"
+      ],
+      "explanations": [
+        "少しずつ là từng chút một, không phải từ nhấn mạnh nghi vấn.",
+        "たいてい chỉ thường lệ hoặc phần lớn, không nhấn mạnh thắc mắc.",
+        "必ず là nhất định, không mang nghĩa rốt cuộc.",
+        "いったいぜんたい nhấn mạnh nghi vấn, tương đương 一体 ở đây."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-25",
+      "type": "paraphrase",
+      "word": "経過",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 85,
+      "prompt": "治療後の【経過】は良好だ。",
+      "origin": "authored",
+      "options": [
+        "病気に付けられた名前",
+        "治療を始めた理由",
+        "病状の推移",
+        "治療にかかった費用"
+      ],
+      "explanations": [
+        "Tên bệnh không phải sự tiến triển sau điều trị.",
+        "Lý do bắt đầu điều trị nói nguyên nhân trước đó.",
+        "経過 ở đây là diễn biến sức khỏe sau điều trị.",
+        "Chi phí điều trị không phải diễn biến tình trạng bệnh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai1-22",
+      "type": "usage",
+      "word": "禁止",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 76,
+      "prompt": "禁止",
+      "origin": "authored",
+      "options": [
+        "寝坊したので、朝食を禁止した。",
+        "駅に着いた電車は、ホームで三分間禁止した。",
+        "この区域では喫煙が禁止されている。",
+        "今年は暑くて、庭の花の開花が禁止された。"
+      ],
+      "explanations": [
+        "Tự bỏ bữa do dậy muộn là 朝食を抜いた; không phải ban hành lệnh cấm.",
+        "Tàu dừng ở ga là 停車した; 禁止 là ra lệnh cấm hành vi, không phải tự dừng chuyển động.",
+        "禁止 dùng đúng với hành vi bị cấm: hút thuốc.",
+        "Hiện tượng tự nhiên không nở là 開花が遅れた／起こらなかった, không phải bị cấm."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai1-23",
+      "type": "usage",
+      "word": "協会",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 69,
+      "prompt": "協会",
+      "origin": "authored",
+      "options": [
+        "明日の午後に協会を開いて、予算を話し合う。",
+        "この商品は協会が高く、買うのをやめた。",
+        "二社の協会が一致したので、契約を結んだ。",
+        "日本語教育の普及を目指す協会に加入した。"
+      ],
+      "explanations": [
+        "Một buổi bàn ngân sách là 会議; 協会 là tổ chức, không phải một cuộc họp.",
+        "Giá cao là 価格が高い; 協会 không phải giá cả.",
+        "Ý kiến hoặc ý muốn hai bên là 意見／意向; 協会 không chỉ quan điểm.",
+        "協会 là tổ chức cùng mục tiêu hoạt động; có thể gia nhập."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-26",
+      "type": "usage",
+      "word": "基準",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 53,
+      "prompt": "基準",
+      "origin": "authored",
+      "options": [
+        "合否を判定する基準を事前に公表した。",
+        "レポートの提出基準は来週の金曜日だ。",
+        "台風の基準で電車が止まった。",
+        "部屋の基準を測ると二十平方メートルあった。"
+      ],
+      "explanations": [
+        "基準 là tiêu chí dùng để đánh giá đỗ hay trượt.",
+        "Một ngày phải nộp là 提出期限; không phải tiêu chí.",
+        "Nguyên nhân hoặc ảnh hưởng cơn bão là 影響; 基準 không có nghĩa tác động.",
+        "Diện tích phòng là 面積; 基準 là tiêu chuẩn, không phải đại lượng diện tích."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai1-27",
+      "type": "usage",
+      "word": "計画",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 87,
+      "prompt": "計画",
+      "origin": "authored",
+      "options": [
+        "この薬の計画で熱が下がった。",
+        "来年度の事業計画を立てた。",
+        "事故の計画を調べて、何が原因だったか確認した。",
+        "三年ぶりに会った友人の計画を懐かしんだ。"
+      ],
+      "explanations": [
+        "Tác dụng thuốc là 効果／作用, không phải kế hoạch.",
+        "事業計画を立てる là lập kế hoạch kinh doanh.",
+        "Diễn tiến đã xảy ra là 経過; 計画 là dự định trước khi thực hiện.",
+        "Những kỷ niệm xưa là 思い出; 計画 không mang nghĩa ký ức."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-28",
+      "type": "usage",
+      "word": "衣装",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 10,
+      "prompt": "衣装",
+      "origin": "authored",
+      "options": [
+        "冬に備えて、車の衣装を新しいタイヤに替えた。",
+        "役者は時代劇の衣装に着替えた。",
+        "壁の衣装を塗り直して、部屋を明るくした。",
+        "履歴書の衣装を整えてから提出した。"
+      ],
+      "explanations": [
+        "Trang bị xe là 装備; 衣装 chỉ quần áo, không chỉ lốp.",
+        "衣装 chỉ trang phục dùng biểu diễn, phù hợp diễn viên phim cổ trang.",
+        "Bề mặt hoặc lớp sơn tường là 塗装; không phải 衣装.",
+        "Hình thức trình bày hồ sơ là 書式／体裁; không dùng 衣装."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai1-29",
+      "type": "usage",
+      "word": "回復",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 35,
+      "prompt": "回復",
+      "origin": "authored",
+      "options": [
+        "借りていた本を図書館に回復した。",
+        "間違った漢字を消して、正しい字に回復した。",
+        "消費税を十パーセントから八パーセントに回復した。",
+        "十分に休んだおかげで体力が回復した。"
+      ],
+      "explanations": [
+        "Trả sách là 返却; 回復 không phải trả vật đã mượn.",
+        "Sửa chữ viết sai là 訂正した／書き直した; không phải hồi phục.",
+        "Nếu chỉ giảm thuế suất, dùng 引き下げた; 回復 không phải động từ giảm một mức số học.",
+        "回復 là trở lại tình trạng tốt trước đó, ở đây là thể lực."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai1-30",
+      "type": "usage",
+      "word": "規約",
+      "source_file": "resources/N1/goi/dai1.csv",
+      "source_line": 62,
+      "prompt": "規約",
+      "origin": "authored",
+      "options": [
+        "入会前にサービスの利用規約を読んだ。",
+        "来週会うという友人との規約を忘れてしまった。",
+        "道路の規約が五キロも続いている。",
+        "実験の規約は予想と違っていた。"
+      ],
+      "explanations": [
+        "利用規約 là các điều khoản người sử dụng phải tuân theo.",
+        "Lời hẹn cá nhân là 約束; 規約 là quy tắc của tổ chức hoặc dịch vụ.",
+        "Đoạn đường là 区間, không phải điều khoản.",
+        "Kết quả thực nghiệm là 結果; 規約 là quy định định trước."
+      ],
+      "answer": 0
+    }
+  ]
+}

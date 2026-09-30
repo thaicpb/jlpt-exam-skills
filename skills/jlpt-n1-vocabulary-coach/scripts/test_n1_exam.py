@@ -58,17 +58,16 @@ class N1ExamValidationTests(unittest.TestCase):
                 validate(bank)
 
     def test_suru_annotation_and_multiple_readings(self):
-        from types import SimpleNamespace
         from unittest.mock import patch
         question = copy.deepcopy(self.bank['questions'][0])
         row = {'source_file': question['source_file'], 'source_line': question['source_line'],
                'word': question['word'], 'reading': 'あっか （する）'}
         question.update(options=['あっか', 'あくか', 'わるか', 'あつか'], answer=0)
         bank = {'level': self.bank['level'], 'questions': [question]}
-        with patch('build_n1_exam.subprocess.run', return_value=SimpleNamespace(stdout=json.dumps({'items': [row]}))):
+        with patch('build_n1_exam.load_sources', return_value={(row['source_file'], row['source_line']): row}):
             validate(bank)
         row['reading'] = 'あっか／あくか'
-        with patch('build_n1_exam.subprocess.run', return_value=SimpleNamespace(stdout=json.dumps({'items': [row]}))):
+        with patch('build_n1_exam.load_sources', return_value={(row['source_file'], row['source_line']): row}):
             with self.assertRaisesRegex(ValueError, 'uniquely'):
                 validate(bank)
 

@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai4-30",
+  "title": "N1 · Bài 4 · 30 câu",
+  "level": "N1",
+  "lesson": "dai4",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093004,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai4.csv"
+  },
+  "choice_seed": 2026100004,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai4-01",
+      "type": "reading",
+      "word": "物体",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 39,
+      "prompt": "暗闇の中で何か大きな【物体】が動いた。",
+      "origin": "authored",
+      "options": [
+        "いったい",
+        "ぶたい",
+        "ぶんかい",
+        "ぶったい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "一体",
+          "reading": "いったい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 14
+        },
+        {
+          "word": "舞台",
+          "reading": "ぶたい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 31
+        },
+        {
+          "word": "分解",
+          "reading": "ぶんかい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 40
+        },
+        {
+          "word": "物体",
+          "reading": "ぶったい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 39
+        }
+      ],
+      "explanations": [
+        "いったい là cách đọc của 一体 (rốt cuộc, tóm lại). Đây là từ có thật, nhưng không phải cách đọc của 物体 trong câu.",
+        "ぶたい là cách đọc của 舞台 (sân khấu; nơi diễn ra, bối cảnh). Đây là từ có thật, nhưng không phải cách đọc của 物体 trong câu.",
+        "ぶんかい là cách đọc của 分解 (tháo rời; phân giải; phân hủy). Đây là từ có thật, nhưng không phải cách đọc của 物体 trong câu.",
+        "ぶったい là cách đọc của 物体 (vật thể). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-03",
+      "type": "reading",
+      "word": "判決",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 3,
+      "prompt": "裁判所は無罪の【判決】を下した。",
+      "origin": "authored",
+      "options": [
+        "かんけつ",
+        "れんけつ",
+        "だんけつ",
+        "はんけつ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "完結",
+          "reading": "かんけつ",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 64
+        },
+        {
+          "word": "連結",
+          "reading": "れんけつ",
+          "source_file": "resources/N1/goi/dai5.csv",
+          "source_line": 5
+        },
+        {
+          "word": "団結",
+          "reading": "だんけつ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 48
+        },
+        {
+          "word": "判決",
+          "reading": "はんけつ",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 3
+        }
+      ],
+      "explanations": [
+        "かんけつ là cách đọc của 完結 (kết thúc trọn vẹn). Đây là từ có thật, nhưng không phải cách đọc của 判決 trong câu.",
+        "れんけつ là cách đọc của 連結 (nối; liên kết). Đây là từ có thật, nhưng không phải cách đọc của 判決 trong câu.",
+        "だんけつ là cách đọc của 団結 (đoàn kết). Đây là từ có thật, nhưng không phải cách đọc của 判決 trong câu.",
+        "はんけつ là cách đọc của 判決 (phán quyết; bản án của tòa). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-04",
+      "type": "reading",
+      "word": "目撃",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 73,
+      "prompt": "近所の人が事故を【目撃】した。",
+      "origin": "authored",
+      "options": [
+        "がくれき",
+        "もくてき",
+        "もくげき",
+        "ばくげき"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "学歴",
+          "reading": "がくれき",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 43
+        },
+        {
+          "word": "目的",
+          "reading": "もくてき",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 75
+        },
+        {
+          "word": "目撃",
+          "reading": "もくげき",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 73
+        },
+        {
+          "word": "爆撃",
+          "reading": "ばくげき",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 99
+        }
+      ],
+      "explanations": [
+        "がくれき là cách đọc của 学歴 (bằng cấp, học vấn). Đây là từ có thật, nhưng không phải cách đọc của 目撃 trong câu.",
+        "もくてき là cách đọc của 目的 (mục đích). Đây là từ có thật, nhưng không phải cách đọc của 目撃 trong câu.",
+        "もくげき là cách đọc của 目撃 (tận mắt chứng kiến). Khớp từ được gạch dưới trong câu.",
+        "ばくげき là cách đọc của 爆撃 (ném bom; oanh tạc). Đây là từ có thật, nhưng không phải cách đọc của 目撃 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-06",
+      "type": "reading",
+      "word": "保育",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 46,
+      "prompt": "この施設では乳児の【保育】も行っている。",
+      "origin": "authored",
+      "options": [
+        "ほいく",
+        "ほかん",
+        "ほおん",
+        "ほけん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "保育",
+          "reading": "ほいく",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 46
+        },
+        {
+          "word": "保管",
+          "reading": "ほかん",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 48
+        },
+        {
+          "word": "保温",
+          "reading": "ほおん",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 47
+        },
+        {
+          "word": "保険",
+          "reading": "ほけん",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 49
+        }
+      ],
+      "explanations": [
+        "ほいく là cách đọc của 保育 (chăm sóc, nuôi dạy trẻ nhỏ). Khớp từ được gạch dưới trong câu.",
+        "ほかん là cách đọc của 保管 (bảo quản; cất giữ). Đây là từ có thật, nhưng không phải cách đọc của 保育 trong câu.",
+        "ほおん là cách đọc của 保温 (giữ ấm; giữ nhiệt). Đây là từ có thật, nhưng không phải cách đọc của 保育 trong câu.",
+        "ほけん là cách đọc của 保険 (bảo hiểm). Đây là từ có thật, nhưng không phải cách đọc của 保育 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-07",
+      "type": "reading",
+      "word": "利益",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 95,
+      "prompt": "売上から経費を引いて【利益】を計算する。",
+      "origin": "authored",
+      "options": [
+        "りゆう",
+        "りろん",
+        "りえき",
+        "りせい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "理由",
+          "reading": "りゆう",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 98
+        },
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 99
+        },
+        {
+          "word": "利益",
+          "reading": "りえき",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 95
+        },
+        {
+          "word": "理性",
+          "reading": "りせい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 97
+        }
+      ],
+      "explanations": [
+        "りゆう là cách đọc của 理由 (lý do; nguyên do). Đây là từ có thật, nhưng không phải cách đọc của 利益 trong câu.",
+        "りろん là cách đọc của 理論 (lý thuyết; lý luận). Đây là từ có thật, nhưng không phải cách đọc của 利益 trong câu.",
+        "りえき là cách đọc của 利益 (lợi nhuận; lợi ích). Khớp từ được gạch dưới trong câu.",
+        "りせい là cách đọc của 理性 (lý trí). Đây là từ có thật, nhưng không phải cách đọc của 利益 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-08",
+      "type": "reading",
+      "word": "評価",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 21,
+      "prompt": "仕事の成果を公平に【評価】する。",
+      "origin": "authored",
+      "options": [
+        "きょうふ",
+        "ひょうか",
+        "ひょう",
+        "ぎょうむ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "恐怖",
+          "reading": "きょうふ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 72
+        },
+        {
+          "word": "評価",
+          "reading": "ひょうか",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 21
+        },
+        {
+          "word": "票",
+          "reading": "ひょう",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 78
+        },
+        {
+          "word": "業務",
+          "reading": "ぎょうむ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 75
+        }
+      ],
+      "explanations": [
+        "きょうふ là cách đọc của 恐怖 (nỗi sợ hãi). Đây là từ có thật, nhưng không phải cách đọc của 評価 trong câu.",
+        "ひょうか là cách đọc của 評価 (đánh giá; nhận xét về giá trị, năng lực). Khớp từ được gạch dưới trong câu.",
+        "ひょう là cách đọc của 票 (phiếu; lá phiếu). Đây là từ có thật, nhưng không phải cách đọc của 評価 trong câu.",
+        "ぎょうむ là cách đọc của 業務 (nghiệp vụ). Đây là từ có thật, nhưng không phải cách đọc của 評価 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-13",
+      "type": "reading",
+      "word": "復習",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 33,
+      "prompt": "帰宅してから授業の内容を【復習】した。",
+      "origin": "authored",
+      "options": [
+        "ふきゅう",
+        "ふくそう",
+        "がくしゅう",
+        "ふくしゅう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "普及",
+          "reading": "ふきゅう",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 27
+        },
+        {
+          "word": "服装",
+          "reading": "ふくそう",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 34
+        },
+        {
+          "word": "学習",
+          "reading": "がくしゅう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 42
+        },
+        {
+          "word": "復習",
+          "reading": "ふくしゅう",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 33
+        }
+      ],
+      "explanations": [
+        "ふきゅう là cách đọc của 普及 (phổ biến; lan rộng; phổ cập). Đây là từ có thật, nhưng không phải cách đọc của 復習 trong câu.",
+        "ふくそう là cách đọc của 服装 (trang phục). Đây là từ có thật, nhưng không phải cách đọc của 復習 trong câu.",
+        "がくしゅう là cách đọc của 学習 (học tập). Đây là từ có thật, nhưng không phải cách đọc của 復習 trong câu.",
+        "ふくしゅう là cách đọc của 復習 (ôn tập; học lại). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-23",
+      "type": "reading",
+      "word": "負債",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 29,
+      "prompt": "会社には多額の【負債】がある。",
+      "origin": "authored",
+      "options": [
+        "ひさい",
+        "ふたん",
+        "ふさい",
+        "かさい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "被災",
+          "reading": "ひさい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 8
+        },
+        {
+          "word": "負担",
+          "reading": "ふたん",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 30
+        },
+        {
+          "word": "負債",
+          "reading": "ふさい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 29
+        },
+        {
+          "word": "火災",
+          "reading": "かさい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 94
+        }
+      ],
+      "explanations": [
+        "ひさい là cách đọc của 被災 (chịu thiệt hại do thiên tai). Đây là từ có thật, nhưng không phải cách đọc của 負債 trong câu.",
+        "ふたん là cách đọc của 負担 (gánh nặng; sự chịu trách nhiệm, chi phí). Đây là từ có thật, nhưng không phải cách đọc của 負債 trong câu.",
+        "ふさい là cách đọc của 負債 (khoản nợ; nợ phải trả). Khớp từ được gạch dưới trong câu.",
+        "かさい là cách đọc của 火災 (hỏa hoạn). Đây là từ có thật, nhưng không phải cách đọc của 負債 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai4-05",
+      "type": "context",
+      "word": "判断",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 4,
+      "prompt": "どちらの説明が正しいか、証拠を十分に調べた上で（　）する。",
+      "origin": "authored",
+      "options": [
+        "判読",
+        "判明",
+        "判断",
+        "判決"
+      ],
+      "explanations": [
+        "判読 là đọc ra chữ khó đọc; không phải đánh giá tính đúng sai của lời giải thích.",
+        "判明する là sự thật trở nên rõ, không phải chủ thể chủ động cân nhắc.",
+        "判断 là xem xét bằng chứng để xác định đúng sai.",
+        "判決 là phán quyết của tòa; không dùng như động từ đánh giá thông thường ở đây."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai4-09",
+      "type": "context",
+      "word": "方針",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 55,
+      "prompt": "短期的な利益より環境保護を優先するという経営（　）を掲げた。",
+      "origin": "authored",
+      "options": [
+        "方針",
+        "方式",
+        "方面",
+        "方角"
+      ],
+      "explanations": [
+        "方針 là định hướng xuyên suốt quản lý doanh nghiệp.",
+        "方式 là phương thức thực hiện cụ thể, không phải định hướng giá trị.",
+        "方面 là phương diện hoặc hướng địa lý, không phải chính sách.",
+        "方角 chỉ phương hướng đông tây, không phải chủ trương."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-10",
+      "type": "context",
+      "word": "予告",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 83,
+      "prompt": "次回の内容を視聴者に知らせるため、番組の最後に短い（　）を流した。",
+      "origin": "authored",
+      "options": [
+        "予備",
+        "予告",
+        "予防",
+        "予算"
+      ],
+      "explanations": [
+        "予備 là phần dự phòng, không phải trailer.",
+        "予告 là báo trước nội dung sẽ xảy ra.",
+        "予防 là phòng ngừa điều xấu, không thông báo nội dung.",
+        "予算 là ngân sách, không phải đoạn giới thiệu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-12",
+      "type": "context",
+      "word": "無断",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 69,
+      "prompt": "持ち主に一言も許可を求めず、（　）で車を使った。",
+      "origin": "authored",
+      "options": [
+        "無数",
+        "無断",
+        "無料",
+        "無言"
+      ],
+      "explanations": [
+        "無数 là vô số, không nói quyền sử dụng.",
+        "無断 là tự ý, chưa được cho phép.",
+        "無料 là miễn phí; không nói xin phép hay chưa.",
+        "無言 là im lặng; trọng tâm câu là thiếu sự cho phép chứ không phải không nói khi lái."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-16",
+      "type": "context",
+      "word": "了解",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 101,
+      "prompt": "日程変更について相手の承諾を得たので、「ご（　）いただきありがとうございます」と伝えた。",
+      "origin": "authored",
+      "options": [
+        "了解",
+        "解散",
+        "解消",
+        "解除"
+      ],
+      "explanations": [
+        "了解 là hiểu và chấp thuận, khớp 承諾を得た.",
+        "解散 là giải thể, không phải chấp nhận lịch.",
+        "解消 là giải quyết hoặc loại bỏ trạng thái, không chỉ sự đồng ý.",
+        "解除 là bãi bỏ hạn chế hoặc hủy hợp đồng, không phải chấp thuận."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-20",
+      "type": "context",
+      "word": "流出",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 100,
+      "prompt": "不正アクセスにより、顧客情報が社外へ（　）した。",
+      "origin": "authored",
+      "options": [
+        "交流",
+        "流行",
+        "流通",
+        "流出"
+      ],
+      "explanations": [
+        "交流 là giao lưu hai bên, không phải thất thoát thông tin.",
+        "流行 là trở thành mốt hoặc lan rộng bệnh, không phải rò dữ liệu.",
+        "流通 là phân phối hàng hóa hoặc lưu hành tiền tệ, không phải sự cố lộ dữ liệu.",
+        "流出 chỉ dữ liệu rò rỉ ra ngoài."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai4-22",
+      "type": "context",
+      "word": "分別",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 43,
+      "prompt": "ごみは燃えるものと燃えないものに（　）して出してください。",
+      "origin": "authored",
+      "options": [
+        "分散",
+        "分担",
+        "分裂",
+        "分別"
+      ],
+      "explanations": [
+        "分散 là phân tán nhiều nơi; rác ở đây cần chia đúng nhóm.",
+        "分担 là chia phần việc cho người, không phân loại rác.",
+        "分裂 là tách rời một thể thành nhiều phần, không phân loại.",
+        "分別 là phân loại rác theo loại."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai4-26",
+      "type": "context",
+      "word": "変換",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 44,
+      "prompt": "キーボードで入力したひらがなを、正しい漢字に（　）する。",
+      "origin": "authored",
+      "options": [
+        "交換",
+        "変換",
+        "転換",
+        "返還"
+      ],
+      "explanations": [
+        "交換 là đổi vật này lấy vật kia, không phải chuyển dạng nhập liệu.",
+        "変換 là đổi dạng biểu diễn từ kana sang kanji.",
+        "転換 thường là chuyển phương hướng hoặc chính sách; thao tác bộ gõ là 変換.",
+        "返還 là hoàn trả vật hoặc quyền."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-02",
+      "type": "paraphrase",
+      "word": "魅力",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 66,
+      "prompt": "この町の【魅力】は豊かな自然だ。",
+      "origin": "authored",
+      "options": [
+        "人が避ける原因",
+        "決められた規則",
+        "人を引き付けるところ",
+        "変えるべき欠点"
+      ],
+      "explanations": [
+        "Điều khiến người khác tránh xa trái với sức hấp dẫn.",
+        "Quy tắc không phải sức hấp dẫn.",
+        "魅力 là nét hấp dẫn khiến người khác bị cuốn hút.",
+        "Khuyết điểm cần sửa không phải nét cuốn hút."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai4-11",
+      "type": "paraphrase",
+      "word": "反感",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 7,
+      "prompt": "一方的な決定が住民の【反感】を買った。",
+      "origin": "authored",
+      "options": [
+        "感謝する気持ち",
+        "反発",
+        "懐かしく思う気持ち",
+        "期待する気持ち"
+      ],
+      "explanations": [
+        "Lòng biết ơn trái với bất bình.",
+        "反感 là cảm giác khó chịu, chống đối.",
+        "Hoài niệm không phải ác cảm.",
+        "Kỳ vọng không phải phản đối."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-15",
+      "type": "paraphrase",
+      "word": "有力",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 79,
+      "prompt": "彼は次期社長の【有力な】候補だ。",
+      "origin": "authored",
+      "options": [
+        "すでに辞退した",
+        "体力が特に強い",
+        "まだ名前も知られていない",
+        "選ばれる可能性が高い"
+      ],
+      "explanations": [
+        "Đã rút lui trái với ứng viên sáng giá.",
+        "Sức khỏe thể chất không phải khả năng được chọn ở đây.",
+        "Chưa ai biết đến không phải ý của 有力.",
+        "有力な候補 là ứng viên có khả năng được chọn cao."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai4-17",
+      "type": "paraphrase",
+      "word": "皮肉",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 16,
+      "prompt": "「ずいぶん早いね」と遅刻した人に【皮肉】を言った。",
+      "origin": "authored",
+      "options": [
+        "事情を詳しく尋ねる言葉",
+        "遠回しに責める言葉",
+        "心から褒める言葉",
+        "丁寧に謝る言葉"
+      ],
+      "explanations": [
+        "Hỏi chi tiết tình hình không phải châm biếm.",
+        "Khen nhanh khi người ta đến muộn là lời mỉa mai.",
+        "Lời khen chân thành không phải 皮肉.",
+        "Xin lỗi lịch sự không phải lời mỉa mai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-18",
+      "type": "paraphrase",
+      "word": "目的",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 75,
+      "prompt": "今回の調査の【目的】を確認する。",
+      "origin": "authored",
+      "options": [
+        "ねらい",
+        "始めた時刻",
+        "終わった結果",
+        "必要な費用"
+      ],
+      "explanations": [
+        "目的 là điều muốn đạt được bằng việc điều tra.",
+        "Thời điểm bắt đầu không phải mục tiêu.",
+        "Kết quả đã có không phải đích nhắm trước.",
+        "Chi phí là phương tiện, không phải mục đích."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-21",
+      "type": "paraphrase",
+      "word": "本心",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 62,
+      "prompt": "笑っているが、【本心】は分からない。",
+      "origin": "authored",
+      "options": [
+        "本当の気持ち",
+        "生まれた場所",
+        "将来の予定",
+        "表面の様子"
+      ],
+      "explanations": [
+        "本心 là suy nghĩ, cảm xúc thật trong lòng.",
+        "Nơi sinh không phải lòng thật.",
+        "Dự định tương lai không nhất thiết là cảm xúc đang che giấu.",
+        "Vẻ ngoài không phải suy nghĩ bên trong."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-27",
+      "type": "paraphrase",
+      "word": "予感",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 80,
+      "prompt": "【何か悪いことが起こりそうな予感がする】。",
+      "origin": "authored",
+      "options": [
+        "何か悪いことが起こる気がする",
+        "昔起こった悪いことを思い出す",
+        "悪いことを起こそうとしている",
+        "悪いことが起こった証拠がある"
+      ],
+      "explanations": [
+        "予感 là cảm giác về điều chưa xảy ra.",
+        "Hồi tưởng chuyện cũ không phải dự cảm.",
+        "Có ý định gây chuyện khác cảm giác chuyện sẽ xảy ra.",
+        "Bằng chứng về việc đã xảy ra khác linh cảm tương lai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-14",
+      "type": "usage",
+      "word": "本場",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 61,
+      "prompt": "本場",
+      "origin": "authored",
+      "options": [
+        "本人がいないので、私が本場に代わって答えた。",
+        "ナポリで本場のピザを味わった。",
+        "会社の本場に履歴書を提出した。",
+        "試合の本場に間に合うよう、朝早く出発した。"
+      ],
+      "explanations": [
+        "Thay mặt người đó là 本人に代わって; 本場 là địa điểm, không phải cá nhân.",
+        "本場 chỉ nơi làm món ăn chuẩn gốc, nổi tiếng.",
+        "Trụ sở công ty là 本社; 本場 không chỉ bộ phận tiếp nhận.",
+        "Thời điểm bắt đầu thi đấu là 開始; 本場 không chỉ giờ khai cuộc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-19",
+      "type": "usage",
+      "word": "反撃",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 9,
+      "prompt": "反撃",
+      "origin": "authored",
+      "options": [
+        "薬が効いて、熱が反撃した。",
+        "借りた本を相手に反撃した。",
+        "相手に先制点を許したが、後半に反撃した。",
+        "駅員に乗り換えを聞かれたので、反撃した。"
+      ],
+      "explanations": [
+        "Sốt trở lại là ぶり返した; không phải chủ thể phản công.",
+        "Trả lại đồ là 返却; 反撃 không mang nghĩa hoàn trả.",
+        "反撃 là đánh trả sau khi bị đối phương tấn công hoặc dẫn trước.",
+        "Trả lời câu hỏi trung lập là 返答; không có tấn công để 反撃."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai4-24",
+      "type": "usage",
+      "word": "用意",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 88,
+      "prompt": "用意",
+      "origin": "authored",
+      "options": [
+        "財布を落とさないように用意してください。",
+        "申し込んだ仕事に用意したが、不採用だった。",
+        "彼の発言の用意が分からなかった。",
+        "来客のためにお茶とお菓子を用意した。"
+      ],
+      "explanations": [
+        "Cẩn thận tránh làm rơi là 注意; 用意 không có nghĩa chú ý.",
+        "Ứng tuyển là 応募; 用意 chỉ chuẩn bị trước đó.",
+        "Ý định lời nói là 意図; 用意 không chỉ mục đích ẩn sau lời nói.",
+        "用意 là chuẩn bị sẵn đồ cần dùng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai4-25",
+      "type": "usage",
+      "word": "理論",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 99,
+      "prompt": "理論",
+      "origin": "authored",
+      "options": [
+        "その理論が実験によって裏付けられた。",
+        "試験の理論は八十点だった。",
+        "遅刻した理論を先生に説明した。",
+        "社長の許可を理論してから作業を始めた。"
+      ],
+      "explanations": [
+        "理論 là hệ thống lý giải có thể được kiểm chứng.",
+        "Điểm số là 得点／結果; không phải lý thuyết.",
+        "Nguyên nhân đi muộn là 理由; không phải hệ thống lý thuyết.",
+        "Xin hoặc nhận phép là 得る／確認; 理論 không dùng như động từ đó."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-28",
+      "type": "usage",
+      "word": "批判",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 13,
+      "prompt": "批判",
+      "origin": "authored",
+      "options": [
+        "どちらが重いか、はかりで批判した。",
+        "政策の問題点を具体的に批判した。",
+        "来月の気温を過去のデータから批判した。",
+        "作品の長所だけを挙げて、手放しで批判した。"
+      ],
+      "explanations": [
+        "Đo hoặc xác định trọng lượng là 測定／判定, không phải phê bình.",
+        "批判 là chỉ ra và đánh giá điểm yếu của chính sách.",
+        "Dự đoán nhiệt độ là 予測, không phải 批判.",
+        "手放しで褒める là khen hết lời; 批判 không có nghĩa tán thưởng vô điều kiện."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai4-29",
+      "type": "usage",
+      "word": "予防",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 85,
+      "prompt": "予防",
+      "origin": "authored",
+      "options": [
+        "感染症を予防するため、手を洗う。",
+        "使い終わった資料を棚に予防した。",
+        "明日の天気を予防してから、傘を持つか決めた。",
+        "すでに壊れた時計を予防して、動くようにした。"
+      ],
+      "explanations": [
+        "予防 là ngăn bệnh trước khi mắc.",
+        "Cất giữ là 保管; 予防 không mang nghĩa lưu trữ.",
+        "Dự báo là 予報／予測, không phải ngăn thời tiết.",
+        "Sửa đồ đã hỏng là 修理; 予防 phải trước khi sự cố xảy ra."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai4-30",
+      "type": "usage",
+      "word": "模様",
+      "source_file": "resources/N1/goi/dai4.csv",
+      "source_line": 71,
+      "prompt": "模様",
+      "origin": "authored",
+      "options": [
+        "この料理の模様は塩辛い。",
+        "約束の模様は午後三時だ。",
+        "この布には細かい花の模様がある。",
+        "申込書の模様に自分の名前を書いた。"
+      ],
+      "explanations": [
+        "Vị món ăn là 味; 模様 không phải vị giác.",
+        "Thời gian hẹn là 時刻; 模様 không chỉ một giờ cụ thể.",
+        "模様 là hoa văn trên vải.",
+        "Ô trên biểu mẫu là 欄; 模様 không chỉ vị trí điền thông tin."
+      ],
+      "answer": 2
+    }
+  ]
+}

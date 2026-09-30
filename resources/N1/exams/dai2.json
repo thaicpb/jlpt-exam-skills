@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai2-30",
+  "title": "N1 · Bài 2 · 30 câu",
+  "level": "N1",
+  "lesson": "dai2",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093002,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai2.csv"
+  },
+  "choice_seed": 2026100002,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai2-02",
+      "type": "reading",
+      "word": "商店",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 90,
+      "prompt": "駅前の【商店】で日用品を買った。",
+      "origin": "authored",
+      "options": [
+        "しゅうかん",
+        "しょうにん",
+        "しょうてん",
+        "しょうげん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 80
+        },
+        {
+          "word": "証人",
+          "reading": "しょうにん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 95
+        },
+        {
+          "word": "商店",
+          "reading": "しょうてん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 90
+        },
+        {
+          "word": "証言",
+          "reading": "しょうげん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 94
+        }
+      ],
+      "explanations": [
+        "しゅうかん là cách đọc của 習慣 (thói quen; tập quán). Đây là từ có thật, nhưng không phải cách đọc của 商店 trong câu.",
+        "しょうにん là cách đọc của 証人 (nhân chứng; người làm chứng). Đây là từ có thật, nhưng không phải cách đọc của 商店 trong câu.",
+        "しょうてん là cách đọc của 商店 (cửa hàng; tiệm buôn). Khớp từ được gạch dưới trong câu.",
+        "しょうげん là cách đọc của 証言 (lời khai; làm chứng). Đây là từ có thật, nhưng không phải cách đọc của 商店 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-05",
+      "type": "reading",
+      "word": "初日",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 87,
+      "prompt": "展覧会の【初日】は大勢の人でにぎわった。",
+      "origin": "authored",
+      "options": [
+        "しょうひ",
+        "しょにち",
+        "しょくむ",
+        "しょゆう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "消費",
+          "reading": "しょうひ",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 92
+        },
+        {
+          "word": "初日",
+          "reading": "しょにち",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 87
+        },
+        {
+          "word": "職務",
+          "reading": "しょくむ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 3
+        },
+        {
+          "word": "所有",
+          "reading": "しょゆう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 88
+        }
+      ],
+      "explanations": [
+        "しょうひ là cách đọc của 消費 (tiêu thụ; tiêu dùng). Đây là từ có thật, nhưng không phải cách đọc của 初日 trong câu.",
+        "しょにち là cách đọc của 初日 (ngày đầu tiên). Khớp từ được gạch dưới trong câu.",
+        "しょくむ là cách đọc của 職務 (nhiệm vụ công việc; chức trách). Đây là từ có thật, nhưng không phải cách đọc của 初日 trong câu.",
+        "しょゆう là cách đọc của 所有 (sở hữu). Đây là từ có thật, nhưng không phải cách đọc của 初日 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-06",
+      "type": "reading",
+      "word": "事項",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 53,
+      "prompt": "注意【事項】を必ず読んでください。",
+      "origin": "authored",
+      "options": [
+        "しこう",
+        "いこう",
+        "じこ",
+        "じこう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "思考",
+          "reading": "しこう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 43
+        },
+        {
+          "word": "意向",
+          "reading": "いこう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 4
+        },
+        {
+          "word": "自己",
+          "reading": "じこ",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 61
+        },
+        {
+          "word": "事項",
+          "reading": "じこう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 53
+        }
+      ],
+      "explanations": [
+        "しこう là cách đọc của 思考 (tư duy). Đây là từ có thật, nhưng không phải cách đọc của 事項 trong câu.",
+        "いこう là cách đọc của 意向 (chí hướng, ý muốn). Đây là từ có thật, nhưng không phải cách đọc của 事項 trong câu.",
+        "じこ là cách đọc của 自己 (bản thân). Đây là từ có thật, nhưng không phải cách đọc của 事項 trong câu.",
+        "じこう là cách đọc của 事項 (hạng mục; điều; nội dung cần đề cập). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-09",
+      "type": "reading",
+      "word": "高原",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 24,
+      "prompt": "夏休みは涼しい【高原】で過ごした。",
+      "origin": "authored",
+      "options": [
+        "こうろん",
+        "こうしん",
+        "こうげき",
+        "こうげん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "口論",
+          "reading": "こうろん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 10
+        },
+        {
+          "word": "更新",
+          "reading": "こうしん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 16
+        },
+        {
+          "word": "攻撃",
+          "reading": "こうげき",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 15
+        },
+        {
+          "word": "高原",
+          "reading": "こうげん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 24
+        }
+      ],
+      "explanations": [
+        "こうろん là cách đọc của 口論 (tranh luận). Đây là từ có thật, nhưng không phải cách đọc của 高原 trong câu.",
+        "こうしん là cách đọc của 更新 (cập nhật, gia hạn). Đây là từ có thật, nhưng không phải cách đọc của 高原 trong câu.",
+        "こうげき là cách đọc của 攻撃 (tấn công). Đây là từ có thật, nhưng không phải cách đọc của 高原 trong câu.",
+        "こうげん là cách đọc của 高原 (cao nguyên). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-10",
+      "type": "reading",
+      "word": "交付",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 6,
+      "prompt": "市役所で証明書の【交付】を受けた。",
+      "origin": "authored",
+      "options": [
+        "こうざ",
+        "こうふ",
+        "こうか",
+        "こうい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "口座",
+          "reading": "こうざ",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 8
+        },
+        {
+          "word": "交付",
+          "reading": "こうふ",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 6
+        },
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 7
+        },
+        {
+          "word": "行為",
+          "reading": "こうい",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 19
+        }
+      ],
+      "explanations": [
+        "こうざ là cách đọc của 口座 (tài khoản). Đây là từ có thật, nhưng không phải cách đọc của 交付 trong câu.",
+        "こうふ là cách đọc của 交付 (cấp, phát). Khớp từ được gạch dưới trong câu.",
+        "こうか là cách đọc của 効果 (hiệu quả). Đây là từ có thật, nhưng không phải cách đọc của 交付 trong câu.",
+        "こうい là cách đọc của 行為 (hành vi). Đây là từ có thật, nhưng không phải cách đọc của 交付 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-13",
+      "type": "reading",
+      "word": "収益",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 75,
+      "prompt": "新事業による【収益】が増えた。",
+      "origin": "authored",
+      "options": [
+        "しゅうせい",
+        "しゅうい",
+        "しゅうかん",
+        "しゅうえき"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "修正",
+          "reading": "しゅうせい",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 79
+        },
+        {
+          "word": "周囲",
+          "reading": "しゅうい",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 77
+        },
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 80
+        },
+        {
+          "word": "収益",
+          "reading": "しゅうえき",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 75
+        }
+      ],
+      "explanations": [
+        "しゅうせい là cách đọc của 修正 (sửa chữa). Đây là từ có thật, nhưng không phải cách đọc của 収益 trong câu.",
+        "しゅうい là cách đọc của 周囲 (xung quanh). Đây là từ có thật, nhưng không phải cách đọc của 収益 trong câu.",
+        "しゅうかん là cách đọc của 習慣 (thói quen; tập quán). Đây là từ có thật, nhưng không phải cách đọc của 収益 trong câu.",
+        "しゅうえき là cách đọc của 収益 (thu nhập từ hoạt động kinh doanh; khoản thu). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-15",
+      "type": "reading",
+      "word": "殺人",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 39,
+      "prompt": "警察は【殺人】事件として捜査している。",
+      "origin": "authored",
+      "options": [
+        "さいけん",
+        "さくせん",
+        "さいげん",
+        "さつじん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "再建",
+          "reading": "さいけん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 31
+        },
+        {
+          "word": "作戦",
+          "reading": "さくせん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 37
+        },
+        {
+          "word": "再現",
+          "reading": "さいげん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 32
+        },
+        {
+          "word": "殺人",
+          "reading": "さつじん",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 39
+        }
+      ],
+      "explanations": [
+        "さいけん là cách đọc của 再建 (tái thiết, xây dựng lại). Đây là từ có thật, nhưng không phải cách đọc của 殺人 trong câu.",
+        "さくせん là cách đọc của 作戦 (chiến thuật; kế hoạch hành động). Đây là từ có thật, nhưng không phải cách đọc của 殺人 trong câu.",
+        "さいげん là cách đọc của 再現 (tái hiện). Đây là từ có thật, nhưng không phải cách đọc của 殺人 trong câu.",
+        "さつじん là cách đọc của 殺人 (việc giết người; tội giết người). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-17",
+      "type": "reading",
+      "word": "行政",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 21,
+      "prompt": "住民と【行政】が協力して町づくりを進める。",
+      "origin": "authored",
+      "options": [
+        "ぎょうしゅ",
+        "きょうかい",
+        "ぎょうせい",
+        "ぎょうむ"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "業種",
+          "reading": "ぎょうしゅ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 74
+        },
+        {
+          "word": "協会",
+          "reading": "きょうかい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 69
+        },
+        {
+          "word": "行政",
+          "reading": "ぎょうせい",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 21
+        },
+        {
+          "word": "業務",
+          "reading": "ぎょうむ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 75
+        }
+      ],
+      "explanations": [
+        "ぎょうしゅ là cách đọc của 業種 (ngành nghề, loại hình (kinh doanh)). Đây là từ có thật, nhưng không phải cách đọc của 行政 trong câu.",
+        "きょうかい là cách đọc của 協会 (hiệp hội). Đây là từ có thật, nhưng không phải cách đọc của 行政 trong câu.",
+        "ぎょうせい là cách đọc của 行政 (hành chính). Khớp từ được gạch dưới trong câu.",
+        "ぎょうむ là cách đọc của 業務 (nghiệp vụ). Đây là từ có thật, nhưng không phải cách đọc của 行政 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai2-01",
+      "type": "context",
+      "word": "消費",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 92,
+      "prompt": "このエアコンは古い機種より電力の（　）が少なく、電気代を抑えられる。",
+      "origin": "authored",
+      "options": [
+        "生産",
+        "排出",
+        "消費",
+        "供給"
+      ],
+      "explanations": [
+        "生産 là sản xuất; máy lạnh không sản xuất điện.",
+        "排出 là thải ra, không phải điện năng tiêu thụ.",
+        "消費電力 là lượng điện thiết bị sử dụng.",
+        "供給 là cấp điện từ nguồn, không phải lượng máy dùng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-04",
+      "type": "context",
+      "word": "準備",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 86,
+      "prompt": "出発してから忘れ物に気づかないよう、荷物の（　）は前日までに済ませておこう。",
+      "origin": "authored",
+      "options": [
+        "準備",
+        "保管",
+        "配達",
+        "処分"
+      ],
+      "explanations": [
+        "Sắp sẵn hành lý trước khi đi là 準備.",
+        "保管 là cất giữ, không phải sắp đủ hành lý để đi.",
+        "配達 là giao đồ đến người nhận; câu nói chuẩn bị trước khi khởi hành.",
+        "処分 là bỏ đi hoặc xử lý đồ không cần, không phải sắp để mang theo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-08",
+      "type": "context",
+      "word": "取引",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 69,
+      "prompt": "あの会社とは十年以上、部品の売買を中心に（　）を続けている。",
+      "origin": "authored",
+      "options": [
+        "取材",
+        "取締",
+        "取扱説明",
+        "取引"
+      ],
+      "explanations": [
+        "取材 là tác nghiệp lấy thông tin, không phải mua bán.",
+        "取締 là kiểm soát vi phạm, không phải giao dịch.",
+        "取扱説明 là giải thích cách dùng, không chỉ quan hệ mua bán.",
+        "売買 là giao dịch mua bán, tức 取引."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai2-12",
+      "type": "context",
+      "word": "再現",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 32,
+      "prompt": "当時の写真と証言をもとに、百年前の町並みを模型で（　）した。",
+      "origin": "authored",
+      "options": [
+        "再会",
+        "再開",
+        "再生",
+        "再現"
+      ],
+      "explanations": [
+        "再会 là gặp lại người, không phải tạo mô hình.",
+        "再開 là bắt đầu lại hoạt động đã ngừng.",
+        "再生 là phục hồi, tái sinh hoặc phát lại; ở đây dựng lại hình ảnh lịch sử trên mô hình.",
+        "再現 là tái hiện hình dáng cũ qua mô hình."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai2-16",
+      "type": "context",
+      "word": "構成",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 17,
+      "prompt": "この報告書は、序論、本論、結論の三つの部分から（　）されている。",
+      "origin": "authored",
+      "options": [
+        "構成",
+        "形成",
+        "達成",
+        "育成"
+      ],
+      "explanations": [
+        "～から構成される là được cấu thành từ các phần.",
+        "形成 nói quá trình hình thành; liệt kê các phần cấu thành dùng 構成.",
+        "達成 là đạt mục tiêu, không phải cấu tạo văn bản.",
+        "育成 là nuôi dưỡng, đào tạo con người hoặc sinh vật."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-19",
+      "type": "context",
+      "word": "需要",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 74,
+      "prompt": "猛暑でエアコンを買いたい人が急増し、（　）に生産が追いつかない。",
+      "origin": "authored",
+      "options": [
+        "需要",
+        "在庫",
+        "供給",
+        "収入"
+      ],
+      "explanations": [
+        "需要 là nhu cầu mua hàng, sản xuất không theo kịp nhu cầu.",
+        "在庫 là hàng tồn kho; không phải nhu cầu cần sản xuất đáp ứng.",
+        "供給 là lượng cung; ở đây vế trước nêu người muốn mua tăng.",
+        "収入 là thu nhập; 生産が追いつかない không nói chạy theo thu nhập."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-21",
+      "type": "context",
+      "word": "照会",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 96,
+      "prompt": "申請内容に不明な点があるので、発行元に事実関係を（　）した。",
+      "origin": "authored",
+      "options": [
+        "紹介",
+        "照明",
+        "承認",
+        "照会"
+      ],
+      "explanations": [
+        "紹介 là giới thiệu người hoặc vật, không phải xác minh.",
+        "照明 là chiếu sáng, không phải hỏi thông tin.",
+        "承認 là chấp thuận; ở đây hỏi bên phát hành để kiểm chứng.",
+        "照会 là hỏi đơn vị liên quan để xác minh thông tin."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai2-22",
+      "type": "context",
+      "word": "所有",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 88,
+      "prompt": "この土地は借りているのではなく、私が購入して（　）している。",
+      "origin": "authored",
+      "options": [
+        "共有",
+        "借用",
+        "所有",
+        "占領"
+      ],
+      "explanations": [
+        "共有 là sở hữu chung; câu không có đồng sở hữu nào.",
+        "借用 là mượn để dùng, mâu thuẫn với mua và không thuê.",
+        "所有 là sở hữu sau khi mua, đối lập với thuê.",
+        "占領 là chiếm lĩnh một vùng bằng quyền lực, không phải mua đất hợp pháp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-03",
+      "type": "paraphrase",
+      "word": "困難",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 29,
+      "prompt": "この条件での実現は【困難だ】。",
+      "origin": "authored",
+      "options": [
+        "不要だ",
+        "難しい",
+        "容易だ",
+        "確実だ"
+      ],
+      "explanations": [
+        "不要 là không cần, không phải khó.",
+        "困難 là khó thực hiện.",
+        "容易 là dễ dàng, nghĩa ngược lại.",
+        "確実 là chắc chắn, không nói độ khó."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai2-07",
+      "type": "paraphrase",
+      "word": "自覚",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 60,
+      "prompt": "自分の立場を【自覚】する必要がある。",
+      "origin": "authored",
+      "options": [
+        "一時的に忘却",
+        "他人に説明",
+        "はっきり認識",
+        "無理に変更"
+      ],
+      "explanations": [
+        "Quên tạm thời trái với tự ý thức.",
+        "Giải thích cho người khác không phải tự nhận thức.",
+        "自覚 là tự nhận thức rõ tình trạng hoặc vai trò của mình.",
+        "Cố thay đổi vị trí không phải nhận biết vị trí hiện có."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-11",
+      "type": "paraphrase",
+      "word": "後悔",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 3,
+      "prompt": "あのとき断ったことを【後悔している】。",
+      "origin": "authored",
+      "options": [
+        "疑っている",
+        "誇っている",
+        "悔やんでいる",
+        "予想している"
+      ],
+      "explanations": [
+        "疑う là nghi ngờ, không phải hối tiếc.",
+        "誇る là tự hào, khác hối hận.",
+        "後悔する là hối tiếc việc đã làm.",
+        "予想する là dự đoán, không nhìn lại quyết định với tiếc nuối."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-14",
+      "type": "paraphrase",
+      "word": "口論",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 10,
+      "prompt": "隣の部屋から【口論する】声が聞こえた。",
+      "origin": "authored",
+      "options": [
+        "相談する",
+        "朗読する",
+        "言い争う",
+        "告白する"
+      ],
+      "explanations": [
+        "相談する là trao đổi xin ý kiến, không nhất thiết cãi vã.",
+        "朗読する là đọc thành tiếng, không phải tranh cãi.",
+        "口論する là cãi nhau bằng lời nói.",
+        "告白する là thổ lộ, không phải lời qua tiếng lại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-23",
+      "type": "paraphrase",
+      "word": "従来",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 81,
+      "prompt": "【従来】の方法では時間がかかりすぎる。",
+      "origin": "authored",
+      "options": [
+        "これまで",
+        "いつか",
+        "これから",
+        "今回だけ"
+      ],
+      "explanations": [
+        "従来 chỉ cách làm từ trước đến nay.",
+        "いつか chỉ một lúc nào đó, không nói thông lệ trước đây.",
+        "これから chỉ thời gian sắp tới.",
+        "今回だけ giới hạn lần này, không chỉ từ trước."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-25",
+      "type": "paraphrase",
+      "word": "作用",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 38,
+      "prompt": "薬の【作用】を調べる。",
+      "origin": "authored",
+      "options": [
+        "値段",
+        "働き",
+        "名前",
+        "形"
+      ],
+      "explanations": [
+        "値段 là giá tiền, không phải tác dụng.",
+        "作用 là tác động hoặc hoạt động của thuốc.",
+        "名前 là tên, không phải công năng.",
+        "形 là hình dạng, không phải tác động sinh học."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai2-27",
+      "type": "paraphrase",
+      "word": "合意",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 25,
+      "prompt": "両社は価格について【合意】した。",
+      "origin": "authored",
+      "options": [
+        "意見が一致",
+        "交渉が中断",
+        "条件が悪化",
+        "立場が逆転"
+      ],
+      "explanations": [
+        "合意する là đạt sự nhất trí.",
+        "中断 là gián đoạn, không phải đạt thỏa thuận.",
+        "悪化 là xấu đi, không phải ý kiến đồng nhất.",
+        "逆転 là đảo ngược vị trí, không phải nhất trí."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-18",
+      "type": "usage",
+      "word": "参考",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 40,
+      "prompt": "参考",
+      "origin": "authored",
+      "options": [
+        "この案には全員が参考したので、採用が決まった。",
+        "先輩の意見を参考にして、進路を決めた。",
+        "事故を見た人を参考として警察に呼んだ。",
+        "旅行の参考は十万円以内に収めたい。"
+      ],
+      "explanations": [
+        "Tất cả tán thành là 賛成した; 参考 không mang nghĩa đồng ý.",
+        "参考にする là tham khảo khi ra quyết định.",
+        "Người cung cấp lời khai là 参考人; 参考 riêng không chỉ người.",
+        "Khoản tiền dự trù là 予算; không phải thông tin tham khảo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai2-20",
+      "type": "usage",
+      "word": "実践",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 65,
+      "prompt": "実践",
+      "origin": "authored",
+      "options": [
+        "翌日の天気を実践してから、出発を決めた。",
+        "会議で決まった内容をノートに実践した。",
+        "まだ誰にも試していない案を、紙の上だけで実践した。",
+        "学んだ接客方法を仕事で実践した。"
+      ],
+      "explanations": [
+        "Kiểm tra hoặc dự báo thời tiết dùng 確認／予測, không phải áp dụng phương pháp.",
+        "Ghi nội dung là 記録した; chưa phải thực hiện.",
+        "Chỉ lập trên giấy là 計画／検討; 実践 cần hành động thực tế.",
+        "実践 là áp dụng điều đã học vào hành động."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai2-24",
+      "type": "usage",
+      "word": "行為",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 19,
+      "prompt": "行為",
+      "origin": "authored",
+      "options": [
+        "薬の行為で痛みが和らいだ。",
+        "他人の作品を無断で売る行為は許されない。",
+        "この機械の行為が遅いので修理に出した。",
+        "夜明けに霧が発生する行為を観察した。"
+      ],
+      "explanations": [
+        "Tác dụng của thuốc là 作用／効果, không phải 行為.",
+        "行為 là hành động do người thực hiện.",
+        "Máy vận hành là 動作; 行為 thiên về hành động có chủ thể con người.",
+        "Hiện tượng tự nhiên là 現象; 行為 không chỉ sương hình thành."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai2-26",
+      "type": "usage",
+      "word": "首相",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 72,
+      "prompt": "首相",
+      "origin": "authored",
+      "options": [
+        "首相は国会で政府の方針を説明した。",
+        "野球チームの首相が選手を励ました。",
+        "市の首相が新しい公園の開園式に出席した。",
+        "会社の首相が今年の売上目標を発表した。"
+      ],
+      "explanations": [
+        "首相 là người đứng đầu nội các, trình bày chính sách chính phủ.",
+        "Đội trưởng hoặc huấn luyện viên là 主将／監督; 首相 không dùng cho đội bóng.",
+        "Người đứng đầu thành phố là 市長, không phải 首相.",
+        "Người đứng đầu công ty là 社長, không phải 首相."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai2-28",
+      "type": "usage",
+      "word": "語学",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 4,
+      "prompt": "語学",
+      "origin": "authored",
+      "options": [
+        "この文の主語と動詞の順序は語学に合っていない。",
+        "留学に備えて語学の勉強に力を入れている。",
+        "彼は会議中に失礼な語学を使った。",
+        "この辞書には五万の語学が載っている。"
+      ],
+      "explanations": [
+        "Quy tắc trật tự từ là 文法; 語学 không phải một quy tắc ngữ pháp.",
+        "語学 thường chỉ việc học và vận dụng ngoại ngữ.",
+        "Lời lẽ là 言葉／表現; không phải 語学.",
+        "Các mục từ là 語／単語; 語学 là lĩnh vực học ngôn ngữ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai2-29",
+      "type": "usage",
+      "word": "条件",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 98,
+      "prompt": "条件",
+      "origin": "authored",
+      "options": [
+        "彼が欠席した条件は、急な発熱だった。",
+        "この問題には三つの正しい条件があるので、その一つを選べ。",
+        "週三日以上働けることが応募の条件だ。",
+        "雨がやんだ条件に、散歩に出かけた。"
+      ],
+      "explanations": [
+        "Nguyên nhân vắng mặt là 理由／原因, không phải điều kiện.",
+        "Nếu chọn lời giải đúng phải nói 解答; 条件 là giả thiết/ràng buộc, không phải đáp án.",
+        "条件 là yêu cầu phải đáp ứng để ứng tuyển.",
+        "Nhân lúc mưa tạnh là 機会／タイミング; 条件 không dùng như mốc thời điểm với に ở đây."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai2-30",
+      "type": "usage",
+      "word": "持参",
+      "source_file": "resources/N1/goi/dai2.csv",
+      "source_line": 56,
+      "prompt": "持参",
+      "origin": "authored",
+      "options": [
+        "面接には履歴書を持参してください。",
+        "引っ越し先まで電車が私を持参した。",
+        "家族を持参して説明会に参加した。",
+        "記憶が薄れないうちに経験を持参しておきたい。"
+      ],
+      "explanations": [
+        "持参 là tự mang vật đến địa điểm được nói tới.",
+        "Phương tiện chở người là 運んだ; 持参 là người mang đồ theo.",
+        "Đưa người đi cùng dùng 同伴; 持参 không dùng cho người.",
+        "Lưu giữ kinh nghiệm trong trí nhớ là 記憶／記録; không phải mang đồ đến."
+      ],
+      "answer": 0
+    }
+  ]
+}

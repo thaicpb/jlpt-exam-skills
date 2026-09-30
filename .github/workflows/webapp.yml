@@ -8,6 +8,8 @@ on:
       - "webapp/**"
       - "tools/build_webapp.py"
       - "skills/jlpt-vocabulary-flashcards/scripts/load_vocabulary.py"
+      - "skills/jlpt-n1-vocabulary-coach/scripts/**"
+      - "skills/jlpt-n1-vocabulary-coach/assets/n1-exam.html"
       - ".github/workflows/webapp.yml"
   workflow_dispatch:
 

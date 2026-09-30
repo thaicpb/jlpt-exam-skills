@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai9-30",
+  "title": "N1 · Bài 9 · 30 câu",
+  "level": "N1",
+  "lesson": "dai9",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093009,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai9.csv"
+  },
+  "choice_seed": 2026100009,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai9-01",
+      "type": "reading",
+      "word": "花粉",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 97,
+      "prompt": "春は【花粉】が飛ぶので、マスクをして出かける。",
+      "origin": "authored",
+      "options": [
+        "かだん",
+        "かせん",
+        "かふん",
+        "かげん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "花壇",
+          "reading": "かだん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 96
+        },
+        {
+          "word": "下線",
+          "reading": "かせん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 80
+        },
+        {
+          "word": "花粉",
+          "reading": "かふん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 97
+        },
+        {
+          "word": "加減",
+          "reading": "かげん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 84
+        }
+      ],
+      "explanations": [
+        "かだん là cách đọc của 花壇 (bồn hoa). Đây là từ có thật, nhưng không phải cách đọc của 花粉 trong câu.",
+        "かせん là cách đọc của 下線 (gạch chân; đường gạch dưới). Đây là từ có thật, nhưng không phải cách đọc của 花粉 trong câu.",
+        "かふん là cách đọc của 花粉 (phấn hoa). Khớp từ được gạch dưới trong câu.",
+        "かげん là cách đọc của 加減 (điều chỉnh; mức độ). Đây là từ có thật, nhưng không phải cách đọc của 花粉 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-03",
+      "type": "reading",
+      "word": "下線",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 80,
+      "prompt": "重要な部分に【下線】を引いた。",
+      "origin": "authored",
+      "options": [
+        "かせつ",
+        "かせん",
+        "かげん",
+        "かだん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "仮説",
+          "reading": "かせつ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 83
+        },
+        {
+          "word": "下線",
+          "reading": "かせん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 80
+        },
+        {
+          "word": "加減",
+          "reading": "かげん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 84
+        },
+        {
+          "word": "花壇",
+          "reading": "かだん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 96
+        }
+      ],
+      "explanations": [
+        "かせつ là cách đọc của 仮説 (giả thuyết). Đây là từ có thật, nhưng không phải cách đọc của 下線 trong câu.",
+        "かせん là cách đọc của 下線 (gạch chân; đường gạch dưới). Khớp từ được gạch dưới trong câu.",
+        "かげん là cách đọc của 加減 (điều chỉnh; mức độ). Đây là từ có thật, nhưng không phải cách đọc của 下線 trong câu.",
+        "かだん là cách đọc của 花壇 (bồn hoa). Đây là từ có thật, nhưng không phải cách đọc của 下線 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-05",
+      "type": "reading",
+      "word": "音色",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 77,
+      "prompt": "この楽器は柔らかな【音色】が特徴だ。",
+      "origin": "authored",
+      "options": [
+        "けいろ",
+        "ねいろ",
+        "ねん",
+        "ね"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "経路",
+          "reading": "けいろ",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 86
+        },
+        {
+          "word": "音色",
+          "reading": "ねいろ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 77
+        },
+        {
+          "word": "念",
+          "reading": "ねん",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 69
+        },
+        {
+          "word": "根",
+          "reading": "ね",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 29
+        }
+      ],
+      "explanations": [
+        "けいろ là cách đọc của 経路 (lộ trình, hướng đi). Đây là từ có thật, nhưng không phải cách đọc của 音色 trong câu.",
+        "ねいろ là cách đọc của 音色 (âm sắc). Khớp từ được gạch dưới trong câu.",
+        "ねん là cách đọc của 念 (ý nghĩ; sự chú tâm; sự thận trọng). Đây là từ có thật, nhưng không phải cách đọc của 音色 trong câu.",
+        "ね là cách đọc của 根 (rễ; căn nguyên). Đây là từ có thật, nhưng không phải cách đọc của 音色 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-06",
+      "type": "reading",
+      "word": "運搬",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 53,
+      "prompt": "重い荷物の【運搬】には台車を使う。",
+      "origin": "authored",
+      "options": [
+        "うんちん",
+        "うんぱん",
+        "うんえい",
+        "うんこう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "運賃",
+          "reading": "うんちん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 52
+        },
+        {
+          "word": "運搬",
+          "reading": "うんぱん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 53
+        },
+        {
+          "word": "運営",
+          "reading": "うんえい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 17
+        },
+        {
+          "word": "運行",
+          "reading": "うんこう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 18
+        }
+      ],
+      "explanations": [
+        "うんちん là cách đọc của 運賃 (cước vận chuyển; tiền đi tàu xe). Đây là từ có thật, nhưng không phải cách đọc của 運搬 trong câu.",
+        "うんぱん là cách đọc của 運搬 (vận chuyển; chuyên chở). Khớp từ được gạch dưới trong câu.",
+        "うんえい là cách đọc của 運営 (vận hành, qlý). Đây là từ có thật, nhưng không phải cách đọc của 運搬 trong câu.",
+        "うんこう là cách đọc của 運行 (chuyển động, chạy). Đây là từ có thật, nhưng không phải cách đọc của 運搬 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-07",
+      "type": "reading",
+      "word": "遠征",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 65,
+      "prompt": "選手たちは海外【遠征】に出発した。",
+      "origin": "authored",
+      "options": [
+        "えいせい",
+        "えんせい",
+        "かんせい",
+        "えんせん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "衛星",
+          "reading": "えいせい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 55
+        },
+        {
+          "word": "遠征",
+          "reading": "えんせい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 65
+        },
+        {
+          "word": "歓声",
+          "reading": "かんせい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 79
+        },
+        {
+          "word": "沿線",
+          "reading": "えんせん",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 59
+        }
+      ],
+      "explanations": [
+        "えいせい là cách đọc của 衛星 (vệ tinh). Đây là từ có thật, nhưng không phải cách đọc của 遠征 trong câu.",
+        "えんせい là cách đọc của 遠征 (đi thi đấu xa; viễn chinh). Khớp từ được gạch dưới trong câu.",
+        "かんせい là cách đọc của 歓声 (tiếng reo vui). Đây là từ có thật, nhưng không phải cách đọc của 遠征 trong câu.",
+        "えんせん là cách đọc của 沿線 (dọc tuyến đường sắt). Đây là từ có thật, nhưng không phải cách đọc của 遠征 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-10",
+      "type": "reading",
+      "word": "家柄",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 88,
+      "prompt": "その人の【家柄】で能力を判断すべきではない。",
+      "origin": "authored",
+      "options": [
+        "いまさら",
+        "いえで",
+        "いえがら",
+        "いえじ"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "今更",
+          "reading": "いまさら",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 34
+        },
+        {
+          "word": "家出",
+          "reading": "いえで",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 25
+        },
+        {
+          "word": "家柄",
+          "reading": "いえがら",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 88
+        },
+        {
+          "word": "家路",
+          "reading": "いえじ",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 90
+        }
+      ],
+      "explanations": [
+        "いまさら là cách đọc của 今更 (đến giờ này mới; bây giờ thì đã muộn). Đây là từ có thật, nhưng không phải cách đọc của 家柄 trong câu.",
+        "いえで là cách đọc của 家出 (bỏ nhà đi). Đây là từ có thật, nhưng không phải cách đọc của 家柄 trong câu.",
+        "いえがら là cách đọc của 家柄 (gia thế; xuất thân gia đình). Khớp từ được gạch dưới trong câu.",
+        "いえじ là cách đọc của 家路 (đường về nhà). Đây là từ có thật, nhưng không phải cách đọc của 家柄 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-11",
+      "type": "reading",
+      "word": "火花",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 93,
+      "prompt": "金属同士がぶつかって【火花】が散った。",
+      "origin": "authored",
+      "options": [
+        "ひばな",
+        "ひとめ",
+        "ひてい",
+        "ひとで"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "火花",
+          "reading": "ひばな",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 93
+        },
+        {
+          "word": "人目",
+          "reading": "ひとめ",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 16
+        },
+        {
+          "word": "否定",
+          "reading": "ひてい",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 12
+        },
+        {
+          "word": "人手",
+          "reading": "ひとで",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 14
+        }
+      ],
+      "explanations": [
+        "ひばな là cách đọc của 火花 (tia lửa). Khớp từ được gạch dưới trong câu.",
+        "ひとめ là cách đọc của 人目 (ánh mắt, sự chú ý của người khác). Đây là từ có thật, nhưng không phải cách đọc của 火花 trong câu.",
+        "ひてい là cách đọc của 否定 (phủ định). Đây là từ có thật, nhưng không phải cách đọc của 火花 trong câu.",
+        "ひとで là cách đọc của 人手 (nhân công; người phụ giúp). Đây là từ có thật, nhưng không phải cách đọc của 火花 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-29",
+      "type": "reading",
+      "word": "陰謀",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 49,
+      "prompt": "政府を倒そうとする【陰謀】が明らかになった。",
+      "origin": "authored",
+      "options": [
+        "いしょう",
+        "いんよう",
+        "いんぼう",
+        "てんぼう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "衣装",
+          "reading": "いしょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 10
+        },
+        {
+          "word": "引用",
+          "reading": "いんよう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 16
+        },
+        {
+          "word": "陰謀",
+          "reading": "いんぼう",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 49
+        },
+        {
+          "word": "展望",
+          "reading": "てんぼう",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 67
+        }
+      ],
+      "explanations": [
+        "いしょう là cách đọc của 衣装 (trang phục (biểu diễn)). Đây là từ có thật, nhưng không phải cách đọc của 陰謀 trong câu.",
+        "いんよう là cách đọc của 引用 (trích dẫn). Đây là từ có thật, nhưng không phải cách đọc của 陰謀 trong câu.",
+        "いんぼう là cách đọc của 陰謀 (âm mưu). Khớp từ được gạch dưới trong câu.",
+        "てんぼう là cách đọc của 展望 (triển vọng; tầm nhìn; nhìn bao quát). Đây là từ có thật, nhưng không phải cách đọc của 陰謀 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai9-02",
+      "type": "context",
+      "word": "一括",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 35,
+      "prompt": "毎月分割で払うのではなく、代金を（　）で支払った。",
+      "origin": "authored",
+      "options": [
+        "一律",
+        "一定",
+        "一部",
+        "一括"
+      ],
+      "explanations": [
+        "一律 là cùng một mức cho mọi trường hợp, không nói số lần thanh toán.",
+        "一定 là cố định, không chỉ thanh toán trọn một lần.",
+        "一部 là chỉ một phần, không phải toàn bộ đối lập trả góp.",
+        "一括 là gộp toàn bộ và thanh toán một lần."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-09",
+      "type": "context",
+      "word": "委託",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 23,
+      "prompt": "自社では行わず、商品の配送業務を専門の会社に（　）した。",
+      "origin": "authored",
+      "options": [
+        "辞退",
+        "委託",
+        "移転",
+        "依存"
+      ],
+      "explanations": [
+        "辞退 là từ chối nhận, trái việc giao cho đối tác.",
+        "委託 là giao nghiệp vụ cho đơn vị bên ngoài đảm nhiệm.",
+        "移転 là chuyển địa điểm hoặc quyền, không chỉ thuê đơn vị làm công việc.",
+        "依存 là phụ thuộc, không diễn đạt một hợp đồng giao nghiệp vụ; 配送業務を依存する cũng không đúng cấu trúc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai9-13",
+      "type": "context",
+      "word": "閲覧",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 56,
+      "prompt": "図書館などで資料にその場で目を通すことを、資料の（　）という。",
+      "origin": "authored",
+      "options": [
+        "配達",
+        "閲覧",
+        "貸出",
+        "出版"
+      ],
+      "explanations": [
+        "配達 là giao hàng hoặc đồ vật đến địa chỉ khác; không phải đọc tài liệu.",
+        "閲覧 là xem, đọc trực tiếp tài liệu; khớp 資料に目を通す.",
+        "貸出 là việc cho người khác mượn; khác hành động xem, đọc tài liệu.",
+        "出版 là xuất bản, không phải hành động độc giả xem tài liệu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai9-15",
+      "type": "context",
+      "word": "縁談",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 63,
+      "prompt": "親戚から結婚相手を紹介したいと言われ、（　）が持ち上がった。",
+      "origin": "authored",
+      "options": [
+        "商談",
+        "縁談",
+        "面談",
+        "冗談"
+      ],
+      "explanations": [
+        "商談 là bàn chuyện giao dịch, không phải mai mối.",
+        "縁談 là chuyện mai mối hoặc đề nghị hôn nhân.",
+        "面談 là gặp trực tiếp để trao đổi; không riêng đề nghị kết hôn.",
+        "冗談 là nói đùa, không chỉ chuyện giới thiệu người kết hôn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai9-17",
+      "type": "context",
+      "word": "河川",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 92,
+      "prompt": "大雨で県内の複数の（　）が増水し、堤防を越えそうになっている。",
+      "origin": "authored",
+      "options": [
+        "河川",
+        "高原",
+        "平野",
+        "火山"
+      ],
+      "explanations": [
+        "河川 là sông ngòi, có thể dâng tràn đê.",
+        "高原 là cao nguyên, không dùng 増水する.",
+        "平野 là đồng bằng; nước sông tăng chứ không phải đồng bằng 増水.",
+        "火山 là núi lửa, không có tăng nước vượt đê trong nghĩa này."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-23",
+      "type": "context",
+      "word": "圧倒",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 16,
+      "prompt": "決勝では相手にほとんど攻撃させず、十対零で（　）した。",
+      "origin": "authored",
+      "options": [
+        "妥協",
+        "逆転",
+        "接近",
+        "圧倒"
+      ],
+      "explanations": [
+        "妥協 là thỏa hiệp, không chỉ thắng áp đảo.",
+        "逆転 là lật ngược thế thua; tỷ số 10–0 chứng tỏ không từng bị dẫn trước.",
+        "接近 là đến gần, không phải thắng chênh lệch lớn.",
+        "圧倒 là vượt trội hoàn toàn đối thủ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-24",
+      "type": "context",
+      "word": "加味",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 85,
+      "prompt": "値段だけでなく、修理のしやすさも（　）して購入機種を決めた。",
+      "origin": "authored",
+      "options": [
+        "加味",
+        "加熱",
+        "加入",
+        "加算"
+      ],
+      "explanations": [
+        "加味 là đưa thêm yếu tố vào cân nhắc.",
+        "加熱 là làm nóng, không nói cân nhắc tiêu chí.",
+        "加入 là gia nhập tập thể, không thêm yếu tố đánh giá.",
+        "加算 là cộng số lượng/tiền; 修理のしやすさ là yếu tố định tính cần tính đến."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-27",
+      "type": "context",
+      "word": "運賃",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 52,
+      "prompt": "バスに乗り、降りるときに所定の（　）を支払った。",
+      "origin": "authored",
+      "options": [
+        "家賃",
+        "入場料",
+        "送料",
+        "運賃"
+      ],
+      "explanations": [
+        "家賃 là tiền thuê nhà, không phải vé xe.",
+        "入場料 là tiền vào một nơi hoặc sự kiện, không phải cước xe buýt.",
+        "送料 là phí gửi hàng, không phải vé hành khách.",
+        "運賃 là tiền đi phương tiện vận tải."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-04",
+      "type": "paraphrase",
+      "word": "一変",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 42,
+      "prompt": "新しい道路ができ、町の様子が【一変した】。",
+      "origin": "authored",
+      "options": [
+        "元のまま残った",
+        "徐々に忘れられた",
+        "少しだけ変わった",
+        "すっかり変わった"
+      ],
+      "explanations": [
+        "Giữ nguyên trái nghĩa.",
+        "Dần bị quên khác thay đổi diện mạo.",
+        "Chỉ đổi chút ít chưa đủ mức 一変.",
+        "一変 là thay đổi hoàn toàn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-08",
+      "type": "paraphrase",
+      "word": "最良",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 3,
+      "prompt": "これが現在考えられる【最良の】方法だ。",
+      "origin": "authored",
+      "options": [
+        "いちばん早い",
+        "いちばん安い",
+        "いちばんよい",
+        "いちばん古い"
+      ],
+      "explanations": [
+        "Nhanh nhất không đồng nghĩa tốt nhất.",
+        "Rẻ nhất không nhất thiết tối ưu.",
+        "最良 là tốt nhất.",
+        "Cũ nhất không phải chất lượng tốt nhất."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai9-12",
+      "type": "paraphrase",
+      "word": "下火",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 78,
+      "prompt": "一時のブームは【下火になった】。",
+      "origin": "authored",
+      "options": [
+        "勢いが衰えた",
+        "さらに盛んになった",
+        "完全に禁止された",
+        "初めて始まった"
+      ],
+      "explanations": [
+        "下火になる là giảm sức nóng, lắng xuống.",
+        "Càng rầm rộ trái nghĩa.",
+        "Bị cấm hẳn không phải chỉ bớt thịnh hành.",
+        "Mới bắt đầu khác suy giảm sau một thời kỳ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-14",
+      "type": "paraphrase",
+      "word": "過言",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 100,
+      "prompt": "彼が成功の立役者だと言っても【過言】ではない。",
+      "origin": "authored",
+      "options": [
+        "言い過ぎ",
+        "言い伝え",
+        "言い訳",
+        "言い間違い"
+      ],
+      "explanations": [
+        "過言 là cách nói phóng đại; 過言ではない nghĩa không hề quá lời.",
+        "言い伝え là truyền thuyết/lời truyền lại, không phải mức cường điệu.",
+        "言い訳 là lời biện hộ, khác nói quá.",
+        "言い間違い là lỡ nói sai, không nhất thiết phóng đại."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-16",
+      "type": "paraphrase",
+      "word": "逸品",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 46,
+      "prompt": "この陶器は職人が生んだ【逸品】だ。",
+      "origin": "authored",
+      "options": [
+        "特に優れた品",
+        "偶然壊れた品",
+        "他人から借りた品",
+        "大量に余った品"
+      ],
+      "explanations": [
+        "逸品 là sản phẩm đặc biệt xuất sắc.",
+        "Đồ tình cờ vỡ không phải phẩm chất xuất sắc.",
+        "Đồ mượn không nói giá trị hoặc chất lượng.",
+        "Đồ tồn nhiều không phải vật tuyệt hảo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-21",
+      "type": "paraphrase",
+      "word": "下心",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 79,
+      "prompt": "親切そうに見えるが、何か【下心】がありそうだ。",
+      "origin": "authored",
+      "options": [
+        "相手を思う純粋な気持ち",
+        "過去の失敗を悔やむ思い",
+        "体調を心配する気持ち",
+        "表に出さない自分の利益を求める思い"
+      ],
+      "explanations": [
+        "Lòng tốt thuần túy trái dụng ý vụ lợi.",
+        "Hối hận không phải ý đồ ẩn giấu.",
+        "Lo sức khỏe không phải nghĩa riêng của 下心.",
+        "下心 là dụng ý vụ lợi giấu sau hành vi bên ngoài."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-28",
+      "type": "paraphrase",
+      "word": "恩恵",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 76,
+      "prompt": "私たちは技術の進歩による【恩恵】を受けている。",
+      "origin": "authored",
+      "options": [
+        "守るべき義務",
+        "支払う必要のある費用",
+        "利益",
+        "避けられない損害"
+      ],
+      "explanations": [
+        "Nghĩa vụ không phải ân huệ được nhận.",
+        "Chi phí phải trả không phải lợi ích hưởng được.",
+        "恩恵 là lợi ích được hưởng nhờ điều khác.",
+        "Thiệt hại đối lập lợi ích."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai9-18",
+      "type": "usage",
+      "word": "黄金",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 73,
+      "prompt": "黄金",
+      "origin": "authored",
+      "options": [
+        "信号が黄金になったので、赤に変わる前に止まった。",
+        "銀行で円をドルの黄金に替えた。",
+        "夕日に照らされた稲穂が黄金に輝いていた。",
+        "金曜日を略して黄金と書いた。"
+      ],
+      "explanations": [
+        "Màu đèn giao thông gọi 黄色; 黄金 không phải tên trạng thái đèn.",
+        "Đổi ngoại tệ là ドルに両替; 黄金 không có nghĩa tiền tệ nói chung.",
+        "黄金 có thể chỉ sắc vàng óng ánh.",
+        "金曜日 có thể viết 金; 黄金 nghĩa vàng, không phải thứ Sáu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai9-19",
+      "type": "usage",
+      "word": "屋敷",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 74,
+      "prompt": "屋敷",
+      "origin": "authored",
+      "options": [
+        "駅の屋敷で切符を買って電車に乗った。",
+        "瓦が割れたので、建物の屋敷を葺き替えた。",
+        "東京の屋敷は大阪より東にある。",
+        "古い屋敷の広い庭を見学した。"
+      ],
+      "explanations": [
+        "Nhà ga là 駅舎; 屋敷 không chỉ công trình ga.",
+        "Thay lớp mái là 屋根を葺き替える; 屋敷 chỉ cả khu nhà ở, không riêng mái.",
+        "Vị trí một thành phố là 位置; 屋敷 không có nghĩa tọa độ thành phố.",
+        "屋敷 là khu nhà ở lớn và khuôn viên."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-20",
+      "type": "usage",
+      "word": "課外",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 98,
+      "prompt": "課外",
+      "origin": "authored",
+      "options": [
+        "放課後の課外活動として演劇に参加した。",
+        "毎日の気温の課外をノートに書いた。",
+        "この問題は難しすぎるので、答えを課外した。",
+        "授業中に解くよう指示された課外を提出した。"
+      ],
+      "explanations": [
+        "課外 chỉ ngoài chương trình học chính thức.",
+        "Sự thay đổi nhiệt độ là 変化; 課外 không có nghĩa biến động.",
+        "Bỏ qua câu hỏi là 飛ばした／省略した; 課外 không phải động từ loại bỏ.",
+        "Bài được giao là 課題; 課外 không chỉ bài tập."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai9-22",
+      "type": "usage",
+      "word": "依頼",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 22,
+      "prompt": "依頼",
+      "origin": "authored",
+      "options": [
+        "旅行の費用として十万円を銀行から依頼した。",
+        "友人から借りた本を依頼した。",
+        "専門家に機械の修理を依頼した。",
+        "長年の友人なので、彼を心から依頼している。"
+      ],
+      "explanations": [
+        "Vay tiền là 借りた; 依頼する không có nghĩa nhận khoản vay.",
+        "Hoàn trả sách là 返却した; 依頼 là nhờ làm việc.",
+        "依頼 là nhờ người khác thực hiện việc.",
+        "Tin tưởng một người là 信頼する; 依頼する là nhờ người đó làm một việc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai9-25",
+      "type": "usage",
+      "word": "援助",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 57,
+      "prompt": "援助",
+      "origin": "authored",
+      "options": [
+        "辞書の援助を調べて、単語の意味を知った。",
+        "被災地に食料や資金の援助を行った。",
+        "試合を見ながら大声で選手に援助を送った。",
+        "忘れないように、電話番号を援助した。"
+      ],
+      "explanations": [
+        "Mục từ hoặc giải thích là 項目／説明; 援助 không chỉ mục tra cứu.",
+        "援助 là hỗ trợ vật chất hoặc tài chính.",
+        "Cổ vũ bằng tiếng hô là 声援／応援; 援助 không chỉ lời cổ vũ.",
+        "Lưu số là 記録／登録; không phải hỗ trợ người khác."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai9-26",
+      "type": "usage",
+      "word": "一筋",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 38,
+      "prompt": "一筋",
+      "origin": "authored",
+      "options": [
+        "五人が一筋ずつ教室に入った。",
+        "予定を一筋変更して、出発を一時間遅らせた。",
+        "この机は一筋なので、一人でも持てる。",
+        "父は三十年間、研究一筋に生きてきた。"
+      ],
+      "explanations": [
+        "Đếm từng người là 一人ずつ; 一筋 không làm lượng từ cho người.",
+        "Đổi một chút là 少し; 一筋 không chỉ mức độ nhỏ bất kỳ.",
+        "Nhẹ là 軽い; 一筋 không có nghĩa trọng lượng nhẹ.",
+        "～一筋 là chuyên tâm duy nhất vào lĩnh vực đó."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai9-30",
+      "type": "usage",
+      "word": "往来",
+      "source_file": "resources/N1/goi/dai9.csv",
+      "source_line": 68,
+      "prompt": "往来",
+      "origin": "authored",
+      "options": [
+        "昨日の失敗をいつまでも往来している。",
+        "買った商品を店に往来した。",
+        "朝は駅前を多くの人が往来する。",
+        "海外に移住して二度と戻らないことを往来という。"
+      ],
+      "explanations": [
+        "Nghĩ mãi hoặc hối tiếc là 気にする／後悔する; 往来 không có nghĩa nghĩ lại một việc.",
+        "Trả hàng là 返品した; 往来 là đi lại, không phải trả đồ.",
+        "往来 là đi qua lại giữa các nơi.",
+        "Di cư một chiều không quay lại là 移住; 往来 hàm ý qua lại."
+      ],
+      "answer": 2
+    }
+  ]
+}

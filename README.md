@@ -1,6 +1,6 @@
 # JLPT Exam Skills
 
-Tự học từ vựng tiếng Nhật bằng [web app thẻ nhớ](https://thaicpb.github.io/jlpt-exam-skills/) hoặc luyện bài tập JLPT khi trò chuyện với AI. Không cần biết lập trình.
+Tự học từ vựng tiếng Nhật bằng [web app](https://thaicpb.github.io/jlpt-exam-skills/), làm [10 đề kiểm tra N1 bài 1–10](https://thaicpb.github.io/jlpt-exam-skills/#/exams/N1), hoặc luyện bài tập JLPT khi trò chuyện với AI. Không cần biết lập trình.
 
 Dự án gồm danh sách từ vựng và bốn **skill** — bộ hướng dẫn giúp AI thực hiện một nhiệm vụ:
 
@@ -13,9 +13,9 @@ Danh sách từ vựng hiện có trong `resources/`:
 
 | Cấp độ | Bài học | Số từ |
 | --- | --- | ---: |
-| N1 | Bài 1–38 | 3.796 |
+| N1 | Bài 1–41 | 4.045 |
 | N2 | Bài 1–14 | 1.399 |
-| **Tổng** | **52 bài** | **5.195** |
+| **Tổng** | **55 bài** | **5.444** |
 
 Các bài N1 30–38 bổ sung **902 từ**, kèm bản dịch tiếng Việt và furigana cho câu ví dụ.
 
@@ -108,6 +108,14 @@ Nếu ứng dụng không hỗ trợ nút bấm, hãy yêu cầu AI hỏi từng
 
 ## Luyện bốn dạng bài tập N1
 
+**Làm ngay trên web app:** chọn **JLPT N1 → Kiểm tra N1 → Bài 1–10**. Mỗi đề có 30 câu tương ứng 30 từ khác nhau, được chọn ngẫu nhiên trong đúng bài đó. Tổng cộng 10 đề, 300 câu. Bộ từ được giữ cố định khi mở lại đề để bạn ôn tập.
+
+Mỗi đề có 8 câu đọc kanji, 8 câu ngữ cảnh, 7 câu gần nghĩa và 7 câu cách dùng. Riêng bài 7 có 7 câu đọc kanji và 8 câu gần nghĩa vì bộ từ được chọn có nhiều katakana. Mỗi câu có bốn lựa chọn và một đáp án đúng; vị trí đáp án được xáo trộn, phân bổ 7–8 lần cho mỗi vị trí trong từng đề.
+
+Các phương án đọc kanji đều có từ và cách đọc đối chiếu trong CSV, kể cả đáp án nhiễu. Phần giải thích nêu từ thật tương ứng với từng cách đọc. Các câu ngữ cảnh, gần nghĩa và cách dùng được biên soạn riêng, kèm lý do cho cả bốn lựa chọn.
+
+Chế độ **Kiểm tra** chỉ hiện điểm và giải thích sau khi nộp; có thể sửa lựa chọn trước đó. Chế độ **Luyện tập** hiện giải thích ngay. Sau khi nộp, bạn có thể làm lại câu sai hoặc cả đề. Lựa chọn chỉ giữ trong phiên hiện tại; tải lại trang sẽ bắt đầu lượt mới. Các đề dùng được offline sau khi web app đã tải và lưu bản cập nhật.
+
 Khi muốn làm bài từ vựng N1, gọi **jlpt-n1-vocabulary-coach**. Không dùng skill N2 vì cấu trúc hai cấp độ khác nhau.
 
 | Dạng bài | Bạn cần làm gì? | Số câu trong cấu hình minh họa |
@@ -139,7 +147,7 @@ AI sẽ đọc từ trong ảnh, đối chiếu phần thiếu với dữ liệu
 
 **Link web app:** [https://thaicpb.github.io/jlpt-exam-skills/](https://thaicpb.github.io/jlpt-exam-skills/)
 
-Thư mục `webapp/` là một web app thẻ nhớ dùng toàn bộ dữ liệu trong `resources/`, hiện gồm N1 bài 1–38 và N2 bài 1–14. Dấu **★ Cần xem lại** và tiến độ “đã xem” được lưu trên máy. Web app có thêm nút nghe phát âm, vuốt trái/phải để chuyển thẻ và chế độ mặt trước là nghĩa tiếng Việt.
+Thư mục `webapp/` là web app thẻ nhớ và kiểm tra từ vựng, hiện gồm N1 bài 1–41, N2 bài 1–14 và 10 đề N1 bài 1–10. Dấu **★ Cần xem lại** và tiến độ “đã xem” của thẻ nhớ được lưu trên máy. Web app có thêm nút nghe phát âm, vuốt trái/phải để chuyển thẻ và chế độ mặt trước là nghĩa tiếng Việt.
 
 **Cài trên iPhone:** mở link bằng **Safari**, bấm **Chia sẻ → Thêm vào MH chính**. Lần đầu, mở app khi có mạng và chờ thông báo **“Đã lưu toàn bộ bài để dùng offline”** trước khi học offline.
 
@@ -175,6 +183,7 @@ python3 -m http.server 8000 --directory dist
 ## Từ vựng nằm ở đâu?
 
 - **resources**: mỗi bài gồm `daiN.csv` chứa từ, cách đọc, nghĩa tiếng Việt, câu ví dụ và `daiN.examples.json` chứa bản dịch, furigana của câu ví dụ.
+- **resources/N1/exams**: ngân hàng câu hỏi đã biên soạn, đáp án, giải thích và thông tin chọn ngẫu nhiên cho 10 đề. Builder kiểm tra nguồn, bộ từ và chứng cứ cách đọc trước khi xuất HTML vào `dist/exams/N1/`.
 - **skills**: hướng dẫn để AI tổ chức việc học và bổ sung dữ liệu từ ảnh.
 - **webapp**: giao diện thẻ nhớ trên trình duyệt và iPhone.
 - **tools/build_webapp.py**: kiểm tra, chuyển dữ liệu bài học và đóng gói web app vào `dist/`.

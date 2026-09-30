@@ -29,7 +29,15 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET" || new URL(request.url).origin !== self.location.origin) return;
   event.respondWith(caches.open(CACHE).then(async (cache) => {
     if (request.mode === "navigate") {
-      return (await cache.match("./")) || fetch(request);
+      // Exam HTML is a real page, not a hash route of the flashcard shell.
+      const hit = await cache.match(request, { ignoreSearch: true });
+      if (hit) return hit;
+      const url = new URL(request.url);
+      const home = new URL("./", self.location.href);
+      if (url.pathname === home.pathname || url.pathname === `${home.pathname}index.html`) {
+        return (await cache.match("./")) || fetch(request);
+      }
+      return fetch(request);
     }
     const hit = await cache.match(request, { ignoreSearch: true });
     if (hit) return hit;

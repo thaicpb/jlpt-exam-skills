@@ -102,7 +102,9 @@ function countWhere(obj, prefix) { let n = 0; for (const k in obj) if (k.startsW
 /* ---------- router ---------- */
 function route() {
   const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
-  if (parts.length === 2 && levelOf(parts[0])) {
+  if (parts.length === 2 && parts[0] === 'exams' && levelOf(parts[1])) {
+    state.level = parts[1]; save(); renderExams(parts[1]);
+  } else if (parts.length === 2 && levelOf(parts[0])) {
     state.level = parts[0]; save();
     renderStudy(parts[0], parts[1]).catch(showError);
   } else renderHome();
@@ -120,6 +122,11 @@ function renderHome() {
   const level = levelOf(state.level);
   const marked = countWhere(state.marks, `${level.id}/`);
   const quick = h('div', { class: 'quick' });
+  if (level.exams && level.exams.length) {
+    quick.append(h('button', { type: 'button', class: 'primary-card', onclick: () => go(`#/exams/${level.id}`) },
+      h('span', null, h('strong', null, `Kiểm tra ${level.id}`),
+        h('small', null, `${level.exams.length} đề · 30 câu mỗi đề · có giải thích đáp án`)), '›'));
+  }
   const last = state.last && state.last.level === level.id && lessonOf(level.id, state.last.lesson) ? state.last : null;
   if (last) {
     const meta = lessonOf(level.id, last.lesson);
@@ -158,6 +165,25 @@ function renderHome() {
     h('footer', { class: 'foot' },
       standalone ? null : h('p', null, 'Trên iPhone: mở bằng Safari → Chia sẻ → “Thêm vào MH chính” để dùng như app, kể cả khi offline.'),
       h('p', null, `Dữ liệu phiên bản ${catalog.version}`))));
+  window.scrollTo(0, 0);
+}
+
+function renderExams(levelId) {
+  const level = levelOf(levelId);
+  document.documentElement.dataset.level = levelId;
+  const exams = level.exams || [];
+  app.replaceChildren(h('div', { class: 'screen' },
+    h('div', { class: 'topbar' },
+      h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Quay lại danh sách bài', html: ICON.back, onclick: () => go('#/') }),
+      h('div', { class: 'title' }, h('b', null, `Kiểm tra ${levelId}`), h('span', null, `${exams.length} đề theo bài học`))),
+    h('p', { class: 'exam-intro' }, 'Mỗi đề gồm 30 từ được chọn ngẫu nhiên từ bài tương ứng. Bộ câu hỏi được giữ cố định để ôn lại.'),
+    h('p', { class: 'exam-intro' }, 'Chọn đáp án rồi nộp bài để xem điểm, giải thích và làm lại câu sai. Khi tải lại trang, lượt làm hiện tại sẽ bắt đầu lại.'),
+    h('div', { class: 'lessons' }, exams.map((exam) =>
+      h('a', { class: 'lesson exam-link', href: exam.file },
+        h('b', null, exam.title), h('span', null, `${exam.count} từ · 4 dạng bài`),
+        h('span', { class: 'flag' }, 'Bắt đầu làm bài →')))),
+    exams.length ? null : h('p', { class: 'empty' }, 'Cấp độ này chưa có đề kiểm tra.'),
+    h('footer', { class: 'foot' }, 'Đáp án chỉ hiện sau khi nộp trong chế độ Kiểm tra.')));
   window.scrollTo(0, 0);
 }
 

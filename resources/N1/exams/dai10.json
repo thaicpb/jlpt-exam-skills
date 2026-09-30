@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai10-30",
+  "title": "N1 · Bài 10 · 30 câu",
+  "level": "N1",
+  "lesson": "dai10",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093010,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai10.csv"
+  },
+  "choice_seed": 2026100010,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai10-01",
+      "type": "reading",
+      "word": "革命",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 49,
+      "prompt": "その発明は産業に【革命】をもたらした。",
+      "origin": "authored",
+      "options": [
+        "かくてい",
+        "かくめい",
+        "かんめい",
+        "かくだい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "確定",
+          "reading": "かくてい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 46
+        },
+        {
+          "word": "革命",
+          "reading": "かくめい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 49
+        },
+        {
+          "word": "感銘",
+          "reading": "かんめい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 73
+        },
+        {
+          "word": "拡大",
+          "reading": "かくだい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 37
+        }
+      ],
+      "explanations": [
+        "かくてい là cách đọc của 確定 (xác định; chốt). Đây là từ có thật, nhưng không phải cách đọc của 革命 trong câu.",
+        "かくめい là cách đọc của 革命 (cách mạng). Khớp từ được gạch dưới trong câu.",
+        "かんめい là cách đọc của 感銘 (ấn tượng sâu sắc). Đây là từ có thật, nhưng không phải cách đọc của 革命 trong câu.",
+        "かくだい là cách đọc của 拡大 (mở rộng, phóng to). Đây là từ có thật, nhưng không phải cách đọc của 革命 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-03",
+      "type": "reading",
+      "word": "海峡",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 18,
+      "prompt": "二つの島の間に狭い【海峡】がある。",
+      "origin": "authored",
+      "options": [
+        "かんきょう",
+        "かいきゅう",
+        "かいきょう",
+        "かいしょう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 47
+        },
+        {
+          "word": "階級",
+          "reading": "かいきゅう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 24
+        },
+        {
+          "word": "海峡",
+          "reading": "かいきょう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 18
+        },
+        {
+          "word": "解消",
+          "reading": "かいしょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 32
+        }
+      ],
+      "explanations": [
+        "かんきょう là cách đọc của 環境 (môi trường, hoàn cảnh). Đây là từ có thật, nhưng không phải cách đọc của 海峡 trong câu.",
+        "かいきゅう là cách đọc của 階級 (giai cấp; cấp bậc). Đây là từ có thật, nhưng không phải cách đọc của 海峡 trong câu.",
+        "かいきょう là cách đọc của 海峡 (eo biển). Khớp từ được gạch dưới trong câu.",
+        "かいしょう là cách đọc của 解消 (chấm dứt, huỷ bỏ). Đây là từ có thật, nhưng không phải cách đọc của 海峡 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-04",
+      "type": "reading",
+      "word": "外観",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 28,
+      "prompt": "建物の【外観】は古いが、中は新しい。",
+      "origin": "authored",
+      "options": [
+        "がいねん",
+        "がいか",
+        "がいはく",
+        "がいかん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "概念",
+          "reading": "がいねん",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 32
+        },
+        {
+          "word": "外貨",
+          "reading": "がいか",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 27
+        },
+        {
+          "word": "外泊",
+          "reading": "がいはく",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 29
+        },
+        {
+          "word": "外観",
+          "reading": "がいかん",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 28
+        }
+      ],
+      "explanations": [
+        "がいねん là cách đọc của 概念 (khái niệm). Đây là từ có thật, nhưng không phải cách đọc của 外観 trong câu.",
+        "がいか là cách đọc của 外貨 (ngoại tệ). Đây là từ có thật, nhưng không phải cách đọc của 外観 trong câu.",
+        "がいはく là cách đọc của 外泊 (ngủ qua đêm bên ngoài). Đây là từ có thật, nhưng không phải cách đọc của 外観 trong câu.",
+        "がいかん là cách đọc của 外観 (ngoại quan). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-06",
+      "type": "reading",
+      "word": "概要",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 33,
+      "prompt": "まず計画の【概要】を説明します。",
+      "origin": "authored",
+      "options": [
+        "がいとう",
+        "がいよう",
+        "さいよう",
+        "えいよう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "街頭",
+          "reading": "がいとう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 36
+        },
+        {
+          "word": "概要",
+          "reading": "がいよう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 33
+        },
+        {
+          "word": "採用",
+          "reading": "さいよう",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 34
+        },
+        {
+          "word": "栄養",
+          "reading": "えいよう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 21
+        }
+      ],
+      "explanations": [
+        "がいとう là cách đọc của 街頭 (trên đường phố). Đây là từ có thật, nhưng không phải cách đọc của 概要 trong câu.",
+        "がいよう là cách đọc của 概要 (tổng quan). Khớp từ được gạch dưới trong câu.",
+        "さいよう là cách đọc của 採用 (tuyển dụng). Đây là từ có thật, nhưng không phải cách đọc của 概要 trong câu.",
+        "えいよう là cách đọc của 栄養 (dinh dưỡng). Đây là từ có thật, nhưng không phải cách đọc của 概要 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-07",
+      "type": "reading",
+      "word": "観賞",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 87,
+      "prompt": "庭園で季節の花を【観賞】する。",
+      "origin": "authored",
+      "options": [
+        "かんじょう",
+        "かいしょう",
+        "かんきょう",
+        "かんしょう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "勘定",
+          "reading": "かんじょう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 61
+        },
+        {
+          "word": "解消",
+          "reading": "かいしょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 32
+        },
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 47
+        },
+        {
+          "word": "観賞",
+          "reading": "かんしょう",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 87
+        }
+      ],
+      "explanations": [
+        "かんじょう là cách đọc của 勘定 (tính toán; thanh toán; hóa đơn). Đây là từ có thật, nhưng không phải cách đọc của 観賞 trong câu.",
+        "かいしょう là cách đọc của 解消 (chấm dứt, huỷ bỏ). Đây là từ có thật, nhưng không phải cách đọc của 観賞 trong câu.",
+        "かんきょう là cách đọc của 環境 (môi trường, hoàn cảnh). Đây là từ có thật, nhưng không phải cách đọc của 観賞 trong câu.",
+        "かんしょう là cách đọc của 観賞 (ngắm thưởng thức vẻ đẹp thiên nhiên). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-08",
+      "type": "reading",
+      "word": "喝采",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 55,
+      "prompt": "観客から大きな【喝采】が起こった。",
+      "origin": "authored",
+      "options": [
+        "かっさい",
+        "かさい",
+        "かくだい",
+        "かいさい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "喝采",
+          "reading": "かっさい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 55
+        },
+        {
+          "word": "火災",
+          "reading": "かさい",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 94
+        },
+        {
+          "word": "拡大",
+          "reading": "かくだい",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 37
+        },
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 21
+        }
+      ],
+      "explanations": [
+        "かっさい là cách đọc của 喝采 (tiếng vỗ tay tán thưởng). Khớp từ được gạch dưới trong câu.",
+        "かさい là cách đọc của 火災 (hỏa hoạn). Đây là từ có thật, nhưng không phải cách đọc của 喝采 trong câu.",
+        "かくだい là cách đọc của 拡大 (mở rộng, phóng to). Đây là từ có thật, nhưng không phải cách đọc của 喝采 trong câu.",
+        "かいさい là cách đọc của 開催 (tổ chức). Đây là từ có thật, nhưng không phải cách đọc của 喝采 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-18",
+      "type": "reading",
+      "word": "革新",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 48,
+      "prompt": "技術の【革新】によって生活が変わる。",
+      "origin": "authored",
+      "options": [
+        "かくさん",
+        "かくしゅ",
+        "かんしん",
+        "かくしん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "拡散",
+          "reading": "かくさん",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 40
+        },
+        {
+          "word": "各種",
+          "reading": "かくしゅ",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 39
+        },
+        {
+          "word": "感心",
+          "reading": "かんしん",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 46
+        },
+        {
+          "word": "革新",
+          "reading": "かくしん",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 48
+        }
+      ],
+      "explanations": [
+        "かくさん là cách đọc của 拡散 (lan truyền; khuếch tán). Đây là từ có thật, nhưng không phải cách đọc của 革新 trong câu.",
+        "かくしゅ là cách đọc của 各種 (các loại). Đây là từ có thật, nhưng không phải cách đọc của 革新 trong câu.",
+        "かんしん là cách đọc của 感心 (ngưỡng mộ, thán phục). Đây là từ có thật, nhưng không phải cách đọc của 革新 trong câu.",
+        "かくしん là cách đọc của 革新 (đổi mới căn bản). Khớp từ được gạch dưới trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-28",
+      "type": "reading",
+      "word": "我々",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 4,
+      "prompt": "【我々】にも責任の一端がある。",
+      "origin": "authored",
+      "options": [
+        "わざと",
+        "わざわざ",
+        "われわれ",
+        "あれこれ"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "わざと",
+          "reading": "わざと",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 24
+        },
+        {
+          "word": "わざわざ",
+          "reading": "わざわざ",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 25
+        },
+        {
+          "word": "我々",
+          "reading": "われわれ",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 4
+        },
+        {
+          "word": "あれこれ",
+          "reading": "あれこれ",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 9
+        }
+      ],
+      "explanations": [
+        "わざと là cách đọc của わざと (cố ý; có chủ đích). Đây là từ có thật, nhưng không phải cách đọc của 我々 trong câu.",
+        "わざわざ là cách đọc của わざわざ (cất công; đặc biệt dành công sức). Đây là từ có thật, nhưng không phải cách đọc của 我々 trong câu.",
+        "われわれ là cách đọc của 我々 (chúng tôi; chúng ta). Khớp từ được gạch dưới trong câu.",
+        "あれこれ là cách đọc của あれこれ (điều này điều kia; đủ thứ). Đây là từ có thật, nhưng không phải cách đọc của 我々 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai10-02",
+      "type": "context",
+      "word": "歓迎",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 78,
+      "prompt": "外国からの留学生を温かく迎えるため、（　）会を開いた。",
+      "origin": "authored",
+      "options": [
+        "歓迎",
+        "反省",
+        "送別",
+        "検討"
+      ],
+      "explanations": [
+        "歓迎会 là tiệc chào mừng người mới đến.",
+        "反省会 là họp rút kinh nghiệm, không nhằm đón người mới.",
+        "送別会 là tiệc chia tay người rời đi, ngược hướng.",
+        "検討会 là họp cân nhắc vấn đề, không phải chào đón."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai10-05",
+      "type": "context",
+      "word": "改革",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 13,
+      "prompt": "古い仕組みの問題点を直し、制度全体をよりよくする（　）を進める。",
+      "origin": "authored",
+      "options": [
+        "改名",
+        "改札",
+        "改築",
+        "改革"
+      ],
+      "explanations": [
+        "改名 là đổi tên, không cải thiện vận hành cả hệ thống.",
+        "改札 là kiểm soát vé, không phải thay đổi cơ chế.",
+        "改築 là xây lại/cải tạo công trình, không phải hệ thống thể chế.",
+        "改革 là cải cách hệ thống để tốt hơn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai10-09",
+      "type": "context",
+      "word": "関連",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 98,
+      "prompt": "この二つの事件には共通点が多く、何らかの（　）があると考えられる。",
+      "origin": "authored",
+      "options": [
+        "連続",
+        "連絡",
+        "連載",
+        "関連"
+      ],
+      "explanations": [
+        "連続 là xảy ra liên tiếp, không nhất thiết có liên hệ nguyên nhân.",
+        "連絡 là việc liên lạc; 事件同士 nói liên quan chứ không gọi điện cho nhau.",
+        "連載 là đăng nhiều kỳ, không nói quan hệ giữa hai vụ việc.",
+        "関連 là mối liên hệ giữa các sự việc."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai10-11",
+      "type": "context",
+      "word": "改訂",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 16,
+      "prompt": "法律が変わったので、解説書の内容を新しい制度に合わせて（　）した。",
+      "origin": "authored",
+      "options": [
+        "改札",
+        "改訂",
+        "改築",
+        "改装"
+      ],
+      "explanations": [
+        "改札 là kiểm vé, không sửa văn bản.",
+        "改訂 là chỉnh sửa nội dung sách hoặc văn bản.",
+        "改築 dùng cho công trình, không phải nội dung sách.",
+        "改装 là trang trí/cải tạo nội ngoại thất, không chỉnh nội dung sách."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai10-13",
+      "type": "context",
+      "word": "監視",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 81,
+      "prompt": "不審な動きがないか、警備員がモニターで入口を（　）している。",
+      "origin": "authored",
+      "options": [
+        "観賞",
+        "鑑賞",
+        "監視",
+        "観測"
+      ],
+      "explanations": [
+        "観賞 là ngắm vẻ đẹp, khác theo dõi an ninh.",
+        "鑑賞 là thưởng thức nghệ thuật, không cảnh giới.",
+        "監視 là quan sát liên tục để phát hiện bất thường.",
+        "観測 là đo/quan sát hiện tượng để lấy số liệu; theo dõi người ra vào nhằm an ninh là 監視."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-16",
+      "type": "context",
+      "word": "刊行",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 60,
+      "prompt": "未発表の原稿を集め、来年、全集として（　）する予定だ。",
+      "origin": "authored",
+      "options": [
+        "実行",
+        "遂行",
+        "刊行",
+        "運行"
+      ],
+      "explanations": [
+        "実行 là thực hiện kế hoạch, không dùng 原稿を全集として theo nghĩa phát hành.",
+        "遂行 là hoàn thành nhiệm vụ, không phát hành bản thảo thành sách.",
+        "刊行 là xuất bản sách.",
+        "運行 là vận hành phương tiện theo tuyến, không xuất bản."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-17",
+      "type": "context",
+      "word": "関税",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 96,
+      "prompt": "海外から商品を輸入するとき、国境で課される税を（　）という。",
+      "origin": "authored",
+      "options": [
+        "住民税",
+        "相続税",
+        "関税",
+        "所得税"
+      ],
+      "explanations": [
+        "住民税 là thuế cư trú địa phương.",
+        "相続税 là thuế thừa kế, không đánh vì nhập khẩu hàng.",
+        "関税 là thuế đánh vào hàng qua biên giới.",
+        "所得税 là thuế thu nhập cá nhân hoặc thu nhập, không định nghĩa thuế nhập khẩu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-29",
+      "type": "context",
+      "word": "該当",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 37,
+      "prompt": "申請書では、自分に当てはまる項目、つまり（　）する項目に丸を付けてください。",
+      "origin": "authored",
+      "options": [
+        "担当",
+        "配当",
+        "相当",
+        "該当"
+      ],
+      "explanations": [
+        "担当 là phụ trách một công việc, không có nghĩa thuộc diện.",
+        "配当 là phân chia lợi tức, không chọn mục phù hợp.",
+        "相当 là tương đương hoặc khá nhiều; 当てはまる項目 là 該当する項目.",
+        "該当 là phù hợp, thuộc trường hợp được nêu."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai10-12",
+      "type": "paraphrase",
+      "word": "各種",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 39,
+      "prompt": "窓口で【各種の】証明書を発行している。",
+      "origin": "authored",
+      "options": [
+        "同じ一種類だけ",
+        "いろいろな種類の",
+        "必要のない種類",
+        "特に古い種類"
+      ],
+      "explanations": [
+        "Chỉ một loại trái nghĩa.",
+        "各種 là nhiều loại khác nhau.",
+        "Không cần thiết không phải ý của 各種.",
+        "Cũ không liên quan sự đa dạng loại."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai10-14",
+      "type": "paraphrase",
+      "word": "階級",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 24,
+      "prompt": "軍隊では【階級】によって役割が異なる。",
+      "origin": "authored",
+      "options": [
+        "身分や地位の段階",
+        "住んでいる地域",
+        "働いた時間の長さ",
+        "家族の人数"
+      ],
+      "explanations": [
+        "階級 là các bậc trong hệ thống địa vị.",
+        "Nơi ở không phải cấp bậc quân đội.",
+        "Thời gian làm việc không phải cấp bậc.",
+        "Số người trong nhà không phải thứ bậc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai10-15",
+      "type": "paraphrase",
+      "word": "外来",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 30,
+      "prompt": "入院せず、【外来】で治療を受ける。",
+      "origin": "authored",
+      "options": [
+        "医師が家を訪ねる形",
+        "病室に泊まる形",
+        "病院に通う形",
+        "薬を全く使わない形"
+      ],
+      "explanations": [
+        "Bác sĩ đến nhà là 訪問診療, không phải ngoại trú.",
+        "Ở lại phòng bệnh là nội trú, trái 外来.",
+        "外来 là điều trị ngoại trú, đi viện rồi về.",
+        "Không dùng thuốc không định nghĩa ngoại trú."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-19",
+      "type": "paraphrase",
+      "word": "間柄",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 95,
+      "prompt": "二人はどんな【間柄】ですか。",
+      "origin": "authored",
+      "options": [
+        "性格",
+        "出身地",
+        "職業",
+        "関係"
+      ],
+      "explanations": [
+        "Tính cách cá nhân không phải quan hệ hai người.",
+        "Quê quán không phải quan hệ.",
+        "Nghề nghiệp không chỉ mối quan hệ.",
+        "間柄 là quan hệ giữa người với người."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai10-20",
+      "type": "paraphrase",
+      "word": "学説",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 51,
+      "prompt": "新しい証拠によって、その【学説】が支持された。",
+      "origin": "authored",
+      "options": [
+        "学校の校則",
+        "学問上の理論",
+        "学生の感想文",
+        "授業の時間割"
+      ],
+      "explanations": [
+        "Nội quy trường không phải lý thuyết nghiên cứu.",
+        "学説 là lý thuyết hoặc quan điểm khoa học.",
+        "Bài cảm tưởng học sinh không phải lý thuyết học thuật.",
+        "Thời khóa biểu không phải học thuyết."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai10-23",
+      "type": "paraphrase",
+      "word": "勧告",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 63,
+      "prompt": "委員会は企業に改善を【勧告した】。",
+      "origin": "authored",
+      "options": [
+        "法律で強制した",
+        "内緒で相談した",
+        "すでに実行した",
+        "正式に勧めた"
+      ],
+      "explanations": [
+        "Cưỡng chế bằng luật mạnh hơn 勧告, không đồng nghĩa.",
+        "Trao đổi bí mật khác khuyến cáo chính thức.",
+        "Đã thực hiện thay doanh nghiệp khác với khuyên doanh nghiệp làm.",
+        "勧告 là chính thức khuyên hoặc đề nghị thực hiện, chưa phải cưỡng chế."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai10-24",
+      "type": "paraphrase",
+      "word": "過度",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 3,
+      "prompt": "【過度の】飲酒は健康に悪い。",
+      "origin": "authored",
+      "options": [
+        "程度を超えた",
+        "一度だけの",
+        "ごく少量の",
+        "適量の"
+      ],
+      "explanations": [
+        "過度 là vượt mức thích hợp.",
+        "Một lần không nói lượng có quá mức hay không.",
+        "Rất ít không phải quá mức.",
+        "Lượng vừa phải trái nghĩa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai10-10",
+      "type": "usage",
+      "word": "会合",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 8,
+      "prompt": "会合",
+      "origin": "authored",
+      "options": [
+        "この店は月曜日が会合なので、客を入れない。",
+        "駅で別々の電車に会合して目的地へ向かった。",
+        "同じ分野の研究者が集まる会合に参加した。",
+        "二本の川が会合して一本になる。"
+      ],
+      "explanations": [
+        "Ngày nghỉ là 定休日; 会合 không chỉ ngày đóng cửa.",
+        "Đổi sang tàu khác là 乗り換える; 会合 không dùng cho chuyển tàu.",
+        "会合 là cuộc gặp để trao đổi, bàn bạc.",
+        "Sông hợp dòng là 合流; 会合 thường là người tập trung họp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-21",
+      "type": "usage",
+      "word": "開幕",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 23,
+      "prompt": "開幕",
+      "origin": "authored",
+      "options": [
+        "国際映画祭が華やかに開幕した。",
+        "新しい本の表紙を開幕して読み始めた。",
+        "会議がすべて終わったので、開幕を宣言した。",
+        "冷蔵庫を開幕して牛乳を取り出した。"
+      ],
+      "explanations": [
+        "開幕 là mở đầu lễ hội hoặc sự kiện.",
+        "Mở sách là 開く; 開幕 không dùng thao tác mở đồ vật.",
+        "Kết thúc là 閉幕／閉会; 開幕 là bắt đầu.",
+        "Mở cửa tủ dùng 開ける; 開幕 là khai màn sự kiện."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai10-22",
+      "type": "usage",
+      "word": "海中",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 19,
+      "prompt": "海中",
+      "origin": "authored",
+      "options": [
+        "空港から海中で飛行機に乗って帰国した。",
+        "浜辺の海中を歩いて貝殻を拾った。",
+        "潜水士が海中で船の状態を調べた。",
+        "船に乗って海中を走り、島に着いた。"
+      ],
+      "explanations": [
+        "Đi bằng đường hàng không là 空路; 海中 không có nghĩa đi xuyên biển bằng máy bay.",
+        "Đi trên bãi biển là 砂浜／海岸; 海中 không chỉ bờ khô.",
+        "海中 là ở trong nước biển.",
+        "Tàu nổi chạy trên 海上; 海中 là dưới mặt nước."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai10-25",
+      "type": "usage",
+      "word": "開催",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 21,
+      "prompt": "開催",
+      "origin": "authored",
+      "options": [
+        "毎朝九時に店のドアを開催する。",
+        "来月、このホールで音楽祭を開催する。",
+        "晴れたので窓を開催した。",
+        "新しい機械を開催して、生産を始める。"
+      ],
+      "explanations": [
+        "Mở cửa dùng 開ける／開店する; không phải tổ chức sự kiện.",
+        "開催 là tổ chức sự kiện.",
+        "Mở cửa sổ là 開ける, không dùng 開催.",
+        "Khởi động máy là 起動／稼働; 開催 không chỉ vận hành thiết bị."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai10-26",
+      "type": "usage",
+      "word": "概念",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 32,
+      "prompt": "概念",
+      "origin": "authored",
+      "options": [
+        "「自由」という概念について議論した。",
+        "昨日見た夢を、詳細な概念として全部書き写した。",
+        "財布の概念を数えたら、千円足りなかった。",
+        "地図の概念に印を付けて、北の位置を示した。"
+      ],
+      "explanations": [
+        "概念 là ý niệm trừu tượng về một sự vật hoặc giá trị.",
+        "Ghi lại nội dung cụ thể là 記録; 概念 không chỉ bản chép đầy đủ chi tiết.",
+        "Tiền bên trong là 中身／現金; 概念 không phải đồ chứa.",
+        "Vị trí hoặc phương hướng trên bản đồ không gọi là 概念; cần chỉ địa điểm cụ thể."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai10-27",
+      "type": "usage",
+      "word": "改築",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 15,
+      "prompt": "改築",
+      "origin": "authored",
+      "options": [
+        "転職するので、履歴書の住所を改築した。",
+        "古い木造の家を改築して、部屋を増やした。",
+        "誤字を直すために、文章を改築した。",
+        "髪が伸びたので、髪型を改築した。"
+      ],
+      "explanations": [
+        "Đổi thông tin địa chỉ là 変更／訂正; 改築 không dùng cho thông tin.",
+        "改築 là sửa hoặc xây lại công trình.",
+        "Chỉnh văn bản là 修正／改訂; không phải cải tạo nhà.",
+        "Đổi kiểu tóc là 変える; 改築 dùng công trình kiến trúc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai10-30",
+      "type": "usage",
+      "word": "勘弁",
+      "source_file": "resources/N1/goi/dai10.csv",
+      "source_line": 62,
+      "prompt": "勘弁",
+      "origin": "authored",
+      "options": [
+        "今回は事情があったので、遅刻を勘弁してもらった。",
+        "困っている人に道を勘弁した。",
+        "忘れないように予定を勘弁した。",
+        "費用を正確に勘弁してから予算を決めた。"
+      ],
+      "explanations": [
+        "勘弁 là tha thứ, bỏ qua lỗi.",
+        "Chỉ đường là 教える／案内する; không phải bỏ qua lỗi.",
+        "Nhớ hoặc ghi lại là 記憶／記録; 勘弁 không chỉ việc ghi nhớ.",
+        "Ước tính tiền là 計算／見積もり; 勘弁 không có nghĩa tính toán."
+      ],
+      "answer": 0
+    }
+  ]
+}
