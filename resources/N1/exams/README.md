@@ -1,4 +1,4 @@
-# Đề N1 bài 1–10
+# Đề N1 bài 1–20
 
 Mỗi tệp `daiN.json` chứa 30 câu cho 30 từ riêng biệt của `resources/N1/goi/daiN.csv`.
 

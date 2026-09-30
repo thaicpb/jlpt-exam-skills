@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai13-30",
+  "title": "N1 · Bài 13 · 30 câu",
+  "level": "N1",
+  "lesson": "dai13",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093013,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai13.csv"
+  },
+  "choice_seed": 2026100013,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai13-01",
+      "type": "reading",
+      "word": "再三",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 81,
+      "prompt": "【再三】注意した。",
+      "origin": "authored",
+      "options": [
+        "さいしん",
+        "さいぜん",
+        "さいさん",
+        "さいみん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "細心",
+          "reading": "さいしん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 95
+        },
+        {
+          "word": "最善",
+          "reading": "さいぜん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 83
+        },
+        {
+          "word": "再三",
+          "reading": "さいさん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 81
+        },
+        {
+          "word": "催眠",
+          "reading": "さいみん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 80
+        }
+      ],
+      "explanations": [
+        "さいしん là cách đọc của 細心 (hết sức cẩn thận). Đây là cách đọc có thật nhưng không phải của 再三 trong câu.",
+        "さいぜん là cách đọc của 最善 (tốt nhất). Đây là cách đọc có thật nhưng không phải của 再三 trong câu.",
+        "さいさん là cách đọc của 再三 (nhiều lần). Đúng với từ và ngữ cảnh đang hỏi.",
+        "さいみん là cách đọc của 催眠 (thôi miên; gây buồn ngủ). Đây là cách đọc có thật nhưng không phải của 再三 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai13-02",
+      "type": "reading",
+      "word": "最善",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 83,
+      "prompt": "今できる【最善】を尽くす。",
+      "origin": "authored",
+      "options": [
+        "さいぜん",
+        "さいさん",
+        "さいしん",
+        "さいみん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "最善",
+          "reading": "さいぜん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 83
+        },
+        {
+          "word": "再三",
+          "reading": "さいさん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 81
+        },
+        {
+          "word": "細心",
+          "reading": "さいしん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 95
+        },
+        {
+          "word": "催眠",
+          "reading": "さいみん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 80
+        }
+      ],
+      "explanations": [
+        "さいぜん là cách đọc của 最善 (tốt nhất). Đúng với từ và ngữ cảnh đang hỏi.",
+        "さいさん là cách đọc của 再三 (nhiều lần). Đây là cách đọc có thật nhưng không phải của 最善 trong câu.",
+        "さいしん là cách đọc của 細心 (hết sức cẩn thận). Đây là cách đọc có thật nhưng không phải của 最善 trong câu.",
+        "さいみん là cách đọc của 催眠 (thôi miên; gây buồn ngủ). Đây là cách đọc có thật nhưng không phải của 最善 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai13-03",
+      "type": "reading",
+      "word": "災害",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 92,
+      "prompt": "【災害】に備えて水を保存する。",
+      "origin": "authored",
+      "options": [
+        "さいがい",
+        "さいそく",
+        "さいばい",
+        "へいがい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "災害",
+          "reading": "さいがい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 92
+        },
+        {
+          "word": "催促",
+          "reading": "さいそく",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 79
+        },
+        {
+          "word": "栽培",
+          "reading": "さいばい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 90
+        },
+        {
+          "word": "弊害",
+          "reading": "へいがい",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 70
+        }
+      ],
+      "explanations": [
+        "さいがい là cách đọc của 災害 (thiên tai; thảm họa). Đúng với từ và ngữ cảnh đang hỏi.",
+        "さいそく là cách đọc của 催促 (thúc giục; đòi). Đây là cách đọc có thật nhưng không phải của 災害 trong câu.",
+        "さいばい là cách đọc của 栽培 (trồng trọt). Đây là cách đọc có thật nhưng không phải của 災害 trong câu.",
+        "へいがい là cách đọc của 弊害 (tác hại; hệ quả xấu). Đây là cách đọc có thật nhưng không phải của 災害 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai13-04",
+      "type": "reading",
+      "word": "最中",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 97,
+      "prompt": "会議の【最中】に電話が鳴った。",
+      "origin": "authored",
+      "options": [
+        "さいしゅう",
+        "さいちゅう",
+        "さいしゅ",
+        "さんちょう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "採集",
+          "reading": "さいしゅう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 88
+        },
+        {
+          "word": "最中",
+          "reading": "さいちゅう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 97
+        },
+        {
+          "word": "採取",
+          "reading": "さいしゅ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 87
+        },
+        {
+          "word": "山頂",
+          "reading": "さんちょう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 11
+        }
+      ],
+      "explanations": [
+        "さいしゅう là cách đọc của 採集 (thu thập mẫu). Đây là cách đọc có thật nhưng không phải của 最中 trong câu.",
+        "さいちゅう là cách đọc của 最中 (đang lúc; giữa lúc). Đúng với từ và ngữ cảnh đang hỏi.",
+        "さいしゅ là cách đọc của 採取 (lấy mẫu; thu lấy). Đây là cách đọc có thật nhưng không phải của 最中 trong câu.",
+        "さんちょう là cách đọc của 山頂 (đỉnh núi). Đây là cách đọc có thật nhưng không phải của 最中 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai13-05",
+      "type": "reading",
+      "word": "告訴",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 59,
+      "prompt": "被害者が加害者を【告訴】した。",
+      "origin": "authored",
+      "options": [
+        "こうぼ",
+        "こらい",
+        "こしつ",
+        "こくそ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "公募",
+          "reading": "こうぼ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 19
+        },
+        {
+          "word": "古来",
+          "reading": "こらい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 3
+        },
+        {
+          "word": "固執",
+          "reading": "こしつ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 4
+        },
+        {
+          "word": "告訴",
+          "reading": "こくそ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 59
+        }
+      ],
+      "explanations": [
+        "こうぼ là cách đọc của 公募 (tuyển công khai). Đây là cách đọc có thật nhưng không phải của 告訴 trong câu.",
+        "こらい là cách đọc của 古来 (từ xa xưa). Đây là cách đọc có thật nhưng không phải của 告訴 trong câu.",
+        "こしつ là cách đọc của 固執 (khăng khăng; cố chấp). Đây là cách đọc có thật nhưng không phải của 告訴 trong câu.",
+        "こくそ là cách đọc của 告訴 (tố cáo hình sự). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai13-06",
+      "type": "reading",
+      "word": "在職",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 98,
+      "prompt": "【在職】中に資格を取った。",
+      "origin": "authored",
+      "options": [
+        "たいしょう",
+        "ふっしょく",
+        "ざいしょく",
+        "てんしょく"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "対照",
+          "reading": "たいしょう",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 60
+        },
+        {
+          "word": "払拭",
+          "reading": "ふっしょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 47
+        },
+        {
+          "word": "在職",
+          "reading": "ざいしょく",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 98
+        },
+        {
+          "word": "天職",
+          "reading": "てんしょく",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 64
+        }
+      ],
+      "explanations": [
+        "たいしょう là cách đọc của 対照 (đối chiếu; tương phản). Đây là cách đọc có thật nhưng không phải của 在職 trong câu.",
+        "ふっしょく là cách đọc của 払拭 (xóa bỏ hoàn toàn). Đây là cách đọc có thật nhưng không phải của 在職 trong câu.",
+        "ざいしょく là cách đọc của 在職 (đang giữ chức; đang làm việc). Đúng với từ và ngữ cảnh đang hỏi.",
+        "てんしょく là cách đọc của 天職 (nghề phù hợp với thiên hướng). Đây là cách đọc có thật nhưng không phải của 在職 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai13-07",
+      "type": "reading",
+      "word": "荒廃",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 40,
+      "prompt": "戦争で町が【荒廃】した。",
+      "origin": "authored",
+      "options": [
+        "こうたい",
+        "こうかい",
+        "こうてい",
+        "こうはい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "後退",
+          "reading": "こうたい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 14
+        },
+        {
+          "word": "航海",
+          "reading": "こうかい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 39
+        },
+        {
+          "word": "肯定",
+          "reading": "こうてい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 38
+        },
+        {
+          "word": "荒廃",
+          "reading": "こうはい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 40
+        }
+      ],
+      "explanations": [
+        "こうたい là cách đọc của 後退 (lùi lại; thoái lui). Đây là cách đọc có thật nhưng không phải của 荒廃 trong câu.",
+        "こうかい là cách đọc của 航海 (chuyến đi biển; đi biển). Đây là cách đọc có thật nhưng không phải của 荒廃 trong câu.",
+        "こうてい là cách đọc của 肯定 (khẳng định; tán thành). Đây là cách đọc có thật nhưng không phải của 荒廃 trong câu.",
+        "こうはい là cách đọc của 荒廃 (hoang tàn; suy đồi). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai13-08",
+      "type": "reading",
+      "word": "孤児",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 5,
+      "prompt": "【孤児】を支援する団体に寄付した。",
+      "origin": "authored",
+      "options": [
+        "こうぼ",
+        "ほじ",
+        "こらい",
+        "こじ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "公募",
+          "reading": "こうぼ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 19
+        },
+        {
+          "word": "保持",
+          "reading": "ほじ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 95
+        },
+        {
+          "word": "古来",
+          "reading": "こらい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 3
+        },
+        {
+          "word": "孤児",
+          "reading": "こじ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 5
+        }
+      ],
+      "explanations": [
+        "こうぼ là cách đọc của 公募 (tuyển công khai). Đây là cách đọc có thật nhưng không phải của 孤児 trong câu.",
+        "ほじ là cách đọc của 保持 (giữ; duy trì). Đây là cách đọc có thật nhưng không phải của 孤児 trong câu.",
+        "こらい là cách đọc của 古来 (từ xa xưa). Đây là cách đọc có thật nhưng không phải của 孤児 trong câu.",
+        "こじ là cách đọc của 孤児 (trẻ mồ côi). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai13-09",
+      "type": "context",
+      "word": "抗議",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 29,
+      "prompt": "一方的な値上げに反対する住民は、市役所の前で（　）の声を上げた。",
+      "origin": "authored",
+      "options": [
+        "賛同",
+        "抗議",
+        "祝福",
+        "謝罪"
+      ],
+      "explanations": [
+        "賛同 là tán thành, trái với 反対する.",
+        "抗議 là phản đối điều cho là không đúng.",
+        "祝福 là chúc mừng, không diễn tả sự phản đối.",
+        "謝罪 là xin lỗi về lỗi của mình, không phải phản đối tăng giá."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-10",
+      "type": "context",
+      "word": "功績",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 20,
+      "prompt": "多くの命を救った医師の（　）をたたえ、町は記念碑を建てた。",
+      "origin": "authored",
+      "options": [
+        "功績",
+        "疑惑",
+        "損失",
+        "過失"
+      ],
+      "explanations": [
+        "功績 là thành tích, công lao đáng khen.",
+        "疑惑 là sự nghi ngờ, không phải lý do tôn vinh trong câu.",
+        "損失 là thiệt hại, không phù hợp với việc biểu dương.",
+        "過失 là lỗi vô ý, không phải công lao cứu người."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai13-11",
+      "type": "context",
+      "word": "合間",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 50,
+      "prompt": "会議と会議の短い（　）に、急いで昼食を取った。",
+      "origin": "authored",
+      "options": [
+        "期限",
+        "合間",
+        "最中",
+        "期間"
+      ],
+      "explanations": [
+        "期限 là thời hạn cuối, không chỉ thời gian xen giữa.",
+        "合間 là khoảng thời gian trống giữa các hoạt động.",
+        "最中 là lúc đang diễn ra; không kết hợp 会議と会議の theo nghĩa khoảng nghỉ.",
+        "期間 là khoảng thời gian kéo dài của một việc; ở đây cần khoảng trống giữa hai cuộc họp."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-12",
+      "type": "context",
+      "word": "採決",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 85,
+      "prompt": "十分に議論した後、議長は議案を（　）に付し、全員に賛否を求めた。",
+      "origin": "authored",
+      "options": [
+        "採決",
+        "採集",
+        "採用",
+        "採点"
+      ],
+      "explanations": [
+        "採決に付す là đưa vấn đề ra biểu quyết.",
+        "採集 là thu thập mẫu vật, không liên quan biểu quyết nghị án.",
+        "採用 là tuyển dụng hoặc chọn áp dụng; không chỉ thủ tục hỏi ý kiến biểu quyết.",
+        "採点 là chấm điểm bài làm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai13-13",
+      "type": "context",
+      "word": "古来",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 3,
+      "prompt": "この地域では、（　）伝わる祭りが千年以上続いている。",
+      "origin": "authored",
+      "options": [
+        "近日",
+        "古来",
+        "直前",
+        "将来"
+      ],
+      "explanations": [
+        "近日 chỉ thời gian gần đây hoặc sắp tới, không phù hợp lịch sử nghìn năm.",
+        "古来 là từ thời xa xưa đến nay.",
+        "直前 là ngay trước một sự kiện, không có nghĩa từ xa xưa.",
+        "将来 là tương lai, trái với 伝わる và 千年以上."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-14",
+      "type": "context",
+      "word": "戸惑",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 8,
+      "prompt": "突然責任者に指名され、経験のない私は（　）を隠せなかった。",
+      "origin": "authored",
+      "options": [
+        "満足",
+        "安堵",
+        "確信",
+        "戸惑い"
+      ],
+      "explanations": [
+        "満足 là hài lòng, không thể hiện sự lúng túng ở đây.",
+        "安堵 là nhẹ nhõm sau khi hết lo, không phù hợp với sự bất ngờ và thiếu kinh nghiệm.",
+        "確信 là tin chắc, trái với việc không biết xử trí.",
+        "戸惑い là sự bối rối khi không biết xử trí; đây là dạng danh từ tự nhiên của mục nguồn 戸惑."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai13-15",
+      "type": "context",
+      "word": "根拠",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 65,
+      "prompt": "うわさだけでは判断できない。その主張には科学的な（　）が必要だ。",
+      "origin": "authored",
+      "options": [
+        "偏見",
+        "根拠",
+        "願望",
+        "空想"
+      ],
+      "explanations": [
+        "偏見 là định kiến, không phải bằng chứng.",
+        "根拠 là căn cứ để chứng minh một nhận định.",
+        "願望 là mong muốn, không làm cơ sở khoa học.",
+        "空想 là tưởng tượng, không phải căn cứ khách quan."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-16",
+      "type": "context",
+      "word": "細胞",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 96,
+      "prompt": "顕微鏡を使って、植物の葉を構成する一つ一つの（　）を観察した。",
+      "origin": "authored",
+      "options": [
+        "細胞",
+        "分子",
+        "細菌",
+        "粒子"
+      ],
+      "explanations": [
+        "細胞 là tế bào, đơn vị cấu tạo của sinh vật.",
+        "分子 là phân tử; không phải đơn vị tế bào quan sát trong tình huống này.",
+        "細菌 là vi khuẩn; lá cây không được cấu tạo từ vi khuẩn.",
+        "粒子 là hạt nói chung; đơn vị sinh học cấu tạo lá được gọi là 細胞."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai13-17",
+      "type": "paraphrase",
+      "word": "催促",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 79,
+      "prompt": "期限を過ぎても返事がないので、相手に【催促した】。",
+      "origin": "authored",
+      "options": [
+        "返事を読んだことに礼を述べた",
+        "返事をしなくてもよいと伝えた",
+        "早く返事をするように求めた",
+        "返事の内容を他人に説明した"
+      ],
+      "explanations": [
+        "Cảm ơn không đồng nghĩa với thúc giục.",
+        "Miễn trả lời trái với giục trả lời.",
+        "催促 là giục người khác sớm thực hiện việc cần làm.",
+        "Giải thích nội dung không phải催促."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-18",
+      "type": "paraphrase",
+      "word": "幸運",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 28,
+      "prompt": "旅先で旧友に再会できたのは【幸運】だった。",
+      "origin": "authored",
+      "options": [
+        "長年続けた努力の成果",
+        "予想どおりの悪い結果",
+        "思いがけない良い巡り合わせ",
+        "避けられない災難"
+      ],
+      "explanations": [
+        "Thành quả nỗ lực không đồng nghĩa với vận may bất ngờ.",
+        "Kết quả xấu không phải may mắn.",
+        "幸運 là vận may, cơ duyên tốt.",
+        "Tai họa không tránh được trái với 幸運."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-19",
+      "type": "paraphrase",
+      "word": "差額",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 73,
+      "prompt": "新しい料金と以前の料金の【差額】を返金する。",
+      "origin": "authored",
+      "options": [
+        "支払った金額の全額",
+        "今後支払う予定の利息",
+        "金額の違いに当たる分",
+        "サービスを利用する権利"
+      ],
+      "explanations": [
+        "Toàn bộ tiền đã trả không phải phần chênh lệch.",
+        "Lãi dự kiến phải trả không đồng nghĩa với 差額.",
+        "差額 là khoản chênh lệch giữa hai số tiền.",
+        "Quyền sử dụng dịch vụ không phải số tiền."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-20",
+      "type": "paraphrase",
+      "word": "採算",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 86,
+      "prompt": "この価格では【採算が合わない】。",
+      "origin": "authored",
+      "options": [
+        "計算を始められない",
+        "支払い方法を選べない",
+        "注文を受けられない",
+        "利益を出せない"
+      ],
+      "explanations": [
+        "Không thể bắt đầu tính toán không phải nghĩa của cụm này.",
+        "Không thể chọn cách thanh toán không phải 採算が合わない.",
+        "Không thể nhận đơn hàng không đồng nghĩa với không có lãi.",
+        "採算が合わない nghĩa là thu không đủ bù chi để có lợi."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai13-21",
+      "type": "paraphrase",
+      "word": "催眠",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 80,
+      "prompt": "【催眠】を利用した治療について説明を受けた。",
+      "origin": "authored",
+      "options": [
+        "暗示によって眠りに似た状態に導くこと",
+        "薬を使って痛みを感じなくすること",
+        "運動によって疲労を回復すること",
+        "短時間だけ昼寝をすること"
+      ],
+      "explanations": [
+        "催眠 là đưa vào trạng thái giống giấc ngủ bằng ám thị.",
+        "Đây là gây tê hoặc gây mê, không phải định nghĩa催眠.",
+        "Phục hồi thể lực bằng vận động không phải thôi miên.",
+        "Ngủ trưa ngắn là 仮眠."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai13-22",
+      "type": "paraphrase",
+      "word": "考慮",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 37,
+      "prompt": "高齢者の使いやすさを【考慮した】設計だ。",
+      "origin": "authored",
+      "options": [
+        "あとで調べることにした",
+        "完全に否定した",
+        "考えに入れた",
+        "問題から外した"
+      ],
+      "explanations": [
+        "Quyết định sẽ khảo sát sau không đồng nghĩa với đã cân nhắc.",
+        "Phủ nhận hoàn toàn không phải考慮.",
+        "考慮 là cân nhắc và tính đến một yếu tố.",
+        "Gạt khỏi vấn đề trái với tính đến."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-23",
+      "type": "paraphrase",
+      "word": "抗争",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 30,
+      "prompt": "二つの勢力の【抗争】が長期化した。",
+      "origin": "authored",
+      "options": [
+        "友好的な交流",
+        "激しい争い",
+        "平和な共存",
+        "共同作業"
+      ],
+      "explanations": [
+        "Giao lưu hữu nghị trái với đối đầu.",
+        "抗争 là sự đối đầu, tranh đấu giữa các bên.",
+        "Cùng tồn tại hòa bình trái với tranh đấu.",
+        "Công việc phối hợp chung trái với tranh đấu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-24",
+      "type": "usage",
+      "word": "誤差",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 15,
+      "prompt": "誤差",
+      "origin": "authored",
+      "options": [
+        "この測定器には、最大で一ミリの誤差が生じる。",
+        "人前で失礼なことを言った誤差を謝った。",
+        "文章の漢字の誤差を赤ペンで直した。",
+        "東京とロンドンには九時間の誤差がある。"
+      ],
+      "explanations": [
+        "誤差 là độ lệch của giá trị đo hoặc tính so với giá trị chuẩn.",
+        "Lỗi hành vi dùng 過ち・失言; 誤差 là sai lệch đo lường.",
+        "Chữ viết sai dùng 誤字; không dùng 誤差.",
+        "Chênh lệch giờ giữa các múi giờ dùng 時差."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai13-25",
+      "type": "usage",
+      "word": "根底",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 67,
+      "prompt": "根底",
+      "origin": "authored",
+      "options": [
+        "深い井戸の根底から水をくみ上げた。",
+        "成績が学年で一番低く、順位は根底だった。",
+        "彼の活動の根底には、すべての子どもを守りたいという思いがある。",
+        "植物の根底を土から丁寧に掘り出した。"
+      ],
+      "explanations": [
+        "Đáy giếng vật lý dùng 底; 根底 không phải cách gọi vị trí này.",
+        "Thứ hạng cuối cùng dùng 最下位; 根底 không phải thứ hạng.",
+        "根底 là cơ sở sâu xa làm nền cho tư tưởng hoặc hoạt động.",
+        "Bộ rễ thực vật dùng 根, không gọi là 根底."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-26",
+      "type": "usage",
+      "word": "合致",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 54,
+      "prompt": "合致",
+      "origin": "authored",
+      "options": [
+        "二つの会社は新会社を作るために合致した。",
+        "駅で待ち合わせた友人と合致してから出発した。",
+        "割れた皿を接着剤で合致した。",
+        "目撃者の証言は、防犯カメラの映像と合致している。"
+      ],
+      "explanations": [
+        "Sáp nhập công ty dùng 合併; 合致 chỉ sự phù hợp.",
+        "Gặp nhau tại điểm hẹn dùng 合流・落ち合う, không dùng 合致.",
+        "Ghép dán vật thể dùng 接着; 合致 không có nghĩa dán lại.",
+        "合致 là khớp nhau về nội dung, sự thật hoặc điều kiện."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai13-27",
+      "type": "usage",
+      "word": "孤独",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 6,
+      "prompt": "孤独",
+      "origin": "authored",
+      "options": [
+        "両社は別々に経営しているので、資本は孤独している。",
+        "都会に知り合いが一人もおらず、孤独を感じた。",
+        "一社だけが商品を販売する権利を孤独という。",
+        "この発明は他に例がなく、非常に孤独な技術だ。"
+      ],
+      "explanations": [
+        "Vốn độc lập dùng 独立している; 孤独 không phải động từ chỉ độc lập vốn.",
+        "孤独 là trạng thái cô đơn, không có người gần gũi.",
+        "Quyền bán độc quyền dùng 独占販売権; 孤独 là sự cô đơn.",
+        "Tính độc đáo của kỹ thuật dùng 独創的・独自, không dùng 孤独."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-28",
+      "type": "usage",
+      "word": "詐欺",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 76,
+      "prompt": "詐欺",
+      "origin": "authored",
+      "options": [
+        "二人の言い争いが激しくなったので、詐欺を仲裁した。",
+        "架空の投資話で金をだまし取った男が、詐欺の疑いで逮捕された。",
+        "計算をうっかり間違えたことを、故意のない詐欺と呼んだ。",
+        "留守中の家に侵入して現金を盗む詐欺が発生した。"
+      ],
+      "explanations": [
+        "Tranh cãi dùng けんか・争い; 詐欺 không có nghĩa cãi nhau.",
+        "詐欺 là dùng gian dối để chiếm đoạt tài sản hoặc lợi ích.",
+        "詐欺 có yếu tố cố ý lừa dối; lỗi tính toán vô ý không phải詐欺.",
+        "Lẻn vào nhà lấy tiền là 窃盗; tình huống không có lừa đối phương giao tiền."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai13-29",
+      "type": "usage",
+      "word": "交渉",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 17,
+      "prompt": "交渉",
+      "origin": "authored",
+      "options": [
+        "先生は生徒に数式の解き方を交渉した。",
+        "初対面の二人は名刺を交渉した。",
+        "労働組合は賃上げを求めて会社側と交渉している。",
+        "道路が十字に交渉している所に信号がある。"
+      ],
+      "explanations": [
+        "Dạy hoặc giải thích cách giải dùng 指導・説明; không phải thương lượng.",
+        "Trao đổi danh thiếp dùng 交換した, không dùng 交渉した.",
+        "交渉 là trao đổi giữa các bên để đạt thỏa thuận.",
+        "Đường giao nhau dùng 交差; 交渉 là thương lượng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai13-30",
+      "type": "usage",
+      "word": "債務",
+      "source_file": "resources/N1/goi/dai13.csv",
+      "source_line": 78,
+      "prompt": "債務",
+      "origin": "authored",
+      "options": [
+        "銀行は借り手から返済を受ける債務を持っている。",
+        "親には子どもに教育を受けさせる債務がある。",
+        "手元の現金を数えて、財布の債務を確認した。",
+        "借入金を返せなくなり、弁護士に債務の整理を相談した。"
+      ],
+      "explanations": [
+        "Quyền đòi trả nợ là 債権, không phải 債務.",
+        "Nghĩa vụ giáo dục dùng 義務; không phải nghĩa vụ khoản nợ.",
+        "Tiền hiện có trong ví là 残高・所持金, không phải khoản nợ.",
+        "債務 là nghĩa vụ phải trả nợ hoặc thực hiện khoản phải trả."
+      ],
+      "answer": 3
+    }
+  ]
+}

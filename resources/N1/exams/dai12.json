@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai12-30",
+  "title": "N1 · Bài 12 · 30 câu",
+  "level": "N1",
+  "lesson": "dai12",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093012,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai12.csv"
+  },
+  "choice_seed": 2026100012,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai12-01",
+      "type": "reading",
+      "word": "極意",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 8,
+      "prompt": "料理の【極意】を教わった。",
+      "origin": "authored",
+      "options": [
+        "ごらく",
+        "ごくらく",
+        "ごかく",
+        "ごくい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "娯楽",
+          "reading": "ごらく",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 12
+        },
+        {
+          "word": "極楽",
+          "reading": "ごくらく",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 9
+        },
+        {
+          "word": "互角",
+          "reading": "ごかく",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 11
+        },
+        {
+          "word": "極意",
+          "reading": "ごくい",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 8
+        }
+      ],
+      "explanations": [
+        "ごらく là cách đọc của 娯楽 (giải trí). Đây là cách đọc có thật nhưng không phải của 極意 trong câu.",
+        "ごくらく là cách đọc của 極楽 (cõi cực lạc; sự sung sướng). Đây là cách đọc có thật nhưng không phải của 極意 trong câu.",
+        "ごかく là cách đọc của 互角 (ngang sức). Đây là cách đọc có thật nhưng không phải của 極意 trong câu.",
+        "ごくい là cách đọc của 極意 (bí quyết tinh túy). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai12-02",
+      "type": "reading",
+      "word": "元旦",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 83,
+      "prompt": "【元旦】に初日の出を見た。",
+      "origin": "authored",
+      "options": [
+        "がてん",
+        "がんたん",
+        "ぶんたん",
+        "がんじつ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "合点",
+          "reading": "がてん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 55
+        },
+        {
+          "word": "元旦",
+          "reading": "がんたん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 83
+        },
+        {
+          "word": "分担",
+          "reading": "ぶんたん",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 54
+        },
+        {
+          "word": "元日",
+          "reading": "がんじつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 84
+        }
+      ],
+      "explanations": [
+        "がてん là cách đọc của 合点 (sự hiểu ra; tán đồng). Đây là cách đọc có thật nhưng không phải của 元旦 trong câu.",
+        "がんたん là cách đọc của 元旦 (sáng ngày đầu năm). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ぶんたん là cách đọc của 分担 (phân công; chia sẻ trách nhiệm). Đây là cách đọc có thật nhưng không phải của 元旦 trong câu.",
+        "がんじつ là cách đọc của 元日 (ngày đầu năm). Đây là cách đọc có thật nhưng không phải của 元旦 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai12-03",
+      "type": "reading",
+      "word": "均衡",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 12,
+      "prompt": "需要と供給の【均衡】を保つ。",
+      "origin": "authored",
+      "options": [
+        "きんこう",
+        "しんこう",
+        "きんろう",
+        "きこう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "均衡",
+          "reading": "きんこう",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 12
+        },
+        {
+          "word": "侵攻",
+          "reading": "しんこう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 3
+        },
+        {
+          "word": "勤労",
+          "reading": "きんろう",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 11
+        },
+        {
+          "word": "機構",
+          "reading": "きこう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 15
+        }
+      ],
+      "explanations": [
+        "きんこう là cách đọc của 均衡 (sự cân bằng). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しんこう là cách đọc của 侵攻 (tiến công xâm nhập). Đây là cách đọc có thật nhưng không phải của 均衡 trong câu.",
+        "きんろう là cách đọc của 勤労 (lao động). Đây là cách đọc có thật nhưng không phải của 均衡 trong câu.",
+        "きこう là cách đọc của 機構 (cơ cấu tổ chức; cơ chế máy móc). Đây là cách đọc có thật nhưng không phải của 均衡 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai12-04",
+      "type": "reading",
+      "word": "結末",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 63,
+      "prompt": "物語の【結末】に驚いた。",
+      "origin": "authored",
+      "options": [
+        "けいばつ",
+        "けつれつ",
+        "けんさつ",
+        "けつまつ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "刑罰",
+          "reading": "けいばつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 32
+        },
+        {
+          "word": "決裂",
+          "reading": "けつれつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 57
+        },
+        {
+          "word": "検察",
+          "reading": "けんさつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 76
+        },
+        {
+          "word": "結末",
+          "reading": "けつまつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 63
+        }
+      ],
+      "explanations": [
+        "けいばつ là cách đọc của 刑罰 (hình phạt). Đây là cách đọc có thật nhưng không phải của 結末 trong câu.",
+        "けつれつ là cách đọc của 決裂 (đổ vỡ thương lượng). Đây là cách đọc có thật nhưng không phải của 結末 trong câu.",
+        "けんさつ là cách đọc của 検察 (cơ quan công tố). Đây là cách đọc có thật nhưng không phải của 結末 trong câu.",
+        "けつまつ là cách đọc của 結末 (kết cục). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai12-05",
+      "type": "reading",
+      "word": "驚異",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 3,
+      "prompt": "自然の【驚異】に触れた。",
+      "origin": "authored",
+      "options": [
+        "きょうち",
+        "きょうか",
+        "きょうぎ",
+        "きょうい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "境地",
+          "reading": "きょうち",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 88
+        },
+        {
+          "word": "教科",
+          "reading": "きょうか",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 95
+        },
+        {
+          "word": "協議",
+          "reading": "きょうぎ",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 84
+        },
+        {
+          "word": "驚異",
+          "reading": "きょうい",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 3
+        }
+      ],
+      "explanations": [
+        "きょうち là cách đọc của 境地 (trạng thái tinh thần; trình độ đạt tới). Đây là cách đọc có thật nhưng không phải của 驚異 trong câu.",
+        "きょうか là cách đọc của 教科 (môn học). Đây là cách đọc có thật nhưng không phải của 驚異 trong câu.",
+        "きょうぎ là cách đọc của 協議 (bàn bạc; hiệp thương). Đây là cách đọc có thật nhưng không phải của 驚異 trong câu.",
+        "きょうい là cách đọc của 驚異 (điều kỳ diệu đáng kinh ngạc). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai12-06",
+      "type": "reading",
+      "word": "源泉",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 95,
+      "prompt": "好奇心が創造力の【源泉】だ。",
+      "origin": "authored",
+      "options": [
+        "げんてん",
+        "げんせん",
+        "げんきん",
+        "げんろん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "原典",
+          "reading": "げんてん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 87
+        },
+        {
+          "word": "源泉",
+          "reading": "げんせん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 95
+        },
+        {
+          "word": "厳禁",
+          "reading": "げんきん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 90
+        },
+        {
+          "word": "言論",
+          "reading": "げんろん",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 2
+        }
+      ],
+      "explanations": [
+        "げんてん là cách đọc của 原典 (tư liệu gốc; nguyên bản). Đây là cách đọc có thật nhưng không phải của 源泉 trong câu.",
+        "げんせん là cách đọc của 源泉 (nguồn gốc; nguồn suối). Đúng với từ và ngữ cảnh đang hỏi.",
+        "げんきん là cách đọc của 厳禁 (nghiêm cấm). Đây là cách đọc có thật nhưng không phải của 源泉 trong câu.",
+        "げんろん là cách đọc của 言論 (ngôn luận). Đây là cách đọc có thật nhưng không phải của 源泉 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai12-07",
+      "type": "reading",
+      "word": "仰天",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 4,
+      "prompt": "突然の知らせに【仰天】した。",
+      "origin": "authored",
+      "options": [
+        "ちょうてん",
+        "ぎょうてん",
+        "ぎょうせき",
+        "しょうてん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "頂点",
+          "reading": "ちょうてん",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 27
+        },
+        {
+          "word": "仰天",
+          "reading": "ぎょうてん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 4
+        },
+        {
+          "word": "業績",
+          "reading": "ぎょうせき",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 7
+        },
+        {
+          "word": "焦点",
+          "reading": "しょうてん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 79
+        }
+      ],
+      "explanations": [
+        "ちょうてん là cách đọc của 頂点 (đỉnh cao; đỉnh hình học). Đây là cách đọc có thật nhưng không phải của 仰天 trong câu.",
+        "ぎょうてん là cách đọc của 仰天 (sửng sốt). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ぎょうせき là cách đọc của 業績 (thành tích kinh doanh; thành tựu). Đây là cách đọc có thật nhưng không phải của 仰天 trong câu.",
+        "しょうてん là cách đọc của 焦点 (tiêu điểm; trọng tâm). Đây là cách đọc có thật nhưng không phải của 仰天 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai12-08",
+      "type": "reading",
+      "word": "検察",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 76,
+      "prompt": "【検察】が事件を調べている。",
+      "origin": "authored",
+      "options": [
+        "けんざい",
+        "けんさく",
+        "けんさつ",
+        "けんやく"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "健在",
+          "reading": "けんざい",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 66
+        },
+        {
+          "word": "検索",
+          "reading": "けんさく",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 75
+        },
+        {
+          "word": "検察",
+          "reading": "けんさつ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 76
+        },
+        {
+          "word": "倹約",
+          "reading": "けんやく",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 65
+        }
+      ],
+      "explanations": [
+        "けんざい là cách đọc của 健在 (vẫn khỏe mạnh; vẫn hoạt động tốt). Đây là cách đọc có thật nhưng không phải của 検察 trong câu.",
+        "けんさく là cách đọc của 検索 (tìm kiếm). Đây là cách đọc có thật nhưng không phải của 検察 trong câu.",
+        "けんさつ là cách đọc của 検察 (cơ quan công tố). Đúng với từ và ngữ cảnh đang hỏi.",
+        "けんやく là cách đọc của 倹約 (tiết kiệm). Đây là cách đọc có thật nhưng không phải của 検察 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai12-09",
+      "type": "context",
+      "word": "吟味",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 20,
+      "prompt": "契約書の条件を一つずつ（　）し、不利な点がないか確かめた。",
+      "origin": "authored",
+      "options": [
+        "省略",
+        "免除",
+        "吟味",
+        "暗記"
+      ],
+      "explanations": [
+        "省略 là lược bỏ, trái với việc kiểm tra từng điều kiện.",
+        "免除 là miễn nghĩa vụ, không phải kiểm tra điều khoản.",
+        "吟味 là xem xét kỹ nội dung trước khi quyết định.",
+        "暗記 là học thuộc; câu nhấn mạnh đánh giá điều kiện có bất lợi hay không."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-10",
+      "type": "context",
+      "word": "緊急",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 15,
+      "prompt": "患者の容体が急変したため、医師は（　）手術を行った。",
+      "origin": "authored",
+      "options": [
+        "平常",
+        "恒例",
+        "緊急",
+        "定期"
+      ],
+      "explanations": [
+        "平常 là trạng thái thường ngày, không phải tính chất của ca mổ cấp cứu.",
+        "恒例 chỉ hoạt động theo lệ thường, không dùng cho ca cấp cứu.",
+        "緊急手術 là phẫu thuật khẩn cấp do không thể chờ.",
+        "定期 là định kỳ, không phù hợp với diễn biến đột ngột."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-11",
+      "type": "context",
+      "word": "原則",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 86,
+      "prompt": "この図書館では、図書の貸出期間は（　）として二週間だが、延長もできる。",
+      "origin": "authored",
+      "options": [
+        "証拠",
+        "偶然",
+        "結果",
+        "原則"
+      ],
+      "explanations": [
+        "証拠 là bằng chứng, không phù hợp khi nêu thời hạn thông thường.",
+        "偶然 là tình cờ, không chỉ quy định chung.",
+        "結果 là kết quả, không phải cơ sở của quy định.",
+        "原則として nêu quy định cơ bản nhưng cho phép ngoại lệ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai12-12",
+      "type": "context",
+      "word": "玄人",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 96,
+      "prompt": "長年この仕事をしている（　）なら、道具を見ただけで品質が分かる。",
+      "origin": "authored",
+      "options": [
+        "門外漢",
+        "玄人",
+        "素人",
+        "新人"
+      ],
+      "explanations": [
+        "門外漢 là người ngoài chuyên môn, không phải chuyên gia nhận biết chất lượng.",
+        "玄人 là người có chuyên môn thành thạo.",
+        "素人 là người không chuyên, trái với kinh nghiệm lâu năm trong câu.",
+        "新人 là người mới vào nghề, không phù hợp với mô tả."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai12-13",
+      "type": "context",
+      "word": "凝縮",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 5,
+      "prompt": "長年の研究成果を、わずか十ページの報告書に（　）した。",
+      "origin": "authored",
+      "options": [
+        "拡散",
+        "凝縮",
+        "分散",
+        "膨張"
+      ],
+      "explanations": [
+        "拡散 là lan tỏa ra, ngược với cô đọng.",
+        "凝縮 là cô đọng nhiều nội dung vào phạm vi nhỏ.",
+        "分散 là chia rải ra nhiều nơi, không phải tập trung vào báo cáo ngắn.",
+        "膨張 là nở ra, không diễn tả rút gọn thành quả nghiên cứu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai12-14",
+      "type": "context",
+      "word": "欠如",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 52,
+      "prompt": "責任感の（　）が、度重なる無断欠勤につながっている。",
+      "origin": "authored",
+      "options": [
+        "充実",
+        "欠如",
+        "向上",
+        "補充"
+      ],
+      "explanations": [
+        "充実 là đầy đủ, phong phú; ngược với vấn đề được nêu.",
+        "欠如 là thiếu một phẩm chất cần có; ở đây là tinh thần trách nhiệm.",
+        "向上 là nâng cao, không giải thích hành vi thiếu trách nhiệm.",
+        "補充 là bổ sung phần thiếu, không phải nguyên nhân vắng mặt vô phép."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai12-15",
+      "type": "context",
+      "word": "激減",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 47,
+      "prompt": "利用者数は昨年の千人から今年は百人へと（　）した。",
+      "origin": "authored",
+      "options": [
+        "微減",
+        "横ばい",
+        "急増",
+        "激減"
+      ],
+      "explanations": [
+        "微減 là giảm nhẹ, không đúng mức thay đổi này.",
+        "横ばい là gần như không đổi, không phù hợp với mức giảm lớn.",
+        "急増 là tăng nhanh, trái với số liệu.",
+        "激減 là giảm mạnh, phù hợp với mức giảm 90%."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai12-16",
+      "type": "context",
+      "word": "決議",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 54,
+      "prompt": "議会は採決を行い、賛成多数で条例の改正を（　）した。",
+      "origin": "authored",
+      "options": [
+        "決議",
+        "保留",
+        "撤回",
+        "棄権"
+      ],
+      "explanations": [
+        "決議 là cơ quan tập thể thông qua quyết định bằng biểu quyết.",
+        "保留 là để lại chưa quyết định, trái với việc đã được thông qua.",
+        "撤回 là rút lại đề xuất, không phải biểu quyết tán thành.",
+        "棄権 là không tham gia bỏ phiếu; không dùng để diễn tả nghị viện thông qua sửa đổi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-17",
+      "type": "paraphrase",
+      "word": "現行",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 97,
+      "prompt": "【現行の】制度には改善すべき点がある。",
+      "origin": "authored",
+      "options": [
+        "現在行われている",
+        "一時中断されている",
+        "今後導入される",
+        "以前廃止された"
+      ],
+      "explanations": [
+        "現行 là hiện đang được áp dụng.",
+        "Đang tạm ngừng không đồng nghĩa với đang có hiệu lực.",
+        "Chế độ dự định áp dụng trong tương lai chưa phải 現行.",
+        "制度 đã bãi bỏ không còn là 現行."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-18",
+      "type": "paraphrase",
+      "word": "検事",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 77,
+      "prompt": "【検事】が被告人に質問した。",
+      "origin": "authored",
+      "options": [
+        "刑事事件の起訴などを担当する法律家",
+        "裁判で判決を下す法律家",
+        "被告人の弁護を担当する法律家",
+        "裁判の記録を作成する職員"
+      ],
+      "explanations": [
+        "検事 là công tố viên, phụ trách truy tố và các công việc liên quan.",
+        "Đây là 裁判官, không phải công tố viên.",
+        "Đây là 弁護士, không phải 検事.",
+        "Đây là công việc của 裁判所書記官, không phải nghĩa của 検事."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-19",
+      "type": "paraphrase",
+      "word": "郷土",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 2,
+      "prompt": "祭りを通して【郷土】への愛着が深まった。",
+      "origin": "authored",
+      "options": [
+        "まだ開発されていない土地",
+        "外国にある領土",
+        "生まれ育った土地",
+        "仕事で訪れた土地"
+      ],
+      "explanations": [
+        "Đất chưa phát triển là 未開地, không đồng nghĩa với quê hương.",
+        "Lãnh thổ ở nước ngoài không phải nghĩa của 郷土.",
+        "郷土 là quê hương, vùng đất mình sinh ra và lớn lên.",
+        "Nơi đến công tác không nhất thiết là quê hương."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-20",
+      "type": "paraphrase",
+      "word": "群衆",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 29,
+      "prompt": "広場に集まった【群衆】が歓声を上げた。",
+      "origin": "authored",
+      "options": [
+        "招待された来賓",
+        "警備に当たる人々",
+        "大勢の人々",
+        "競技に出場する選手"
+      ],
+      "explanations": [
+        "来賓 là khách được mời, không đồng nghĩa với đám đông.",
+        "Nhân viên bảo vệ chỉ một nhóm theo vai trò, không phải nghĩa của 群衆.",
+        "群衆 là đám đông nhiều người tụ tập.",
+        "選手 là vận động viên; 群衆 không giới hạn ở người thi đấu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-21",
+      "type": "paraphrase",
+      "word": "傾斜",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 31,
+      "prompt": "この道路は【傾斜】がきつい。",
+      "origin": "authored",
+      "options": [
+        "交通量",
+        "曲がり方",
+        "傾き",
+        "道幅"
+      ],
+      "explanations": [
+        "交通量 là lưu lượng giao thông.",
+        "曲がり方 là cách uốn cong, không phải độ dốc.",
+        "傾斜 chỉ độ nghiêng, độ dốc.",
+        "道幅 là bề rộng đường."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-22",
+      "type": "paraphrase",
+      "word": "激励",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 49,
+      "prompt": "監督は選手を【激励した】。",
+      "origin": "authored",
+      "options": [
+        "励まして奮い立たせた",
+        "静かに見送った",
+        "詳しく調べた",
+        "厳しく責めた"
+      ],
+      "explanations": [
+        "激励 là động viên để người khác có thêm tinh thần.",
+        "Lặng lẽ tiễn đưa không có nghĩa cổ vũ tinh thần.",
+        "Điều tra kỹ là 調査, không phải động viên.",
+        "Trách mắng là 非難・叱責, không phải 激励."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-23",
+      "type": "paraphrase",
+      "word": "軽装",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 44,
+      "prompt": "暖かい日だったので【軽装】で出かけた。",
+      "origin": "authored",
+      "options": [
+        "身軽な服装",
+        "格式の高い礼服",
+        "厳重な防護服",
+        "厚手の防寒着"
+      ],
+      "explanations": [
+        "軽装 là ăn mặc gọn nhẹ.",
+        "礼服 là trang phục nghi lễ trang trọng.",
+        "Đồ bảo hộ kín và kỹ không đồng nghĩa với 軽装.",
+        "Áo chống rét dày trái với ý ăn mặc nhẹ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-24",
+      "type": "usage",
+      "word": "結成",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 61,
+      "prompt": "結成",
+      "origin": "authored",
+      "options": [
+        "課題を解決する方法を頭の中で結成した。",
+        "二つの会社は売買契約を結成した。",
+        "来月完成する橋を結成するため、資材を運んだ。",
+        "地域の住民が防災のための団体を結成した。"
+      ],
+      "explanations": [
+        "Nghĩ ra phương pháp dùng 考案; 結成 là lập nhóm.",
+        "Ký kết hợp đồng dùng 締結, không dùng 結成.",
+        "Xây cầu dùng 建設; 結成 không dùng cho công trình vật chất.",
+        "結成 dùng khi lập một tổ chức, nhóm hoặc đội."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai12-25",
+      "type": "usage",
+      "word": "建前",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 72,
+      "prompt": "建前",
+      "origin": "authored",
+      "options": [
+        "誰にも言わず心に隠していた建前を、親友にだけ打ち明けた。",
+        "自由参加という建前だが、実際には全員出席を求められる。",
+        "新築の家の正面に立ち、建前の壁を塗った。",
+        "会議で決まった建前の数字を電卓に入力した。"
+      ],
+      "explanations": [
+        "Ý thật giấu kín là 本音; câu này đối lập với lập trường công khai.",
+        "建前 là nguyên tắc hoặc lập trường công khai, có thể khác thực tế.",
+        "Bức tường mặt trước là 正面の壁; 建前 không có nghĩa mặt trước nhà.",
+        "Số liệu cụ thể không được gọi là 建前; cần 数値など."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai12-26",
+      "type": "usage",
+      "word": "懸念",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 73,
+      "prompt": "懸念",
+      "origin": "authored",
+      "options": [
+        "専門家は、干ばつによる農作物への影響を懸念している。",
+        "長年の夢がかなう日を楽しみに懸念している。",
+        "忘れないように、電話番号を手帳に懸念した。",
+        "彼は修理の方法を思い出そうと懸念した。"
+      ],
+      "explanations": [
+        "懸念 là lo ngại một hậu quả xấu có thể xảy ra.",
+        "Mong đợi điều tốt dùng 期待; 懸念 mang nghĩa lo ngại.",
+        "Ghi số điện thoại dùng 記入・記録, không dùng 懸念.",
+        "Cố nhớ là 思い出そうとした; 懸念 không có nghĩa hồi tưởng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-27",
+      "type": "usage",
+      "word": "献立",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 81,
+      "prompt": "献立",
+      "origin": "authored",
+      "options": [
+        "栄養のバランスを考えて、一週間分の献立を立てた。",
+        "会議の議題を順番に並べ、献立を配布した。",
+        "電車の乗り換えを調べて、出張の献立を立てた。",
+        "一日の勉強時間を決め、受験の献立を立てた。"
+      ],
+      "explanations": [
+        "献立 là thực đơn, kế hoạch các món ăn.",
+        "Danh sách nội dung họp dùng 議事次第, không phải 献立.",
+        "Lịch trình công tác dùng 日程・旅程, không dùng 献立.",
+        "Kế hoạch học dùng 学習計画; 献立 dành cho món ăn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai12-28",
+      "type": "usage",
+      "word": "決行",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 55,
+      "prompt": "決行",
+      "origin": "authored",
+      "options": [
+        "どちらを買うか迷った末、青い鞄に決行した。",
+        "今日は中止し、開催するかどうかも決めずに運動会を決行した。",
+        "小雨が降っていたが、予定どおり運動会を決行した。",
+        "列車は事故のため三十分遅れて決行した。"
+      ],
+      "explanations": [
+        "Chọn một món dùng 決定した・決めた, không dùng 決行した.",
+        "Đã hủy và chưa định tổ chức thì không thể nói đã 決行.",
+        "決行 là quyết tâm thực hiện kế hoạch, thường bất chấp trở ngại.",
+        "Tàu xuất phát dùng 発車した; 決行 không thay cho 発車."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai12-29",
+      "type": "usage",
+      "word": "決勝",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 56,
+      "prompt": "決勝",
+      "origin": "authored",
+      "options": [
+        "裁判官は証拠を調べ、被告人に決勝を言い渡した。",
+        "準決勝に勝った二校が、明日の決勝で優勝を争う。",
+        "第一回戦で負けたが、その試合を大会の決勝と呼んだ。",
+        "試合が引き分けだったので、決勝はつかなかった。"
+      ],
+      "explanations": [
+        "Tòa tuyên 判決, không phải 決勝.",
+        "決勝 là trận cuối để quyết định người hoặc đội vô địch.",
+        "Trận vòng đầu không phải trận quyết định vô địch.",
+        "Kết quả thắng thua là 決着・勝敗; dùng 決着がつかなかった."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai12-30",
+      "type": "usage",
+      "word": "形見",
+      "source_file": "resources/N1/goi/dai12.csv",
+      "source_line": 33,
+      "prompt": "形見",
+      "origin": "authored",
+      "options": [
+        "海外旅行から帰った同僚が、全員に菓子の形見を配った。",
+        "型に粘土を押し付けて、商品の形見を作った。",
+        "犯罪の形見を消すため、犯人は指紋を拭き取った。",
+        "亡くなった祖母の形見として、この指輪を大切にしている。"
+      ],
+      "explanations": [
+        "Quà mang về sau chuyến đi thông thường là 土産; không phải kỷ vật chia lìa.",
+        "Mẫu hình sản phẩm dùng 型・模型; 形見 không phải vật tạo từ khuôn.",
+        "Dấu vết của tội phạm là 痕跡・証拠, không dùng 形見.",
+        "形見 là kỷ vật để nhớ người đã mất hoặc người chia xa."
+      ],
+      "answer": 3
+    }
+  ]
+}

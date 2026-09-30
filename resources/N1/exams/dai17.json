@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai17-30",
+  "title": "N1 · Bài 17 · 30 câu",
+  "level": "N1",
+  "lesson": "dai17",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093017,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai17.csv"
+  },
+  "choice_seed": 2026100017,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai17-01",
+      "type": "reading",
+      "word": "捜査",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 26,
+      "prompt": "警察が事件を【捜査】する。",
+      "origin": "authored",
+      "options": [
+        "そうご",
+        "そうさ",
+        "そうば",
+        "そうこ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "相互",
+          "reading": "そうご",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 33
+        },
+        {
+          "word": "捜査",
+          "reading": "そうさ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 26
+        },
+        {
+          "word": "相場",
+          "reading": "そうば",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 34
+        },
+        {
+          "word": "倉庫",
+          "reading": "そうこ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 23
+        }
+      ],
+      "explanations": [
+        "そうご là cách đọc của 相互 (lẫn nhau). Đây là cách đọc có thật nhưng không phải của 捜査 trong câu.",
+        "そうさ là cách đọc của 捜査 (điều tra vụ án). Đúng với từ và ngữ cảnh đang hỏi.",
+        "そうば là cách đọc của 相場 (giá thị trường). Đây là cách đọc có thật nhưng không phải của 捜査 trong câu.",
+        "そうこ là cách đọc của 倉庫 (nhà kho). Đây là cách đọc có thật nhưng không phải của 捜査 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai17-02",
+      "type": "reading",
+      "word": "疎通",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 12,
+      "prompt": "意思の【疎通】を図る。",
+      "origin": "authored",
+      "options": [
+        "そうさ",
+        "そうご",
+        "そうこ",
+        "そつう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "捜査",
+          "reading": "そうさ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 26
+        },
+        {
+          "word": "相互",
+          "reading": "そうご",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 33
+        },
+        {
+          "word": "倉庫",
+          "reading": "そうこ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 23
+        },
+        {
+          "word": "疎通",
+          "reading": "そつう",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 12
+        }
+      ],
+      "explanations": [
+        "そうさ là cách đọc của 捜査 (điều tra vụ án). Đây là cách đọc có thật nhưng không phải của 疎通 trong câu.",
+        "そうご là cách đọc của 相互 (lẫn nhau). Đây là cách đọc có thật nhưng không phải của 疎通 trong câu.",
+        "そうこ là cách đọc của 倉庫 (nhà kho). Đây là cách đọc có thật nhưng không phải của 疎通 trong câu.",
+        "そつう là cách đọc của 疎通 (sự thông suốt trong giao tiếp). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai17-03",
+      "type": "reading",
+      "word": "増強",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 46,
+      "prompt": "守備を【増強】する。",
+      "origin": "authored",
+      "options": [
+        "ぞうきょう",
+        "こうしょう",
+        "こうきょう",
+        "げんきょう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "増強",
+          "reading": "ぞうきょう",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 46
+        },
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 17
+        },
+        {
+          "word": "好況",
+          "reading": "こうきょう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 25
+        },
+        {
+          "word": "元凶",
+          "reading": "げんきょう",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 82
+        }
+      ],
+      "explanations": [
+        "ぞうきょう là cách đọc của 増強 (tăng cường sức mạnh). Đúng với từ và ngữ cảnh đang hỏi.",
+        "こうしょう là cách đọc của 交渉 (đàm phán). Đây là cách đọc có thật nhưng không phải của 増強 trong câu.",
+        "こうきょう là cách đọc của 好況 (tình hình kinh tế thuận lợi). Đây là cách đọc có thật nhưng không phải của 増強 trong câu.",
+        "げんきょう là cách đọc của 元凶 (căn nguyên gây tai họa). Đây là cách đọc có thật nhưng không phải của 増強 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai17-04",
+      "type": "reading",
+      "word": "弾力",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 91,
+      "prompt": "【弾力】のある素材を使う。",
+      "origin": "authored",
+      "options": [
+        "しんりゃく",
+        "せんりょう",
+        "だんらく",
+        "だんりょく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "侵略",
+          "reading": "しんりゃく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 5
+        },
+        {
+          "word": "占領",
+          "reading": "せんりょう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 90
+        },
+        {
+          "word": "段落",
+          "reading": "だんらく",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 96
+        },
+        {
+          "word": "弾力",
+          "reading": "だんりょく",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 91
+        }
+      ],
+      "explanations": [
+        "しんりゃく là cách đọc của 侵略 (xâm lược). Đây là cách đọc có thật nhưng không phải của 弾力 trong câu.",
+        "せんりょう là cách đọc của 占領 (chiếm đóng). Đây là cách đọc có thật nhưng không phải của 弾力 trong câu.",
+        "だんらく là cách đọc của 段落 (đoạn văn). Đây là cách đọc có thật nhưng không phải của 弾力 trong câu.",
+        "だんりょく là cách đọc của 弾力 (độ đàn hồi). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai17-05",
+      "type": "reading",
+      "word": "船舶",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 2,
+      "prompt": "【船舶】の安全を確認する。",
+      "origin": "authored",
+      "options": [
+        "せんどう",
+        "せんたく",
+        "せんぽう",
+        "せんぱく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "先導",
+          "reading": "せんどう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 88
+        },
+        {
+          "word": "選択",
+          "reading": "せんたく",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 5
+        },
+        {
+          "word": "先方",
+          "reading": "せんぽう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 89
+        },
+        {
+          "word": "船舶",
+          "reading": "せんぱく",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 2
+        }
+      ],
+      "explanations": [
+        "せんどう là cách đọc của 先導 (dẫn đường; dẫn đầu). Đây là cách đọc có thật nhưng không phải của 船舶 trong câu.",
+        "せんたく là cách đọc của 選択 (lựa chọn). Đây là cách đọc có thật nhưng không phải của 船舶 trong câu.",
+        "せんぽう là cách đọc của 先方 (phía đối tác; bên kia). Đây là cách đọc có thật nhưng không phải của 船舶 trong câu.",
+        "せんぱく là cách đọc của 船舶 (tàu thuyền). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai17-06",
+      "type": "reading",
+      "word": "多発",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 54,
+      "prompt": "この道では事故が【多発】する。",
+      "origin": "authored",
+      "options": [
+        "たいさ",
+        "たはつ",
+        "たいひ",
+        "たんか"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "大差",
+          "reading": "たいさ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 78
+        },
+        {
+          "word": "多発",
+          "reading": "たはつ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 54
+        },
+        {
+          "word": "対比",
+          "reading": "たいひ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 63
+        },
+        {
+          "word": "担架",
+          "reading": "たんか",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 85
+        }
+      ],
+      "explanations": [
+        "たいさ là cách đọc của 大差 (chênh lệch lớn). Đây là cách đọc có thật nhưng không phải của 多発 trong câu.",
+        "たはつ là cách đọc của 多発 (xảy ra nhiều). Đúng với từ và ngữ cảnh đang hỏi.",
+        "たいひ là cách đọc của 対比 (so sánh đối chiếu). Đây là cách đọc có thật nhưng không phải của 多発 trong câu.",
+        "たんか là cách đọc của 担架 (cáng). Đây là cách đọc có thật nhưng không phải của 多発 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai17-07",
+      "type": "reading",
+      "word": "遭難",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 43,
+      "prompt": "登山中に【遭難】した。",
+      "origin": "authored",
+      "options": [
+        "そうおん",
+        "そうなん",
+        "そうかん",
+        "そうだつ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "騒音",
+          "reading": "そうおん",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 44
+        },
+        {
+          "word": "遭難",
+          "reading": "そうなん",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 43
+        },
+        {
+          "word": "創刊",
+          "reading": "そうかん",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 19
+        },
+        {
+          "word": "争奪",
+          "reading": "そうだつ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 31
+        }
+      ],
+      "explanations": [
+        "そうおん là cách đọc của 騒音 (tiếng ồn). Đây là cách đọc có thật nhưng không phải của 遭難 trong câu.",
+        "そうなん là cách đọc của 遭難 (gặp nạn khi đi núi, biển). Đúng với từ và ngữ cảnh đang hỏi.",
+        "そうかん là cách đọc của 創刊 (xuất bản số đầu tiên). Đây là cách đọc có thật nhưng không phải của 遭難 trong câu.",
+        "そうだつ là cách đọc của 争奪 (tranh giành). Đây là cách đọc có thật nhưng không phải của 遭難 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai17-08",
+      "type": "reading",
+      "word": "銭湯",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 6,
+      "prompt": "近所の【銭湯】に行く。",
+      "origin": "authored",
+      "options": [
+        "せんどう",
+        "せっとう",
+        "せんとう",
+        "せんぽう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "先導",
+          "reading": "せんどう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 88
+        },
+        {
+          "word": "窃盗",
+          "reading": "せっとう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 81
+        },
+        {
+          "word": "銭湯",
+          "reading": "せんとう",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 6
+        },
+        {
+          "word": "先方",
+          "reading": "せんぽう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 89
+        }
+      ],
+      "explanations": [
+        "せんどう là cách đọc của 先導 (dẫn đường; dẫn đầu). Đây là cách đọc có thật nhưng không phải của 銭湯 trong câu.",
+        "せっとう là cách đọc của 窃盗 (trộm cắp). Đây là cách đọc có thật nhưng không phải của 銭湯 trong câu.",
+        "せんとう là cách đọc của 銭湯 (nhà tắm công cộng). Đúng với từ và ngữ cảnh đang hỏi.",
+        "せんぽう là cách đọc của 先方 (phía đối tác; bên kia). Đây là cách đọc có thật nhưng không phải của 銭湯 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai17-09",
+      "type": "context",
+      "word": "炭素",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 88,
+      "prompt": "ダイヤモンドと黒鉛は、どちらも（　）という元素からできている。",
+      "origin": "authored",
+      "options": [
+        "水素",
+        "炭素",
+        "窒素",
+        "酸素"
+      ],
+      "explanations": [
+        "水素 là hydro, không phải đáp án.",
+        "炭素 là nguyên tố carbon, cấu tạo kim cương và than chì.",
+        "窒素 là nitơ, không phải đáp án.",
+        "酸素 là oxy, không phải nguyên tố cấu tạo hai chất này."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai17-10",
+      "type": "context",
+      "word": "打撃",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 57,
+      "prompt": "主力工場の閉鎖は、地域経済に大きな（　）を与えた。",
+      "origin": "authored",
+      "options": [
+        "打撃",
+        "恩恵",
+        "報酬",
+        "助言"
+      ],
+      "explanations": [
+        "打撃を与える là gây tổn thất, ảnh hưởng nặng nề.",
+        "恩恵 là lợi ích nhận được; câu nói về việc đóng nhà máy chủ lực.",
+        "報酬 là thù lao, không chỉ thiệt hại kinh tế.",
+        "助言 là lời khuyên, không phải tác động do đóng cửa nhà máy."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-11",
+      "type": "context",
+      "word": "創立",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 22,
+      "prompt": "この学校は一九二〇年に（　）され、今年で百年以上の歴史を持つ。",
+      "origin": "authored",
+      "options": [
+        "創立",
+        "創作",
+        "創刊",
+        "創造"
+      ],
+      "explanations": [
+        "創立 là thành lập một tổ chức hoặc trường học.",
+        "創作 là sáng tác tác phẩm.",
+        "創刊 là xuất bản số đầu của báo hoặc tạp chí.",
+        "創造 là tạo ra giá trị hoặc cái mới nói chung; trường học được thành lập dùng創立."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-12",
+      "type": "context",
+      "word": "大家",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 75,
+      "prompt": "借りている部屋の給湯器が壊れたので、（　）に修理を相談した。",
+      "origin": "authored",
+      "options": [
+        "大家",
+        "下宿人",
+        "借家人",
+        "居候"
+      ],
+      "explanations": [
+        "大家 đọc おおや là chủ nhà cho thuê.",
+        "下宿人 là người thuê trọ, không phải người cho thuê trong câu.",
+        "借家人 là người thuê nhà, không phải bên sở hữu nhận báo sửa chữa ở đây.",
+        "居候 là người ở nhờ, không phải chủ nhà."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-13",
+      "type": "context",
+      "word": "束縛",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 51,
+      "prompt": "相手の行動を何でも管理しようとするのは、過度な（　）につながる。",
+      "origin": "authored",
+      "options": [
+        "解放",
+        "放任",
+        "束縛",
+        "自立"
+      ],
+      "explanations": [
+        "解放 là giải phóng khỏi ràng buộc, trái ý câu.",
+        "放任 là để tự do không can thiệp, trái với quản lý mọi hành động.",
+        "束縛 là ràng buộc, hạn chế tự do của người khác.",
+        "自立 là tự lập, không chỉ sự kiểm soát quá mức."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-14",
+      "type": "context",
+      "word": "挿入",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 28,
+      "prompt": "説明を分かりやすくするため、文章の途中に図を（　）した。",
+      "origin": "authored",
+      "options": [
+        "排除",
+        "削除",
+        "挿入",
+        "抽出"
+      ],
+      "explanations": [
+        "排除 là loại trừ, không phải chèn.",
+        "削除 là xóa bỏ, trái với thêm hình.",
+        "挿入 là chèn thêm vào giữa nội dung có sẵn.",
+        "抽出 là trích xuất ra, không phải đưa hình vào đoạn văn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-15",
+      "type": "context",
+      "word": "台本",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 74,
+      "prompt": "出演者は撮影前に（　）を読み、せりふを覚えた。",
+      "origin": "authored",
+      "options": [
+        "台本",
+        "帳簿",
+        "目録",
+        "戸籍"
+      ],
+      "explanations": [
+        "台本 là kịch bản có lời thoại và diễn tiến.",
+        "帳簿 là sổ sách kế toán.",
+        "目録 là danh mục; không phải tài liệu chứa lời thoại để diễn.",
+        "戸籍 là hộ tịch."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-16",
+      "type": "context",
+      "word": "相場",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 34,
+      "prompt": "この地域の家賃の（　）を調べ、借りる部屋の価格が妥当か判断した。",
+      "origin": "authored",
+      "options": [
+        "持ち場",
+        "相場",
+        "現場",
+        "立場"
+      ],
+      "explanations": [
+        "持ち場 là vị trí phụ trách; không phải mức giá nhà thuê.",
+        "相場 là mức giá phổ biến trên thị trường.",
+        "現場 là địa điểm xảy ra hoặc tiến hành công việc.",
+        "立場 là vị trí, lập trường."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai17-17",
+      "type": "paraphrase",
+      "word": "相当",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 35,
+      "prompt": "この問題を解くには【相当】時間がかかる。",
+      "origin": "authored",
+      "options": [
+        "かなり",
+        "少しだけ",
+        "めったに",
+        "必ずしも"
+      ],
+      "explanations": [
+        "相当 ở đây có nghĩa khá nhiều, đáng kể.",
+        "Chỉ một chút trái với程度 khá lớn.",
+        "めったに thường đi với phủ định để nói hiếm khi.",
+        "必ずしも thường đi với phủ định để nói không hẳn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-18",
+      "type": "paraphrase",
+      "word": "大筋",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 76,
+      "prompt": "交渉は【大筋】で合意に達した。",
+      "origin": "authored",
+      "options": [
+        "全く別の話題",
+        "最初の予定時刻",
+        "主要な点",
+        "細かい条件のすべて"
+      ],
+      "explanations": [
+        "Chủ đề khác hoàn toàn không đồng nghĩa大筋.",
+        "Giờ dự kiến ban đầu không phải nội dung chính.",
+        "大筋 là những điểm chính, nội dung chủ yếu.",
+        "Tất cả điều kiện chi tiết không phải chỉ phần chính."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-19",
+      "type": "paraphrase",
+      "word": "達人",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 81,
+      "prompt": "彼は将棋の【達人】だ。",
+      "origin": "authored",
+      "options": [
+        "試合を見るだけの人",
+        "規則を作る人",
+        "非常に優れた技を持つ人",
+        "始めたばかりの人"
+      ],
+      "explanations": [
+        "Người chỉ xem không phải bậc thầy.",
+        "Người đặt luật không nhất thiết giỏi kỹ thuật.",
+        "達人 là người có kỹ năng điêu luyện.",
+        "Người mới bắt đầu là 初心者."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-20",
+      "type": "paraphrase",
+      "word": "退治",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 70,
+      "prompt": "畑の害虫を【退治した】。",
+      "origin": "authored",
+      "options": [
+        "集めて育てた",
+        "取り除いて害をなくした",
+        "別の場所に隠した",
+        "詳しく観察した"
+      ],
+      "explanations": [
+        "Thu thập để nuôi trái với diệt trừ.",
+        "退治 là diệt hoặc loại bỏ thứ gây hại.",
+        "Giấu ở nơi khác không phải loại bỏ tác hại.",
+        "Quan sát kỹ chưa có nghĩa diệt trừ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai17-21",
+      "type": "paraphrase",
+      "word": "秩序",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 101,
+      "prompt": "混乱の後、町に【秩序】が戻った。",
+      "origin": "authored",
+      "options": [
+        "激しい争い",
+        "物事が整っている状態",
+        "新しい流行",
+        "経済的な利益"
+      ],
+      "explanations": [
+        "Tranh chấp dữ dội trái với trật tự.",
+        "秩序 là trật tự được duy trì trong tập thể hoặc xã hội.",
+        "Trào lưu mới không phải秩序.",
+        "Lợi nhuận kinh tế không đồng nghĩa trật tự."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai17-22",
+      "type": "paraphrase",
+      "word": "担架",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 85,
+      "prompt": "救急隊員が【担架】を運んできた。",
+      "origin": "authored",
+      "options": [
+        "水をくみ上げるための道具",
+        "体温を測るための道具",
+        "けが人などを寝かせて運ぶ道具",
+        "高い所へ登るための道具"
+      ],
+      "explanations": [
+        "Dụng cụ bơm nước không phải担架.",
+        "Dụng cụ đo nhiệt độ là 体温計.",
+        "担架 là cáng để chuyển người bị thương hoặc bệnh.",
+        "Dụng cụ leo cao như thang không phải cáng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-23",
+      "type": "paraphrase",
+      "word": "装着",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 40,
+      "prompt": "作業員は保護眼鏡を【装着した】。",
+      "origin": "authored",
+      "options": [
+        "取り付けて身に着けた",
+        "注文して取り寄せた",
+        "洗って乾かした",
+        "外して片付けた"
+      ],
+      "explanations": [
+        "装着 là gắn, đeo trang bị vào đúng vị trí.",
+        "Đặt mua không có nghĩa đã đeo.",
+        "Rửa rồi làm khô không phải装着.",
+        "Tháo và cất trái với đeo vào."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai17-24",
+      "type": "usage",
+      "word": "即刻",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 50,
+      "prompt": "即刻",
+      "origin": "authored",
+      "options": [
+        "会議の開始即刻は午前十時だ。",
+        "約束の日から一か月遅れたが、約束の即刻どおりに届いた。",
+        "危険なガスが検出されたため、作業員は即刻避難した。",
+        "彼の発言は、戦前の即刻をよく表している。"
+      ],
+      "explanations": [
+        "Giờ bắt đầu là 開始時刻; 即刻 là trạng từ ngay lập tức.",
+        "Đúng ngày đã hẹn dùng 期日どおり; 即刻 không có nghĩa thời hạn.",
+        "即刻 là ngay lập tức, không chậm trễ.",
+        "Bối cảnh thời đại dùng 時代・時勢, không dùng即刻."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-25",
+      "type": "usage",
+      "word": "断念",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 94,
+      "prompt": "断念",
+      "origin": "authored",
+      "options": [
+        "念願がかない、留学を断念して出発した。",
+        "資金不足のため、新工場の建設を断念した。",
+        "雨が降ると思い、傘を持っていくことに断念した。",
+        "二つの案を比べて、どちらがよいか断念した。"
+      ],
+      "explanations": [
+        "Đã thực hiện được và khởi hành thì không thể nói từ bỏ du học.",
+        "断念 là từ bỏ dự định vì không thể thực hiện.",
+        "Quyết định mang ô dùng 決めた; 断念 là từ bỏ ý định.",
+        "Phán đoán chọn phương án dùng 判断; 断念 không có nghĩa quyết định lựa chọn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai17-26",
+      "type": "usage",
+      "word": "断面",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 95,
+      "prompt": "断面",
+      "origin": "authored",
+      "options": [
+        "二人は初めて断面し、名刺を交換した。",
+        "報告書の断面に、提出期限を書き添えた。",
+        "電話をかけたが、相手の断面が聞こえなかった。",
+        "木を切ると、断面に年輪が見えた。"
+      ],
+      "explanations": [
+        "Gặp mặt dùng 対面; 断面 không phải động từ gặp.",
+        "Lề giấy dùng 余白; 断面 không phải vị trí ghi chú trên trang.",
+        "Âm thanh lời đáp là 声・返事, không phải断面.",
+        "断面 là bề mặt lộ ra khi vật bị cắt."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai17-27",
+      "type": "usage",
+      "word": "遭遇",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 42,
+      "prompt": "遭遇",
+      "origin": "authored",
+      "options": [
+        "予約した時間に美容院へ遭遇した。",
+        "贈り物を丁寧な紙で遭遇した。",
+        "登山中、予想もしない吹雪に遭遇した。",
+        "将来の目標に向けて、努力を遭遇している。"
+      ],
+      "explanations": [
+        "Đến nơi theo lịch dùng 行く; 遭遇 không diễn tả đến điểm đã hẹn.",
+        "Gói quà dùng 包む; không dùng遭遇.",
+        "遭遇 là bất ngờ gặp sự việc hoặc đối tượng.",
+        "Tích lũy nỗ lực dùng 努力を重ねる; 遭遇 không tác động lên努力."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai17-28",
+      "type": "usage",
+      "word": "探検",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 86,
+      "prompt": "探検",
+      "origin": "authored",
+      "options": [
+        "医師は患者の胸を聴診器で探検した。",
+        "答案に誤字がないか、一字ずつ探検した。",
+        "出発前に車のブレーキを探検した。",
+        "研究隊は、まだ人の入ったことのない洞窟を探検した。"
+      ],
+      "explanations": [
+        "Khám bệnh dùng 診察; không dùng探検.",
+        "Soát lỗi dùng 点検・確認; 探検 dành cho nơi cần khám phá.",
+        "Kiểm tra thiết bị dùng 点検; không gọi là thám hiểm.",
+        "探検 là khám phá nơi chưa biết rõ, thường có khó khăn hoặc nguy hiểm."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai17-29",
+      "type": "usage",
+      "word": "態勢",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 66,
+      "prompt": "態勢",
+      "origin": "authored",
+      "options": [
+        "時代の態勢に逆らわず、流行を追いかける。",
+        "国の政治態勢について歴史の授業で学んだ。",
+        "背中が痛むので、椅子に座る態勢を正した。",
+        "病院は患者の急増に備え、受け入れ態勢を整えた。"
+      ],
+      "explanations": [
+        "Xu thế chung dùng 大勢・流れ, không phải態勢.",
+        "Thể chế chính trị dùng 政治体制, không phải態勢.",
+        "Tư thế cơ thể thường dùng 姿勢・体勢; 態勢 chỉ sự sẵn sàng hành động.",
+        "態勢 là trạng thái sẵn sàng để ứng phó hoặc hành động."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai17-30",
+      "type": "usage",
+      "word": "談話",
+      "source_file": "resources/N1/goi/dai17.csv",
+      "source_line": 97,
+      "prompt": "談話",
+      "origin": "authored",
+      "options": [
+        "二つの会社は新商品の価格を談話して決めた。",
+        "外国語の小説を日本語に談話した。",
+        "重要な情報を隠すため、資料を談話した。",
+        "首相は災害への対応について談話を発表した。"
+      ],
+      "explanations": [
+        "Thương lượng giá dùng 交渉; 談話 không dùng với giá làm tân ngữ như vậy.",
+        "Dịch sang tiếng Nhật dùng 翻訳した.",
+        "Che hoặc sửa tài liệu dùng 隠蔽・改ざん; 談話 là lời nói, phát biểu.",
+        "談話 có thể là phát biểu chính thức được công bố."
+      ],
+      "answer": 3
+    }
+  ]
+}

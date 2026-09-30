@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai11-30",
+  "title": "N1 · Bài 11 · 30 câu",
+  "level": "N1",
+  "lesson": "dai11",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093011,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai11.csv"
+  },
+  "choice_seed": 2026100011,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai11-01",
+      "type": "reading",
+      "word": "気風",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 25,
+      "prompt": "この学校には自由な【気風】がある。",
+      "origin": "authored",
+      "options": [
+        "きふく",
+        "きこう",
+        "きふう",
+        "きぞう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "起伏",
+          "reading": "きふく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 36
+        },
+        {
+          "word": "機構",
+          "reading": "きこう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 15
+        },
+        {
+          "word": "気風",
+          "reading": "きふう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 25
+        },
+        {
+          "word": "寄贈",
+          "reading": "きぞう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 9
+        }
+      ],
+      "explanations": [
+        "きふく là cách đọc của 起伏 (sự nhấp nhô; thăng trầm). Đây là cách đọc có thật nhưng không phải của 気風 trong câu.",
+        "きこう là cách đọc của 機構 (cơ cấu tổ chức; cơ chế máy móc). Đây là cách đọc có thật nhưng không phải của 気風 trong câu.",
+        "きふう là cách đọc của 気風 (phong thái; nếp tinh thần của tập thể). Đúng với từ và ngữ cảnh đang hỏi.",
+        "きぞう là cách đọc của 寄贈 (hiến tặng hiện vật). Đây là cách đọc có thật nhưng không phải của 気風 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-02",
+      "type": "reading",
+      "word": "協調",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 85,
+      "prompt": "周囲と【協調】して働く。",
+      "origin": "authored",
+      "options": [
+        "きょうしょく",
+        "きょうぐう",
+        "きょうしゅう",
+        "きょうちょう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "教職",
+          "reading": "きょうしょく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 98
+        },
+        {
+          "word": "境遇",
+          "reading": "きょうぐう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 87
+        },
+        {
+          "word": "教習",
+          "reading": "きょうしゅう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 97
+        },
+        {
+          "word": "協調",
+          "reading": "きょうちょう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 85
+        }
+      ],
+      "explanations": [
+        "きょうしょく là cách đọc của 教職 (nghề giáo). Đây là cách đọc có thật nhưng không phải của 協調 trong câu.",
+        "きょうぐう là cách đọc của 境遇 (hoàn cảnh sống). Đây là cách đọc có thật nhưng không phải của 協調 trong câu.",
+        "きょうしゅう là cách đọc của 教習 (huấn luyện thực hành). Đây là cách đọc có thật nhưng không phải của 協調 trong câu.",
+        "きょうちょう là cách đọc của 協調 (phối hợp hòa hợp). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai11-03",
+      "type": "reading",
+      "word": "気迫",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 23,
+      "prompt": "相手の【気迫】に圧倒された。",
+      "origin": "authored",
+      "options": [
+        "きふく",
+        "きはく",
+        "きぞく",
+        "きはん"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "起伏",
+          "reading": "きふく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 36
+        },
+        {
+          "word": "気迫",
+          "reading": "きはく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 23
+        },
+        {
+          "word": "貴族",
+          "reading": "きぞく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 32
+        },
+        {
+          "word": "規範",
+          "reading": "きはん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 29
+        }
+      ],
+      "explanations": [
+        "きふく là cách đọc của 起伏 (sự nhấp nhô; thăng trầm). Đây là cách đọc có thật nhưng không phải của 気迫 trong câu.",
+        "きはく là cách đọc của 気迫 (khí thế; tinh thần mãnh liệt). Đúng với từ và ngữ cảnh đang hỏi.",
+        "きぞく là cách đọc của 貴族 (quý tộc). Đây là cách đọc có thật nhưng không phải của 気迫 trong câu.",
+        "きはん là cách đọc của 規範 (chuẩn mực). Đây là cách đọc có thật nhưng không phải của 気迫 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-04",
+      "type": "reading",
+      "word": "漁船",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 78,
+      "prompt": "【漁船】が港に戻った。",
+      "origin": "authored",
+      "options": [
+        "ぎょそん",
+        "ぎょうせき",
+        "ぎょせん",
+        "ぎょうてん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "漁村",
+          "reading": "ぎょそん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 79
+        },
+        {
+          "word": "業績",
+          "reading": "ぎょうせき",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 7
+        },
+        {
+          "word": "漁船",
+          "reading": "ぎょせん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 78
+        },
+        {
+          "word": "仰天",
+          "reading": "ぎょうてん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 4
+        }
+      ],
+      "explanations": [
+        "ぎょそん là cách đọc của 漁村 (làng chài). Đây là cách đọc có thật nhưng không phải của 漁船 trong câu.",
+        "ぎょうせき là cách đọc của 業績 (thành tích kinh doanh; thành tựu). Đây là cách đọc có thật nhưng không phải của 漁船 trong câu.",
+        "ぎょせん là cách đọc của 漁船 (tàu đánh cá). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ぎょうてん là cách đọc của 仰天 (sửng sốt). Đây là cách đọc có thật nhưng không phải của 漁船 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-05",
+      "type": "reading",
+      "word": "軌道",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 37,
+      "prompt": "衛星が地球の【軌道】を回る。",
+      "origin": "authored",
+      "options": [
+        "きふう",
+        "きどう",
+        "きこう",
+        "きぞう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "気風",
+          "reading": "きふう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 25
+        },
+        {
+          "word": "軌道",
+          "reading": "きどう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 37
+        },
+        {
+          "word": "機構",
+          "reading": "きこう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 15
+        },
+        {
+          "word": "寄贈",
+          "reading": "きぞう",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 9
+        }
+      ],
+      "explanations": [
+        "きふう là cách đọc của 気風 (phong thái; nếp tinh thần của tập thể). Đây là cách đọc có thật nhưng không phải của 軌道 trong câu.",
+        "きどう là cách đọc của 軌道 (quỹ đạo; đường ray). Đúng với từ và ngữ cảnh đang hỏi.",
+        "きこう là cách đọc của 機構 (cơ cấu tổ chức; cơ chế máy móc). Đây là cách đọc có thật nhưng không phải của 軌道 trong câu.",
+        "きぞう là cách đọc của 寄贈 (hiến tặng hiện vật). Đây là cách đọc có thật nhưng không phải của 軌道 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-06",
+      "type": "reading",
+      "word": "器材",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 5,
+      "prompt": "実験に必要な【器材】をそろえる。",
+      "origin": "authored",
+      "options": [
+        "きざい",
+        "きてい",
+        "きせい",
+        "きがい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "器材",
+          "reading": "きざい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 5
+        },
+        {
+          "word": "規定",
+          "reading": "きてい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 28
+        },
+        {
+          "word": "帰省",
+          "reading": "きせい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 17
+        },
+        {
+          "word": "危害",
+          "reading": "きがい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 2
+        }
+      ],
+      "explanations": [
+        "きざい là cách đọc của 器材 (dụng cụ và vật tư). Đúng với từ và ngữ cảnh đang hỏi.",
+        "きてい là cách đọc của 規定 (quy định; ấn định). Đây là cách đọc có thật nhưng không phải của 器材 trong câu.",
+        "きせい là cách đọc của 帰省 (về quê thăm gia đình). Đây là cách đọc có thật nhưng không phải của 器材 trong câu.",
+        "きがい là cách đọc của 危害 (tổn hại; nguy hại). Đây là cách đọc có thật nhưng không phải của 器材 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-07",
+      "type": "reading",
+      "word": "教訓",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 96,
+      "prompt": "失敗を【教訓】にする。",
+      "origin": "authored",
+      "options": [
+        "きょうさく",
+        "きょうくん",
+        "きょうてい",
+        "きょうめい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "凶作",
+          "reading": "きょうさく",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 83
+        },
+        {
+          "word": "教訓",
+          "reading": "きょうくん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 96
+        },
+        {
+          "word": "協定",
+          "reading": "きょうてい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 86
+        },
+        {
+          "word": "共鳴",
+          "reading": "きょうめい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 82
+        }
+      ],
+      "explanations": [
+        "きょうさく là cách đọc của 凶作 (mất mùa). Đây là cách đọc có thật nhưng không phải của 教訓 trong câu.",
+        "きょうくん là cách đọc của 教訓 (bài học rút ra). Đúng với từ và ngữ cảnh đang hỏi.",
+        "きょうてい là cách đọc của 協定 (hiệp định; thỏa thuận). Đây là cách đọc có thật nhưng không phải của 教訓 trong câu.",
+        "きょうめい là cách đọc của 共鳴 (cộng hưởng; đồng cảm). Đây là cách đọc có thật nhưng không phải của 教訓 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai11-08",
+      "type": "reading",
+      "word": "漁村",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 79,
+      "prompt": "小さな【漁村】で育った。",
+      "origin": "authored",
+      "options": [
+        "ぎょせん",
+        "ぎょうてん",
+        "ぎあん",
+        "ぎょそん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "漁船",
+          "reading": "ぎょせん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 78
+        },
+        {
+          "word": "仰天",
+          "reading": "ぎょうてん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 4
+        },
+        {
+          "word": "議案",
+          "reading": "ぎあん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 48
+        },
+        {
+          "word": "漁村",
+          "reading": "ぎょそん",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 79
+        }
+      ],
+      "explanations": [
+        "ぎょせん là cách đọc của 漁船 (tàu đánh cá). Đây là cách đọc có thật nhưng không phải của 漁村 trong câu.",
+        "ぎょうてん là cách đọc của 仰天 (sửng sốt). Đây là cách đọc có thật nhưng không phải của 漁村 trong câu.",
+        "ぎあん là cách đọc của 議案 (dự thảo nghị quyết; đề án thảo luận). Đây là cách đọc có thật nhưng không phải của 漁村 trong câu.",
+        "ぎょそん là cách đọc của 漁村 (làng chài). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai11-09",
+      "type": "context",
+      "word": "義理",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 47,
+      "prompt": "本当は行きたくなかったが、昔から世話になっている相手なので、（　）で披露宴に出席した。",
+      "origin": "authored",
+      "options": [
+        "権利",
+        "利益",
+        "好奇心",
+        "義理"
+      ],
+      "explanations": [
+        "権利 là quyền được làm, không phải nghĩa tình ràng buộc.",
+        "利益 là lợi ích đạt được, không phải bổn phận với người từng giúp mình.",
+        "好奇心 là tò mò, khác việc đi chỉ vì nghĩa tình.",
+        "義理で là vì bổn phận trong quan hệ, dù không muốn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-10",
+      "type": "context",
+      "word": "強制",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 92,
+      "prompt": "参加は本人の自由であり、会社が社員に出席を（　）することはできない。",
+      "origin": "authored",
+      "options": [
+        "強化",
+        "強行",
+        "強制",
+        "強調"
+      ],
+      "explanations": [
+        "強化 là tăng cường sức mạnh hoặc mức độ.",
+        "強行 là tự thực hiện bất chấp trở ngại, không phải ép nhân viên tham dự.",
+        "強制 là buộc người khác làm, đối lập với tự nguyện.",
+        "強調 là nhấn mạnh một ý, không có nghĩa bắt buộc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai11-11",
+      "type": "context",
+      "word": "究明",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 69,
+      "prompt": "事故の真の原因を明らかにするため、専門家が徹底的に（　）する。",
+      "origin": "authored",
+      "options": [
+        "究明",
+        "表明",
+        "釈明",
+        "証明"
+      ],
+      "explanations": [
+        "究明 là điều tra đến cùng để làm sáng tỏ.",
+        "表明 là công khai ý kiến, không phải tìm nguyên nhân.",
+        "釈明 là giải thích biện hộ cho lời nói hoặc hành động của mình.",
+        "証明 là chứng minh một mệnh đề đã nêu; ở đây chưa biết nguyên nhân cần tìm ra."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-12",
+      "type": "context",
+      "word": "起点",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 34,
+      "prompt": "この道路は東京を出発点としている。つまり、東京がこの道路の（　）だ。",
+      "origin": "authored",
+      "options": [
+        "起点",
+        "終点",
+        "接点",
+        "頂点"
+      ],
+      "explanations": [
+        "起点 là điểm bắt đầu.",
+        "終点 là điểm cuối, trái 出発点.",
+        "接点 là điểm tiếp xúc, không phải đầu tuyến.",
+        "頂点 là điểm cao nhất, không chỉ nơi bắt đầu."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-13",
+      "type": "context",
+      "word": "給食",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 71,
+      "prompt": "この小学校では、昼に全員が学校で用意された同じ（　）を食べる。",
+      "origin": "authored",
+      "options": [
+        "給食",
+        "断食",
+        "外食",
+        "間食"
+      ],
+      "explanations": [
+        "給食 là bữa ăn do nhà trường cung cấp.",
+        "断食 là nhịn ăn, trái 食べる.",
+        "外食 là ăn ở hàng quán ngoài nhà.",
+        "間食 là ăn giữa các bữa chính, không phải bữa trưa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-14",
+      "type": "context",
+      "word": "境内",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 89,
+      "prompt": "鳥居をくぐると、神社の（　）には参拝客が大勢集まっていた。",
+      "origin": "authored",
+      "options": [
+        "車内",
+        "家内",
+        "船内",
+        "境内"
+      ],
+      "explanations": [
+        "車内 là bên trong xe.",
+        "家内 chỉ trong nhà hoặc vợ mình, không phải đất đền.",
+        "船内 là bên trong tàu, không phải khuôn viên đền.",
+        "境内 là khuôn viên đền, chùa."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-15",
+      "type": "context",
+      "word": "拒否",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 74,
+      "prompt": "検査を受けるよう求められたが、本人は同意せず、検査を（　）した。",
+      "origin": "authored",
+      "options": [
+        "受諾",
+        "承諾",
+        "拒否",
+        "保留"
+      ],
+      "explanations": [
+        "受諾 là chấp thuận đề nghị, trái ý câu.",
+        "承諾 là đồng ý, trái 同意せず.",
+        "拒否 là không chấp nhận yêu cầu.",
+        "保留 là chưa quyết định, không đồng nghĩa đã từ chối."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai11-16",
+      "type": "context",
+      "word": "祈願",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 27,
+      "prompt": "合格できますようにと、受験生は神社で（　）した。",
+      "origin": "authored",
+      "options": [
+        "祈願",
+        "要求",
+        "抗議",
+        "請求"
+      ],
+      "explanations": [
+        "祈願 là cầu mong thần linh giúp nguyện vọng thành.",
+        "要求 là đòi người khác đáp ứng, không chỉ cầu nguyện.",
+        "抗議 là phản đối điều không thỏa đáng.",
+        "請求 là đòi khoản tiền hoặc quyền được nhận."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-17",
+      "type": "paraphrase",
+      "word": "急募",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 64,
+      "prompt": "店の前に「店員【急募】」と書いてある。",
+      "origin": "authored",
+      "options": [
+        "経験不問",
+        "採用延期",
+        "募集終了",
+        "至急募集"
+      ],
+      "explanations": [
+        "Không xét kinh nghiệm không có nghĩa tuyển gấp.",
+        "Hoãn tuyển, trái với gấp.",
+        "Đã kết thúc tuyển dụng.",
+        "急募 là cần tuyển ngay."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-18",
+      "type": "paraphrase",
+      "word": "気前",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 21,
+      "prompt": "彼は【気前がいい】。",
+      "origin": "authored",
+      "options": [
+        "自分の利益だけを優先する",
+        "細かなことで怒りやすい",
+        "惜しまず人にお金や物を与える",
+        "予定を決めるのが早い"
+      ],
+      "explanations": [
+        "Chỉ lợi mình trái sắc thái hào phóng.",
+        "Dễ nổi giận chỉ tính khí.",
+        "気前がいい là rộng rãi khi cho, đãi người khác.",
+        "Quyết định nhanh không phải rộng rãi tiền bạc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai11-19",
+      "type": "paraphrase",
+      "word": "気質",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 19,
+      "prompt": "彼女の【気質】は父親に似ている。",
+      "origin": "authored",
+      "options": [
+        "身に着けた服装",
+        "仕事上の規則",
+        "その日の気分",
+        "生まれ持った性質"
+      ],
+      "explanations": [
+        "Trang phục không phải phẩm chất bẩm sinh.",
+        "Nội quy không phải tính cách.",
+        "Tâm trạng nhất thời khác tính khí.",
+        "気質 là tính tình có sẵn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-20",
+      "type": "paraphrase",
+      "word": "拒絶",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 73,
+      "prompt": "相手は申し出を【拒絶した】。",
+      "origin": "authored",
+      "options": [
+        "喜んで引き受けた",
+        "きっぱり断った",
+        "しばらく考えた",
+        "条件を追加した"
+      ],
+      "explanations": [
+        "Vui vẻ nhận lời trái nghĩa.",
+        "拒絶 là khước từ dứt khoát.",
+        "Cân nhắc thêm chưa phải từ chối.",
+        "Thêm điều kiện không đồng nghĩa khước từ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai11-21",
+      "type": "paraphrase",
+      "word": "急務",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 65,
+      "prompt": "人手不足への対応は【急務】だ。",
+      "origin": "authored",
+      "options": [
+        "すぐに取り組むべき仕事",
+        "すでに終わった仕事",
+        "経験のいらない仕事",
+        "時間が余ったら行う仕事"
+      ],
+      "explanations": [
+        "急務 là việc cần giải quyết gấp.",
+        "Việc hoàn thành không còn cấp bách.",
+        "Không cần kinh nghiệm không nói độ khẩn cấp.",
+        "Việc làm lúc rảnh trái với cấp bách."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-22",
+      "type": "paraphrase",
+      "word": "興奮",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 101,
+      "prompt": "観客は勝利に【興奮した】。",
+      "origin": "authored",
+      "options": [
+        "気持ちが高ぶった",
+        "関心を失った",
+        "不安がなくなった",
+        "眠くなった"
+      ],
+      "explanations": [
+        "興奮 là tinh thần dâng cao, phấn khích.",
+        "Mất hứng thú không phải phấn khích.",
+        "Hết lo là yên tâm, không nhất thiết kích động.",
+        "Buồn ngủ trái trạng thái kích động."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-23",
+      "type": "paraphrase",
+      "word": "脚本",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 54,
+      "prompt": "撮影前に【脚本】を読み直した。",
+      "origin": "authored",
+      "options": [
+        "撮影にかかった費用の一覧",
+        "出演者の住所録",
+        "せりふや場面を書いたもの",
+        "観客の感想をまとめたもの"
+      ],
+      "explanations": [
+        "Đây là bảng chi phí.",
+        "Danh bạ diễn viên không phải kịch bản.",
+        "脚本 ghi lời thoại và diễn biến cảnh.",
+        "Nhận xét khán giả xuất hiện sau khi xem."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai11-24",
+      "type": "usage",
+      "word": "強行",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 90,
+      "prompt": "強行",
+      "origin": "authored",
+      "options": [
+        "上司は部下に残業を強行した。",
+        "決定はまだせず、頭の中だけで案を強行した。",
+        "住民の反対を押し切って、工事を強行した。",
+        "弱っていた体力を運動で強行した。"
+      ],
+      "explanations": [
+        "Ép người khác làm dùng 強制; 強行 chỉ tự tiến hành.",
+        "Chưa thực hiện mà chỉ cân nhắc là 検討.",
+        "強行 là vẫn thực hiện bất chấp phản đối.",
+        "Tăng thể lực là 強化; không phải bất chấp tiến hành."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai11-25",
+      "type": "usage",
+      "word": "脅迫",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 99,
+      "prompt": "脅迫",
+      "origin": "authored",
+      "options": [
+        "試合で相手より一点多く取り、相手を脅迫した。",
+        "台風の進路を脅迫して、上陸時刻を計算した。",
+        "注文が遅いので、店員に配達を脅迫した。",
+        "秘密をばらすと言って、相手から金を取ろうと脅迫した。"
+      ],
+      "explanations": [
+        "Thắng điểm là 勝つ; 脅迫 không phải tên kết quả thi đấu.",
+        "Dự báo đường đi là 予測, không phải uy hiếp.",
+        "Giục giao hàng là 催促; không gọi bản thân việc giao hàng là 脅迫.",
+        "脅迫 là dùng lời đe dọa để uy hiếp."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-26",
+      "type": "usage",
+      "word": "逆転",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 57,
+      "prompt": "逆転",
+      "origin": "authored",
+      "options": [
+        "最初から最後まで首位を守り、逆転優勝した。",
+        "九回に三点を取り、負けていた試合を逆転した。",
+        "古い電池を新しい電池に逆転した。",
+        "手紙の内容を日本語から英語に逆転した。"
+      ],
+      "explanations": [
+        "Giữ dẫn đầu suốt thì không có đảo ngược thế thua.",
+        "逆転 là từ thua chuyển sang dẫn hoặc thắng.",
+        "Thay vật là 交換; không dùng 逆転.",
+        "Chuyển ngôn ngữ là 翻訳, không phải đảo tình thế."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai11-27",
+      "type": "usage",
+      "word": "犠牲",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 44,
+      "prompt": "犠牲",
+      "origin": "authored",
+      "options": [
+        "無料で受け取った利益を犠牲と呼ぶ。",
+        "睡眠時間を犠牲にして、家族の看病を続けた。",
+        "休暇の希望日を会社に犠牲した。",
+        "資格試験の犠牲が八十点だった。"
+      ],
+      "explanations": [
+        "犠牲 là mất mát, không phải lợi ích nhận được.",
+        "犠牲にする là chấp nhận mất thứ gì để ưu tiên việc khác.",
+        "Nộp ngày mong nghỉ là 申請; 犠牲 không mang nghĩa đề nghị.",
+        "Điểm thi là 得点; không phải sự hy sinh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai11-28",
+      "type": "usage",
+      "word": "虚偽",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 76,
+      "prompt": "虚偽",
+      "origin": "authored",
+      "options": [
+        "申請書に虚偽の住所を書いてはいけない。",
+        "まだ真偽を調べていないうわさなので、虚偽だと確認済みだ。",
+        "資料をなくしたので、棚の虚偽を探した。",
+        "説明が短かったので、文字数の虚偽を増やした。"
+      ],
+      "explanations": [
+        "虚偽 là thông tin không đúng sự thật.",
+        "Chưa xác minh không thể coi là đã xác nhận sai; 虚偽 không có nghĩa chưa rõ.",
+        "Chỗ trống hoặc vị trí trong kệ không gọi là 虚偽.",
+        "Thiếu số chữ là 不足; 虚偽 không chỉ độ ngắn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai11-29",
+      "type": "usage",
+      "word": "機材",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 16,
+      "prompt": "機材",
+      "origin": "authored",
+      "options": [
+        "木の機材を板に切って、机を作った。",
+        "新人を三人採用し、優秀な機材を確保した。",
+        "論文の結論を支える機材を文献から引用した。",
+        "撮影に必要なカメラや照明などの機材を運んだ。"
+      ],
+      "explanations": [
+        "Nguyên liệu gỗ là 木材; 機材 không chỉ gỗ thô.",
+        "Người có năng lực là 人材, không phải 機材.",
+        "Căn cứ hoặc tài liệu trích dẫn là 根拠／資料, không phải thiết bị.",
+        "機材 chỉ máy móc, thiết bị phục vụ công việc."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai11-30",
+      "type": "usage",
+      "word": "義務",
+      "source_file": "resources/N1/goi/dai11.csv",
+      "source_line": 46,
+      "prompt": "義務",
+      "origin": "authored",
+      "options": [
+        "相手への義務が百万円あるので、銀行から借りて返した。",
+        "保護者には子どもに教育を受けさせる義務がある。",
+        "割引を受けられる義務を得たので、安く買えた。",
+        "参加は完全に自由で、断ってもよい義務だ。"
+      ],
+      "explanations": [
+        "Khoản tiền nợ là 債務／借金; 義務 riêng không chỉ số dư khoản nợ.",
+        "義務 là việc phải làm với trách nhiệm cụ thể.",
+        "Được ưu đãi là 権利, không phải nghĩa vụ.",
+        "義務 là bắt buộc, không đồng nghĩa lựa chọn hoàn toàn tự do."
+      ],
+      "answer": 1
+    }
+  ]
+}

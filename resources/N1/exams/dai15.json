@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai15-30",
+  "title": "N1 · Bài 15 · 30 câu",
+  "level": "N1",
+  "lesson": "dai15",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093015,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai15.csv"
+  },
+  "choice_seed": 2026100015,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai15-01",
+      "type": "reading",
+      "word": "巡回",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 52,
+      "prompt": "警備員が館内を【巡回】する。",
+      "origin": "authored",
+      "options": [
+        "じゅうたい",
+        "じゅんのう",
+        "じゅんじょ",
+        "じゅんかい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "渋滞",
+          "reading": "じゅうたい",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 44
+        },
+        {
+          "word": "順応",
+          "reading": "じゅんのう",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 53
+        },
+        {
+          "word": "順序",
+          "reading": "じゅんじょ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 54
+        },
+        {
+          "word": "巡回",
+          "reading": "じゅんかい",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 52
+        }
+      ],
+      "explanations": [
+        "じゅうたい là cách đọc của 渋滞 (tắc nghẽn giao thông). Đây là cách đọc có thật nhưng không phải của 巡回 trong câu.",
+        "じゅんのう là cách đọc của 順応 (thích nghi). Đây là cách đọc có thật nhưng không phải của 巡回 trong câu.",
+        "じゅんじょ là cách đọc của 順序 (thứ tự). Đây là cách đọc có thật nhưng không phải của 巡回 trong câu.",
+        "じゅんかい là cách đọc của 巡回 (đi tuần; đi một vòng). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai15-02",
+      "type": "reading",
+      "word": "手際",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 3,
+      "prompt": "【手際】よく料理を作る。",
+      "origin": "authored",
+      "options": [
+        "てつや",
+        "ていぎ",
+        "ていり",
+        "てぎわ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "徹夜",
+          "reading": "てつや",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 58
+        },
+        {
+          "word": "定義",
+          "reading": "ていぎ",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 46
+        },
+        {
+          "word": "定理",
+          "reading": "ていり",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 47
+        },
+        {
+          "word": "手際",
+          "reading": "てぎわ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 3
+        }
+      ],
+      "explanations": [
+        "てつや là cách đọc của 徹夜 (thức suốt đêm). Đây là cách đọc có thật nhưng không phải của 手際 trong câu.",
+        "ていぎ là cách đọc của 定義 (định nghĩa). Đây là cách đọc có thật nhưng không phải của 手際 trong câu.",
+        "ていり là cách đọc của 定理 (định lý). Đây là cách đọc có thật nhưng không phải của 手際 trong câu.",
+        "てぎわ là cách đọc của 手際 (sự khéo léo khi xử lý). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai15-03",
+      "type": "reading",
+      "word": "承諾",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 75,
+      "prompt": "依頼を【承諾】する。",
+      "origin": "authored",
+      "options": [
+        "しゅうふく",
+        "しょうだく",
+        "しゅうがく",
+        "しょうそく"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "修復",
+          "reading": "しゅうふく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 34
+        },
+        {
+          "word": "承諾",
+          "reading": "しょうだく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 75
+        },
+        {
+          "word": "修学",
+          "reading": "しゅうがく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 29
+        },
+        {
+          "word": "消息",
+          "reading": "しょうそく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 78
+        }
+      ],
+      "explanations": [
+        "しゅうふく là cách đọc của 修復 (khôi phục; phục chế). Đây là cách đọc có thật nhưng không phải của 承諾 trong câu.",
+        "しょうだく là cách đọc của 承諾 (ưng thuận). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しゅうがく là cách đọc của 修学 (theo học; học tập). Đây là cách đọc có thật nhưng không phải của 承諾 trong câu.",
+        "しょうそく là cách đọc của 消息 (tin tức; tung tích). Đây là cách đọc có thật nhưng không phải của 承諾 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai15-04",
+      "type": "reading",
+      "word": "蒸発",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 92,
+      "prompt": "水が【蒸発】する。",
+      "origin": "authored",
+      "options": [
+        "じょうりく",
+        "じょうしつ",
+        "じゅうじつ",
+        "じょうはつ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "上陸",
+          "reading": "じょうりく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 90
+        },
+        {
+          "word": "上質",
+          "reading": "じょうしつ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 89
+        },
+        {
+          "word": "充実",
+          "reading": "じゅうじつ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 41
+        },
+        {
+          "word": "蒸発",
+          "reading": "じょうはつ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 92
+        }
+      ],
+      "explanations": [
+        "じょうりく là cách đọc của 上陸 (đổ bộ; lên đất liền). Đây là cách đọc có thật nhưng không phải của 蒸発 trong câu.",
+        "じょうしつ là cách đọc của 上質 (chất lượng cao). Đây là cách đọc có thật nhưng không phải của 蒸発 trong câu.",
+        "じゅうじつ là cách đọc của 充実 (đầy đủ; phong phú; viên mãn). Đây là cách đọc có thật nhưng không phải của 蒸発 trong câu.",
+        "じょうはつ là cách đọc của 蒸発 (bay hơi). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai15-05",
+      "type": "reading",
+      "word": "秀作",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 36,
+      "prompt": "若い作家の【秀作】を読む。",
+      "origin": "authored",
+      "options": [
+        "しゅうがく",
+        "しゅうふく",
+        "しゅうそく",
+        "しゅうさく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "修学",
+          "reading": "しゅうがく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 29
+        },
+        {
+          "word": "修復",
+          "reading": "しゅうふく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 34
+        },
+        {
+          "word": "収束",
+          "reading": "しゅうそく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 24
+        },
+        {
+          "word": "秀作",
+          "reading": "しゅうさく",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 36
+        }
+      ],
+      "explanations": [
+        "しゅうがく là cách đọc của 修学 (theo học; học tập). Đây là cách đọc có thật nhưng không phải của 秀作 trong câu.",
+        "しゅうふく là cách đọc của 修復 (khôi phục; phục chế). Đây là cách đọc có thật nhưng không phải của 秀作 trong câu.",
+        "しゅうそく là cách đọc của 収束 (thu về một điểm; dần ổn định). Đây là cách đọc có thật nhưng không phải của 秀作 trong câu.",
+        "しゅうさく là cách đọc của 秀作 (tác phẩm xuất sắc). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai15-06",
+      "type": "reading",
+      "word": "奨励",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 73,
+      "prompt": "読書を【奨励】する。",
+      "origin": "authored",
+      "options": [
+        "しょうれい",
+        "しょうがい",
+        "しょうめい",
+        "しょうさい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "奨励",
+          "reading": "しょうれい",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 73
+        },
+        {
+          "word": "生涯",
+          "reading": "しょうがい",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 67
+        },
+        {
+          "word": "照明",
+          "reading": "しょうめい",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 81
+        },
+        {
+          "word": "詳細",
+          "reading": "しょうさい",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 86
+        }
+      ],
+      "explanations": [
+        "しょうれい là cách đọc của 奨励 (khuyến khích). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しょうがい là cách đọc của 生涯 (suốt đời; cuộc đời). Đây là cách đọc có thật nhưng không phải của 奨励 trong câu.",
+        "しょうめい là cách đọc của 照明 (chiếu sáng; đèn). Đây là cách đọc có thật nhưng không phải của 奨励 trong câu.",
+        "しょうさい là cách đọc của 詳細 (chi tiết). Đây là cách đọc có thật nhưng không phải của 奨励 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai15-07",
+      "type": "reading",
+      "word": "賞賛",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 87,
+      "prompt": "勇気ある行動を【賞賛】する。",
+      "origin": "authored",
+      "options": [
+        "しょうてん",
+        "しょうにん",
+        "しょうさん",
+        "しょうしん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "焦点",
+          "reading": "しょうてん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 79
+        },
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 76
+        },
+        {
+          "word": "賞賛",
+          "reading": "しょうさん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 87
+        },
+        {
+          "word": "昇進",
+          "reading": "しょうしん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 77
+        }
+      ],
+      "explanations": [
+        "しょうてん là cách đọc của 焦点 (tiêu điểm; trọng tâm). Đây là cách đọc có thật nhưng không phải của 賞賛 trong câu.",
+        "しょうにん là cách đọc của 承認 (phê duyệt; công nhận). Đây là cách đọc có thật nhưng không phải của 賞賛 trong câu.",
+        "しょうさん là cách đọc của 賞賛 (ca ngợi). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しょうしん là cách đọc của 昇進 (thăng chức). Đây là cách đọc có thật nhưng không phải của 賞賛 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai15-08",
+      "type": "reading",
+      "word": "受理",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 14,
+      "prompt": "申請が【受理】された。",
+      "origin": "authored",
+      "options": [
+        "じたい",
+        "じゅり",
+        "じゅよ",
+        "じゅりつ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 53
+        },
+        {
+          "word": "受理",
+          "reading": "じゅり",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 14
+        },
+        {
+          "word": "授与",
+          "reading": "じゅよ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 16
+        },
+        {
+          "word": "樹立",
+          "reading": "じゅりつ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 18
+        }
+      ],
+      "explanations": [
+        "じたい là cách đọc của 事態 (tình thế; diễn biến). Đây là cách đọc có thật nhưng không phải của 受理 trong câu.",
+        "じゅり là cách đọc của 受理 (tiếp nhận chính thức). Đúng với từ và ngữ cảnh đang hỏi.",
+        "じゅよ là cách đọc của 授与 (trao tặng). Đây là cách đọc có thật nhưng không phải của 受理 trong câu.",
+        "じゅりつ là cách đọc của 樹立 (thiết lập; lập nên). Đây là cách đọc có thật nhưng không phải của 受理 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai15-09",
+      "type": "context",
+      "word": "修復",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 34,
+      "prompt": "地震で壊れた壁画を、専門家が元の状態に（　）した。",
+      "origin": "authored",
+      "options": [
+        "修復",
+        "撤去",
+        "破棄",
+        "増築"
+      ],
+      "explanations": [
+        "修復 là khôi phục vật hư hỏng về trạng thái ban đầu.",
+        "撤去 là dỡ bỏ, không phải khôi phục.",
+        "破棄 là vứt bỏ, không làm trở lại nguyên trạng.",
+        "増築 là xây thêm diện tích công trình, không dùng cho phục hồi tranh tường."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-10",
+      "type": "context",
+      "word": "書面",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 68,
+      "prompt": "口頭の約束だけでは不十分なので、合意内容を（　）にして残した。",
+      "origin": "authored",
+      "options": [
+        "場面",
+        "画面",
+        "側面",
+        "書面"
+      ],
+      "explanations": [
+        "場面 là cảnh hoặc tình huống.",
+        "画面 là màn hình, không đồng nghĩa văn bản thỏa thuận.",
+        "側面 là mặt bên hoặc phương diện, không phải tài liệu ghi lại.",
+        "書面 là văn bản; 書面にする là lập thành văn bản."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai15-11",
+      "type": "context",
+      "word": "触覚",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 97,
+      "prompt": "目を閉じ、指先の（　）だけを頼りに布の手触りを確かめた。",
+      "origin": "authored",
+      "options": [
+        "嗅覚",
+        "聴覚",
+        "触覚",
+        "視覚"
+      ],
+      "explanations": [
+        "嗅覚 là khứu giác, không nhận biết cảm giác sờ.",
+        "聴覚 là thính giác, không cảm nhận bề mặt bằng ngón tay.",
+        "触覚 là xúc giác, nhận biết bằng tiếp xúc.",
+        "視覚 là thị giác; mắt đang nhắm."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai15-12",
+      "type": "context",
+      "word": "処置",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 56,
+      "prompt": "救急隊が到着するまで、近くにいた看護師が適切な応急（　）を施した。",
+      "origin": "authored",
+      "options": [
+        "処遇",
+        "処刑",
+        "処置",
+        "処分"
+      ],
+      "explanations": [
+        "処遇 là đối đãi, chế độ đãi ngộ.",
+        "処刑 là thi hành án tử hình, không liên quan cứu chữa.",
+        "応急処置 là sơ cứu, xử trí tạm thời ngay lúc khẩn cấp.",
+        "処分 là xử phạt hoặc thải bỏ, không phải sơ cứu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai15-13",
+      "type": "context",
+      "word": "収縮",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 23,
+      "prompt": "熱を加えると膨張する金属も、冷やすと（　）する。",
+      "origin": "authored",
+      "options": [
+        "増幅",
+        "拡張",
+        "収縮",
+        "拡散"
+      ],
+      "explanations": [
+        "増幅 là khuếch đại tín hiệu hoặc cường độ.",
+        "拡張 là mở rộng, không phải co lại.",
+        "収縮 là co lại, đối lập với 膨張.",
+        "拡散 là tỏa ra, không chỉ giảm kích thước."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai15-14",
+      "type": "context",
+      "word": "傷跡",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 72,
+      "prompt": "けがはすっかり治ったが、腕には（　）が残っている。",
+      "origin": "authored",
+      "options": [
+        "遺跡",
+        "筆跡",
+        "傷跡",
+        "足跡"
+      ],
+      "explanations": [
+        "遺跡 là di tích lịch sử.",
+        "筆跡 là nét chữ.",
+        "傷跡 là sẹo hoặc dấu vết sau chấn thương.",
+        "足跡 là dấu chân."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai15-15",
+      "type": "context",
+      "word": "承認",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 76,
+      "prompt": "研究費を使うには、事前に上司の（　）を得る必要がある。",
+      "origin": "authored",
+      "options": [
+        "拒絶",
+        "承認",
+        "反感",
+        "疑問"
+      ],
+      "explanations": [
+        "拒絶 là cự tuyệt, trái với được phép sử dụng.",
+        "承認を得る là được cấp có thẩm quyền chấp thuận.",
+        "反感 là ác cảm, không phải điều kiện được chi tiền.",
+        "疑問 là nghi vấn, không phải sự cho phép dùng ngân sách."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai15-16",
+      "type": "context",
+      "word": "瞬時",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 51,
+      "prompt": "危険を察した運転手は、（　）にブレーキを踏んで衝突を避けた。",
+      "origin": "authored",
+      "options": [
+        "連日",
+        "長期",
+        "終日",
+        "瞬時"
+      ],
+      "explanations": [
+        "連日 là nhiều ngày liên tiếp, không phù hợp tình huống này.",
+        "長期 là khoảng thời gian dài, không phù hợp phản ứng tức thì.",
+        "終日 là suốt ngày, không chỉ thời điểm phản ứng.",
+        "瞬時に là ngay trong khoảnh khắc."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai15-17",
+      "type": "paraphrase",
+      "word": "所定",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 63,
+      "prompt": "申込書を【所定の】窓口に提出してください。",
+      "origin": "authored",
+      "options": [
+        "その場で選んだ",
+        "あらかじめ決められた",
+        "近くにある",
+        "最近できた"
+      ],
+      "explanations": [
+        "Tự chọn tại chỗ khác với được chỉ định sẵn.",
+        "所定 là đã được quy định trước.",
+        "Ở gần không đồng nghĩa với được quy định.",
+        "Mới lập gần đây không phải nghĩa所定."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai15-18",
+      "type": "paraphrase",
+      "word": "終日",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 39,
+      "prompt": "その日は【終日】雨だった。",
+      "origin": "authored",
+      "options": [
+        "夜中だけ",
+        "一日中",
+        "夕方だけ",
+        "数日間"
+      ],
+      "explanations": [
+        "Chỉ nửa đêm không phải終日.",
+        "終日 là suốt cả ngày.",
+        "Chỉ buổi chiều tối không phải cả ngày.",
+        "Vài ngày khác với một ngày trọn vẹn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai15-19",
+      "type": "paraphrase",
+      "word": "庶民",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 64,
+      "prompt": "この店の料理は【庶民】にも親しまれている。",
+      "origin": "authored",
+      "options": [
+        "一般の人々",
+        "特別に高い地位にある人々",
+        "国の政治を担う人々",
+        "その土地を初めて訪れる人々"
+      ],
+      "explanations": [
+        "庶民 là dân thường, người bình dân.",
+        "Người địa vị đặc biệt cao trái với bình dân.",
+        "Những người nắm chính quyền không phải nghĩa庶民.",
+        "Khách lần đầu đến không đồng nghĩa với dân thường."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-20",
+      "type": "paraphrase",
+      "word": "出没",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 50,
+      "prompt": "最近、この山道に熊が【出没する】。",
+      "origin": "authored",
+      "options": [
+        "現れたり姿を消したりする",
+        "冬の間眠り続ける",
+        "ずっと居続ける",
+        "一斉に移動する"
+      ],
+      "explanations": [
+        "出没 là xuất hiện rồi biến mất, thường không lường trước.",
+        "Ngủ mùa đông là 冬眠, không phải出没.",
+        "Ở liên tục một nơi không phải出没.",
+        "Di chuyển đồng loạt không đồng nghĩa với出没."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-21",
+      "type": "paraphrase",
+      "word": "宿命",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 48,
+      "prompt": "この作品の主人公は、避けられない【宿命】に苦しむ。",
+      "origin": "authored",
+      "options": [
+        "自分で選んだ職業",
+        "他人と交わした約束",
+        "生まれながらに定められた運命",
+        "一時的に生じた気分"
+      ],
+      "explanations": [
+        "Nghề tự chọn không phải số phận định sẵn.",
+        "Lời hứa với người khác không đồng nghĩa宿命.",
+        "宿命 là số phận được coi là đã định sẵn.",
+        "Tâm trạng nhất thời không phải宿命."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai15-22",
+      "type": "paraphrase",
+      "word": "伸縮",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 99,
+      "prompt": "この生地はよく【伸縮する】。",
+      "origin": "authored",
+      "options": [
+        "伸びたり縮んだりする",
+        "裂けたり破れたりする",
+        "透けたり光ったりする",
+        "濡れたり乾いたりする"
+      ],
+      "explanations": [
+        "伸縮 là giãn ra và co lại.",
+        "Rách hoặc toạc là hư hại, không phải co giãn.",
+        "Xuyên sáng hoặc phát sáng không phải co giãn.",
+        "Ướt và khô không đồng nghĩa với伸縮."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-23",
+      "type": "paraphrase",
+      "word": "従事",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 42,
+      "prompt": "彼は長年、救急医療に【従事している】。",
+      "origin": "authored",
+      "options": [
+        "反対している",
+        "憧れている",
+        "辞退している",
+        "携わっている"
+      ],
+      "explanations": [
+        "Phản đối không phải làm việc trong lĩnh vực.",
+        "Ngưỡng mộ chưa có nghĩa đang làm công việc đó.",
+        "Từ chối nhận việc trái với従事.",
+        "従事 là tham gia làm một công việc, chuyên môn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai15-24",
+      "type": "usage",
+      "word": "小銭",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 74,
+      "prompt": "小銭",
+      "origin": "authored",
+      "options": [
+        "旅行代金を払い終えたので、支払うべき小銭はゼロだ。",
+        "紙幣を半分に切って、使いやすい小銭にした。",
+        "銀行で住宅購入のために三千万円の小銭を借りた。",
+        "自動販売機で飲み物を買おうとしたが、小銭がなかった。"
+      ],
+      "explanations": [
+        "Khoản còn phải trả dùng 残金; 小銭 không có nghĩa số dư phải trả.",
+        "Cắt tờ tiền không tạo ra tiền lẻ hợp lệ; đổi tiền dùng 両替.",
+        "Khoản vay ba chục triệu yên không gọi là 小銭 theo nghĩa thông thường.",
+        "小銭 là tiền lẻ, đặc biệt là tiền xu mệnh giá nhỏ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai15-25",
+      "type": "usage",
+      "word": "周期",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 26,
+      "prompt": "周期",
+      "origin": "authored",
+      "options": [
+        "この星は一定の周期で明るさを変える。",
+        "駅まで歩くと十五分の周期がかかる。",
+        "申込書の提出周期は明日の午後五時だ。",
+        "展示会は十月一日から三日までの周期で開催される。"
+      ],
+      "explanations": [
+        "周期 là thời gian để hiện tượng lặp lại một vòng.",
+        "Thời lượng một lượt di chuyển là 時間, không phải周期.",
+        "Mốc cuối nộp hồ sơ dùng 期限; không phải chu kỳ.",
+        "Khoảng ngày diễn ra một lần triển lãm dùng 期間."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-26",
+      "type": "usage",
+      "word": "収支",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 21,
+      "prompt": "収支",
+      "origin": "authored",
+      "options": [
+        "家計簿を付けて、毎月の収支を確認している。",
+        "買い物をして店員に代金を収支した。",
+        "会議は収支穏やかな雰囲気で進んだ。",
+        "本棚に並んだ本を種類ごとに収支した。"
+      ],
+      "explanations": [
+        "収支 là thu và chi, hoặc sự cân đối giữa hai khoản.",
+        "Thanh toán tiền dùng 支払った; 収支 không phải động từ trả tiền.",
+        "Suốt từ đầu đến cuối là 終始, đồng âm với収支 nhưng khác nghĩa.",
+        "Phân loại, sắp xếp đồ dùng 整理; không dùng収支."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-27",
+      "type": "usage",
+      "word": "終息",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 38,
+      "prompt": "終息",
+      "origin": "authored",
+      "options": [
+        "契約の終息を三か月延ばすことで合意した。",
+        "一か月続いた騒動は、ようやく終息した。",
+        "疲れたので、ベンチで十分間終息した。",
+        "大勢の客で混雑し、店の中は終息していた。"
+      ],
+      "explanations": [
+        "Ngày hết hạn hợp đồng dùng 期限・満了日; không gọi là終息.",
+        "終息 là một sự việc hoặc biến động lắng xuống và kết thúc.",
+        "Nghỉ một lát dùng 休息, không dùng終息.",
+        "Đông đúc là 混雑; 終息 biểu thị kết thúc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai15-28",
+      "type": "usage",
+      "word": "修行",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 30,
+      "prompt": "修行",
+      "origin": "authored",
+      "options": [
+        "一人前の料理人を目指して、名店で十年間修行した。",
+        "旅行の途中で予定を修行した。",
+        "故障した自転車を自分で修行した。",
+        "誤字のある文章を修行してから提出した。"
+      ],
+      "explanations": [
+        "修行 là rèn luyện lâu dài để thành thạo nghề hoặc tu dưỡng.",
+        "Điều chỉnh kế hoạch dùng 修正; không dùng修行.",
+        "Sửa xe dùng 修理; 修行 là rèn luyện bản thân.",
+        "Sửa bản thảo dùng 修正・訂正, không dùng修行."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai15-29",
+      "type": "usage",
+      "word": "手口",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 2,
+      "prompt": "手口",
+      "origin": "authored",
+      "options": [
+        "けがをした手口に包帯を巻いた。",
+        "警察は、同じ手口の詐欺が相次いでいると注意を呼びかけた。",
+        "初めての料理なので、レシピの手口を順番に確認した。",
+        "彼は人付き合いの手口が広く、多くの友人がいる。"
+      ],
+      "explanations": [
+        "Vị trí cơ thể như cổ tay là 手首; 手口 không phải bộ phận cơ thể.",
+        "手口 thường chỉ thủ đoạn thực hiện hành vi xấu.",
+        "Các bước nấu ăn trung tính dùng 手順; 手口 mang sắc thái thủ đoạn.",
+        "Có nhiều quan hệ dùng 顔が広い・交友関係が広い, không dùng手口."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai15-30",
+      "type": "usage",
+      "word": "序列",
+      "source_file": "resources/N1/goi/dai15.csv",
+      "source_line": 69,
+      "prompt": "序列",
+      "origin": "authored",
+      "options": [
+        "新幹線の序列を一両ずつ点検した。",
+        "料理を出す序列を一品目から説明した。",
+        "この組織では、勤続年数によって役職の序列が決まる。",
+        "入場を待つ人の序列が駅まで続いている。"
+      ],
+      "explanations": [
+        "Dãy toa tàu dùng 車両・編成; không phải thứ bậc.",
+        "Trình tự phục vụ món dùng 順序; không phải thứ bậc cao thấp.",
+        "序列 là thứ bậc được sắp xếp theo tiêu chí.",
+        "Hàng người xếp chờ dùng 行列; 序列 không chỉ hàng kéo dài vật lý."
+      ],
+      "answer": 2
+    }
+  ]
+}

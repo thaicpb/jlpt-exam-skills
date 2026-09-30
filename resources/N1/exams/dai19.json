@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai19-30",
+  "title": "N1 · Bài 19 · 30 câu",
+  "level": "N1",
+  "lesson": "dai19",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093019,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai19.csv"
+  },
+  "choice_seed": 2026100019,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai19-01",
+      "type": "reading",
+      "word": "発芽",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 69,
+      "prompt": "種が【発芽】した。",
+      "origin": "authored",
+      "options": [
+        "はあく",
+        "はいき",
+        "はせい",
+        "はつが"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "把握",
+          "reading": "はあく",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 40
+        },
+        {
+          "word": "廃棄",
+          "reading": "はいき",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 47
+        },
+        {
+          "word": "派生",
+          "reading": "はせい",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 42
+        },
+        {
+          "word": "発芽",
+          "reading": "はつが",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 69
+        }
+      ],
+      "explanations": [
+        "はあく là cách đọc của 把握 (nắm bắt). Đây là cách đọc có thật nhưng không phải của 発芽 trong câu.",
+        "はいき là cách đọc của 廃棄 (loại bỏ; vứt bỏ). Đây là cách đọc có thật nhưng không phải của 発芽 trong câu.",
+        "はせい là cách đọc của 派生 (phát sinh từ). Đây là cách đọc có thật nhưng không phải của 発芽 trong câu.",
+        "はつが là cách đọc của 発芽 (nảy mầm). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai19-02",
+      "type": "reading",
+      "word": "賠償",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 61,
+      "prompt": "損害を【賠償】する。",
+      "origin": "authored",
+      "options": [
+        "たいしょう",
+        "ていしょう",
+        "ばくしょう",
+        "ばいしょう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "対照",
+          "reading": "たいしょう",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 60
+        },
+        {
+          "word": "提唱",
+          "reading": "ていしょう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 50
+        },
+        {
+          "word": "爆笑",
+          "reading": "ばくしょう",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 66
+        },
+        {
+          "word": "賠償",
+          "reading": "ばいしょう",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 61
+        }
+      ],
+      "explanations": [
+        "たいしょう là cách đọc của 対照 (đối chiếu; tương phản). Đây là cách đọc có thật nhưng không phải của 賠償 trong câu.",
+        "ていしょう là cách đọc của 提唱 (đề xướng). Đây là cách đọc có thật nhưng không phải của 賠償 trong câu.",
+        "ばくしょう là cách đọc của 爆笑 (cười lớn). Đây là cách đọc có thật nhưng không phải của 賠償 trong câu.",
+        "ばいしょう là cách đọc của 賠償 (bồi thường thiệt hại). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai19-03",
+      "type": "reading",
+      "word": "発覚",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 70,
+      "prompt": "不正が【発覚】した。",
+      "origin": "authored",
+      "options": [
+        "はっかん",
+        "けっかく",
+        "しっかく",
+        "はっかく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "発刊",
+          "reading": "はっかん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 71
+        },
+        {
+          "word": "結核",
+          "reading": "けっかく",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 58
+        },
+        {
+          "word": "失格",
+          "reading": "しっかく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 76
+        },
+        {
+          "word": "発覚",
+          "reading": "はっかく",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 70
+        }
+      ],
+      "explanations": [
+        "はっかん là cách đọc của 発刊 (phát hành ấn phẩm). Đây là cách đọc có thật nhưng không phải của 発覚 trong câu.",
+        "けっかく là cách đọc của 結核 (bệnh lao). Đây là cách đọc có thật nhưng không phải của 発覚 trong câu.",
+        "しっかく là cách đọc của 失格 (bị loại vì không đủ điều kiện). Đây là cách đọc có thật nhưng không phải của 発覚 trong câu.",
+        "はっかく là cách đọc của 発覚 (bị phát hiện). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai19-04",
+      "type": "reading",
+      "word": "日向",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 23,
+      "prompt": "猫が【日向】で寝ている。",
+      "origin": "authored",
+      "options": [
+        "ひとで",
+        "ひけつ",
+        "ひなん",
+        "ひなた"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "人出",
+          "reading": "ひとで",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 38
+        },
+        {
+          "word": "否決",
+          "reading": "ひけつ",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 93
+        },
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 3
+        },
+        {
+          "word": "日向",
+          "reading": "ひなた",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 23
+        }
+      ],
+      "explanations": [
+        "ひとで là cách đọc của 人出 (lượng người ra đường, tham dự). Đây là cách đọc có thật nhưng không phải của 日向 trong câu.",
+        "ひけつ là cách đọc của 否決 (bác bỏ qua biểu quyết). Đây là cách đọc có thật nhưng không phải của 日向 trong câu.",
+        "ひなん là cách đọc của 避難 (sơ tán; lánh nạn). Đây là cách đọc có thật nhưng không phải của 日向 trong câu.",
+        "ひなた là cách đọc của 日向 (chỗ có nắng). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai19-05",
+      "type": "reading",
+      "word": "発端",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 77,
+      "prompt": "事件の【発端】を調べる。",
+      "origin": "authored",
+      "options": [
+        "ほっそく",
+        "がんたん",
+        "ほっさ",
+        "ほったん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "発足",
+          "reading": "ほっそく",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 76
+        },
+        {
+          "word": "元旦",
+          "reading": "がんたん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 83
+        },
+        {
+          "word": "発作",
+          "reading": "ほっさ",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 74
+        },
+        {
+          "word": "発端",
+          "reading": "ほったん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 77
+        }
+      ],
+      "explanations": [
+        "ほっそく là cách đọc của 発足 (ra đời; bắt đầu hoạt động). Đây là cách đọc có thật nhưng không phải của 発端 trong câu.",
+        "がんたん là cách đọc của 元旦 (sáng ngày đầu năm). Đây là cách đọc có thật nhưng không phải của 発端 trong câu.",
+        "ほっさ là cách đọc của 発作 (cơn bệnh đột ngột). Đây là cách đọc có thật nhưng không phải của 発端 trong câu.",
+        "ほったん là cách đọc của 発端 (khởi nguồn sự việc). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai19-06",
+      "type": "reading",
+      "word": "銅像",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 5,
+      "prompt": "広場に【銅像】が立つ。",
+      "origin": "authored",
+      "options": [
+        "どうふう",
+        "どうぞう",
+        "どうこう",
+        "どうよう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "同封",
+          "reading": "どうふう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 99
+        },
+        {
+          "word": "銅像",
+          "reading": "どうぞう",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 5
+        },
+        {
+          "word": "動向",
+          "reading": "どうこう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 92
+        },
+        {
+          "word": "動揺",
+          "reading": "どうよう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 93
+        }
+      ],
+      "explanations": [
+        "どうふう là cách đọc của 同封 (gửi kèm trong cùng phong bì). Đây là cách đọc có thật nhưng không phải của 銅像 trong câu.",
+        "どうぞう là cách đọc của 銅像 (tượng đồng). Đúng với từ và ngữ cảnh đang hỏi.",
+        "どうこう là cách đọc của 動向 (xu hướng diễn biến). Đây là cách đọc có thật nhưng không phải của 銅像 trong câu.",
+        "どうよう là cách đọc của 動揺 (dao động; bối rối). Đây là cách đọc có thật nhưng không phải của 銅像 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai19-07",
+      "type": "reading",
+      "word": "発散",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 75,
+      "prompt": "運動でストレスを【発散】する。",
+      "origin": "authored",
+      "options": [
+        "はっさん",
+        "はっかん",
+        "ぜっさん",
+        "はんらん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "発散",
+          "reading": "はっさん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 75
+        },
+        {
+          "word": "発刊",
+          "reading": "はっかん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 71
+        },
+        {
+          "word": "絶賛",
+          "reading": "ぜっさん",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 84
+        },
+        {
+          "word": "反乱",
+          "reading": "はんらん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 86
+        }
+      ],
+      "explanations": [
+        "はっさん là cách đọc của 発散 (giải tỏa; phát tán). Đúng với từ và ngữ cảnh đang hỏi.",
+        "はっかん là cách đọc của 発刊 (phát hành ấn phẩm). Đây là cách đọc có thật nhưng không phải của 発散 trong câu.",
+        "ぜっさん là cách đọc của 絶賛 (hết lời khen ngợi). Đây là cách đọc có thật nhưng không phải của 発散 trong câu.",
+        "はんらん là cách đọc của 反乱 (nổi loạn). Đây là cách đọc có thật nhưng không phải của 発散 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai19-08",
+      "type": "reading",
+      "word": "発足",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 76,
+      "prompt": "新しい組織が【発足】した。",
+      "origin": "authored",
+      "options": [
+        "ほったん",
+        "ちっそく",
+        "ほっそく",
+        "けっそく"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "発端",
+          "reading": "ほったん",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 77
+        },
+        {
+          "word": "窒息",
+          "reading": "ちっそく",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 2
+        },
+        {
+          "word": "発足",
+          "reading": "ほっそく",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 76
+        },
+        {
+          "word": "結束",
+          "reading": "けっそく",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 62
+        }
+      ],
+      "explanations": [
+        "ほったん là cách đọc của 発端 (khởi nguồn sự việc). Đây là cách đọc có thật nhưng không phải của 発足 trong câu.",
+        "ちっそく là cách đọc của 窒息 (ngạt thở). Đây là cách đọc có thật nhưng không phải của 発足 trong câu.",
+        "ほっそく là cách đọc của 発足 (ra đời; bắt đầu hoạt động). Đúng với từ và ngữ cảnh đang hỏi.",
+        "けっそく là cách đọc của 結束 (đoàn kết; buộc lại). Đây là cách đọc có thật nhưng không phải của 発足 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai19-09",
+      "type": "context",
+      "word": "日夜",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 24,
+      "prompt": "研究チームは病気の治療法を見つけるため、（　）研究に励んでいる。",
+      "origin": "authored",
+      "options": [
+        "日付",
+        "日夜",
+        "日向",
+        "日取り"
+      ],
+      "explanations": [
+        "日付 là ngày tháng ghi trên giấy tờ, không bổ nghĩa 研究に励む.",
+        "日夜 là cả ngày lẫn đêm, nhấn mạnh nỗ lực liên tục.",
+        "日向 là nơi có ánh nắng, không dùng như trạng từ thời gian này.",
+        "日取り là ngày được chọn cho sự kiện."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai19-10",
+      "type": "context",
+      "word": "特徴",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 11,
+      "prompt": "背中にある白い模様が、この鳥を他の種類と区別する大きな（　）だ。",
+      "origin": "authored",
+      "options": [
+        "特徴",
+        "欠点",
+        "弱点",
+        "難点"
+      ],
+      "explanations": [
+        "特徴 là đặc điểm nổi bật phân biệt với thứ khác.",
+        "欠点 là khuyết điểm; hoa văn phân biệt loài không được nêu là điểm xấu.",
+        "弱点 là điểm yếu, không phải nét nhận dạng trung tính.",
+        "難点 là chỗ khó hoặc bất lợi, không phù hợp mô tả hoa văn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-11",
+      "type": "context",
+      "word": "濃度",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 37,
+      "prompt": "食塩水全体の質量に対する食塩の割合を、食塩水の質量パーセント（　）という。",
+      "origin": "authored",
+      "options": [
+        "頻度",
+        "精度",
+        "濃度",
+        "密度"
+      ],
+      "explanations": [
+        "頻度 là tần suất xảy ra.",
+        "精度 là độ chính xác, không nói độ đậm đặc của dung dịch.",
+        "質量パーセント濃度 là nồng độ phần trăm khối lượng: tỷ lệ khối lượng chất tan trong dung dịch.",
+        "密度 là khối lượng trên một đơn vị thể tích, không phải tỷ lệ chất tan trong dung dịch."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-12",
+      "type": "context",
+      "word": "判別",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 83,
+      "prompt": "偽物の印刷が巧妙で、本物かどうかを肉眼で（　）するのは難しい。",
+      "origin": "authored",
+      "options": [
+        "判例",
+        "判別",
+        "判明",
+        "判決"
+      ],
+      "explanations": [
+        "判例 là tiền lệ xét xử; không có nghĩa phân biệt thật giả.",
+        "判別 là phân biệt để nhận ra khác nhau, ở đây là thật hay giả.",
+        "判明 là trở nên rõ; không dùng với 本物かどうかを theo cấu trúc tác động này.",
+        "判決 là phán quyết của tòa án."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai19-13",
+      "type": "context",
+      "word": "念願",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 30,
+      "prompt": "十年の努力が実り、ついに（　）の自分の店を開くことができた。",
+      "origin": "authored",
+      "options": [
+        "念願",
+        "無念",
+        "懸念",
+        "遺憾"
+      ],
+      "explanations": [
+        "念願 là nguyện vọng ấp ủ lâu dài; 念願の店 là cửa hàng hằng mong.",
+        "無念 là tiếc nuối không cam lòng, trái với đạt ước mơ.",
+        "懸念 là điều lo ngại, không phải nguyện vọng thành công.",
+        "遺憾 là đáng tiếc, không phù hợp việc thành công mong muốn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-14",
+      "type": "context",
+      "word": "念頭",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 31,
+      "prompt": "海外で活動する際は、文化の違いを常に（　）に置いておく必要がある。",
+      "origin": "authored",
+      "options": [
+        "念力",
+        "雑念",
+        "念願",
+        "念頭"
+      ],
+      "explanations": [
+        "念力 là sức mạnh tinh thần được cho có thể tác động vật thể, không phải chỗ lưu tâm.",
+        "雑念 là ý nghĩ tạp làm xao nhãng, không phải nhận thức cần giữ.",
+        "念願 là ước nguyện lâu dài, không kết hợp に置く theo nghĩa lưu ý.",
+        "念頭に置く là luôn ghi nhớ, lưu ý một điều khi hành động."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai19-15",
+      "type": "context",
+      "word": "秘訣",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 100,
+      "prompt": "長年一度も病気で休んでいない祖父に、健康の（　）を尋ねた。",
+      "origin": "authored",
+      "options": [
+        "機密",
+        "秘訣",
+        "内緒",
+        "隠蔽"
+      ],
+      "explanations": [
+        "機密 là thông tin cần bảo mật của tổ chức, không phải bí quyết khỏe mạnh.",
+        "秘訣 là bí quyết giúp đạt kết quả tốt.",
+        "内緒 là việc không nói cho người khác, không phải phương pháp duy trì sức khỏe.",
+        "隠蔽 là che giấu sai phạm hoặc sự thật, không phải bí quyết sức khỏe."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai19-16",
+      "type": "context",
+      "word": "熱意",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 27,
+      "prompt": "経験は浅いが、仕事に対する彼女の強い（　）が面接官の心を動かした。",
+      "origin": "authored",
+      "options": [
+        "失意",
+        "悪意",
+        "熱意",
+        "敵意"
+      ],
+      "explanations": [
+        "失意 là chán nản vì thất vọng, không phải tinh thần hăng hái.",
+        "悪意 là ý xấu, không phù hợp mô tả được đánh giá tốt.",
+        "熱意 là sự nhiệt tình và mong muốn hết mình làm một việc.",
+        "敵意 là sự thù địch, trái với đánh giá tích cực."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-17",
+      "type": "paraphrase",
+      "word": "内乱",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 21,
+      "prompt": "その国では長年【内乱】が続いている。",
+      "origin": "authored",
+      "options": [
+        "隣国との貿易競争",
+        "国外からの武力侵攻",
+        "国際機関による制裁",
+        "国内の勢力同士による武力争い"
+      ],
+      "explanations": [
+        "Cạnh tranh thương mại với nước láng giềng không phải nội loạn.",
+        "Xâm lược từ bên ngoài khác với nội loạn.",
+        "Trừng phạt quốc tế không phải内乱.",
+        "内乱 là xung đột vũ trang giữa các phe trong một nước."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai19-18",
+      "type": "paraphrase",
+      "word": "発病",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 79,
+      "prompt": "彼は海外滞在中に【発病した】。",
+      "origin": "authored",
+      "options": [
+        "病気にかかった",
+        "患者を診察した",
+        "病気が治った",
+        "病院を建てた"
+      ],
+      "explanations": [
+        "発病 là bắt đầu mắc, phát ra bệnh.",
+        "Khám cho bệnh nhân khác với bản thân mắc bệnh.",
+        "Khỏi bệnh trái với phát bệnh.",
+        "Xây bệnh viện không phải phát bệnh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-19",
+      "type": "paraphrase",
+      "word": "農耕",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 39,
+      "prompt": "この地域では古くから【農耕】が行われてきた。",
+      "origin": "authored",
+      "options": [
+        "海で魚を捕ること",
+        "田畑を耕して作物を育てること",
+        "野生の獣を捕らえること",
+        "森林の木を切り出すこと"
+      ],
+      "explanations": [
+        "Đánh cá là 漁業.",
+        "農耕 là canh tác ruộng đất trồng cây lương thực, hoa màu.",
+        "Săn thú là 狩猟.",
+        "Khai thác gỗ là 伐採, không phải農耕."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai19-20",
+      "type": "paraphrase",
+      "word": "媒介",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 60,
+      "prompt": "蚊が病原体を【媒介する】ことがある。",
+      "origin": "authored",
+      "options": [
+        "間に入って運ぶ",
+        "一か所に閉じ込める",
+        "完全に消滅させる",
+        "自ら作り出す"
+      ],
+      "explanations": [
+        "媒介 ở đây là làm vật trung gian truyền bệnh.",
+        "Giữ lại một chỗ không phải媒介.",
+        "Tiêu diệt hoàn toàn trái với truyền đi.",
+        "Tự tạo ra khác với mang từ nơi này sang nơi khác."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-21",
+      "type": "paraphrase",
+      "word": "披露",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 97,
+      "prompt": "彼女は客の前で新曲を【披露した】。",
+      "origin": "authored",
+      "options": [
+        "他人から借りた",
+        "ひそかに書き直した",
+        "演奏するのを断った",
+        "人々に示した"
+      ],
+      "explanations": [
+        "Mượn của người khác không phải披露.",
+        "Bí mật viết lại trái với công khai trình bày.",
+        "Từ chối biểu diễn trái với披露.",
+        "披露 là đưa ra cho người khác xem hoặc nghe."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai19-22",
+      "type": "paraphrase",
+      "word": "剥奪",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 62,
+      "prompt": "不正が発覚し、選手は資格を【剥奪された】。",
+      "origin": "authored",
+      "options": [
+        "新たに与えられた",
+        "取り上げられた",
+        "一時的に預けられた",
+        "自分で選び直した"
+      ],
+      "explanations": [
+        "Được cấp mới trái với bị tước.",
+        "剥奪 là tước đi quyền hoặc tư cách đang có.",
+        "Được gửi tạm không phải tước tư cách.",
+        "Tự chọn lại không phải bị tước quyền."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai19-23",
+      "type": "paraphrase",
+      "word": "発掘",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 73,
+      "prompt": "遺跡から古い土器を【発掘した】。",
+      "origin": "authored",
+      "options": [
+        "掘って取り出した",
+        "高値で売り渡した",
+        "似せて作り直した",
+        "壊して処分した"
+      ],
+      "explanations": [
+        "発掘 là đào lên tìm và lấy hiện vật bị chôn.",
+        "Bán giá cao không có nghĩa đào lên.",
+        "Làm lại bản giống không phải khai quật.",
+        "Phá hủy để bỏ không phải khai quật."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-24",
+      "type": "usage",
+      "word": "発刊",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 71,
+      "prompt": "発刊",
+      "origin": "authored",
+      "options": [
+        "工場は来月から新型の車を発刊する。",
+        "窓口で住民票を一通発刊してもらった。",
+        "創立百周年を記念して、大学は記念誌を発刊した。",
+        "駅で切符を発刊してから、改札を通った。"
+      ],
+      "explanations": [
+        "Đưa xe ra bán dùng 発売; 発刊 dành cho ấn phẩm.",
+        "Cấp giấy hành chính dùng 発行・交付; không dùng発刊.",
+        "発刊 là xuất bản sách, báo hoặc tạp chí.",
+        "Xuất vé dùng 発券・発行; không phải phát hành ấn phẩm."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-25",
+      "type": "usage",
+      "word": "独創",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 13,
+      "prompt": "独創",
+      "origin": "authored",
+      "options": [
+        "既存の作品をまねるのではなく、独創を大切にして制作している。",
+        "会社は市場を独創し、競争相手を排除した。",
+        "相談相手がいない独創を感じていた。",
+        "親元を離れて、春から独創して暮らす。"
+      ],
+      "explanations": [
+        "独創 là sáng tạo riêng, không chỉ bắt chước cái đã có.",
+        "Chiếm lĩnh độc quyền thị trường dùng 独占; 独創 không có nghĩa này.",
+        "Cảm giác không có người chia sẻ là 孤独.",
+        "Sống tự lập dùng 独立・一人暮らし; không dùng独創."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-26",
+      "type": "usage",
+      "word": "把握",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 40,
+      "prompt": "把握",
+      "origin": "authored",
+      "options": [
+        "明日の予定を急に把握して、別の日にした。",
+        "選挙が終わり、候補者は市長に把握した。",
+        "担当者は、被害の全体像を正確に把握しようとしている。",
+        "商品を丁寧な包装紙で把握して渡した。"
+      ],
+      "explanations": [
+        "Đổi lịch dùng 変更; 把握 chỉ nắm rõ chứ không thay đổi.",
+        "Đắc cử hoặc nhậm chức dùng 当選・就任; không dùng把握.",
+        "把握 là nắm rõ nội dung, tình hình hoặc đặc điểm.",
+        "Gói hàng dùng 包装・包む; 把握 không phải gói lại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-27",
+      "type": "usage",
+      "word": "愚痴",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 2,
+      "prompt": "愚痴",
+      "origin": "authored",
+      "options": [
+        "迷惑をかけた相手に、丁寧に愚痴を述べて謝った。",
+        "先生の質問に、計算した愚痴を答えた。",
+        "仕事の不満について、友人につい愚痴をこぼした。",
+        "成功した友人に、祝福の愚痴を送った。"
+      ],
+      "explanations": [
+        "Lời xin lỗi dùng 謝罪・おわび; không phải than vãn.",
+        "Đáp án tính toán dùng 答え・結果; không dùng愚痴.",
+        "愚痴をこぼす là than phiền về điều không vừa ý.",
+        "Lời chúc mừng dùng 祝福の言葉; 愚痴 mang nghĩa phàn nàn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-28",
+      "type": "usage",
+      "word": "濃縮",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 36,
+      "prompt": "濃縮",
+      "origin": "authored",
+      "options": [
+        "果汁から水分を取り除き、五倍に濃縮した。",
+        "長い会議の時間を三十分に濃縮した。",
+        "重要な箇所を太字で濃縮した。",
+        "写真を小さく濃縮して、書類に貼った。"
+      ],
+      "explanations": [
+        "濃縮 là giảm dung môi để tăng nồng độ.",
+        "Rút ngắn thời gian dùng 短縮, không phải tăng nồng độ.",
+        "Làm nổi bật nội dung dùng 強調; không dùng濃縮.",
+        "Thu nhỏ ảnh dùng 縮小; không dùng濃縮."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai19-29",
+      "type": "usage",
+      "word": "特集",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 10,
+      "prompt": "特集",
+      "origin": "authored",
+      "options": [
+        "趣味で世界各国の切手を特集している。",
+        "新しい機種にだけある特集を、旧機種と比較して説明した。",
+        "今月の雑誌は、地方への移住を特集している。",
+        "彼の顔の特集を詳しく説明した。"
+      ],
+      "explanations": [
+        "Sưu tầm tem dùng 収集; 特集 không có nghĩa gom đồ.",
+        "Đặc điểm nổi bật của sản phẩm dùng 特徴; 特集 là nội dung tập trung một chủ đề.",
+        "特集 là dành tập trung nội dung báo, tạp chí hoặc chương trình cho một chủ đề.",
+        "Đặc điểm khuôn mặt là 特徴, không phải特集."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai19-30",
+      "type": "usage",
+      "word": "内蔵",
+      "source_file": "resources/N1/goi/dai19.csv",
+      "source_line": 19,
+      "prompt": "内蔵",
+      "origin": "authored",
+      "options": [
+        "旅行の着替えを鞄に内蔵して出かけた。",
+        "このカメラは手ぶれ補正機能を内蔵している。",
+        "会社に秘密の事情を尋ね、内蔵を聞き出した。",
+        "胃や腸などの内蔵を検査した。"
+      ],
+      "explanations": [
+        "Cho quần áo vào hành lý dùng 詰める・入れる; 内蔵 không dùng cho thao tác đóng đồ thông thường.",
+        "内蔵 là tích hợp một bộ phận hoặc chức năng bên trong thiết bị.",
+        "Tình hình nội bộ dùng 内情; không gọi là内蔵.",
+        "Nội tạng viết 内臓; 内蔵 chỉ cất hoặc lắp bên trong."
+      ],
+      "answer": 1
+    }
+  ]
+}

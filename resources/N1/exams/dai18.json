@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai18-30",
+  "title": "N1 · Bài 18 · 30 câu",
+  "level": "N1",
+  "lesson": "dai18",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093018,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai18.csv"
+  },
+  "choice_seed": 2026100018,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai18-01",
+      "type": "reading",
+      "word": "踏襲",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 87,
+      "prompt": "従来の方針を【踏襲】する。",
+      "origin": "authored",
+      "options": [
+        "こうしゅう",
+        "とうしゅう",
+        "とうにゅう",
+        "とくしゅう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "講習",
+          "reading": "こうしゅう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 41
+        },
+        {
+          "word": "踏襲",
+          "reading": "とうしゅう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 87
+        },
+        {
+          "word": "投入",
+          "reading": "とうにゅう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 82
+        },
+        {
+          "word": "特集",
+          "reading": "とくしゅう",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 10
+        }
+      ],
+      "explanations": [
+        "こうしゅう là cách đọc của 講習 (khóa hướng dẫn; tập huấn). Đây là cách đọc có thật nhưng không phải của 踏襲 trong câu.",
+        "とうしゅう là cách đọc của 踏襲 (làm theo cách có sẵn). Đúng với từ và ngữ cảnh đang hỏi.",
+        "とうにゅう là cách đọc của 投入 (đưa vào; huy động vào). Đây là cách đọc có thật nhưng không phải của 踏襲 trong câu.",
+        "とくしゅう là cách đọc của 特集 (chuyên đề). Đây là cách đọc có thật nhưng không phải của 踏襲 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-02",
+      "type": "reading",
+      "word": "転落",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 70,
+      "prompt": "階段から【転落】した。",
+      "origin": "authored",
+      "options": [
+        "だんらく",
+        "てんさく",
+        "てんらく",
+        "てんばつ"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "段落",
+          "reading": "だんらく",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 96
+        },
+        {
+          "word": "添削",
+          "reading": "てんさく",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 66
+        },
+        {
+          "word": "転落",
+          "reading": "てんらく",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 70
+        },
+        {
+          "word": "天罰",
+          "reading": "てんばつ",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 65
+        }
+      ],
+      "explanations": [
+        "だんらく là cách đọc của 段落 (đoạn văn). Đây là cách đọc có thật nhưng không phải của 転落 trong câu.",
+        "てんさく là cách đọc của 添削 (chữa bài viết). Đây là cách đọc có thật nhưng không phải của 転落 trong câu.",
+        "てんらく là cách đọc của 転落 (rơi xuống; sa sút). Đúng với từ và ngữ cảnh đang hỏi.",
+        "てんばつ là cách đọc của 天罰 (hình phạt của trời). Đây là cách đọc có thật nhưng không phải của 転落 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-03",
+      "type": "reading",
+      "word": "動向",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 92,
+      "prompt": "市場の【動向】を追う。",
+      "origin": "authored",
+      "options": [
+        "どうとう",
+        "どうよう",
+        "どうふう",
+        "どうこう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "同等",
+          "reading": "どうとう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 97
+        },
+        {
+          "word": "動揺",
+          "reading": "どうよう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 93
+        },
+        {
+          "word": "同封",
+          "reading": "どうふう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 99
+        },
+        {
+          "word": "動向",
+          "reading": "どうこう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 92
+        }
+      ],
+      "explanations": [
+        "どうとう là cách đọc của 同等 (ngang bằng). Đây là cách đọc có thật nhưng không phải của 動向 trong câu.",
+        "どうよう là cách đọc của 動揺 (dao động; bối rối). Đây là cách đọc có thật nhưng không phải của 動向 trong câu.",
+        "どうふう là cách đọc của 同封 (gửi kèm trong cùng phong bì). Đây là cách đọc có thật nhưng không phải của 動向 trong câu.",
+        "どうこう là cách đọc của 動向 (xu hướng diễn biến). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai18-04",
+      "type": "reading",
+      "word": "同類",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 101,
+      "prompt": "【同類】の事件が続いた。",
+      "origin": "authored",
+      "options": [
+        "どうせい",
+        "どうめい",
+        "どうるい",
+        "どうこう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "同棲",
+          "reading": "どうせい",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 95
+        },
+        {
+          "word": "同盟",
+          "reading": "どうめい",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 100
+        },
+        {
+          "word": "同類",
+          "reading": "どうるい",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 101
+        },
+        {
+          "word": "動向",
+          "reading": "どうこう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 92
+        }
+      ],
+      "explanations": [
+        "どうせい là cách đọc của 同棲 (sống chung như vợ chồng). Đây là cách đọc có thật nhưng không phải của 同類 trong câu.",
+        "どうめい là cách đọc của 同盟 (liên minh). Đây là cách đọc có thật nhưng không phải của 同類 trong câu.",
+        "どうるい là cách đọc của 同類 (cùng loại). Đúng với từ và ngữ cảnh đang hỏi.",
+        "どうこう là cách đọc của 動向 (xu hướng diễn biến). Đây là cách đọc có thật nhưng không phải của 同類 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-05",
+      "type": "reading",
+      "word": "泥沼",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 52,
+      "prompt": "交渉が【泥沼】に陥った。",
+      "origin": "authored",
+      "options": [
+        "どろぬま",
+        "どうはん",
+        "どうよう",
+        "どうこう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "泥沼",
+          "reading": "どろぬま",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 52
+        },
+        {
+          "word": "同伴",
+          "reading": "どうはん",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 98
+        },
+        {
+          "word": "動揺",
+          "reading": "どうよう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 93
+        },
+        {
+          "word": "動向",
+          "reading": "どうこう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 92
+        }
+      ],
+      "explanations": [
+        "どろぬま là cách đọc của 泥沼 (đầm lầy; tình thế sa lầy). Đúng với từ và ngữ cảnh đang hỏi.",
+        "どうはん là cách đọc của 同伴 (đi cùng). Đây là cách đọc có thật nhưng không phải của 泥沼 trong câu.",
+        "どうよう là cách đọc của 動揺 (dao động; bối rối). Đây là cách đọc có thật nhưng không phải của 泥沼 trong câu.",
+        "どうこう là cách đọc của 動向 (xu hướng diễn biến). Đây là cách đọc có thật nhưng không phải của 泥沼 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-06",
+      "type": "reading",
+      "word": "鳥肌",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 28,
+      "prompt": "感動して【鳥肌】が立った。",
+      "origin": "authored",
+      "options": [
+        "とうこう",
+        "とりはだ",
+        "とくめい",
+        "とまどい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "投稿",
+          "reading": "とうこう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 81
+        },
+        {
+          "word": "鳥肌",
+          "reading": "とりはだ",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 28
+        },
+        {
+          "word": "匿名",
+          "reading": "とくめい",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 6
+        },
+        {
+          "word": "戸惑",
+          "reading": "とまどい",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 8
+        }
+      ],
+      "explanations": [
+        "とうこう là cách đọc của 投稿 (gửi bài; đăng bài). Đây là cách đọc có thật nhưng không phải của 鳥肌 trong câu.",
+        "とりはだ là cách đọc của 鳥肌 (nổi da gà). Đúng với từ và ngữ cảnh đang hỏi.",
+        "とくめい là cách đọc của 匿名 (ẩn danh). Đây là cách đọc có thật nhưng không phải của 鳥肌 trong câu.",
+        "とまどい là cách đọc của 戸惑 (bối rối; lúng túng). Đây là cách đọc có thật nhưng không phải của 鳥肌 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-07",
+      "type": "reading",
+      "word": "着手",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 5,
+      "prompt": "調査に【着手】する。",
+      "origin": "authored",
+      "options": [
+        "ちゃくがん",
+        "ちょうしゅ",
+        "ちゃくもく",
+        "ちゃくしゅ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "着眼",
+          "reading": "ちゃくがん",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 3
+        },
+        {
+          "word": "聴取",
+          "reading": "ちょうしゅ",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 23
+        },
+        {
+          "word": "着目",
+          "reading": "ちゃくもく",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 7
+        },
+        {
+          "word": "着手",
+          "reading": "ちゃくしゅ",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 5
+        }
+      ],
+      "explanations": [
+        "ちゃくがん là cách đọc của 着眼 (chú ý đến điểm quan trọng). Đây là cách đọc có thật nhưng không phải của 着手 trong câu.",
+        "ちょうしゅ là cách đọc của 聴取 (nghe; lấy lời khai). Đây là cách đọc có thật nhưng không phải của 着手 trong câu.",
+        "ちゃくもく là cách đọc của 着目 (chú ý; tập trung vào). Đây là cách đọc có thật nhưng không phải của 着手 trong câu.",
+        "ちゃくしゅ là cách đọc của 着手 (bắt tay vào). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai18-08",
+      "type": "reading",
+      "word": "度胸",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 74,
+      "prompt": "大勢の前でも【度胸】がある。",
+      "origin": "authored",
+      "options": [
+        "ふきょう",
+        "どきょう",
+        "どりょう",
+        "どひょう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "不況",
+          "reading": "ふきょう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 23
+        },
+        {
+          "word": "度胸",
+          "reading": "どきょう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 74
+        },
+        {
+          "word": "度量",
+          "reading": "どりょう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 75
+        },
+        {
+          "word": "土俵",
+          "reading": "どひょう",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 78
+        }
+      ],
+      "explanations": [
+        "ふきょう là cách đọc của 不況 (suy thoái kinh tế). Đây là cách đọc có thật nhưng không phải của 度胸 trong câu.",
+        "どきょう là cách đọc của 度胸 (lòng gan dạ). Đúng với từ và ngữ cảnh đang hỏi.",
+        "どりょう là cách đọc của 度量 (lòng bao dung). Đây là cách đọc có thật nhưng không phải của 度胸 trong câu.",
+        "どひょう là cách đọc của 土俵 (sàn đấu sumo; sân chơi tranh luận). Đây là cách đọc có thật nhưng không phải của 度胸 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai18-09",
+      "type": "context",
+      "word": "沈没",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 31,
+      "prompt": "船底に大きな穴が開き、船は大量の海水を取り込んで（　）した。",
+      "origin": "authored",
+      "options": [
+        "沈殿",
+        "沈静",
+        "沈没",
+        "沈黙"
+      ],
+      "explanations": [
+        "沈殿 là chất rắn lắng xuống trong chất lỏng; không dùng cho tàu chìm.",
+        "沈静 là trở nên yên tĩnh, lắng xuống.",
+        "沈没 là chìm xuống nước, dùng cho tàu trong câu này.",
+        "沈黙 là im lặng, không phải chìm."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-10",
+      "type": "context",
+      "word": "中旬",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 9,
+      "prompt": "上旬でも下旬でもなく、毎月十一日から二十日ごろの（　）に会議を開く。",
+      "origin": "authored",
+      "options": [
+        "中世",
+        "中期",
+        "中途",
+        "中旬"
+      ],
+      "explanations": [
+        "中世 là thời trung cổ.",
+        "中期 là giai đoạn giữa nói chung, không phải tên khoảng 11–20 của tháng.",
+        "中途 là giữa chừng của một quá trình.",
+        "中旬 là khoảng ngày 11–20 trong tháng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-11",
+      "type": "context",
+      "word": "仲人",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 15,
+      "prompt": "二人の結婚を取り持った叔父に、結婚式の（　）をお願いした。",
+      "origin": "authored",
+      "options": [
+        "証人",
+        "後見人",
+        "仲人",
+        "代理人"
+      ],
+      "explanations": [
+        "証人 là người làm chứng, không phải vai trò mai mối được mô tả.",
+        "後見人 là người giám hộ, không phải仲人.",
+        "仲人 là người đứng ra làm mối hoặc làm trung gian cho hôn nhân.",
+        "代理人 là người đại diện hành động thay ai đó, không phải vai trò kết nối hôn nhân."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-12",
+      "type": "context",
+      "word": "中核",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 8,
+      "prompt": "この部門は、会社の研究開発の（　）を担う最も重要な組織だ。",
+      "origin": "authored",
+      "options": [
+        "余白",
+        "中核",
+        "末端",
+        "外周"
+      ],
+      "explanations": [
+        "余白 là phần trống ở lề giấy, không chỉ vai trò tổ chức.",
+        "中核 là phần cốt lõi, trung tâm quan trọng.",
+        "末端 là phần ngoài cùng hoặc cấp cuối, trái với vai trò cốt lõi.",
+        "外周 là vòng ngoài của một vật hoặc khu vực, không phải trung tâm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai18-13",
+      "type": "context",
+      "word": "中和",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 14,
+      "prompt": "酸にアルカリを適量加え、性質を打ち消す（　）反応を起こした。",
+      "origin": "authored",
+      "options": [
+        "還元",
+        "中和",
+        "酸化",
+        "蒸発"
+      ],
+      "explanations": [
+        "還元 là khử, không phải trung hòa axit và bazơ.",
+        "中和 là phản ứng trung hòa axit và bazơ.",
+        "酸化 là oxi hóa, không phải phản ứng được mô tả.",
+        "蒸発 là bay hơi, không liên quan khử tính axit bằng kiềm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai18-14",
+      "type": "context",
+      "word": "殿様",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 73,
+      "prompt": "時代劇で、城に住む（　）が家臣たちに命令を下していた。",
+      "origin": "authored",
+      "options": [
+        "殿様",
+        "農民",
+        "町人",
+        "職人"
+      ],
+      "explanations": [
+        "殿様 là lãnh chúa hoặc cách gọi kính trọng vị chủ có gia thần.",
+        "農民 là nông dân.",
+        "町人 là dân thị thành, không phải lãnh chúa trong tình huống.",
+        "職人 là thợ thủ công, không phải chủ thành chỉ huy gia thần."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-15",
+      "type": "context",
+      "word": "通常",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 41,
+      "prompt": "今日は特別休業ですが、（　）は午前九時から営業しています。",
+      "origin": "authored",
+      "options": [
+        "臨時",
+        "突如",
+        "非常",
+        "通常"
+      ],
+      "explanations": [
+        "臨時 là tạm thời hoặc đặc biệt, không chỉ lịch thường lệ.",
+        "突如 là đột nhiên, không nói lịch thông thường.",
+        "非常 là bất thường hoặc khẩn cấp, không phải trạng thái bình thường.",
+        "通常 là thông thường, đối lập với ngoại lệ hôm nay."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-16",
+      "type": "context",
+      "word": "追求",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 37,
+      "prompt": "利益だけを（　）するのではなく、社会への貢献も大切にすべきだ。",
+      "origin": "authored",
+      "options": [
+        "追及",
+        "追放",
+        "追究",
+        "追求"
+      ],
+      "explanations": [
+        "追及 là truy cứu trách nhiệm hoặc dồn hỏi, không đi với lợi nhuận theo nghĩa này.",
+        "追放 là trục xuất, không chỉ theo đuổi lợi ích.",
+        "追究 là nghiên cứu đến tận cùng chân lý hoặc nguyên nhân, không phải tìm lợi nhuận.",
+        "追求 là theo đuổi điều mình muốn đạt, ở đây là lợi nhuận."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-17",
+      "type": "paraphrase",
+      "word": "鉄棒",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 63,
+      "prompt": "子どもたちは校庭の【鉄棒】で逆上がりを練習した。",
+      "origin": "authored",
+      "options": [
+        "鉄製の横棒を用いた運動器具",
+        "地面に描いた競走用の線",
+        "斜面を滑り降りる遊具",
+        "二本の綱につるした座席"
+      ],
+      "explanations": [
+        "鉄棒 ở đây là xà ngang dùng tập thể dục.",
+        "Vạch chạy trên đất không phải xà.",
+        "Đây là cầu trượt, 滑り台.",
+        "Đây là ghế đu của xích đu, ブランコ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-18",
+      "type": "paraphrase",
+      "word": "中傷",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 10,
+      "prompt": "根拠のないうわさで他人を【中傷した】。",
+      "origin": "authored",
+      "options": [
+        "人前で褒めた",
+        "親切に助言した",
+        "悪く言って名誉を傷つけた",
+        "事実に基づいて評価した"
+      ],
+      "explanations": [
+        "Khen trước mọi người trái với中傷.",
+        "Góp ý tử tế không đồng nghĩa với bôi nhọ.",
+        "中傷 là nói xấu không có căn cứ làm tổn hại danh dự.",
+        "Đánh giá dựa vào sự thật không phải vu khống."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-19",
+      "type": "paraphrase",
+      "word": "闘志",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 90,
+      "prompt": "選手の目には【闘志】がみなぎっていた。",
+      "origin": "authored",
+      "options": [
+        "過去を懐かしむ気持ち",
+        "勝敗を避けたい気持ち",
+        "戦おうとする意欲",
+        "相手を気遣う優しさ"
+      ],
+      "explanations": [
+        "Hoài niệm quá khứ không phải闘志.",
+        "Muốn tránh phân thắng bại trái với tinh thần chiến đấu.",
+        "闘志 là ý chí chiến đấu, quyết tâm thi đấu.",
+        "Sự quan tâm tử tế không đồng nghĩa với ý chí chiến đấu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-20",
+      "type": "paraphrase",
+      "word": "動機",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 91,
+      "prompt": "海外で働こうと思った【動機】を聞かれた。",
+      "origin": "authored",
+      "options": [
+        "きっかけとなった理由",
+        "仕事に必要な道具",
+        "実際に得られた結果",
+        "勤務先までの道順"
+      ],
+      "explanations": [
+        "動機 là lý do hoặc yếu tố thúc đẩy hành động.",
+        "Dụng cụ cần làm việc không phải動機.",
+        "Kết quả sau hành động không phải động cơ ban đầu.",
+        "Đường đi tới chỗ làm không phải động cơ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-21",
+      "type": "paraphrase",
+      "word": "徹底",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 57,
+      "prompt": "安全管理を【徹底する】必要がある。",
+      "origin": "authored",
+      "options": [
+        "形式だけ整える",
+        "一部だけ省略する",
+        "隅々まで行き届かせる",
+        "後回しにする"
+      ],
+      "explanations": [
+        "Chỉ giữ hình thức trái với làm đến nơi đến chốn.",
+        "Lược bỏ một phần trái với thực hiện triệt để.",
+        "徹底 là thực hiện đầy đủ, đến mọi khâu.",
+        "Để sau không phải徹底."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-22",
+      "type": "paraphrase",
+      "word": "着工",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 4,
+      "prompt": "新しい病院は来月【着工する】。",
+      "origin": "authored",
+      "options": [
+        "建設工事を始める",
+        "設計図を破棄する",
+        "建設工事を終える",
+        "入院患者を受け入れる"
+      ],
+      "explanations": [
+        "着工 là bắt đầu thi công.",
+        "Hủy bản thiết kế không phải khởi công.",
+        "Kết thúc công trình là 完工・竣工.",
+        "Tiếp nhận bệnh nhân là hoạt động sau khi bệnh viện đi vào vận hành, không phải着工."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-23",
+      "type": "paraphrase",
+      "word": "投入",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 82,
+      "prompt": "会社は新規事業に多額の資金を【投入した】。",
+      "origin": "authored",
+      "options": [
+        "引き揚げた",
+        "数え直した",
+        "借り替えた",
+        "つぎ込んだ"
+      ],
+      "explanations": [
+        "Rút vốn ra trái với投入.",
+        "Đếm lại tiền không có nghĩa đầu tư nguồn lực.",
+        "Đổi khoản vay không đồng nghĩa với rót vốn.",
+        "投入 ở đây là rót nguồn lực vào một mục đích."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-24",
+      "type": "usage",
+      "word": "中枢",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 11,
+      "prompt": "中枢",
+      "origin": "authored",
+      "options": [
+        "その部署は、会社全体の意思決定の中枢を担っている。",
+        "三人兄弟の中枢は私だ。",
+        "一日の中枢である正午に昼食を取った。",
+        "紙の中枢に丸い穴を開けた。"
+      ],
+      "explanations": [
+        "中枢 là bộ phận trung tâm điều khiển hoạt động của cả hệ thống.",
+        "Người con ở giữa dùng 真ん中; không dùng中枢.",
+        "Điểm giữa thời gian dùng 中ごろ; 中枢 không có nghĩa chính ngọ.",
+        "Vị trí chính giữa tờ giấy dùng 中央; 中枢 không chỉ tọa độ vật lý."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-25",
+      "type": "usage",
+      "word": "調達",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 26,
+      "prompt": "調達",
+      "origin": "authored",
+      "options": [
+        "楽器の音程がずれたので、音の高さを調達した。",
+        "病気の原因を詳しく調達した。",
+        "災害支援のため、必要な食料と毛布を各地から調達した。",
+        "二人の意見の食い違いを調達した。"
+      ],
+      "explanations": [
+        "Chỉnh cao độ dùng 調整; 調達 chỉ kiếm được vật tư hoặc tiền cần thiết.",
+        "Tìm hiểu nguyên nhân dùng 調査・究明, không dùng調達.",
+        "調達 là tìm và thu xếp có được vật tư hoặc tiền cần thiết.",
+        "Điều hòa khác biệt dùng 調整, không dùng調達."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai18-26",
+      "type": "usage",
+      "word": "摘発",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 54,
+      "prompt": "摘発",
+      "origin": "authored",
+      "options": [
+        "大会で才能ある選手を摘発し、代表に選んだ。",
+        "警察は、違法な取引を続けていた業者を摘発した。",
+        "庭の花を三本摘発して、花瓶に生けた。",
+        "本の要点だけを摘発してノートにまとめた。"
+      ],
+      "explanations": [
+        "Phát hiện tài năng dùng 発掘; 摘発 mang nghĩa vạch vi phạm.",
+        "摘発 là phát hiện và xử lý hoặc phanh phui hành vi phạm pháp.",
+        "Hái hoa dùng 摘む; không dùng摘発.",
+        "Rút nội dung chính dùng 抜き出す・要約; không phải phanh phui vi phạm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai18-27",
+      "type": "usage",
+      "word": "着目",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 7,
+      "prompt": "着目",
+      "origin": "authored",
+      "options": [
+        "駅のホームに電車が着目した。",
+        "よく見えるように、眼鏡を着目した。",
+        "長時間画面を見たので、目薬を着目した。",
+        "研究者は、この植物が持つ高い耐寒性に着目した。"
+      ],
+      "explanations": [
+        "Tàu tới nơi dùng 到着; 着目 không phải đến nơi.",
+        "Đeo kính dùng かける・装着する, không dùng着目.",
+        "Nhỏ thuốc mắt dùng 点眼した・差した, không dùng着目.",
+        "着目 là chú ý đến một đặc điểm quan trọng để xem xét."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-28",
+      "type": "usage",
+      "word": "調整",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 24,
+      "prompt": "調整",
+      "origin": "authored",
+      "options": [
+        "必要な材料を店から買い集めることを、材料の調整という。",
+        "不正の証拠を見つけるため、事件を調整した。",
+        "入学試験に調整して、合格通知を受け取った。",
+        "参加者全員の都合を聞いて、会議の日程を調整した。"
+      ],
+      "explanations": [
+        "Mua gom vật tư cần thiết là 調達; 調整 là điều chỉnh cho phù hợp.",
+        "Điều tra vụ việc dùng 調査; 調整 không có nghĩa tìm chứng cứ.",
+        "Đỗ kỳ thi dùng 合格; 調整 không phải kết quả thi.",
+        "調整 là điều chỉnh các yếu tố để phù hợp với nhau."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai18-29",
+      "type": "usage",
+      "word": "津波",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 34,
+      "prompt": "津波",
+      "origin": "authored",
+      "options": [
+        "海底で大きな地震が発生し、沿岸に津波が押し寄せた。",
+        "満月の夜に毎月繰り返す潮の満ち引きを津波と呼ぶ。",
+        "強い風で湖面に小さな津波が立っていた。",
+        "風のない池に石を投げると、丸い津波が広がった。"
+      ],
+      "explanations": [
+        "津波 là sóng lớn do biến động đột ngột khối nước, điển hình do động đất dưới biển.",
+        "Thủy triều định kỳ là 潮汐, không phải津波.",
+        "Gợn sóng do gió thông thường là 波; không gọi津波.",
+        "Vòng gợn do ném đá là 波紋, không phải津波."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai18-30",
+      "type": "usage",
+      "word": "沈黙",
+      "source_file": "resources/N1/goi/dai18.csv",
+      "source_line": 32,
+      "prompt": "沈黙",
+      "origin": "authored",
+      "options": [
+        "船が海の底へ沈黙した。",
+        "問いかけられても、彼は沈黙を守り続けた。",
+        "水を入れた容器の底に砂が沈黙した。",
+        "患者を麻酔で沈黙させて手術を始めた。"
+      ],
+      "explanations": [
+        "Tàu chìm dùng 沈没; 沈黙 là im lặng.",
+        "沈黙を守る là giữ im lặng, không trả lời.",
+        "Cát lắng xuống dùng 沈殿; không dùng沈黙.",
+        "Gây mê dùng 麻酔をかける・眠らせる; 沈黙させる không có nghĩa gây mê."
+      ],
+      "answer": 1
+    }
+  ]
+}

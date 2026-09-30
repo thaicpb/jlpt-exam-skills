@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai16-30",
+  "title": "N1 · Bài 16 · 30 câu",
+  "level": "N1",
+  "lesson": "dai16",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093016,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai16.csv"
+  },
+  "choice_seed": 2026100016,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai16-01",
+      "type": "reading",
+      "word": "税務",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 76,
+      "prompt": "【税務】を担当する。",
+      "origin": "authored",
+      "options": [
+        "ぜせい",
+        "さいむ",
+        "ぜんと",
+        "ぜいむ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "是正",
+          "reading": "ぜせい",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 56
+        },
+        {
+          "word": "債務",
+          "reading": "さいむ",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 78
+        },
+        {
+          "word": "前途",
+          "reading": "ぜんと",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 8
+        },
+        {
+          "word": "税務",
+          "reading": "ぜいむ",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 76
+        }
+      ],
+      "explanations": [
+        "ぜせい là cách đọc của 是正 (chấn chỉnh). Đây là cách đọc có thật nhưng không phải của 税務 trong câu.",
+        "さいむ là cách đọc của 債務 (khoản nợ; nghĩa vụ trả nợ). Đây là cách đọc có thật nhưng không phải của 税務 trong câu.",
+        "ぜんと là cách đọc của 前途 (tương lai; con đường phía trước). Đây là cách đọc có thật nhưng không phải của 税務 trong câu.",
+        "ぜいむ là cách đọc của 税務 (nghiệp vụ thuế). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai16-02",
+      "type": "reading",
+      "word": "心得",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 12,
+      "prompt": "接客の【心得】を学ぶ。",
+      "origin": "authored",
+      "options": [
+        "ここち",
+        "こころえ",
+        "ことがら",
+        "こうえき"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "心地",
+          "reading": "ここち",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 10
+        },
+        {
+          "word": "心得",
+          "reading": "こころえ",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 12
+        },
+        {
+          "word": "事柄",
+          "reading": "ことがら",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 54
+        },
+        {
+          "word": "交易",
+          "reading": "こうえき",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 16
+        }
+      ],
+      "explanations": [
+        "ここち là cách đọc của 心地 (cảm giác). Đây là cách đọc có thật nhưng không phải của 心得 trong câu.",
+        "こころえ là cách đọc của 心得 (điều cần biết; quy tắc ứng xử). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ことがら là cách đọc của 事柄 (sự việc; vấn đề). Đây là cách đọc có thật nhưng không phải của 心得 trong câu.",
+        "こうえき là cách đọc của 交易 (giao thương). Đây là cách đọc có thật nhưng không phải của 心得 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai16-03",
+      "type": "reading",
+      "word": "人脈",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 41,
+      "prompt": "仕事を通して【人脈】を広げる。",
+      "origin": "authored",
+      "options": [
+        "へんきゃく",
+        "さんみゃく",
+        "しんりゃく",
+        "じんみゃく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "返却",
+          "reading": "へんきゃく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 85
+        },
+        {
+          "word": "山脈",
+          "reading": "さんみゃく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 12
+        },
+        {
+          "word": "侵略",
+          "reading": "しんりゃく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 5
+        },
+        {
+          "word": "人脈",
+          "reading": "じんみゃく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 41
+        }
+      ],
+      "explanations": [
+        "へんきゃく là cách đọc của 返却 (trả lại đồ đã mượn). Đây là cách đọc có thật nhưng không phải của 人脈 trong câu.",
+        "さんみゃく là cách đọc của 山脈 (dãy núi). Đây là cách đọc có thật nhưng không phải của 人脈 trong câu.",
+        "しんりゃく là cách đọc của 侵略 (xâm lược). Đây là cách đọc có thật nhưng không phải của 人脈 trong câu.",
+        "じんみゃく là cách đọc của 人脈 (mạng lưới quan hệ). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai16-04",
+      "type": "reading",
+      "word": "制裁",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 58,
+      "prompt": "違反国に【制裁】を科す。",
+      "origin": "authored",
+      "options": [
+        "せいさい",
+        "せいてい",
+        "せいさん",
+        "せいい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "制裁",
+          "reading": "せいさい",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 58
+        },
+        {
+          "word": "制定",
+          "reading": "せいてい",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 59
+        },
+        {
+          "word": "精算",
+          "reading": "せいさん",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 70
+        },
+        {
+          "word": "誠意",
+          "reading": "せいい",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 74
+        }
+      ],
+      "explanations": [
+        "せいさい là cách đọc của 制裁 (trừng phạt; chế tài). Đúng với từ và ngữ cảnh đang hỏi.",
+        "せいてい là cách đọc của 制定 (ban hành). Đây là cách đọc có thật nhưng không phải của 制裁 trong câu.",
+        "せいさん là cách đọc của 精算 (tính toán và thanh toán chính xác). Đây là cách đọc có thật nhưng không phải của 制裁 trong câu.",
+        "せいい là cách đọc của 誠意 (thành ý). Đây là cách đọc có thật nhưng không phải của 制裁 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai16-05",
+      "type": "reading",
+      "word": "侵攻",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 3,
+      "prompt": "軍が隣国に【侵攻】した。",
+      "origin": "authored",
+      "options": [
+        "しんこう",
+        "しんこん",
+        "しっこう",
+        "しんこく"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "侵攻",
+          "reading": "しんこう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 3
+        },
+        {
+          "word": "新婚",
+          "reading": "しんこん",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 15
+        },
+        {
+          "word": "執行",
+          "reading": "しっこう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 73
+        },
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 18
+        }
+      ],
+      "explanations": [
+        "しんこう là cách đọc của 侵攻 (tiến công xâm nhập). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しんこん là cách đọc của 新婚 (mới kết hôn). Đây là cách đọc có thật nhưng không phải của 侵攻 trong câu.",
+        "しっこう là cách đọc của 執行 (thi hành; chấp hành). Đây là cách đọc có thật nhưng không phải của 侵攻 trong câu.",
+        "しんこく là cách đọc của 深刻 (nghiêm trọng). Đây là cách đọc có thật nhưng không phải của 侵攻 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai16-06",
+      "type": "reading",
+      "word": "新築",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 16,
+      "prompt": "駅前に家を【新築】した。",
+      "origin": "authored",
+      "options": [
+        "しんこく",
+        "しんちょく",
+        "しんやく",
+        "しんちく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 18
+        },
+        {
+          "word": "進捗",
+          "reading": "しんちょく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 34
+        },
+        {
+          "word": "新薬",
+          "reading": "しんやく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 17
+        },
+        {
+          "word": "新築",
+          "reading": "しんちく",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 16
+        }
+      ],
+      "explanations": [
+        "しんこく là cách đọc của 深刻 (nghiêm trọng). Đây là cách đọc có thật nhưng không phải của 新築 trong câu.",
+        "しんちょく là cách đọc của 進捗 (tiến độ). Đây là cách đọc có thật nhưng không phải của 新築 trong câu.",
+        "しんやく là cách đọc của 新薬 (thuốc mới). Đây là cách đọc có thật nhưng không phải của 新築 trong câu.",
+        "しんちく là cách đọc của 新築 (xây mới). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai16-07",
+      "type": "reading",
+      "word": "雪崩",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 83,
+      "prompt": "山で【雪崩】が発生した。",
+      "origin": "authored",
+      "options": [
+        "ぎだい",
+        "なだれ",
+        "なまみ",
+        "どだい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "議題",
+          "reading": "ぎだい",
+          "source_file": "resources/N1/goi/dai11.csv",
+          "source_line": 50
+        },
+        {
+          "word": "雪崩",
+          "reading": "なだれ",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 83
+        },
+        {
+          "word": "生身",
+          "reading": "なまみ",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 68
+        },
+        {
+          "word": "土台",
+          "reading": "どだい",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 77
+        }
+      ],
+      "explanations": [
+        "ぎだい là cách đọc của 議題 (chủ đề thảo luận). Đây là cách đọc có thật nhưng không phải của 雪崩 trong câu.",
+        "なだれ là cách đọc của 雪崩 (tuyết lở). Đúng với từ và ngữ cảnh đang hỏi.",
+        "なまみ là cách đọc của 生身 (cơ thể sống bằng xương thịt). Đây là cách đọc có thật nhưng không phải của 雪崩 trong câu.",
+        "どだい là cách đọc của 土台 (nền móng). Đây là cách đọc có thật nhưng không phải của 雪崩 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai16-08",
+      "type": "reading",
+      "word": "窃盗",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 81,
+      "prompt": "【窃盗】の被害を届けた。",
+      "origin": "authored",
+      "options": [
+        "ふっとう",
+        "せんとう",
+        "さっとう",
+        "せっとう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "沸騰",
+          "reading": "ふっとう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 48
+        },
+        {
+          "word": "戦闘",
+          "reading": "せんとう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 97
+        },
+        {
+          "word": "殺到",
+          "reading": "さっとう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 5
+        },
+        {
+          "word": "窃盗",
+          "reading": "せっとう",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 81
+        }
+      ],
+      "explanations": [
+        "ふっとう là cách đọc của 沸騰 (sôi; sôi sục). Đây là cách đọc có thật nhưng không phải của 窃盗 trong câu.",
+        "せんとう là cách đọc của 戦闘 (chiến đấu). Đây là cách đọc có thật nhưng không phải của 窃盗 trong câu.",
+        "さっとう là cách đọc của 殺到 (đổ dồn đến). Đây là cách đọc có thật nhưng không phải của 窃盗 trong câu.",
+        "せっとう là cách đọc của 窃盗 (trộm cắp). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai16-09",
+      "type": "context",
+      "word": "生身",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 68,
+      "prompt": "どれほど鍛えても（　）の人間なのだから、休まず働けば体を壊す。",
+      "origin": "authored",
+      "options": [
+        "正体",
+        "生身",
+        "不死身",
+        "身元"
+      ],
+      "explanations": [
+        "正体 là bản chất hoặc danh tính thật, không phải生身.",
+        "生身 là cơ thể sống bằng xương thịt, có giới hạn chịu đựng.",
+        "不死身 là bất tử hoặc không bị đánh bại, trái với ý có giới hạn cơ thể.",
+        "身元 là thân thế, không bổ nghĩa cho 人間 theo nghĩa cơ thể sống."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-10",
+      "type": "context",
+      "word": "心中",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 11,
+      "prompt": "この古典劇は、結ばれない恋人同士が命を共に絶つ（　）を題材にしている。",
+      "origin": "authored",
+      "options": [
+        "心境",
+        "心配",
+        "心情",
+        "心中"
+      ],
+      "explanations": [
+        "心境 là trạng thái tâm lý, không phải hành vi nêu trong câu.",
+        "心配 là lo lắng, không phải chủ đề cùng tự sát.",
+        "心情 là tình cảm trong lòng, không gọi hành vi hai người cùng chết.",
+        "Ở đây 心中 đọc しんじゅう, chỉ việc cùng tự sát, như trong bi kịch tình yêu."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai16-11",
+      "type": "context",
+      "word": "心情",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 9,
+      "prompt": "遺族の悲痛な（　）を思うと、軽々しい発言はできない。",
+      "origin": "authored",
+      "options": [
+        "心情",
+        "心臓",
+        "信条",
+        "身上"
+      ],
+      "explanations": [
+        "心情 là tình cảm sâu trong lòng; ở đây là nỗi đau của gia đình.",
+        "心臓 là tim về giải phẫu, không phải cảm xúc trong câu.",
+        "信条 là điều tin tưởng hoặc phương châm, không diễn tả cảm xúc đau buồn.",
+        "身上 là hoàn cảnh hoặc phẩm chất riêng, không chỉ tình cảm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai16-12",
+      "type": "context",
+      "word": "絶頂",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 85,
+      "prompt": "彼は人気の（　）にあり、どの公演も即日完売していた。",
+      "origin": "authored",
+      "options": [
+        "終端",
+        "中断",
+        "絶頂",
+        "底辺"
+      ],
+      "explanations": [
+        "終端 là đầu cuối một hệ thống hoặc vật, không dùng cho đỉnh cao danh tiếng.",
+        "中断 là gián đoạn, không phải mức cao nhất.",
+        "人気の絶頂 là đỉnh cao của sự nổi tiếng.",
+        "底辺 là tầng thấp hoặc đáy, trái với bán hết mọi buổi diễn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-13",
+      "type": "context",
+      "word": "正規",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 66,
+      "prompt": "模倣品を避けるため、メーカーが認定した（　）代理店で購入した。",
+      "origin": "authored",
+      "options": [
+        "無断",
+        "正規",
+        "架空",
+        "臨時"
+      ],
+      "explanations": [
+        "無断 là không xin phép, trái với được hãng công nhận.",
+        "正規代理店 là đại lý chính thức, được công nhận.",
+        "架空 là không tồn tại thực tế, trái với đại lý được chứng nhận.",
+        "臨時 là tạm thời, không nói đến tính chính thức được hãng chứng nhận."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-14",
+      "type": "context",
+      "word": "振興",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 13,
+      "prompt": "市は観光産業の（　）を図り、地域経済を活性化させようとしている。",
+      "origin": "authored",
+      "options": [
+        "侵攻",
+        "信仰",
+        "進行",
+        "振興"
+      ],
+      "explanations": [
+        "侵攻 là xâm lược bằng quân sự, dù cùng đọcしんこう.",
+        "信仰 là tín ngưỡng, không phải chính sách phát triển du lịch.",
+        "進行 là diễn tiến; không phải cụm chỉ thúc đẩy một ngành phát triển.",
+        "振興 là thúc đẩy một ngành hoặc hoạt động phát triển."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai16-15",
+      "type": "context",
+      "word": "宣教",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 91,
+      "prompt": "その修道士は各地を訪れ、人々に宗教の教えを伝える（　）活動を行った。",
+      "origin": "authored",
+      "options": [
+        "宣戦",
+        "宣教",
+        "宣誓",
+        "宣告"
+      ],
+      "explanations": [
+        "宣戦 là tuyên chiến.",
+        "宣教 là truyền bá giáo lý tôn giáo.",
+        "宣誓 là tuyên thệ trước công chúng.",
+        "宣告 là chính thức báo quyết định hoặc kết quả, không phải truyền đạo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-16",
+      "type": "context",
+      "word": "人柄",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 40,
+      "prompt": "誰に対しても誠実で親切な彼の（　）が、多くの人に信頼される理由だ。",
+      "origin": "authored",
+      "options": [
+        "人柄",
+        "人手",
+        "人出",
+        "人脈"
+      ],
+      "explanations": [
+        "人柄 là tính cách, phẩm chất con người.",
+        "人手 là nhân lực cần làm việc.",
+        "人出 là lượng người ra ngoài, thường ở nơi đông đúc.",
+        "人脈 là mạng lưới quen biết, không phải tính cách chân thành tử tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai16-17",
+      "type": "paraphrase",
+      "word": "真理",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 25,
+      "prompt": "時代が変わっても通用する【真理】を探究する。",
+      "origin": "authored",
+      "options": [
+        "一時的な流行",
+        "個人的な好み",
+        "普遍的に正しい道理",
+        "意図的に作ったうそ"
+      ],
+      "explanations": [
+        "Xu hướng nhất thời không phải真理.",
+        "Sở thích cá nhân không phải chân lý.",
+        "真理 là lẽ đúng có tính phổ quát.",
+        "Lời bịa cố ý trái với chân lý."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-18",
+      "type": "paraphrase",
+      "word": "西欧",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 73,
+      "prompt": "大学では【西欧】の歴史を学んだ。",
+      "origin": "authored",
+      "options": [
+        "ヨーロッパの西部",
+        "アジアの西部",
+        "アメリカの北部",
+        "ヨーロッパの東部"
+      ],
+      "explanations": [
+        "西欧 là Tây Âu.",
+        "Tây Á là 西アジア, không phải西欧.",
+        "Phía bắc châu Mỹ không phải Tây Âu.",
+        "Đông Âu là 東欧."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai16-19",
+      "type": "paraphrase",
+      "word": "人出",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 38,
+      "prompt": "祭りの日は【人出】が多かった。",
+      "origin": "authored",
+      "options": [
+        "人口の増加率",
+        "外に出て集まった人の数",
+        "人と人とのつながり",
+        "働く人の不足"
+      ],
+      "explanations": [
+        "Tốc độ tăng dân số khác với lượng khách ngày lễ.",
+        "人出 chỉ số người ra ngoài tụ họp, tham quan.",
+        "Mối quan hệ giữa người với người là 人脈など.",
+        "Thiếu người làm là 人手不足, không phải人出."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-20",
+      "type": "paraphrase",
+      "word": "人質",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 37,
+      "prompt": "交渉の結果、【人質】の解放が決まった。",
+      "origin": "authored",
+      "options": [
+        "罪を犯したと疑われる人",
+        "事件を目撃した人",
+        "身元を保証する人",
+        "要求を通すために拘束された人"
+      ],
+      "explanations": [
+        "Người bị nghi là nghi phạm, 容疑者, không phải con tin.",
+        "Người chứng kiến là 目撃者.",
+        "Người bảo lãnh là 保証人.",
+        "人質 là con tin bị giữ để ép đối phương đáp ứng yêu cầu."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai16-21",
+      "type": "paraphrase",
+      "word": "誠意",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 74,
+      "prompt": "失敗した後の対応には、彼の【誠意】が感じられた。",
+      "origin": "authored",
+      "options": [
+        "うそやごまかしのない真心",
+        "責任を避けようとする考え",
+        "人から褒められたい気持ち",
+        "他人に勝とうとする意欲"
+      ],
+      "explanations": [
+        "誠意 là lòng thành thật, chân thành.",
+        "Tránh trách nhiệm trái với誠意.",
+        "Muốn được khen không đồng nghĩa với chân thành.",
+        "Ý chí thắng người khác không phải lòng thành."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai16-22",
+      "type": "paraphrase",
+      "word": "宣誓",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 93,
+      "prompt": "選手代表が公正に戦うことを【宣誓した】。",
+      "origin": "authored",
+      "options": [
+        "内心で疑った",
+        "人々の前で誓った",
+        "一方的に断った",
+        "ひそかに相談した"
+      ],
+      "explanations": [
+        "Thầm nghi ngờ khác với tuyên thệ.",
+        "宣誓 là công khai tuyên thệ.",
+        "Từ chối một chiều không có nghĩa tuyên thệ.",
+        "Bàn bạc bí mật không phải tuyên thệ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-23",
+      "type": "paraphrase",
+      "word": "整頓",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 63,
+      "prompt": "机の上の道具を【整頓した】。",
+      "origin": "authored",
+      "options": [
+        "他人に貸した",
+        "すべて捨てた",
+        "使いやすいように並べ直した",
+        "新しく購入した"
+      ],
+      "explanations": [
+        "Cho mượn không phải sắp gọn.",
+        "Vứt bỏ tất cả không phải sắp xếp.",
+        "整頓 là sắp đặt ngăn nắp, thuận tiện sử dụng.",
+        "Mua mới không đồng nghĩa với整頓."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-24",
+      "type": "usage",
+      "word": "新興",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 14,
+      "prompt": "新興",
+      "origin": "authored",
+      "options": [
+        "近年、新興企業がこの分野で急速に勢力を伸ばしている。",
+        "計画の新興状況を会議で報告した。",
+        "国境を越えて隣国に新興した。",
+        "町は祭りを通じて伝統産業を新興する方針だ。"
+      ],
+      "explanations": [
+        "新興 chỉ mới nổi lên và phát triển mạnh.",
+        "Tình hình tiến triển dùng 進行状況.",
+        "Xâm lược dùng 侵攻; 新興 không chỉ hành động quân sự.",
+        "Thúc đẩy ngành truyền thống dùng 振興; 新興 không dùng như động từ tác động này."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai16-25",
+      "type": "usage",
+      "word": "成就",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 61,
+      "prompt": "成就",
+      "origin": "authored",
+      "options": [
+        "秋になり、畑の稲が成就した。",
+        "この木の樹齢は百年に成就した。",
+        "長年の願いが成就し、念願の店を開くことができた。",
+        "毎朝七時に家を成就して学校へ向かう。"
+      ],
+      "explanations": [
+        "Lúa chín dùng 実る・成熟する, không dùng成就.",
+        "Đạt một mốc số lượng dùng 達する; 成就 dành cho mục tiêu hoặc ước nguyện.",
+        "成就 là nguyện vọng hoặc mục đích được thực hiện trọn vẹn.",
+        "Rời nhà dùng 出る・出発する; không dùng成就."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-26",
+      "type": "usage",
+      "word": "宣伝",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 94,
+      "prompt": "宣伝",
+      "origin": "authored",
+      "options": [
+        "卒業式で、校長は式の終了を宣伝した。",
+        "新商品を知ってもらうため、テレビで大々的に宣伝した。",
+        "秘密を誰にも知らせないため、胸の内に宣伝した。",
+        "裁判官は被告人に判決を宣伝した。"
+      ],
+      "explanations": [
+        "Thông báo kết thúc nghi thức dùng 宣言・告げる; không phải quảng bá.",
+        "宣伝 là quảng bá để nhiều người biết và quan tâm.",
+        "Giữ kín trong lòng trái với phổ biến rộng rãi.",
+        "Tuyên án dùng 言い渡す・宣告, không dùng宣伝."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai16-27",
+      "type": "usage",
+      "word": "世論",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 55,
+      "prompt": "世論",
+      "origin": "authored",
+      "options": [
+        "地球が太陽の周りを回る世論を物理学で証明した。",
+        "会議に欠席したので、同僚から議論の世論を聞いた。",
+        "政府は、世論の動向を把握するために調査を行った。",
+        "この世論は主語と述語が対応していない。"
+      ],
+      "explanations": [
+        "Mệnh đề khoa học dùng 理論・説, không phải dư luận xã hội.",
+        "Nội dung hoặc kết luận cuộc họp dùng 内容・結論; không gọi là世論.",
+        "世論 là ý kiến chung hoặc xu hướng ý kiến của công chúng.",
+        "Đơn vị câu văn dùng 文; 世論 không phải câu có chủ ngữ vị ngữ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-28",
+      "type": "usage",
+      "word": "信念",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 2,
+      "prompt": "信念",
+      "origin": "authored",
+      "options": [
+        "初対面の人に住所と信念を尋ねて電話した。",
+        "荷物の配達時刻を信念に書き込んだ。",
+        "周囲に反対されても、人を助けたいという信念を貫いた。",
+        "昨日の出来事を忘れたので、信念をたどって思い出した。"
+      ],
+      "explanations": [
+        "Thông tin để gọi là 電話番号; 信念 không có nghĩa liên lạc.",
+        "Ghi giờ vào sổ hoặc lịch dùng 手帳・予定表, không phải信念.",
+        "信念 là niềm tin vững chắc làm cơ sở hành động.",
+        "Lần theo trí nhớ dùng 記憶をたどる, không dùng信念."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-29",
+      "type": "usage",
+      "word": "絶滅",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 87,
+      "prompt": "絶滅",
+      "origin": "authored",
+      "options": [
+        "契約の有効期間が昨日絶滅した。",
+        "火事は消防隊によって一時間で絶滅した。",
+        "生息地の破壊により、この動物は絶滅の危機にある。",
+        "停電で部屋の照明が一斉に絶滅した。"
+      ],
+      "explanations": [
+        "Hết thời hạn dùng 満了した・切れた; không dùng絶滅.",
+        "Dập tắt đám cháy dùng 鎮火した, không dùng絶滅.",
+        "絶滅 là một loài hoặc tập hợp sinh vật biến mất hoàn toàn.",
+        "Đèn tắt dùng 消えた; 絶滅 không chỉ đèn ngừng sáng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai16-30",
+      "type": "usage",
+      "word": "制限",
+      "source_file": "resources/N1/goi/dai16.csv",
+      "source_line": 57,
+      "prompt": "制限",
+      "origin": "authored",
+      "options": [
+        "安全のため、この橋を通れる車の重量を制限している。",
+        "締め切りの制限は来週の金曜日だ。",
+        "彼は資格試験に制限して、念願の免許を得た。",
+        "川が二つの県の制限になっている。"
+      ],
+      "explanations": [
+        "制限 là đặt giới hạn về mức độ, số lượng hoặc phạm vi.",
+        "Mốc ngày cụ thể dùng 期限; không dùng 制限 thay cho hạn cuối.",
+        "Đỗ kỳ thi dùng 合格する, không phải制限する.",
+        "Ranh giới địa lý dùng 境界; 制限 là sự hạn chế."
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai14-30",
+  "title": "N1 · Bài 14 · 30 câu",
+  "level": "N1",
+  "lesson": "dai14",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093014,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai14.csv"
+  },
+  "choice_seed": 2026100014,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai14-01",
+      "type": "reading",
+      "word": "惨敗",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 14,
+      "prompt": "初戦で【惨敗】した。",
+      "origin": "authored",
+      "options": [
+        "さんかん",
+        "さんがく",
+        "ぶんぱい",
+        "さんぱい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "参観",
+          "reading": "さんかん",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 7
+        },
+        {
+          "word": "山岳",
+          "reading": "さんがく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 10
+        },
+        {
+          "word": "分配",
+          "reading": "ぶんぱい",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 55
+        },
+        {
+          "word": "惨敗",
+          "reading": "さんぱい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 14
+        }
+      ],
+      "explanations": [
+        "さんかん là cách đọc của 参観 (tham quan; dự giờ). Đây là cách đọc có thật nhưng không phải của 惨敗 trong câu.",
+        "さんがく là cách đọc của 山岳 (núi non). Đây là cách đọc có thật nhưng không phải của 惨敗 trong câu.",
+        "ぶんぱい là cách đọc của 分配 (phân phối; chia phần). Đây là cách đọc có thật nhưng không phải của 惨敗 trong câu.",
+        "さんぱい là cách đọc của 惨敗 (thua thảm hại). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai14-02",
+      "type": "reading",
+      "word": "自営",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 62,
+      "prompt": "父は【自営】で店を営む。",
+      "origin": "authored",
+      "options": [
+        "じゅり",
+        "じどう",
+        "じたい",
+        "じえい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "受理",
+          "reading": "じゅり",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 14
+        },
+        {
+          "word": "児童",
+          "reading": "じどう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 55
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 53
+        },
+        {
+          "word": "自営",
+          "reading": "じえい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 62
+        }
+      ],
+      "explanations": [
+        "じゅり là cách đọc của 受理 (tiếp nhận chính thức). Đây là cách đọc có thật nhưng không phải của 自営 trong câu.",
+        "じどう là cách đọc của 児童 (trẻ em; học sinh tiểu học). Đây là cách đọc có thật nhưng không phải của 自営 trong câu.",
+        "じたい là cách đọc của 事態 (tình thế; diễn biến). Đây là cách đọc có thật nhưng không phải của 自営 trong câu.",
+        "じえい là cách đọc của 自営 (tự kinh doanh). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai14-03",
+      "type": "reading",
+      "word": "山頂",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 11,
+      "prompt": "夕方に【山頂】へ着いた。",
+      "origin": "authored",
+      "options": [
+        "さんちょう",
+        "さんじょう",
+        "さいちゅう",
+        "さんしょう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "山頂",
+          "reading": "さんちょう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 11
+        },
+        {
+          "word": "参上",
+          "reading": "さんじょう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 9
+        },
+        {
+          "word": "最中",
+          "reading": "さいちゅう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 97
+        },
+        {
+          "word": "参照",
+          "reading": "さんしょう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 8
+        }
+      ],
+      "explanations": [
+        "さんちょう là cách đọc của 山頂 (đỉnh núi). Đúng với từ và ngữ cảnh đang hỏi.",
+        "さんじょう là cách đọc của 参上 (đến; có mặt một cách khiêm nhường). Đây là cách đọc có thật nhưng không phải của 山頂 trong câu.",
+        "さいちゅう là cách đọc của 最中 (đang lúc; giữa lúc). Đây là cách đọc có thật nhưng không phải của 山頂 trong câu.",
+        "さんしょう là cách đọc của 参照 (đối chiếu; tham chiếu). Đây là cách đọc có thật nhưng không phải của 山頂 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-04",
+      "type": "reading",
+      "word": "辞任",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 71,
+      "prompt": "社長が【辞任】した。",
+      "origin": "authored",
+      "options": [
+        "ふにん",
+        "じまん",
+        "じにん",
+        "じたい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "赴任",
+          "reading": "ふにん",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 34
+        },
+        {
+          "word": "自慢",
+          "reading": "じまん",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 68
+        },
+        {
+          "word": "辞任",
+          "reading": "じにん",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 71
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 53
+        }
+      ],
+      "explanations": [
+        "ふにん là cách đọc của 赴任 (đến nhận công tác). Đây là cách đọc có thật nhưng không phải của 辞任 trong câu.",
+        "じまん là cách đọc của 自慢 (tự hào; khoe khoang). Đây là cách đọc có thật nhưng không phải của 辞任 trong câu.",
+        "じにん là cách đọc của 辞任 (từ chức). Đúng với từ và ngữ cảnh đang hỏi.",
+        "じたい là cách đọc của 事態 (tình thế; diễn biến). Đây là cách đọc có thật nhưng không phải của 辞任 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-05",
+      "type": "reading",
+      "word": "資格",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 48,
+      "prompt": "仕事に必要な【資格】を取る。",
+      "origin": "authored",
+      "options": [
+        "しかく",
+        "しっかく",
+        "しさく",
+        "しいく"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "資格",
+          "reading": "しかく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 48
+        },
+        {
+          "word": "失格",
+          "reading": "しっかく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 76
+        },
+        {
+          "word": "思索",
+          "reading": "しさく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 29
+        },
+        {
+          "word": "飼育",
+          "reading": "しいく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 51
+        }
+      ],
+      "explanations": [
+        "しかく là cách đọc của 資格 (tư cách; chứng chỉ). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しっかく là cách đọc của 失格 (bị loại vì không đủ điều kiện). Đây là cách đọc có thật nhưng không phải của 資格 trong câu.",
+        "しさく là cách đọc của 思索 (suy tư sâu sắc). Đây là cách đọc có thật nhưng không phải của 資格 trong câu.",
+        "しいく là cách đọc của 飼育 (nuôi động vật). Đây là cách đọc có thật nhưng không phải của 資格 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-06",
+      "type": "reading",
+      "word": "施設",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 41,
+      "prompt": "駅に新しい【施設】ができた。",
+      "origin": "authored",
+      "options": [
+        "しせい",
+        "しまつ",
+        "しせつ",
+        "しさつ"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "姿勢",
+          "reading": "しせい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 25
+        },
+        {
+          "word": "始末",
+          "reading": "しまつ",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 24
+        },
+        {
+          "word": "施設",
+          "reading": "しせつ",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 41
+        },
+        {
+          "word": "視察",
+          "reading": "しさつ",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 46
+        }
+      ],
+      "explanations": [
+        "しせい là cách đọc của 姿勢 (tư thế; thái độ). Đây là cách đọc có thật nhưng không phải của 施設 trong câu.",
+        "しまつ là cách đọc của 始末 (xử lý; thu dọn). Đây là cách đọc có thật nhưng không phải của 施設 trong câu.",
+        "しせつ là cách đọc của 施設 (cơ sở; công trình). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しさつ là cách đọc của 視察 (thị sát). Đây là cách đọc có thật nhưng không phải của 施設 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-07",
+      "type": "reading",
+      "word": "芝居",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 88,
+      "prompt": "劇場で昔の【芝居】を見る。",
+      "origin": "authored",
+      "options": [
+        "してい",
+        "しばい",
+        "しせい",
+        "しれい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "師弟",
+          "reading": "してい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 27
+        },
+        {
+          "word": "芝居",
+          "reading": "しばい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 88
+        },
+        {
+          "word": "姿勢",
+          "reading": "しせい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 25
+        },
+        {
+          "word": "指令",
+          "reading": "しれい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 36
+        }
+      ],
+      "explanations": [
+        "してい là cách đọc của 師弟 (thầy và trò). Đây là cách đọc có thật nhưng không phải của 芝居 trong câu.",
+        "しばい là cách đọc của 芝居 (vở kịch; diễn xuất). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しせい là cách đọc của 姿勢 (tư thế; thái độ). Đây là cách đọc có thật nhưng không phải của 芝居 trong câu.",
+        "しれい là cách đọc của 指令 (mệnh lệnh). Đây là cách đọc có thật nhưng không phải của 芝居 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-08",
+      "type": "reading",
+      "word": "主権",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 95,
+      "prompt": "国民が【主権】を持つ。",
+      "origin": "authored",
+      "options": [
+        "しゅけん",
+        "しゅじく",
+        "しゅさい",
+        "しゅどう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "主権",
+          "reading": "しゅけん",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 95
+        },
+        {
+          "word": "主軸",
+          "reading": "しゅじく",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 97
+        },
+        {
+          "word": "主催",
+          "reading": "しゅさい",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 96
+        },
+        {
+          "word": "主導",
+          "reading": "しゅどう",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 99
+        }
+      ],
+      "explanations": [
+        "しゅけん là cách đọc của 主権 (chủ quyền). Đúng với từ và ngữ cảnh đang hỏi.",
+        "しゅじく là cách đọc của 主軸 (trục chính; trọng tâm). Đây là cách đọc có thật nhưng không phải của 主権 trong câu.",
+        "しゅさい là cách đọc của 主催 (chủ trì; tổ chức). Đây là cách đọc có thật nhưng không phải của 主権 trong câu.",
+        "しゅどう là cách đọc của 主導 (dẫn dắt; chủ trì). Đây là cách đọc có thật nhưng không phải của 主権 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai14-09",
+      "type": "context",
+      "word": "昨今",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 2,
+      "prompt": "（　）の物価上昇を受け、家計を見直す家庭が増えている。",
+      "origin": "authored",
+      "options": [
+        "後日",
+        "来世",
+        "昨今",
+        "太古"
+      ],
+      "explanations": [
+        "後日 là một ngày sau đó; không diễn tả xu hướng gần đây.",
+        "来世 là kiếp sau, không chỉ tình hình hiện tại.",
+        "昨今 nghĩa là thời gian gần đây, hiện nay.",
+        "太古 là thời rất xa xưa, không phù hợp với diễn biến hiện tại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai14-10",
+      "type": "context",
+      "word": "志向",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 28,
+      "prompt": "健康（　）の高まりで、糖分を控えた食品が人気を集めている。",
+      "origin": "authored",
+      "options": [
+        "思考",
+        "施行",
+        "志向",
+        "試行"
+      ],
+      "explanations": [
+        "思考 là suy nghĩ; 健康思考 không phải cách gọi khuynh hướng tiêu dùng này.",
+        "施行 là thi hành luật, không kết hợp theo nghĩa quan tâm sức khỏe.",
+        "健康志向 là khuynh hướng coi trọng sức khỏe.",
+        "試行 là thử nghiệm, không chỉ xu hướng hướng tới sức khỏe."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai14-11",
+      "type": "context",
+      "word": "時差",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 58,
+      "prompt": "日本と英国の（　）を考慮して、オンライン会議の時刻を決めた。",
+      "origin": "authored",
+      "options": [
+        "誤差",
+        "時差",
+        "差額",
+        "格差"
+      ],
+      "explanations": [
+        "誤差 là sai lệch đo lường, không phải chênh lệch múi giờ.",
+        "時差 là chênh lệch giờ giữa các nơi.",
+        "差額 là chênh lệch tiền, không liên quan giờ họp.",
+        "格差 là chênh lệch về trình độ hoặc điều kiện, không phải giờ địa phương."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-12",
+      "type": "context",
+      "word": "弱音",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 93,
+      "prompt": "厳しい練習が続いても、彼は一度も（　）を吐かなかった。",
+      "origin": "authored",
+      "options": [
+        "弱音",
+        "謝辞",
+        "無言",
+        "大声"
+      ],
+      "explanations": [
+        "弱音を吐く là thốt lời nản chí hoặc than rằng mình không chịu nổi.",
+        "謝辞 là lời cảm ơn, dùng 述べる; không chỉ lời than nản và không đi với 吐く.",
+        "無言 là im lặng; không thể 無言を吐く.",
+        "大声 dùng với 出す・上げる, không dùng 吐く theo nghĩa này."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai14-13",
+      "type": "context",
+      "word": "視察",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 46,
+      "prompt": "市長は被災地を（　）し、復旧作業の進み具合を現地で確かめた。",
+      "origin": "authored",
+      "options": [
+        "仮定",
+        "観賞",
+        "回想",
+        "視察"
+      ],
+      "explanations": [
+        "仮定 là giả định, trái với kiểm tra thực tế.",
+        "観賞 là thưởng thức vẻ đẹp, không phải kiểm tra phục hồi thiên tai.",
+        "回想 là hồi tưởng, không phải quan sát tại chỗ.",
+        "視察 là đến tận nơi xem xét tình hình."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-14",
+      "type": "context",
+      "word": "雑貨",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 6,
+      "prompt": "この店では、文房具や食器などの生活（　）を扱っている。",
+      "origin": "authored",
+      "options": [
+        "雑音",
+        "雑草",
+        "雑誌",
+        "雑貨"
+      ],
+      "explanations": [
+        "雑音 là tiếng ồn.",
+        "雑草 là cỏ dại, không phải hàng sinh hoạt.",
+        "雑誌 là tạp chí, không bao gồm văn phòng phẩm và bát đĩa.",
+        "生活雑貨 là đồ dùng sinh hoạt đa dạng."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-15",
+      "type": "context",
+      "word": "思惑",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 30,
+      "prompt": "値上がりを見込んで買った株が暴落し、投資家の（　）は外れた。",
+      "origin": "authored",
+      "options": [
+        "思惑",
+        "実績",
+        "資格",
+        "義務"
+      ],
+      "explanations": [
+        "思惑 là dự tính hoặc kỳ vọng riêng; 思惑が外れる là trái dự tính.",
+        "実績 là thành tích đã đạt, không phải dự đoán tương lai.",
+        "資格 là tư cách hoặc bằng cấp, không phù hợp với 外れる ở đây.",
+        "義務 là nghĩa vụ, không phải kỳ vọng đầu tư."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai14-16",
+      "type": "context",
+      "word": "師弟",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 27,
+      "prompt": "有名な陶芸家とその弟子は、三十年にわたる（　）の関係にある。",
+      "origin": "authored",
+      "options": [
+        "夫婦",
+        "師弟",
+        "同僚",
+        "兄弟"
+      ],
+      "explanations": [
+        "夫婦 là vợ chồng, không phải quan hệ giữa thầy và học trò.",
+        "師弟 là thầy và trò.",
+        "同僚 là đồng nghiệp ngang quan hệ công việc, không diễn đạt 師匠と弟子.",
+        "兄弟 là anh em, không suy ra từ quan hệ học nghề."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-17",
+      "type": "paraphrase",
+      "word": "錯覚",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 3,
+      "prompt": "同じ長さの線が違って見えるのは【錯覚】だ。",
+      "origin": "authored",
+      "options": [
+        "未来の出来事を予測すること",
+        "実際とは違うように感じること",
+        "過去の経験を忘れること",
+        "物事を細かく分類すること"
+      ],
+      "explanations": [
+        "Dự đoán tương lai không phải錯覚.",
+        "錯覚 là cảm nhận sai khác với thực tế.",
+        "Quên trải nghiệm là 忘却, không phải ảo giác nhận thức.",
+        "Phân loại chi tiết không có nghĩa cảm nhận sai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-18",
+      "type": "paraphrase",
+      "word": "執着",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 74,
+      "prompt": "彼は過去の成功に【執着している】。",
+      "origin": "authored",
+      "options": [
+        "客観的に分析している",
+        "強くとらわれて離れられずにいる",
+        "あえて触れずにいる",
+        "関心を失っている"
+      ],
+      "explanations": [
+        "Phân tích khách quan không đồng nghĩa với bị níu giữ.",
+        "執着 là bám chặt vào điều gì, khó buông bỏ.",
+        "Chủ ý không đề cập không diễn đạt sự bám chấp.",
+        "Mất quan tâm trái với執着."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-19",
+      "type": "paraphrase",
+      "word": "持続",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 56,
+      "prompt": "この薬の効果は六時間【持続する】。",
+      "origin": "authored",
+      "options": [
+        "現れる",
+        "弱まる",
+        "続く",
+        "消える"
+      ],
+      "explanations": [
+        "現れる là xuất hiện, không nói độ kéo dài.",
+        "弱まる là yếu đi, không phải tiếp tục.",
+        "持続 là tiếp tục duy trì qua thời gian.",
+        "消える là biến mất, trái với持続する."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai14-20",
+      "type": "paraphrase",
+      "word": "主将",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 98,
+      "prompt": "新しい【主将】がチームをまとめた。",
+      "origin": "authored",
+      "options": [
+        "観客席で応援を指揮する人",
+        "試合の規則を判定する人",
+        "選手を治療する医師",
+        "チームの中心となって選手を率いる人"
+      ],
+      "explanations": [
+        "Người chỉ huy cổ vũ là 応援団長.",
+        "Đây là trọng tài, 審判.",
+        "Bác sĩ đội không phải đội trưởng.",
+        "主将 là đội trưởng, người dẫn dắt các thành viên."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-21",
+      "type": "paraphrase",
+      "word": "参観",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 7,
+      "prompt": "保護者が授業を【参観した】。",
+      "origin": "authored",
+      "options": [
+        "中断した",
+        "見学した",
+        "欠席した",
+        "担当した"
+      ],
+      "explanations": [
+        "中断 là dừng giữa chừng.",
+        "参観 là đến xem hoạt động như tiết học.",
+        "欠席 là vắng mặt, trái với đến xem.",
+        "担当 là phụ trách dạy, không phải đến quan sát."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-22",
+      "type": "paraphrase",
+      "word": "指紋",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 35,
+      "prompt": "現場に残された【指紋】を調べた。",
+      "origin": "authored",
+      "options": [
+        "物を引きずった跡",
+        "刃物で傷つけた跡",
+        "靴の底にある模様の跡",
+        "指先の皮膚にある模様の跡"
+      ],
+      "explanations": [
+        "Vết kéo lê không phải dấu vân tay.",
+        "Vết dao không phải指紋.",
+        "Dấu đế giày là 靴跡, không phải指紋.",
+        "指紋 là vân tay hoặc dấu vân tay để lại."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-23",
+      "type": "paraphrase",
+      "word": "自負",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 66,
+      "prompt": "彼は仕事の正確さを【自負している】。",
+      "origin": "authored",
+      "options": [
+        "他人のせいにしている",
+        "今後の課題にしている",
+        "自分の欠点だと思っている",
+        "自分の誇りとしている"
+      ],
+      "explanations": [
+        "Đổ lỗi người khác không phải自負.",
+        "Đặt làm vấn đề cần cải thiện không đồng nghĩa với tự hào.",
+        "Xem là khuyết điểm trái với tự hào.",
+        "自負 là tự hào, tự tin về giá trị của bản thân."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-24",
+      "type": "usage",
+      "word": "自首",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 64,
+      "prompt": "自首",
+      "origin": "authored",
+      "options": [
+        "部長は退任の意思を会社に自首した。",
+        "他人の不正を知った社員が、その人の行為を自首した。",
+        "犯人がまだ特定されていない事件について、男は自分が犯したと警察に自首した。",
+        "財布を拾ったので、持ち主の代わりに自首した。"
+      ],
+      "explanations": [
+        "Tự xin thôi chức dùng 辞任を申し出る; không dùng自首.",
+        "Báo hành vi của người khác dùng 通報・告発; 自首 là khai tội mình.",
+        "自首 là tự khai với cơ quan điều tra khi tội hoặc thủ phạm chưa bị phát hiện.",
+        "Giao nộp đồ nhặt được dùng 届け出る; người này không khai tội của mình."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai14-25",
+      "type": "usage",
+      "word": "仕業",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 20,
+      "prompt": "仕業",
+      "origin": "authored",
+      "options": [
+        "窓ガラスが割られていたが、誰の仕業か分からない。",
+        "将来の仕業として、医師を目指している。",
+        "毎朝九時に会社へ行き、その日の仕業を始める。",
+        "先生の親切な仕業に、心から感謝の手紙を書いた。"
+      ],
+      "explanations": [
+        "仕業 thường chỉ hành vi không tốt hoặc tác hại do ai gây ra.",
+        "Nghề nghiệp tương lai là 職業, không phải仕業.",
+        "Công việc thường ngày dùng 仕事; 仕業 không phải cách gọi trung tính này.",
+        "Khen hành động tử tế nên dùng 行為・配慮; 仕業 mang sắc thái tiêu cực."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai14-26",
+      "type": "usage",
+      "word": "遮断",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 92,
+      "prompt": "遮断",
+      "origin": "authored",
+      "options": [
+        "人参を包丁で薄く遮断して、鍋に入れた。",
+        "安全のため、修理を始める前に電源を遮断した。",
+        "会議で長い説明を半分に遮断して話した。",
+        "彼のお願いを丁寧に遮断した。"
+      ],
+      "explanations": [
+        "Thái thực phẩm dùng 切る; không dùng遮断.",
+        "遮断 là cắt, chặn nguồn cung hoặc đường đi.",
+        "Rút ngắn nội dung dùng 短縮; không phải chặn nguồn hoặc luồng.",
+        "Từ chối lời nhờ dùng 断る; 遮断 không thay thế動詞断る."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai14-27",
+      "type": "usage",
+      "word": "社交",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 90,
+      "prompt": "社交",
+      "origin": "authored",
+      "options": [
+        "会社同士が価格について社交し、契約条件を決めた。",
+        "駅前の道路は社交が激しく、車が進まない。",
+        "人付き合いが得意な彼女は、社交の場でも自然に会話を楽しんでいる。",
+        "外国と大使を交換する国家の社交を担当している。"
+      ],
+      "explanations": [
+        "Thương lượng điều kiện dùng 交渉, không phải社交.",
+        "Lưu thông xe cộ dùng 交通.",
+        "社交 là giao tiếp và qua lại với người khác trong xã hội.",
+        "Quan hệ chính thức giữa các quốc gia dùng 外交."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai14-28",
+      "type": "usage",
+      "word": "資金",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 49,
+      "prompt": "資金",
+      "origin": "authored",
+      "options": [
+        "人材紹介会社に、経験豊かな資金を採用してほしいと頼んだ。",
+        "この機械を操作するには、国家資金が必要だ。",
+        "研究の参考にするため、図書館で資金を読んだ。",
+        "新しい店を開くため、銀行から資金を借り入れた。"
+      ],
+      "explanations": [
+        "Người có năng lực là 人材; 資金 không chỉ người.",
+        "Bằng cấp hoặc tư cách nghề nghiệp là 国家資格, không phải国家資金.",
+        "Tài liệu nghiên cứu là 資料, không phải資金.",
+        "資金 là tiền phục vụ hoạt động hoặc dự án."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai14-29",
+      "type": "usage",
+      "word": "殺到",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 5,
+      "prompt": "殺到",
+      "origin": "authored",
+      "options": [
+        "限定商品の発売日に、店へ客が殺到した。",
+        "雨粒を防ぐため、屋根から水を殺到させた。",
+        "この道をまっすぐ殺到すると駅に着く。",
+        "彼はたった一人で静かに図書館へ殺到した。"
+      ],
+      "explanations": [
+        "殺到 là nhiều người hoặc yêu cầu dồn đến cùng lúc.",
+        "Cho nước chảy dùng 流す; 殺到 không dùng như động từ xả nước.",
+        "Đi thẳng dùng 進む; 殺到 không diễn tả hướng di chuyển thông thường.",
+        "Một người bình thản đến nơi không phải sự đổ dồn hàng loạt."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai14-30",
+      "type": "usage",
+      "word": "施行",
+      "source_file": "resources/N1/goi/dai14.csv",
+      "source_line": 40,
+      "prompt": "施行",
+      "origin": "authored",
+      "options": [
+        "新しい商品を本格販売する前に、少数の店で施行した。",
+        "じっくり施行してから、問題の答えを書いた。",
+        "新しい条例は来年四月から施行される。",
+        "健康を施行する消費者向けに、減塩食品を開発した。"
+      ],
+      "explanations": [
+        "Thử trước dùng 試行; không phải thi hành quy định.",
+        "Suy nghĩ dùng 思考; khác施行 dù cùng đọcしこう.",
+        "施行 là đưa luật hoặc quy định vào thi hành.",
+        "Hướng tới sức khỏe dùng 志向; không dùng施行."
+      ],
+      "answer": 2
+    }
+  ]
+}

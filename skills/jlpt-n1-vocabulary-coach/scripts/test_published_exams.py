@@ -10,9 +10,9 @@ from build_n1_exam import ROOT, validate, render
 class PublishedExamsTests(unittest.TestCase):
     def setUp(self):
         self.banks = [json.loads((ROOT.parent.parent / f"resources/N1/exams/dai{n}.json").read_text())
-                      for n in range(1, 11)]
+                      for n in range(1, 21)]
 
-    def test_all_ten_random_banks_and_balanced_answer_positions(self):
+    def test_all_twenty_random_banks_and_balanced_answer_positions(self):
         for n, bank in enumerate(self.banks, 1):
             with self.subTest(lesson=n):
                 validate(bank)

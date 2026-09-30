@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai20-30",
+  "title": "N1 · Bài 20 · 30 câu",
+  "level": "N1",
+  "lesson": "dai20",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093020,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai20.csv"
+  },
+  "choice_seed": 2026100020,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai20-01",
+      "type": "reading",
+      "word": "噴出",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 60,
+      "prompt": "地面から温泉が【噴出】した。",
+      "origin": "authored",
+      "options": [
+        "さんしゅつ",
+        "ねんしゅつ",
+        "ふんしつ",
+        "ふんしゅつ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "産出",
+          "reading": "さんしゅつ",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 15
+        },
+        {
+          "word": "捻出",
+          "reading": "ねんしゅつ",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 33
+        },
+        {
+          "word": "紛失",
+          "reading": "ふんしつ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 64
+        },
+        {
+          "word": "噴出",
+          "reading": "ふんしゅつ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 60
+        }
+      ],
+      "explanations": [
+        "さんしゅつ là cách đọc của 産出 (sản xuất; khai thác ra). Đây là cách đọc có thật nhưng không phải của 噴出 trong câu.",
+        "ねんしゅつ là cách đọc của 捻出 (xoay xở tạo ra thời gian, tiền). Đây là cách đọc có thật nhưng không phải của 噴出 trong câu.",
+        "ふんしつ là cách đọc của 紛失 (làm thất lạc). Đây là cách đọc có thật nhưng không phải của 噴出 trong câu.",
+        "ふんしゅつ là cách đọc của 噴出 (phun trào; tuôn ra). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai20-02",
+      "type": "reading",
+      "word": "封鎖",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 38,
+      "prompt": "道路を【封鎖】する。",
+      "origin": "authored",
+      "options": [
+        "そうさ",
+        "ふうみ",
+        "ふうさ",
+        "ふろく"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "捜査",
+          "reading": "そうさ",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 26
+        },
+        {
+          "word": "風味",
+          "reading": "ふうみ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 40
+        },
+        {
+          "word": "封鎖",
+          "reading": "ふうさ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 38
+        },
+        {
+          "word": "付録",
+          "reading": "ふろく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 27
+        }
+      ],
+      "explanations": [
+        "そうさ là cách đọc của 捜査 (điều tra vụ án). Đây là cách đọc có thật nhưng không phải của 封鎖 trong câu.",
+        "ふうみ là cách đọc của 風味 (hương vị). Đây là cách đọc có thật nhưng không phải của 封鎖 trong câu.",
+        "ふうさ là cách đọc của 封鎖 (phong tỏa). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ふろく là cách đọc của 付録 (phụ lục; quà tặng kèm ấn phẩm). Đây là cách đọc có thật nhưng không phải của 封鎖 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai20-03",
+      "type": "reading",
+      "word": "評判",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 15,
+      "prompt": "この店は【評判】がよい。",
+      "origin": "authored",
+      "options": [
+        "ひょうばん",
+        "ひょうご",
+        "ひょうし",
+        "ぎょうてん"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "評判",
+          "reading": "ひょうばん",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 15
+        },
+        {
+          "word": "標語",
+          "reading": "ひょうご",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 13
+        },
+        {
+          "word": "拍子",
+          "reading": "ひょうし",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 63
+        },
+        {
+          "word": "仰天",
+          "reading": "ぎょうてん",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 4
+        }
+      ],
+      "explanations": [
+        "ひょうばん là cách đọc của 評判 (danh tiếng; đánh giá của mọi người). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ひょうご là cách đọc của 標語 (khẩu hiệu). Đây là cách đọc có thật nhưng không phải của 評判 trong câu.",
+        "ひょうし là cách đọc của 拍子 (nhịp; đúng lúc một động tác xảy ra). Đây là cách đọc có thật nhưng không phải của 評判 trong câu.",
+        "ぎょうてん là cách đọc của 仰天 (sửng sốt). Đây là cách đọc có thật nhưng không phải của 評判 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai20-04",
+      "type": "reading",
+      "word": "払拭",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 47,
+      "prompt": "不安を【払拭】する。",
+      "origin": "authored",
+      "options": [
+        "ぶっしょく",
+        "ふっしょく",
+        "がっしょう",
+        "ふりょく"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "物色",
+          "reading": "ぶっしょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 51
+        },
+        {
+          "word": "払拭",
+          "reading": "ふっしょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 47
+        },
+        {
+          "word": "合唱",
+          "reading": "がっしょう",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 51
+        },
+        {
+          "word": "浮力",
+          "reading": "ふりょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 32
+        }
+      ],
+      "explanations": [
+        "ぶっしょく là cách đọc của 物色 (tìm chọn thứ phù hợp). Đây là cách đọc có thật nhưng không phải của 払拭 trong câu.",
+        "ふっしょく là cách đọc của 払拭 (xóa bỏ hoàn toàn). Đúng với từ và ngữ cảnh đang hỏi.",
+        "がっしょう là cách đọc của 合唱 (hợp xướng). Đây là cách đọc có thật nhưng không phải của 払拭 trong câu.",
+        "ふりょく là cách đọc của 浮力 (lực nổi). Đây là cách đọc có thật nhưng không phải của 払拭 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai20-05",
+      "type": "reading",
+      "word": "物色",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 51,
+      "prompt": "店で贈り物を【物色】する。",
+      "origin": "authored",
+      "options": [
+        "ぶじょく",
+        "ぶっしょく",
+        "ふっしょく",
+        "ぶりょく"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "侮辱",
+          "reading": "ぶじょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 35
+        },
+        {
+          "word": "物色",
+          "reading": "ぶっしょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 51
+        },
+        {
+          "word": "払拭",
+          "reading": "ふっしょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 47
+        },
+        {
+          "word": "武力",
+          "reading": "ぶりょく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 37
+        }
+      ],
+      "explanations": [
+        "ぶじょく là cách đọc của 侮辱 (sỉ nhục). Đây là cách đọc có thật nhưng không phải của 物色 trong câu.",
+        "ぶっしょく là cách đọc của 物色 (tìm chọn thứ phù hợp). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ふっしょく là cách đọc của 払拭 (xóa bỏ hoàn toàn). Đây là cách đọc có thật nhưng không phải của 物色 trong câu.",
+        "ぶりょく là cách đọc của 武力 (sức mạnh quân sự). Đây là cách đọc có thật nhưng không phải của 物色 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai20-06",
+      "type": "reading",
+      "word": "描写",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 16,
+      "prompt": "風景を細かく【描写】する。",
+      "origin": "authored",
+      "options": [
+        "じょうしつ",
+        "しょうしん",
+        "ぎょうしゃ",
+        "びょうしゃ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "上質",
+          "reading": "じょうしつ",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 89
+        },
+        {
+          "word": "昇進",
+          "reading": "しょうしん",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 77
+        },
+        {
+          "word": "業者",
+          "reading": "ぎょうしゃ",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 6
+        },
+        {
+          "word": "描写",
+          "reading": "びょうしゃ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 16
+        }
+      ],
+      "explanations": [
+        "じょうしつ là cách đọc của 上質 (chất lượng cao). Đây là cách đọc có thật nhưng không phải của 描写 trong câu.",
+        "しょうしん là cách đọc của 昇進 (thăng chức). Đây là cách đọc có thật nhưng không phải của 描写 trong câu.",
+        "ぎょうしゃ là cách đọc của 業者 (đơn vị kinh doanh; nhà thầu). Đây là cách đọc có thật nhưng không phải của 描写 trong câu.",
+        "びょうしゃ là cách đọc của 描写 (miêu tả). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai20-07",
+      "type": "reading",
+      "word": "保養",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 97,
+      "prompt": "温泉で【保養】する。",
+      "origin": "authored",
+      "options": [
+        "ほそう",
+        "ほよう",
+        "ほかく",
+        "ふよう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "舗装",
+          "reading": "ほそう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 99
+        },
+        {
+          "word": "保養",
+          "reading": "ほよう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 97
+        },
+        {
+          "word": "捕獲",
+          "reading": "ほかく",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 100
+        },
+        {
+          "word": "扶養",
+          "reading": "ふよう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 30
+        }
+      ],
+      "explanations": [
+        "ほそう là cách đọc của 舗装 (lát; trải mặt đường). Đây là cách đọc có thật nhưng không phải của 保養 trong câu.",
+        "ほよう là cách đọc của 保養 (nghỉ dưỡng sức). Đúng với từ và ngữ cảnh đang hỏi.",
+        "ほかく là cách đọc của 捕獲 (bắt giữ động vật). Đây là cách đọc có thật nhưng không phải của 保養 trong câu.",
+        "ふよう là cách đọc của 扶養 (nuôi dưỡng người phụ thuộc). Đây là cách đọc có thật nhưng không phải của 保養 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai20-08",
+      "type": "reading",
+      "word": "粉末",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 63,
+      "prompt": "【粉末】を水に溶かす。",
+      "origin": "authored",
+      "options": [
+        "ふんしゃ",
+        "ふんしつ",
+        "ふんとう",
+        "ふんまつ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "噴射",
+          "reading": "ふんしゃ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 59
+        },
+        {
+          "word": "紛失",
+          "reading": "ふんしつ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 64
+        },
+        {
+          "word": "奮闘",
+          "reading": "ふんとう",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 62
+        },
+        {
+          "word": "粉末",
+          "reading": "ふんまつ",
+          "source_file": "resources/N1/goi/dai20.csv",
+          "source_line": 63
+        }
+      ],
+      "explanations": [
+        "ふんしゃ là cách đọc của 噴射 (phun mạnh). Đây là cách đọc có thật nhưng không phải của 粉末 trong câu.",
+        "ふんしつ là cách đọc của 紛失 (làm thất lạc). Đây là cách đọc có thật nhưng không phải của 粉末 trong câu.",
+        "ふんとう là cách đọc của 奮闘 (nỗ lực hết sức; chiến đấu ngoan cường). Đây là cách đọc có thật nhưng không phải của 粉末 trong câu.",
+        "ふんまつ là cách đọc của 粉末 (bột). Đúng với từ và ngữ cảnh đang hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai20-09",
+      "type": "context",
+      "word": "赴任",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 34,
+      "prompt": "転勤の辞令を受け、来月から大阪支店に（　）することになった。",
+      "origin": "authored",
+      "options": [
+        "退任",
+        "赴任",
+        "辞任",
+        "帰省"
+      ],
+      "explanations": [
+        "退任 là thôi chức, trái với đến nhận công tác.",
+        "赴任 là đến nhận công tác tại nơi được bổ nhiệm.",
+        "辞任 là tự từ chức, không phải nhận nhiệm vụ ở chi nhánh.",
+        "帰省 là về quê thăm nhà, không phải nhận việc theo lệnh điều chuyển."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai20-10",
+      "type": "context",
+      "word": "武力",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 37,
+      "prompt": "政府は紛争を（　）で解決せず、対話による平和的解決を目指すと表明した。",
+      "origin": "authored",
+      "options": [
+        "対話",
+        "仲裁",
+        "武力",
+        "交渉"
+      ],
+      "explanations": [
+        "対話 đã là phương thức được chủ trương, không phải điều bị phủ định.",
+        "仲裁 là hòa giải, không đối lập với giải pháp hòa bình ở đây.",
+        "武力 là sức mạnh quân sự; câu đối lập dùng vũ lực với đối thoại.",
+        "交渉 là thương lượng, cũng thuộc giải pháp bằng đối thoại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-11",
+      "type": "context",
+      "word": "武装",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 36,
+      "prompt": "兵士たちは銃や防具を身に着け、完全に（　）して出動した。",
+      "origin": "authored",
+      "options": [
+        "仮装",
+        "変装",
+        "武装",
+        "偽装"
+      ],
+      "explanations": [
+        "仮装 là hóa trang, không phải mặc trang bị thật của binh sĩ.",
+        "変装 là cải trang để đổi diện mạo, không phải trang bị chiến đấu.",
+        "武装 là trang bị vũ khí và thiết bị chiến đấu.",
+        "偽装 là ngụy trang hoặc làm giả để che giấu, không phải nghĩa trang bị vũ khí."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-12",
+      "type": "context",
+      "word": "敷金",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 31,
+      "prompt": "賃貸契約時に預け、退去時に未払い家賃や修繕費を差し引いて返してもらうお金を（　）という。",
+      "origin": "authored",
+      "options": [
+        "礼金",
+        "敷金",
+        "家賃",
+        "仲介手数料"
+      ],
+      "explanations": [
+        "礼金 là khoản trả cho chủ nhà theo hợp đồng và thường không hoàn lại; khác khoản bảo đảm được mô tả.",
+        "敷金 là khoản đặt cọc bảo đảm khi thuê nhà, được quyết toán khi trả nhà.",
+        "家賃 là tiền thuê nhà theo kỳ, không phải tiền đặt cọc.",
+        "仲介手数料 là phí cho bên môi giới, không phải tiền bảo đảm chủ nhà giữ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai20-13",
+      "type": "context",
+      "word": "付随",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 26,
+      "prompt": "本体の価格だけでなく、購入に（　）する輸送費も計算に入れた。",
+      "origin": "authored",
+      "options": [
+        "随筆",
+        "随行",
+        "追随",
+        "付随"
+      ],
+      "explanations": [
+        "随筆 là thể loại tùy bút, không phải động từ đi kèm.",
+        "随行 là tháp tùng một người.",
+        "追随 là đi theo hoặc bắt chước người khác, không dùng cho phí đi kèm việc mua.",
+        "付随 là đi kèm, phát sinh cùng một việc chính."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai20-14",
+      "type": "context",
+      "word": "非行",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 4,
+      "prompt": "少年の万引きや暴走行為などの（　）を防ぐため、地域で見守りを続けている。",
+      "origin": "authored",
+      "options": [
+        "非凡",
+        "非行",
+        "非難",
+        "非情"
+      ],
+      "explanations": [
+        "非凡 là xuất chúng, không chỉ hành vi phạm chuẩn mực.",
+        "非行 là hành vi sai trái của thanh thiếu niên.",
+        "非難 là chỉ trích, không phải tên hành vi trộm hoặc chạy xe gây rối.",
+        "非情 là vô tình, lạnh lùng; không phải phạm trù hành vi thiếu niên ở đây."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai20-15",
+      "type": "context",
+      "word": "弁解",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 89,
+      "prompt": "遅刻の理由を聞かれた彼は、寝坊した事実を認めず、延々と（　）を続けた。",
+      "origin": "authored",
+      "options": [
+        "弔辞",
+        "謝辞",
+        "弁解",
+        "祝辞"
+      ],
+      "explanations": [
+        "弔辞 là lời điếu, không liên quan tình huống đi muộn.",
+        "謝辞 là lời cảm ơn, không phù hợp với chống chế việc đi muộn.",
+        "弁解 là viện lý do để biện hộ cho lỗi của mình.",
+        "祝辞 là lời chúc mừng, không phải lời giải thích lỗi."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-16",
+      "type": "context",
+      "word": "不況",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 23,
+      "prompt": "長引く（　）で企業の売り上げが落ち込み、失業者も増えている。",
+      "origin": "authored",
+      "options": [
+        "活況",
+        "繁栄",
+        "不況",
+        "好況"
+      ],
+      "explanations": [
+        "活況 là sôi động, phát đạt, không phải tình hình suy giảm.",
+        "繁栄 là phồn vinh, ngược diễn biến được nêu.",
+        "不況 là suy thoái, tình hình kinh tế xấu.",
+        "好況 là kinh tế tốt, trái với doanh thu giảm và thất nghiệp tăng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-17",
+      "type": "paraphrase",
+      "word": "復帰",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 42,
+      "prompt": "けがが治り、選手は試合に【復帰した】。",
+      "origin": "authored",
+      "options": [
+        "初めて参加した",
+        "別れを告げた",
+        "戻った",
+        "出場を断った"
+      ],
+      "explanations": [
+        "Lần đầu tham gia khác với trở lại.",
+        "Chào tạm biệt không phải trở lại.",
+        "復帰 là trở lại vị trí hoặc hoạt động trước đó.",
+        "Từ chối tham gia trái với復帰."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-18",
+      "type": "paraphrase",
+      "word": "微笑",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 7,
+      "prompt": "彼女は静かに【微笑した】。",
+      "origin": "authored",
+      "options": [
+        "大声で笑い続けた",
+        "ほほえんだ",
+        "声を上げて泣いた",
+        "激しく怒った"
+      ],
+      "explanations": [
+        "Cười lớn liên tục không phải cười nhẹ.",
+        "微笑 là mỉm cười nhẹ nhàng.",
+        "Khóc thành tiếng khác với mỉm cười.",
+        "Tức giận dữ dội trái với微笑."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai20-19",
+      "type": "paraphrase",
+      "word": "扶養",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 30,
+      "prompt": "彼は高齢の両親を【扶養している】。",
+      "origin": "authored",
+      "options": [
+        "経済的に支えている",
+        "新しい仕事に就かせている",
+        "外国へ案内している",
+        "病気の診断をしている"
+      ],
+      "explanations": [
+        "扶養 là chu cấp, hỗ trợ sinh hoạt cho người thân.",
+        "Sắp xếp việc làm không đồng nghĩa chu cấp.",
+        "Dẫn đi nước ngoài không phải nuôi dưỡng sinh kế.",
+        "Chẩn đoán bệnh không phải扶養."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-20",
+      "type": "paraphrase",
+      "word": "紛失",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 64,
+      "prompt": "出張中に社員証を【紛失した】。",
+      "origin": "authored",
+      "options": [
+        "なくした",
+        "期限を延ばした",
+        "新しく作った",
+        "他人に貸した"
+      ],
+      "explanations": [
+        "紛失 là làm mất.",
+        "Gia hạn không phải mất vật.",
+        "Làm mới không phải紛失.",
+        "Cho mượn không đồng nghĩa với làm mất."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-21",
+      "type": "paraphrase",
+      "word": "平常",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 69,
+      "prompt": "事故の後、列車は【平常】どおりの運行に戻った。",
+      "origin": "authored",
+      "options": [
+        "普段",
+        "例外",
+        "臨時",
+        "休日"
+      ],
+      "explanations": [
+        "平常どおり là như thường lệ.",
+        "例外 là ngoại lệ, trái với thường lệ.",
+        "臨時 là tạm thời, đặc biệt.",
+        "休日 là ngày nghỉ, không đồng nghĩa tình trạng bình thường."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-22",
+      "type": "paraphrase",
+      "word": "文献",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 67,
+      "prompt": "論文を書くために、関連する【文献】を集めた。",
+      "origin": "authored",
+      "options": [
+        "調査に必要な交通費",
+        "参考になる書物や記録",
+        "会議に出席する人々",
+        "研究に使う実験器具"
+      ],
+      "explanations": [
+        "Chi phí đi lại không phải nguồn văn bản nghiên cứu.",
+        "文献 là sách, tài liệu và ghi chép dùng làm nguồn nghiên cứu.",
+        "Người dự họp không phải tài liệu.",
+        "Dụng cụ thí nghiệm không phải文献."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai20-23",
+      "type": "paraphrase",
+      "word": "保障",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 96,
+      "prompt": "憲法は表現の自由を【保障している】。",
+      "origin": "authored",
+      "options": [
+        "権利として守っている",
+        "商品の品質を請け負っている",
+        "制限するよう求めている",
+        "損失を金銭で埋めている"
+      ],
+      "explanations": [
+        "保障 là bảo vệ và bảo đảm quyền, điều kiện cần thiết.",
+        "Bảo hành chất lượng là 保証, khác với保障 quyền.",
+        "Yêu cầu hạn chế trái với bảo đảm quyền.",
+        "Bồi đắp tổn thất là 補償, không phải保障."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-24",
+      "type": "usage",
+      "word": "弁償",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 91,
+      "prompt": "弁償",
+      "origin": "authored",
+      "options": [
+        "借りたカメラを壊してしまい、修理代を弁償した。",
+        "仕事を手伝ってくれた人に、感謝の弁償を渡した。",
+        "理由を尋ねられ、欠席した事情を弁償した。",
+        "入店時に、飲食代を前もって弁償した。"
+      ],
+      "explanations": [
+        "弁償 là bồi hoàn thiệt hại mình gây ra cho tài sản người khác.",
+        "Tiền cảm ơn hoặc thù lao dùng 謝礼; không phải bồi thường hư hại.",
+        "Giải thích dùng 説明・弁明; 弁償 là bồi hoàn.",
+        "Thanh toán đồ ăn dùng 支払う; không có thiệt hại cần弁償."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-25",
+      "type": "usage",
+      "word": "変動",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 81,
+      "prompt": "変動",
+      "origin": "authored",
+      "options": [
+        "先生の話に心を変動され、涙が出た。",
+        "間違えた漢字を正しい字に変動した。",
+        "引っ越しのため、家具を別の部屋へ変動した。",
+        "為替相場が大きく変動し、輸入品の価格も不安定になった。"
+      ],
+      "explanations": [
+        "Xúc động dùng 感動・心を動かされる, không dùng biến động như vậy.",
+        "Sửa chữ dùng 訂正・修正, không phải biến động.",
+        "Di chuyển đồ dùng 移動; không dùng変動 làm động từ chuyển vật.",
+        "変動 là dao động, thay đổi theo thời gian của mức hoặc tình thế."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai20-26",
+      "type": "usage",
+      "word": "奮闘",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 62,
+      "prompt": "奮闘",
+      "origin": "authored",
+      "options": [
+        "疲れを取るため、何もせず横になって奮闘した。",
+        "驚いた拍子に、机から本を奮闘した。",
+        "冷蔵庫の温度を下げるため、つまみを奮闘した。",
+        "慣れない仕事に苦労しながらも、彼は毎日奮闘している。"
+      ],
+      "explanations": [
+        "Nằm nghỉ không làm gì là 休息; trái với dốc sức hoạt động.",
+        "Làm rơi hoặc hất sách dùng 落とす; không dùng奮闘.",
+        "Vặn núm dùng 回す・調整; 奮闘 chỉ nỗ lực của người.",
+        "奮闘 là nỗ lực hết sức trước nhiệm vụ khó khăn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai20-27",
+      "type": "usage",
+      "word": "文句",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 66,
+      "prompt": "文句",
+      "origin": "authored",
+      "options": [
+        "言葉を一文字ずつ数えて、文句の重さを量った。",
+        "役所から住所の文句を発行してもらった。",
+        "説明もなく長時間待たされ、客が文句を言った。",
+        "鉛筆で線を引くために、文句を使った。"
+      ],
+      "explanations": [
+        "Đếm chữ là 文字数を数える; 文句 không có trọng lượng vật lý để cân.",
+        "Giấy xác nhận địa chỉ dùng 証明書など; 文句 là lời, câu hoặc lời than phiền.",
+        "文句を言う là phàn nàn về điều không hài lòng.",
+        "Dụng cụ kẻ đường là 定規; 文句 không phải dụng cụ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai20-28",
+      "type": "usage",
+      "word": "風味",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 40,
+      "prompt": "風味",
+      "origin": "authored",
+      "options": [
+        "風味が北に変わったので、煙がこちらに流れてきた。",
+        "山頂からの風味が美しく、写真を撮った。",
+        "明日は北から強い風味が吹くそうだ。",
+        "この茶は、香ばしい風味が特徴だ。"
+      ],
+      "explanations": [
+        "Hướng gió dùng 風向き; 風味 là hương vị, không có hướng bắc.",
+        "Cảnh quan nhìn từ núi là 風景・眺め, không phải風味.",
+        "Gió thổi là 風; 風味 không phải gió thời tiết.",
+        "風味 là hương và vị riêng của đồ ăn, thức uống."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai20-29",
+      "type": "usage",
+      "word": "腐敗",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 33,
+      "prompt": "腐敗",
+      "origin": "authored",
+      "options": [
+        "冷蔵せずに放置した肉が腐敗し、強い臭いを放っていた。",
+        "長い間使っていない電池が腐敗して、電力を失った。",
+        "試合の残り時間が腐敗したため、審判が笛を吹いた。",
+        "日が沈むにつれて、空の明るさが腐敗した。"
+      ],
+      "explanations": [
+        "腐敗 là phân hủy, thối rữa; cũng có nghĩa suy đồi đạo đức trong ngữ cảnh khác.",
+        "Pin hết hoặc suy giảm dùng 消耗・劣化; không gọi là thối rữa.",
+        "Thời gian hết dùng 経過・なくなる, không dùng腐敗.",
+        "Trời tối đi dùng 暗くなる; không phải腐敗."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai20-30",
+      "type": "usage",
+      "word": "弁明",
+      "source_file": "resources/N1/goi/dai20.csv",
+      "source_line": 92,
+      "prompt": "弁明",
+      "origin": "authored",
+      "options": [
+        "身に覚えのない疑いをかけられ、彼は事実を示して弁明した。",
+        "新品の機械を分解して内部の構造を弁明した。",
+        "法律の専門家が被告人を弁明する職業に就いた。",
+        "壊した花瓶の代金を弁明した。"
+      ],
+      "explanations": [
+        "弁明 là giải thích để làm rõ lập trường hoặc gỡ nghi vấn về mình.",
+        "Làm rõ cấu tạo kỹ thuật dùng 解明・説明; 弁明 nhằm giải thích lập trường trước nghi vấn.",
+        "Hoạt động bào chữa cho bị cáo dùng 弁護; 弁明 không trực tiếp lấy người làm tân ngữ này.",
+        "Bồi thường tiền dùng 弁償, không dùng弁明."
+      ],
+      "answer": 0
+    }
+  ]
+}
