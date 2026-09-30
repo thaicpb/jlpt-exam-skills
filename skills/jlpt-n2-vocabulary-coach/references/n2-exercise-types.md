@@ -12,23 +12,23 @@ Cấu hình mô phỏng theo ảnh: 5 + 5 + 3 + 7 + 5 + 5 = 30 câu. Chính tài
 
 - Hiển thị một câu tiếng Nhật, gạch dưới mục từ cần đọc; bốn lựa chọn là cách đọc bằng kana.
 - Chọn một cách đọc đúng với từ trong ngữ cảnh. Không hiện furigana hay nghĩa Việt trước khi trả lời.
-- Nhiễu cần kiểm tra nhầm âm dài, âm ngắt, âm đục, âm bán đục hoặc on/kun; tránh bốn cách đọc khác nhau hoàn toàn khiến câu hỏi quá dễ.
+- Chỉ hỏi mục tiêu có kanji. Nhiễu phải là cách đọc của từ khác có thật, ưu tiên gần âm; không tự đổi âm dài/ngắt/đục/bán đục hoặc on/kun để bịa cách đọc. Mỗi giải thích nêu từ thật tương ứng, cách đọc và nghĩa; chẳng hạn 確認（かくにん）khác 確信（かくしん）.
 - Sau khi trả lời: hiện từ, cách đọc chuẩn, nghĩa Việt và giải thích khác biệt âm ở từng phương án sai.
 - Phần `【…】` phải là nguyên văn mục từ. Builder bỏ riêng ghi chú cuối `(する)`/`（する）`/`(な)` khi đối chiếu và tách cách đọc theo `/`/`／`; đúng một lựa chọn phải khớp CSV. AI vẫn xác minh cách đọc phù hợp ngữ cảnh; không đặt hai cách đọc hợp lệ làm hai đáp án.
 
 ## 2. 表記 — Chọn cách viết (5 câu)
 
 - Hiển thị câu có mục tiêu viết bằng kana và được gạch dưới; bốn lựa chọn là cách viết bằng kanji.
-- Nhiễu có thể là chữ gần hình hoặc đồng âm khác nghĩa. Không để kanji đáp án lộ trong tiêu đề hoặc gợi ý.
+- Nhiễu phải là **từ kanji có thật**, ưu tiên đồng âm khác nghĩa hoặc gần hình; không đảo chữ hay ghép chữ thành từ không tồn tại như `価各`. Không để kanji đáp án lộ trong tiêu đề hoặc gợi ý.
 - Câu sau khi thay kana bằng đáp án phải tự nhiên, đúng nghĩa. Builder yêu cầu đáp án đúng bằng nguyên văn mục từ CSV và phần kana được đánh dấu khớp cách đọc CSV; chọn câu giữ nguyên dạng đó.
-- Giải thích vì sao cách viết đúng phù hợp; không dạy phương án viết sai như một từ có thật.
+- Giải thích nghĩa/cách đọc thật của từng từ và vì sao chỉ đáp án đúng khớp kana lẫn ngữ cảnh. Một cách viết khác cũng đúng cho nghĩa đang hỏi phải bị loại khỏi bộ nhiễu.
 
 ## 3. 語形成 — Cấu tạo từ (3 câu)
 
 - Để trống một thành tố của từ trong câu: tiền tố, hậu tố hoặc thành phần từ ghép. Không xóa toàn bộ từ như dạng 4.
-- Bốn lựa chọn là các thành tố điền vào chỗ trống. Sau khi ghép, đáp án đúng phải tạo thành mục từ đã xác minh trong CSV.
+- Bốn lựa chọn là các thành tố có thật. **Cả bốn từ hoàn chỉnh sau khi ghép prefix + lựa chọn + suffix đều phải tồn tại và có nghĩa**, nhưng chỉ một từ đúng ngữ cảnh; đáp án đúng tạo thành mục từ CSV. Không chỉ kiểm tra thành tố riêng lẻ rồi chấp nhận từ ghép bịa.
 - Phải có căn cứ cho phép tách thành tố; không cắt một kanji bất kỳ rồi gọi là cấu tạo từ.
-- Giải thích ý nghĩa của thành tố trong từ hoàn chỉnh và vì sao ba cách ghép còn lại không phù hợp.
+- Giải thích ý nghĩa của cả bốn từ sau khi ghép và vì sao ba từ kia không phù hợp ngữ cảnh. Ví dụ `（　）習` có thể ghép 学・予・復・自 thành 学習・予習・復習・自習; câu phải phân biệt nghĩa để chỉ một từ đúng. Không ghép `高・少` với `料` làm nhiễu cho 無料 nếu không xác minh được từ hoàn chỉnh.
 
 ## 4. 文脈規定 — Điền từ theo ngữ cảnh (7 câu)
 
@@ -42,17 +42,19 @@ Cấu hình mô phỏng theo ảnh: 5 + 5 + 3 + 7 + 5 + 5 = 30 câu. Chính tài
 
 - Gạch dưới từ/cụm từ trong một câu; bốn lựa chọn đều là cách diễn đạt bằng tiếng Nhật.
 - Chọn cách diễn đạt gần nghĩa nhất trong câu đó. Trắc nghiệm Nhật → nghĩa Việt không được gắn nhãn dạng này.
-- Giữ sự tương thích về dạng chia, sắc thái và ngữ cảnh; gần nghĩa trong từ điển chưa chắc thay thế được trong câu.
+- Thay thử từng lựa chọn vào đúng phần `【…】`; giữ trợ từ, dạng chia, sắc thái, không lặp phần ngoài đánh dấu. Gần nghĩa trong từ điển chưa chắc thay thế được trong câu.
 - Giải thích quan hệ nghĩa, sự khác biệt của các phương án sai và dịch nghĩa bằng tiếng Việt sau khi chấm.
 
 ## 6. 用法 — Cách dùng (5 câu)
 
 - Hiển thị một từ mục tiêu và bốn câu đầy đủ; cả bốn câu đều phải chứa từ đó hoặc dạng chia hợp lệ của nó.
-- Một câu dùng đúng nghĩa và kết hợp từ; ba câu còn lại sai cách dùng mục tiêu, không chỉ sai chính tả hay ngữ pháp không liên quan.
+- Một câu dùng đúng nghĩa và kết hợp từ; ba câu kia có cấu trúc bình thường và tình huống hợp lý nhưng sai ở nghĩa, kết hợp hoặc sắc thái của từ mục tiêu. Không dùng câu vô nghĩa như `店でパンを二つ到着しました。`, tự mâu thuẫn hoặc lỗi ngữ pháp không liên quan để người học loại ngay.
 - Không lấy ba câu ví dụ của ba từ khác rồi dùng chúng làm phương án sai khi chúng không chứa mục tiêu.
 - Sau khi chấm, giải thích riêng từng câu và chỉ ra điểm dùng sai. Chỉ đưa câu sửa khi phạm vi nguồn cho phép.
 
 ## Chính sách biên soạn và chất lượng
+
+Áp dụng toàn bộ mục **Chất lượng đáp án** và **Rà từng câu trước khi dựng HTML** trong [SKILL.md](../SKILL.md); cả 表記 và 語形成 cũng không được dùng từ/cách ghép bịa.
 
 1. Nạp CSV thật bằng loader; ghi nguồn file/dòng của mọi từ mục tiêu. Không thay đổi CSV để hợp thức hóa câu hỏi đã tự tạo.
 2. Phân biệt dữ liệu gốc (từ, cách đọc, nghĩa, câu mẫu) và nội dung bài tập được biên soạn (câu hỏi, nhiễu, giải thích). Các ví dụ trong ảnh không tự động trở thành từ được phép chọn.

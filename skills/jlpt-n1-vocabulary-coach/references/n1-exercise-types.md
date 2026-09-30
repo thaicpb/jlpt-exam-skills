@@ -17,7 +17,8 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 
 - Hiển thị câu tiếng Nhật và gạch dưới đúng một từ mục tiêu bằng `【…】`.
 - Bốn lựa chọn là kana; đúng một lựa chọn khớp cách đọc cùng hàng CSV. Phần `【…】` phải là nguyên văn mục từ. Builder chỉ bỏ ghi chú cuối `(する)`/`（する）`/`(な)` khi đối chiếu cách đọc; dấu `/`/`／` phân tách các cách đọc đã có. Không đưa hai cách đọc hợp lệ vào cùng câu; AI vẫn xác minh cách đọc phù hợp ngữ cảnh.
-- Nhiễu nên kiểm tra nhầm on/kun, trường âm `ー`, âm ngắt `っ`, âm đục `゛` hoặc bán đục `゜` thay vì tạo bốn cách đọc hoàn toàn khác nhau.
+- Chỉ chọn mục tiêu có kanji. Nhiễu là cách đọc của **từ khác có thật**, ưu tiên gần âm; không tự biến đổi on/kun, âm dài/ngắt/đục để sinh chuỗi kana. Giải thích phải nêu từ thật và nghĩa tương ứng với từng cách đọc.
+- Với bank mới, đặt `reading_policy: "attested-csv"` ở cấp bank và cung cấp bốn `option_lexemes` theo mẫu bên dưới để builder đối chiếu từng phương án với CSV N1. Chọn thêm một nhóm nguồn nhỏ nếu cần nhiễu, không quét toàn bộ corpus; không bỏ cờ để vượt lỗi xác minh. Nếu không đủ nhiễu phù hợp, đổi câu hoặc báo thiếu.
 - Sau khi chấm, hiện cách đọc chuẩn, nghĩa Việt và giải thích sai khác của từng phương án.
 
 ## 2. 文脈規定 — Ngữ cảnh
@@ -31,16 +32,18 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 
 - Gạch dưới từ/cụm từ mục tiêu bằng `【…】`; bốn lựa chọn đều là cách diễn đạt tiếng Nhật.
 - Chọn phương án gần nghĩa nhất trong chính ngữ cảnh đó. Không biến dạng này thành câu hỏi Nhật → nghĩa Việt.
-- Giữ tương thích về dạng chia, sắc thái và khả năng thay thế trong câu.
+- Thay thử đúng phần đánh dấu bằng từng lựa chọn; giữ tương thích về dạng chia, trợ từ và sắc thái, không lặp lại phần câu nằm ngoài `【…】`.
 - Sau khi chấm, giải thích quan hệ nghĩa và dịch nghĩa tiếng Việt.
 
 ## 4. 用法 — Cách dùng
 
 - Hiển thị một từ mục tiêu và bốn câu đầy đủ; cả bốn câu phải chứa nguyên văn từ mục tiêu vì builder hiện đối chiếu chuỗi chính xác. Chọn từ/câu phù hợp giới hạn này; không dùng dạng biến hình mất nguyên văn mục từ.
-- Một câu dùng đúng nghĩa và kết hợp từ; ba câu còn lại sai cách dùng từ mục tiêu, không chỉ sai ngữ pháp không liên quan.
+- Một câu dùng đúng nghĩa và kết hợp từ; ba câu còn lại chỉ sai cách dùng từ mục tiêu. Viết bốn câu có cấu trúc bình thường, tình huống hợp lý; không dùng câu vô nghĩa như `駅まで衣装を運転した。`, câu tự mâu thuẫn hoặc lỗi ngữ pháp không liên quan làm nhiễu.
 - Giải thích riêng từng câu và chỉ ra kết hợp hoặc nghĩa dùng sai.
 
 ## Chính sách chất lượng
+
+Áp dụng toàn bộ mục **Chất lượng đáp án** và **Rà từng câu trước khi dựng HTML** trong [SKILL.md](../SKILL.md); các tiêu chí từng dạng không cho phép ngoại lệ với từ/cách đọc không tồn tại.
 
 1. Mỗi từ mục tiêu phải đối chiếu được với `resources/N1/goi/*.csv` bằng file và dòng.
 2. Mỗi câu có đúng bốn lựa chọn khác nhau, một đáp án, bốn giải thích tiếng Việt và `origin: authored`.
@@ -54,6 +57,8 @@ Tổng cấu hình minh họa là 25 câu; ảnh ghi số câu có thể thay đ
 - `prompt`: dùng `【…】` cho reading/paraphrase, `（　）` cho context; usage dùng từ mục tiêu làm prompt.
 - `options`, `explanations`: mỗi trường đúng bốn phần tử; `answer` là chỉ số 0–3.
 - `source_file`, `source_line`, `word`: phải khớp cùng hàng CSV N1.
+- Với reading, `option_lexemes[i]` gồm `word`, `reading`, `source_file`, `source_line` của từ thật mang cách đọc `options[i]`; có đủ bốn phần tử kể cả đáp án đúng. `reading` là cách đọc đã bỏ ghi chú ngữ pháp, không tự tạo biến thể. Xem `assets/n1-sample.json` để biết schema đầy đủ.
+- Khi xáo lựa chọn, xáo đồng thời `options`, `explanations`, `option_lexemes` và cập nhật `answer`; chứng cứ không khớp vị trí sẽ bị từ chối.
 
 ```bash
 python3 scripts/build_n1_exam.py --output /allowed/path/n1-four-types.html
