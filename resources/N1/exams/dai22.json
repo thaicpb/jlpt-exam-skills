@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai22-30",
+  "title": "N1 · Bài 22 · 30 câu",
+  "level": "N1",
+  "lesson": "dai22",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093022,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai22.csv"
+  },
+  "choice_seed": 2026100022,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai22-01",
+      "type": "reading",
+      "word": "身代金",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 99,
+      "prompt": "犯人が【身代金】を要求した。",
+      "origin": "authored",
+      "options": [
+        "みのまわり",
+        "みんしゅう",
+        "みのしろきん",
+        "みっしゅう"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "身の回り",
+          "reading": "みのまわり",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 32
+        },
+        {
+          "word": "民衆",
+          "reading": "みんしゅう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 57
+        },
+        {
+          "word": "身代金",
+          "reading": "みのしろきん",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 99
+        },
+        {
+          "word": "密集",
+          "reading": "みっしゅう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 55
+        }
+      ],
+      "explanations": [
+        "みのまわり là cách đọc của 身の回り (những thứ quanh mình; đồ dùng cá nhân). Đây là cách đọc có thật, nhưng không phải của 身代金 trong câu.",
+        "みんしゅう là cách đọc của 民衆 (dân chúng). Đây là cách đọc có thật, nhưng không phải của 身代金 trong câu.",
+        "みのしろきん là cách đọc của 身代金 (tiền chuộc người). Khớp từ và ngữ cảnh được hỏi.",
+        "みっしゅう là cách đọc của 密集 (tập trung dày đặc). Đây là cách đọc có thật, nhưng không phải của 身代金 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-02",
+      "type": "reading",
+      "word": "用心",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 45,
+      "prompt": "火の元に【用心】する。",
+      "origin": "authored",
+      "options": [
+        "ようしゃ",
+        "ようかい",
+        "ようじん",
+        "よういん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "容赦",
+          "reading": "ようしゃ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 40
+        },
+        {
+          "word": "妖怪",
+          "reading": "ようかい",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 39
+        },
+        {
+          "word": "用心",
+          "reading": "ようじん",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 45
+        },
+        {
+          "word": "要因",
+          "reading": "よういん",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 46
+        }
+      ],
+      "explanations": [
+        "ようしゃ là cách đọc của 容赦 (nương tay; tha thứ). Đây là cách đọc có thật, nhưng không phải của 用心 trong câu.",
+        "ようかい là cách đọc của 妖怪 (yêu quái). Đây là cách đọc có thật, nhưng không phải của 用心 trong câu.",
+        "ようじん là cách đọc của 用心 (cẩn thận đề phòng). Khớp từ và ngữ cảnh được hỏi.",
+        "よういん là cách đọc của 要因 (yếu tố gây nên). Đây là cách đọc có thật, nhưng không phải của 用心 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-03",
+      "type": "reading",
+      "word": "連盟",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 5,
+      "prompt": "国際【連盟】の歴史を学ぶ。",
+      "origin": "authored",
+      "options": [
+        "れんぽう",
+        "れんめい",
+        "れんたい",
+        "れんけい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "連邦",
+          "reading": "れんぽう",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 4
+        },
+        {
+          "word": "連盟",
+          "reading": "れんめい",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 5
+        },
+        {
+          "word": "連帯",
+          "reading": "れんたい",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 2
+        },
+        {
+          "word": "連係",
+          "reading": "れんけい",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 99
+        }
+      ],
+      "explanations": [
+        "れんぽう là cách đọc của 連邦 (liên bang). Đây là cách đọc có thật, nhưng không phải của 連盟 trong câu.",
+        "れんめい là cách đọc của 連盟 (liên đoàn; liên minh). Khớp từ và ngữ cảnh được hỏi.",
+        "れんたい là cách đọc của 連帯 (đoàn kết; cùng chịu trách nhiệm). Đây là cách đọc có thật, nhưng không phải của 連盟 trong câu.",
+        "れんけい là cách đọc của 連係 (phối hợp liên tiếp các động tác). Đây là cách đọc có thật, nhưng không phải của 連盟 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-04",
+      "type": "reading",
+      "word": "区役所",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 93,
+      "prompt": "【区役所】で必要な書類を受け取る。",
+      "origin": "authored",
+      "options": [
+        "やくしょく",
+        "やくしん",
+        "くやくしょ",
+        "やくがら"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "役職",
+          "reading": "やくしょく",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 87
+        },
+        {
+          "word": "躍進",
+          "reading": "やくしん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 89
+        },
+        {
+          "word": "区役所",
+          "reading": "くやくしょ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 93
+        },
+        {
+          "word": "役柄",
+          "reading": "やくがら",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 88
+        }
+      ],
+      "explanations": [
+        "やくしょく là cách đọc của 役職 (chức vụ). Đây là cách đọc có thật, nhưng không phải của 区役所 trong câu.",
+        "やくしん là cách đọc của 躍進 (tiến bộ vượt bậc). Đây là cách đọc có thật, nhưng không phải của 区役所 trong câu.",
+        "くやくしょ là cách đọc của 区役所 (trụ sở hành chính quận). Khớp từ và ngữ cảnh được hỏi.",
+        "やくがら là cách đọc của 役柄 (vai diễn; tính chất vai). Đây là cách đọc có thật, nhưng không phải của 区役所 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-05",
+      "type": "reading",
+      "word": "奨学金",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 97,
+      "prompt": "【奨学金】を受けて大学に通う。",
+      "origin": "authored",
+      "options": [
+        "りょうしき",
+        "しょうがくきん",
+        "りょういき",
+        "かじょうがき"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "良識",
+          "reading": "りょうしき",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 69
+        },
+        {
+          "word": "奨学金",
+          "reading": "しょうがくきん",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 97
+        },
+        {
+          "word": "領域",
+          "reading": "りょういき",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 70
+        },
+        {
+          "word": "箇条書き",
+          "reading": "かじょうがき",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 65
+        }
+      ],
+      "explanations": [
+        "りょうしき là cách đọc của 良識 (lương tri; khả năng phán đoán đúng đắn). Đây là cách đọc có thật, nhưng không phải của 奨学金 trong câu.",
+        "しょうがくきん là cách đọc của 奨学金 (học bổng; khoản hỗ trợ học tập). Khớp từ và ngữ cảnh được hỏi.",
+        "りょういき là cách đọc của 領域 (lĩnh vực; phạm vi). Đây là cách đọc có thật, nhưng không phải của 奨学金 trong câu.",
+        "かじょうがき là cách đọc của 箇条書き (cách viết gạch đầu dòng). Đây là cách đọc có thật, nhưng không phải của 奨学金 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-06",
+      "type": "reading",
+      "word": "嫌味",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 87,
+      "prompt": "【嫌味】な言い方は避けたい。",
+      "origin": "authored",
+      "options": [
+        "いきき",
+        "いびき",
+        "いこい",
+        "いやみ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "行き来",
+          "reading": "いきき",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 94
+        },
+        {
+          "word": "いびき",
+          "reading": "いびき",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 16
+        },
+        {
+          "word": "憩い",
+          "reading": "いこい",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 84
+        },
+        {
+          "word": "嫌味",
+          "reading": "いやみ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 87
+        }
+      ],
+      "explanations": [
+        "いきき là cách đọc của 行き来 (việc đi lại; qua lại). Đây là cách đọc có thật, nhưng không phải của 嫌味 trong câu.",
+        "いびき là cách đọc của いびき (tiếng ngáy). Đây là cách đọc có thật, nhưng không phải của 嫌味 trong câu.",
+        "いこい là cách đọc của 憩い (sự nghỉ ngơi; thư giãn). Đây là cách đọc có thật, nhưng không phải của 嫌味 trong câu.",
+        "いやみ là cách đọc của 嫌味 (lời mỉa mai; vẻ khó ưa, phô trương). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai22-07",
+      "type": "reading",
+      "word": "遊牧",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 28,
+      "prompt": "草原で【遊牧】を営む。",
+      "origin": "authored",
+      "options": [
+        "ゆうぼく",
+        "ゆうせい",
+        "ゆうわく",
+        "ゆうえつ"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "遊牧",
+          "reading": "ゆうぼく",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 28
+        },
+        {
+          "word": "優勢",
+          "reading": "ゆうせい",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 14
+        },
+        {
+          "word": "誘惑",
+          "reading": "ゆうわく",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 27
+        },
+        {
+          "word": "優越",
+          "reading": "ゆうえつ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 13
+        }
+      ],
+      "explanations": [
+        "ゆうぼく là cách đọc của 遊牧 (chăn nuôi du mục). Khớp từ và ngữ cảnh được hỏi.",
+        "ゆうせい là cách đọc của 優勢 (chiếm ưu thế). Đây là cách đọc có thật, nhưng không phải của 遊牧 trong câu.",
+        "ゆうわく là cách đọc của 誘惑 (cám dỗ). Đây là cách đọc có thật, nhưng không phải của 遊牧 trong câu.",
+        "ゆうえつ là cách đọc của 優越 (vượt trội hơn). Đây là cách đọc có thật, nhưng không phải của 遊牧 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai22-08",
+      "type": "reading",
+      "word": "容赦",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 40,
+      "prompt": "今回は【容赦】しない。",
+      "origin": "authored",
+      "options": [
+        "ようかい",
+        "ようしき",
+        "ようそう",
+        "ようしゃ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "妖怪",
+          "reading": "ようかい",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 39
+        },
+        {
+          "word": "様式",
+          "reading": "ようしき",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 41
+        },
+        {
+          "word": "様相",
+          "reading": "ようそう",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 42
+        },
+        {
+          "word": "容赦",
+          "reading": "ようしゃ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 40
+        }
+      ],
+      "explanations": [
+        "ようかい là cách đọc của 妖怪 (yêu quái). Đây là cách đọc có thật, nhưng không phải của 容赦 trong câu.",
+        "ようしき là cách đọc của 様式 (kiểu cách; hình thức). Đây là cách đọc có thật, nhưng không phải của 容赦 trong câu.",
+        "ようそう là cách đọc của 様相 (diện mạo; tình hình thể hiện ra). Đây là cách đọc có thật, nhưng không phải của 容赦 trong câu.",
+        "ようしゃ là cách đọc của 容赦 (nương tay; tha thứ). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai22-09",
+      "type": "context",
+      "word": "腕前",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 83,
+      "prompt": "修業を重ねた料理人の（　）は確かで、難しい料理も見事に仕上げる。",
+      "origin": "authored",
+      "options": [
+        "建前",
+        "腕前",
+        "名前",
+        "手前"
+      ],
+      "explanations": [
+        "建前 là nguyên tắc hoặc lập trường công khai.",
+        "腕前 là tay nghề, kỹ năng thực tế.",
+        "名前 là tên, không phải trình độ kỹ thuật.",
+        "手前 là phía trước hoặc phía mình."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai22-10",
+      "type": "context",
+      "word": "誘拐",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 23,
+      "prompt": "犯人は子どもを連れ去り、身代金を要求した。警察は（　）事件として捜査している。",
+      "origin": "authored",
+      "options": [
+        "誘拐",
+        "横領",
+        "窃盗",
+        "密輸"
+      ],
+      "explanations": [
+        "誘拐 là dụ hoặc bắt đưa người đi, phù hợp với đòi tiền chuộc.",
+        "横領 là chiếm đoạt tài sản được giao quản lý.",
+        "窃盗 là trộm tài sản, không phải bắt cóc người.",
+        "密輸 là buôn lậu qua biên giới."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-11",
+      "type": "context",
+      "word": "感無量",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 92,
+      "prompt": "三十年ぶりに故郷の恩師と再会し、言葉にならないほど（　）だった。",
+      "origin": "authored",
+      "options": [
+        "無関心",
+        "無感覚",
+        "感無量",
+        "無表情"
+      ],
+      "explanations": [
+        "無関心 là không quan tâm.",
+        "無感覚 là mất hoặc không có cảm giác.",
+        "感無量 là xúc động vô cùng, khó diễn đạt.",
+        "無表情 là không biểu cảm, không diễn đạt xúc động khôn xiết."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai22-12",
+      "type": "context",
+      "word": "大惨事",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 101,
+      "prompt": "列車の衝突で多数の死傷者が出る（　）となった。",
+      "origin": "authored",
+      "options": [
+        "大団円",
+        "大健闘",
+        "大惨事",
+        "大盛況"
+      ],
+      "explanations": [
+        "大団円 là kết thúc tốt đẹp, trái với thảm họa.",
+        "大健闘 là nỗ lực thi đấu xuất sắc.",
+        "大惨事 là thảm họa gây thiệt hại lớn.",
+        "大盛況 là vô cùng nhộn nhịp, thành công."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai22-13",
+      "type": "context",
+      "word": "誘惑",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 27,
+      "prompt": "節約中なのに、半額セールの（　）に負けて不要な物まで買った。",
+      "origin": "authored",
+      "options": [
+        "強制",
+        "脅迫",
+        "命令",
+        "誘惑"
+      ],
+      "explanations": [
+        "強制 là cưỡng ép, không phải sức hấp dẫn khiến tự mua.",
+        "脅迫 là đe dọa, không có ở chương trình giảm giá này.",
+        "命令 là mệnh lệnh, không phải cám dỗ.",
+        "誘惑 là cám dỗ khiến muốn làm điều cần kiềm chế."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai22-14",
+      "type": "context",
+      "word": "余興",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 37,
+      "prompt": "披露宴の（　）として、新郎の友人たちが手品を披露した。",
+      "origin": "authored",
+      "options": [
+        "余裕",
+        "余興",
+        "余波",
+        "余韻"
+      ],
+      "explanations": [
+        "余裕 là sự dư dả thời gian, sức lực; không phải tiết mục.",
+        "余興 là tiết mục giải trí trong buổi tiệc.",
+        "余波 là ảnh hưởng lan theo sau sự kiện.",
+        "余韻 là dư âm còn lại sau cảm xúc hoặc âm thanh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai22-15",
+      "type": "context",
+      "word": "老衰",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 12,
+      "prompt": "特定の病気ではなく、年齢とともに体全体が弱る（　）によって亡くなった。",
+      "origin": "authored",
+      "options": [
+        "早熟",
+        "老衰",
+        "発育",
+        "過労"
+      ],
+      "explanations": [
+        "早熟 là trưởng thành sớm.",
+        "老衰 là suy yếu do tuổi già.",
+        "発育 là phát triển cơ thể, không phải suy yếu tuổi già.",
+        "過労 là làm việc quá sức; không phải nguyên nhân lão hóa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai22-16",
+      "type": "context",
+      "word": "理想",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 61,
+      "prompt": "争いのない世界という（　）を掲げ、その実現のため活動している。",
+      "origin": "authored",
+      "options": [
+        "実情",
+        "理想",
+        "既成事実",
+        "現状"
+      ],
+      "explanations": [
+        "実情 là tình hình thực tế.",
+        "理想 là trạng thái hoàn hảo mong muốn đạt tới.",
+        "既成事実 là sự việc đã xảy ra, không phải viễn cảnh mong muốn.",
+        "現状 là tình hình hiện tại, khác với mục tiêu muốn hiện thực hóa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai22-17",
+      "type": "paraphrase",
+      "word": "予断",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 35,
+      "prompt": "調査をする際は【予断】を持たずに話を聞くべきだ。",
+      "origin": "authored",
+      "options": [
+        "相手からの依頼",
+        "今後の予定表",
+        "あらかじめ下した判断",
+        "確認を終えた事実"
+      ],
+      "explanations": [
+        "Yêu cầu từ đối phương không phải予断.",
+        "Lịch tương lai không có nghĩa định kiến.",
+        "予断 là kết luận có sẵn trước khi tìm hiểu.",
+        "Sự thật đã kiểm chứng không phải phán đoán trước."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai22-18",
+      "type": "paraphrase",
+      "word": "郵送",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 29,
+      "prompt": "必要書類を事務局へ【郵送した】。",
+      "origin": "authored",
+      "options": [
+        "その場で印刷した",
+        "電話で読み上げた",
+        "郵便で送った",
+        "自分で持参した"
+      ],
+      "explanations": [
+        "In tại chỗ không phải gửi đi.",
+        "Đọc qua điện thoại khác với郵送.",
+        "郵送 là gửi bằng đường bưu điện.",
+        "Tự đem tới không phải gửi bưu điện."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai22-19",
+      "type": "paraphrase",
+      "word": "連帯",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 2,
+      "prompt": "住民たちは困難を乗り越えるために【連帯した】。",
+      "origin": "authored",
+      "options": [
+        "互いに関係を断った",
+        "責任を押し付け合った",
+        "各自の利益だけを求めた",
+        "力を合わせて結び付いた"
+      ],
+      "explanations": [
+        "Cắt quan hệ trái với連帯.",
+        "Đổ trách nhiệm cho nhau trái với đoàn kết.",
+        "Chỉ mưu lợi riêng không phải đoàn kết.",
+        "連帯 là liên kết, đoàn kết cùng nhau."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai22-20",
+      "type": "paraphrase",
+      "word": "嗜好",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 85,
+      "prompt": "飲み物に対する【嗜好】は人によって違う。",
+      "origin": "authored",
+      "options": [
+        "資格",
+        "義務",
+        "記憶",
+        "好み"
+      ],
+      "explanations": [
+        "資格 là tư cách hoặc chứng chỉ.",
+        "義務 là nghĩa vụ.",
+        "記憶 là trí nhớ, không phải sự ưa thích.",
+        "嗜好 là sở thích, nhất là ăn uống hoặc thú vui."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai22-21",
+      "type": "paraphrase",
+      "word": "優越",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 13,
+      "prompt": "この製品は耐久性で他社製品に【優越している】。",
+      "origin": "authored",
+      "options": [
+        "勝っている",
+        "劣っている",
+        "似通っている",
+        "依存している"
+      ],
+      "explanations": [
+        "優越 là hơn, vượt trội xét một mặt.",
+        "劣る là kém hơn, trái nghĩa.",
+        "Tương tự không có nghĩa tốt hơn.",
+        "Phụ thuộc không phải vượt trội."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-22",
+      "type": "paraphrase",
+      "word": "領海",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 71,
+      "prompt": "船がその国の【領海】に入った。",
+      "origin": "authored",
+      "options": [
+        "国境に接する陸地",
+        "所有者のいない建物",
+        "大陸の中心部",
+        "主権の及ぶ海域"
+      ],
+      "explanations": [
+        "Vùng đất giáp biên không phải lãnh hải.",
+        "Tòa nhà vô chủ không liên quan lãnh hải.",
+        "Trung tâm lục địa không phải vùng biển.",
+        "領海 là vùng biển thuộc chủ quyền quốc gia."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai22-23",
+      "type": "paraphrase",
+      "word": "領域",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 70,
+      "prompt": "この問題は私の専門【領域】ではない。",
+      "origin": "authored",
+      "options": [
+        "分野",
+        "資格",
+        "道具",
+        "職歴"
+      ],
+      "explanations": [
+        "領域 ở đây là lĩnh vực chuyên môn.",
+        "Tư cách không phải phạm vi kiến thức.",
+        "Dụng cụ không phải lĩnh vực.",
+        "Lịch sử nghề nghiệp không đồng nghĩa với分野."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-24",
+      "type": "usage",
+      "word": "躊躇",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 86,
+      "prompt": "躊躇",
+      "origin": "authored",
+      "options": [
+        "赤信号を見て、車を路面に躊躇した。",
+        "疲れたので、椅子で十分間躊躇して体力を回復した。",
+        "失敗が怖くて、応募するのを躊躇していた。",
+        "急いでいたので、迷わず即座に躊躇した。"
+      ],
+      "explanations": [
+        "Cho xe dừng dùng 停止させる; không dùng躊躇 làm động từ tác động lên xe.",
+        "Nghỉ để hồi sức là 休息; 躊躇 không phải nghỉ ngơi.",
+        "躊躇 là chần chừ vì chưa quyết tâm hành động.",
+        "Không do dự và hành động tức thì trái với躊躇."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai22-25",
+      "type": "usage",
+      "word": "由緒",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 20,
+      "prompt": "由緒",
+      "origin": "authored",
+      "options": [
+        "料理を作る由緒を一番から順に教わった。",
+        "この寺は千年前に建てられた、由緒ある寺だ。",
+        "遅刻した由緒を上司に説明した。",
+        "電車の由緒を時刻表で確認した。"
+      ],
+      "explanations": [
+        "Trình tự thao tác dùng 手順.",
+        "由緒 chỉ nguồn gốc, lịch sử truyền thống đáng kể.",
+        "Lý do đi muộn dùng 理由, không phải由緒.",
+        "Giờ tàu hoặc tuyến tàu dùng 時刻・経路, không phải nguồn gốc truyền thống."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai22-26",
+      "type": "usage",
+      "word": "和解",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 78,
+      "prompt": "和解",
+      "origin": "authored",
+      "options": [
+        "氷を温めると、水に和解する。",
+        "外国語の文章を日本語に和解した。",
+        "複雑な方程式を和解して答えを求めた。",
+        "長年争っていた両社が、裁判の途中で和解した。"
+      ],
+      "explanations": [
+        "Tan băng dùng 溶ける; khác với hòa giải.",
+        "Dịch dùng 翻訳; 和解 không có nghĩa giải nghĩa ngôn ngữ.",
+        "Giải phương trình dùng 解く; không dùng和解.",
+        "和解 là giải quyết bất hòa, đạt thỏa thuận giữa các bên."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai22-27",
+      "type": "usage",
+      "word": "要因",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 46,
+      "prompt": "要因",
+      "origin": "authored",
+      "options": [
+        "売り上げが減った要因を、価格と品質の両面から分析した。",
+        "工場で働く要因を十人募集した。",
+        "契約書の要因に署名した。",
+        "品物を運ぶ要因として、段ボールを使った。"
+      ],
+      "explanations": [
+        "要因 là nhân tố dẫn tới một kết quả.",
+        "Nhân viên cần tuyển là 要員, đồng âm nhưng khác nghĩa.",
+        "Vị trí ký là 欄; 要因 không phải ô trên giấy.",
+        "Vật đựng là 容器・箱; không phải nhân tố gây kết quả."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-28",
+      "type": "usage",
+      "word": "賄賂",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 79,
+      "prompt": "賄賂",
+      "origin": "authored",
+      "options": [
+        "業者は便宜を図ってもらうため、担当者に賄賂を渡した。",
+        "銀行に借入金の賄賂を毎月返している。",
+        "店で品物を買い、レジで賄賂を払った。",
+        "会社は通常の勤務の対価として賄賂を支給した。"
+      ],
+      "explanations": [
+        "賄賂 là lợi ích đưa để mua chuộc người có chức quyền.",
+        "Trả nợ dùng 借金・元金; không phải賄賂.",
+        "Tiền mua hàng thông thường là 代金, không phải hối lộ.",
+        "Tiền công hợp lệ là 給料・賃金."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-29",
+      "type": "usage",
+      "word": "要領",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 49,
+      "prompt": "要領",
+      "origin": "authored",
+      "options": [
+        "説明が長いわりに要領を得ず、結局何をすべきか分からなかった。",
+        "この容器の要領は二リットルだ。",
+        "事故現場に救急隊の要領が到着した。",
+        "資料を発行順の要領に並べた。"
+      ],
+      "explanations": [
+        "要領を得ない là không nắm hoặc không trình bày được điểm chính.",
+        "Dung tích là 容量; 要領 là điểm cốt yếu hoặc cách làm.",
+        "Thành viên đội dùng 隊員; không gọi là要領.",
+        "Thứ tự dùng 順序; 発行順の要領 không chỉ trình tự sắp tài liệu."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai22-30",
+      "type": "usage",
+      "word": "良識",
+      "source_file": "resources/N1/goi/dai22.csv",
+      "source_line": 69,
+      "prompt": "良識",
+      "origin": "authored",
+      "options": [
+        "難しい漢字を良識してから音読した。",
+        "買った品物の良識を店員から受け取った。",
+        "暗い部屋でも文字が読めるほど良識がよい。",
+        "公共の場所では、良識ある行動を心掛けたい。"
+      ],
+      "explanations": [
+        "Đọc, nhận biết chữ dùng 読む・確認; 良識 không dùng như động từ ấy.",
+        "Giấy xác nhận thanh toán là 領収書; không phải良識.",
+        "Khả năng nhìn là 視力; không phải lương tri.",
+        "良識 là khả năng xét đoán đúng đắn theo chuẩn mực xã hội."
+      ],
+      "answer": 3
+    }
+  ]
+}

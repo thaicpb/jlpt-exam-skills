@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai29-30",
+  "title": "N1 · Bài 29 · 30 câu",
+  "level": "N1",
+  "lesson": "dai29",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093029,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai29.csv"
+  },
+  "choice_seed": 2026100029,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai29-01",
+      "type": "reading",
+      "word": "見合わせる",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 4,
+      "prompt": "悪天候のため登山を【見合わせる】ことにした。",
+      "origin": "authored",
+      "options": [
+        "みわける",
+        "くみあわせる",
+        "あわてる",
+        "みあわせる"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "見分ける",
+          "reading": "みわける",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 16
+        },
+        {
+          "word": "組み合わせる",
+          "reading": "くみあわせる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 72
+        },
+        {
+          "word": "慌てる",
+          "reading": "あわてる",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 34
+        },
+        {
+          "word": "見合わせる",
+          "reading": "みあわせる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 4
+        }
+      ],
+      "explanations": [
+        "みわける là cách đọc của 見分ける (phân biệt bằng cách nhìn). Đây là cách đọc có thật, nhưng không phải của 見合わせる trong câu.",
+        "くみあわせる là cách đọc của 組み合わせる (kết hợp; ghép lại). Đây là cách đọc có thật, nhưng không phải của 見合わせる trong câu.",
+        "あわてる là cách đọc của 慌てる (hoảng hốt; vội vàng). Đây là cách đọc có thật, nhưng không phải của 見合わせる trong câu.",
+        "みあわせる là cách đọc của 見合わせる (tạm hoãn; nhìn nhau). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai29-02",
+      "type": "reading",
+      "word": "切り出す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 71,
+      "prompt": "夕食の後で、留学の話を【切り出す】つもりだ。",
+      "origin": "authored",
+      "options": [
+        "とりけす",
+        "はりだす",
+        "きりだす",
+        "きたす"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "取り消す",
+          "reading": "とりけす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 48
+        },
+        {
+          "word": "張り出す",
+          "reading": "はりだす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 81
+        },
+        {
+          "word": "切り出す",
+          "reading": "きりだす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 71
+        },
+        {
+          "word": "来す",
+          "reading": "きたす",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 36
+        }
+      ],
+      "explanations": [
+        "とりけす là cách đọc của 取り消す (hủy bỏ; thu hồi). Đây là cách đọc có thật, nhưng không phải của 切り出す trong câu.",
+        "はりだす là cách đọc của 張り出す (nhô ra; vươn ra; căng ra). Đây là cách đọc có thật, nhưng không phải của 切り出す trong câu.",
+        "きりだす là cách đọc của 切り出す (mở lời; bắt đầu đề cập; cắt lấy). Khớp từ và ngữ cảnh được hỏi.",
+        "きたす là cách đọc của 来す (gây ra; dẫn đến). Đây là cách đọc có thật, nhưng không phải của 切り出す trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai29-03",
+      "type": "reading",
+      "word": "見損なう",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 10,
+      "prompt": "表面だけで判断すると、人を【見損なう】ことがある。",
+      "origin": "authored",
+      "options": [
+        "みそこなう",
+        "みはからう",
+        "そこなう",
+        "みうしなう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "見損なう",
+          "reading": "みそこなう",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 10
+        },
+        {
+          "word": "見計らう",
+          "reading": "みはからう",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 3
+        },
+        {
+          "word": "損なう",
+          "reading": "そこなう",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 27
+        },
+        {
+          "word": "見失う",
+          "reading": "みうしなう",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 5
+        }
+      ],
+      "explanations": [
+        "みそこなう là cách đọc của 見損なう (nhìn lầm; đánh giá sai; bỏ lỡ dịp xem). Khớp từ và ngữ cảnh được hỏi.",
+        "みはからう là cách đọc của 見計らう (lựa thời điểm; ước lượng cho phù hợp). Đây là cách đọc có thật, nhưng không phải của 見損なう trong câu.",
+        "そこなう là cách đọc của 損なう (làm tổn hại; bỏ lỡ). Đây là cách đọc có thật, nhưng không phải của 見損なう trong câu.",
+        "みうしなう là cách đọc của 見失う (mất dấu; lạc mất). Đây là cách đọc có thật, nhưng không phải của 見損なう trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai29-04",
+      "type": "reading",
+      "word": "思い上がる",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 31,
+      "prompt": "少し成功しただけで【思い上がる】のはよくない。",
+      "origin": "authored",
+      "options": [
+        "おいる",
+        "おもいあがる",
+        "おもいつめる",
+        "おちいる"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "老いる",
+          "reading": "おいる",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 55
+        },
+        {
+          "word": "思い上がる",
+          "reading": "おもいあがる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 31
+        },
+        {
+          "word": "思い詰める",
+          "reading": "おもいつめる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 30
+        },
+        {
+          "word": "陥る",
+          "reading": "おちいる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 88
+        }
+      ],
+      "explanations": [
+        "おいる là cách đọc của 老いる (già đi; lão hóa). Đây là cách đọc có thật, nhưng không phải của 思い上がる trong câu.",
+        "おもいあがる là cách đọc của 思い上がる (tự cao; kiêu ngạo). Khớp từ và ngữ cảnh được hỏi.",
+        "おもいつめる là cách đọc của 思い詰める (nghĩ quẩn; lo nghĩ đến bế tắc). Đây là cách đọc có thật, nhưng không phải của 思い上がる trong câu.",
+        "おちいる là cách đọc của 陥る (rơi vào; lâm vào). Đây là cách đọc có thật, nhưng không phải của 思い上がる trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai29-05",
+      "type": "reading",
+      "word": "結び付ける",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 2,
+      "prompt": "理論を実際の経験と【結び付ける】。",
+      "origin": "authored",
+      "options": [
+        "おしつける",
+        "そなえつける",
+        "とりつける",
+        "むすびつける"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "押し付ける",
+          "reading": "おしつける",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 91
+        },
+        {
+          "word": "備え付ける",
+          "reading": "そなえつける",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 99
+        },
+        {
+          "word": "取り付ける",
+          "reading": "とりつける",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 53
+        },
+        {
+          "word": "結び付ける",
+          "reading": "むすびつける",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 2
+        }
+      ],
+      "explanations": [
+        "おしつける là cách đọc của 押し付ける (ấn vào; ép buộc; đùn đẩy). Đây là cách đọc có thật, nhưng không phải của 結び付ける trong câu.",
+        "そなえつける là cách đọc của 備え付ける (trang bị sẵn; lắp đặt sẵn). Đây là cách đọc có thật, nhưng không phải của 結び付ける trong câu.",
+        "とりつける là cách đọc của 取り付ける (lắp đặt; giành được (sự đồng ý)). Đây là cách đọc có thật, nhưng không phải của 結び付ける trong câu.",
+        "むすびつける là cách đọc của 結び付ける (gắn kết; liên hệ). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai29-06",
+      "type": "reading",
+      "word": "打ち明ける",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 77,
+      "prompt": "親友に長年の悩みを【打ち明ける】。",
+      "origin": "authored",
+      "options": [
+        "うちきる",
+        "うけいれる",
+        "うちあける",
+        "うらづける"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "打ち切る",
+          "reading": "うちきる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 76
+        },
+        {
+          "word": "受け入れる",
+          "reading": "うけいれる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 57
+        },
+        {
+          "word": "打ち明ける",
+          "reading": "うちあける",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 77
+        },
+        {
+          "word": "裏付ける",
+          "reading": "うらづける",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 40
+        }
+      ],
+      "explanations": [
+        "うちきる là cách đọc của 打ち切る (chấm dứt giữa chừng; ngừng hẳn). Đây là cách đọc có thật, nhưng không phải của 打ち明ける trong câu.",
+        "うけいれる là cách đọc của 受け入れる (chấp nhận; tiếp nhận). Đây là cách đọc có thật, nhưng không phải của 打ち明ける trong câu.",
+        "うちあける là cách đọc của 打ち明ける (thổ lộ; tâm sự). Khớp từ và ngữ cảnh được hỏi.",
+        "うらづける là cách đọc của 裏付ける (chứng minh; củng cố bằng chứng). Đây là cách đọc có thật, nhưng không phải của 打ち明ける trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai29-07",
+      "type": "reading",
+      "word": "立て直す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 15,
+      "prompt": "新しい社長は経営を【立て直す】決意だ。",
+      "origin": "authored",
+      "options": [
+        "もてなす",
+        "たてなおす",
+        "でなおす",
+        "もちなおす"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "もてなす",
+          "reading": "もてなす",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 58
+        },
+        {
+          "word": "立て直す",
+          "reading": "たてなおす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 15
+        },
+        {
+          "word": "出直す",
+          "reading": "でなおす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 59
+        },
+        {
+          "word": "持ち直す",
+          "reading": "もちなおす",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 35
+        }
+      ],
+      "explanations": [
+        "もてなす là cách đọc của もてなす (đón tiếp; chiêu đãi). Đây là cách đọc có thật, nhưng không phải của 立て直す trong câu.",
+        "たてなおす là cách đọc của 立て直す (khôi phục; chấn chỉnh; xây dựng lại). Khớp từ và ngữ cảnh được hỏi.",
+        "でなおす là cách đọc của 出直す (quay lại lần khác; làm lại từ đầu). Đây là cách đọc có thật, nhưng không phải của 立て直す trong câu.",
+        "もちなおす là cách đọc của 持ち直す (hồi phục; khá trở lại). Đây là cách đọc có thật, nhưng không phải của 立て直す trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai29-08",
+      "type": "reading",
+      "word": "込み入る",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 25,
+      "prompt": "事情が【込み入る】と、説明も長くなる。",
+      "origin": "authored",
+      "options": [
+        "こじれる",
+        "こだわる",
+        "みいる",
+        "こみいる"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "こじれる",
+          "reading": "こじれる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 4
+        },
+        {
+          "word": "こだわる",
+          "reading": "こだわる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 5
+        },
+        {
+          "word": "見入る",
+          "reading": "みいる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 13
+        },
+        {
+          "word": "込み入る",
+          "reading": "こみいる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 25
+        }
+      ],
+      "explanations": [
+        "こじれる là cách đọc của こじれる (trở nên rắc rối; căng thẳng). Đây là cách đọc có thật, nhưng không phải của 込み入る trong câu.",
+        "こだわる là cách đọc của こだわる (chú trọng; câu nệ; khăng khăng). Đây là cách đọc có thật, nhưng không phải của 込み入る trong câu.",
+        "みいる là cách đọc của 見入る (mải mê nhìn; nhìn chăm chú). Đây là cách đọc có thật, nhưng không phải của 込み入る trong câu.",
+        "こみいる là cách đọc của 込み入る (phức tạp; rắc rối). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai29-09",
+      "type": "context",
+      "word": "見積もる",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 9,
+      "prompt": "工事を始める前に、必要な費用を（　）ことにした。",
+      "origin": "authored",
+      "options": [
+        "見積もる",
+        "見逃す",
+        "見下す",
+        "見送る"
+      ],
+      "explanations": [
+        "見積もる là ước tính số tiền cần thiết trước khi làm.",
+        "見逃す là bỏ sót, không phải tính dự toán.",
+        "見下す là khinh thường.",
+        "見送る là hoãn hoặc tiễn, không phải ước lượng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-10",
+      "type": "context",
+      "word": "差し引く",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 26,
+      "prompt": "売上総額から仕入れ代と人件費を（　）と、利益が分かる。",
+      "origin": "authored",
+      "options": [
+        "差し引く",
+        "掛け合わせる",
+        "積み上げる",
+        "付け加える"
+      ],
+      "explanations": [
+        "差し引く là trừ chi phí khỏi tổng thu.",
+        "掛け合わせる là nhân, không phải trừ chi phí.",
+        "積み上げる là tích lũy hoặc xếp lên.",
+        "付け加える là cộng thêm, không cho ra lợi nhuận theo mô tả."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-11",
+      "type": "context",
+      "word": "言い張る",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 20,
+      "prompt": "証拠を見せられても、彼は自分は関係ないと（　）。",
+      "origin": "authored",
+      "options": [
+        "言い張る",
+        "言い添える",
+        "言い換える",
+        "言い渡す"
+      ],
+      "explanations": [
+        "言い張る là khăng khăng giữ lời khẳng định dù bị phản bác.",
+        "言い添える là nói thêm một ý phụ, không phải cố chấp khẳng định.",
+        "言い換える là diễn đạt bằng cách khác.",
+        "言い渡す là chính thức thông báo quyết định."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-12",
+      "type": "context",
+      "word": "張り合う",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 80,
+      "prompt": "隣の店より少しでも安くしようと、互いに価格で（　）。",
+      "origin": "authored",
+      "options": [
+        "分かち合う",
+        "助け合う",
+        "張り合う",
+        "譲り合う"
+      ],
+      "explanations": [
+        "分かち合う là chia sẻ, không phải ganh đua.",
+        "助け合う là giúp nhau, không phải cạnh tranh giá.",
+        "張り合う là ganh đua, không muốn thua nhau.",
+        "譲り合う là nhường nhau, trái với không chịu thua."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-13",
+      "type": "context",
+      "word": "飛び散る",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 97,
+      "prompt": "皿が床に落ちて割れ、破片が部屋中に（　）。",
+      "origin": "authored",
+      "options": [
+        "飛び込んだ",
+        "飛び散った",
+        "飛び越えた",
+        "飛び付いた"
+      ],
+      "explanations": [
+        "飛び込む là nhảy hoặc lao vào một chỗ, không diễn tả mảnh vỡ tỏa khắp nơi.",
+        "飛び散る là văng ra nhiều phía.",
+        "飛び越える là vượt qua bên trên.",
+        "飛び付く là nhảy bám lấy, không phải văng tung tóe."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai29-14",
+      "type": "context",
+      "word": "取り消す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 48,
+      "prompt": "出張が中止になったので、ホテルの予約を（　）必要がある。",
+      "origin": "authored",
+      "options": [
+        "取り上げる",
+        "取り戻す",
+        "取り消す",
+        "取り次ぐ"
+      ],
+      "explanations": [
+        "取り上げる là nêu lên hoặc tịch thu, không phải hủy đặt phòng.",
+        "取り戻す là lấy lại vật hoặc trạng thái đã mất.",
+        "取り消す là hủy quyết định hoặc đăng ký đã có.",
+        "取り次ぐ là chuyển lời, không phải hủy đặt chỗ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-15",
+      "type": "context",
+      "word": "使いこなす",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 29,
+      "prompt": "機能が複雑なソフトでも、熟練者なら自在に（　）ことができる。",
+      "origin": "authored",
+      "options": [
+        "使いこなす",
+        "使い込む",
+        "使い捨てる",
+        "使い果たす"
+      ],
+      "explanations": [
+        "使いこなす là sử dụng thành thạo mọi khả năng cần thiết.",
+        "使い込む là dùng lâu hoặc tiêu trái phép, không đồng nghĩa sử dụng điêu luyện.",
+        "使い捨てる là dùng rồi bỏ.",
+        "使い果たす là dùng cạn, không phải thành thạo phần mềm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-16",
+      "type": "context",
+      "word": "備え付ける",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 99,
+      "prompt": "来客がいつでも使えるよう、客室に机と椅子を（　）。",
+      "origin": "authored",
+      "options": [
+        "備え付ける",
+        "取り外す",
+        "持ち去る",
+        "売り払う"
+      ],
+      "explanations": [
+        "備え付ける là trang bị sẵn tại một nơi.",
+        "取り外す là tháo ra, trái với trang bị sẵn.",
+        "持ち去る là mang đi khỏi chỗ.",
+        "売り払う là bán hết, không phải bố trí cho khách dùng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-17",
+      "type": "paraphrase",
+      "word": "取りとめる",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 37,
+      "prompt": "手術が成功し、患者は【一命を取りとめた】。",
+      "origin": "authored",
+      "options": [
+        "退院を先延ばしにした",
+        "健康診断を受けた",
+        "命を失わずに済んだ",
+        "命の危険が増した"
+      ],
+      "explanations": [
+        "Hoãn xuất viện không đồng nghĩa với cứu được mạng.",
+        "Khám sức khỏe không phải sống sót qua nguy kịch.",
+        "一命を取りとめる là giữ được mạng sống qua nguy kịch.",
+        "Nguy hiểm tăng trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-18",
+      "type": "paraphrase",
+      "word": "待ち望む",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 78,
+      "prompt": "家族は父の帰国を【待ち望んでいる】。",
+      "origin": "authored",
+      "options": [
+        "全く気にしていない",
+        "何とか避けようとしている",
+        "すでに諦めている",
+        "心から楽しみに待っている"
+      ],
+      "explanations": [
+        "Không quan tâm trái nghĩa.",
+        "Cố tránh khác với mong chờ.",
+        "Đã từ bỏ trái với mong đợi.",
+        "待ち望む là mong đợi tha thiết."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai29-19",
+      "type": "paraphrase",
+      "word": "取り戻す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 54,
+      "prompt": "十分に休んで、体力を【取り戻した】。",
+      "origin": "authored",
+      "options": [
+        "正確に測定した",
+        "限界まで使い切った",
+        "再び元の状態にした",
+        "徐々に失った"
+      ],
+      "explanations": [
+        "Đo chính xác không phải phục hồi.",
+        "Dùng cạn trái với phục hồi.",
+        "取り戻す là khôi phục lại thứ hoặc trạng thái đã mất.",
+        "Mất dần trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-20",
+      "type": "paraphrase",
+      "word": "乗っ取る",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 60,
+      "prompt": "武装集団が船を【乗っ取った】。",
+      "origin": "authored",
+      "options": [
+        "予約して借りた",
+        "奪って支配下に置いた",
+        "遠くから見送った",
+        "修理して返した"
+      ],
+      "explanations": [
+        "Thuê theo thủ tục hợp lệ khác với cướp kiểm soát.",
+        "乗っ取る là chiếm đoạt quyền kiểm soát.",
+        "Tiễn từ xa không phải chiếm tàu.",
+        "Sửa rồi trả không phải chiếm đoạt."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai29-21",
+      "type": "paraphrase",
+      "word": "取り扱う",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 38,
+      "prompt": "この店では輸入食品を【取り扱っている】。",
+      "origin": "authored",
+      "options": [
+        "捨てている",
+        "売っている",
+        "生産している",
+        "無料で配っている"
+      ],
+      "explanations": [
+        "Vứt bỏ trái với bán.",
+        "取り扱う ở cửa hàng này là kinh doanh mặt hàng.",
+        "Sản xuất khác với cửa hàng bán hàng nhập khẩu.",
+        "Phát miễn phí không phải nghĩa kinh doanh trong câu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai29-22",
+      "type": "paraphrase",
+      "word": "飛び掛かる",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 96,
+      "prompt": "犬が突然、通行人に【飛び掛かった】。",
+      "origin": "authored",
+      "options": [
+        "静かに寄り添った",
+        "遠くからほえ続けた",
+        "ゆっくり後を追った",
+        "勢いよく跳んで襲い掛かった"
+      ],
+      "explanations": [
+        "Nhẹ nhàng nép vào trái với lao tấn công.",
+        "Đứng xa sủa không phải nhảy tới.",
+        "Chậm rãi đi theo khác với飛び掛かる.",
+        "飛び掛かる là lao nhảy xổ vào."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai29-23",
+      "type": "paraphrase",
+      "word": "投げ出す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 89,
+      "prompt": "彼は仕事を途中で【投げ出した】。",
+      "origin": "authored",
+      "options": [
+        "最後までせずにやめた",
+        "慎重に確認した",
+        "予定より早く終えた",
+        "他人と相談して始めた"
+      ],
+      "explanations": [
+        "投げ出す ở đây là bỏ dở trách nhiệm.",
+        "Kiểm tra kỹ không đồng nghĩa bỏ việc.",
+        "Hoàn thành sớm không phải bỏ dở.",
+        "Bắt đầu sau khi trao đổi trái với bỏ giữa chừng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai29-24",
+      "type": "usage",
+      "word": "食い込む",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 63,
+      "prompt": "食い込む",
+      "origin": "authored",
+      "options": [
+        "料理の味を塩で食い込む。",
+        "予定外の作業が増え、休憩時間にまで食い込むことになった。",
+        "熱い汁を少しずつ食い込む。",
+        "食材を冷蔵庫に食い込む。"
+      ],
+      "explanations": [
+        "Điều chỉnh vị dùng 調える; không phải ăn sâu hoặc lấn vào.",
+        "食い込む có thể chỉ công việc lấn vào thời gian dành cho việc khác.",
+        "Ăn hoặc uống dùng 食べる・飲む; 食い込む không chỉ đưa thức ăn vào miệng.",
+        "Cất thực phẩm dùng 入れる; không dùng食い込む tác động như vậy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai29-25",
+      "type": "usage",
+      "word": "受け継ぐ",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 56,
+      "prompt": "受け継ぐ",
+      "origin": "authored",
+      "options": [
+        "かかってきた電話を担当者に受け継ぐ。",
+        "商品をレジで受け継ぐと、代金は千円だった。",
+        "テレビを受け継ぐため、リモコンの電源ボタンを押した。",
+        "祖父から受け継ぐ技を、次の世代にも伝えたい。"
+      ],
+      "explanations": [
+        "Nối máy cho người phụ trách dùng 取り次ぐ; không phải kế thừa.",
+        "Mua dùng 買う; nhận hàng thông thường không phải kế thừa qua thế hệ hoặc người đảm nhiệm.",
+        "Bật thiết bị dùng つける; không phải kế thừa.",
+        "受け継ぐ là kế thừa nghề, tài sản hoặc truyền thống."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai29-26",
+      "type": "usage",
+      "word": "差し支える",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 27,
+      "prompt": "差し支える",
+      "origin": "authored",
+      "options": [
+        "他人の生活に全く影響を与えず、生活に大きく差し支える。",
+        "寝不足が続くと、翌日の仕事に差し支える。",
+        "困っている友人を差し支えることで、問題を解決した。",
+        "重い荷物を両手で差し支える。"
+      ],
+      "explanations": [
+        "Không ảnh hưởng trái với gây trở ngại lớn.",
+        "差し支える là gây trở ngại, ảnh hưởng xấu.",
+        "Giúp đỡ dùng 支える・助ける; 差し支える chỉ trở ngại.",
+        "Đỡ vật dùng 支える; không dùng差し支える."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai29-27",
+      "type": "usage",
+      "word": "見入る",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 13,
+      "prompt": "見入る",
+      "origin": "authored",
+      "options": [
+        "急いで書類を一瞬だけ見入ると、すぐ目を離した。",
+        "隣室の歌声に耳だけで見入る。",
+        "電車の発車時刻を一秒だけ見入る。",
+        "観客は、舞台の美しい踊りに見入る。"
+      ],
+      "explanations": [
+        "Một cái liếc vội không phải nhìn say mê.",
+        "Chăm chú nghe là 聞き入る; 見入る dùng thị giác.",
+        "Liếc nhanh dùng 見る・ちらりと見る; 見入る mang ý nhìn tập trung kéo dài.",
+        "見入る là chăm chú, say mê nhìn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai29-28",
+      "type": "usage",
+      "word": "取り次ぐ",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 46,
+      "prompt": "取り次ぐ",
+      "origin": "authored",
+      "options": [
+        "電車を二回取り次ぐと、目的地に着く。",
+        "先祖の伝統を子孫へ取り次ぐ。",
+        "受付では、来客の用件を担当者に取り次ぐ。",
+        "糸が切れたので、針で服を取り次ぐ。"
+      ],
+      "explanations": [
+        "Chuyển tàu dùng 乗り継ぐ; không dùng取り次ぐ.",
+        "Kế thừa truyền thống dùng 受け継ぐ・伝える, không phải chuyển yêu cầu liên lạc.",
+        "取り次ぐ là chuyển lời, thông tin hoặc kết nối hai bên.",
+        "Khâu vá dùng 繕う; không phải chuyển tiếp liên lạc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-29",
+      "type": "usage",
+      "word": "見抜く",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 14,
+      "prompt": "見抜く",
+      "origin": "authored",
+      "options": [
+        "混んだ道路から裏道へ見抜く。",
+        "景色がきれいなので、窓から遠くを見抜く。",
+        "経験豊かな面接官は、言葉だけのうそを見抜く。",
+        "古い歯を歯科医に見抜く。"
+      ],
+      "explanations": [
+        "Đi xuyên hoặc rẽ qua dùng 抜ける・入る; 見抜く không chỉ di chuyển.",
+        "Ngắm cảnh dùng 眺める; không có bản chất che giấu cần nhìn thấu.",
+        "見抜く là nhìn thấu sự thật ẩn sau vẻ ngoài.",
+        "Nhổ răng dùng 抜く; 見抜く không phải loại bỏ vật."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai29-30",
+      "type": "usage",
+      "word": "言い残す",
+      "source_file": "resources/N1/goi/dai29.csv",
+      "source_line": 19,
+      "prompt": "言い残す",
+      "origin": "authored",
+      "options": [
+        "本を借りたことを帳簿に言い残す。",
+        "出発前に家族へ大切なことを言い残すつもりだ。",
+        "食べ切れない料理を皿に言い残す。",
+        "講師の話を黙って最後まで言い残す。"
+      ],
+      "explanations": [
+        "Ghi lại bằng chữ dùng 書き残す・記録する; không phải nói lời dặn.",
+        "言い残す là để lại lời dặn hoặc điều cần nói trước khi đi.",
+        "Để lại thức ăn dùng 食べ残す, không phải lời nói.",
+        "Nghe chăm chú dùng 聞く; không thể vừa hoàn toàn im lặng vừa nói để lại lời."
+      ],
+      "answer": 1
+    }
+  ]
+}

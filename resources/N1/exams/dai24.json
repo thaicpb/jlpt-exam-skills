@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai24-30",
+  "title": "N1 · Bài 24 · 30 câu",
+  "level": "N1",
+  "lesson": "dai24",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093024,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai24.csv"
+  },
+  "choice_seed": 2026100024,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai24-01",
+      "type": "reading",
+      "word": "宙返り",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 54,
+      "prompt": "みごとな【宙返り】をみせた。",
+      "origin": "authored",
+      "options": [
+        "うらがえし",
+        "ちゅうちょ",
+        "ちゅうがえり",
+        "ひろうえん"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "裏返し",
+          "reading": "うらがえし",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 82
+        },
+        {
+          "word": "躊躇",
+          "reading": "ちゅうちょ",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 86
+        },
+        {
+          "word": "宙返り",
+          "reading": "ちゅうがえり",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 54
+        },
+        {
+          "word": "披露宴",
+          "reading": "ひろうえん",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 3
+        }
+      ],
+      "explanations": [
+        "うらがえし là cách đọc của 裏返し (mặt trái; lật ngược). Đây là cách đọc có thật, nhưng không phải của 宙返り trong câu.",
+        "ちゅうちょ là cách đọc của 躊躇 (do dự; chần chừ). Đây là cách đọc có thật, nhưng không phải của 宙返り trong câu.",
+        "ちゅうがえり là cách đọc của 宙返り (cú lộn nhào; lộn vòng). Khớp từ và ngữ cảnh được hỏi.",
+        "ひろうえん là cách đọc của 披露宴 (tiệc cưới; tiệc ra mắt). Đây là cách đọc có thật, nhưng không phải của 宙返り trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai24-02",
+      "type": "reading",
+      "word": "抜てき",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 68,
+      "prompt": "わかいてんいんが【抜てき】された。",
+      "origin": "authored",
+      "options": [
+        "ばんのう",
+        "ぼっき",
+        "ばいきん",
+        "ばってき"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "万能",
+          "reading": "ばんのう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 49
+        },
+        {
+          "word": "勃起",
+          "reading": "ぼっき",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 34
+        },
+        {
+          "word": "ばい菌",
+          "reading": "ばいきん",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 47
+        },
+        {
+          "word": "抜てき",
+          "reading": "ばってき",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 68
+        }
+      ],
+      "explanations": [
+        "ばんのう là cách đọc của 万能 (đa năng; làm được mọi việc). Đây là cách đọc có thật, nhưng không phải của 抜てき trong câu.",
+        "ぼっき là cách đọc của 勃起 (sự cương cứng). Đây là cách đọc có thật, nhưng không phải của 抜てき trong câu.",
+        "ばいきん là cách đọc của ばい菌 (vi khuẩn; mầm bệnh). Đây là cách đọc có thật, nhưng không phải của 抜てき trong câu.",
+        "ばってき là cách đọc của 抜てき (sự tuyển chọn; đề bạt). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai24-03",
+      "type": "reading",
+      "word": "夜更け",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 77,
+      "prompt": "【夜更け】までほんをよんだ。",
+      "origin": "authored",
+      "options": [
+        "よそみ",
+        "よあけ",
+        "よだれ",
+        "よふけ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "よそ見",
+          "reading": "よそみ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 59
+        },
+        {
+          "word": "夜明け",
+          "reading": "よあけ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 78
+        },
+        {
+          "word": "よだれ",
+          "reading": "よだれ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 60
+        },
+        {
+          "word": "夜更け",
+          "reading": "よふけ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 77
+        }
+      ],
+      "explanations": [
+        "よそみ là cách đọc của よそ見 (nhìn sang chỗ khác; lơ là). Đây là cách đọc có thật, nhưng không phải của 夜更け trong câu.",
+        "よあけ là cách đọc của 夜明け (rạng đông; bình minh). Đây là cách đọc có thật, nhưng không phải của 夜更け trong câu.",
+        "よだれ là cách đọc của よだれ (nước dãi). Đây là cách đọc có thật, nhưng không phải của 夜更け trong câu.",
+        "よふけ là cách đọc của 夜更け (đêm khuya). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai24-04",
+      "type": "reading",
+      "word": "人込み",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 34,
+      "prompt": "えきの【人込み】をさけた。",
+      "origin": "authored",
+      "options": [
+        "ひとごみ",
+        "ひとやすみ",
+        "ひとなみ",
+        "ひらめき"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "人込み",
+          "reading": "ひとごみ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 34
+        },
+        {
+          "word": "ひと休み",
+          "reading": "ひとやすみ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 48
+        },
+        {
+          "word": "人並み",
+          "reading": "ひとなみ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 37
+        },
+        {
+          "word": "ひらめき",
+          "reading": "ひらめき",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 51
+        }
+      ],
+      "explanations": [
+        "ひとごみ là cách đọc của 人込み (đám đông). Khớp từ và ngữ cảnh được hỏi.",
+        "ひとやすみ là cách đọc của ひと休み (nghỉ một lát). Đây là cách đọc có thật, nhưng không phải của 人込み trong câu.",
+        "ひとなみ là cách đọc của 人並み (mức trung bình; như người bình thường). Đây là cách đọc có thật, nhưng không phải của 人込み trong câu.",
+        "ひらめき là cách đọc của ひらめき (ý tưởng chợt lóe lên; cảm hứng). Đây là cách đọc có thật, nhưng không phải của 人込み trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai24-05",
+      "type": "reading",
+      "word": "表向き",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 69,
+      "prompt": "【表向き】はなにもかわっていない。",
+      "origin": "authored",
+      "options": [
+        "おもてむき",
+        "おもちゃ",
+        "おもかげ",
+        "おもいきり"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "表向き",
+          "reading": "おもてむき",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 69
+        },
+        {
+          "word": "おもちゃ",
+          "reading": "おもちゃ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 21
+        },
+        {
+          "word": "面影",
+          "reading": "おもかげ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 73
+        },
+        {
+          "word": "思い切り",
+          "reading": "おもいきり",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 4
+        }
+      ],
+      "explanations": [
+        "おもてむき là cách đọc của 表向き (bề ngoài; trên danh nghĩa). Khớp từ và ngữ cảnh được hỏi.",
+        "おもちゃ là cách đọc của おもちゃ (đồ chơi). Đây là cách đọc có thật, nhưng không phải của 表向き trong câu.",
+        "おもかげ là cách đọc của 面影 (hình bóng trong ký ức). Đây là cách đọc có thật, nhưng không phải của 表向き trong câu.",
+        "おもいきり là cách đọc của 思い切り (hết sức; thỏa thích). Đây là cách đọc có thật, nhưng không phải của 表向き trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai24-06",
+      "type": "reading",
+      "word": "前触れ",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 42,
+      "prompt": "あらしの【前触れ】でかぜがつよくなった。",
+      "origin": "authored",
+      "options": [
+        "まえおき",
+        "まえぶれ",
+        "まえかけ",
+        "まえうり"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "前置き",
+          "reading": "まえおき",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 43
+        },
+        {
+          "word": "前触れ",
+          "reading": "まえぶれ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 42
+        },
+        {
+          "word": "前かけ",
+          "reading": "まえかけ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 41
+        },
+        {
+          "word": "前売り",
+          "reading": "まえうり",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 44
+        }
+      ],
+      "explanations": [
+        "まえおき là cách đọc của 前置き (lời nói đầu; mở đầu). Đây là cách đọc có thật, nhưng không phải của 前触れ trong câu.",
+        "まえぶれ là cách đọc của 前触れ (dấu hiệu báo trước). Khớp từ và ngữ cảnh được hỏi.",
+        "まえかけ là cách đọc của 前かけ (tạp dề). Đây là cách đọc có thật, nhưng không phải của 前触れ trong câu.",
+        "まえうり là cách đọc của 前売り (việc bán trước; vé bán trước). Đây là cách đọc có thật, nhưng không phải của 前触れ trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai24-07",
+      "type": "reading",
+      "word": "辺り",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 70,
+      "prompt": "この【辺り】に銀行はありますか。",
+      "origin": "authored",
+      "options": [
+        "ゆとり",
+        "あたり",
+        "あたりまえ",
+        "あて"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "ゆとり",
+          "reading": "ゆとり",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 57
+        },
+        {
+          "word": "辺り",
+          "reading": "あたり",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 70
+        },
+        {
+          "word": "当たり前",
+          "reading": "あたりまえ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 59
+        },
+        {
+          "word": "当て",
+          "reading": "あて",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 60
+        }
+      ],
+      "explanations": [
+        "ゆとり là cách đọc của ゆとり (dư dả; khoảng thong thả). Đây là cách đọc có thật, nhưng không phải của 辺り trong câu.",
+        "あたり là cách đọc của 辺り (khu vực; vùng lân cận). Khớp từ và ngữ cảnh được hỏi.",
+        "あたりまえ là cách đọc của 当たり前 (đương nhiên; hiển nhiên). Đây là cách đọc có thật, nhưng không phải của 辺り trong câu.",
+        "あて là cách đọc của 当て (mục tiêu; chỗ dựa; dự đoán). Đây là cách đọc có thật, nhưng không phải của 辺り trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai24-08",
+      "type": "reading",
+      "word": "人事異動",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 35,
+      "prompt": "らいげつ【人事異動】がある。",
+      "origin": "authored",
+      "options": [
+        "ようじんぼう",
+        "かんむりょう",
+        "ねんがじょう",
+        "じんじいどう"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "用心棒",
+          "reading": "ようじんぼう",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 12
+        },
+        {
+          "word": "感無量",
+          "reading": "かんむりょう",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 92
+        },
+        {
+          "word": "年賀状",
+          "reading": "ねんがじょう",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 2
+        },
+        {
+          "word": "人事異動",
+          "reading": "じんじいどう",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 35
+        }
+      ],
+      "explanations": [
+        "ようじんぼう là cách đọc của 用心棒 (vệ sĩ). Đây là cách đọc có thật, nhưng không phải của 人事異動 trong câu.",
+        "かんむりょう là cách đọc của 感無量 (xúc động khôn xiết). Đây là cách đọc có thật, nhưng không phải của 人事異動 trong câu.",
+        "ねんがじょう là cách đọc của 年賀状 (thiệp chúc mừng năm mới). Đây là cách đọc có thật, nhưng không phải của 人事異動 trong câu.",
+        "じんじいどう là cách đọc của 人事異動 (điều chuyển nhân sự). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai24-09",
+      "type": "context",
+      "word": "戦い",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 40,
+      "prompt": "長年にわたる病気との（　）を経て、ようやく健康を取り戻した。",
+      "origin": "authored",
+      "options": [
+        "同盟",
+        "戦い",
+        "契約",
+        "取引"
+      ],
+      "explanations": [
+        "同盟 là liên minh, không phải chống lại căn bệnh.",
+        "病気との戦い là quá trình đấu tranh chống bệnh.",
+        "契約 là hợp đồng, không kết hợp nghĩa này.",
+        "取引 là giao dịch, không phải chiến đấu chống bệnh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-10",
+      "type": "context",
+      "word": "年末年始",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 66,
+      "prompt": "十二月の終わりから一月の初めにかけての（　）は、帰省客で駅が混み合う。",
+      "origin": "authored",
+      "options": [
+        "年末年始",
+        "年度末",
+        "世紀末",
+        "月末"
+      ],
+      "explanations": [
+        "年末年始 là cuối năm và đầu năm.",
+        "年度末 là cuối niên khóa hoặc năm tài chính, không gồm hai giai đoạn này.",
+        "世紀末 là cuối thế kỷ, không phải kỳ hằng năm.",
+        "月末 là cuối tháng, không bao gồm đầu năm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-11",
+      "type": "context",
+      "word": "当て",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 60,
+      "prompt": "仕事を辞めたが、次の働き口の（　）はまだない。",
+      "origin": "authored",
+      "options": [
+        "的",
+        "跡",
+        "枠",
+        "当て"
+      ],
+      "explanations": [
+        "的 là đích để nhắm bắn, không phải cơ hội việc làm.",
+        "跡 là dấu vết.",
+        "枠 là khung hoặc suất; không diễn tả chỗ trông cậy của người nghỉ việc.",
+        "当て là chỗ trông cậy hoặc triển vọng dự kiến; ở đây chưa có chỗ làm tiếp theo."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai24-12",
+      "type": "context",
+      "word": "前かけ",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 41,
+      "prompt": "調理中に服が汚れないよう、胸から膝まで覆う（　）を着けた。",
+      "origin": "authored",
+      "options": [
+        "襟巻き",
+        "前かけ",
+        "手袋",
+        "帽子"
+      ],
+      "explanations": [
+        "襟巻き là khăn quàng cổ.",
+        "前かけ là tạp dề che mặt trước cơ thể.",
+        "手袋 là găng tay, không phủ ngực tới gối.",
+        "帽子 là mũ đội đầu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-13",
+      "type": "context",
+      "word": "締め切り",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 56,
+      "prompt": "応募の（　）は金曜日の午後五時で、それ以降は受け付けない。",
+      "origin": "authored",
+      "options": [
+        "幕開け",
+        "きっかけ",
+        "締め切り",
+        "折り返し"
+      ],
+      "explanations": [
+        "幕開け là mở đầu.",
+        "きっかけ là cơ duyên bắt đầu, không phải hạn cuối.",
+        "締め切り là hạn cuối nhận đăng ký.",
+        "折り返し là điểm quay lại hoặc làm lại chiều ngược."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai24-14",
+      "type": "context",
+      "word": "色合い",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 27,
+      "prompt": "同じ青でも、この布のほうが少し緑に近い（　）をしている。",
+      "origin": "authored",
+      "options": [
+        "肌合い",
+        "歯触り",
+        "色合い",
+        "手触り"
+      ],
+      "explanations": [
+        "肌合い là chất cảm bề mặt, không chỉ tỷ lệ sắc màu.",
+        "歯触り là cảm giác khi cắn.",
+        "色合い là sắc màu, mức pha màu.",
+        "手触り là cảm giác sờ, không phải sắc xanh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai24-15",
+      "type": "context",
+      "word": "かする",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 95,
+      "prompt": "ボールは当たって止まることなく、頬を軽く（　）程度で後ろへ飛んでいった。",
+      "origin": "authored",
+      "options": [
+        "かする",
+        "押しつぶす",
+        "つかむ",
+        "包む"
+      ],
+      "explanations": [
+        "かする là sượt qua, chỉ chạm nhẹ.",
+        "押しつぶす là đè bẹp, trái với chạm nhẹ.",
+        "つかむ là nắm giữ, không phải bóng sượt má.",
+        "包む là bao bọc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-16",
+      "type": "context",
+      "word": "夜明け",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 78,
+      "prompt": "東の空が白み始め、長い夜が終わろうとする（　）に出発した。",
+      "origin": "authored",
+      "options": [
+        "夕暮れ",
+        "夜明け",
+        "夜更け",
+        "日暮れ"
+      ],
+      "explanations": [
+        "夕暮れ là chạng vạng chiều.",
+        "夜明け là rạng đông.",
+        "夜更け là đêm khuya.",
+        "日暮れ là lúc trời tối vào cuối ngày."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-17",
+      "type": "paraphrase",
+      "word": "重み",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 24,
+      "prompt": "長年の経験に基づく彼の言葉には【重み】がある。",
+      "origin": "authored",
+      "options": [
+        "大きな音量",
+        "説得力",
+        "短い間隔",
+        "物理的な質量"
+      ],
+      "explanations": [
+        "Âm lượng lớn không đồng nghĩa với sức thuyết phục.",
+        "重み ở đây là sức nặng, sức thuyết phục.",
+        "Khoảng cách ngắn không phải重み.",
+        "Khối lượng vật lý không phải nghĩa bóng trong câu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-18",
+      "type": "paraphrase",
+      "word": "前売り",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 44,
+      "prompt": "この券は【前売り】だけで買える。",
+      "origin": "authored",
+      "options": [
+        "当日の会場販売",
+        "競りによる販売",
+        "開催日より前の販売",
+        "終了後の追加販売"
+      ],
+      "explanations": [
+        "Bán tại chỗ trong ngày khác với前売り.",
+        "Đấu giá không phải nghĩa前売り.",
+        "前売り là bán trước ngày diễn ra sự kiện.",
+        "Bán sau khi kết thúc không phải bán trước."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai24-19",
+      "type": "paraphrase",
+      "word": "いらつく",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 88,
+      "prompt": "何度電話してもつながらず、【いらつく】。",
+      "origin": "authored",
+      "options": [
+        "安心して気が緩む",
+        "悲しくて涙が出る",
+        "楽しくて夢中になる",
+        "気持ちが落ち着かず腹が立つ"
+      ],
+      "explanations": [
+        "An tâm và thả lỏng trái nghĩa.",
+        "Buồn khóc khác với cáu kỉnh.",
+        "Vui và say mê không phải bực mình.",
+        "いらつく là bực bội, cáu kỉnh."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai24-20",
+      "type": "paraphrase",
+      "word": "前置き",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 43,
+      "prompt": "【前置き】はこのくらいにして、本題に入ろう。",
+      "origin": "authored",
+      "options": [
+        "話の最後のまとめ",
+        "相手への返事",
+        "本題に入る前の話",
+        "結論を裏付ける証拠"
+      ],
+      "explanations": [
+        "Tổng kết cuối không phải mở đầu.",
+        "Lời đáp không nhất thiết là lời dẫn.",
+        "前置き là lời dẫn trước nội dung chính.",
+        "Bằng chứng cho kết luận không phải前置き."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai24-21",
+      "type": "paraphrase",
+      "word": "踏み場",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 61,
+      "prompt": "荷物が散乱して、部屋には【踏み場】もない。",
+      "origin": "authored",
+      "options": [
+        "窓を開ける道具",
+        "物を運ぶ車",
+        "壁を塗る材料",
+        "足を置く場所"
+      ],
+      "explanations": [
+        "Dụng cụ mở cửa không phải chỗ đặt chân.",
+        "Xe vận chuyển không phải踏み場.",
+        "Vật liệu sơn tường không phải踏み場.",
+        "踏み場 là chỗ đặt chân."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai24-22",
+      "type": "paraphrase",
+      "word": "ありふれる",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 84,
+      "prompt": "それはどこにでもある【ありふれた】話だ。",
+      "origin": "authored",
+      "options": [
+        "内容が矛盾した",
+        "非常に珍しい",
+        "珍しくない",
+        "全く理解できない"
+      ],
+      "explanations": [
+        "Mâu thuẫn nội dung không phải nghĩa phổ biến.",
+        "Rất hiếm trái nghĩa.",
+        "ありふれた là thường gặp, không hiếm.",
+        "Không thể hiểu không đồng nghĩa với tầm thường."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai24-23",
+      "type": "paraphrase",
+      "word": "目当て",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 74,
+      "prompt": "限定商品を【目当てに】遠くから客が来る。",
+      "origin": "authored",
+      "options": [
+        "処分する責任で",
+        "手に入れる目的で",
+        "避けるつもりで",
+        "忘れたふりをして"
+      ],
+      "explanations": [
+        "Trách nhiệm tiêu hủy không phải mục đích mua.",
+        "目当てに là nhắm tới, với mục đích lấy hoặc gặp đối tượng.",
+        "Định tránh khác với nhắm tìm.",
+        "Giả vờ quên không đồng nghĩa với目当てに."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-24",
+      "type": "usage",
+      "word": "便り",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 6,
+      "prompt": "便り",
+      "origin": "authored",
+      "options": [
+        "故郷の母から、久しぶりに便りが届いた。",
+        "この辞書は軽くて持ち運びが便りだ。",
+        "電車の便りは五分間隔で発車する。",
+        "荷物を測ったら、便りは五キロだった。"
+      ],
+      "explanations": [
+        "便り là tin tức hoặc thư từ người ở xa.",
+        "Tiện lợi là 便利; 便り không dùng như tính từ tiện lợi.",
+        "Chuyến tàu dùng 便; 便り không phải đơn vị chuyến vận tải.",
+        "Trọng lượng là 重さ, không phải thư tin."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-25",
+      "type": "usage",
+      "word": "かわす",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 97,
+      "prompt": "かわす",
+      "origin": "authored",
+      "options": [
+        "ボクサーは相手のパンチを巧みにかわす。",
+        "濡れた服を日なたでかわす。",
+        "現金を銀行口座にかわす。",
+        "ボクサーは相手のパンチを真正面からまともにかわす。"
+      ],
+      "explanations": [
+        "かわす ở đây là né cú đánh.",
+        "Làm khô dùng 乾かす; khác vớiかわす.",
+        "Chuyển hoặc gửi tiền dùng 振り込む・預ける; không dùngかわす.",
+        "Nhận trọn cú đánh là 受ける; không phải né."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-26",
+      "type": "usage",
+      "word": "体つき",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 48,
+      "prompt": "体つき",
+      "origin": "authored",
+      "options": [
+        "毎日運動している彼は、がっしりした体つきをしている。",
+        "彼女は誰にでも親切な体つきをしている。",
+        "この服の体つきは綿百パーセントだ。",
+        "気温が上がり、部屋の体つきが暑くなった。"
+      ],
+      "explanations": [
+        "体つき là vóc dáng, hình thể.",
+        "Tính nết tử tế dùng 気立て・性格.",
+        "Thành phần vật liệu là 素材, không phải体つき.",
+        "Nhiệt độ hoặc không khí phòng không phải vóc dáng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-27",
+      "type": "usage",
+      "word": "くぐる",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 98,
+      "prompt": "くぐる",
+      "origin": "authored",
+      "options": [
+        "入口が低いので、頭を下げてくぐる必要がある。",
+        "高い塀の上を跳び越してくぐる。",
+        "紙に鉛筆で丸をくぐる。",
+        "封筒をはさみでくぐると、中の手紙が見えた。"
+      ],
+      "explanations": [
+        "くぐる là đi luồn qua một khoảng hở hoặc bên dưới vật.",
+        "Nhảy vượt bên trên dùng 越える; khác với luồn dưới.",
+        "Vẽ vòng tròn dùng 描く; không dùngくぐる.",
+        "Cắt mở dùng 切る; không dùngくぐる."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai24-28",
+      "type": "usage",
+      "word": "裏返し",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 82,
+      "prompt": "裏返し",
+      "origin": "authored",
+      "options": [
+        "同じ話をもう一度する裏返しを頼んだ。",
+        "靴を左右逆に履いたことを、靴の裏返しという。",
+        "予定を来週に延ばすことを、予定の裏返しという。",
+        "シャツを裏返しに着ていたので、縫い目が外に出ていた。"
+      ],
+      "explanations": [
+        "Lặp lại dùng 繰り返し; không phải裏返し.",
+        "Nhầm bên trái phải là 左右逆; không phải lộn trong ngoài.",
+        "Dời lịch là 延期; không phải裏返し.",
+        "裏返し là lộn mặt trong ra ngoài."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai24-29",
+      "type": "usage",
+      "word": "憧れ",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 64,
+      "prompt": "憧れ",
+      "origin": "authored",
+      "options": [
+        "借りた本の憧れが過ぎたので返した。",
+        "子どもの頃から、宇宙飛行士は私の憧れだった。",
+        "道で財布を拾った憧れを警察に届けた。",
+        "この料理は塩の憧れが強すぎる。"
+      ],
+      "explanations": [
+        "Hạn trả dùng 期限.",
+        "憧れ là đối tượng ngưỡng mộ, mơ ước được trở thành hoặc đến gần.",
+        "Vật nhặt được là 拾得物; 憧れ không chỉ đồ đánh rơi.",
+        "Vị mặn dùng 塩味; không phải憧れ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai24-30",
+      "type": "usage",
+      "word": "夕暮れ",
+      "source_file": "resources/N1/goi/dai24.csv",
+      "source_line": 80,
+      "prompt": "夕暮れ",
+      "origin": "authored",
+      "options": [
+        "真夜中を過ぎた午前三時の夕暮れに帰宅した。",
+        "夕暮れとともに東の空から朝日が昇った。",
+        "夕暮れの空を赤く染めながら、太陽が沈んでいった。",
+        "正午の夕暮れに昼食を取った。"
+      ],
+      "explanations": [
+        "Ba giờ sáng không phải thời điểm chiều tối.",
+        "Mặt trời mọc là 夜明け・明け方, không phải chiều tối.",
+        "夕暮れ là khoảng chiều chuyển sang tối.",
+        "Giữa trưa không phải夕暮れ."
+      ],
+      "answer": 2
+    }
+  ]
+}

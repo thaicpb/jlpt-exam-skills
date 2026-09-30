@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai30-30",
+  "title": "N1 · Bài 30 · 30 câu",
+  "level": "N1",
+  "lesson": "dai30",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093030,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai30.csv"
+  },
+  "choice_seed": 2026100030,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai30-01",
+      "type": "reading",
+      "word": "緩い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 57,
+      "prompt": "この靴はひもが【緩い】。",
+      "origin": "authored",
+      "options": [
+        "おしい",
+        "だるい",
+        "ゆるい",
+        "せこい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "惜しい",
+          "reading": "おしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 97
+        },
+        {
+          "word": "だるい",
+          "reading": "だるい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 30
+        },
+        {
+          "word": "緩い",
+          "reading": "ゆるい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 57
+        },
+        {
+          "word": "せこい",
+          "reading": "せこい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 25
+        }
+      ],
+      "explanations": [
+        "おしい là cách đọc của 惜しい (tiếc; đáng tiếc). Đây là cách đọc có thật, nhưng không phải của 緩い trong câu.",
+        "だるい là cách đọc của だるい (uể oải; rã rời). Đây là cách đọc có thật, nhưng không phải của 緩い trong câu.",
+        "ゆるい là cách đọc của 緩い (lỏng; không chặt, không nghiêm). Khớp từ và ngữ cảnh được hỏi.",
+        "せこい là cách đọc của せこい (keo kiệt; nhỏ nhen). Đây là cách đọc có thật, nhưng không phải của 緩い trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-04",
+      "type": "reading",
+      "word": "怪しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 54,
+      "prompt": "【怪しい】メールのリンクは開かない。",
+      "origin": "authored",
+      "options": [
+        "あやしい",
+        "くやしい",
+        "あさましい",
+        "あくどい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "怪しい",
+          "reading": "あやしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 54
+        },
+        {
+          "word": "悔しい",
+          "reading": "くやしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 55
+        },
+        {
+          "word": "あさましい",
+          "reading": "あさましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 11
+        },
+        {
+          "word": "あくどい",
+          "reading": "あくどい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 10
+        }
+      ],
+      "explanations": [
+        "あやしい là cách đọc của 怪しい (đáng ngờ; mờ ám). Khớp từ và ngữ cảnh được hỏi.",
+        "くやしい là cách đọc của 悔しい (cay cú; tiếc nuối, ấm ức). Đây là cách đọc có thật, nhưng không phải của 怪しい trong câu.",
+        "あさましい là cách đọc của あさましい (đê tiện; đáng khinh). Đây là cách đọc có thật, nhưng không phải của 怪しい trong câu.",
+        "あくどい là cách đọc của あくどい (thủ đoạn; quá lòe loẹt hoặc đậm). Đây là cách đọc có thật, nhưng không phải của 怪しい trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-05",
+      "type": "reading",
+      "word": "柔らかい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 79,
+      "prompt": "このパンは焼いた翌日も【柔らかい】。",
+      "origin": "authored",
+      "options": [
+        "やかましい",
+        "ややこしい",
+        "やましい",
+        "やわらかい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "やかましい",
+          "reading": "やかましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 41
+        },
+        {
+          "word": "ややこしい",
+          "reading": "ややこしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 44
+        },
+        {
+          "word": "やましい",
+          "reading": "やましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 42
+        },
+        {
+          "word": "柔らかい",
+          "reading": "やわらかい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 79
+        }
+      ],
+      "explanations": [
+        "やかましい là cách đọc của やかましい (ồn ào; khắt khe, hay bắt bẻ). Đây là cách đọc có thật, nhưng không phải của 柔らかい trong câu.",
+        "ややこしい là cách đọc của ややこしい (rắc rối; phức tạp). Đây là cách đọc có thật, nhưng không phải của 柔らかい trong câu.",
+        "やましい là cách đọc của やましい (có điều hổ thẹn; áy náy). Đây là cách đọc có thật, nhưng không phải của 柔らかい trong câu.",
+        "やわらかい là cách đọc của 柔らかい (mềm; dịu dàng). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai30-06",
+      "type": "reading",
+      "word": "危なっかしい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 14,
+      "prompt": "弟の運転はまだ【危なっかしい】。",
+      "origin": "authored",
+      "options": [
+        "そそっかしい",
+        "あつかましい",
+        "あぶなっかしい",
+        "なつかしい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "そそっかしい",
+          "reading": "そそっかしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 26
+        },
+        {
+          "word": "厚かましい",
+          "reading": "あつかましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 67
+        },
+        {
+          "word": "危なっかしい",
+          "reading": "あぶなっかしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 14
+        },
+        {
+          "word": "懐かしい",
+          "reading": "なつかしい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 56
+        }
+      ],
+      "explanations": [
+        "そそっかしい là cách đọc của そそっかしい (hấp tấp; hậu đậu). Đây là cách đọc có thật, nhưng không phải của 危なっかしい trong câu.",
+        "あつかましい là cách đọc của 厚かましい (trơ trẽn; mặt dày). Đây là cách đọc có thật, nhưng không phải của 危なっかしい trong câu.",
+        "あぶなっかしい là cách đọc của 危なっかしい (chông chênh; khiến người nhìn lo ngại). Khớp từ và ngữ cảnh được hỏi.",
+        "なつかしい là cách đọc của 懐かしい (hoài niệm; gợi nhớ thân thương). Đây là cách đọc có thật, nhưng không phải của 危なっかしい trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-07",
+      "type": "reading",
+      "word": "心地よい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 87,
+      "prompt": "波の音が【心地よい】。",
+      "origin": "authored",
+      "options": [
+        "こころづよい",
+        "ここちよい",
+        "こころない",
+        "こころよい"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "心強い",
+          "reading": "こころづよい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 84
+        },
+        {
+          "word": "心地よい",
+          "reading": "ここちよい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 87
+        },
+        {
+          "word": "心ない",
+          "reading": "こころない",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 88
+        },
+        {
+          "word": "快い",
+          "reading": "こころよい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 53
+        }
+      ],
+      "explanations": [
+        "こころづよい là cách đọc của 心強い (yên tâm, vững lòng). Đây là cách đọc có thật, nhưng không phải của 心地よい trong câu.",
+        "ここちよい là cách đọc của 心地よい (dễ chịu; êm ái). Khớp từ và ngữ cảnh được hỏi.",
+        "こころない là cách đọc của 心ない (vô tâm; nhẫn tâm). Đây là cách đọc có thật, nhưng không phải của 心地よい trong câu.",
+        "こころよい là cách đọc của 快い (dễ chịu; thoải mái). Đây là cách đọc có thật, nhưng không phải của 心地よい trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-08",
+      "type": "reading",
+      "word": "生温い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 94,
+      "prompt": "このお茶は【生温い】。",
+      "origin": "authored",
+      "options": [
+        "てぬるい",
+        "なまぬるい",
+        "なまぐさい",
+        "なにげない"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "手ぬるい",
+          "reading": "てぬるい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 75
+        },
+        {
+          "word": "生温い",
+          "reading": "なまぬるい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 94
+        },
+        {
+          "word": "生臭い",
+          "reading": "なまぐさい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 95
+        },
+        {
+          "word": "何気ない",
+          "reading": "なにげない",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 50
+        }
+      ],
+      "explanations": [
+        "てぬるい là cách đọc của 手ぬるい (quá nhẹ tay; thiếu nghiêm khắc). Đây là cách đọc có thật, nhưng không phải của 生温い trong câu.",
+        "なまぬるい là cách đọc của 生温い (âm ấm; nửa vời, thiếu nghiêm). Khớp từ và ngữ cảnh được hỏi.",
+        "なまぐさい là cách đọc của 生臭い (tanh). Đây là cách đọc có thật, nhưng không phải của 生温い trong câu.",
+        "なにげない là cách đọc của 何気ない (vô tình; bình thường, không đặc biệt). Đây là cách đọc có thật, nhưng không phải của 生温い trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-11",
+      "type": "reading",
+      "word": "細かい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 72,
+      "prompt": "契約の【細かい】条件を確認した。",
+      "origin": "authored",
+      "options": [
+        "こまかい",
+        "こころない",
+        "このましい",
+        "やましい"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "細かい",
+          "reading": "こまかい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 72
+        },
+        {
+          "word": "心ない",
+          "reading": "こころない",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 88
+        },
+        {
+          "word": "好ましい",
+          "reading": "このましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 68
+        },
+        {
+          "word": "やましい",
+          "reading": "やましい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 42
+        }
+      ],
+      "explanations": [
+        "こまかい là cách đọc của 細かい (nhỏ; tỉ mỉ, chi tiết). Khớp từ và ngữ cảnh được hỏi.",
+        "こころない là cách đọc của 心ない (vô tâm; nhẫn tâm). Đây là cách đọc có thật, nhưng không phải của 細かい trong câu.",
+        "このましい là cách đọc của 好ましい (đáng mong muốn; được ưa thích). Đây là cách đọc có thật, nhưng không phải của 細かい trong câu.",
+        "やましい là cách đọc của やましい (có điều hổ thẹn; áy náy). Đây là cách đọc có thật, nhưng không phải của 細かい trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai30-14",
+      "type": "reading",
+      "word": "手荒い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 78,
+      "prompt": "荷物の【手荒い】扱いは避けてください。",
+      "origin": "authored",
+      "options": [
+        "てぬるい",
+        "てあつい",
+        "あらい",
+        "てあらい"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "手ぬるい",
+          "reading": "てぬるい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 75
+        },
+        {
+          "word": "手厚い",
+          "reading": "てあつい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 77
+        },
+        {
+          "word": "荒い",
+          "reading": "あらい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 70
+        },
+        {
+          "word": "手荒い",
+          "reading": "てあらい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 78
+        }
+      ],
+      "explanations": [
+        "てぬるい là cách đọc của 手ぬるい (quá nhẹ tay; thiếu nghiêm khắc). Đây là cách đọc có thật, nhưng không phải của 手荒い trong câu.",
+        "てあつい là cách đọc của 手厚い (chu đáo; tận tình). Đây là cách đọc có thật, nhưng không phải của 手荒い trong câu.",
+        "あらい là cách đọc của 荒い (thô bạo; dữ dội). Đây là cách đọc có thật, nhưng không phải của 手荒い trong câu.",
+        "てあらい là cách đọc của 手荒い (thô bạo; mạnh tay). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai30-02",
+      "type": "context",
+      "word": "くすぐったい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 19,
+      "prompt": "足の裏を羽でなでられると、（　）ので思わず笑ってしまう。",
+      "origin": "authored",
+      "options": [
+        "やかましい",
+        "うらやましい",
+        "いさましい",
+        "くすぐったい"
+      ],
+      "explanations": [
+        "やかましい là ồn hoặc khắt khe, không phải cảm giác nhột.",
+        "うらやましい là ganh tị, ao ước được như ai.",
+        "いさましい là dũng mãnh, không nói cảm giác da.",
+        "くすぐったい là nhột do bị chạm nhẹ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai30-03",
+      "type": "context",
+      "word": "そっけない",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 27,
+      "prompt": "久しぶりに話しかけたのに、彼は「別に」とだけ答え、（　）態度だった。",
+      "origin": "authored",
+      "options": [
+        "人懐っこい",
+        "愛想がよい",
+        "そっけない",
+        "親しみやすい"
+      ],
+      "explanations": [
+        "人懐っこい là thân thiện, mau quấn quýt.",
+        "愛想がよい là niềm nở, trái với thái độ trong câu.",
+        "そっけない là lạnh nhạt, không tỏ quan tâm.",
+        "親しみやすい là dễ gần, trái với phản ứng cụt lủn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-09",
+      "type": "context",
+      "word": "あっけない",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 12,
+      "prompt": "接戦を期待していたのに、試合は開始一分で終わり、（　）結末だった。",
+      "origin": "authored",
+      "options": [
+        "あっけない",
+        "粘り強い",
+        "果てしない",
+        "待ち遠しい"
+      ],
+      "explanations": [
+        "あっけない là quá nhanh, quá dễ đến hụt hẫng.",
+        "粘り強い là bền bỉ, không phải kết thúc chóng vánh.",
+        "果てしない là không có điểm cuối, trái với kết thúc sau một phút.",
+        "待ち遠しい là nóng lòng chờ, không mô tả kết cục hụt hẫng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai30-10",
+      "type": "context",
+      "word": "みすぼらしい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 37,
+      "prompt": "その男は、汚れて破れた服を着て、（　）身なりをしていた。",
+      "origin": "authored",
+      "options": [
+        "こぎれいな",
+        "きらびやかな",
+        "みすぼらしい",
+        "華々しい"
+      ],
+      "explanations": [
+        "こぎれいな là gọn gàng sạch sẽ, trái với quần áo bẩn rách.",
+        "きらびやかな là lộng lẫy, trái nghĩa.",
+        "みすぼらしい là rách rưới, tồi tàn về diện mạo.",
+        "華々しい là rực rỡ, vẻ vang, trái với rách rưới."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-12",
+      "type": "context",
+      "word": "もっともらしい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 39,
+      "prompt": "彼の説明は一見（　）が、事実を調べると矛盾だらけだった。",
+      "origin": "authored",
+      "options": [
+        "たどたどしい",
+        "わずらわしい",
+        "騒々しい",
+        "もっともらしい"
+      ],
+      "explanations": [
+        "たどたどしい là nói ngập ngừng, không chỉ vẻ hợp lý.",
+        "わずらわしい là phiền phức, không phải trông có lý.",
+        "騒々しい là ồn ào, không chỉ tính thuyết phục bề ngoài.",
+        "もっともらしい là có vẻ hợp lý, chưa chắc đúng thực tế."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai30-13",
+      "type": "context",
+      "word": "とんでもない",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 33,
+      "prompt": "黙って他人の研究成果を自分のものにするなんて、（　）行為だ。",
+      "origin": "authored",
+      "options": [
+        "ほほえましい",
+        "とんでもない",
+        "ありがたい",
+        "好ましい"
+      ],
+      "explanations": [
+        "ほほえましい là khiến vui mỉm cười, không hợp hành vi sai trái.",
+        "とんでもない ở đây là không thể chấp nhận, sai trái nghiêm trọng.",
+        "ありがたい là đáng biết ơn, trái với chiếm công.",
+        "好ましい là đáng ưa, đáng mong muốn, trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai30-15",
+      "type": "context",
+      "word": "悔しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 55,
+      "prompt": "あと一点で優勝できたのに負けてしまい、努力が報われず（　）。",
+      "origin": "authored",
+      "options": [
+        "誇らしい",
+        "喜ばしい",
+        "悔しい",
+        "頼もしい"
+      ],
+      "explanations": [
+        "誇らしい là tự hào, không phù hợp tâm trạng được nêu.",
+        "喜ばしい là đáng mừng, trái ngữ cảnh.",
+        "悔しい là cay cú, tiếc nuối vì thất bại dù đã nỗ lực.",
+        "頼もしい là đáng tin cậy, không chỉ tiếc nuối thua cuộc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-16",
+      "type": "context",
+      "word": "華々しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 51,
+      "prompt": "新人俳優は初主演で大賞を受賞し、（　）デビューを飾った。",
+      "origin": "authored",
+      "options": [
+        "うっとうしい",
+        "そっけない",
+        "華々しい",
+        "みすぼらしい"
+      ],
+      "explanations": [
+        "うっとうしい là khó chịu, u ám; trái sắc thái được tôn vinh.",
+        "そっけない là lạnh nhạt về thái độ, không tả màn ra mắt thành công.",
+        "華々しい là rực rỡ, vẻ vang; hợp với ra mắt giành giải lớn.",
+        "みすぼらしい là tồi tàn, không hợp thành công lớn."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-17",
+      "type": "paraphrase",
+      "word": "つつましい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 31,
+      "prompt": "彼女は収入が増えても、【つつましい】生活を続けている。",
+      "origin": "authored",
+      "options": [
+        "見栄を張った",
+        "金に糸目をつけない",
+        "ぜいたくをしない",
+        "浪費の多い"
+      ],
+      "explanations": [
+        "Phô trương trái nghĩa.",
+        "Không tiếc tiền chi tiêu trái với sống giản dị.",
+        "つつましい là giản dị, không xa hoa.",
+        "Lãng phí nhiều không phải tiết kiệm giản dị."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-18",
+      "type": "paraphrase",
+      "word": "疑わしい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 58,
+      "prompt": "証拠がなく、その話は【疑わしい】。",
+      "origin": "authored",
+      "options": [
+        "間違いない",
+        "確かだとは思えない",
+        "待ちきれない",
+        "確実に正しい"
+      ],
+      "explanations": [
+        "Chắc chắn không sai trái nghĩa.",
+        "疑わしい là khó tin chắc, có điều đáng nghi.",
+        "Không thể chờ không phải nghi ngờ.",
+        "Chắc chắn đúng trái với chưa tin."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai30-19",
+      "type": "paraphrase",
+      "word": "回りくどい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 52,
+      "prompt": "要点を言わず、【回りくどい】説明が続いた。",
+      "origin": "authored",
+      "options": [
+        "率直で短い",
+        "遠回しで分かりにくい",
+        "順序よく整理された",
+        "簡潔で明快な"
+      ],
+      "explanations": [
+        "Thẳng thắn ngắn gọn trái nghĩa.",
+        "回りくどい là vòng vo, dài dòng, khó nắm ý.",
+        "Sắp xếp rõ ràng không đồng nghĩa vòng vo.",
+        "Ngắn gọn rõ ràng trái nghĩa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai30-20",
+      "type": "paraphrase",
+      "word": "情け深い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 83,
+      "prompt": "彼は困っている人を見過ごせない、【情け深い】人だ。",
+      "origin": "authored",
+      "options": [
+        "人を疑いやすい",
+        "思いやりのある",
+        "他人に冷たい",
+        "自分勝手な"
+      ],
+      "explanations": [
+        "Hay nghi người khác không có nghĩa nhân hậu.",
+        "情け深い là giàu lòng thương, biết quan tâm.",
+        "Lạnh lùng với người khác trái nghĩa.",
+        "Ích kỷ trái với lòng nhân ái."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai30-21",
+      "type": "paraphrase",
+      "word": "あどけない",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 13,
+      "prompt": "赤ちゃんの【あどけない】笑顔に、皆が和んだ。",
+      "origin": "authored",
+      "options": [
+        "威圧的な",
+        "計算ずくの",
+        "無邪気でかわいらしい",
+        "悪意を感じさせる"
+      ],
+      "explanations": [
+        "Có tính áp đảo, đe dọa không phải ngây thơ.",
+        "Có toan tính trái với hồn nhiên.",
+        "あどけない là ngây thơ, hồn nhiên trẻ nhỏ.",
+        "Khiến thấy ác ý trái nghĩa."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai30-22",
+      "type": "paraphrase",
+      "word": "激しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 61,
+      "prompt": "昨夜は風が【激しかった】。",
+      "origin": "authored",
+      "options": [
+        "ほとんどなかった",
+        "非常に強かった",
+        "心地よかった",
+        "冷たくなかった"
+      ],
+      "explanations": [
+        "Hầu như không có gió trái nghĩa.",
+        "激しい ở đây là có cường độ rất mạnh.",
+        "Dễ chịu không đồng nghĩa với dữ dội.",
+        "Không lạnh nói nhiệt độ, không phải cường độ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai30-23",
+      "type": "paraphrase",
+      "word": "詳しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 81,
+      "prompt": "彼女は【日本の歴史に詳しい】。",
+      "origin": "authored",
+      "options": [
+        "日本の歴史に関心がない",
+        "日本の歴史をほとんど知らない",
+        "日本の歴史を学び始めたばかりだ",
+        "日本の歴史をよく知っている"
+      ],
+      "explanations": [
+        "Không quan tâm trái với am hiểu.",
+        "Hầu như không biết trái nghĩa.",
+        "Vừa bắt đầu học chưa có nghĩa đã am hiểu.",
+        "詳しい chỉ có kiến thức sâu về lĩnh vực."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai30-24",
+      "type": "usage",
+      "word": "あくどい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 10,
+      "prompt": "あくどい",
+      "origin": "authored",
+      "options": [
+        "弱い立場の人をだまして金を取る、あくどい商売だ。",
+        "このスープは薄味で、塩気もなくあくどい。",
+        "明日は雨が降るあくどい予報だ。",
+        "他人を思いやる温かな親切を、あくどいと褒めた。"
+      ],
+      "explanations": [
+        "あくどい là thủ đoạn, thiếu đạo đức; cũng có thể chỉ quá đậm, lòe loẹt.",
+        "Vị nhạt nhẹ không phải sắc thái quá đậm hoặc ngấy củaあくどい.",
+        "あくどい không diễn đạt xác suất hoặc trạng thái thời tiết mưa.",
+        "Không dùng từ chê ác độc để khen lòng tốt chân thành."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai30-25",
+      "type": "usage",
+      "word": "疎い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 98,
+      "prompt": "疎い",
+      "origin": "authored",
+      "options": [
+        "この鍋は温度が高くて疎い。",
+        "駅までの距離は遠くて疎い。",
+        "この紐は太さが一ミリで、とても疎い。",
+        "私は機械の操作に疎いので、詳しい人に教わりたい。"
+      ],
+      "explanations": [
+        "Nóng dùng 熱い; 疎い không chỉ nhiệt độ.",
+        "Xa về địa lý dùng 遠い; 疎い không thay cho tính từ khoảng cách.",
+        "Đường kính nhỏ dùng 細い; 疎い không chỉ độ mảnh.",
+        "疎い là không rành, ít hiểu về lĩnh vực."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai30-26",
+      "type": "usage",
+      "word": "やかましい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 41,
+      "prompt": "やかましい",
+      "origin": "authored",
+      "options": [
+        "隣の工事の音がやかましいので、窓を閉めた。",
+        "このケーキは砂糖が多くてやかましい。",
+        "部屋が暗くてやかましいので、明かりだけをつけた。",
+        "荷物が重くてやかましいので、台車に載せた。"
+      ],
+      "explanations": [
+        "やかましい là ồn, gây khó chịu.",
+        "Vị ngọt dùng 甘い; không dùngやかましい.",
+        "Độ tối dùng 暗い; bật đèn không giải quyết tiếng ồn.",
+        "Khó mang vì nặng dùng 重い・持ちにくい; やかましい không chỉ sức nặng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai30-27",
+      "type": "usage",
+      "word": "意地悪い",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 46,
+      "prompt": "意地悪い",
+      "origin": "authored",
+      "options": [
+        "服の丈が短くて意地悪い。",
+        "あの人は誰にでも親切で、少しも悪意のない意地悪い人だ。",
+        "この道は坂が急なので意地悪い。",
+        "わざと困る質問ばかりする、意地悪い人だ。"
+      ],
+      "explanations": [
+        "Độ dài ngắn dùng 短い; không phải xấu tính.",
+        "Hoàn toàn không ác ý và luôn tử tế trái với意地悪い.",
+        "Độ dốc dùng 急だ・険しい; không gán ý xấu của con người trong mô tả này.",
+        "意地悪い là cố tình gây khó cho người khác, xấu tính."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai30-28",
+      "type": "usage",
+      "word": "煙たい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 48,
+      "prompt": "煙たい",
+      "origin": "authored",
+      "options": [
+        "焚き火の煙が顔にかかり、煙たい。",
+        "煙もにおいもない透明な水が煙たい。",
+        "砂糖を入れすぎて、紅茶の味が煙たい。",
+        "この箱は三十キロもあって煙たい。"
+      ],
+      "explanations": [
+        "煙たい là khó chịu vì nhiều khói; cũng chỉ người làm mình e dè.",
+        "Không khói hoặc nghĩa quan hệ con người thì không dùng煙たい cho nước.",
+        "Quá ngọt dùng 甘い; không phải煙たい.",
+        "Nặng dùng 重い, không phải khói."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai30-29",
+      "type": "usage",
+      "word": "恐ろしい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 59,
+      "prompt": "恐ろしい",
+      "origin": "authored",
+      "options": [
+        "大地震の映像を見て、災害は恐ろしいと感じた。",
+        "資料のページ数が少ないことを、恐ろしいと数えた。",
+        "安心して心からくつろげることを、恐ろしいという。",
+        "靴のサイズが小さいので、足に恐ろしい。"
+      ],
+      "explanations": [
+        "恐ろしい là gây sợ hãi; ở đây là thiên tai.",
+        "恐ろしい không dùng thay cho thao tác đếm hoặc tính từ ít.",
+        "Cảm giác hoàn toàn an tâm trái với sợ hãi.",
+        "Không vừa hoặc chật dùng きつい; 足に恐ろしい không diễn đạt độ vừa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai30-30",
+      "type": "usage",
+      "word": "相応しい",
+      "source_file": "resources/N1/goi/dai30.csv",
+      "source_line": 101,
+      "prompt": "相応しい",
+      "origin": "authored",
+      "options": [
+        "物の重さを量る道具を、相応しいと呼ぶ。",
+        "二つの数を足すと、合計が相応しい。",
+        "約束を忘れたので、友人に相応しいと言って謝った。",
+        "豊かな経験を持つ彼は、責任者に相応しい人物だ。"
+      ],
+      "explanations": [
+        "Dụng cụ cân là はかり; 相応しい là tính từ phù hợp, không phải tên vật.",
+        "Phép cộng cho tổng 正しい・一致する; 相応しい không có nghĩa bằng nhau về số học.",
+        "Lời xin lỗi dùng 申し訳ない; 相応しい không có nghĩa xin lỗi.",
+        "相応しい là phù hợp, xứng đáng với vai trò."
+      ],
+      "answer": 3
+    }
+  ]
+}

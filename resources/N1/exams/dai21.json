@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai21-30",
+  "title": "N1 · Bài 21 · 30 câu",
+  "level": "N1",
+  "lesson": "dai21",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093021,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai21.csv"
+  },
+  "choice_seed": 2026100021,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai21-01",
+      "type": "reading",
+      "word": "滅亡",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 71,
+      "prompt": "王国が【滅亡】した。",
+      "origin": "authored",
+      "options": [
+        "めんぼく",
+        "めいぼ",
+        "めつぼう",
+        "めつき"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "面目",
+          "reading": "めんぼく",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 75
+        },
+        {
+          "word": "名簿",
+          "reading": "めいぼ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 66
+        },
+        {
+          "word": "滅亡",
+          "reading": "めつぼう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 71
+        },
+        {
+          "word": "目つき",
+          "reading": "めつき",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 75
+        }
+      ],
+      "explanations": [
+        "めんぼく là cách đọc của 面目 (thể diện). Đây là cách đọc có thật, nhưng không phải của 滅亡 trong câu.",
+        "めいぼ là cách đọc của 名簿 (danh sách tên). Đây là cách đọc có thật, nhưng không phải của 滅亡 trong câu.",
+        "めつぼう là cách đọc của 滅亡 (diệt vong). Khớp từ và ngữ cảnh được hỏi.",
+        "めつき là cách đọc của 目つき (ánh mắt; vẻ mắt). Đây là cách đọc có thật, nhưng không phải của 滅亡 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai21-02",
+      "type": "reading",
+      "word": "埋葬",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 46,
+      "prompt": "遺体を墓地に【埋葬】する。",
+      "origin": "authored",
+      "options": [
+        "まいそう",
+        "もうそう",
+        "まいぼつ",
+        "れいぼう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "埋葬",
+          "reading": "まいそう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 46
+        },
+        {
+          "word": "妄想",
+          "reading": "もうそう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 80
+        },
+        {
+          "word": "埋没",
+          "reading": "まいぼつ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 47
+        },
+        {
+          "word": "冷房",
+          "reading": "れいぼう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 97
+        }
+      ],
+      "explanations": [
+        "まいそう là cách đọc của 埋葬 (mai táng). Khớp từ và ngữ cảnh được hỏi.",
+        "もうそう là cách đọc của 妄想 (hoang tưởng; tưởng tượng viển vông). Đây là cách đọc có thật, nhưng không phải của 埋葬 trong câu.",
+        "まいぼつ là cách đọc của 埋没 (bị vùi lấp; bị lu mờ). Đây là cách đọc có thật, nhưng không phải của 埋葬 trong câu.",
+        "れいぼう là cách đọc của 冷房 (làm mát; điều hòa lạnh). Đây là cách đọc có thật, nhưng không phải của 埋葬 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai21-03",
+      "type": "reading",
+      "word": "目先",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 83,
+      "prompt": "【目先】の利益にとらわれない。",
+      "origin": "authored",
+      "options": [
+        "めさき",
+        "めつき",
+        "めいぼ",
+        "めいぎ"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "目先",
+          "reading": "めさき",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 83
+        },
+        {
+          "word": "目つき",
+          "reading": "めつき",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 75
+        },
+        {
+          "word": "名簿",
+          "reading": "めいぼ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 66
+        },
+        {
+          "word": "名義",
+          "reading": "めいぎ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 64
+        }
+      ],
+      "explanations": [
+        "めさき là cách đọc của 目先 (trước mắt; lợi ích ngắn hạn). Khớp từ và ngữ cảnh được hỏi.",
+        "めつき là cách đọc của 目つき (ánh mắt; vẻ mắt). Đây là cách đọc có thật, nhưng không phải của 目先 trong câu.",
+        "めいぼ là cách đọc của 名簿 (danh sách tên). Đây là cách đọc có thật, nhưng không phải của 目先 trong câu.",
+        "めいぎ là cách đọc của 名義 (danh nghĩa; tên đứng trên giấy tờ). Đây là cách đọc có thật, nhưng không phải của 目先 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai21-04",
+      "type": "reading",
+      "word": "模型",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 76,
+      "prompt": "船の【模型】を作る。",
+      "origin": "authored",
+      "options": [
+        "もさく",
+        "もけい",
+        "もはん",
+        "もほう"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "模索",
+          "reading": "もさく",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 77
+        },
+        {
+          "word": "模型",
+          "reading": "もけい",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 76
+        },
+        {
+          "word": "模範",
+          "reading": "もはん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 78
+        },
+        {
+          "word": "模倣",
+          "reading": "もほう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 79
+        }
+      ],
+      "explanations": [
+        "もさく là cách đọc của 模索 (tìm tòi cách giải quyết). Đây là cách đọc có thật, nhưng không phải của 模型 trong câu.",
+        "もけい là cách đọc của 模型 (mô hình). Khớp từ và ngữ cảnh được hỏi.",
+        "もはん là cách đọc của 模範 (gương mẫu). Đây là cách đọc có thật, nhưng không phải của 模型 trong câu.",
+        "もほう là cách đọc của 模倣 (bắt chước). Đây là cách đọc có thật, nhưng không phải của 模型 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai21-05",
+      "type": "reading",
+      "word": "迷信",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 70,
+      "prompt": "【迷信】を信じない。",
+      "origin": "authored",
+      "options": [
+        "めいあん",
+        "めんしき",
+        "めいぼ",
+        "めいしん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "明暗",
+          "reading": "めいあん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 69
+        },
+        {
+          "word": "面識",
+          "reading": "めんしき",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 74
+        },
+        {
+          "word": "名簿",
+          "reading": "めいぼ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 66
+        },
+        {
+          "word": "迷信",
+          "reading": "めいしん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 70
+        }
+      ],
+      "explanations": [
+        "めいあん là cách đọc của 明暗 (sáng tối; thành bại trái ngược). Đây là cách đọc có thật, nhưng không phải của 迷信 trong câu.",
+        "めんしき là cách đọc của 面識 (quen mặt; từng gặp). Đây là cách đọc có thật, nhưng không phải của 迷信 trong câu.",
+        "めいぼ là cách đọc của 名簿 (danh sách tên). Đây là cách đọc có thật, nhưng không phải của 迷信 trong câu.",
+        "めいしん là cách đọc của 迷信 (mê tín). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai21-06",
+      "type": "reading",
+      "word": "矛盾",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 63,
+      "prompt": "二つの説明が【矛盾】する。",
+      "origin": "authored",
+      "options": [
+        "むじつ",
+        "むねん",
+        "りじゅん",
+        "むじゅん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "無実",
+          "reading": "むじつ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 58
+        },
+        {
+          "word": "無念",
+          "reading": "むねん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 62
+        },
+        {
+          "word": "利潤",
+          "reading": "りじゅん",
+          "source_file": "resources/N1/goi/dai22.csv",
+          "source_line": 58
+        },
+        {
+          "word": "矛盾",
+          "reading": "むじゅん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 63
+        }
+      ],
+      "explanations": [
+        "むじつ là cách đọc của 無実 (vô tội). Đây là cách đọc có thật, nhưng không phải của 矛盾 trong câu.",
+        "むねん là cách đọc của 無念 (tiếc nuối; uất ức). Đây là cách đọc có thật, nhưng không phải của 矛盾 trong câu.",
+        "りじゅん là cách đọc của 利潤 (lợi nhuận). Đây là cách đọc có thật, nhưng không phải của 矛盾 trong câu.",
+        "むじゅん là cách đọc của 矛盾 (mâu thuẫn). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai21-07",
+      "type": "reading",
+      "word": "麻酔",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 44,
+      "prompt": "手術の前に【麻酔】をかける。",
+      "origin": "authored",
+      "options": [
+        "まさつ",
+        "まぐれ",
+        "ますい",
+        "まんせい"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "摩擦",
+          "reading": "まさつ",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 43
+        },
+        {
+          "word": "まぐれ",
+          "reading": "まぐれ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 53
+        },
+        {
+          "word": "麻酔",
+          "reading": "ますい",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 44
+        },
+        {
+          "word": "慢性",
+          "reading": "まんせい",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 50
+        }
+      ],
+      "explanations": [
+        "まさつ là cách đọc của 摩擦 (ma sát; bất hòa). Đây là cách đọc có thật, nhưng không phải của 麻酔 trong câu.",
+        "まぐれ là cách đọc của まぐれ (may mắn tình cờ; ăn may). Đây là cách đọc có thật, nhưng không phải của 麻酔 trong câu.",
+        "ますい là cách đọc của 麻酔 (gây tê; gây mê). Khớp từ và ngữ cảnh được hỏi.",
+        "まんせい là cách đọc của 慢性 (mạn tính). Đây là cách đọc có thật, nhưng không phải của 麻酔 trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai21-08",
+      "type": "reading",
+      "word": "冒険",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 28,
+      "prompt": "未知の土地を【冒険】する。",
+      "origin": "authored",
+      "options": [
+        "ぼうとう",
+        "ぼうがい",
+        "ぼうどう",
+        "ぼうけん"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "冒頭",
+          "reading": "ぼうとう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 29
+        },
+        {
+          "word": "妨害",
+          "reading": "ぼうがい",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 22
+        },
+        {
+          "word": "暴動",
+          "reading": "ぼうどう",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 24
+        },
+        {
+          "word": "冒険",
+          "reading": "ぼうけん",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 28
+        }
+      ],
+      "explanations": [
+        "ぼうとう là cách đọc của 冒頭 (phần mở đầu). Đây là cách đọc có thật, nhưng không phải của 冒険 trong câu.",
+        "ぼうがい là cách đọc của 妨害 (cản trở). Đây là cách đọc có thật, nhưng không phải của 冒険 trong câu.",
+        "ぼうどう là cách đọc của 暴動 (bạo loạn). Đây là cách đọc có thật, nhưng không phải của 冒険 trong câu.",
+        "ぼうけん là cách đọc của 冒険 (phiêu lưu; mạo hiểm). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai21-09",
+      "type": "context",
+      "word": "冒頭",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 29,
+      "prompt": "講演の（　）で、まず登壇者が簡単な自己紹介をした。",
+      "origin": "authored",
+      "options": [
+        "末尾",
+        "終盤",
+        "冒頭",
+        "結末"
+      ],
+      "explanations": [
+        "末尾 là cuối văn bản hoặc lời nói.",
+        "終盤 là giai đoạn gần cuối, trái với mở đầu.",
+        "冒頭 là phần mở đầu, phù hợp với まず.",
+        "結末 là kết cục của sự việc."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-10",
+      "type": "context",
+      "word": "野心",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 86,
+      "prompt": "彼は小さな成功に満足せず、世界市場を制覇するという大きな（　）を抱いている。",
+      "origin": "authored",
+      "options": [
+        "用心",
+        "野心",
+        "童心",
+        "良心"
+      ],
+      "explanations": [
+        "用心 là sự đề phòng.",
+        "野心 là tham vọng lớn, ở đây muốn chinh phục thị trường.",
+        "童心 là tâm hồn trẻ thơ, không phải tham vọng.",
+        "良心 là lương tâm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-11",
+      "type": "context",
+      "word": "名残",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 65,
+      "prompt": "近代的な街並みの中にも、古い城下町の（　）が残っている。",
+      "origin": "authored",
+      "options": [
+        "兆し",
+        "名残",
+        "見込み",
+        "予感"
+      ],
+      "explanations": [
+        "兆し là dấu hiệu báo sự việc sắp đến.",
+        "名残 là dấu tích của điều từng tồn tại.",
+        "見込み là triển vọng trong tương lai.",
+        "予感 là linh cảm về điều chưa xảy ra."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-12",
+      "type": "context",
+      "word": "役柄",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 88,
+      "prompt": "役者は、演じる人物の性格を研究して（　）への理解を深めた。",
+      "origin": "authored",
+      "options": [
+        "絵柄",
+        "家柄",
+        "銘柄",
+        "役柄"
+      ],
+      "explanations": [
+        "絵柄 là kiểu hoa văn hoặc hình vẽ, không phải đặc điểm vai diễn.",
+        "家柄 là dòng dõi gia đình.",
+        "銘柄 là nhãn hiệu hoặc mã chứng khoán.",
+        "役柄 chỉ tính chất, đặc điểm của vai diễn."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai21-13",
+      "type": "context",
+      "word": "暴風",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 25,
+      "prompt": "屋根が飛ばされるほどの（　）が吹き荒れ、外に出られなかった。",
+      "origin": "authored",
+      "options": [
+        "順風",
+        "暴風",
+        "無風",
+        "微風"
+      ],
+      "explanations": [
+        "順風 chỉ gió thuận chiều, không nói cường độ phá hoại.",
+        "暴風 là gió bão dữ dội có thể gây hư hại.",
+        "無風 là không có gió, trái với 吹き荒れる.",
+        "微風 là gió rất nhẹ."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-14",
+      "type": "context",
+      "word": "無駄",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 60,
+      "prompt": "誰もいない部屋の電気をつけたままにするのは、電力の（　）だ。",
+      "origin": "authored",
+      "options": [
+        "無駄",
+        "備蓄",
+        "供給",
+        "節約"
+      ],
+      "explanations": [
+        "無駄 là sử dụng vô ích, lãng phí.",
+        "備蓄 là tích trữ để dùng khi cần.",
+        "供給 là cung cấp, không phải đánh giá sự lãng phí.",
+        "節約 là tiết kiệm, trái với để điện sáng vô ích."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai21-15",
+      "type": "context",
+      "word": "零細",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 98,
+      "prompt": "従業員がわずか三人しかいない（　）企業が、この町には多い。",
+      "origin": "authored",
+      "options": [
+        "壮大",
+        "巨大",
+        "膨大",
+        "零細"
+      ],
+      "explanations": [
+        "壮大 là đồ sộ, lớn lao, không chỉ doanh nghiệp rất nhỏ.",
+        "巨大 là cực lớn, trái với quy mô nêu trong câu.",
+        "膨大 chỉ lượng rất lớn.",
+        "零細企業 là doanh nghiệp quy mô rất nhỏ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai21-16",
+      "type": "context",
+      "word": "本籍",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 41,
+      "prompt": "現在住んでいる住所とは別に、戸籍が置かれている場所である（　）を確認した。",
+      "origin": "authored",
+      "options": [
+        "勤務地",
+        "現住所",
+        "本籍",
+        "滞在先"
+      ],
+      "explanations": [
+        "勤務地 là nơi công tác.",
+        "現住所 là địa chỉ hiện đang sống, đã được phân biệt trong câu.",
+        "本籍 là địa điểm đặt hộ tịch, có thể khác nơi đang sống.",
+        "滞在先 là nơi tạm lưu trú."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-17",
+      "type": "paraphrase",
+      "word": "奉仕",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 10,
+      "prompt": "休日は地域の人々に【奉仕している】。",
+      "origin": "authored",
+      "options": [
+        "報酬を請求している",
+        "命令を押し付けている",
+        "見返りを求めず尽くしている",
+        "責任を転嫁している"
+      ],
+      "explanations": [
+        "Đòi thù lao không đồng nghĩa với phục vụ vô tư.",
+        "Áp đặt mệnh lệnh trái với phục vụ người khác.",
+        "奉仕 là tận tâm phục vụ, thường không nhằm nhận lợi ích riêng.",
+        "Đổ trách nhiệm không phải奉仕."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-18",
+      "type": "paraphrase",
+      "word": "明暗",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 69,
+      "prompt": "戦略の違いが、両社の【明暗】を分けた。",
+      "origin": "authored",
+      "options": [
+        "成功と失敗",
+        "過去と未来",
+        "表面と裏面",
+        "昼と夜"
+      ],
+      "explanations": [
+        "明暗 ở đây chỉ hai kết quả thành công và thất bại đối lập.",
+        "Quá khứ và tương lai không phải nghĩa trong câu.",
+        "Mặt trước và mặt sau không chỉ thành bại.",
+        "Ngày và đêm là nghĩa thời gian, không phải kết quả kinh doanh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai21-19",
+      "type": "paraphrase",
+      "word": "暴落",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 26,
+      "prompt": "市場の不安から株価が【暴落した】。",
+      "origin": "authored",
+      "options": [
+        "少しずつ上がった",
+        "急激に大きく下がった",
+        "ほとんど変わらなかった",
+        "一時的に取引を止めた"
+      ],
+      "explanations": [
+        "Tăng dần trái nghĩa.",
+        "暴落 là giá giảm mạnh và nhanh.",
+        "Hầu như không đổi không phải暴落.",
+        "Ngừng giao dịch khác với giá sụt mạnh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-20",
+      "type": "paraphrase",
+      "word": "盲点",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 82,
+      "prompt": "その確認項目は、私たちにとって【盲点】だった。",
+      "origin": "authored",
+      "options": [
+        "最も重視していた点",
+        "見落としていた点",
+        "最初に改善した点",
+        "全員が合意した点"
+      ],
+      "explanations": [
+        "Điểm đã chú trọng nhất không phải điểm bị bỏ sót.",
+        "盲点 là điểm bị bỏ sót, khó nhận ra.",
+        "Điểm đã sửa đầu tiên không phải nghĩa盲点.",
+        "Điểm đã đồng thuận không đồng nghĩa với盲点."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-21",
+      "type": "paraphrase",
+      "word": "埋没",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 47,
+      "prompt": "噴火によって村が火山灰に【埋没した】。",
+      "origin": "authored",
+      "options": [
+        "埋まって見えなくなった",
+        "包まれて明るくなった",
+        "守られて無事だった",
+        "押されて移動した"
+      ],
+      "explanations": [
+        "埋没 là bị vùi lấp, không còn nhìn thấy.",
+        "Sáng lên không phải bị vùi lấp.",
+        "Được bảo vệ an toàn trái với thiệt hại trong câu.",
+        "Bị đẩy đi không đồng nghĩa chôn vùi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai21-22",
+      "type": "paraphrase",
+      "word": "満喫",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 51,
+      "prompt": "久しぶりの休日を【満喫した】。",
+      "origin": "authored",
+      "options": [
+        "十分に楽しんだ",
+        "少しだけ延ばした",
+        "ほとんど忘れた",
+        "急に取り消した"
+      ],
+      "explanations": [
+        "満喫 là tận hưởng trọn vẹn.",
+        "Kéo dài một chút không có nghĩa tận hưởng.",
+        "Gần như quên không phải tận hưởng.",
+        "Hủy đột ngột không phải満喫."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai21-23",
+      "type": "paraphrase",
+      "word": "密集",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 55,
+      "prompt": "駅の周囲には飲食店が【密集している】。",
+      "origin": "authored",
+      "options": [
+        "一軒ずつ移転している",
+        "互いに遠く離れている",
+        "狭い範囲に多く集まっている",
+        "次々に閉店している"
+      ],
+      "explanations": [
+        "Lần lượt chuyển địa điểm khác với tập trung dày đặc.",
+        "Cách xa nhau trái với密集.",
+        "密集 là nhiều đối tượng tập trung sát nhau.",
+        "Đóng cửa liên tiếp không chỉ mật độ vị trí."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-24",
+      "type": "usage",
+      "word": "防衛",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 31,
+      "prompt": "防衛",
+      "origin": "authored",
+      "options": [
+        "国は外部からの攻撃に備えて、防衛体制を整えた。",
+        "食品の腐敗を防衛するため、冷蔵庫に入れる。",
+        "荷物が落ちないよう、ひもで防衛した。",
+        "風邪をひかないように、うがいで感染を防衛する。"
+      ],
+      "explanations": [
+        "防衛 là bảo vệ trước sự tấn công từ bên ngoài.",
+        "Ngăn thực phẩm hỏng dùng 防止, không dùng腐敗を防衛.",
+        "Cố định đồ dùng 固定; 防衛 không chỉ buộc giữ vật.",
+        "Phòng nhiễm bệnh dùng 予防・防ぐ, không dùng 感染を防衛する."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai21-25",
+      "type": "usage",
+      "word": "輪郭",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 93,
+      "prompt": "輪郭",
+      "origin": "authored",
+      "options": [
+        "会議が始まる輪郭を時計で確認した。",
+        "霧の向こうに山の輪郭がぼんやり見えた。",
+        "彼の輪郭は明るく親切で、誰にでも好かれる。",
+        "円の輪郭を計算したら、面積は十平方センチだった。"
+      ],
+      "explanations": [
+        "Thời điểm bắt đầu là 時刻.",
+        "輪郭 là đường nét bao ngoài của vật.",
+        "Tính cách là 性格・人柄; 輪郭 không chỉ tính nết.",
+        "Đường bao khác với diện tích bên trong hình tròn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-26",
+      "type": "usage",
+      "word": "密度",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 56,
+      "prompt": "密度",
+      "origin": "authored",
+      "options": [
+        "会議を開く密度は、毎週月曜日と決まっている。",
+        "荷物の密度を量ったら、重さは三キロだった。",
+        "この地域は人口密度が高く、住宅が密集している。",
+        "成功する密度が七割なので、挑戦したい。"
+      ],
+      "explanations": [
+        "Ngày tổ chức là 日程; tần suất là 頻度, không phải密度.",
+        "Chỉ số ba kilôgam là khối lượng, không phải khối lượng trên thể tích.",
+        "密度 chỉ lượng trên một đơn vị không gian.",
+        "Xác suất thành công dùng 確率."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-27",
+      "type": "usage",
+      "word": "無実",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 58,
+      "prompt": "無実",
+      "origin": "authored",
+      "options": [
+        "まだ果実が熟していないので、この木は無実だ。",
+        "新しい証拠が見つかり、被告人の無実が証明された。",
+        "経験が足りない新人を無実だと評価した。",
+        "今日の予定が無実なので、いつでも会える。"
+      ],
+      "explanations": [
+        "Không có quả là 実がない; 無実 không chỉ trạng thái cây.",
+        "無実 là không phạm tội bị nghi ngờ.",
+        "Chưa có kinh nghiệm là 未経験; không phải vô tội.",
+        "Không có lịch là 予定がない; 無実 không mang nghĩa trống lịch."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai21-28",
+      "type": "usage",
+      "word": "飽和",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 21,
+      "prompt": "飽和",
+      "origin": "authored",
+      "options": [
+        "食後に皿を洗い、台所を飽和した。",
+        "二国間の戦争が終わり、ようやく飽和が訪れた。",
+        "同種の店が増えすぎて、市場は飽和状態にある。",
+        "計画に全員が賛成したので、意見が飽和した。"
+      ],
+      "explanations": [
+        "Dọn hoặc làm sạch dùng 整理・清掃; không phải bão hòa.",
+        "Hòa bình dùng 平和; không phải飽和.",
+        "飽和 là đạt mức đầy, khó tiếp nhận thêm.",
+        "Ý kiến thống nhất là 一致; 飽和 không chỉ đồng thuận."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai21-29",
+      "type": "usage",
+      "word": "妨害",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 22,
+      "prompt": "妨害",
+      "origin": "authored",
+      "options": [
+        "友人が成功するよう、資金を出して妨害した。",
+        "壊れた部品を妨害して、機械を直した。",
+        "雨に濡れないよう、傘で体を妨害した。",
+        "大音量で音楽を流して、近所の人の睡眠を妨害してはいけない。"
+      ],
+      "explanations": [
+        "Hỗ trợ thành công là 援助・支援; trái với妨害.",
+        "Thay hoặc sửa bộ phận dùng 交換・修理.",
+        "Che bảo vệ cơ thể dùng 守る; 妨害 mang nghĩa cản trở.",
+        "妨害 là cản trở hoạt động, khiến không thể tiến hành bình thường."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai21-30",
+      "type": "usage",
+      "word": "模索",
+      "source_file": "resources/N1/goi/dai21.csv",
+      "source_line": 77,
+      "prompt": "模索",
+      "origin": "authored",
+      "options": [
+        "駅員に切符を見せ、改札を模索した。",
+        "体温計で熱を模索した。",
+        "完成した絵をそのまま模索して、同じ絵を描いた。",
+        "話し合いを重ねながら、双方が納得できる解決策を模索している。"
+      ],
+      "explanations": [
+        "Qua cửa soát vé dùng 通る; không phải tìm tòi giải pháp.",
+        "Đo nhiệt độ dùng 測る, không dùng模索.",
+        "Sao chép, bắt chước dùng 模写; khác với模索.",
+        "模索 là tìm tòi cách giải quyết khi chưa rõ phương án."
+      ],
+      "answer": 3
+    }
+  ]
+}

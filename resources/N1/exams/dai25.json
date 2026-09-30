@@ -1,0 +1,884 @@
+{
+  "id": "n1-dai25-30",
+  "title": "N1 · Bài 25 · 30 câu",
+  "level": "N1",
+  "lesson": "dai25",
+  "selection": {
+    "method": "random.sample",
+    "seed": 2026093025,
+    "count": 30,
+    "source_file": "resources/N1/goi/dai25.csv"
+  },
+  "choice_seed": 2026100025,
+  "reading_policy": "attested-csv",
+  "questions": [
+    {
+      "id": "n1-dai25-01",
+      "type": "reading",
+      "word": "及ぼす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 96,
+      "prompt": "せいかつにえいきょうを【及ぼす】。",
+      "origin": "authored",
+      "options": [
+        "おどす",
+        "およぼす",
+        "おどかす",
+        "おかす"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "脅す",
+          "reading": "おどす",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 7
+        },
+        {
+          "word": "及ぼす",
+          "reading": "およぼす",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 96
+        },
+        {
+          "word": "脅かす",
+          "reading": "おどかす",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 6
+        },
+        {
+          "word": "侵す",
+          "reading": "おかす",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 88
+        }
+      ],
+      "explanations": [
+        "おどす là cách đọc của 脅す (đe dọa; uy hiếp). Đây là cách đọc có thật, nhưng không phải của 及ぼす trong câu.",
+        "およぼす là cách đọc của 及ぼす (gây ra; tạo ảnh hưởng). Khớp từ và ngữ cảnh được hỏi.",
+        "おどかす là cách đọc của 脅かす (đe dọa; gây nguy hiểm). Đây là cách đọc có thật, nhưng không phải của 及ぼす trong câu.",
+        "おかす là cách đọc của 侵す (xâm phạm; vi phạm). Đây là cách đọc có thật, nhưng không phải của 及ぼす trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-05",
+      "type": "reading",
+      "word": "意気込む",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 64,
+      "prompt": "ゆうしょうをめざして【意気込む】。",
+      "origin": "authored",
+      "options": [
+        "なごむ",
+        "たくらむ",
+        "いどむ",
+        "いきごむ"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "和む",
+          "reading": "なごむ",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 57
+        },
+        {
+          "word": "企む",
+          "reading": "たくらむ",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 21
+        },
+        {
+          "word": "挑む",
+          "reading": "いどむ",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 44
+        },
+        {
+          "word": "意気込む",
+          "reading": "いきごむ",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 64
+        }
+      ],
+      "explanations": [
+        "なごむ là cách đọc của 和む (dịu lại; trở nên ấm áp, thư thái). Đây là cách đọc có thật, nhưng không phải của 意気込む trong câu.",
+        "たくらむ là cách đọc của 企む (âm mưu; toan tính). Đây là cách đọc có thật, nhưng không phải của 意気込む trong câu.",
+        "いどむ là cách đọc của 挑む (thách thức; đương đầu). Đây là cách đọc có thật, nhưng không phải của 意気込む trong câu.",
+        "いきごむ là cách đọc của 意気込む (hăng hái; hăm hở). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai25-06",
+      "type": "reading",
+      "word": "慰める",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 66,
+      "prompt": "悲しんでいる友達を【慰める】。",
+      "origin": "authored",
+      "options": [
+        "なぐさめる",
+        "なぞる",
+        "なめる",
+        "ながめる"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "慰める",
+          "reading": "なぐさめる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 66
+        },
+        {
+          "word": "なぞる",
+          "reading": "なぞる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 32
+        },
+        {
+          "word": "なめる",
+          "reading": "なめる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 33
+        },
+        {
+          "word": "眺める",
+          "reading": "ながめる",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 45
+        }
+      ],
+      "explanations": [
+        "なぐさめる là cách đọc của 慰める (an ủi). Khớp từ và ngữ cảnh được hỏi.",
+        "なぞる là cách đọc của なぞる (tô theo; lần theo). Đây là cách đọc có thật, nhưng không phải của 慰める trong câu.",
+        "なめる là cách đọc của なめる (liếm; coi thường). Đây là cách đọc có thật, nhưng không phải của 慰める trong câu.",
+        "ながめる là cách đọc của 眺める (ngắm; nhìn bao quát). Đây là cách đọc có thật, nhưng không phải của 慰める trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-08",
+      "type": "reading",
+      "word": "逆らう",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 94,
+      "prompt": "めいれいに【逆らう】。",
+      "origin": "authored",
+      "options": [
+        "さからう",
+        "さまよう",
+        "さらう",
+        "ためらう"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "逆らう",
+          "reading": "さからう",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 94
+        },
+        {
+          "word": "さまよう",
+          "reading": "さまよう",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 10
+        },
+        {
+          "word": "さらう",
+          "reading": "さらう",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 11
+        },
+        {
+          "word": "ためらう",
+          "reading": "ためらう",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 24
+        }
+      ],
+      "explanations": [
+        "さからう là cách đọc của 逆らう (chống lại; không tuân theo). Khớp từ và ngữ cảnh được hỏi.",
+        "さまよう là cách đọc của さまよう (đi lang thang; phiêu bạt). Đây là cách đọc có thật, nhưng không phải của 逆らう trong câu.",
+        "さらう là cách đọc của さらう (bắt cóc; quét sạch; học nhanh). Đây là cách đọc có thật, nhưng không phải của 逆らう trong câu.",
+        "ためらう là cách đọc của ためらう (chần chừ; do dự). Đây là cách đọc có thật, nhưng không phải của 逆らう trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-10",
+      "type": "reading",
+      "word": "懐く",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 78,
+      "prompt": "いぬがすぐに【懐く】。",
+      "origin": "authored",
+      "options": [
+        "つく",
+        "ながびく",
+        "なげく",
+        "なつく"
+      ],
+      "answer": 3,
+      "option_lexemes": [
+        {
+          "word": "就く",
+          "reading": "つく",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 69
+        },
+        {
+          "word": "長引く",
+          "reading": "ながびく",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 47
+        },
+        {
+          "word": "嘆く",
+          "reading": "なげく",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 36
+        },
+        {
+          "word": "懐く",
+          "reading": "なつく",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 78
+        }
+      ],
+      "explanations": [
+        "つく là cách đọc của 就く (nhậm chức; làm công việc). Đây là cách đọc có thật, nhưng không phải của 懐く trong câu.",
+        "ながびく là cách đọc của 長引く (kéo dài (hơn dự kiến)). Đây là cách đọc có thật, nhưng không phải của 懐く trong câu.",
+        "なげく là cách đọc của 嘆く (than thở; đau buồn). Đây là cách đọc có thật, nhưng không phải của 懐く trong câu.",
+        "なつく là cách đọc của 懐く (quấn quýt; trở nên thuần). Khớp từ và ngữ cảnh được hỏi."
+      ]
+    },
+    {
+      "id": "n1-dai25-12",
+      "type": "reading",
+      "word": "企む",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 21,
+      "prompt": "わるいことを【企む】。",
+      "origin": "authored",
+      "options": [
+        "たるむ",
+        "たくらむ",
+        "うらむ",
+        "もくろむ"
+      ],
+      "answer": 1,
+      "option_lexemes": [
+        {
+          "word": "たるむ",
+          "reading": "たるむ",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 25
+        },
+        {
+          "word": "企む",
+          "reading": "たくらむ",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 21
+        },
+        {
+          "word": "恨む",
+          "reading": "うらむ",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 40
+        },
+        {
+          "word": "目論む",
+          "reading": "もくろむ",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 28
+        }
+      ],
+      "explanations": [
+        "たるむ là cách đọc của たるむ (chùng xuống; lỏng ra). Đây là cách đọc có thật, nhưng không phải của 企む trong câu.",
+        "たくらむ là cách đọc của 企む (âm mưu; toan tính). Khớp từ và ngữ cảnh được hỏi.",
+        "うらむ là cách đọc của 恨む (oán hận; oán trách). Đây là cách đọc có thật, nhưng không phải của 企む trong câu.",
+        "もくろむ là cách đọc của 目論む (toan tính; dự tính; mưu tính). Đây là cách đọc có thật, nhưng không phải của 企む trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-13",
+      "type": "reading",
+      "word": "甘える",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 84,
+      "prompt": "おやに【甘える】。",
+      "origin": "authored",
+      "options": [
+        "あやつる",
+        "あわてる",
+        "あまえる",
+        "あなどる"
+      ],
+      "answer": 2,
+      "option_lexemes": [
+        {
+          "word": "操る",
+          "reading": "あやつる",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 16
+        },
+        {
+          "word": "慌てる",
+          "reading": "あわてる",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 34
+        },
+        {
+          "word": "甘える",
+          "reading": "あまえる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 84
+        },
+        {
+          "word": "侮る",
+          "reading": "あなどる",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 98
+        }
+      ],
+      "explanations": [
+        "あやつる là cách đọc của 操る (điều khiển; thao túng). Đây là cách đọc có thật, nhưng không phải của 甘える trong câu.",
+        "あわてる là cách đọc của 慌てる (hoảng hốt; vội vàng). Đây là cách đọc có thật, nhưng không phải của 甘える trong câu.",
+        "あまえる là cách đọc của 甘える (làm nũng; dựa dẫm). Khớp từ và ngữ cảnh được hỏi.",
+        "あなどる là cách đọc của 侮る (coi thường; xem nhẹ). Đây là cách đọc có thật, nhưng không phải của 甘える trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-19",
+      "type": "reading",
+      "word": "垣間見る",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 80,
+      "prompt": "へやのなかを【垣間見る】。",
+      "origin": "authored",
+      "options": [
+        "かいまみる",
+        "かたよる",
+        "かけつける",
+        "かえりみる"
+      ],
+      "answer": 0,
+      "option_lexemes": [
+        {
+          "word": "垣間見る",
+          "reading": "かいまみる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 80
+        },
+        {
+          "word": "偏る",
+          "reading": "かたよる",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 7
+        },
+        {
+          "word": "駆けつける",
+          "reading": "かけつける",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 97
+        },
+        {
+          "word": "省みる",
+          "reading": "かえりみる",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 85
+        }
+      ],
+      "explanations": [
+        "かいまみる là cách đọc của 垣間見る (nhìn thoáng qua). Khớp từ và ngữ cảnh được hỏi.",
+        "かたよる là cách đọc của 偏る (thiên lệch; mất cân đối). Đây là cách đọc có thật, nhưng không phải của 垣間見る trong câu.",
+        "かけつける là cách đọc của 駆けつける (vội chạy đến; đến ngay). Đây là cách đọc có thật, nhưng không phải của 垣間見る trong câu.",
+        "かえりみる là cách đọc của 省みる (tự xét lại; nhìn lại). Đây là cách đọc có thật, nhưng không phải của 垣間見る trong câu."
+      ]
+    },
+    {
+      "id": "n1-dai25-02",
+      "type": "context",
+      "word": "ぐらつく",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 2,
+      "prompt": "机の脚が一本短いため、少し押しただけで机が（　）。",
+      "origin": "authored",
+      "options": [
+        "ちらつく",
+        "べたつく",
+        "ぎらつく",
+        "ぐらつく"
+      ],
+      "explanations": [
+        "ちらつく là thấp thoáng hoặc nhấp nháy, không phải bàn lung lay.",
+        "べたつく là dính nhớp, không chỉ mất cân bằng.",
+        "ぎらつく là sáng chói.",
+        "ぐらつく là lung lay, không vững."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai25-03",
+      "type": "context",
+      "word": "もてなす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 58,
+      "prompt": "遠方から来た客を、郷土料理で心を込めて（　）。",
+      "origin": "authored",
+      "options": [
+        "見送る",
+        "もてなす",
+        "呼び戻す",
+        "追い払う"
+      ],
+      "explanations": [
+        "見送る là tiễn đi; không diễn tả chiêu đãi bằng món ăn.",
+        "もてなす là tiếp đãi khách.",
+        "呼び戻す là gọi quay lại, không phải chiêu đãi.",
+        "追い払う là xua đi, trái với tiếp khách chu đáo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-04",
+      "type": "context",
+      "word": "たどる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 23,
+      "prompt": "登山者は先に歩いた人の足跡を一つずつ（　）ことで、元の道に戻れた。",
+      "origin": "authored",
+      "options": [
+        "消す",
+        "散らす",
+        "たどる",
+        "隠す"
+      ],
+      "explanations": [
+        "消す là xóa dấu, trái với lần theo.",
+        "散らす là làm tung ra.",
+        "たどる là lần theo dấu vết hoặc đường đi.",
+        "隠す là giấu đi, không giúp tìm đường theo dấu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-07",
+      "type": "context",
+      "word": "はめる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 43,
+      "prompt": "寒いので、外に出る前に両手に手袋を（　）。",
+      "origin": "authored",
+      "options": [
+        "はめる",
+        "かぶる",
+        "巻く",
+        "履く"
+      ],
+      "explanations": [
+        "手袋をはめる là đeo găng tay.",
+        "かぶる dùng cho đồ đội trên đầu.",
+        "巻く là quấn quanh; không dùng cho đeo găng tay thông thường.",
+        "履く dùng cho đồ mặc phần chân hoặc giày, không phải găng tay."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai25-09",
+      "type": "context",
+      "word": "しのぐ",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 16,
+      "prompt": "冷房のない部屋で、扇風機と冷たいタオルを使って暑さを（　）。",
+      "origin": "authored",
+      "options": [
+        "募る",
+        "競う",
+        "しのぐ",
+        "誇る"
+      ],
+      "explanations": [
+        "募る là tăng lên hoặc tuyển, không phải chống nóng.",
+        "競う là cạnh tranh, không kết hợp với sức nóng theo nghĩa này.",
+        "暑さをしのぐ là chịu, chống chọi qua thời tiết nóng.",
+        "誇る là tự hào."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-14",
+      "type": "context",
+      "word": "すっぽかす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 17,
+      "prompt": "連絡もせず待ち合わせに行かないのは、約束を（　）ことだ。",
+      "origin": "authored",
+      "options": [
+        "守る",
+        "果たす",
+        "取り付ける",
+        "すっぽかす"
+      ],
+      "explanations": [
+        "守る là giữ lời, trái với không đến.",
+        "果たす là thực hiện trọn vẹn.",
+        "約束を取り付ける là hẹn được, trái với bỏ hẹn.",
+        "すっぽかす là bỏ hẹn, không thực hiện việc đã hứa."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai25-15",
+      "type": "context",
+      "word": "さらう",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 11,
+      "prompt": "警察は、公園で子どもを無理に車へ乗せて（　）犯人を追っている。",
+      "origin": "authored",
+      "options": [
+        "養う",
+        "さらう",
+        "かばう",
+        "見守る"
+      ],
+      "explanations": [
+        "養う là nuôi dưỡng.",
+        "さらう ở đây là bắt cóc, đưa người đi trái ý.",
+        "かばう là che chở, không phải cưỡng ép đưa đi.",
+        "見守る là trông nom, không diễn tả bắt đi."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-16",
+      "type": "context",
+      "word": "みなす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 54,
+      "prompt": "返事がない場合は辞退したと（　）ことを、募集要項に明記した。",
+      "origin": "authored",
+      "options": [
+        "見せる",
+        "見送る",
+        "見逃す",
+        "みなす"
+      ],
+      "explanations": [
+        "見せる là cho xem, không dùng 辞退したと theo nghĩa quy định xử lý.",
+        "見送る là tiễn hoặc hoãn, không có nghĩa coi là.",
+        "見逃す là bỏ sót hoặc bỏ qua.",
+        "みなす là coi, xem một trường hợp là như vậy."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai25-17",
+      "type": "paraphrase",
+      "word": "ねだる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 36,
+      "prompt": "子どもがおもちゃを買ってほしいと【ねだる】。",
+      "origin": "authored",
+      "options": [
+        "しつこく頼む",
+        "静かに断る",
+        "すぐに諦める",
+        "理由を調べる"
+      ],
+      "explanations": [
+        "ねだる là vòi, nài xin được cho hoặc mua thứ gì.",
+        "Lặng lẽ từ chối trái với đòi xin.",
+        "Bỏ cuộc ngay trái với vòi vĩnh.",
+        "Tìm lý do không phải nài xin."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai25-18",
+      "type": "paraphrase",
+      "word": "つぶる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 29,
+      "prompt": "まぶしいので、しばらく目を【つぶる】。",
+      "origin": "authored",
+      "options": [
+        "こする",
+        "閉じる",
+        "そらす",
+        "見開く"
+      ],
+      "explanations": [
+        "こする là dụi, không phải khép mắt.",
+        "目をつぶる là nhắm mắt.",
+        "そらす là chuyển hướng nhìn, không nhất thiết nhắm.",
+        "見開く là mở to, trái với nhắm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-20",
+      "type": "paraphrase",
+      "word": "揺さぶる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 60,
+      "prompt": "その証言は人々の心を【揺さぶった】。",
+      "origin": "authored",
+      "options": [
+        "落ち着かせた",
+        "強く動かした",
+        "他人から隠した",
+        "完全に忘れさせた"
+      ],
+      "explanations": [
+        "Làm bình tĩnh không phải gây chấn động.",
+        "揺さぶる ở đây là gây xúc động mạnh.",
+        "Giấu khỏi người khác không phải揺さぶる.",
+        "Làm quên hết khác với tác động mạnh cảm xúc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-21",
+      "type": "paraphrase",
+      "word": "ばらまく",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 45,
+      "prompt": "鳥のために庭に餌を【ばらまいた】。",
+      "origin": "authored",
+      "options": [
+        "あちこちに散らしてまいた",
+        "土の奥に埋めた",
+        "容器に密閉した",
+        "一か所に固めた"
+      ],
+      "explanations": [
+        "ばらまく là rải ra nhiều chỗ.",
+        "Chôn sâu khác với rải trên sân.",
+        "Đóng kín trong hộp trái với rải.",
+        "Dồn thành một khối trái với rải rộng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai25-22",
+      "type": "paraphrase",
+      "word": "意気投合する",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 65,
+      "prompt": "初めて会ったのに、趣味が同じですぐ【意気投合した】。",
+      "origin": "authored",
+      "options": [
+        "互いの名前を忘れた",
+        "気持ちが通じ合って親しくなった",
+        "意見が食い違って争った",
+        "相手に興味を失った"
+      ],
+      "explanations": [
+        "Quên tên nhau không phải意気投合.",
+        "意気投合 là tâm đầu ý hợp vì quan điểm, sở thích hợp nhau.",
+        "Bất đồng rồi cãi nhau trái nghĩa.",
+        "Mất quan tâm khác với thân thiết."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-23",
+      "type": "paraphrase",
+      "word": "たるむ",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 25,
+      "prompt": "長く使っているうちに、ロープが【たるんだ】。",
+      "origin": "authored",
+      "options": [
+        "短く切れた",
+        "細かく砕けた",
+        "緩んで張りがなくなった",
+        "硬く固まった"
+      ],
+      "explanations": [
+        "Bị cắt ngắn khác với chùng xuống.",
+        "Vỡ vụn không phảiたるむ.",
+        "たるむ là chùng, mất độ căng.",
+        "Cứng lại không phải mất độ căng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-29",
+      "type": "paraphrase",
+      "word": "止める／留める",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 30,
+      "prompt": "この建物は、昔の姿を今に【留める】。",
+      "origin": "authored",
+      "options": [
+        "変える",
+        "消す",
+        "隠す",
+        "残す"
+      ],
+      "explanations": [
+        "変える là thay đổi, không phải lưu giữ.",
+        "消す là xóa đi, trái nghĩa.",
+        "隠す là che giấu, không đồng nghĩa với còn giữ dấu cũ.",
+        "Ở đây 留める đọc とどめる, nghĩa là còn giữ lại hình dáng xưa; nguồn gộp 止める／留める."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai25-11",
+      "type": "usage",
+      "word": "ぼやく",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 50,
+      "prompt": "ぼやく",
+      "origin": "authored",
+      "options": [
+        "写真の輪郭がはっきりしないので、景色がぼやく。",
+        "成功を心から喜び、祝福の言葉をぼやく。",
+        "同僚は、残業ばかりだと毎日のようにぼやく。",
+        "鍋の湯が熱くなってぼやく。"
+      ],
+      "explanations": [
+        "Ảnh nhòe dùng ぼやける; ぼやく chỉ lời than.",
+        "ぼやく mang sắc thái bất mãn, không hợp chúc mừng chân thành.",
+        "ぼやく là than vãn, lẩm bẩm bất mãn.",
+        "Nước sôi dùng 沸く, không phảiぼやく."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-24",
+      "type": "usage",
+      "word": "しくじる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 14,
+      "prompt": "しくじる",
+      "origin": "authored",
+      "options": [
+        "落とした財布をしくじるため、駅の窓口に向かった。",
+        "映画の内容を忘れないようにノートにしくじる。",
+        "大事な場面で手順をしくじることのないよう、何度も練習した。",
+        "試験で満点を取り、見事にしくじることができた。"
+      ],
+      "explanations": [
+        "Nhận lại hoặc tìm ví dùng 受け取る・捜す, không phảiしくじる.",
+        "Ghi lại dùng 記す, không dùngしくじる.",
+        "しくじる là làm sai, làm hỏng việc.",
+        "Đạt kết quả hoàn hảo không phải thất bại."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-25",
+      "type": "usage",
+      "word": "こぼす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 6,
+      "prompt": "こぼす",
+      "origin": "authored",
+      "options": [
+        "空のコップに水をこぼすと、きれいに満杯になった。",
+        "コップを傾けると、水をこぼすことがある。",
+        "服の穴を糸でこぼす。",
+        "机の位置を右に十センチこぼす。"
+      ],
+      "explanations": [
+        "Rót vừa đầy không đổ ra ngoài dùng 注ぐ; khác với làm đổ.",
+        "こぼす là làm nước tràn, đổ ra khỏi vật đựng.",
+        "Vá lỗ dùng 繕う, không dùngこぼす.",
+        "Dịch chuyển dùng ずらす; こぼす không chỉ thay vị trí."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n1-dai25-26",
+      "type": "usage",
+      "word": "つねる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 26,
+      "prompt": "つねる",
+      "origin": "authored",
+      "options": [
+        "電話番号を忘れないよう頭につねる。",
+        "シャツのしわをアイロンでつねる。",
+        "鉛筆をナイフでつねると、芯が細くなる。",
+        "いたずらで人の腕をつねるのはやめなさい。"
+      ],
+      "explanations": [
+        "Ghi nhớ dùng 覚える; つねる không có nghĩa ghi vào trí nhớ.",
+        "Là phẳng nếp nhăn dùng 伸ばす; không phải véo.",
+        "Gọt bút dùng 削る, không phảiつねる.",
+        "つねる là véo da bằng đầu ngón tay."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "n1-dai25-27",
+      "type": "usage",
+      "word": "ずらす",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 18,
+      "prompt": "ずらす",
+      "origin": "authored",
+      "options": [
+        "友人の申し出を丁寧にずらす。",
+        "机に付いた汚れを水でずらす。",
+        "混雑を避けるため、出発時刻を一時間ずらす。",
+        "時計を見て現在の時刻をずらす。"
+      ],
+      "explanations": [
+        "Từ chối dùng 断る; không dùngずらす.",
+        "Tẩy vết bẩn dùng 落とす; không phải dịch vị trí.",
+        "ずらす là dịch vị trí hoặc thời điểm khỏi ban đầu.",
+        "Đọc để xác nhận giờ dùng 確かめる; không phải đổi giờ."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n1-dai25-28",
+      "type": "usage",
+      "word": "育む",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 68,
+      "prompt": "育む",
+      "origin": "authored",
+      "options": [
+        "家族との温かな交流が、子どもの豊かな心を育む。",
+        "読み終えた本を棚の上に育む。",
+        "部屋の窓を開けて空気を育む。",
+        "借りた金を期限までに育む。"
+      ],
+      "explanations": [
+        "育む là nuôi dưỡng, vun đắp sự phát triển.",
+        "Đặt hoặc cất sách dùng 置く・しまう.",
+        "Thay không khí dùng 入れ替える; không phải育む.",
+        "Hoàn trả dùng 返す; khác với nuôi dưỡng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n1-dai25-30",
+      "type": "usage",
+      "word": "はまる",
+      "source_file": "resources/N1/goi/dai25.csv",
+      "source_line": 42,
+      "prompt": "はまる",
+      "origin": "authored",
+      "options": [
+        "食事が終わったので、代金をはまる。",
+        "雨が降り始めたので、窓をはまる。",
+        "この蓋は、瓶の口にぴったりはまる。",
+        "道を尋ねるため、通行人にはまる。"
+      ],
+      "explanations": [
+        "Trả tiền dùng 払う; はまる không có nghĩa thanh toán.",
+        "Đóng cửa là 閉める; はまる là nội động từ vừa vào, không lấy窓 làm tân ngữ.",
+        "はまる là vừa khít vào vị trí.",
+        "Hỏi người qua đường dùng 尋ねる; không dùngはまる."
+      ],
+      "answer": 2
+    }
+  ]
+}
