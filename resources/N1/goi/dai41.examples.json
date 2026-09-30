@@ -1,0 +1,1365 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "word": "承知しました。",
+      "example": "承知しました。明日までに準備いたします。",
+      "example_vi": "Tôi đã rõ. Tôi sẽ chuẩn bị xong trước ngày mai.",
+      "example_segments": [
+        {
+          "text": "承知しました。",
+          "target": true
+        },
+        {
+          "text": "明日",
+          "reading": "あす"
+        },
+        {
+          "text": "までに"
+        },
+        {
+          "text": "準備",
+          "reading": "じゅんび"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "申し上げにくいのですが、",
+      "example": "申し上げにくいのですが、今回はお引き受けできません。",
+      "example_vi": "Thật khó nói nhưng lần này tôi không thể nhận lời.",
+      "example_segments": [
+        {
+          "text": "申し上げにくいのですが、",
+          "target": true
+        },
+        {
+          "text": "今回",
+          "reading": "こんかい"
+        },
+        {
+          "text": "はお"
+        },
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "けできません。"
+        }
+      ]
+    },
+    {
+      "word": "早速ですが、",
+      "example": "早速ですが、本題に入らせていただきます。",
+      "example_vi": "Xin phép đi ngay vào nội dung chính.",
+      "example_segments": [
+        {
+          "text": "早速ですが、",
+          "target": true
+        },
+        {
+          "text": "本題",
+          "reading": "ほんだい"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "らせていただきます。"
+        }
+      ]
+    },
+    {
+      "word": "なんなりとお申し付けください。",
+      "example": "ご希望がございましたら、なんなりとお申し付けください。",
+      "example_vi": "Nếu có mong muốn gì, xin quý khách cứ cho biết.",
+      "example_segments": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "希望",
+          "reading": "きぼう"
+        },
+        {
+          "text": "がございましたら、"
+        },
+        {
+          "text": "なんなりとお申し付けください。",
+          "target": true
+        }
+      ]
+    },
+    {
+      "word": "取り急ぎご報告させていただきました。",
+      "example": "詳細は後ほどお伝えしますが、まずは取り急ぎご報告させていただきました。",
+      "example_vi": "Tôi sẽ trình bày chi tiết sau, trước mắt xin báo cáo nhanh như trên.",
+      "example_segments": [
+        {
+          "text": "詳細",
+          "reading": "しょうさい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "後",
+          "reading": "のち"
+        },
+        {
+          "text": "ほどお"
+        },
+        {
+          "text": "伝",
+          "reading": "つた"
+        },
+        {
+          "text": "えしますが、まずは"
+        },
+        {
+          "text": "取り急ぎご報告させていただきました。",
+          "target": true
+        }
+      ]
+    },
+    {
+      "word": "何卒よろしくお願いします。",
+      "example": "ご確認のほど、何卒よろしくお願いします。",
+      "example_vi": "Kính mong quý vị vui lòng kiểm tra.",
+      "example_segments": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "text": "のほど、"
+        },
+        {
+          "text": "何卒よろしくお願いします。",
+          "target": true
+        }
+      ]
+    },
+    {
+      "word": "よろしいでしょうか。",
+      "example": "こちらに座ってもよろしいでしょうか。",
+      "example_vi": "Tôi ngồi ở đây có được không ạ?",
+      "example_segments": [
+        {
+          "text": "こちらに"
+        },
+        {
+          "text": "座",
+          "reading": "すわ"
+        },
+        {
+          "text": "っても"
+        },
+        {
+          "text": "よろしいでしょうか。"
+        }
+      ]
+    },
+    {
+      "word": "～ほど",
+      "example": "ご検討のほど、よろしくお願いいたします。",
+      "example_vi": "Kính mong quý vị xem xét.",
+      "example_segments": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "検討",
+          "reading": "けんとう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "ほど"
+        },
+        {
+          "text": "、よろしくお"
+        },
+        {
+          "text": "願",
+          "reading": "ねが"
+        },
+        {
+          "text": "いいたします。"
+        }
+      ]
+    },
+    {
+      "word": "あちら",
+      "example": "受付はあちらにございます。",
+      "example_vi": "Quầy lễ tân ở phía kia ạ.",
+      "example_segments": [
+        {
+          "text": "受付",
+          "reading": "うけつけ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "あちら"
+        },
+        {
+          "text": "にございます。"
+        }
+      ]
+    },
+    {
+      "word": "こちら",
+      "example": "こちらが担当の田中です。",
+      "example_vi": "Đây là anh Tanaka, người phụ trách.",
+      "example_segments": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "担当",
+          "reading": "たんとう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "田中",
+          "reading": "たなか"
+        },
+        {
+          "text": "です。"
+        }
+      ]
+    },
+    {
+      "word": "この度",
+      "example": "この度はご来店いただき、ありがとうございます。",
+      "example_vi": "Xin cảm ơn quý khách đã ghé cửa hàng dịp này.",
+      "example_segments": [
+        {
+          "text": "この度",
+          "target": true
+        },
+        {
+          "text": "はご"
+        },
+        {
+          "text": "来店",
+          "reading": "らいてん"
+        },
+        {
+          "text": "いただき、ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "word": "そちら",
+      "example": "明日、そちらへ伺います。",
+      "example_vi": "Ngày mai tôi sẽ đến chỗ quý vị.",
+      "example_segments": [
+        {
+          "text": "明日",
+          "reading": "あす"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "そちら"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "伺",
+          "reading": "うかが"
+        },
+        {
+          "text": "います。"
+        }
+      ]
+    },
+    {
+      "word": "どちら",
+      "example": "ご出身はどちらですか。",
+      "example_vi": "Quê ngài ở đâu ạ?",
+      "example_segments": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "出身",
+          "reading": "しゅっしん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "どちら"
+        },
+        {
+          "text": "ですか。"
+        }
+      ]
+    },
+    {
+      "word": "どなた様",
+      "example": "失礼ですが、どなた様でしょうか。",
+      "example_vi": "Xin phép hỏi, ngài là ai ạ?",
+      "example_segments": [
+        {
+          "text": "失礼",
+          "reading": "しつれい"
+        },
+        {
+          "text": "ですが、"
+        },
+        {
+          "text": "どなた様",
+          "target": true
+        },
+        {
+          "text": "でしょうか。"
+        }
+      ]
+    },
+    {
+      "word": "私",
+      "example": "私が担当いたします。",
+      "example_vi": "Tôi sẽ phụ trách ạ.",
+      "example_segments": [
+        {
+          "text": "私",
+          "target": true
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "担当",
+          "reading": "たんとう"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "一昨日",
+      "example": "一昨日、ご案内のメールをお送りしました。",
+      "example_vi": "Hôm kia tôi đã gửi email hướng dẫn.",
+      "example_segments": [
+        {
+          "text": "一昨日",
+          "target": true
+        },
+        {
+          "text": "、ご"
+        },
+        {
+          "text": "案内",
+          "reading": "あんない"
+        },
+        {
+          "text": "のメールをお"
+        },
+        {
+          "text": "送",
+          "reading": "おく"
+        },
+        {
+          "text": "りしました。"
+        }
+      ]
+    },
+    {
+      "word": "一昨年",
+      "example": "一昨年、新しい支店を開設しました。",
+      "example_vi": "Năm kia chúng tôi đã mở chi nhánh mới.",
+      "example_segments": [
+        {
+          "text": "一昨年",
+          "target": true
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "新",
+          "reading": "あたら"
+        },
+        {
+          "text": "しい"
+        },
+        {
+          "text": "支店",
+          "reading": "してん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "開設",
+          "reading": "かいせつ"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
+    },
+    {
+      "word": "昨日",
+      "example": "昨日はお時間をいただき、ありがとうございました。",
+      "example_vi": "Xin cảm ơn ngài đã dành thời gian hôm qua.",
+      "example_segments": [
+        {
+          "text": "昨日",
+          "target": true
+        },
+        {
+          "text": "はお"
+        },
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "をいただき、ありがとうございました。"
+        }
+      ]
+    },
+    {
+      "word": "昨年",
+      "example": "昨年、本社を移転しました。",
+      "example_vi": "Năm ngoái chúng tôi đã chuyển trụ sở chính.",
+      "example_segments": [
+        {
+          "text": "昨年",
+          "target": true
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "本社",
+          "reading": "ほんしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "移転",
+          "reading": "いてん"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
+    },
+    {
+      "word": "昨晩",
+      "example": "昨晩、無事に帰宅しました。",
+      "example_vi": "Tối qua tôi đã về nhà an toàn.",
+      "example_segments": [
+        {
+          "text": "昨晩",
+          "target": true
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "無事",
+          "reading": "ぶじ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "帰宅",
+          "reading": "きたく"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
+    },
+    {
+      "word": "昨夜",
+      "example": "昨夜から雨が降り続いています。",
+      "example_vi": "Trời mưa liên tục từ đêm qua.",
+      "example_segments": [
+        {
+          "text": "昨夜",
+          "target": true
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降",
+          "reading": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "いています。"
+        }
+      ]
+    },
+    {
+      "word": "少々",
+      "example": "少々お待ちください。",
+      "example_vi": "Xin quý khách đợi một chút.",
+      "example_segments": [
+        {
+          "text": "少々",
+          "target": true
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "ちください。"
+        }
+      ]
+    },
+    {
+      "word": "誠に",
+      "example": "誠にありがとうございます。",
+      "example_vi": "Xin chân thành cảm ơn.",
+      "example_segments": [
+        {
+          "text": "誠に",
+          "target": true
+        },
+        {
+          "text": "ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "word": "後程",
+      "example": "詳細は後程ご連絡いたします。",
+      "example_vi": "Tôi sẽ liên hệ báo chi tiết sau.",
+      "example_segments": [
+        {
+          "text": "詳細",
+          "reading": "しょうさい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "後程",
+          "target": true
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "先程",
+      "example": "先程はお電話ありがとうございました。",
+      "example_vi": "Xin cảm ơn ngài đã gọi điện lúc nãy.",
+      "example_segments": [
+        {
+          "text": "先程",
+          "target": true
+        },
+        {
+          "text": "はお"
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ"
+        },
+        {
+          "text": "ありがとうございました。"
+        }
+      ]
+    },
+    {
+      "word": "先日",
+      "example": "先日お話しした件でご連絡しました。",
+      "example_vi": "Tôi liên hệ về việc đã trao đổi hôm trước.",
+      "example_segments": [
+        {
+          "text": "先日",
+          "target": true
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "しした"
+        },
+        {
+          "text": "件",
+          "reading": "けん"
+        },
+        {
+          "text": "でご"
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
+    },
+    {
+      "word": "大変",
+      "example": "大変お待たせいたしました。",
+      "example_vi": "Xin lỗi vì đã để quý khách đợi lâu.",
+      "example_segments": [
+        {
+          "text": "大変",
+          "target": true
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "たせいたしました。"
+        }
+      ]
+    },
+    {
+      "word": "只今",
+      "example": "只今、担当者を呼んでまいります。",
+      "example_vi": "Tôi sẽ đi gọi người phụ trách ngay bây giờ.",
+      "example_segments": [
+        {
+          "text": "只今",
+          "target": true
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "呼",
+          "reading": "よ"
+        },
+        {
+          "text": "んでまいります。"
+        }
+      ]
+    },
+    {
+      "word": "本日",
+      "example": "本日はお越しいただき、ありがとうございます。",
+      "example_vi": "Xin cảm ơn quý vị đã đến hôm nay.",
+      "example_segments": [
+        {
+          "text": "本日",
+          "target": true
+        },
+        {
+          "text": "はお"
+        },
+        {
+          "text": "越",
+          "reading": "こ"
+        },
+        {
+          "text": "しいただき、ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "word": "本年",
+      "example": "本年もよろしくお願いいたします。",
+      "example_vi": "Năm nay cũng mong tiếp tục nhận được sự giúp đỡ của quý vị.",
+      "example_segments": [
+        {
+          "text": "本年",
+          "target": true
+        },
+        {
+          "text": "もよろしくお"
+        },
+        {
+          "text": "願",
+          "reading": "ねが"
+        },
+        {
+          "text": "いいたします。"
+        }
+      ]
+    },
+    {
+      "word": "明後日",
+      "example": "明後日までにお返事いたします。",
+      "example_vi": "Tôi sẽ trả lời chậm nhất vào ngày kia.",
+      "example_segments": [
+        {
+          "text": "明後日",
+          "target": true
+        },
+        {
+          "text": "までにお"
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "明朝",
+      "example": "明朝、駅までお迎えに参ります。",
+      "example_vi": "Sáng mai tôi sẽ đến ga đón ngài.",
+      "example_segments": [
+        {
+          "text": "明朝",
+          "target": true
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "駅",
+          "reading": "えき"
+        },
+        {
+          "text": "までお"
+        },
+        {
+          "text": "迎",
+          "reading": "むか"
+        },
+        {
+          "text": "えに"
+        },
+        {
+          "text": "参",
+          "reading": "まい"
+        },
+        {
+          "text": "ります。"
+        }
+      ]
+    },
+    {
+      "word": "明日",
+      "example": "明日の会議は十時からです。",
+      "example_vi": "Cuộc họp ngày mai bắt đầu lúc mười giờ.",
+      "example_segments": [
+        {
+          "text": "明日",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "十時",
+          "reading": "じゅうじ"
+        },
+        {
+          "text": "からです。"
+        }
+      ]
+    },
+    {
+      "word": "ご子息",
+      "example": "ご子息のご入学、おめでとうございます。",
+      "example_vi": "Xin chúc mừng quý tử của ngài nhập học.",
+      "example_segments": [
+        {
+          "text": "ご子息",
+          "target": true
+        },
+        {
+          "text": "のご"
+        },
+        {
+          "text": "入学",
+          "reading": "にゅうがく"
+        },
+        {
+          "text": "、おめでとうございます。"
+        }
+      ]
+    },
+    {
+      "word": "拝啓",
+      "example": "拝啓 皆様にはますますご清栄のこととお喜び申し上げます。",
+      "example_vi": "Kính gửi quý vị, tôi vui mừng được biết quý vị ngày càng thịnh vượng.",
+      "example_segments": [
+        {
+          "text": "拝啓",
+          "target": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "皆様",
+          "reading": "みなさま"
+        },
+        {
+          "text": "にはますますご"
+        },
+        {
+          "text": "清栄",
+          "reading": "せいえい"
+        },
+        {
+          "text": "のこととお"
+        },
+        {
+          "text": "喜",
+          "reading": "よろこ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "申",
+          "reading": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げます。"
+        }
+      ]
+    },
+    {
+      "word": "敬具",
+      "example": "今後ともよろしくお願い申し上げます。 敬具",
+      "example_vi": "Kính mong tiếp tục nhận được sự hợp tác của quý vị. Kính thư.",
+      "example_segments": [
+        {
+          "text": "今後",
+          "reading": "こんご"
+        },
+        {
+          "text": "ともよろしくお"
+        },
+        {
+          "text": "願",
+          "reading": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "申",
+          "reading": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げます。 "
+        },
+        {
+          "text": "敬具",
+          "target": true
+        }
+      ]
+    },
+    {
+      "word": "不手際",
+      "example": "こちらの不手際でご迷惑をおかけしました。",
+      "example_vi": "Sai sót của chúng tôi đã gây phiền hà cho quý vị.",
+      "example_segments": [
+        {
+          "text": "こちらの"
+        },
+        {
+          "text": "不手際",
+          "target": true
+        },
+        {
+          "text": "でご"
+        },
+        {
+          "text": "迷惑",
+          "reading": "めいわく"
+        },
+        {
+          "text": "をおかけしました。"
+        }
+      ]
+    },
+    {
+      "word": "所存",
+      "example": "今後も努力を続ける所存です。",
+      "example_vi": "Tôi có ý định tiếp tục nỗ lực trong thời gian tới.",
+      "example_segments": [
+        {
+          "text": "今後",
+          "reading": "こんご"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "努力",
+          "reading": "どりょく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "ける"
+        },
+        {
+          "text": "所存",
+          "target": true
+        },
+        {
+          "text": "です。"
+        }
+      ]
+    },
+    {
+      "word": "貴校",
+      "example": "貴校の教育方針に共感しております。",
+      "example_vi": "Tôi đồng tình với phương châm giáo dục của quý trường.",
+      "example_segments": [
+        {
+          "text": "貴校",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "教育方針",
+          "reading": "きょういくほうしん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "共感",
+          "reading": "きょうかん"
+        },
+        {
+          "text": "しております。"
+        }
+      ]
+    },
+    {
+      "word": "貴行",
+      "example": "貴行の求人を拝見しました。",
+      "example_vi": "Tôi đã xem thông tin tuyển dụng của quý ngân hàng.",
+      "example_segments": [
+        {
+          "text": "貴行",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "求人",
+          "reading": "きゅうじん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "拝見",
+          "reading": "はいけん"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
+    },
+    {
+      "word": "貴社",
+      "example": "貴社の製品に関心を持っております。",
+      "example_vi": "Tôi quan tâm đến sản phẩm của quý công ty.",
+      "example_segments": [
+        {
+          "text": "貴社",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "製品",
+          "reading": "せいひん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "関心",
+          "reading": "かんしん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "っております。"
+        }
+      ]
+    },
+    {
+      "word": "貴店",
+      "example": "貴店のますますのご繁栄をお祈りいたします。",
+      "example_vi": "Kính chúc quý cửa hàng ngày càng phát đạt.",
+      "example_segments": [
+        {
+          "text": "貴店",
+          "target": true
+        },
+        {
+          "text": "のますますのご"
+        },
+        {
+          "text": "繁栄",
+          "reading": "はんえい"
+        },
+        {
+          "text": "をお"
+        },
+        {
+          "text": "祈",
+          "reading": "いの"
+        },
+        {
+          "text": "りいたします。"
+        }
+      ]
+    },
+    {
+      "word": "御校",
+      "example": "御校ではどのような授業に力を入れていますか。",
+      "example_vi": "Quý trường chú trọng những môn học như thế nào ạ?",
+      "example_segments": [
+        {
+          "text": "御校",
+          "target": true
+        },
+        {
+          "text": "ではどのような"
+        },
+        {
+          "text": "授業",
+          "reading": "じゅぎょう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "力",
+          "reading": "ちから"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れていますか。"
+        }
+      ]
+    },
+    {
+      "word": "御行",
+      "example": "御行を志望した理由をご説明します。",
+      "example_vi": "Tôi xin trình bày lý do ứng tuyển vào quý ngân hàng.",
+      "example_segments": [
+        {
+          "text": "御行",
+          "target": true
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "志望",
+          "reading": "しぼう"
+        },
+        {
+          "text": "した"
+        },
+        {
+          "text": "理由",
+          "reading": "りゆう"
+        },
+        {
+          "text": "をご"
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい"
+        },
+        {
+          "text": "します。"
+        }
+      ]
+    },
+    {
+      "word": "御社",
+      "example": "御社の事業について伺いたいです。",
+      "example_vi": "Tôi muốn được hỏi về hoạt động kinh doanh của quý công ty.",
+      "example_segments": [
+        {
+          "text": "御社",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "事業",
+          "reading": "じぎょう"
+        },
+        {
+          "text": "について"
+        },
+        {
+          "text": "伺",
+          "reading": "うかが"
+        },
+        {
+          "text": "いたいです。"
+        }
+      ]
+    },
+    {
+      "word": "弊校",
+      "example": "弊校の説明会にぜひお越しください。",
+      "example_vi": "Xin mời quý vị đến buổi giới thiệu của trường chúng tôi.",
+      "example_segments": [
+        {
+          "text": "弊校",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "説明会",
+          "reading": "せつめいかい"
+        },
+        {
+          "text": "にぜひお"
+        },
+        {
+          "text": "越",
+          "reading": "こ"
+        },
+        {
+          "text": "しください。"
+        }
+      ]
+    },
+    {
+      "word": "弊行",
+      "example": "弊行のサービスをご紹介いたします。",
+      "example_vi": "Tôi xin giới thiệu dịch vụ của ngân hàng chúng tôi.",
+      "example_segments": [
+        {
+          "text": "弊行",
+          "target": true
+        },
+        {
+          "text": "のサービスをご"
+        },
+        {
+          "text": "紹介",
+          "reading": "しょうかい"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "弊社",
+      "example": "弊社の担当者からご連絡いたします。",
+      "example_vi": "Người phụ trách của công ty chúng tôi sẽ liên hệ với quý vị.",
+      "example_segments": [
+        {
+          "text": "弊社",
+          "target": true
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ"
+        },
+        {
+          "text": "からご"
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく"
+        },
+        {
+          "text": "いたします。"
+        }
+      ]
+    },
+    {
+      "word": "弊店",
+      "example": "弊店をご利用いただき、ありがとうございます。",
+      "example_vi": "Xin cảm ơn quý khách đã sử dụng dịch vụ của cửa hàng chúng tôi.",
+      "example_segments": [
+        {
+          "text": "弊店",
+          "target": true
+        },
+        {
+          "text": "をご"
+        },
+        {
+          "text": "利用",
+          "reading": "りよう"
+        },
+        {
+          "text": "いただき、ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "word": "ご健勝",
+      "example": "皆様のご健勝をお祈り申し上げます。",
+      "example_vi": "Kính chúc tất cả quý vị luôn mạnh khỏe.",
+      "example_segments": [
+        {
+          "text": "皆様",
+          "reading": "みなさま"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "ご健勝",
+          "target": true
+        },
+        {
+          "text": "をお"
+        },
+        {
+          "text": "祈",
+          "reading": "いの"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "申",
+          "reading": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げます。"
+        }
+      ]
+    }
+  ]
+}
