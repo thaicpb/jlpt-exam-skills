@@ -16,13 +16,13 @@ const ICON = {
 };
 
 /* ---------- persistent state ---------- */
-const DEFAULTS = { marks: {}, seen: {}, level: null, front: 'jp', shuffle: false, last: null };
+const DEFAULTS = { marks: {}, seen: {}, completedExams: {}, level: null, front: 'jp', shuffle: false, last: null };
 let state = loadState();
 function loadState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORE) || '{}');
-    return Object.assign({}, DEFAULTS, saved, { marks: saved.marks || {}, seen: saved.seen || {} });
-  } catch (_) { return Object.assign({}, DEFAULTS, { marks: {}, seen: {} }); }
+    return Object.assign({}, DEFAULTS, saved, { marks: saved.marks || {}, seen: saved.seen || {}, completedExams: saved.completedExams || {} });
+  } catch (_) { return Object.assign({}, DEFAULTS, { marks: {}, seen: {}, completedExams: {} }); }
 }
 function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (_) { /* storage unavailable */ } }
 const cardKey = (level, lesson, c) => `${level}/${lesson}/${c.w}/${c.r}`;
@@ -123,9 +123,10 @@ function renderHome() {
   const marked = countWhere(state.marks, `${level.id}/`);
   const quick = h('div', { class: 'quick' });
   if (level.exams && level.exams.length) {
+    const completed = level.exams.filter((exam) => state.completedExams[exam.id]).length;
     quick.append(h('button', { type: 'button', class: 'primary-card', onclick: () => go(`#/exams/${level.id}`) },
       h('span', null, h('strong', null, `Kiểm tra ${level.id}`),
-        h('small', null, `${level.exams.length} đề · 30 câu mỗi đề · có giải thích đáp án`)), '›'));
+        h('small', null, `${level.exams.length} đề · đã làm xong ${completed} · có giải thích đáp án`)), '›'));
   }
   const last = state.last && state.last.level === level.id && lessonOf(level.id, state.last.lesson) ? state.last : null;
   if (last) {
@@ -143,10 +144,12 @@ function renderHome() {
     const prefix = `${level.id}/${lesson.id}/`;
     const seen = Math.min(countWhere(state.seen, prefix), lesson.count);
     const flags = countWhere(state.marks, prefix);
+    const completed = lesson.count > 0 && seen === lesson.count;
     const pct = lesson.count ? Math.round((seen / lesson.count) * 100) : 0;
-    grid.append(h('button', { type: 'button', class: 'lesson', onclick: () => go(`#/${level.id}/${lesson.id}`), 'aria-label': `${lesson.title}, ${lesson.count} từ, đã xem ${seen}` },
+    grid.append(h('button', { type: 'button', class: 'lesson', onclick: () => go(`#/${level.id}/${lesson.id}`), 'aria-label': `${lesson.title}, ${lesson.count} từ, đã xem ${seen}${completed ? ', đã học xong' : ''}` },
       h('b', null, lesson.title),
       h('span', null, `${lesson.count} từ · đã xem ${seen}`),
+      completed ? h('span', { class: 'completion-badge' }, '✓ Đã học xong') : null,
       flags ? h('span', { class: 'flag' }, `★ ${flags} cần xem lại`) : null,
       h('div', { class: 'bar' }, h('i', { style: `width:${pct}%` }))));
   }
@@ -177,11 +180,12 @@ function renderExams(levelId) {
       h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Quay lại danh sách bài', html: ICON.back, onclick: () => go('#/') }),
       h('div', { class: 'title' }, h('b', null, `Kiểm tra ${levelId}`), h('span', null, `${exams.length} đề theo bài học`))),
     h('p', { class: 'exam-intro' }, 'Mỗi đề gồm 30 từ được chọn ngẫu nhiên từ bài tương ứng. Bộ câu hỏi được giữ cố định để ôn lại.'),
-    h('p', { class: 'exam-intro' }, 'Chọn đáp án rồi nộp bài để xem điểm, giải thích và làm lại câu sai. Khi tải lại trang, lượt làm hiện tại sẽ bắt đầu lại.'),
+    h('p', { class: 'exam-intro' }, 'Chọn đáp án rồi nộp bài để xem điểm, giải thích và làm lại câu sai. Đề được đánh dấu hoàn tất khi đã trả lời và nộp đủ mọi câu. Khi tải lại trang, lượt làm hiện tại sẽ bắt đầu lại.'),
     h('div', { class: 'lessons' }, exams.map((exam) =>
       h('a', { class: 'lesson exam-link', href: exam.file },
         h('b', null, exam.title), h('span', null, `${exam.count} từ · ${exam.type_count ?? 4} dạng bài`),
-        h('span', { class: 'flag' }, 'Bắt đầu làm bài →')))),
+        state.completedExams[exam.id] ? h('span', { class: 'completion-badge' }, '✓ Đã học xong') : null,
+        h('span', { class: 'flag' }, state.completedExams[exam.id] ? 'Làm lại →' : 'Bắt đầu làm bài →')))),
     exams.length ? null : h('p', { class: 'empty' }, 'Cấp độ này chưa có đề kiểm tra.'),
     h('footer', { class: 'foot' }, 'Đáp án chỉ hiện sau khi nộp trong chế độ Kiểm tra.')));
   window.scrollTo(0, 0);
@@ -373,7 +377,7 @@ document.addEventListener('keydown', (e) => {
 
 /* ---------- settings & backup ---------- */
 function openSettings() {
-  const backup = JSON.stringify({ app: 'jlpt-fc', v: 1, marks: Object.keys(state.marks), seen: Object.keys(state.seen) });
+  const backup = JSON.stringify({ app: 'jlpt-fc', v: 2, marks: Object.keys(state.marks), seen: Object.keys(state.seen), completedExams: Object.keys(state.completedExams) });
   const out = h('textarea', { readonly: true, 'aria-label': 'Mã sao lưu' });
   out.value = backup;
   const input = h('textarea', { placeholder: 'Dán mã sao lưu vào đây', 'aria-label': 'Dán mã sao lưu' });
@@ -388,7 +392,7 @@ function openSettings() {
           v === 'jp' ? 'Từ tiếng Nhật' : 'Nghĩa tiếng Việt'))),
       h('hr'),
       h('h2', null, 'Sao lưu'),
-      h('p', null, `${Object.keys(state.marks).length} từ cần xem lại · ${Object.keys(state.seen).length} từ đã xem. Lưu mã này (Ghi chú, tin nhắn…) để khôi phục khi đổi máy hoặc Safari xoá dữ liệu.`),
+      h('p', null, `${Object.keys(state.marks).length} từ cần xem lại · ${Object.keys(state.seen).length} từ đã xem · ${Object.keys(state.completedExams).length} đề đã làm xong. Lưu mã này (Ghi chú, tin nhắn…) để khôi phục khi đổi máy hoặc Safari xoá dữ liệu.`),
       out,
       h('div', { class: 'row' },
         h('button', { type: 'button', class: 'btn primary', onclick: async () => {
@@ -402,8 +406,11 @@ function openSettings() {
           try {
             const data = JSON.parse(input.value.trim());
             if (data.app !== 'jlpt-fc' || !Array.isArray(data.marks)) throw new Error();
+            if (data.seen != null && !Array.isArray(data.seen)) throw new Error();
+            if (data.completedExams != null && !Array.isArray(data.completedExams)) throw new Error();
             data.marks.forEach((k) => { state.marks[k] = 1; });
             (data.seen || []).forEach((k) => { state.seen[k] = 1; });
+            (data.completedExams || []).forEach((k) => { state.completedExams[k] = 1; });
             save(); dialog.close(); toast(`Đã khôi phục ${data.marks.length} từ cần xem lại`); route();
           } catch (_) { toast('Mã sao lưu không hợp lệ'); }
         } }, 'Khôi phục (gộp)')),
@@ -411,7 +418,7 @@ function openSettings() {
       h('div', { class: 'row' },
         h('button', { type: 'button', class: 'btn', onclick: (e) => {
           if (!resetArmed) { resetArmed = true; e.currentTarget.textContent = 'Bấm lần nữa để xoá hết tiến độ'; return; }
-          state.marks = {}; state.seen = {}; state.last = null; save(); dialog.close(); toast('Đã xoá tiến độ'); route();
+          state.marks = {}; state.seen = {}; state.completedExams = {}; state.last = null; save(); dialog.close(); toast('Đã xoá tiến độ'); route();
         } }, 'Xoá tiến độ học'),
         h('button', { type: 'button', class: 'btn', onclick: () => dialog.close() }, 'Đóng')),
       h('p', null, `Dữ liệu phiên bản ${catalog.version}. Tiến độ chỉ lưu trên thiết bị này.`)));

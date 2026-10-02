@@ -202,7 +202,18 @@ html,body{margin:0}
         submit();
       } }, S.confirm ? `Còn ${s.total - s.done} câu chưa làm · Nộp luôn` : 'Nộp bài'));
   }
-  function submit() { if (S.submitted) return; S.submitted = true; draw(); }
+  function saveCompletion() {
+    // Only published web app exams have a home link and share its storage origin.
+    if (!data.home_href || !data.id || S.only || score(all).done !== all.length) return;
+    try {
+      const key = 'jlpt-fc-v1';
+      const saved = JSON.parse(localStorage.getItem(key) || '{}');
+      saved.completedExams = saved.completedExams || {};
+      saved.completedExams[data.id] = 1;
+      localStorage.setItem(key, JSON.stringify(saved));
+    } catch (_) { /* storage unavailable */ }
+  }
+  function submit() { if (S.submitted) return; S.submitted = true; saveCompletion(); draw(); }
   function setMode(mode) { if (S.mode !== mode) { Object.assign(S, { mode, answers: {}, submitted: false, confirm: false, only: null }); draw(); } }
   function retry(onlyWrong) {
     const wrong = questions().filter((q) => S.answers[q.id] !== q.answer).map((q) => q.id);

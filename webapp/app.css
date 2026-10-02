@@ -43,6 +43,7 @@ h1{font-size:26px;font-weight:600;letter-spacing:-.02em;margin:2px 0 0}
 .lesson{border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:12px 13px 13px;text-align:left;min-height:88px;display:flex;flex-direction:column;gap:4px}
 .lesson b{font-size:17px}
 .lesson span{font-size:12px;color:var(--muted)}
+.lesson .completion-badge{align-self:flex-start;border-radius:999px;background:var(--soft);color:var(--accent);padding:2px 8px;font-size:11px;font-weight:700}
 .lesson .flag{color:var(--accent)}
 .bar{height:4px;border-radius:4px;background:var(--soft);overflow:hidden;margin-top:auto}
 .bar i{display:block;height:100%;background:var(--accent);border-radius:4px}
