@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai13-30",
+  "title": "N2 · Bài 13 · 30 câu",
+  "level": "N2",
+  "lesson": "dai13",
+  "questions": [
+    {
+      "id": "n2-dai13-01",
+      "type": "reading",
+      "word": "現代",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 5,
+      "prompt": "【現代】社会の問題を考える。",
+      "origin": "authored",
+      "options": [
+        "げんだい",
+        "きんだい",
+        "げんいん",
+        "げんかい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "現代（げんだい）: hiện đại. Đây là cách đọc của từ được hỏi.",
+        "近代（きんだい）: cận đại. Đây là cách đọc của từ khác, không phải 現代.",
+        "原因（げんいん）: nguyên nhân. Đây là cách đọc của từ khác, không phải 現代.",
+        "限界（げんかい）: giới hạn. Đây là cách đọc của từ khác, không phải 現代."
+      ],
+      "option_lexemes": [
+        {
+          "word": "現代",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 5,
+          "reading": "げんだい"
+        },
+        {
+          "word": "近代",
+          "source_file": "resources/N2/goi/dai12.csv",
+          "source_line": 48,
+          "reading": "きんだい"
+        },
+        {
+          "word": "原因",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 84,
+          "reading": "げんいん"
+        },
+        {
+          "word": "限界",
+          "source_file": "resources/N2/goi/dai12.csv",
+          "source_line": 100,
+          "reading": "げんかい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai13-02",
+      "type": "reading",
+      "word": "現地",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 6,
+      "prompt": "【現地】で担当者と会う。",
+      "origin": "authored",
+      "options": [
+        "げんば",
+        "げんち",
+        "さんち",
+        "きげん"
+      ],
+      "answer": 1,
+      "explanations": [
+        "現場（げんば）: hiện trường; nơi làm việc. Đây là cách đọc của từ khác, không phải 現地.",
+        "現地（げんち）: địa phương; hiện trường. Đây là cách đọc của từ được hỏi.",
+        "産地（さんち）: nơi sản xuất. Đây là cách đọc của từ khác, không phải 現地.",
+        "期限（きげん）: thời hạn; hạn chót. Đây là cách đọc của từ khác, không phải 現地."
+      ],
+      "option_lexemes": [
+        {
+          "word": "現場",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 9,
+          "reading": "げんば"
+        },
+        {
+          "word": "現地",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 6,
+          "reading": "げんち"
+        },
+        {
+          "word": "産地",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 85,
+          "reading": "さんち"
+        },
+        {
+          "word": "期限",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 41,
+          "reading": "きげん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai13-03",
+      "type": "reading",
+      "word": "限定",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 7,
+      "prompt": "販売数を百個に【限定】する。",
+      "origin": "authored",
+      "options": [
+        "あんてい",
+        "げんかい",
+        "げんてい",
+        "かんてい"
+      ],
+      "answer": 2,
+      "explanations": [
+        "安定（あんてい）: ổn định. Đây là cách đọc của từ khác, không phải 限定.",
+        "限界（げんかい）: giới hạn. Đây là cách đọc của từ khác, không phải 限定.",
+        "限定（げんてい）: giới hạn. Đây là cách đọc của từ được hỏi.",
+        "鑑定（かんてい）: giám định. Đây là cách đọc của từ khác, không phải 限定."
+      ],
+      "option_lexemes": [
+        {
+          "word": "安定",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 91,
+          "reading": "あんてい"
+        },
+        {
+          "word": "限界",
+          "source_file": "resources/N2/goi/dai12.csv",
+          "source_line": 100,
+          "reading": "げんかい"
+        },
+        {
+          "word": "限定",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 7,
+          "reading": "げんてい"
+        },
+        {
+          "word": "鑑定",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 93,
+          "reading": "かんてい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai13-04",
+      "type": "reading",
+      "word": "減点",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 8,
+      "prompt": "誤答すると一点【減点】される。",
+      "origin": "authored",
+      "options": [
+        "かんてん",
+        "げんいん",
+        "げんてい",
+        "げんてん"
+      ],
+      "answer": 3,
+      "explanations": [
+        "観点（かんてん）: quan điểm; góc độ xem xét. Đây là cách đọc của từ khác, không phải 減点.",
+        "原因（げんいん）: nguyên nhân. Đây là cách đọc của từ khác, không phải 減点.",
+        "限定（げんてい）: giới hạn. Đây là cách đọc của từ khác, không phải 減点.",
+        "減点（げんてん）: trừ điểm. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "観点",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 89,
+          "reading": "かんてん"
+        },
+        {
+          "word": "原因",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 84,
+          "reading": "げんいん"
+        },
+        {
+          "word": "限定",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 7,
+          "reading": "げんてい"
+        },
+        {
+          "word": "減点",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 8,
+          "reading": "げんてん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai13-05",
+      "type": "reading",
+      "word": "行為",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 10,
+      "prompt": "危険な【行為】は禁止されている。",
+      "origin": "authored",
+      "options": [
+        "こうい",
+        "こうかい",
+        "こうがい",
+        "こうすい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "行為（こうい）: hành vi. Đây là cách đọc của từ được hỏi.",
+        "後悔（こうかい）: hối hận. Đây là cách đọc của từ khác, không phải 行為.",
+        "郊外（こうがい）: ngoại ô. Đây là cách đọc của từ khác, không phải 行為.",
+        "香水（こうすい）: nước hoa. Đây là cách đọc của từ khác, không phải 行為."
+      ],
+      "option_lexemes": [
+        {
+          "word": "行為",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 10,
+          "reading": "こうい"
+        },
+        {
+          "word": "後悔",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 13,
+          "reading": "こうかい"
+        },
+        {
+          "word": "郊外",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 15,
+          "reading": "こうがい"
+        },
+        {
+          "word": "香水",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 32,
+          "reading": "こうすい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai13-06",
+      "type": "orthography",
+      "word": "公演",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 11,
+      "prompt": "劇団が新作の芝居を東京で【こうえん】する。",
+      "origin": "authored",
+      "options": [
+        "公園",
+        "公演",
+        "講演",
+        "後援"
+      ],
+      "answer": 1,
+      "explanations": [
+        "公園（こうえん）nghĩa công viên; không diễn đạt 公演 trong câu.",
+        "公演 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "講演（こうえん）nghĩa bài diễn thuyết; không diễn đạt 公演 trong câu.",
+        "後援（こうえん）nghĩa hỗ trợ; bảo trợ; không diễn đạt 公演 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-07",
+      "type": "orthography",
+      "word": "硬貨",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 12,
+      "prompt": "【こうか】を自動販売機に入れる。",
+      "origin": "authored",
+      "options": [
+        "交換",
+        "後悔",
+        "硬貨",
+        "高齢化"
+      ],
+      "answer": 2,
+      "explanations": [
+        "交換（こうかん）: trao đổi; thay thế. Cách viết này không diễn đạt tiền xu trong câu.",
+        "後悔（こうかい）: hối hận. Cách viết này không diễn đạt tiền xu trong câu.",
+        "硬貨（こうか）: tiền xu. Cách viết và nghĩa đều khớp câu.",
+        "高齢化（こうれいか）: già hóa dân số. Cách viết này không diễn đạt tiền xu trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-08",
+      "type": "orthography",
+      "word": "後悔",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 13,
+      "prompt": "あの時断ったことを【こうかい】した。",
+      "origin": "authored",
+      "options": [
+        "公開",
+        "航海",
+        "公害",
+        "後悔"
+      ],
+      "answer": 3,
+      "explanations": [
+        "公開（こうかい）nghĩa công khai; không diễn đạt 後悔 trong câu.",
+        "航海（こうかい）nghĩa hành trình trên biển; không diễn đạt 後悔 trong câu.",
+        "公害（こうがい）nghĩa ô nhiễm công cộng; không diễn đạt 後悔 trong câu.",
+        "後悔 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh."
+      ]
+    },
+    {
+      "id": "n2-dai13-09",
+      "type": "orthography",
+      "word": "公開",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 14,
+      "prompt": "映画が全国で【こうかい】された。",
+      "origin": "authored",
+      "options": [
+        "公開",
+        "後悔",
+        "航海",
+        "公害"
+      ],
+      "answer": 0,
+      "explanations": [
+        "公開 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "後悔（こうかい）nghĩa hối hận; không diễn đạt 公開 trong câu.",
+        "航海（こうかい）nghĩa hành trình trên biển; không diễn đạt 公開 trong câu.",
+        "公害（こうがい）nghĩa ô nhiễm công cộng; không diễn đạt 公開 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-10",
+      "type": "orthography",
+      "word": "郊外",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 15,
+      "prompt": "静かな【こうがい】に家を建てる。",
+      "origin": "authored",
+      "options": [
+        "行為",
+        "郊外",
+        "後悔",
+        "工学"
+      ],
+      "answer": 1,
+      "explanations": [
+        "行為（こうい）: hành vi. Cách viết này không diễn đạt ngoại ô trong câu.",
+        "郊外（こうがい）: ngoại ô. Cách viết và nghĩa đều khớp câu.",
+        "後悔（こうかい）: hối hận. Cách viết này không diễn đạt ngoại ô trong câu.",
+        "工学（こうがく）: kỹ thuật học. Cách viết này không diễn đạt ngoại ô trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-11",
+      "type": "formation",
+      "word": "最速",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 70,
+      "prompt": "この路線で一番速く走る列車は最（　）だ。",
+      "origin": "authored",
+      "options": [
+        "強",
+        "新",
+        "長",
+        "速"
+      ],
+      "answer": 3,
+      "explanations": [
+        "最強: mạnh nhất. Từ này không diễn đạt nhanh nhất trong tình huống đã nêu.",
+        "最新: mới nhất. Từ này không diễn đạt nhanh nhất trong tình huống đã nêu.",
+        "最長: dài nhất. Từ này không diễn đạt nhanh nhất trong tình huống đã nêu.",
+        "最速: nhanh nhất. Ghép thành từ phù hợp với tình huống trong câu."
+      ],
+      "formation": {
+        "prefix": "最",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai13-12",
+      "type": "formation",
+      "word": "現象",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 3,
+      "prompt": "虹は光と水滴によって起こる自然現（　）だ。",
+      "origin": "authored",
+      "options": [
+        "状",
+        "象",
+        "代",
+        "地"
+      ],
+      "answer": 1,
+      "explanations": [
+        "現状: hiện trạng. Từ này không diễn đạt hiện tượng trong tình huống đã nêu.",
+        "現象: hiện tượng. Ghép thành từ phù hợp với tình huống trong câu.",
+        "現代: hiện đại. Từ này không diễn đạt hiện tượng trong tình huống đã nêu.",
+        "現地: địa phương; hiện trường. Từ này không diễn đạt hiện tượng trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "現",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai13-13",
+      "type": "formation",
+      "word": "現場",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 9,
+      "prompt": "警察が事故の（　）場を調べた。",
+      "origin": "authored",
+      "options": [
+        "球",
+        "現",
+        "市",
+        "劇"
+      ],
+      "answer": 1,
+      "explanations": [
+        "球場: sân bóng. Từ này không diễn đạt hiện trường; nơi làm việc trong tình huống đã nêu.",
+        "現場: hiện trường. Ghép thành từ phù hợp với tình huống trong câu.",
+        "市場: chợ; thị trường. Từ này không diễn đạt hiện trường; nơi làm việc trong tình huống đã nêu.",
+        "劇場: nhà hát. Từ này không diễn đạt hiện trường; nơi làm việc trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "場"
+      }
+    },
+    {
+      "id": "n2-dai13-14",
+      "type": "context",
+      "word": "工学",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 16,
+      "prompt": "大学で機械の設計や製造を研究する機械（　）を学ぶ。",
+      "origin": "authored",
+      "options": [
+        "語学",
+        "工学",
+        "医学",
+        "文学"
+      ],
+      "answer": 1,
+      "explanations": [
+        "語学 nghĩa ngôn ngữ học. Trong câu này cần kỹ thuật học, nên từ này làm đổi nghĩa sự việc.",
+        "工学 nghĩa kỹ thuật học. Chi tiết trong câu mô tả đúng kỹ thuật học.",
+        "医学 nghĩa y học. Trong câu này cần kỹ thuật học, nên từ này làm đổi nghĩa sự việc.",
+        "文学 nghĩa văn học. Trong câu này cần kỹ thuật học, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai13-15",
+      "type": "context",
+      "word": "好感",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 17,
+      "prompt": "店員の丁寧な対応に、良い印象である（　）を持った。",
+      "origin": "authored",
+      "options": [
+        "不満",
+        "違和感",
+        "好感",
+        "悪意"
+      ],
+      "answer": 2,
+      "explanations": [
+        "不満 nghĩa bất mãn. Trong câu này cần thiện cảm, nên từ này làm đổi nghĩa sự việc.",
+        "違和感 nghĩa cảm giác không hợp. Trong câu này cần thiện cảm, nên từ này làm đổi nghĩa sự việc.",
+        "好感 nghĩa thiện cảm. Chi tiết trong câu mô tả đúng thiện cảm.",
+        "悪意 nghĩa ác ý. Trong câu này cần thiện cảm, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai13-16",
+      "type": "context",
+      "word": "高級",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 18,
+      "prompt": "一泊十万円もする（　）ホテルに宿泊した。",
+      "origin": "authored",
+      "options": [
+        "安価",
+        "大型",
+        "最新",
+        "高級"
+      ],
+      "answer": 3,
+      "explanations": [
+        "安価 nghĩa giá rẻ. Trong câu này cần cao cấp, nên từ này làm đổi nghĩa sự việc.",
+        "大型 nghĩa cỡ lớn. Trong câu này cần cao cấp, nên từ này làm đổi nghĩa sự việc.",
+        "最新 nghĩa mới nhất. Trong câu này cần cao cấp, nên từ này làm đổi nghĩa sự việc.",
+        "高級 nghĩa cao cấp. Chi tiết trong câu mô tả đúng cao cấp."
+      ]
+    },
+    {
+      "id": "n2-dai13-17",
+      "type": "context",
+      "word": "攻撃",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 20,
+      "prompt": "敵の基地に向けて兵器を使い（　）した。",
+      "origin": "authored",
+      "options": [
+        "攻撃",
+        "防御",
+        "支援",
+        "交渉"
+      ],
+      "answer": 0,
+      "explanations": [
+        "攻撃 nghĩa tấn công. Chi tiết trong câu mô tả đúng tấn công.",
+        "防御 nghĩa phòng ngự. Trong câu này cần tấn công, nên từ này làm đổi nghĩa sự việc.",
+        "支援 nghĩa hỗ trợ. Trong câu này cần tấn công, nên từ này làm đổi nghĩa sự việc.",
+        "交渉 nghĩa đàm phán. Trong câu này cần tấn công, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai13-18",
+      "type": "context",
+      "word": "口座",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 21,
+      "prompt": "銀行で預金するため新しい（　）を開いた。",
+      "origin": "authored",
+      "options": [
+        "講座",
+        "口座",
+        "座席",
+        "窓口"
+      ],
+      "answer": 1,
+      "explanations": [
+        "講座 nghĩa khóa học; bài giảng. Trong câu này cần tài khoản ngân hàng, nên từ này làm đổi nghĩa sự việc.",
+        "口座 nghĩa tài khoản. Chi tiết trong câu mô tả đúng tài khoản ngân hàng.",
+        "座席 nghĩa chỗ ngồi. Trong câu này cần tài khoản ngân hàng, nên từ này làm đổi nghĩa sự việc.",
+        "窓口 nghĩa quầy giao dịch; cửa sổ. Trong câu này cần tài khoản ngân hàng, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai13-19",
+      "type": "context",
+      "word": "講座",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 22,
+      "prompt": "先生から学ぶ初心者向けの（　）を受けた。",
+      "origin": "authored",
+      "options": [
+        "口座",
+        "講師",
+        "講座",
+        "会議"
+      ],
+      "answer": 2,
+      "explanations": [
+        "口座 nghĩa tài khoản. Trong câu này cần khóa học; bài giảng, nên từ này làm đổi nghĩa sự việc.",
+        "講師 nghĩa giảng viên. Trong câu này cần khóa học; bài giảng, nên từ này làm đổi nghĩa sự việc.",
+        "講座 nghĩa khóa học; bài giảng. Chi tiết trong câu mô tả đúng khóa học; bài giảng.",
+        "会議 nghĩa cuộc họp; họp. Trong câu này cần khóa học; bài giảng, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai13-20",
+      "type": "context",
+      "word": "工作",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 23,
+      "prompt": "図工の授業で、紙と空き箱を使った（　）を楽しんだ。",
+      "origin": "authored",
+      "options": [
+        "研究",
+        "撮影",
+        "栽培",
+        "工作"
+      ],
+      "answer": 3,
+      "explanations": [
+        "研究 là nghiên cứu. Câu nói đến hoạt động thủ công trong giờ mỹ thuật.",
+        "撮影 nghĩa chụp ảnh; quay phim. Trong câu này cần thủ công; chế tạo, nên từ này làm đổi nghĩa sự việc.",
+        "栽培 nghĩa trồng trọt. Trong câu này cần thủ công; chế tạo, nên từ này làm đổi nghĩa sự việc.",
+        "工作 là làm đồ thủ công. Giấy và hộp rỗng là vật liệu cho hoạt động này."
+      ]
+    },
+    {
+      "id": "n2-dai13-21",
+      "type": "paraphrase",
+      "word": "現実",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 2,
+      "prompt": "厳しい【現実】を受け入れる。",
+      "origin": "authored",
+      "options": [
+        "実際の状況",
+        "生まれ育った土地",
+        "生まれつきの能力",
+        "手がかり"
+      ],
+      "answer": 0,
+      "explanations": [
+        "実際の状況 diễn đạt 'hiện thực' trong câu; đây là cách nói gần nghĩa nhất với 現実.",
+        "生まれ育った土地 là quê hương; không diễn đạt sự thật hiện hữu của 現実.",
+        "生まれつきの能力 diễn đạt 'tài năng' của 才能; khác với nghĩa 'hiện thực' của 現実 trong câu.",
+        "手がかり diễn đạt 'tham khảo' của 参考; khác với nghĩa 'hiện thực' của 現実 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-22",
+      "type": "paraphrase",
+      "word": "現状",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 4,
+      "prompt": "【現状】を詳しく報告する。",
+      "origin": "authored",
+      "options": [
+        "生まれつきの能力",
+        "今の状態",
+        "手がかり",
+        "生まれ育った土地"
+      ],
+      "answer": 1,
+      "explanations": [
+        "生まれつきの能力 diễn đạt 'tài năng' của 才能; khác với nghĩa 'hiện trạng' của 現状 trong câu.",
+        "今の状態 diễn đạt 'hiện trạng' trong câu; đây là cách nói gần nghĩa nhất với 現状.",
+        "手がかり diễn đạt 'tham khảo' của 参考; khác với nghĩa 'hiện trạng' của 現状 trong câu.",
+        "生まれ育った土地 diễn đạt 'quê hương' của 故郷; khác với nghĩa 'hiện trạng' của 現状 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-23",
+      "type": "paraphrase",
+      "word": "才能",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 72,
+      "prompt": "音楽の【才能】を伸ばす。",
+      "origin": "authored",
+      "options": [
+        "手がかり",
+        "生まれ育った土地",
+        "生まれつきの能力",
+        "実際の状況"
+      ],
+      "answer": 2,
+      "explanations": [
+        "手がかり diễn đạt 'tham khảo' của 参考; khác với nghĩa 'tài năng' của 才能 trong câu.",
+        "生まれ育った土地 diễn đạt 'quê hương' của 故郷; khác với nghĩa 'tài năng' của 才能 trong câu.",
+        "生まれつきの能力 diễn đạt 'tài năng' trong câu; đây là cách nói gần nghĩa nhất với 才能.",
+        "実際の状況 diễn đạt 'hiện thực' của 現実; khác với nghĩa 'tài năng' của 才能 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-24",
+      "type": "paraphrase",
+      "word": "参考",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 83,
+      "prompt": "説明書を【参考】に組み立てる。",
+      "origin": "authored",
+      "options": [
+        "生まれ育った土地",
+        "実際の状況",
+        "今の状態",
+        "手がかり"
+      ],
+      "answer": 3,
+      "explanations": [
+        "生まれ育った土地 diễn đạt 'quê hương' của 故郷; khác với nghĩa 'tham khảo' của 参考 trong câu.",
+        "実際の状況 diễn đạt 'hiện thực' của 現実; khác với nghĩa 'tham khảo' của 参考 trong câu.",
+        "今の状態 diễn đạt 'hiện trạng' của 現状; khác với nghĩa 'tham khảo' của 参考 trong câu.",
+        "手がかり diễn đạt 'tham khảo' trong câu; đây là cách nói gần nghĩa nhất với 参考."
+      ]
+    },
+    {
+      "id": "n2-dai13-25",
+      "type": "paraphrase",
+      "word": "故郷",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 47,
+      "prompt": "夏休みに【故郷】へ帰る。",
+      "origin": "authored",
+      "options": [
+        "生まれ育った土地",
+        "実際の状況",
+        "今の状態",
+        "生まれつきの能力"
+      ],
+      "answer": 0,
+      "explanations": [
+        "生まれ育った土地 diễn đạt 'quê hương' trong câu; đây là cách nói gần nghĩa nhất với 故郷.",
+        "実際の状況 diễn đạt 'hiện thực' của 現実; khác với nghĩa 'quê hương' của 故郷 trong câu.",
+        "今の状態 diễn đạt 'hiện trạng' của 現状; khác với nghĩa 'quê hương' của 故郷 trong câu.",
+        "生まれつきの能力 diễn đạt 'tài năng' của 才能; khác với nghĩa 'quê hương' của 故郷 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai13-26",
+      "type": "usage",
+      "word": "貢献",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 19,
+      "prompt": "貢献",
+      "origin": "authored",
+      "options": [
+        "友人の電話番号を貢献した。",
+        "地域の発展に貢献した。",
+        "壊れた時計を店で貢献した。",
+        "電車の時刻を貢献した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Số điện thoại được 伝える; 貢献 là đóng góp cho mục tiêu/tập thể.",
+        "貢献（こうけん）nghĩa cống hiến; câu này dùng đúng đối tượng và tình huống.",
+        "Đồng hồ được 修理・返品; không phải đóng góp công sức.",
+        "Giờ tàu được 知らせる; 貢献 không phải thông báo."
+      ]
+    },
+    {
+      "id": "n2-dai13-27",
+      "type": "usage",
+      "word": "購入",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 36,
+      "prompt": "購入",
+      "origin": "authored",
+      "options": [
+        "図書館から本を無料で一週間購入した。",
+        "友人から借りた傘を後で返して購入した。",
+        "ネットで航空券を購入する。",
+        "店員に商品の値段だけを聞いて購入した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Mượn miễn phí một tuần là 借りる, không phải mua.",
+        "Đồ trả lại là 借りた, không phải đã mua.",
+        "購入（こうにゅう）nghĩa mua; câu này dùng đúng đối tượng và tình huống.",
+        "Chỉ hỏi giá chưa tạo giao dịch mua."
+      ]
+    },
+    {
+      "id": "n2-dai13-28",
+      "type": "usage",
+      "word": "克服",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 48,
+      "prompt": "克服",
+      "origin": "authored",
+      "options": [
+        "友人の住所を克服して手紙を送った。",
+        "旅行の写真を克服してアルバムに入れた。",
+        "料理の味を克服して塩を加えた。",
+        "苦手な発音を克服するため練習した。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Địa chỉ được 確認する; 克服 dùng cho khó khăn/nhược điểm.",
+        "Ảnh được 整理する; không phải khó khăn cần vượt qua.",
+        "Nêm vị là 調整する; 克服 dùng cho trở ngại.",
+        "克服（こくふく）nghĩa khắc phục; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai13-29",
+      "type": "usage",
+      "word": "採用",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 75,
+      "prompt": "採用",
+      "origin": "authored",
+      "options": [
+        "会社が経験者を正社員に採用した。",
+        "会社が会議の開始時刻を採用した。",
+        "店員が商品の値段を電卓で採用した。",
+        "医師が患者の体温を採用した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "採用（さいよう）nghĩa tuyển dụng; áp dụng; câu này dùng đúng đối tượng và tình huống.",
+        "Thời gian họp được 決定する, không phải tuyển dụng.",
+        "Dùng máy tính để tính hoặc xác nhận giá; 採用 là tuyển người hoặc chọn áp dụng phương án.",
+        "Nhiệt độ được 測る・記録する, không phải tuyển."
+      ]
+    },
+    {
+      "id": "n2-dai13-30",
+      "type": "usage",
+      "word": "撮影",
+      "source_file": "resources/N2/goi/dai13.csv",
+      "source_line": 78,
+      "prompt": "撮影",
+      "origin": "authored",
+      "options": [
+        "先生の声をマイクだけで撮影した。",
+        "海辺で映画の場面を撮影した。",
+        "料理の味をカメラで撮影した。",
+        "住所を紙に手書きで撮影した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Chỉ ghi âm tiếng nói là 録音; 撮影 là ghi hình.",
+        "撮影（さつえい）nghĩa chụp ảnh; quay phim; câu này dùng đúng đối tượng và tình huống.",
+        "Máy ảnh ghi hình món ăn, không ghi được vị giác.",
+        "Viết tay là 記入; 撮影 cần máy ảnh/camera."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai11-30",
+  "title": "N2 · Bài 11 · 30 câu",
+  "level": "N2",
+  "lesson": "dai11",
+  "questions": [
+    {
+      "id": "n2-dai11-01",
+      "type": "reading",
+      "word": "一部",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 2,
+      "prompt": "売上の【一部】を寄付した。",
+      "origin": "authored",
+      "options": [
+        "いちぶ",
+        "いち",
+        "いっち",
+        "がいぶ"
+      ],
+      "answer": 0,
+      "explanations": [
+        "一部（いちぶ）: một phần. Đây là cách đọc của từ được hỏi.",
+        "位置（いち）: vị trí; nằm ở. Đây là cách đọc của từ khác, không phải 一部.",
+        "一致（いっち）: nhất trí; trùng khớp. Đây là cách đọc của từ khác, không phải 一部.",
+        "外部（がいぶ）: bên ngoài; bộ phận bên ngoài. Đây là cách đọc của từ khác, không phải 一部."
+      ],
+      "option_lexemes": [
+        {
+          "word": "一部",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 2,
+          "reading": "いちぶ"
+        },
+        {
+          "word": "位置",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 65,
+          "reading": "いち"
+        },
+        {
+          "word": "一致",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 10,
+          "reading": "いっち"
+        },
+        {
+          "word": "外部",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 94,
+          "reading": "がいぶ"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai11-02",
+      "type": "reading",
+      "word": "一面",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 3,
+      "prompt": "野原【一面】に花が咲いた。",
+      "origin": "authored",
+      "options": [
+        "いちれん",
+        "いちめん",
+        "たいめん",
+        "ちょくめん"
+      ],
+      "answer": 1,
+      "explanations": [
+        "一連（いちれん）: một loạt; một chuỗi. Đây là cách đọc của từ khác, không phải 一面.",
+        "一面（いちめん）: toàn bộ một mặt; một phương diện. Đây là cách đọc của từ được hỏi.",
+        "対面（たいめん）: gặp trực tiếp; đối mặt. Đây là cách đọc của từ khác, không phải 一面.",
+        "直面（ちょくめん）: đối mặt. Đây là cách đọc của từ khác, không phải 一面."
+      ],
+      "option_lexemes": [
+        {
+          "word": "一連",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 45,
+          "reading": "いちれん"
+        },
+        {
+          "word": "一面",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 3,
+          "reading": "いちめん"
+        },
+        {
+          "word": "対面",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 64,
+          "reading": "たいめん"
+        },
+        {
+          "word": "直面",
+          "source_file": "resources/N1/goi/dai18.csv",
+          "source_line": 30,
+          "reading": "ちょくめん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai11-03",
+      "type": "reading",
+      "word": "一両",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 4,
+      "prompt": "電車は【一両】だけだった。",
+      "origin": "authored",
+      "options": [
+        "いりょう",
+        "ちりょう",
+        "いちりょう",
+        "いちりゅう"
+      ],
+      "answer": 2,
+      "explanations": [
+        "医療（いりょう）: y tế; điều trị. Đây là cách đọc của từ khác, không phải 一両.",
+        "治療（ちりょう）: điều trị; chữa trị. Đây là cách đọc của từ khác, không phải 一両.",
+        "一両（いちりょう）: một toa xe. Đây là cách đọc của từ được hỏi.",
+        "一流（いちりゅう）: hạng nhất; hàng đầu. Đây là cách đọc của từ khác, không phải 一両."
+      ],
+      "option_lexemes": [
+        {
+          "word": "医療",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 18,
+          "reading": "いりょう"
+        },
+        {
+          "word": "治療",
+          "source_file": "resources/N1/goi/dai2.csv",
+          "source_line": 59,
+          "reading": "ちりょう"
+        },
+        {
+          "word": "一両",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 4,
+          "reading": "いちりょう"
+        },
+        {
+          "word": "一流",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 66,
+          "reading": "いちりゅう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai11-04",
+      "type": "reading",
+      "word": "一例",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 5,
+      "prompt": "具体的な【一例】を挙げる。",
+      "origin": "authored",
+      "options": [
+        "いちれん",
+        "めいれい",
+        "れい",
+        "いちれい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "一連（いちれん）: một loạt; một chuỗi. Đây là cách đọc của từ khác, không phải 一例.",
+        "命令（めいれい）: mệnh lệnh; ra lệnh. Đây là cách đọc của từ khác, không phải 一例.",
+        "例（れい）: ví dụ; trường hợp; tiền lệ. Đây là cách đọc của từ khác, không phải 一例.",
+        "一例（いちれい）: một ví dụ. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "一連",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 45,
+          "reading": "いちれん"
+        },
+        {
+          "word": "命令",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 37,
+          "reading": "めいれい"
+        },
+        {
+          "word": "例",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 97,
+          "reading": "れい"
+        },
+        {
+          "word": "一例",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 5,
+          "reading": "いちれい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai11-05",
+      "type": "reading",
+      "word": "一家",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 6,
+      "prompt": "【一家】で田舎へ引っ越した。",
+      "origin": "authored",
+      "options": [
+        "いっか",
+        "いっかつ",
+        "いっかん",
+        "さっか"
+      ],
+      "answer": 0,
+      "explanations": [
+        "一家（いっか）: một gia đình. Đây là cách đọc của từ được hỏi.",
+        "一括（いっかつ）: gộp chung; xử lý một lần; trọn gói. Đây là cách đọc của từ khác, không phải 一家.",
+        "一環（いっかん）: một phần trong chuỗi hoạt động. Đây là cách đọc của từ khác, không phải 一家.",
+        "作家（さっか）: nhà văn; nghệ sĩ sáng tác. Đây là cách đọc của từ khác, không phải 一家."
+      ],
+      "option_lexemes": [
+        {
+          "word": "一家",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 6,
+          "reading": "いっか"
+        },
+        {
+          "word": "一括",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 35,
+          "reading": "いっかつ"
+        },
+        {
+          "word": "一環",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 36,
+          "reading": "いっかん"
+        },
+        {
+          "word": "作家",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 18,
+          "reading": "さっか"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai11-06",
+      "type": "orthography",
+      "word": "一種",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 7,
+      "prompt": "これは【いっしゅ】のスポーツだ。",
+      "origin": "authored",
+      "options": [
+        "一瞬",
+        "一種",
+        "採取",
+        "摂取"
+      ],
+      "answer": 1,
+      "explanations": [
+        "一瞬（いっしゅん）: một khoảnh khắc. Cách viết này không diễn đạt một loại trong câu.",
+        "一種（いっしゅ）: một loại. Cách viết và nghĩa đều khớp câu.",
+        "採取（さいしゅ）: lấy mẫu; thu lấy. Cách viết này không diễn đạt một loại trong câu.",
+        "摂取（せっしゅ）: hấp thu; đưa dinh dưỡng vào cơ thể. Cách viết này không diễn đạt một loại trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-07",
+      "type": "orthography",
+      "word": "一生",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 9,
+      "prompt": "【いっしょう】この恩を忘れない。",
+      "origin": "authored",
+      "options": [
+        "衣装",
+        "印象",
+        "一生",
+        "相性"
+      ],
+      "answer": 2,
+      "explanations": [
+        "衣装（いしょう）: trang phục; y phục biểu diễn. Cách viết này không diễn đạt cả đời trong câu.",
+        "印象（いんしょう）: ấn tượng. Cách viết này không diễn đạt cả đời trong câu.",
+        "一生（いっしょう）: cả đời. Cách viết và nghĩa đều khớp câu.",
+        "相性（あいしょう）: sự hợp nhau; tương tính. Cách viết này không diễn đạt cả đời trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-08",
+      "type": "orthography",
+      "word": "一致",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 10,
+      "prompt": "二人の意見が【いっち】した。",
+      "origin": "authored",
+      "options": [
+        "位置",
+        "一部",
+        "一家",
+        "一致"
+      ],
+      "answer": 3,
+      "explanations": [
+        "位置（いち）: vị trí; nằm ở. Cách viết này không diễn đạt nhất trí; trùng khớp trong câu.",
+        "一部（いちぶ）: một phần. Cách viết này không diễn đạt nhất trí; trùng khớp trong câu.",
+        "一家（いっか）: một gia đình. Cách viết này không diễn đạt nhất trí; trùng khớp trong câu.",
+        "一致（いっち）: nhất trí; trùng khớp. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-09",
+      "type": "orthography",
+      "word": "一定",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 11,
+      "prompt": "室温を【いってい】に保つ。",
+      "origin": "authored",
+      "options": [
+        "一定",
+        "一転",
+        "決定",
+        "制定"
+      ],
+      "answer": 0,
+      "explanations": [
+        "一定（いってい）: nhất định; cố định. Cách viết và nghĩa đều khớp câu.",
+        "一転（いってん）: thay đổi hoàn toàn. Cách viết này không diễn đạt nhất định; cố định trong câu.",
+        "決定（けってい）: quyết định. Cách viết này không diễn đạt nhất định; cố định trong câu.",
+        "制定（せいてい）: ban hành. Cách viết này không diễn đạt nhất định; cố định trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-10",
+      "type": "orthography",
+      "word": "一転",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 12,
+      "prompt": "天気は午後から【いってん】した。",
+      "origin": "authored",
+      "options": [
+        "一般",
+        "一転",
+        "一定",
+        "一環"
+      ],
+      "answer": 1,
+      "explanations": [
+        "一般（いっぱん）: thông thường; đại chúng. Cách viết này không diễn đạt thay đổi hoàn toàn trong câu.",
+        "一転（いってん）: thay đổi hoàn toàn. Cách viết và nghĩa đều khớp câu.",
+        "一定（いってい）: nhất định; cố định. Cách viết này không diễn đạt thay đổi hoàn toàn trong câu.",
+        "一環（いっかん）: một phần trong chuỗi hoạt động. Cách viết này không diễn đạt thay đổi hoàn toàn trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-11",
+      "type": "formation",
+      "word": "学年",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 99,
+      "prompt": "弟は私と同じ学（　）にいる。",
+      "origin": "authored",
+      "options": [
+        "期",
+        "問",
+        "年",
+        "部"
+      ],
+      "answer": 2,
+      "explanations": [
+        "学期: học kỳ. Từ này không diễn đạt năm học; khối lớp trong tình huống đã nêu.",
+        "学問: học vấn; ngành học. Từ này không diễn đạt năm học; khối lớp trong tình huống đã nêu.",
+        "学年: năm học; khối lớp. Ghép thành từ phù hợp với tình huống trong câu.",
+        "学部: khoa; ngành học. Từ này không diễn đạt năm học; khối lớp trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "学",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai11-12",
+      "type": "formation",
+      "word": "一瞬",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 8,
+      "prompt": "一（　）、何が起きたのか分からなかった。",
+      "origin": "authored",
+      "options": [
+        "生",
+        "歩",
+        "面",
+        "瞬"
+      ],
+      "answer": 3,
+      "explanations": [
+        "一生: cả đời. Từ này không diễn đạt một khoảnh khắc trong tình huống đã nêu.",
+        "一歩: một bước. Từ này không diễn đạt một khoảnh khắc trong tình huống đã nêu.",
+        "一面: toàn bộ một mặt; một phương diện. Từ này không diễn đạt một khoảnh khắc trong tình huống đã nêu.",
+        "一瞬: một khoảnh khắc. Ghép thành từ phù hợp với tình huống trong câu."
+      ],
+      "formation": {
+        "prefix": "一",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai11-13",
+      "type": "formation",
+      "word": "開放",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 49,
+      "prompt": "学校の体育館を休日に市民へ開（　）する。",
+      "origin": "authored",
+      "options": [
+        "発",
+        "場",
+        "放",
+        "催"
+      ],
+      "answer": 2,
+      "explanations": [
+        "開発: phát triển; khai thác. Từ này không diễn đạt mở cửa; mở cho sử dụng trong tình huống đã nêu.",
+        "開場: mở cửa địa điểm tổ chức. Từ này không diễn đạt mở cửa; mở cho sử dụng trong tình huống đã nêu.",
+        "開放: mở cửa; mở cho sử dụng. Ghép thành từ phù hợp với tình huống trong câu.",
+        "開催: tổ chức. Từ này không diễn đạt mở cửa; mở cho sử dụng trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "開",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai11-14",
+      "type": "context",
+      "word": "一歩",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 13,
+      "prompt": "ゴールに向かって右足を出し、（　）前へ進んだ。",
+      "origin": "authored",
+      "options": [
+        "一部",
+        "一歩",
+        "一面",
+        "一両"
+      ],
+      "answer": 1,
+      "explanations": [
+        "一部 nghĩa một phần. Trong câu này cần một bước, nên từ này làm đổi nghĩa sự việc.",
+        "一歩 nghĩa một bước. Chi tiết trong câu mô tả đúng một bước.",
+        "一面 nghĩa toàn bộ một mặt; một phương diện. Trong câu này cần một bước, nên từ này làm đổi nghĩa sự việc.",
+        "一両 nghĩa một toa xe. Trong câu này cần một bước, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai11-15",
+      "type": "context",
+      "word": "意図",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 14,
+      "prompt": "なぜその質問をしたのか、その（　）を説明した。",
+      "origin": "authored",
+      "options": [
+        "意志",
+        "意思",
+        "意図",
+        "意義"
+      ],
+      "answer": 2,
+      "explanations": [
+        "意志 nghĩa ý chí. Trong câu này cần ý đồ; chủ đích, nên từ này làm đổi nghĩa sự việc.",
+        "意思 nghĩa ý định; ý muốn. Trong câu này cần ý đồ; chủ đích, nên từ này làm đổi nghĩa sự việc.",
+        "意図 nghĩa ý đồ, ý định. Chi tiết trong câu mô tả đúng ý đồ; chủ đích.",
+        "意義 nghĩa ý nghĩa; giá trị. Trong câu này cần ý đồ; chủ đích, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai11-16",
+      "type": "context",
+      "word": "違反",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 15,
+      "prompt": "赤信号を無視したので、交通規則に（　）した。",
+      "origin": "authored",
+      "options": [
+        "一致",
+        "決定",
+        "完了",
+        "違反"
+      ],
+      "answer": 3,
+      "explanations": [
+        "一致 nghĩa nhất trí; trùng khớp. Trong câu này cần vi phạm, nên từ này làm đổi nghĩa sự việc.",
+        "決定 nghĩa quyết định. Trong câu này cần vi phạm, nên từ này làm đổi nghĩa sự việc.",
+        "完了 nghĩa hoàn tất. Trong câu này cần vi phạm, nên từ này làm đổi nghĩa sự việc.",
+        "違反 nghĩa vi phạm. Chi tiết trong câu mô tả đúng vi phạm."
+      ]
+    },
+    {
+      "id": "n2-dai11-17",
+      "type": "context",
+      "word": "以来",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 16,
+      "prompt": "卒業した時から今まで、卒業（　）彼に会っていない。",
+      "origin": "authored",
+      "options": [
+        "以来",
+        "以前",
+        "以内",
+        "以外"
+      ],
+      "answer": 0,
+      "explanations": [
+        "以来 nghĩa kể từ. Chi tiết trong câu mô tả đúng kể từ.",
+        "以前 nghĩa trước đây; trước. Trong câu này cần kể từ, nên từ này làm đổi nghĩa sự việc.",
+        "以内 nghĩa trong vòng; không quá. Trong câu này cần kể từ, nên từ này làm đổi nghĩa sự việc.",
+        "以外 nghĩa ngoài; ngoại trừ. Trong câu này cần kể từ, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai11-18",
+      "type": "context",
+      "word": "依頼",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 17,
+      "prompt": "自分ではできない調査を専門家に（　）した。",
+      "origin": "authored",
+      "options": [
+        "拒否",
+        "依頼",
+        "相談",
+        "回答"
+      ],
+      "answer": 1,
+      "explanations": [
+        "拒否 nghĩa từ chối. Trong câu này cần nhờ; yêu cầu, nên từ này làm đổi nghĩa sự việc.",
+        "依頼 nghĩa nhờ; yêu cầu. Chi tiết trong câu mô tả đúng nhờ; yêu cầu.",
+        "相談 nghĩa bàn bạc; hỏi ý kiến. Trong câu này cần nhờ; yêu cầu, nên từ này làm đổi nghĩa sự việc.",
+        "回答 nghĩa trả lời. Trong câu này cần nhờ; yêu cầu, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai11-19",
+      "type": "context",
+      "word": "印鑑",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 20,
+      "prompt": "契約書に朱肉を付けた（　）を押した。",
+      "origin": "authored",
+      "options": [
+        "署名",
+        "書類",
+        "印鑑",
+        "切符"
+      ],
+      "answer": 2,
+      "explanations": [
+        "署名 nghĩa ký tên. Trong câu này cần con dấu, nên từ này làm đổi nghĩa sự việc.",
+        "書類 nghĩa giấy tờ; tài liệu. Trong câu này cần con dấu, nên từ này làm đổi nghĩa sự việc.",
+        "印鑑 nghĩa con dấu. Chi tiết trong câu mô tả đúng con dấu.",
+        "切符 nghĩa vé. Trong câu này cần con dấu, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai11-20",
+      "type": "context",
+      "word": "引退",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 21,
+      "prompt": "選手は今季で競技生活を終え、（　）する。",
+      "origin": "authored",
+      "options": [
+        "就職",
+        "進学",
+        "出勤",
+        "引退"
+      ],
+      "answer": 3,
+      "explanations": [
+        "就職 nghĩa xin việc; đi làm. Trong câu này cần giải nghệ; nghỉ hưu, nên từ này làm đổi nghĩa sự việc.",
+        "進学 nghĩa học lên cao. Trong câu này cần giải nghệ; nghỉ hưu, nên từ này làm đổi nghĩa sự việc.",
+        "出勤 nghĩa đi làm. Trong câu này cần giải nghệ; nghỉ hưu, nên từ này làm đổi nghĩa sự việc.",
+        "引退 nghĩa giải nghệ; nghỉ hưu. Chi tiết trong câu mô tả đúng giải nghệ; nghỉ hưu."
+      ]
+    },
+    {
+      "id": "n2-dai11-21",
+      "type": "paraphrase",
+      "word": "医療",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 18,
+      "prompt": "地域の【医療】を支える。",
+      "origin": "authored",
+      "options": [
+        "治療や健康を守る活動",
+        "服",
+        "動画",
+        "気持ち"
+      ],
+      "answer": 0,
+      "explanations": [
+        "治療や健康を守る活動 diễn đạt 'y tế; điều trị' trong câu; đây là cách nói gần nghĩa nhất với 医療.",
+        "服 diễn đạt 'quần áo' của 衣類; khác với nghĩa 'y tế; điều trị' của 医療 trong câu.",
+        "動画 diễn đạt 'hình ảnh; video' của 映像; khác với nghĩa 'y tế; điều trị' của 医療 trong câu.",
+        "気持ち diễn đạt 'cảm xúc' của 感情; khác với nghĩa 'y tế; điều trị' của 医療 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-22",
+      "type": "paraphrase",
+      "word": "衣類",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 19,
+      "prompt": "不要な【衣類】を寄付する。",
+      "origin": "authored",
+      "options": [
+        "動画",
+        "服",
+        "気持ち",
+        "体系的な知識"
+      ],
+      "answer": 1,
+      "explanations": [
+        "動画 diễn đạt 'hình ảnh; video' của 映像; khác với nghĩa 'quần áo' của 衣類 trong câu.",
+        "服 diễn đạt 'quần áo' trong câu; đây là cách nói gần nghĩa nhất với 衣類.",
+        "気持ち diễn đạt 'cảm xúc' của 感情; khác với nghĩa 'quần áo' của 衣類 trong câu.",
+        "体系的な知識 diễn đạt 'học vấn; ngành học' của 学問; khác với nghĩa 'quần áo' của 衣類 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-23",
+      "type": "paraphrase",
+      "word": "映像",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 25,
+      "prompt": "監視カメラの【映像】を確認した。",
+      "origin": "authored",
+      "options": [
+        "気持ち",
+        "体系的な知識",
+        "動画",
+        "治療や健康を守る活動"
+      ],
+      "answer": 2,
+      "explanations": [
+        "気持ち diễn đạt 'cảm xúc' của 感情; khác với nghĩa 'hình ảnh; video' của 映像 trong câu.",
+        "体系的な知識 diễn đạt 'học vấn; ngành học' của 学問; khác với nghĩa 'hình ảnh; video' của 映像 trong câu.",
+        "動画 diễn đạt 'hình ảnh; video' trong câu; đây là cách nói gần nghĩa nhất với 映像.",
+        "治療や健康を守る活動 diễn đạt 'y tế; điều trị' của 医療; khác với nghĩa 'hình ảnh; video' của 映像 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-24",
+      "type": "paraphrase",
+      "word": "感情",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 84,
+      "prompt": "顔に【感情】が表れている。",
+      "origin": "authored",
+      "options": [
+        "体系的な知識",
+        "治療や健康を守る活動",
+        "服",
+        "気持ち"
+      ],
+      "answer": 3,
+      "explanations": [
+        "体系的な知識 diễn đạt 'học vấn; ngành học' của 学問; khác với nghĩa 'cảm xúc' của 感情 trong câu.",
+        "治療や健康を守る活動 diễn đạt 'y tế; điều trị' của 医療; khác với nghĩa 'cảm xúc' của 感情 trong câu.",
+        "服 diễn đạt 'quần áo' của 衣類; khác với nghĩa 'cảm xúc' của 感情 trong câu.",
+        "気持ち diễn đạt 'cảm xúc' trong câu; đây là cách nói gần nghĩa nhất với 感情."
+      ]
+    },
+    {
+      "id": "n2-dai11-25",
+      "type": "paraphrase",
+      "word": "学問",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 100,
+      "prompt": "大学で法律を【学問】として学ぶ。",
+      "origin": "authored",
+      "options": [
+        "体系的な知識",
+        "治療や健康を守る活動",
+        "服",
+        "動画"
+      ],
+      "answer": 0,
+      "explanations": [
+        "体系的な知識 diễn đạt 'học vấn; ngành học' trong câu; đây là cách nói gần nghĩa nhất với 学問.",
+        "治療や健康を守る活動 diễn đạt 'y tế; điều trị' của 医療; khác với nghĩa 'học vấn; ngành học' của 学問 trong câu.",
+        "服 diễn đạt 'quần áo' của 衣類; khác với nghĩa 'học vấn; ngành học' của 学問 trong câu.",
+        "動画 diễn đạt 'hình ảnh; video' của 映像; khác với nghĩa 'học vấn; ngành học' của 学問 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai11-26",
+      "type": "usage",
+      "word": "運営",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 24,
+      "prompt": "運営",
+      "origin": "authored",
+      "options": [
+        "道路のひびを運営した。",
+        "市が施設を運営している。",
+        "小説の誤字を運営した。",
+        "夕食の野菜を運営した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Sửa đường là 修理・補修; 運営 là quản lý hoạt động tổ chức.",
+        "運営（うんえい）nghĩa vận hành; quản lý; câu này dùng đúng đối tượng và tình huống.",
+        "Sửa lỗi chữ là 修正; 運営 không phải biên tập.",
+        "Nấu ăn là 調理; 運営 là tổ chức và quản lý."
+      ]
+    },
+    {
+      "id": "n2-dai11-27",
+      "type": "usage",
+      "word": "解釈",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 41,
+      "prompt": "解釈",
+      "origin": "authored",
+      "options": [
+        "契約書を読まずに内容を解釈した。",
+        "壊れた時計の部品を解釈した。",
+        "文章を別の意味に解釈した。",
+        "写真の色をペンキで解釈した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Giải thích cần đọc/hiểu nội dung, không phải đoán khi chưa xem.",
+        "Bộ phận hỏng cần 修理・調べる; 解釈 là hiểu nghĩa.",
+        "解釈（かいしゃく）nghĩa giải thích; diễn giải; câu này dùng đúng đối tượng và tình huống.",
+        "Thay màu là 加工; 解釈 không phải tô màu."
+      ]
+    },
+    {
+      "id": "n2-dai11-28",
+      "type": "usage",
+      "word": "解約",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 50,
+      "prompt": "解約",
+      "origin": "authored",
+      "options": [
+        "携帯電話の料金を毎月解約した。",
+        "新しい保険の申込書を解約した。",
+        "壊れた家電を店に解約した。",
+        "携帯電話の契約を解約した。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Khoản tiền được 支払う; 解約 là chấm dứt hợp đồng.",
+        "Đơn đăng ký mới cần 取り消す nếu không nộp; 解約 dùng cho hợp đồng đang có.",
+        "Hàng hóa có thể 返品する; 解約 dành cho hợp đồng.",
+        "解約（かいやく）nghĩa hủy hợp đồng; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai11-29",
+      "type": "usage",
+      "word": "加熱",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 80,
+      "prompt": "加熱",
+      "origin": "authored",
+      "options": [
+        "生の肉を十分に加熱してから食べた。",
+        "冷たい飲み物を冷蔵庫で加熱した。",
+        "書類の内容を加熱して分かりやすくした。",
+        "声が小さいのでマイクで加熱した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "加熱（かねつ）nghĩa gia nhiệt; đun nóng; câu này dùng đúng đối tượng và tình huống.",
+        "Tủ lạnh làm mát; 加熱 cần nguồn nhiệt.",
+        "Nội dung cần 修正・説明; 加熱 áp dụng nhiệt.",
+        "Âm lượng cần 大きくする; 加熱 không tăng âm thanh."
+      ]
+    },
+    {
+      "id": "n2-dai11-30",
+      "type": "usage",
+      "word": "鑑賞",
+      "source_file": "resources/N2/goi/dai11.csv",
+      "source_line": 83,
+      "prompt": "鑑賞",
+      "origin": "authored",
+      "options": [
+        "医師がレントゲンを鑑賞して骨折を診断した。",
+        "美術館で絵画を鑑賞した。",
+        "店員が商品の値段を鑑賞した。",
+        "先生が生徒の出席を鑑賞した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ảnh y khoa được 読影・確認; 鑑賞 là thưởng thức nghệ thuật.",
+        "鑑賞（かんしょう）nghĩa thưởng thức nghệ thuật; câu này dùng đúng đối tượng và tình huống.",
+        "Giá được 確認・比較; không phải tác phẩm để thưởng thức.",
+        "Điểm danh là 確認; 鑑賞 không dùng cho danh sách."
+      ]
+    }
+  ]
+}

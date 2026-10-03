@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai6-30",
+  "title": "N2 · Bài 6 · 30 câu",
+  "level": "N2",
+  "lesson": "dai6",
+  "questions": [
+    {
+      "id": "n2-dai6-01",
+      "type": "reading",
+      "word": "言葉遣い",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 2,
+      "prompt": "目上の人には丁寧な【言葉遣い】をする。",
+      "origin": "authored",
+      "options": [
+        "ことばづかい",
+        "とかい",
+        "こまかい",
+        "こうかい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "言葉遣い（ことばづかい）: cách dùng từ; cách nói năng. Đây là cách đọc của từ được hỏi.",
+        "都会（とかい）: đô thị; thành phố lớn. Đây là cách đọc của từ khác, không phải 言葉遣い.",
+        "細かい（こまかい）: nhỏ; chi tiết; tỉ mỉ. Đây là cách đọc của từ khác, không phải 言葉遣い.",
+        "後悔（こうかい）: hối hận. Đây là cách đọc của từ khác, không phải 言葉遣い."
+      ],
+      "option_lexemes": [
+        {
+          "word": "言葉遣い",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 2,
+          "reading": "ことばづかい"
+        },
+        {
+          "word": "都会",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 61,
+          "reading": "とかい"
+        },
+        {
+          "word": "細かい",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 35,
+          "reading": "こまかい"
+        },
+        {
+          "word": "後悔",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 13,
+          "reading": "こうかい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai6-02",
+      "type": "reading",
+      "word": "ご趣味",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 3,
+      "prompt": "【ご趣味】は何ですか。",
+      "origin": "authored",
+      "options": [
+        "しゅ",
+        "ごしゅみ",
+        "しゅし",
+        "しみん"
+      ],
+      "answer": 1,
+      "explanations": [
+        "種（しゅ）: hạt; giống; nguyên nhân. Đây là cách đọc của từ khác, không phải ご趣味.",
+        "ご趣味（ごしゅみ）: sở thích (cách nói lịch sự). Đây là cách đọc của từ được hỏi.",
+        "趣旨（しゅし）: ý chính; mục đích. Đây là cách đọc của từ khác, không phải ご趣味.",
+        "市民（しみん）: thị dân; người dân thành phố. Đây là cách đọc của từ khác, không phải ご趣味."
+      ],
+      "option_lexemes": [
+        {
+          "word": "種",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 41,
+          "reading": "しゅ"
+        },
+        {
+          "word": "ご趣味",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 3,
+          "reading": "ごしゅみ"
+        },
+        {
+          "word": "趣旨",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 12,
+          "reading": "しゅし"
+        },
+        {
+          "word": "市民",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 35,
+          "reading": "しみん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai6-03",
+      "type": "reading",
+      "word": "ご自身",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 4,
+      "prompt": "【ご自身】で確認してください。",
+      "origin": "authored",
+      "options": [
+        "じしん",
+        "じそんしん",
+        "ごじしん",
+        "しん"
+      ],
+      "answer": 2,
+      "explanations": [
+        "自信（じしん）: sự tự tin. Đây là cách đọc của từ khác, không phải ご自身.",
+        "自尊心（じそんしん）: lòng tự trọng. Đây là cách đọc của từ khác, không phải ご自身.",
+        "ご自身（ごじしん）: bản thân (cách nói kính trọng). Đây là cách đọc của từ được hỏi.",
+        "芯（しん）: lõi; ruột; tim bút. Đây là cách đọc của từ khác, không phải ご自身."
+      ],
+      "option_lexemes": [
+        {
+          "word": "自信",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 75,
+          "reading": "じしん"
+        },
+        {
+          "word": "自尊心",
+          "source_file": "resources/N1/goi/dai38.csv",
+          "source_line": 71,
+          "reading": "じそんしん"
+        },
+        {
+          "word": "ご自身",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 4,
+          "reading": "ごじしん"
+        },
+        {
+          "word": "芯",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 49,
+          "reading": "しん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai6-04",
+      "type": "reading",
+      "word": "ご相談",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 5,
+      "prompt": "仕事について【ご相談】があります。",
+      "origin": "authored",
+      "options": [
+        "そうだんがかり",
+        "そうしん",
+        "そうかん",
+        "ごそうだん"
+      ],
+      "answer": 3,
+      "explanations": [
+        "相談係（そうだんがかり）: người phụ trách tư vấn. Đây là cách đọc của từ khác, không phải ご相談.",
+        "送信（そうしん）: gửi; truyền đi. Đây là cách đọc của từ khác, không phải ご相談.",
+        "創刊（そうかん）: xuất bản số đầu tiên. Đây là cách đọc của từ khác, không phải ご相談.",
+        "ご相談（ごそうだん）: sự trao đổi; tư vấn (lịch sự). Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "相談係",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 7,
+          "reading": "そうだんがかり"
+        },
+        {
+          "word": "送信",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 16,
+          "reading": "そうしん"
+        },
+        {
+          "word": "創刊",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 19,
+          "reading": "そうかん"
+        },
+        {
+          "word": "ご相談",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 5,
+          "reading": "ごそうだん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai6-05",
+      "type": "reading",
+      "word": "幸せ",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 6,
+      "prompt": "家族と過ごす時間が【幸せ】だ。",
+      "origin": "authored",
+      "options": [
+        "しあわせ",
+        "あわせる",
+        "みあわせる",
+        "うちあわせ"
+      ],
+      "answer": 0,
+      "explanations": [
+        "幸せ（しあわせ）: hạnh phúc. Đây là cách đọc của từ được hỏi.",
+        "合わせる（あわせる）: ghép; điều chỉnh cho phù hợp. Đây là cách đọc của từ khác, không phải 幸せ.",
+        "見合わせる（みあわせる）: tạm hoãn; nhìn nhau. Đây là cách đọc của từ khác, không phải 幸せ.",
+        "打ち合わせ（うちあわせ）: cuộc họp bàn; trao đổi trước. Đây là cách đọc của từ khác, không phải 幸せ."
+      ],
+      "option_lexemes": [
+        {
+          "word": "幸せ",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 6,
+          "reading": "しあわせ"
+        },
+        {
+          "word": "合わせる",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 54,
+          "reading": "あわせる"
+        },
+        {
+          "word": "見合わせる",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 4,
+          "reading": "みあわせる"
+        },
+        {
+          "word": "打ち合わせ",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 47,
+          "reading": "うちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai6-06",
+      "type": "orthography",
+      "word": "自分自身",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 7,
+      "prompt": "【じぶんじしん】を信じて進む。",
+      "origin": "authored",
+      "options": [
+        "自尊心",
+        "自分自身",
+        "自信",
+        "ご自身"
+      ],
+      "answer": 1,
+      "explanations": [
+        "自尊心（じそんしん）: lòng tự trọng. Cách viết này không diễn đạt chính bản thân mình trong câu.",
+        "自分自身（じぶんじしん）: chính bản thân mình. Cách viết và nghĩa đều khớp câu.",
+        "自信（じしん）: sự tự tin. Cách viết này không diễn đạt chính bản thân mình trong câu.",
+        "ご自身（ごじしん）: bản thân (cách nói kính trọng). Cách viết này không diễn đạt chính bản thân mình trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-07",
+      "type": "orthography",
+      "word": "市役所",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 8,
+      "prompt": "【しやくしょ】で住所変更の手続きをする。",
+      "origin": "authored",
+      "options": [
+        "区役所",
+        "役職",
+        "市役所",
+        "契約書"
+      ],
+      "answer": 2,
+      "explanations": [
+        "区役所（くやくしょ）: trụ sở hành chính quận. Cách viết này không diễn đạt tòa thị chính; ủy ban thành phố trong câu.",
+        "役職（やくしょく）: chức vụ. Cách viết này không diễn đạt tòa thị chính; ủy ban thành phố trong câu.",
+        "市役所（しやくしょ）: tòa thị chính; ủy ban thành phố. Cách viết và nghĩa đều khớp câu.",
+        "契約書（けいやくしょ）: hợp đồng; văn bản hợp đồng. Cách viết này không diễn đạt tòa thị chính; ủy ban thành phố trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-08",
+      "type": "orthography",
+      "word": "商品名",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 9,
+      "prompt": "申込書に【しょうひんめい】を書く。",
+      "origin": "authored",
+      "options": [
+        "商品",
+        "証明",
+        "署名",
+        "商品名"
+      ],
+      "answer": 3,
+      "explanations": [
+        "商品（しょうひん）: sản phẩm; hàng hóa. Cách viết này không diễn đạt tên sản phẩm trong câu.",
+        "証明（しょうめい）: chứng minh; chứng nhận. Cách viết này không diễn đạt tên sản phẩm trong câu.",
+        "署名（しょめい）: ký tên. Cách viết này không diễn đạt tên sản phẩm trong câu.",
+        "商品名（しょうひんめい）: tên sản phẩm. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-09",
+      "type": "orthography",
+      "word": "新入社員",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 10,
+      "prompt": "【しんにゅうしゃいん】の研修が始まった。",
+      "origin": "authored",
+      "options": [
+        "新入社員",
+        "新入生",
+        "侵入者",
+        "社員"
+      ],
+      "answer": 0,
+      "explanations": [
+        "新入社員 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "新入生（しんにゅうせい）nghĩa học sinh/sinh viên mới; không diễn đạt 新入社員 trong câu.",
+        "侵入者（しんにゅうしゃ）nghĩa người xâm nhập; không diễn đạt 新入社員 trong câu.",
+        "社員（しゃいん）nghĩa nhân viên công ty; không diễn đạt 新入社員 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-10",
+      "type": "orthography",
+      "word": "新入生",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 11,
+      "prompt": "【しんにゅうせい】を歓迎する会を開く。",
+      "origin": "authored",
+      "options": [
+        "侵入",
+        "新入生",
+        "修正",
+        "新入社員"
+      ],
+      "answer": 1,
+      "explanations": [
+        "侵入（しんにゅう）: xâm nhập. Cách viết này không diễn đạt học sinh; sinh viên mới trong câu.",
+        "新入生（しんにゅうせい）: học sinh; sinh viên mới. Cách viết và nghĩa đều khớp câu.",
+        "修正（しゅうせい）: sửa chữa. Cách viết này không diễn đạt học sinh; sinh viên mới trong câu.",
+        "新入社員（しんにゅうしゃいん）: nhân viên mới. Cách viết này không diễn đạt học sinh; sinh viên mới trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-11",
+      "type": "formation",
+      "word": "専門店",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 13,
+      "prompt": "紅茶だけを扱う（　）店が駅前にできた。",
+      "origin": "authored",
+      "options": [
+        "専門",
+        "書",
+        "売",
+        "支"
+      ],
+      "answer": 0,
+      "explanations": [
+        "専門店: cửa hàng chuyên doanh. Ghép thành từ phù hợp với tình huống trong câu.",
+        "書店: hiệu sách. Từ này không diễn đạt cửa hàng chuyên doanh trong tình huống đã nêu.",
+        "売店: quầy bán hàng. Từ này không diễn đạt cửa hàng chuyên doanh trong tình huống đã nêu.",
+        "支店: chi nhánh. Từ này không diễn đạt cửa hàng chuyên doanh trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "店"
+      }
+    },
+    {
+      "id": "n2-dai6-12",
+      "type": "formation",
+      "word": "調味料",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 22,
+      "prompt": "料理の味を整えるために（　）料を加えた。",
+      "origin": "authored",
+      "options": [
+        "飲",
+        "食",
+        "調味",
+        "資"
+      ],
+      "answer": 2,
+      "explanations": [
+        "飲料: đồ uống. Từ này không diễn đạt gia vị trong tình huống đã nêu.",
+        "食料: lương thực. Từ này không diễn đạt gia vị trong tình huống đã nêu.",
+        "調味料: gia vị. Ghép thành từ phù hợp với tình huống trong câu.",
+        "資料: tư liệu; tài liệu. Từ này không diễn đạt gia vị trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "料"
+      }
+    },
+    {
+      "id": "n2-dai6-13",
+      "type": "formation",
+      "word": "美容院",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 31,
+      "prompt": "髪を切ってもらうため、（　）院に行った。",
+      "origin": "authored",
+      "options": [
+        "病",
+        "大学",
+        "美容",
+        "議"
+      ],
+      "answer": 2,
+      "explanations": [
+        "病院 nghĩa bệnh viện. Câu hỏi yêu cầu nghĩa của 美容院, nên không chọn từ này.",
+        "大学院: cao học; trường sau đại học. Từ này không diễn đạt tiệm làm tóc; thẩm mỹ viện trong tình huống đã nêu.",
+        "美容院: tiệm làm tóc; thẩm mỹ viện. Ghép thành từ phù hợp với tình huống trong câu.",
+        "議院 nghĩa viện lập pháp. Câu hỏi yêu cầu nghĩa của 美容院, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "院"
+      }
+    },
+    {
+      "id": "n2-dai6-14",
+      "type": "context",
+      "word": "全て",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 12,
+      "prompt": "百問を一問も残さず、（　）解き終えた。",
+      "origin": "authored",
+      "options": [
+        "一部",
+        "全て",
+        "半分",
+        "多少"
+      ],
+      "answer": 1,
+      "explanations": [
+        "一部 nghĩa một phần. Trong câu này cần tất cả, nên từ này làm đổi nghĩa sự việc.",
+        "全て nghĩa tất cả. Chi tiết trong câu mô tả đúng tất cả.",
+        "半分 nghĩa một nửa. Trong câu này cần tất cả, nên từ này làm đổi nghĩa sự việc.",
+        "多少 nghĩa ít nhiều; một chút. Trong câu này cần tất cả, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai6-15",
+      "type": "context",
+      "word": "掃除機",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 14,
+      "prompt": "床のほこりを吸い取るため（　）を使った。",
+      "origin": "authored",
+      "options": [
+        "洗濯機",
+        "冷蔵庫",
+        "掃除機",
+        "プリンター"
+      ],
+      "answer": 2,
+      "explanations": [
+        "洗濯機 nghĩa máy giặt. Trong câu này cần máy hút bụi, nên từ này làm đổi nghĩa sự việc.",
+        "冷蔵庫 nghĩa tủ lạnh. Trong câu này cần máy hút bụi, nên từ này làm đổi nghĩa sự việc.",
+        "掃除機 nghĩa máy hút bụi. Chi tiết trong câu mô tả đúng máy hút bụi.",
+        "プリンター nghĩa máy in. Trong câu này cần máy hút bụi, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai6-16",
+      "type": "context",
+      "word": "卒業論文",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 15,
+      "prompt": "大学四年の研究をまとめる（　）の資料を集めた。",
+      "origin": "authored",
+      "options": [
+        "卒業式",
+        "講義",
+        "試験",
+        "卒業論文"
+      ],
+      "answer": 3,
+      "explanations": [
+        "卒業式 nghĩa lễ tốt nghiệp. Trong câu này cần luận văn tốt nghiệp, nên từ này làm đổi nghĩa sự việc.",
+        "講義 nghĩa bài giảng. Trong câu này cần luận văn tốt nghiệp, nên từ này làm đổi nghĩa sự việc.",
+        "試験 nghĩa kỳ thi; kiểm tra. Trong câu này cần luận văn tốt nghiệp, nên từ này làm đổi nghĩa sự việc.",
+        "卒業論文 nghĩa luận văn tốt nghiệp. Chi tiết trong câu mô tả đúng luận văn tốt nghiệp."
+      ]
+    },
+    {
+      "id": "n2-dai6-17",
+      "type": "context",
+      "word": "祖父母",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 16,
+      "prompt": "夏休みに父と母それぞれの両親である（　）を訪ねた。",
+      "origin": "authored",
+      "options": [
+        "祖父母",
+        "夫婦",
+        "親子",
+        "兄弟"
+      ],
+      "answer": 0,
+      "explanations": [
+        "祖父母 nghĩa ông bà. Chi tiết trong câu mô tả đúng ông bà.",
+        "夫婦 nghĩa vợ chồng. Trong câu này cần ông bà, nên từ này làm đổi nghĩa sự việc.",
+        "親子 nghĩa cha mẹ và con cái. Trong câu này cần ông bà, nên từ này làm đổi nghĩa sự việc.",
+        "兄弟 nghĩa anh chị em. Trong câu này cần ông bà, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai6-18",
+      "type": "context",
+      "word": "それぞれ",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 17,
+      "prompt": "五人に一人ずつ、（　）の意見を聞いた。",
+      "origin": "authored",
+      "options": [
+        "全員",
+        "それぞれ",
+        "一部",
+        "全て"
+      ],
+      "answer": 1,
+      "explanations": [
+        "全員 nghĩa toàn bộ mọi người. Trong câu này cần mỗi; từng người; lần lượt, nên từ này làm đổi nghĩa sự việc.",
+        "それぞれ nghĩa mỗi; từng người; lần lượt. Chi tiết trong câu mô tả đúng mỗi; từng người; lần lượt.",
+        "一部 nghĩa một phần. Trong câu này cần mỗi; từng người; lần lượt, nên từ này làm đổi nghĩa sự việc.",
+        "全て nghĩa tất cả. Trong câu này cần mỗi; từng người; lần lượt, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai6-19",
+      "type": "context",
+      "word": "大学院",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 18,
+      "prompt": "学部を卒業した後、修士課程のある（　）で研究した。",
+      "origin": "authored",
+      "options": [
+        "保育園",
+        "高校",
+        "大学院",
+        "専門学校"
+      ],
+      "answer": 2,
+      "explanations": [
+        "保育園 là trường mầm non; chương trình thạc sĩ thuộc 大学院.",
+        "高校 nghĩa trường trung học phổ thông. Trong câu này cần cao học; trường sau đại học, nên từ này làm đổi nghĩa sự việc.",
+        "大学院 nghĩa cao học; trường sau đại học. Chi tiết trong câu mô tả đúng cao học; trường sau đại học.",
+        "専門学校 nghĩa trường chuyên môn. Trong câu này cần cao học; trường sau đại học, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai6-20",
+      "type": "context",
+      "word": "食べ放題",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 19,
+      "prompt": "この店は焼肉を何皿食べても料金が同じ（　）だ。",
+      "origin": "authored",
+      "options": [
+        "飲み放題",
+        "外食",
+        "持ち帰り",
+        "食べ放題"
+      ],
+      "answer": 3,
+      "explanations": [
+        "飲み放題 nghĩa uống thoải mái với giá cố định. Trong câu này cần ăn thỏa thích; buffet không giới hạn, nên từ này làm đổi nghĩa sự việc.",
+        "外食 nghĩa ăn ngoài. Trong câu này cần ăn thỏa thích; buffet không giới hạn, nên từ này làm đổi nghĩa sự việc.",
+        "持ち帰り nghĩa mang về. Trong câu này cần ăn thỏa thích; buffet không giới hạn, nên từ này làm đổi nghĩa sự việc.",
+        "食べ放題 nghĩa ăn thỏa thích; buffet không giới hạn. Chi tiết trong câu mô tả đúng ăn thỏa thích; buffet không giới hạn."
+      ]
+    },
+    {
+      "id": "n2-dai6-21",
+      "type": "paraphrase",
+      "word": "憧れる",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 43,
+      "prompt": "海外での生活に【憧れる】。",
+      "origin": "authored",
+      "options": [
+        "強く心を引かれる",
+        "関係する",
+        "気が付く",
+        "うんざりする"
+      ],
+      "answer": 0,
+      "explanations": [
+        "強く心を引かれる diễn đạt 'ngưỡng mộ; ao ước' trong câu; đây là cách nói gần nghĩa nhất với 憧れる.",
+        "関係する diễn đạt 'liên quan; tham gia' của 関わる; khác với nghĩa 'ngưỡng mộ; ao ước' của 憧れる trong câu.",
+        "気が付く diễn đạt 'nhận ra' của 気付く; khác với nghĩa 'ngưỡng mộ; ao ước' của 憧れる trong câu.",
+        "うんざりする diễn đạt 'chán; ngán' của 飽きる; khác với nghĩa 'ngưỡng mộ; ao ước' của 憧れる trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-22",
+      "type": "paraphrase",
+      "word": "関わる",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 74,
+      "prompt": "多くの人がこの計画に【関わる】。",
+      "origin": "authored",
+      "options": [
+        "気が付く",
+        "関係する",
+        "うんざりする",
+        "移動する"
+      ],
+      "answer": 1,
+      "explanations": [
+        "気が付く diễn đạt 'nhận ra' của 気付く; khác với nghĩa 'liên quan; tham gia' của 関わる trong câu.",
+        "関係する diễn đạt 'liên quan; tham gia' trong câu; đây là cách nói gần nghĩa nhất với 関わる.",
+        "うんざりする diễn đạt 'chán; ngán' của 飽きる; khác với nghĩa 'liên quan; tham gia' của 関わる trong câu.",
+        "移動する diễn đạt 'chuyển; lây; dời' của 移る; khác với nghĩa 'liên quan; tham gia' của 関わる trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-23",
+      "type": "paraphrase",
+      "word": "気付く",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 83,
+      "prompt": "小さな変化に【気付く】ことが大切だ。",
+      "origin": "authored",
+      "options": [
+        "うんざりする",
+        "移動する",
+        "気が付く",
+        "強く心を引かれる"
+      ],
+      "answer": 2,
+      "explanations": [
+        "うんざりする diễn đạt 'chán; ngán' của 飽きる; khác với nghĩa 'nhận ra' của 気付く trong câu.",
+        "移動する diễn đạt 'chuyển; lây; dời' của 移る; khác với nghĩa 'nhận ra' của 気付く trong câu.",
+        "気が付く diễn đạt 'nhận ra' trong câu; đây là cách nói gần nghĩa nhất với 気付く.",
+        "強く心を引かれる diễn đạt 'ngưỡng mộ; ao ước' của 憧れる; khác với nghĩa 'nhận ra' của 気付く trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-24",
+      "type": "paraphrase",
+      "word": "飽きる",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 40,
+      "prompt": "同じ料理を毎日食べると【飽きる】。",
+      "origin": "authored",
+      "options": [
+        "移動する",
+        "強く心を引かれる",
+        "関係する",
+        "うんざりする"
+      ],
+      "answer": 3,
+      "explanations": [
+        "移動する diễn đạt 'chuyển; lây; dời' của 移る; khác với nghĩa 'chán; ngán' của 飽きる trong câu.",
+        "強く心を引かれる diễn đạt 'ngưỡng mộ; ao ước' của 憧れる; khác với nghĩa 'chán; ngán' của 飽きる trong câu.",
+        "関係する diễn đạt 'liên quan; tham gia' của 関わる; khác với nghĩa 'chán; ngán' của 飽きる trong câu.",
+        "うんざりする diễn đạt 'chán; ngán' trong câu; đây là cách nói gần nghĩa nhất với 飽きる."
+      ]
+    },
+    {
+      "id": "n2-dai6-25",
+      "type": "paraphrase",
+      "word": "移る",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 58,
+      "prompt": "新しい事務所へ【移る】。",
+      "origin": "authored",
+      "options": [
+        "移動する",
+        "強く心を引かれる",
+        "関係する",
+        "気が付く"
+      ],
+      "answer": 0,
+      "explanations": [
+        "移動する diễn đạt 'chuyển; lây; dời' trong câu; đây là cách nói gần nghĩa nhất với 移る.",
+        "強く心を引かれる diễn đạt 'ngưỡng mộ; ao ước' của 憧れる; khác với nghĩa 'chuyển; lây; dời' của 移る trong câu.",
+        "関係する diễn đạt 'liên quan; tham gia' của 関わる; khác với nghĩa 'chuyển; lây; dời' của 移る trong câu.",
+        "気が付く diễn đạt 'nhận ra' của 気付く; khác với nghĩa 'chuyển; lây; dời' của 移る trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai6-26",
+      "type": "usage",
+      "word": "与える",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 45,
+      "prompt": "与える",
+      "origin": "authored",
+      "options": [
+        "子どもから先生の名前を与える。",
+        "子どもに良い影響を与える。",
+        "雨の原因を気象台に与える。",
+        "病院へ行く道を地図に与える。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Hỏi hoặc nghe tên từ trẻ là 聞く; 与える là trao thứ gì cho ai.",
+        "与える（あたえる）nghĩa trao; gây ra; câu này dùng đúng đối tượng và tình huống.",
+        "Nguyên nhân cần 説明する, không phải cho/tặng.",
+        "Đường đi cần 示す; 与える không dùng cho việc vẽ đường trên bản đồ."
+      ]
+    },
+    {
+      "id": "n2-dai6-27",
+      "type": "usage",
+      "word": "扱う",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 47,
+      "prompt": "扱う",
+      "origin": "authored",
+      "options": [
+        "友人の住所を電話で扱う。",
+        "先生の話を耳で扱う。",
+        "この店では輸入品を扱う。",
+        "電車の時刻を時計で扱う。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Địa chỉ có thể 聞く・伝える; 扱う không diễn đạt truyền đạt bằng điện thoại.",
+        "Nghe lời nói là 聞く; 扱う không thay thế động từ nghe.",
+        "扱う（あつかう）nghĩa xử lý; sử dụng; đối xử; câu này dùng đúng đối tượng và tình huống.",
+        "Kiểm tra giờ là 確認する; 扱う không phải xem đồng hồ."
+      ]
+    },
+    {
+      "id": "n2-dai6-28",
+      "type": "usage",
+      "word": "埋める",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 61,
+      "prompt": "埋める",
+      "origin": "authored",
+      "options": [
+        "冷えた弁当を電子レンジで埋める。",
+        "破れた紙をテープで埋める。",
+        "部屋のほこりを掃除機で埋める。",
+        "穴を土で埋める。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Làm nóng đồ ăn là 温める, không phải lấp đầy hố/khoảng trống.",
+        "Sửa giấy rách dùng 補修する; 埋める thường lấp lỗ/khoảng trống.",
+        "Dọn bụi là 吸い取る; 埋める là lấp đầy.",
+        "埋める（うめる）nghĩa chôn; lấp; điền kín; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai6-29",
+      "type": "usage",
+      "word": "稼ぐ",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 78,
+      "prompt": "稼ぐ",
+      "origin": "authored",
+      "options": [
+        "アルバイトで生活費を稼ぐ。",
+        "月給を会社に稼ぐ。",
+        "店で品物を一つ稼ぐ。",
+        "図書館から本を三冊稼ぐ。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "稼ぐ（かせぐ）nghĩa kiếm tiền; câu này dùng đúng đối tượng và tình huống.",
+        "Người lao động kiếm tiền từ công việc; không kiếm tiền cho công ty theo cấu trúc này.",
+        "Mua hoặc nhận một món hàng không dùng 稼ぐ theo nghĩa tiền/điểm.",
+        "Mượn sách là 借りる, không phải kiếm tiền."
+      ]
+    },
+    {
+      "id": "n2-dai6-30",
+      "type": "usage",
+      "word": "支払う",
+      "source_file": "resources/N2/goi/dai6.csv",
+      "source_line": 98,
+      "prompt": "支払う",
+      "origin": "authored",
+      "options": [
+        "店員から代金を支払う。",
+        "カードで代金を支払う。",
+        "スーパーで商品を支払う。",
+        "友人に約束を支払う。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Người mua trả tiền cho cửa hàng; から đảo chiều người trả/người nhận.",
+        "支払う（しはらう）nghĩa chi trả; thanh toán; câu này dùng đúng đối tượng và tình huống.",
+        "Trả tiền là 代金を支払う; 商品を支払う không đúng đối tượng.",
+        "Lời hứa cần 守る; 支払う dùng cho tiền hay khoản phải trả."
+      ]
+    }
+  ]
+}

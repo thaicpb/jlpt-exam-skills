@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai14-30",
+  "title": "N2 · Bài 14 · 30 câu",
+  "level": "N2",
+  "lesson": "dai14",
+  "questions": [
+    {
+      "id": "n2-dai14-01",
+      "type": "reading",
+      "word": "施設",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 2,
+      "prompt": "駅に新しい【施設】ができた。",
+      "origin": "authored",
+      "options": [
+        "しせつ",
+        "しんせつ",
+        "しつ",
+        "せつ"
+      ],
+      "answer": 0,
+      "explanations": [
+        "施設（しせつ）: cơ sở; công trình. Đây là cách đọc của từ được hỏi.",
+        "新設（しんせつ）: thành lập mới. Đây là cách đọc của từ khác, không phải 施設.",
+        "質（しつ）: chất lượng; tính chất. Đây là cách đọc của từ khác, không phải 施設.",
+        "説（せつ）: thuyết; quan điểm. Đây là cách đọc của từ khác, không phải 施設."
+      ],
+      "option_lexemes": [
+        {
+          "word": "施設",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 2,
+          "reading": "しせつ"
+        },
+        {
+          "word": "新設",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 73,
+          "reading": "しんせつ"
+        },
+        {
+          "word": "質",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 47,
+          "reading": "しつ"
+        },
+        {
+          "word": "説",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 53,
+          "reading": "せつ"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai14-02",
+      "type": "reading",
+      "word": "湿度",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 3,
+      "prompt": "梅雨は【湿度】が高い。",
+      "origin": "authored",
+      "options": [
+        "しつ",
+        "しつど",
+        "みつど",
+        "しどう"
+      ],
+      "answer": 1,
+      "explanations": [
+        "質（しつ）: chất lượng; tính chất. Đây là cách đọc của từ khác, không phải 湿度.",
+        "湿度（しつど）: độ ẩm. Đây là cách đọc của từ được hỏi.",
+        "密度（みつど）: mật độ. Đây là cách đọc của từ khác, không phải 湿度.",
+        "指導（しどう）: chỉ đạo; hướng dẫn. Đây là cách đọc của từ khác, không phải 湿度."
+      ],
+      "option_lexemes": [
+        {
+          "word": "質",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 47,
+          "reading": "しつ"
+        },
+        {
+          "word": "湿度",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 3,
+          "reading": "しつど"
+        },
+        {
+          "word": "密度",
+          "source_file": "resources/N1/goi/dai21.csv",
+          "source_line": 56,
+          "reading": "みつど"
+        },
+        {
+          "word": "指導",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 32,
+          "reading": "しどう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai14-03",
+      "type": "reading",
+      "word": "失望",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 4,
+      "prompt": "期待外れの結果に【失望】した。",
+      "origin": "authored",
+      "options": [
+        "しぼう",
+        "ぜつぼう",
+        "しつぼう",
+        "けつぼう"
+      ],
+      "answer": 2,
+      "explanations": [
+        "志望（しぼう）: nguyện vọng; ứng tuyển. Đây là cách đọc của từ khác, không phải 失望.",
+        "絶望（ぜつぼう）: tuyệt vọng. Đây là cách đọc của từ khác, không phải 失望.",
+        "失望（しつぼう）: thất vọng. Đây là cách đọc của từ được hỏi.",
+        "欠乏（けつぼう）: thiếu hụt. Đây là cách đọc của từ khác, không phải 失望."
+      ],
+      "option_lexemes": [
+        {
+          "word": "志望",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 10,
+          "reading": "しぼう"
+        },
+        {
+          "word": "絶望",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 86,
+          "reading": "ぜつぼう"
+        },
+        {
+          "word": "失望",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 4,
+          "reading": "しつぼう"
+        },
+        {
+          "word": "欠乏",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 53,
+          "reading": "けつぼう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai14-04",
+      "type": "reading",
+      "word": "指摘",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 5,
+      "prompt": "先生が文章の誤りを【指摘】した。",
+      "origin": "authored",
+      "options": [
+        "しき",
+        "てき",
+        "してい",
+        "してき"
+      ],
+      "answer": 3,
+      "explanations": [
+        "指揮（しき）: chỉ huy. Đây là cách đọc của từ khác, không phải 指摘.",
+        "敵（てき）: kẻ địch; đối thủ. Đây là cách đọc của từ khác, không phải 指摘.",
+        "指定（してい）: chỉ định; quy định. Đây là cách đọc của từ khác, không phải 指摘.",
+        "指摘（してき）: chỉ ra; góp ý. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "指揮",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 31,
+          "reading": "しき"
+        },
+        {
+          "word": "敵",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 60,
+          "reading": "てき"
+        },
+        {
+          "word": "指定",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 30,
+          "reading": "してい"
+        },
+        {
+          "word": "指摘",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 5,
+          "reading": "してき"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai14-05",
+      "type": "reading",
+      "word": "視点",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 6,
+      "prompt": "別の【視点】から問題を見る。",
+      "origin": "authored",
+      "options": [
+        "してん",
+        "しょてん",
+        "しんてん",
+        "しん"
+      ],
+      "answer": 0,
+      "explanations": [
+        "視点（してん）: góc nhìn. Đây là cách đọc của từ được hỏi.",
+        "書店（しょてん）: hiệu sách. Đây là cách đọc của từ khác, không phải 視点.",
+        "進展（しんてん）: tiến triển; sự phát triển của tình hình. Đây là cách đọc của từ khác, không phải 視点.",
+        "芯（しん）: lõi; ruột; tim bút. Đây là cách đọc của từ khác, không phải 視点."
+      ],
+      "option_lexemes": [
+        {
+          "word": "視点",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 6,
+          "reading": "してん"
+        },
+        {
+          "word": "書店",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 61,
+          "reading": "しょてん"
+        },
+        {
+          "word": "進展",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 10,
+          "reading": "しんてん"
+        },
+        {
+          "word": "芯",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 49,
+          "reading": "しん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai14-06",
+      "type": "orthography",
+      "word": "支配",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 7,
+      "prompt": "一社が市場を【しはい】している。",
+      "origin": "authored",
+      "options": [
+        "肺",
+        "支配",
+        "勝敗",
+        "気配"
+      ],
+      "answer": 1,
+      "explanations": [
+        "肺（はい）: phổi. Cách viết này không diễn đạt chi phối; thống trị trong câu.",
+        "支配（しはい）: chi phối; thống trị. Cách viết và nghĩa đều khớp câu.",
+        "勝敗（しょうはい）: thắng thua. Cách viết này không diễn đạt chi phối; thống trị trong câu.",
+        "気配（けはい）: dấu hiệu; cảm giác hiện diện. Cách viết này không diễn đạt chi phối; thống trị trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-07",
+      "type": "orthography",
+      "word": "芝居",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 8,
+      "prompt": "劇場で昔の【しばい】を見る。",
+      "origin": "authored",
+      "options": [
+        "芝生",
+        "姿勢",
+        "芝居",
+        "指定"
+      ],
+      "answer": 2,
+      "explanations": [
+        "芝生（しばふ）: bãi cỏ. Cách viết này không diễn đạt vở kịch; diễn xuất trong câu.",
+        "姿勢（しせい）: tư thế; thái độ. Cách viết này không diễn đạt vở kịch; diễn xuất trong câu.",
+        "芝居（しばい）: vở kịch; diễn xuất. Cách viết và nghĩa đều khớp câu.",
+        "指定（してい）: chỉ định; quy định. Cách viết này không diễn đạt vở kịch; diễn xuất trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-08",
+      "type": "orthography",
+      "word": "市販",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 9,
+      "prompt": "この薬は【しはん】されている。",
+      "origin": "authored",
+      "options": [
+        "芯",
+        "判",
+        "市民",
+        "市販"
+      ],
+      "answer": 3,
+      "explanations": [
+        "芯（しん）: lõi; ruột; tim bút. Cách viết này không diễn đạt bán trên thị trường trong câu.",
+        "判（はん）: con dấu; phán quyết. Cách viết này không diễn đạt bán trên thị trường trong câu.",
+        "市民（しみん）: thị dân; người dân thành phố. Cách viết này không diễn đạt bán trên thị trường trong câu.",
+        "市販（しはん）: bán trên thị trường. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-09",
+      "type": "orthography",
+      "word": "志望",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 10,
+      "prompt": "第一【しぼう】の大学に合格した。",
+      "origin": "authored",
+      "options": [
+        "志望",
+        "脂肪",
+        "死亡",
+        "辛抱"
+      ],
+      "answer": 0,
+      "explanations": [
+        "志望 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "脂肪（しぼう）nghĩa mỡ cơ thể; không diễn đạt 志望 trong câu.",
+        "死亡（しぼう）nghĩa tử vong; không diễn đạt 志望 trong câu.",
+        "辛抱（しんぼう）nghĩa kiên nhẫn chịu đựng; không diễn đạt 志望 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-10",
+      "type": "orthography",
+      "word": "脂肪",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 11,
+      "prompt": "運動で体の【しぼう】を減らす。",
+      "origin": "authored",
+      "options": [
+        "志望",
+        "脂肪",
+        "死亡",
+        "辛抱"
+      ],
+      "answer": 1,
+      "explanations": [
+        "志望（しぼう）nghĩa nguyện vọng vào trường/nghề; không diễn đạt 脂肪 trong câu.",
+        "脂肪 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "死亡（しぼう）nghĩa tử vong; không diễn đạt 脂肪 trong câu.",
+        "辛抱（しんぼう）nghĩa kiên nhẫn chịu đựng; không diễn đạt 脂肪 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-11",
+      "type": "formation",
+      "word": "実習",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 90,
+      "prompt": "看護学生が病院で看護の実（　）を行った。",
+      "origin": "authored",
+      "options": [
+        "施",
+        "感",
+        "習",
+        "績"
+      ],
+      "answer": 2,
+      "explanations": [
+        "実施: tiến hành. Từ này không diễn đạt thực tập trong tình huống đã nêu.",
+        "実感: cảm nhận thực tế. Từ này không diễn đạt thực tập trong tình huống đã nêu.",
+        "実習: thực tập. Ghép thành từ phù hợp với tình huống trong câu.",
+        "実績: thành tích; kết quả thực tế. Từ này không diễn đạt thực tập trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "実",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai14-12",
+      "type": "formation",
+      "word": "職場",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 55,
+      "prompt": "社員が働く（　）場の環境を改善する。",
+      "origin": "authored",
+      "options": [
+        "現",
+        "職",
+        "球",
+        "劇"
+      ],
+      "answer": 1,
+      "explanations": [
+        "現場: hiện trường. Từ này không diễn đạt nơi làm việc trong tình huống đã nêu.",
+        "職場: nơi làm việc. Ghép thành từ phù hợp với tình huống trong câu.",
+        "球場: sân bóng. Từ này không diễn đạt nơi làm việc trong tình huống đã nêu.",
+        "劇場: nhà hát. Từ này không diễn đạt nơi làm việc trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "場"
+      }
+    },
+    {
+      "id": "n2-dai14-13",
+      "type": "formation",
+      "word": "初日",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 63,
+      "prompt": "三日間の旅行の（　）日は京都を観光した。",
+      "origin": "authored",
+      "options": [
+        "期",
+        "祝",
+        "初",
+        "当"
+      ],
+      "answer": 2,
+      "explanations": [
+        "期日: ngày hạn định. Từ này không diễn đạt ngày đầu tiên trong tình huống đã nêu.",
+        "祝日: ngày lễ. Từ này không diễn đạt ngày đầu tiên trong tình huống đã nêu.",
+        "初日: ngày đầu tiên. Ghép thành từ phù hợp với tình huống trong câu.",
+        "当日: ngày diễn ra; chính ngày đó. Từ này không diễn đạt ngày đầu tiên trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "日"
+      }
+    },
+    {
+      "id": "n2-dai14-14",
+      "type": "context",
+      "word": "使命",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 12,
+      "prompt": "人命を守ることを自分の果たすべき（　）だと考えた。",
+      "origin": "authored",
+      "options": [
+        "主義",
+        "使命",
+        "仕様",
+        "資格"
+      ],
+      "answer": 1,
+      "explanations": [
+        "主義 nghĩa chủ nghĩa; nguyên tắc. Trong câu này cần sứ mệnh, nên từ này làm đổi nghĩa sự việc.",
+        "使命 nghĩa sứ mệnh. Chi tiết trong câu mô tả đúng sứ mệnh.",
+        "仕様 nghĩa cách làm; đặc tả. Trong câu này cần sứ mệnh, nên từ này làm đổi nghĩa sự việc.",
+        "資格 nghĩa tư cách; chứng chỉ. Trong câu này cần sứ mệnh, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai14-15",
+      "type": "context",
+      "word": "視野",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 13,
+      "prompt": "目先だけでなく将来や周囲も考え、広い（　）で判断した。",
+      "origin": "authored",
+      "options": [
+        "視力",
+        "視点",
+        "視野",
+        "視界"
+      ],
+      "answer": 2,
+      "explanations": [
+        "視力 nghĩa thị lực. Trong câu này cần tầm nhìn, nên từ này làm đổi nghĩa sự việc.",
+        "視点 nghĩa góc nhìn. Trong câu này cần tầm nhìn, nên từ này làm đổi nghĩa sự việc.",
+        "視野 nghĩa tầm nhìn. Chi tiết trong câu mô tả đúng tầm nhìn.",
+        "視界 nghĩa tầm nhìn. Trong câu này cần tầm nhìn, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai14-16",
+      "type": "context",
+      "word": "車窓",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 14,
+      "prompt": "列車の座席に座ると、（　）から海が見えた。",
+      "origin": "authored",
+      "options": [
+        "車内",
+        "座席",
+        "車道",
+        "車窓"
+      ],
+      "answer": 3,
+      "explanations": [
+        "車内 nghĩa bên trong xe. Trong câu này cần cửa sổ xe; cảnh nhìn từ xe, nên từ này làm đổi nghĩa sự việc.",
+        "座席 nghĩa chỗ ngồi. Trong câu này cần cửa sổ xe; cảnh nhìn từ xe, nên từ này làm đổi nghĩa sự việc.",
+        "車道 nghĩa phần đường cho xe. Trong câu này cần cửa sổ xe; cảnh nhìn từ xe, nên từ này làm đổi nghĩa sự việc.",
+        "車窓 nghĩa cửa sổ xe; cảnh nhìn từ xe. Chi tiết trong câu mô tả đúng cửa sổ xe; cảnh nhìn từ xe."
+      ]
+    },
+    {
+      "id": "n2-dai14-17",
+      "type": "context",
+      "word": "周囲",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 15,
+      "prompt": "作業を始める前に、自分の周りである（　）の安全を確認した。",
+      "origin": "authored",
+      "options": [
+        "周囲",
+        "視野",
+        "視点",
+        "地面"
+      ],
+      "answer": 0,
+      "explanations": [
+        "周囲 nghĩa xung quanh. Chi tiết trong câu mô tả đúng xung quanh.",
+        "視野 nghĩa tầm nhìn. Trong câu này cần xung quanh, nên từ này làm đổi nghĩa sự việc.",
+        "視点 nghĩa góc nhìn. Trong câu này cần xung quanh, nên từ này làm đổi nghĩa sự việc.",
+        "地面 nghĩa mặt đất. Trong câu này cần xung quanh, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai14-18",
+      "type": "context",
+      "word": "集会",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 16,
+      "prompt": "住民全員が公園に集まり、地域の問題について（　）を開いた。",
+      "origin": "authored",
+      "options": [
+        "収集",
+        "集会",
+        "講義",
+        "演説"
+      ],
+      "answer": 1,
+      "explanations": [
+        "収集 nghĩa sưu tầm; thu thập. Trong câu này cần cuộc họp; tụ họp, nên từ này làm đổi nghĩa sự việc.",
+        "集会 nghĩa cuộc họp; tụ họp. Chi tiết trong câu mô tả đúng cuộc họp; tụ họp.",
+        "講義 nghĩa bài giảng. Trong câu này cần cuộc họp; tụ họp, nên từ này làm đổi nghĩa sự việc.",
+        "演説 nghĩa diễn thuyết. Trong câu này cần cuộc họp; tụ họp, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai14-19",
+      "type": "context",
+      "word": "収集",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 18,
+      "prompt": "珍しい切手を集める趣味があり、長年（　）している。",
+      "origin": "authored",
+      "options": [
+        "収穫",
+        "収納",
+        "収集",
+        "収入"
+      ],
+      "answer": 2,
+      "explanations": [
+        "収穫 nghĩa thu hoạch. Trong câu này cần sưu tầm; thu thập, nên từ này làm đổi nghĩa sự việc.",
+        "収納 nghĩa cất giữ; thu nộp. Trong câu này cần sưu tầm; thu thập, nên từ này làm đổi nghĩa sự việc.",
+        "収集 nghĩa sưu tầm; thu thập. Chi tiết trong câu mô tả đúng sưu tầm; thu thập.",
+        "収入 nghĩa thu nhập. Trong câu này cần sưu tầm; thu thập, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai14-20",
+      "type": "context",
+      "word": "修正",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 19,
+      "prompt": "報告書の間違った数字を正しい数字に（　）した。",
+      "origin": "authored",
+      "options": [
+        "指摘",
+        "支配",
+        "収集",
+        "修正"
+      ],
+      "answer": 3,
+      "explanations": [
+        "指摘 nghĩa chỉ ra; góp ý. Trong câu này cần sửa chữa, nên từ này làm đổi nghĩa sự việc.",
+        "支配 nghĩa chi phối; thống trị. Trong câu này cần sửa chữa, nên từ này làm đổi nghĩa sự việc.",
+        "収集 nghĩa sưu tầm; thu thập. Trong câu này cần sửa chữa, nên từ này làm đổi nghĩa sự việc.",
+        "修正 nghĩa sửa chữa. Chi tiết trong câu mô tả đúng sửa chữa."
+      ]
+    },
+    {
+      "id": "n2-dai14-21",
+      "type": "paraphrase",
+      "word": "詳細",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 41,
+      "prompt": "日程の【詳細】をメールで送る。",
+      "origin": "authored",
+      "options": [
+        "細かい内容",
+        "ごく短い時間",
+        "仕事",
+        "心の動き"
+      ],
+      "answer": 0,
+      "explanations": [
+        "細かい内容 diễn đạt 'chi tiết' trong câu; đây là cách nói gần nghĩa nhất với 詳細.",
+        "ごく短い時間 diễn đạt 'khoảnh khắc' của 瞬間; khác với nghĩa 'chi tiết' của 詳細 trong câu.",
+        "仕事 diễn đạt 'nghề nghiệp' của 職業; khác với nghĩa 'chi tiết' của 詳細 trong câu.",
+        "心の動き diễn đạt 'tâm lý' của 心理; khác với nghĩa 'chi tiết' của 詳細 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-22",
+      "type": "paraphrase",
+      "word": "瞬間",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 36,
+      "prompt": "その【瞬間】、電気が消えた。",
+      "origin": "authored",
+      "options": [
+        "仕事",
+        "ごく短い時間",
+        "心の動き",
+        "実際に起こったこと"
+      ],
+      "answer": 1,
+      "explanations": [
+        "仕事 diễn đạt 'nghề nghiệp' của 職業; khác với nghĩa 'khoảnh khắc' của 瞬間 trong câu.",
+        "ごく短い時間 diễn đạt 'khoảnh khắc' trong câu; đây là cách nói gần nghĩa nhất với 瞬間.",
+        "心の動き diễn đạt 'tâm lý' của 心理; khác với nghĩa 'khoảnh khắc' của 瞬間 trong câu.",
+        "実際に起こったこと diễn đạt 'sự thật' của 事実; khác với nghĩa 'khoảnh khắc' của 瞬間 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-23",
+      "type": "paraphrase",
+      "word": "職業",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 53,
+      "prompt": "将来の【職業】について考える。",
+      "origin": "authored",
+      "options": [
+        "心の動き",
+        "実際に起こったこと",
+        "仕事",
+        "細かい内容"
+      ],
+      "answer": 2,
+      "explanations": [
+        "心の動き diễn đạt 'tâm lý' của 心理; khác với nghĩa 'nghề nghiệp' của 職業 trong câu.",
+        "実際に起こったこと diễn đạt 'sự thật' của 事実; khác với nghĩa 'nghề nghiệp' của 職業 trong câu.",
+        "仕事 diễn đạt 'nghề nghiệp' trong câu; đây là cách nói gần nghĩa nhất với 職業.",
+        "細かい内容 diễn đạt 'chi tiết' của 詳細; khác với nghĩa 'nghề nghiệp' của 職業 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-24",
+      "type": "paraphrase",
+      "word": "心理",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 79,
+      "prompt": "消費者の【心理】を分析する。",
+      "origin": "authored",
+      "options": [
+        "実際に起こったこと",
+        "細かい内容",
+        "ごく短い時間",
+        "心の動き"
+      ],
+      "answer": 3,
+      "explanations": [
+        "実際に起こったこと diễn đạt 'sự thật' của 事実; khác với nghĩa 'tâm lý' của 心理 trong câu.",
+        "細かい内容 diễn đạt 'chi tiết' của 詳細; khác với nghĩa 'tâm lý' của 心理 trong câu.",
+        "ごく短い時間 diễn đạt 'khoảnh khắc' của 瞬間; khác với nghĩa 'tâm lý' của 心理 trong câu.",
+        "心の動き diễn đạt 'tâm lý' trong câu; đây là cách nói gần nghĩa nhất với 心理."
+      ]
+    },
+    {
+      "id": "n2-dai14-25",
+      "type": "paraphrase",
+      "word": "事実",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 83,
+      "prompt": "報道で事件の【事実】を知った。",
+      "origin": "authored",
+      "options": [
+        "実際に起こったこと",
+        "細かい内容",
+        "ごく短い時間",
+        "仕事"
+      ],
+      "answer": 0,
+      "explanations": [
+        "実際に起こったこと diễn đạt 'sự thật' trong câu; đây là cách nói gần nghĩa nhất với 事実.",
+        "細かい内容 diễn đạt 'chi tiết' của 詳細; khác với nghĩa 'sự thật' của 事実 trong câu.",
+        "ごく短い時間 diễn đạt 'khoảnh khắc' của 瞬間; khác với nghĩa 'sự thật' của 事実 trong câu.",
+        "仕事 diễn đạt 'nghề nghiệp' của 職業; khác với nghĩa 'sự thật' của 事実 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai14-26",
+      "type": "usage",
+      "word": "収穫",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 17,
+      "prompt": "収穫",
+      "origin": "authored",
+      "options": [
+        "店で買った米をレジで収穫した。",
+        "秋に米を収穫する。",
+        "図書館の本を返却して収穫した。",
+        "駅で切符を受け取って収穫した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Mua gạo là 購入; 収穫 là lấy nông sản từ ruộng.",
+        "収穫（しゅうかく）nghĩa thu hoạch; câu này dùng đúng đối tượng và tình huống.",
+        "Trả sách là 返却; không phải thu hoạch.",
+        "Nhận vé là 受け取る; 収穫 dùng cho nông sản/kết quả."
+      ]
+    },
+    {
+      "id": "n2-dai14-27",
+      "type": "usage",
+      "word": "宿泊",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 25,
+      "prompt": "宿泊",
+      "origin": "authored",
+      "options": [
+        "駅のホームで電車を待つだけで宿泊した。",
+        "友人の家で昼食を食べてすぐ帰り宿泊した。",
+        "温泉旅館に宿泊する。",
+        "会議室に十分だけ入って宿泊した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Chờ tàu không phải ở lại qua đêm.",
+        "Ăn trưa rồi về không phải lưu trú qua đêm.",
+        "宿泊（しゅくはく）nghĩa lưu trú; câu này dùng đúng đối tượng và tình huống.",
+        "Vào phòng họp vài phút không phải nghỉ qua đêm."
+      ]
+    },
+    {
+      "id": "n2-dai14-28",
+      "type": "usage",
+      "word": "診察",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 69,
+      "prompt": "診察",
+      "origin": "authored",
+      "options": [
+        "店員が商品の値段を診察した。",
+        "先生が作文の漢字を診察した。",
+        "整備士が車のエンジンを診察した。",
+        "医師が患者を診察する。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Giá được 確認する; 診察 dành cho người bệnh.",
+        "Chữ trong bài viết được 添削する; không phải khám bệnh.",
+        "Động cơ được 点検する; 診察 dùng cho bệnh nhân.",
+        "診察（しんさつ）nghĩa khám bệnh; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai14-29",
+      "type": "usage",
+      "word": "出版",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 32,
+      "prompt": "出版",
+      "origin": "authored",
+      "options": [
+        "来月、新しい小説を出版する。",
+        "今夜のニュースをテレビで出版する。",
+        "店の料理を客に出版する。",
+        "新しい車を工場から出版する。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "出版（しゅっぱん）nghĩa xuất bản; câu này dùng đúng đối tượng và tình huống.",
+        "Tin trên TV được 放送する; 出版 dành cho ấn phẩm.",
+        "Món ăn được 提供する; không phải xuất bản.",
+        "Xe được 製造・発売する; không phải ấn phẩm."
+      ]
+    },
+    {
+      "id": "n2-dai14-30",
+      "type": "usage",
+      "word": "収納",
+      "source_file": "resources/N2/goi/dai14.csv",
+      "source_line": 22,
+      "prompt": "収納",
+      "origin": "authored",
+      "options": [
+        "店で服の代金を収納した。",
+        "衣類を棚に収納する。",
+        "先生の意見を紙に収納した。",
+        "電車の時刻を頭の中に収納した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Trả/thu tiền là 支払う・受け取る; 収納 là cất đồ, trừ nghĩa kế toán chuyên biệt.",
+        "収納（しゅうのう）nghĩa cất giữ; thu nộp; câu này dùng đúng đối tượng và tình huống.",
+        "Ý kiến được 記録する; cất vào giấy không phải 収納.",
+        "Ghi nhớ thời gian là 覚える; 収納 dùng cho vật vào nơi chứa."
+      ]
+    }
+  ]
+}

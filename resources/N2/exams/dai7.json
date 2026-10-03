@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai7-30",
+  "title": "N2 · Bài 7 · 30 câu",
+  "level": "N2",
+  "lesson": "dai7",
+  "questions": [
+    {
+      "id": "n2-dai7-01",
+      "type": "reading",
+      "word": "過ぎる",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 3,
+      "prompt": "食べ【過ぎる】と胃が痛くなる。",
+      "origin": "authored",
+      "options": [
+        "すぎる",
+        "する",
+        "すべる",
+        "すわる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "過ぎる（すぎる）: quá; vượt quá. Đây là cách đọc của từ được hỏi.",
+        "擦る（する）: chà; cọ. Đây là cách đọc của từ khác, không phải 過ぎる.",
+        "滑る（すべる）: trượt. Đây là cách đọc của từ khác, không phải 過ぎる.",
+        "座る（すわる）: ngồi. Đây là cách đọc của từ khác, không phải 過ぎる."
+      ],
+      "option_lexemes": [
+        {
+          "word": "過ぎる",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 3,
+          "reading": "すぎる"
+        },
+        {
+          "word": "擦る",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 47,
+          "reading": "する"
+        },
+        {
+          "word": "滑る",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 7,
+          "reading": "すべる"
+        },
+        {
+          "word": "座る",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 9,
+          "reading": "すわる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai7-02",
+      "type": "reading",
+      "word": "過ごす",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 4,
+      "prompt": "休日を家族と【過ごす】。",
+      "origin": "authored",
+      "options": [
+        "よごす",
+        "すごす",
+        "すすめる",
+        "すみごこち"
+      ],
+      "answer": 1,
+      "explanations": [
+        "汚す（よごす）: làm bẩn. Đây là cách đọc của từ khác, không phải 過ごす.",
+        "過ごす（すごす）: trải qua; sống. Đây là cách đọc của từ được hỏi.",
+        "勧める（すすめる）: khuyên; giới thiệu. Đây là cách đọc của từ khác, không phải 過ごす.",
+        "住み心地（すみごこち）: cảm giác khi sống ở một nơi. Đây là cách đọc của từ khác, không phải 過ごす."
+      ],
+      "option_lexemes": [
+        {
+          "word": "汚す",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 83,
+          "reading": "よごす"
+        },
+        {
+          "word": "過ごす",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 4,
+          "reading": "すごす"
+        },
+        {
+          "word": "勧める",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 5,
+          "reading": "すすめる"
+        },
+        {
+          "word": "住み心地",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 30,
+          "reading": "すみごこち"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai7-03",
+      "type": "reading",
+      "word": "勧める",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 5,
+      "prompt": "医者が毎日の運動を【勧める】。",
+      "origin": "authored",
+      "options": [
+        "する",
+        "きす・きする",
+        "すすめる",
+        "うめる"
+      ],
+      "answer": 2,
+      "explanations": [
+        "擦る（する）: chà; cọ. Đây là cách đọc của từ khác, không phải 勧める.",
+        "帰す・帰する（きす・きする）: quy về; đưa đến kết cục. Đây là cách đọc của từ khác, không phải 勧める.",
+        "勧める（すすめる）: khuyên; giới thiệu. Đây là cách đọc của từ được hỏi.",
+        "埋める（うめる）: chôn; lấp; điền kín. Đây là cách đọc của từ khác, không phải 勧める."
+      ],
+      "option_lexemes": [
+        {
+          "word": "擦る",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 47,
+          "reading": "する"
+        },
+        {
+          "word": "帰す・帰する",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 91,
+          "reading": "きす・きする"
+        },
+        {
+          "word": "勧める",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 5,
+          "reading": "すすめる"
+        },
+        {
+          "word": "埋める",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 61,
+          "reading": "うめる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai7-04",
+      "type": "reading",
+      "word": "進める",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 6,
+      "prompt": "計画どおりに作業を【進める】。",
+      "origin": "authored",
+      "options": [
+        "する",
+        "きす・きする",
+        "うめる",
+        "すすめる"
+      ],
+      "answer": 3,
+      "explanations": [
+        "擦る（する）: chà; cọ. Đây là cách đọc của từ khác, không phải 進める.",
+        "帰す・帰する（きす・きする）: quy về; đưa đến kết cục. Đây là cách đọc của từ khác, không phải 進める.",
+        "埋める（うめる）: chôn; lấp; điền kín. Đây là cách đọc của từ khác, không phải 進める.",
+        "進める（すすめる）: thúc đẩy; tiến hành. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "擦る",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 47,
+          "reading": "する"
+        },
+        {
+          "word": "帰す・帰する",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 91,
+          "reading": "きす・きする"
+        },
+        {
+          "word": "埋める",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 61,
+          "reading": "うめる"
+        },
+        {
+          "word": "進める",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 6,
+          "reading": "すすめる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai7-05",
+      "type": "reading",
+      "word": "座る",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 9,
+      "prompt": "空いている席に【座る】。",
+      "origin": "authored",
+      "options": [
+        "すわる",
+        "する",
+        "すぎる",
+        "すべる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "座る（すわる）: ngồi. Đây là cách đọc của từ được hỏi.",
+        "擦る（する）: chà; cọ. Đây là cách đọc của từ khác, không phải 座る.",
+        "過ぎる（すぎる）: quá; vượt quá. Đây là cách đọc của từ khác, không phải 座る.",
+        "滑る（すべる）: trượt. Đây là cách đọc của từ khác, không phải 座る."
+      ],
+      "option_lexemes": [
+        {
+          "word": "座る",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 9,
+          "reading": "すわる"
+        },
+        {
+          "word": "擦る",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 47,
+          "reading": "する"
+        },
+        {
+          "word": "過ぎる",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 3,
+          "reading": "すぎる"
+        },
+        {
+          "word": "滑る",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 7,
+          "reading": "すべる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai7-06",
+      "type": "orthography",
+      "word": "対する",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 11,
+      "prompt": "質問に【たいする】答えを考える。",
+      "origin": "authored",
+      "options": [
+        "値する",
+        "対する",
+        "愛する",
+        "害する"
+      ],
+      "answer": 1,
+      "explanations": [
+        "値する（あたいする）: xứng đáng. Cách viết này không diễn đạt đối với; đối diện trong câu.",
+        "対する（たいする）: đối với; đối diện. Cách viết và nghĩa đều khớp câu.",
+        "愛する（あいする）: yêu. Cách viết này không diễn đạt đối với; đối diện trong câu.",
+        "害する（がいする）: gây hại; làm tổn hại. Cách viết này không diễn đạt đối với; đối diện trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-07",
+      "type": "orthography",
+      "word": "抱く",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 13,
+      "prompt": "母が赤ちゃんを【だく】。",
+      "origin": "authored",
+      "options": [
+        "頂く",
+        "段落",
+        "抱く",
+        "弾力"
+      ],
+      "answer": 2,
+      "explanations": [
+        "頂く（いただく）: nhận; ăn; uống (khiêm nhường ngữ). Cách viết này không diễn đạt ôm; ấp ủ trong câu.",
+        "段落（だんらく）: đoạn văn. Cách viết này không diễn đạt ôm; ấp ủ trong câu.",
+        "抱く（だく）: ôm; ấp ủ. Cách viết và nghĩa đều khớp câu.",
+        "弾力（だんりょく）: độ đàn hồi. Cách viết này không diễn đạt ôm; ấp ủ trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-08",
+      "type": "orthography",
+      "word": "助ける",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 14,
+      "prompt": "困っている人を【たすける】。",
+      "origin": "authored",
+      "options": [
+        "透ける",
+        "対する",
+        "傾ける",
+        "助ける"
+      ],
+      "answer": 3,
+      "explanations": [
+        "透ける（すける）: trong đến mức nhìn xuyên qua. Cách viết này không diễn đạt giúp đỡ trong câu.",
+        "対する（たいする）: đối với; đối diện. Cách viết này không diễn đạt giúp đỡ trong câu.",
+        "傾ける（かたむける）: nghiêng; dồn tâm sức; chăm chú lắng nghe. Cách viết này không diễn đạt giúp đỡ trong câu.",
+        "助ける（たすける）: giúp đỡ. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-09",
+      "type": "orthography",
+      "word": "尋ねる",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 15,
+      "prompt": "駅員に道を【たずねる】。",
+      "origin": "authored",
+      "options": [
+        "尋ねる",
+        "束ねる",
+        "寝る",
+        "携わる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "尋ねる（たずねる）: hỏi; thăm. Cách viết và nghĩa đều khớp câu.",
+        "束ねる（たばねる）: bó lại; tập hợp; quản lý. Cách viết này không diễn đạt hỏi; thăm trong câu.",
+        "寝る（ねる）: đi ngủ; nằm. Cách viết này không diễn đạt hỏi; thăm trong câu.",
+        "携わる（たずさわる）: tham gia; liên quan đến. Cách viết này không diễn đạt hỏi; thăm trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-10",
+      "type": "orthography",
+      "word": "畳む",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 17,
+      "prompt": "洗った服をきれいに【たたむ】。",
+      "origin": "authored",
+      "options": [
+        "頼む",
+        "畳む",
+        "妬む",
+        "楽しむ"
+      ],
+      "answer": 1,
+      "explanations": [
+        "頼む（たのむ）: nhờ; yêu cầu; gọi món. Cách viết này không diễn đạt gấp trong câu.",
+        "畳む（たたむ）: gấp. Cách viết và nghĩa đều khớp câu.",
+        "妬む（ねたむ）: ghen tị; đố kỵ. Cách viết này không diễn đạt gấp trong câu.",
+        "楽しむ（たのしむ）: thưởng thức; tận hưởng. Cách viết này không diễn đạt gấp trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-11",
+      "type": "formation",
+      "word": "切り替える",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 97,
+      "prompt": "画面の表示言語を日本語から英語に（　）替える。",
+      "origin": "authored",
+      "options": [
+        "買い",
+        "切り",
+        "取り",
+        "着"
+      ],
+      "answer": 1,
+      "explanations": [
+        "買い替える: mua thay mới. Từ này không diễn đạt chuyển đổi trong tình huống đã nêu.",
+        "切り替える: chuyển đổi. Ghép thành từ phù hợp với tình huống trong câu.",
+        "取り替える: thay; đổi. Từ này không diễn đạt chuyển đổi trong tình huống đã nêu.",
+        "着替える nghĩa thay quần áo. Câu hỏi yêu cầu nghĩa của 切り替える, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "替える"
+      }
+    },
+    {
+      "id": "n2-dai7-12",
+      "type": "formation",
+      "word": "締め切る",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 99,
+      "prompt": "応募の受付を今日で（　）切る。",
+      "origin": "authored",
+      "options": [
+        "売り",
+        "思い",
+        "締め",
+        "乗り"
+      ],
+      "answer": 2,
+      "explanations": [
+        "売り切る nghĩa bán hết. Câu hỏi yêu cầu nghĩa của 締め切る, nên không chọn từ này.",
+        "思い切る nghĩa quyết tâm làm dứt khoát. Câu hỏi yêu cầu nghĩa của 締め切る, nên không chọn từ này.",
+        "締め切る: đóng; hết hạn nhận. Ghép thành từ phù hợp với tình huống trong câu.",
+        "乗り切る nghĩa vượt qua giai đoạn khó. Câu hỏi yêu cầu nghĩa của 締め切る, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "切る"
+      }
+    },
+    {
+      "id": "n2-dai7-13",
+      "type": "formation",
+      "word": "繰り返す",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 98,
+      "prompt": "覚えるまで同じ練習を何度も（　）返す。",
+      "origin": "authored",
+      "options": [
+        "繰り",
+        "言い",
+        "引き",
+        "折り"
+      ],
+      "answer": 0,
+      "explanations": [
+        "繰り返す: lặp lại. Ghép thành từ phù hợp với tình huống trong câu.",
+        "言い返す nghĩa đáp trả. Câu hỏi yêu cầu nghĩa của 繰り返す, nên không chọn từ này.",
+        "引き返す nghĩa quay trở lại. Câu hỏi yêu cầu nghĩa của 繰り返す, nên không chọn từ này.",
+        "折り返す nghĩa gập lại; quay lại. Câu hỏi yêu cầu nghĩa của 繰り返す, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "返す"
+      }
+    },
+    {
+      "id": "n2-dai7-14",
+      "type": "context",
+      "word": "楽しむ",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 18,
+      "prompt": "家族で旅行をし、景色や食事を（　）。",
+      "origin": "authored",
+      "options": [
+        "頼む",
+        "楽しむ",
+        "悩む",
+        "耐える"
+      ],
+      "answer": 1,
+      "explanations": [
+        "頼む nghĩa nhờ; yêu cầu; gọi món. Trong câu này cần thưởng thức; tận hưởng, nên từ này làm đổi nghĩa sự việc.",
+        "楽しむ nghĩa thưởng thức; tận hưởng. Chi tiết trong câu mô tả đúng thưởng thức; tận hưởng.",
+        "悩む nghĩa buồn phiền; băn khoăn. Trong câu này cần thưởng thức; tận hưởng, nên từ này làm đổi nghĩa sự việc.",
+        "耐える nghĩa chịu đựng; chống chịu. Trong câu này cần thưởng thức; tận hưởng, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai7-15",
+      "type": "context",
+      "word": "頼む",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 19,
+      "prompt": "重い荷物を運んでもらうよう友達に（　）。",
+      "origin": "authored",
+      "options": [
+        "戦う",
+        "望む",
+        "頼む",
+        "許す"
+      ],
+      "answer": 2,
+      "explanations": [
+        "戦う nghĩa chiến đấu; câu nhờ bạn giúp mang hành lý.",
+        "望む nghĩa mong muốn; hy vọng. Trong câu này cần nhờ; yêu cầu; gọi món, nên từ này làm đổi nghĩa sự việc.",
+        "頼む nghĩa nhờ; yêu cầu; gọi món. Chi tiết trong câu mô tả đúng nhờ; yêu cầu; gọi món.",
+        "許す nghĩa tha thứ; cho phép. Trong câu này cần nhờ; yêu cầu; gọi món, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai7-16",
+      "type": "context",
+      "word": "つかむ",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 24,
+      "prompt": "揺れる電車で転ばないよう、つり革をしっかり（　）。",
+      "origin": "authored",
+      "options": [
+        "触る",
+        "押す",
+        "離す",
+        "つかむ"
+      ],
+      "answer": 3,
+      "explanations": [
+        "触る nghĩa sờ; chạm. Trong câu này cần nắm; bắt lấy, nên từ này làm đổi nghĩa sự việc.",
+        "押す nghĩa ấn; đẩy. Trong câu này cần nắm; bắt lấy, nên từ này làm đổi nghĩa sự việc.",
+        "離す nghĩa tách; thả ra. Trong câu này cần nắm; bắt lấy, nên từ này làm đổi nghĩa sự việc.",
+        "つかむ nghĩa nắm; bắt lấy. Chi tiết trong câu mô tả đúng nắm; bắt lấy."
+      ]
+    },
+    {
+      "id": "n2-dai7-17",
+      "type": "context",
+      "word": "包む",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 25,
+      "prompt": "プレゼントを渡す前に、箱全体をきれいな紙で（　）。",
+      "origin": "authored",
+      "options": [
+        "包む",
+        "畳む",
+        "結ぶ",
+        "隠す"
+      ],
+      "answer": 0,
+      "explanations": [
+        "包む nghĩa bọc; gói. Chi tiết trong câu mô tả đúng bọc; gói.",
+        "畳む nghĩa gấp. Trong câu này cần bọc; gói, nên từ này làm đổi nghĩa sự việc.",
+        "結ぶ nghĩa buộc; kết nối. Trong câu này cần bọc; gói, nên từ này làm đổi nghĩa sự việc.",
+        "隠す nghĩa che giấu; giấu. Trong câu này cần bọc; gói, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai7-18",
+      "type": "context",
+      "word": "務める",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 26,
+      "prompt": "彼は会議で司会の役割を（　）。",
+      "origin": "authored",
+      "options": [
+        "勤める",
+        "務める",
+        "進める",
+        "勧める"
+      ],
+      "answer": 1,
+      "explanations": [
+        "勤める nghĩa làm việc cho. Trong câu này cần đảm nhiệm; giữ chức, nên từ này làm đổi nghĩa sự việc.",
+        "務める nghĩa đảm nhiệm; giữ chức. Chi tiết trong câu mô tả đúng đảm nhiệm; giữ chức.",
+        "進める nghĩa thúc đẩy; tiến hành. Trong câu này cần đảm nhiệm; giữ chức, nên từ này làm đổi nghĩa sự việc.",
+        "勧める nghĩa khuyên; giới thiệu. Trong câu này cần đảm nhiệm; giữ chức, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai7-19",
+      "type": "context",
+      "word": "通す",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 28,
+      "prompt": "閉め切った部屋の窓を開け、新鮮な風を（　）。",
+      "origin": "authored",
+      "options": [
+        "残す",
+        "外す",
+        "通す",
+        "離す"
+      ],
+      "answer": 2,
+      "explanations": [
+        "残す nghĩa để lại; chừa lại. Trong câu này cần cho qua; xuyên qua, nên từ này làm đổi nghĩa sự việc.",
+        "外す nghĩa tháo; bỏ; trượt. Trong câu này cần cho qua; xuyên qua, nên từ này làm đổi nghĩa sự việc.",
+        "通す nghĩa cho qua; xuyên qua. Chi tiết trong câu mô tả đúng cho qua; xuyên qua.",
+        "離す nghĩa tách; thả ra. Trong câu này cần cho qua; xuyên qua, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai7-20",
+      "type": "context",
+      "word": "解く",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 29,
+      "prompt": "方程式の答えを出すため難しい問題を（　）。",
+      "origin": "authored",
+      "options": [
+        "抱く",
+        "説く",
+        "読む",
+        "解く"
+      ],
+      "answer": 3,
+      "explanations": [
+        "抱く nghĩa ôm; ấp ủ. Trong câu này cần giải; tháo, nên từ này làm đổi nghĩa sự việc.",
+        "説く nghĩa giảng giải; thuyết giảng. Trong câu này cần giải; tháo, nên từ này làm đổi nghĩa sự việc.",
+        "読む nghĩa đọc. Trong câu này cần giải; tháo, nên từ này làm đổi nghĩa sự việc.",
+        "解く nghĩa giải; tháo. Chi tiết trong câu mô tả đúng giải; tháo."
+      ]
+    },
+    {
+      "id": "n2-dai7-21",
+      "type": "paraphrase",
+      "word": "頼る",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 21,
+      "prompt": "困ったときは友人を【頼る】。",
+      "origin": "authored",
+      "options": [
+        "頼りにする",
+        "大目に見る",
+        "高く評価する",
+        "食い止める"
+      ],
+      "answer": 0,
+      "explanations": [
+        "頼りにする diễn đạt 'dựa vào; nhờ cậy' trong câu; đây là cách nói gần nghĩa nhất với 頼る.",
+        "大目に見る diễn đạt 'tha thứ; cho phép' của 許す; khác với nghĩa 'dựa vào; nhờ cậy' của 頼る trong câu.",
+        "高く評価する diễn đạt 'khen' của 褒める; khác với nghĩa 'dựa vào; nhờ cậy' của 頼る trong câu.",
+        "食い止める diễn đạt 'phòng tránh; ngăn chặn' của 防ぐ; khác với nghĩa 'dựa vào; nhờ cậy' của 頼る trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-22",
+      "type": "paraphrase",
+      "word": "許す",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 81,
+      "prompt": "母は私の外出を【許す】。",
+      "origin": "authored",
+      "options": [
+        "高く評価する",
+        "認める",
+        "食い止める",
+        "少なくする"
+      ],
+      "answer": 1,
+      "explanations": [
+        "高く評価する diễn đạt 'khen' của 褒める; khác với nghĩa 'tha thứ; cho phép' của 許す trong câu.",
+        "認める trong câu này là cho phép ra ngoài, gần nghĩa với 許す.",
+        "食い止める diễn đạt 'phòng tránh; ngăn chặn' của 防ぐ; khác với nghĩa 'tha thứ; cho phép' của 許す trong câu.",
+        "少なくする diễn đạt 'làm giảm' của 減らす; khác với nghĩa 'tha thứ; cho phép' của 許す trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-23",
+      "type": "paraphrase",
+      "word": "褒める",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 67,
+      "prompt": "先生は私の作文を【褒める】。",
+      "origin": "authored",
+      "options": [
+        "食い止める",
+        "少なくする",
+        "高く評価する",
+        "頼りにする"
+      ],
+      "answer": 2,
+      "explanations": [
+        "食い止める diễn đạt 'phòng tránh; ngăn chặn' của 防ぐ; khác với nghĩa 'khen' của 褒める trong câu.",
+        "少なくする diễn đạt 'làm giảm' của 減らす; khác với nghĩa 'khen' của 褒める trong câu.",
+        "高く評価する diễn đạt 'khen' trong câu; đây là cách nói gần nghĩa nhất với 褒める.",
+        "頼りにする diễn đạt 'dựa vào; nhờ cậy' của 頼る; khác với nghĩa 'khen' của 褒める trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-24",
+      "type": "paraphrase",
+      "word": "防ぐ",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 61,
+      "prompt": "マスクで病気を【防ぐ】。",
+      "origin": "authored",
+      "options": [
+        "少なくする",
+        "頼りにする",
+        "大目に見る",
+        "食い止める"
+      ],
+      "answer": 3,
+      "explanations": [
+        "少なくする diễn đạt 'làm giảm' của 減らす; khác với nghĩa 'phòng tránh; ngăn chặn' của 防ぐ trong câu.",
+        "頼りにする diễn đạt 'dựa vào; nhờ cậy' của 頼る; khác với nghĩa 'phòng tránh; ngăn chặn' của 防ぐ trong câu.",
+        "大目に見る diễn đạt 'tha thứ; cho phép' của 許す; khác với nghĩa 'phòng tránh; ngăn chặn' của 防ぐ trong câu.",
+        "食い止める diễn đạt 'phòng tránh; ngăn chặn' trong câu; đây là cách nói gần nghĩa nhất với 防ぐ."
+      ]
+    },
+    {
+      "id": "n2-dai7-25",
+      "type": "paraphrase",
+      "word": "減らす",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 64,
+      "prompt": "毎月の支出を【減らす】。",
+      "origin": "authored",
+      "options": [
+        "少なくする",
+        "頼りにする",
+        "大目に見る",
+        "高く評価する"
+      ],
+      "answer": 0,
+      "explanations": [
+        "少なくする diễn đạt 'làm giảm' trong câu; đây là cách nói gần nghĩa nhất với 減らす.",
+        "頼りにする diễn đạt 'dựa vào; nhờ cậy' của 頼る; khác với nghĩa 'làm giảm' của 減らす trong câu.",
+        "大目に見る diễn đạt 'tha thứ; cho phép' của 許す; khác với nghĩa 'làm giảm' của 減らす trong câu.",
+        "高く評価する diễn đạt 'khen' của 褒める; khác với nghĩa 'làm giảm' của 減らす trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai7-26",
+      "type": "usage",
+      "word": "戦う",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 16,
+      "prompt": "戦う",
+      "origin": "authored",
+      "options": [
+        "試合で相手の名前を戦う。",
+        "最後まで相手と戦う。",
+        "病院で薬を戦う。",
+        "駅で切符の値段を戦う。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "戦う hướng đến đối thủ hoặc vì mục tiêu, không dùng tên làm đối tượng.",
+        "戦う（たたかう）nghĩa chiến đấu; thi đấu; câu này dùng đúng đối tượng và tình huống.",
+        "Điều trị bằng thuốc khác với chiến đấu chống bệnh tật.",
+        "Tranh luận hoặc so sánh giá khác với 戦う."
+      ]
+    },
+    {
+      "id": "n2-dai7-27",
+      "type": "usage",
+      "word": "乗せる",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 46,
+      "prompt": "乗せる",
+      "origin": "authored",
+      "options": [
+        "駅の時刻表の発車時刻を乗せる。",
+        "バスの料金を車に乗せる。",
+        "車に荷物を乗せる。",
+        "会議の日程を車に乗せる。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Giờ khởi hành được ghi hoặc đăng trên thời gian biểu; 乗せる nghĩa đặt người/vật lên xe.",
+        "Tiền vé được 支払う hoặc 設定する; không đặt lên xe theo nghĩa này.",
+        "乗せる（のせる）nghĩa cho lên; chở; đặt lên; câu này dùng đúng đối tượng và tình huống.",
+        "Lịch họp được 記す・共有する, không chở bằng xe."
+      ]
+    },
+    {
+      "id": "n2-dai7-28",
+      "type": "usage",
+      "word": "伸ばす",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 47,
+      "prompt": "伸ばす",
+      "origin": "authored",
+      "options": [
+        "時計の針を伸ばすことで時刻を進めた。",
+        "試験の点数を紙で伸ばす。",
+        "駅までの距離を歩いて伸ばす。",
+        "髪を長く伸ばすつもりだ。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Đổi giờ là 進める; 伸ばす là làm dài vật/khả năng.",
+        "Điểm có thể 伸ばす bằng luyện tập, không bằng tờ giấy theo cấu trúc này.",
+        "Đi bộ không làm khoảng cách giữa hai địa điểm dài ra.",
+        "伸ばす（のばす）nghĩa kéo dài; làm duỗi; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai7-29",
+      "type": "usage",
+      "word": "外す",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 53,
+      "prompt": "外す",
+      "origin": "authored",
+      "options": [
+        "家に入る前にマスクを外す。",
+        "雨が降ったので傘の水滴を外す。",
+        "メールの誤字を外す。",
+        "冷えた料理を電子レンジで外す。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "外す（はずす）nghĩa tháo; bỏ; trượt; câu này dùng đúng đối tượng và tình huống.",
+        "Giọt nước cần 拭く・払う; 外す là tháo/bỏ vật gắn hoặc tránh trúng.",
+        "Lỗi chính tả cần 修正する; 外す không phải sửa văn bản.",
+        "Làm nóng đồ ăn là 温める, không phải tháo ra."
+      ]
+    },
+    {
+      "id": "n2-dai7-30",
+      "type": "usage",
+      "word": "拭く",
+      "source_file": "resources/N2/goi/dai7.csv",
+      "source_line": 59,
+      "prompt": "拭く",
+      "origin": "authored",
+      "options": [
+        "部屋の床をほうきで拭く。",
+        "机の汚れを乾いた布で拭く。",
+        "髪をはさみで拭く。",
+        "料理の味を塩で拭く。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Chổi dùng 掃く; khăn mới dùng 拭く.",
+        "拭く（ふく）nghĩa lau; chùi; câu này dùng đúng đối tượng và tình huống.",
+        "Kéo dùng cắt tóc, không lau tóc.",
+        "Nêm vị bằng muối là 調える; 拭く là lau chùi."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai8-30",
+  "title": "N2 · Bài 8 · 30 câu",
+  "level": "N2",
+  "lesson": "dai8",
+  "questions": [
+    {
+      "id": "n2-dai8-01",
+      "type": "reading",
+      "word": "作り直す",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 2,
+      "prompt": "失敗した資料を最初から【作り直す】。",
+      "origin": "authored",
+      "options": [
+        "つくりなおす",
+        "つくす",
+        "でなおす",
+        "くりかえす"
+      ],
+      "answer": 0,
+      "explanations": [
+        "作り直す（つくりなおす）: làm lại; chế tạo lại. Đây là cách đọc của từ được hỏi.",
+        "尽くす（つくす）: dốc hết; tận lực. Đây là cách đọc của từ khác, không phải 作り直す.",
+        "出直す（でなおす）: quay lại lần khác; làm lại từ đầu. Đây là cách đọc của từ khác, không phải 作り直す.",
+        "繰り返す（くりかえす）: lặp lại. Đây là cách đọc của từ khác, không phải 作り直す."
+      ],
+      "option_lexemes": [
+        {
+          "word": "作り直す",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 2,
+          "reading": "つくりなおす"
+        },
+        {
+          "word": "尽くす",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 92,
+          "reading": "つくす"
+        },
+        {
+          "word": "出直す",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 59,
+          "reading": "でなおす"
+        },
+        {
+          "word": "繰り返す",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 98,
+          "reading": "くりかえす"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai8-02",
+      "type": "reading",
+      "word": "引き受ける",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 8,
+      "prompt": "新しい仕事を【引き受ける】。",
+      "origin": "authored",
+      "options": [
+        "うけとる",
+        "ひきうける",
+        "ひきずる",
+        "ひきとる"
+      ],
+      "answer": 1,
+      "explanations": [
+        "受け取る（うけとる）: nhận. Đây là cách đọc của từ khác, không phải 引き受ける.",
+        "引き受ける（ひきうける）: đảm nhận; nhận lời. Đây là cách đọc của từ được hỏi.",
+        "引きずる（ひきずる）: kéo lê; kéo dài ảnh hưởng. Đây là cách đọc của từ khác, không phải 引き受ける.",
+        "引き取る（ひきとる）: nhận về; đón về; tiếp nhận. Đây là cách đọc của từ khác, không phải 引き受ける."
+      ],
+      "option_lexemes": [
+        {
+          "word": "受け取る",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 89,
+          "reading": "うけとる"
+        },
+        {
+          "word": "引き受ける",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 8,
+          "reading": "ひきうける"
+        },
+        {
+          "word": "引きずる",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 78,
+          "reading": "ひきずる"
+        },
+        {
+          "word": "引き取る",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 82,
+          "reading": "ひきとる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai8-03",
+      "type": "reading",
+      "word": "引っ張る",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 11,
+      "prompt": "ロープを強く【引っ張る】。",
+      "origin": "authored",
+      "options": [
+        "つっぱる",
+        "ひめる",
+        "ひっぱる",
+        "ひるま"
+      ],
+      "answer": 2,
+      "explanations": [
+        "突っ張る（つっぱる）: căng cứng; chống thẳng; bướng bỉnh. Đây là cách đọc của từ khác, không phải 引っ張る.",
+        "秘める（ひめる）: giấu kín; ẩn chứa. Đây là cách đọc của từ khác, không phải 引っ張る.",
+        "引っ張る（ひっぱる）: kéo; lôi kéo. Đây là cách đọc của từ được hỏi.",
+        "昼間（ひるま）: ban ngày. Đây là cách đọc của từ khác, không phải 引っ張る."
+      ],
+      "option_lexemes": [
+        {
+          "word": "突っ張る",
+          "source_file": "resources/N1/goi/dai29.csv",
+          "source_line": 93,
+          "reading": "つっぱる"
+        },
+        {
+          "word": "秘める",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 88,
+          "reading": "ひめる"
+        },
+        {
+          "word": "引っ張る",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 11,
+          "reading": "ひっぱる"
+        },
+        {
+          "word": "昼間",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 2,
+          "reading": "ひるま"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai8-04",
+      "type": "reading",
+      "word": "向かい合う",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 14,
+      "prompt": "二人は机を挟んで【向かい合う】。",
+      "origin": "authored",
+      "options": [
+        "かいごう",
+        "かいすう",
+        "かいとう",
+        "むかいあう"
+      ],
+      "answer": 3,
+      "explanations": [
+        "会合（かいごう）: cuộc họp; gặp mặt. Đây là cách đọc của từ khác, không phải 向かい合う.",
+        "回数（かいすう）: số lần. Đây là cách đọc của từ khác, không phải 向かい合う.",
+        "回答（かいとう）: trả lời. Đây là cách đọc của từ khác, không phải 向かい合う.",
+        "向かい合う（むかいあう）: đối diện nhau. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "会合",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 8,
+          "reading": "かいごう"
+        },
+        {
+          "word": "回数",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 97,
+          "reading": "かいすう"
+        },
+        {
+          "word": "回答",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 45,
+          "reading": "かいとう"
+        },
+        {
+          "word": "向かい合う",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 14,
+          "reading": "むかいあう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai8-05",
+      "type": "reading",
+      "word": "持ち帰る",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 16,
+      "prompt": "残った料理を家に【持ち帰る】。",
+      "origin": "authored",
+      "options": [
+        "もちかえる",
+        "かえる",
+        "むかえる",
+        "もうかる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "持ち帰る（もちかえる）: mang về. Đây là cách đọc của từ được hỏi.",
+        "替える（かえる）: đổi; thay thế. Đây là cách đọc của từ khác, không phải 持ち帰る.",
+        "迎える（むかえる）: đón; chào đón. Đây là cách đọc của từ khác, không phải 持ち帰る.",
+        "儲かる（もうかる）: có lãi; kiếm được lợi nhuận. Đây là cách đọc của từ khác, không phải 持ち帰る."
+      ],
+      "option_lexemes": [
+        {
+          "word": "持ち帰る",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 16,
+          "reading": "もちかえる"
+        },
+        {
+          "word": "替える",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 70,
+          "reading": "かえる"
+        },
+        {
+          "word": "迎える",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 74,
+          "reading": "むかえる"
+        },
+        {
+          "word": "儲かる",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 27,
+          "reading": "もうかる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai8-06",
+      "type": "orthography",
+      "word": "甘い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 20,
+      "prompt": "このケーキは少し【あまい】。",
+      "origin": "authored",
+      "options": [
+        "曖昧な",
+        "甘い",
+        "浅い",
+        "厚い"
+      ],
+      "answer": 1,
+      "explanations": [
+        "曖昧な（あいまいな）: mơ hồ; không rõ ràng. Cách viết này không diễn đạt ngọt; dễ dãi trong câu.",
+        "甘い（あまい）: ngọt; dễ dãi. Cách viết và nghĩa đều khớp câu.",
+        "浅い（あさい）: nông; cạn. Cách viết này không diễn đạt ngọt; dễ dãi trong câu.",
+        "厚い（あつい）: dày; nồng hậu. Cách viết này không diễn đạt ngọt; dễ dãi trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-07",
+      "type": "orthography",
+      "word": "怪しい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 21,
+      "prompt": "【あやしい】メールを開かないでください。",
+      "origin": "authored",
+      "options": [
+        "悔しい",
+        "卑しい",
+        "怪しい",
+        "悩ましい"
+      ],
+      "answer": 2,
+      "explanations": [
+        "悔しい（くやしい）: cay cú; tiếc nuối, ấm ức. Cách viết này không diễn đạt đáng ngờ; khả nghi trong câu.",
+        "卑しい（いやしい）: hèn hạ; tham lam. Cách viết này không diễn đạt đáng ngờ; khả nghi trong câu.",
+        "怪しい（あやしい）: đáng ngờ; khả nghi. Cách viết và nghĩa đều khớp câu.",
+        "悩ましい（なやましい）: khó xử; khiến băn khoăn. Cách viết này không diễn đạt đáng ngờ; khả nghi trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-08",
+      "type": "orthography",
+      "word": "忙しい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 22,
+      "prompt": "今週は仕事が【いそがしい】。",
+      "origin": "authored",
+      "options": [
+        "以外",
+        "卑しい",
+        "意外な",
+        "忙しい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "以外（いがい）: ngoài; ngoại trừ. Cách viết này không diễn đạt bận rộn trong câu.",
+        "卑しい（いやしい）: hèn hạ; tham lam. Cách viết này không diễn đạt bận rộn trong câu.",
+        "意外な（いがいな）: bất ngờ; ngoài dự đoán. Cách viết này không diễn đạt bận rộn trong câu.",
+        "忙しい（いそがしい）: bận rộn. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-09",
+      "type": "orthography",
+      "word": "痛い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 23,
+      "prompt": "転んで膝が【いたい】。",
+      "origin": "authored",
+      "options": [
+        "痛い",
+        "携帯",
+        "引退",
+        "衰退"
+      ],
+      "answer": 0,
+      "explanations": [
+        "痛い（いたい）: đau. Cách viết và nghĩa đều khớp câu.",
+        "携帯（けいたい）: mang theo; điện thoại di động. Cách viết này không diễn đạt đau trong câu.",
+        "引退（いんたい）: giải nghệ; nghỉ hưu. Cách viết này không diễn đạt đau trong câu.",
+        "衰退（すいたい）: suy thoái. Cách viết này không diễn đạt đau trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-10",
+      "type": "orthography",
+      "word": "硬い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 28,
+      "prompt": "このパンは少し【かたい】。",
+      "origin": "authored",
+      "options": [
+        "甲斐",
+        "硬い",
+        "仕方ない",
+        "痛い"
+      ],
+      "answer": 1,
+      "explanations": [
+        "甲斐（かい）: giá trị; thành quả xứng đáng. Cách viết này không diễn đạt cứng trong câu.",
+        "硬い（かたい）: cứng. Cách viết và nghĩa đều khớp câu.",
+        "仕方ない（しかたない）: không còn cách nào khác. Cách viết này không diễn đạt cứng trong câu.",
+        "痛い（いたい）: đau. Cách viết này không diễn đạt cứng trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-11",
+      "type": "formation",
+      "word": "引き出す",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 9,
+      "prompt": "ATMから現金を引き（　）。",
+      "origin": "authored",
+      "options": [
+        "受ける",
+        "止める",
+        "出す",
+        "上げる"
+      ],
+      "answer": 2,
+      "explanations": [
+        "引き受ける: đảm nhận; nhận lời. Từ này không diễn đạt rút ra; kéo ra trong tình huống đã nêu.",
+        "引き止める nghĩa giữ ai lại. Câu hỏi yêu cầu nghĩa của 引き出す, nên không chọn từ này.",
+        "引き出す: rút ra; kéo ra. Ghép thành từ phù hợp với tình huống trong câu.",
+        "引き上げる: kéo lên; nâng lên; rút đi. Từ này không diễn đạt rút ra; kéo ra trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "引き",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai8-12",
+      "type": "formation",
+      "word": "申し込む",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 15,
+      "prompt": "インターネットで講座の受講を（　）込む。",
+      "origin": "authored",
+      "options": [
+        "振り",
+        "巻き",
+        "申し",
+        "持ち"
+      ],
+      "answer": 2,
+      "explanations": [
+        "振り込む: chuyển khoản. Từ này không diễn đạt đăng ký; nộp đơn trong tình huống đã nêu.",
+        "巻き込む: cuốn vào; liên lụy. Từ này không diễn đạt đăng ký; nộp đơn trong tình huống đã nêu.",
+        "申し込む: đăng ký; nộp đơn. Ghép thành từ phù hợp với tình huống trong câu.",
+        "持ち込む nghĩa mang vào. Câu hỏi yêu cầu nghĩa của 申し込む, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "込む"
+      }
+    },
+    {
+      "id": "n2-dai8-13",
+      "type": "formation",
+      "word": "取り消す",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 5,
+      "prompt": "都合が悪くなったので予約を（　）消す。",
+      "origin": "authored",
+      "options": [
+        "打ち",
+        "取り",
+        "吹き",
+        "揉み"
+      ],
+      "answer": 1,
+      "explanations": [
+        "打ち消す: phủ nhận; xóa bỏ; triệt tiêu. Từ này không diễn đạt hủy bỏ; thu hồi trong tình huống đã nêu.",
+        "取り消す: hủy bỏ; thu hồi. Ghép thành từ phù hợp với tình huống trong câu.",
+        "吹き消す nghĩa thổi tắt. Câu hỏi yêu cầu nghĩa của 取り消す, nên không chọn từ này.",
+        "揉み消す nghĩa che giấu; dập tắt sự việc. Câu hỏi yêu cầu nghĩa của 取り消す, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "消す"
+      }
+    },
+    {
+      "id": "n2-dai8-14",
+      "type": "context",
+      "word": "うらやましい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 25,
+      "prompt": "友人は一か月も休みが取れる。忙しい私は（　）と思った。",
+      "origin": "authored",
+      "options": [
+        "懐かしい",
+        "うらやましい",
+        "珍しい",
+        "ありがたい"
+      ],
+      "answer": 1,
+      "explanations": [
+        "懐かしい nghĩa hoài niệm; gợi nhớ thân thương. Trong câu này cần ghen tị; đáng ao ước, nên từ này làm đổi nghĩa sự việc.",
+        "うらやましい nghĩa ghen tị; đáng ao ước. Chi tiết trong câu mô tả đúng ghen tị; đáng ao ước.",
+        "珍しい nghĩa hiếm; lạ. Trong câu này cần ghen tị; đáng ao ước, nên từ này làm đổi nghĩa sự việc.",
+        "ありがたい nghĩa đáng biết ơn. Trong câu này cần ghen tị; đáng ao ước, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai8-15",
+      "type": "context",
+      "word": "おとなしい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 26,
+      "prompt": "この犬はほとんど吠えず、静かで（　）。",
+      "origin": "authored",
+      "options": [
+        "賑やかな",
+        "騒がしい",
+        "おとなしい",
+        "厳しい"
+      ],
+      "answer": 2,
+      "explanations": [
+        "賑やかな nghĩa náo nhiệt. Trong câu này cần hiền; trầm tính, nên từ này làm đổi nghĩa sự việc.",
+        "騒がしい nghĩa ồn ào. Trong câu này cần hiền; trầm tính, nên từ này làm đổi nghĩa sự việc.",
+        "おとなしい nghĩa hiền; trầm tính. Chi tiết trong câu mô tả đúng hiền; trầm tính.",
+        "厳しい nghĩa nghiêm khắc; khắc nghiệt. Trong câu này cần hiền; trầm tính, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai8-16",
+      "type": "context",
+      "word": "かゆい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 29,
+      "prompt": "蚊に刺されたところを何度もかきたくなるほど腕が（　）。",
+      "origin": "authored",
+      "options": [
+        "痛い",
+        "寒い",
+        "熱い",
+        "かゆい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "痛い nghĩa đau. Trong câu này cần ngứa, nên từ này làm đổi nghĩa sự việc.",
+        "寒い nghĩa lạnh. Trong câu này cần ngứa, nên từ này làm đổi nghĩa sự việc.",
+        "熱い nghĩa nóng. Trong câu này cần ngứa, nên từ này làm đổi nghĩa sự việc.",
+        "かゆい nghĩa ngứa. Chi tiết trong câu mô tả đúng ngứa."
+      ]
+    },
+    {
+      "id": "n2-dai8-17",
+      "type": "context",
+      "word": "かわいらしい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 30,
+      "prompt": "小さくて愛らしい、（　）花が庭に咲いた。",
+      "origin": "authored",
+      "options": [
+        "かわいらしい",
+        "おとなしい",
+        "懐かしい",
+        "厳しい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "かわいらしい nghĩa đáng yêu; xinh xắn. Chi tiết trong câu mô tả đúng đáng yêu; xinh xắn.",
+        "おとなしい nghĩa hiền; trầm tính. Trong câu này cần đáng yêu; xinh xắn, nên từ này làm đổi nghĩa sự việc.",
+        "懐かしい nghĩa hoài niệm; gợi nhớ thân thương. Trong câu này cần đáng yêu; xinh xắn, nên từ này làm đổi nghĩa sự việc.",
+        "厳しい nghĩa nghiêm khắc; khắc nghiệt. Trong câu này cần đáng yêu; xinh xắn, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai8-18",
+      "type": "context",
+      "word": "きつい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 31,
+      "prompt": "この靴は足を締め付けて痛いほど（　）。",
+      "origin": "authored",
+      "options": [
+        "ゆるい",
+        "きつい",
+        "薄い",
+        "浅い"
+      ],
+      "answer": 1,
+      "explanations": [
+        "ゆるい nghĩa rộng; lỏng. Trong câu này cần chật; khắc nghiệt; nặng, nên từ này làm đổi nghĩa sự việc.",
+        "きつい nghĩa chật; khắc nghiệt; nặng. Chi tiết trong câu mô tả đúng chật; khắc nghiệt; nặng.",
+        "薄い nghĩa mỏng; nhạt. Trong câu này cần chật; khắc nghiệt; nặng, nên từ này làm đổi nghĩa sự việc.",
+        "浅い nghĩa nông; cạn. Trong câu này cần chật; khắc nghiệt; nặng, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai8-19",
+      "type": "context",
+      "word": "厳しい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 32,
+      "prompt": "父は仕事のミスを決して見逃さないほど（　）。",
+      "origin": "authored",
+      "options": [
+        "優しい",
+        "気の毒な",
+        "厳しい",
+        "苦しい"
+      ],
+      "answer": 2,
+      "explanations": [
+        "優しい nghĩa dịu dàng. Trong câu này cần nghiêm khắc; khắc nghiệt, nên từ này làm đổi nghĩa sự việc.",
+        "気の毒な nghĩa đáng thương; đáng tiếc. Trong câu này cần nghiêm khắc; khắc nghiệt, nên từ này làm đổi nghĩa sự việc.",
+        "厳しい nghĩa nghiêm khắc; khắc nghiệt. Chi tiết trong câu mô tả đúng nghiêm khắc; khắc nghiệt.",
+        "苦しい nghĩa đau khổ; khó chịu. Trong câu này cần nghiêm khắc; khắc nghiệt, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai8-20",
+      "type": "context",
+      "word": "苦しい",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 33,
+      "prompt": "走りすぎて息ができず、胸が（　）。",
+      "origin": "authored",
+      "options": [
+        "楽な",
+        "楽しい",
+        "眠い",
+        "苦しい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "楽な nghĩa thoải mái; nhẹ nhàng. Trong câu này cần đau khổ; khó chịu, nên từ này làm đổi nghĩa sự việc.",
+        "楽しい nghĩa vui. Trong câu này cần đau khổ; khó chịu, nên từ này làm đổi nghĩa sự việc.",
+        "眠い nghĩa buồn ngủ. Trong câu này cần đau khổ; khó chịu, nên từ này làm đổi nghĩa sự việc.",
+        "苦しい nghĩa đau khổ; khó chịu. Chi tiết trong câu mô tả đúng đau khổ; khó chịu."
+      ]
+    },
+    {
+      "id": "n2-dai8-21",
+      "type": "paraphrase",
+      "word": "浅い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 18,
+      "prompt": "この川は水が【浅い】。",
+      "origin": "authored",
+      "options": [
+        "深くない",
+        "分厚い",
+        "厚みが少ない",
+        "味が強い"
+      ],
+      "answer": 0,
+      "explanations": [
+        "深くない diễn đạt 'nông; cạn' trong câu; đây là cách nói gần nghĩa nhất với 浅い.",
+        "分厚い diễn đạt 'dày; nồng hậu' của 厚い; khác với nghĩa 'nông; cạn' của 浅い trong câu.",
+        "厚みが少ない diễn đạt 'mỏng; nhạt' của 薄い; khác với nghĩa 'nông; cạn' của 浅い trong câu.",
+        "味が強い diễn đạt 'đậm; đặc' của 濃い; khác với nghĩa 'nông; cạn' của 浅い trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-22",
+      "type": "paraphrase",
+      "word": "厚い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 19,
+      "prompt": "寒いので【厚い】コートを着る。",
+      "origin": "authored",
+      "options": [
+        "厚みが少ない",
+        "分厚い",
+        "味が強い",
+        "恐ろしい"
+      ],
+      "answer": 1,
+      "explanations": [
+        "厚みが少ない diễn đạt 'mỏng; nhạt' của 薄い; khác với nghĩa 'dày; nồng hậu' của 厚い trong câu.",
+        "分厚い diễn đạt 'dày; nồng hậu' trong câu; đây là cách nói gần nghĩa nhất với 厚い.",
+        "味が強い diễn đạt 'đậm; đặc' của 濃い; khác với nghĩa 'dày; nồng hậu' của 厚い trong câu.",
+        "恐ろしい diễn đạt 'đáng sợ; sợ' của 怖い; khác với nghĩa 'dày; nồng hậu' của 厚い trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-23",
+      "type": "paraphrase",
+      "word": "薄い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 24,
+      "prompt": "この紙はとても【薄い】。",
+      "origin": "authored",
+      "options": [
+        "味が強い",
+        "恐ろしい",
+        "厚みが少ない",
+        "深くない"
+      ],
+      "answer": 2,
+      "explanations": [
+        "味が強い diễn đạt 'đậm; đặc' của 濃い; khác với nghĩa 'mỏng; nhạt' của 薄い trong câu.",
+        "恐ろしい diễn đạt 'đáng sợ; sợ' của 怖い; khác với nghĩa 'mỏng; nhạt' của 薄い trong câu.",
+        "厚みが少ない diễn đạt 'mỏng; nhạt' trong câu; đây là cách nói gần nghĩa nhất với 薄い.",
+        "深くない diễn đạt 'nông; cạn' của 浅い; khác với nghĩa 'mỏng; nhạt' của 薄い trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-24",
+      "type": "paraphrase",
+      "word": "濃い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 34,
+      "prompt": "私は【濃い】コーヒーが好きだ。",
+      "origin": "authored",
+      "options": [
+        "恐ろしい",
+        "深くない",
+        "分厚い",
+        "味が強い"
+      ],
+      "answer": 3,
+      "explanations": [
+        "恐ろしい diễn đạt 'đáng sợ; sợ' của 怖い; khác với nghĩa 'đậm; đặc' của 濃い trong câu.",
+        "深くない diễn đạt 'nông; cạn' của 浅い; khác với nghĩa 'đậm; đặc' của 濃い trong câu.",
+        "分厚い diễn đạt 'dày; nồng hậu' của 厚い; khác với nghĩa 'đậm; đặc' của 濃い trong câu.",
+        "味が強い diễn đạt 'đậm; đặc' trong câu; đây là cách nói gần nghĩa nhất với 濃い."
+      ]
+    },
+    {
+      "id": "n2-dai8-25",
+      "type": "paraphrase",
+      "word": "怖い",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 36,
+      "prompt": "夜、一人で歩くのは【怖い】。",
+      "origin": "authored",
+      "options": [
+        "恐ろしい",
+        "深くない",
+        "分厚い",
+        "厚みが少ない"
+      ],
+      "answer": 0,
+      "explanations": [
+        "恐ろしい diễn đạt 'đáng sợ; sợ' trong câu; đây là cách nói gần nghĩa nhất với 怖い.",
+        "深くない diễn đạt 'nông; cạn' của 浅い; khác với nghĩa 'đáng sợ; sợ' của 怖い trong câu.",
+        "分厚い diễn đạt 'dày; nồng hậu' của 厚い; khác với nghĩa 'đáng sợ; sợ' của 怖い trong câu.",
+        "厚みが少ない diễn đạt 'mỏng; nhạt' của 薄い; khác với nghĩa 'đáng sợ; sợ' của 怖い trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai8-26",
+      "type": "usage",
+      "word": "話し合う",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 6,
+      "prompt": "話し合う",
+      "origin": "authored",
+      "options": [
+        "新しい計画を黙って一人で話し合う。",
+        "問題の解決方法をみんなで話し合う。",
+        "届いたメールを読まずに話し合う。",
+        "駅の改札を一人で話し合う。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "話し合う cần ít nhất hai người trao đổi ý kiến.",
+        "話し合う（はなしあう）nghĩa thảo luận; bàn bạc; câu này dùng đúng đối tượng và tình huống.",
+        "Nếu chưa có người hoặc nội dung trao đổi, đây không phải thảo luận.",
+        "Qua cổng vé là 通る; không phải thảo luận."
+      ]
+    },
+    {
+      "id": "n2-dai8-27",
+      "type": "usage",
+      "word": "取り替える",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 4,
+      "prompt": "取り替える",
+      "origin": "authored",
+      "options": [
+        "電池の残量を測って取り替える。",
+        "商品の値段を見て取り替える。",
+        "古い電池を新しい物に取り替える。",
+        "友人の住所を電話で取り替える。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Đo lượng pin chưa phải thay pin cũ bằng pin mới.",
+        "Nhìn giá không phải thay thế vật.",
+        "取り替える（とりかえる）nghĩa thay; đổi; câu này dùng đúng đối tượng và tình huống.",
+        "Trao đổi địa chỉ là 交換する, không phải thay vật cũ bằng vật mới."
+      ]
+    },
+    {
+      "id": "n2-dai8-28",
+      "type": "usage",
+      "word": "引っ越す",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 10,
+      "prompt": "引っ越す",
+      "origin": "authored",
+      "options": [
+        "出張で一泊だけ大阪のホテルに引っ越す。",
+        "週末の買い物で駅前に引っ越す。",
+        "会社の会議室を隣の部屋に引っ越す。",
+        "来月、東京へ引っ越す。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Một đêm công tác là 宿泊; 引っ越す là chuyển nơi ở.",
+        "Đi mua sắm không phải chuyển nhà.",
+        "Đổi phòng họp là 移動・変更; 引っ越す dùng cho nơi ở.",
+        "引っ越す（ひっこす）nghĩa chuyển nhà; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai8-29",
+      "type": "usage",
+      "word": "振り込む",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 12,
+      "prompt": "振り込む",
+      "origin": "authored",
+      "options": [
+        "家賃を銀行口座に振り込む。",
+        "封筒を郵便受けに振り込む。",
+        "現金を財布に振り込む。",
+        "荷物を宅配便で友人に振り込む。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "振り込む（ふりこむ）nghĩa chuyển khoản; câu này dùng đúng đối tượng và tình huống.",
+        "Bỏ thư vào hộp dùng 投函する, không phải chuyển khoản.",
+        "Cho tiền mặt vào ví là 入れる; 振り込む là chuyển qua tài khoản.",
+        "Gửi đồ bằng bưu kiện dùng 送る, không phải chuyển tiền."
+      ]
+    },
+    {
+      "id": "n2-dai8-30",
+      "type": "usage",
+      "word": "巻き込む",
+      "source_file": "resources/N2/goi/dai8.csv",
+      "source_line": 13,
+      "prompt": "巻き込む",
+      "origin": "authored",
+      "options": [
+        "紙を封筒に巻き込む。",
+        "友人を争いに巻き込むのは避けたい。",
+        "参加者を会場に巻き込む。",
+        "弁当をかばんに巻き込む。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Cho giấy vào phong bì là 入れる; 巻き込む không dùng cho thao tác này.",
+        "巻き込む（まきこむ）nghĩa cuốn vào; liên lụy; câu này dùng đúng đối tượng và tình huống.",
+        "Dẫn người vào hội trường là 案内する; không phải lôi vào sự việc.",
+        "Cho hộp cơm vào túi là 入れる, không phải cuốn/lôi vào."
+      ]
+    }
+  ]
+}

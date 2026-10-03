@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai9-30",
+  "title": "N2 · Bài 9 · 30 câu",
+  "level": "N2",
+  "lesson": "dai9",
+  "questions": [
+    {
+      "id": "n2-dai9-01",
+      "type": "reading",
+      "word": "実際に",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 2,
+      "prompt": "【実際に】現場へ行って確認した。",
+      "origin": "authored",
+      "options": [
+        "じっさいに",
+        "じったい",
+        "じっけい",
+        "かっさい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "実際に（じっさいに）: thực tế; thực sự. Đây là cách đọc của từ được hỏi.",
+        "実態（じったい）: thực trạng. Đây là cách đọc của từ khác, không phải 実際に.",
+        "実刑（じっけい）: án phạt phải chấp hành thực tế. Đây là cách đọc của từ khác, không phải 実際に.",
+        "喝采（かっさい）: tiếng vỗ tay tán thưởng. Đây là cách đọc của từ khác, không phải 実際に."
+      ],
+      "option_lexemes": [
+        {
+          "word": "実際に",
+          "source_file": "resources/N2/goi/dai9.csv",
+          "source_line": 2,
+          "reading": "じっさいに"
+        },
+        {
+          "word": "実態",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 93,
+          "reading": "じったい"
+        },
+        {
+          "word": "実刑",
+          "source_file": "resources/N1/goi/dai14.csv",
+          "source_line": 81,
+          "reading": "じっけい"
+        },
+        {
+          "word": "喝采",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 55,
+          "reading": "かっさい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai9-02",
+      "type": "reading",
+      "word": "既に",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 3,
+      "prompt": "会議は【既に】始まっている。",
+      "origin": "authored",
+      "options": [
+        "すで",
+        "すでに",
+        "すいでん",
+        "す"
+      ],
+      "answer": 1,
+      "explanations": [
+        "素手（すで）: tay không. Đây là cách đọc của từ khác, không phải 既に.",
+        "既に（すでに）: đã; rồi. Đây là cách đọc của từ được hỏi.",
+        "水田（すいでん）: ruộng lúa nước. Đây là cách đọc của từ khác, không phải 既に.",
+        "巣（す）: tổ; ổ. Đây là cách đọc của từ khác, không phải 既に."
+      ],
+      "option_lexemes": [
+        {
+          "word": "素手",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 15,
+          "reading": "すで"
+        },
+        {
+          "word": "既に",
+          "source_file": "resources/N2/goi/dai9.csv",
+          "source_line": 3,
+          "reading": "すでに"
+        },
+        {
+          "word": "水田",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 50,
+          "reading": "すいでん"
+        },
+        {
+          "word": "巣",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 53,
+          "reading": "す"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai9-03",
+      "type": "reading",
+      "word": "互いに",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 4,
+      "prompt": "【互いに】助け合うことが大切だ。",
+      "origin": "authored",
+      "options": [
+        "おたがいに",
+        "たいがい",
+        "たがいに",
+        "ぜったいに"
+      ],
+      "answer": 2,
+      "explanations": [
+        "お互いに（おたがいに）: lẫn nhau; với nhau. Đây là cách đọc của từ khác, không phải 互いに.",
+        "大概（たいがい）: phần lớn; thường; đại khái. Đây là cách đọc của từ khác, không phải 互いに.",
+        "互いに（たがいに）: lẫn nhau. Đây là cách đọc của từ được hỏi.",
+        "絶対に（ぜったいに）: tuyệt đối; nhất định. Đây là cách đọc của từ khác, không phải 互いに."
+      ],
+      "option_lexemes": [
+        {
+          "word": "お互いに",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 13,
+          "reading": "おたがいに"
+        },
+        {
+          "word": "大概",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 71,
+          "reading": "たいがい"
+        },
+        {
+          "word": "互いに",
+          "source_file": "resources/N2/goi/dai9.csv",
+          "source_line": 4,
+          "reading": "たがいに"
+        },
+        {
+          "word": "絶対に",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 39,
+          "reading": "ぜったいに"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai9-04",
+      "type": "reading",
+      "word": "確かに",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 5,
+      "prompt": "【確かに】彼の説明は正しい。",
+      "origin": "authored",
+      "options": [
+        "たしかな",
+        "ためしに",
+        "しか",
+        "たしかに"
+      ],
+      "answer": 3,
+      "explanations": [
+        "確かな（たしかな）: chắc chắn; xác thực. Đây là cách đọc của từ khác, không phải 確かに.",
+        "試しに（ためしに）: thử; để thử xem. Đây là cách đọc của từ khác, không phải 確かに.",
+        "歯科（しか）: nha khoa. Đây là cách đọc của từ khác, không phải 確かに.",
+        "確かに（たしかに）: đúng là; chắc chắn. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "確かな",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 76,
+          "reading": "たしかな"
+        },
+        {
+          "word": "試しに",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 95,
+          "reading": "ためしに"
+        },
+        {
+          "word": "歯科",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 91,
+          "reading": "しか"
+        },
+        {
+          "word": "確かに",
+          "source_file": "resources/N2/goi/dai9.csv",
+          "source_line": 5,
+          "reading": "たしかに"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai9-05",
+      "type": "reading",
+      "word": "多少",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 6,
+      "prompt": "結果には【多少】の差がある。",
+      "origin": "authored",
+      "options": [
+        "たしょう",
+        "たいしょう",
+        "しょう",
+        "しちょう"
+      ],
+      "answer": 0,
+      "explanations": [
+        "多少（たしょう）: ít nhiều; một chút. Đây là cách đọc của từ được hỏi.",
+        "対照（たいしょう）: đối chiếu; tương phản. Đây là cách đọc của từ khác, không phải 多少.",
+        "賞（しょう）: giải thưởng. Đây là cách đọc của từ khác, không phải 多少.",
+        "市長（しちょう）: thị trưởng. Đây là cách đọc của từ khác, không phải 多少."
+      ],
+      "option_lexemes": [
+        {
+          "word": "多少",
+          "source_file": "resources/N2/goi/dai9.csv",
+          "source_line": 6,
+          "reading": "たしょう"
+        },
+        {
+          "word": "対照",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 60,
+          "reading": "たいしょう"
+        },
+        {
+          "word": "賞",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 48,
+          "reading": "しょう"
+        },
+        {
+          "word": "市長",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 28,
+          "reading": "しちょう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai9-06",
+      "type": "orthography",
+      "word": "次々",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 8,
+      "prompt": "新しい商品が【つぎつぎ】に発売された。",
+      "origin": "authored",
+      "options": [
+        "月々",
+        "次々",
+        "続々",
+        "近々"
+      ],
+      "answer": 1,
+      "explanations": [
+        "月々（つきづき）nghĩa mỗi tháng; không diễn đạt 次々 trong câu.",
+        "次々 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "続々（ぞくぞく）nghĩa liên tiếp; không diễn đạt 次々 trong câu.",
+        "近々（ちかぢか）nghĩa sắp tới; không diễn đạt 次々 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-07",
+      "type": "orthography",
+      "word": "当然",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 9,
+      "prompt": "努力すれば【とうぜん】結果も変わる。",
+      "origin": "authored",
+      "options": [
+        "偶然",
+        "突然",
+        "当然",
+        "当人"
+      ],
+      "answer": 2,
+      "explanations": [
+        "偶然（ぐうぜん）: tình cờ; ngẫu nhiên. Cách viết này không diễn đạt đương nhiên trong câu.",
+        "突然（とつぜん）: đột nhiên. Cách viết này không diễn đạt đương nhiên trong câu.",
+        "当然（とうぜん）: đương nhiên. Cách viết và nghĩa đều khớp câu.",
+        "当人（とうにん）: chính người đó; đương sự. Cách viết này không diễn đạt đương nhiên trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-08",
+      "type": "orthography",
+      "word": "別々に",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 15,
+      "prompt": "会計は【べつべつに】お願いします。",
+      "origin": "authored",
+      "options": [
+        "別に",
+        "個別に",
+        "区別",
+        "別々に"
+      ],
+      "answer": 3,
+      "explanations": [
+        "別に（べつに）nghĩa riêng; không đặc biệt; không diễn đạt 別々に trong câu.",
+        "個別に（こべつに）nghĩa từng cái riêng lẻ; không diễn đạt 別々に trong câu.",
+        "区別（くべつ）nghĩa phân biệt; không diễn đạt 別々に trong câu.",
+        "別々に là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh."
+      ]
+    },
+    {
+      "id": "n2-dai9-09",
+      "type": "orthography",
+      "word": "全く",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 17,
+      "prompt": "その話は【まったく】知りません。",
+      "origin": "authored",
+      "options": [
+        "全く",
+        "末端",
+        "撒く",
+        "股"
+      ],
+      "answer": 0,
+      "explanations": [
+        "全く（まったく）: hoàn toàn. Cách viết và nghĩa đều khớp câu.",
+        "末端（まったん）: phần cuối; cấp thấp nhất. Cách viết này không diễn đạt hoàn toàn trong câu.",
+        "撒く（まく）: gieo; rắc. Cách viết này không diễn đạt hoàn toàn trong câu.",
+        "股（また）: háng; chỗ chạc; phần giữa hai đùi. Cách viết này không diễn đạt hoàn toàn trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-10",
+      "type": "orthography",
+      "word": "最も",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 19,
+      "prompt": "これが【もっとも】重要な問題だ。",
+      "origin": "authored",
+      "options": [
+        "元",
+        "最も",
+        "桃",
+        "地元"
+      ],
+      "answer": 1,
+      "explanations": [
+        "元（もと）: nguồn gốc; trước đây; nền. Cách viết này không diễn đạt nhất; hơn cả trong câu.",
+        "最も（もっとも）: nhất; hơn cả. Cách viết và nghĩa đều khớp câu.",
+        "桃（もも）: quả đào. Cách viết này không diễn đạt nhất; hơn cả trong câu.",
+        "地元（じもと）: địa phương; quê nhà. Cách viết này không diễn đạt nhất; hơn cả trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-11",
+      "type": "formation",
+      "word": "突然",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 12,
+      "prompt": "何の前触れもなく、（　）然雨が降り始めた。",
+      "origin": "authored",
+      "options": [
+        "当",
+        "自",
+        "突",
+        "偶"
+      ],
+      "answer": 2,
+      "explanations": [
+        "当然: đương nhiên. Từ này không diễn đạt đột nhiên trong tình huống đã nêu.",
+        "自然: tự nhiên; thiên nhiên. Từ này không diễn đạt đột nhiên trong tình huống đã nêu.",
+        "突然: đột nhiên. Ghép thành từ phù hợp với tình huống trong câu.",
+        "偶然: tình cờ; ngẫu nhiên. Từ này không diễn đạt đột nhiên trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "然"
+      }
+    },
+    {
+      "id": "n2-dai9-12",
+      "type": "formation",
+      "word": "普段",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 14,
+      "prompt": "（　）段は七時に起きるが、今日は寝坊した。",
+      "origin": "authored",
+      "options": [
+        "手",
+        "普",
+        "階",
+        "値"
+      ],
+      "answer": 1,
+      "explanations": [
+        "手段: phương thức; biện pháp. Từ này không diễn đạt thường ngày trong tình huống đã nêu.",
+        "普段: thường ngày. Ghép thành từ phù hợp với tình huống trong câu.",
+        "階段: cầu thang. Từ này không diễn đạt thường ngày trong tình huống đã nêu.",
+        "値段: giá tiền. Từ này không diễn đạt thường ngày trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "段"
+      }
+    },
+    {
+      "id": "n2-dai9-13",
+      "type": "formation",
+      "word": "バスケットボール",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 89,
+      "prompt": "一チーム五人で体育館のリングに球を入れる（　）ボールをする。",
+      "origin": "authored",
+      "options": [
+        "フット",
+        "ハンド",
+        "バスケット",
+        "ベース"
+      ],
+      "answer": 2,
+      "explanations": [
+        "フットボール nghĩa bóng đá/bóng bầu dục. Câu hỏi yêu cầu nghĩa của バスケットボール, nên không chọn từ này.",
+        "ハンドボール nghĩa bóng ném. Câu hỏi yêu cầu nghĩa của バスケットボール, nên không chọn từ này.",
+        "バスケットボール: bóng rổ. Ghép thành từ phù hợp với tình huống trong câu.",
+        "ベースボール nghĩa bóng chày. Câu hỏi yêu cầu nghĩa của バスケットボール, nên không chọn từ này."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "ボール"
+      }
+    },
+    {
+      "id": "n2-dai9-14",
+      "type": "context",
+      "word": "とうとう",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 10,
+      "prompt": "十年努力し続けた彼は（　）夢を実現した。",
+      "origin": "authored",
+      "options": [
+        "突然",
+        "とうとう",
+        "うっかり",
+        "せっかく"
+      ],
+      "answer": 1,
+      "explanations": [
+        "突然 nghĩa đột nhiên. Trong câu này cần cuối cùng; rốt cuộc, nên từ này làm đổi nghĩa sự việc.",
+        "とうとう nghĩa cuối cùng; rốt cuộc. Chi tiết trong câu mô tả đúng cuối cùng; rốt cuộc.",
+        "うっかり nghĩa lơ đễnh; sơ ý. Trong câu này cần cuối cùng; rốt cuộc, nên từ này làm đổi nghĩa sự việc.",
+        "せっかく nghĩa mất công; hiếm khi có dịp. Trong câu này cần cuối cùng; rốt cuộc, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai9-15",
+      "type": "context",
+      "word": "どうか",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 11,
+      "prompt": "遠くへ行く友人へ「（　）無事でいてください」と願った。",
+      "origin": "authored",
+      "options": [
+        "うっかり",
+        "確かに",
+        "どうか",
+        "ぐっすり"
+      ],
+      "answer": 2,
+      "explanations": [
+        "うっかり nghĩa lơ đễnh; sơ ý. Trong câu này cần xin hãy; bằng cách nào đó, nên từ này làm đổi nghĩa sự việc.",
+        "確かに nghĩa đúng là; chắc chắn. Trong câu này cần xin hãy; bằng cách nào đó, nên từ này làm đổi nghĩa sự việc.",
+        "どうか nghĩa xin hãy; bằng cách nào đó. Chi tiết trong câu mô tả đúng xin hãy; bằng cách nào đó.",
+        "ぐっすり nghĩa ngủ say; ngon giấc. Trong câu này cần xin hãy; bằng cách nào đó, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai9-16",
+      "type": "context",
+      "word": "なかなか",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 13,
+      "prompt": "簡単そうに見えたが、この問題は（　）難しい。",
+      "origin": "authored",
+      "options": [
+        "まるで",
+        "すっかり",
+        "ぐっすり",
+        "なかなか"
+      ],
+      "answer": 3,
+      "explanations": [
+        "まるで nghĩa giống hệt; cứ như. Trong câu này cần khá; mãi mà không, nên từ này làm đổi nghĩa sự việc.",
+        "すっかり nghĩa hoàn toàn. Trong câu này cần khá; mãi mà không, nên từ này làm đổi nghĩa sự việc.",
+        "ぐっすり nghĩa ngủ say; ngon giấc. Trong câu này cần khá; mãi mà không, nên từ này làm đổi nghĩa sự việc.",
+        "なかなか nghĩa khá; mãi mà không. Chi tiết trong câu mô tả đúng khá; mãi mà không."
+      ]
+    },
+    {
+      "id": "n2-dai9-17",
+      "type": "context",
+      "word": "まあまあ",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 16,
+      "prompt": "百点満点の試験で六十点だったので、結果は（　）だった。",
+      "origin": "authored",
+      "options": [
+        "まあまあ",
+        "最高",
+        "最低",
+        "満点"
+      ],
+      "answer": 0,
+      "explanations": [
+        "まあまあ nghĩa tàm tạm; khá ổn. Chi tiết trong câu mô tả đúng tàm tạm; khá ổn.",
+        "最高 nghĩa cao nhất; tốt nhất. Trong câu này cần tàm tạm; khá ổn, nên từ này làm đổi nghĩa sự việc.",
+        "最低 nghĩa thấp nhất; tệ nhất. Trong câu này cần tàm tạm; khá ổn, nên từ này làm đổi nghĩa sự việc.",
+        "満点 nghĩa điểm tối đa. Trong câu này cần tàm tạm; khá ổn, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai9-18",
+      "type": "context",
+      "word": "まるで",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 18,
+      "prompt": "まだ秋なのに、外は（　）冬のように寒い。",
+      "origin": "authored",
+      "options": [
+        "確かに",
+        "まるで",
+        "突然",
+        "うっかり"
+      ],
+      "answer": 1,
+      "explanations": [
+        "確かに nghĩa đúng là; chắc chắn. Trong câu này cần giống hệt; cứ như, nên từ này làm đổi nghĩa sự việc.",
+        "まるで nghĩa giống hệt; cứ như. Chi tiết trong câu mô tả đúng giống hệt; cứ như.",
+        "突然 nghĩa đột nhiên. Trong câu này cần giống hệt; cứ như, nên từ này làm đổi nghĩa sự việc.",
+        "うっかり nghĩa lơ đễnh; sơ ý. Trong câu này cần giống hệt; cứ như, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai9-19",
+      "type": "context",
+      "word": "やっぱり",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 20,
+      "prompt": "車も考えたが、渋滞が心配で（　）電車で行くことにした。",
+      "origin": "authored",
+      "options": [
+        "うっかり",
+        "ぐっすり",
+        "やっぱり",
+        "突然"
+      ],
+      "answer": 2,
+      "explanations": [
+        "うっかり nghĩa lơ đễnh; sơ ý. Trong câu này cần quả nhiên; đúng như nghĩ, nên từ này làm đổi nghĩa sự việc.",
+        "ぐっすり nghĩa ngủ say; ngon giấc. Trong câu này cần quả nhiên; đúng như nghĩ, nên từ này làm đổi nghĩa sự việc.",
+        "やっぱり nghĩa quả nhiên; đúng như nghĩ. Chi tiết trong câu mô tả đúng quả nhiên; đúng như nghĩ.",
+        "突然 nghĩa đột nhiên. Trong câu này cần quả nhiên; đúng như nghĩ, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai9-20",
+      "type": "context",
+      "word": "やはり",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 21,
+      "prompt": "いろいろ考えてみても、（　）健康が一番大切だ。",
+      "origin": "authored",
+      "options": [
+        "うっかり",
+        "ぐっすり",
+        "突然",
+        "やはり"
+      ],
+      "answer": 3,
+      "explanations": [
+        "うっかり nghĩa lơ đễnh; sơ ý. Trong câu này cần quả nhiên; vẫn là, nên từ này làm đổi nghĩa sự việc.",
+        "ぐっすり nghĩa ngủ say; ngon giấc. Trong câu này cần quả nhiên; vẫn là, nên từ này làm đổi nghĩa sự việc.",
+        "突然 nghĩa đột nhiên. Trong câu này cần quả nhiên; vẫn là, nên từ này làm đổi nghĩa sự việc.",
+        "やはり nghĩa quả nhiên; vẫn là. Chi tiết trong câu mô tả đúng quả nhiên; vẫn là."
+      ]
+    },
+    {
+      "id": "n2-dai9-21",
+      "type": "paraphrase",
+      "word": "つい",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 7,
+      "prompt": "おいしくて【つい】食べ過ぎた。",
+      "origin": "authored",
+      "options": [
+        "思わず",
+        "やっと",
+        "完全に",
+        "きちんと"
+      ],
+      "answer": 0,
+      "explanations": [
+        "思わず diễn đạt 'lỡ; vô tình' trong câu; đây là cách nói gần nghĩa nhất với つい.",
+        "やっと diễn đạt 'cuối cùng thì' của ようやく; khác với nghĩa 'lỡ; vô tình' của つい trong câu.",
+        "完全に diễn đạt 'hoàn toàn' của すっかり; khác với nghĩa 'lỡ; vô tình' của つい trong câu.",
+        "きちんと diễn đạt 'chắc chắn; nghiêm túc' của しっかり; khác với nghĩa 'lỡ; vô tình' của つい trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-22",
+      "type": "paraphrase",
+      "word": "ようやく",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 22,
+      "prompt": "長い工事が【ようやく】終わった。",
+      "origin": "authored",
+      "options": [
+        "完全に",
+        "やっと",
+        "きちんと",
+        "ちょうど"
+      ],
+      "answer": 1,
+      "explanations": [
+        "完全に diễn đạt 'hoàn toàn' của すっかり; khác với nghĩa 'cuối cùng thì' của ようやく trong câu.",
+        "やっと diễn đạt 'cuối cùng thì' trong câu; đây là cách nói gần nghĩa nhất với ようやく.",
+        "きちんと diễn đạt 'chắc chắn; nghiêm túc' của しっかり; khác với nghĩa 'cuối cùng thì' của ようやく trong câu.",
+        "ちょうど diễn đạt 'vừa vặn; chính xác' của ぴったり; khác với nghĩa 'cuối cùng thì' của ようやく trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-23",
+      "type": "paraphrase",
+      "word": "すっかり",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 29,
+      "prompt": "病気は【すっかり】治った。",
+      "origin": "authored",
+      "options": [
+        "きちんと",
+        "ちょうど",
+        "完全に",
+        "思わず"
+      ],
+      "answer": 2,
+      "explanations": [
+        "きちんと diễn đạt 'chắc chắn; nghiêm túc' của しっかり; khác với nghĩa 'hoàn toàn' của すっかり trong câu.",
+        "ちょうど diễn đạt 'vừa vặn; chính xác' của ぴったり; khác với nghĩa 'hoàn toàn' của すっかり trong câu.",
+        "完全に diễn đạt 'hoàn toàn' trong câu; đây là cách nói gần nghĩa nhất với すっかり.",
+        "思わず diễn đạt 'lỡ; vô tình' của つい; khác với nghĩa 'hoàn toàn' của すっかり trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai9-24",
+      "type": "paraphrase",
+      "word": "しっかり",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 28,
+      "prompt": "説明を【しっかり】聞いてください。",
+      "origin": "authored",
+      "options": [
+        "ちょうど",
+        "思わず",
+        "やっと",
+        "きちんと"
+      ],
+      "answer": 3,
+      "explanations": [
+        "ちょうど diễn đạt 'vừa vặn; chính xác' của ぴったり; khác với nghĩa 'chắc chắn; nghiêm túc' của しっかり trong câu.",
+        "思わず diễn đạt 'lỡ; vô tình' của つい; khác với nghĩa 'chắc chắn; nghiêm túc' của しっかり trong câu.",
+        "やっと diễn đạt 'cuối cùng thì' của ようやく; khác với nghĩa 'chắc chắn; nghiêm túc' của しっかり trong câu.",
+        "きちんと diễn đạt 'chắc chắn; nghiêm túc' trong câu; đây là cách nói gần nghĩa nhất với しっかり."
+      ]
+    },
+    {
+      "id": "n2-dai9-25",
+      "type": "paraphrase",
+      "word": "ぴったり",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 33,
+      "prompt": "この靴は足に【ぴったり合う】。",
+      "origin": "authored",
+      "options": [
+        "ちょうど合う",
+        "少しだけ合う",
+        "何となく合う",
+        "ようやく合う"
+      ],
+      "answer": 0,
+      "explanations": [
+        "ちょうど合う diễn đạt vừa khít, gần nghĩa nhất với ぴったり合う.",
+        "少しだけ合う diễn đạt mức độ hoặc thời điểm khác, không phải vừa khít với bàn chân.",
+        "何となく合う diễn đạt mức độ hoặc thời điểm khác, không phải vừa khít với bàn chân.",
+        "ようやく合う diễn đạt mức độ hoặc thời điểm khác, không phải vừa khít với bàn chân."
+      ]
+    },
+    {
+      "id": "n2-dai9-26",
+      "type": "usage",
+      "word": "アドバイス",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 40,
+      "prompt": "アドバイス",
+      "origin": "authored",
+      "options": [
+        "先生が試験の点数をアドバイスした。",
+        "先生が勉強方法をアドバイスする。",
+        "友人に出発時刻をアドバイスした。",
+        "駅員に切符を一枚アドバイスした。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Điểm số được 伝える・知らせる; アドバイス là lời khuyên.",
+        "アドバイス（あどばいす）nghĩa lời khuyên; tư vấn; câu này dùng đúng đối tượng và tình huống.",
+        "Giờ đi được 伝える; アドバイス không phải báo giờ.",
+        "Vé được 購入・渡す; アドバイス không phải giao vật."
+      ]
+    },
+    {
+      "id": "n2-dai9-27",
+      "type": "usage",
+      "word": "アンケート",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 45,
+      "prompt": "アンケート",
+      "origin": "authored",
+      "options": [
+        "先生に答えを一つアンケートした。",
+        "図書館で本を一冊アンケートした。",
+        "利用者にアンケートを行う。",
+        "旅行の予定をアンケートに予約した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Hỏi một câu riêng là 質問する; アンケート là bảng khảo sát.",
+        "Mượn sách dùng 借りる; khảo sát không phải mượn đồ.",
+        "アンケート（あんけーと）nghĩa bảng khảo sát; câu này dùng đúng đối tượng và tình huống.",
+        "Đặt lịch là 予約する; アンケート không phải nơi đặt chỗ."
+      ]
+    },
+    {
+      "id": "n2-dai9-28",
+      "type": "usage",
+      "word": "エプロン",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 52,
+      "prompt": "エプロン",
+      "origin": "authored",
+      "options": [
+        "寒いので足にエプロンを履いた。",
+        "雨の日に頭へエプロンをかぶった。",
+        "料理の味をエプロンで調整した。",
+        "料理中、首からエプロンを着けた。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Đồ mang ở chân là giày/tất; tạp dề mặc phía trước thân.",
+        "Che đầu bằng mũ/ô; tạp dề không phải mũ.",
+        "Điều chỉnh vị dùng gia vị; tạp dề bảo vệ quần áo.",
+        "エプロン（えぷろん）nghĩa tạp dề; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai9-29",
+      "type": "usage",
+      "word": "クイズ",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 62,
+      "prompt": "クイズ",
+      "origin": "authored",
+      "options": [
+        "みんなで日本語のクイズに答える。",
+        "店で飲み物のクイズを一杯注文した。",
+        "駅で東京行きのクイズを買った。",
+        "映画館の座席をクイズで予約した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "クイズ（くいず）nghĩa câu đố; trò đố vui; câu này dùng đúng đối tượng và tình huống.",
+        "Một cốc đồ uống không gọi là クイズ.",
+        "Thứ mua để đi tàu là 切符; クイズ là câu đố.",
+        "Đặt ghế qua trang web/ứng dụng; クイズ không phải phương tiện đặt chỗ."
+      ]
+    },
+    {
+      "id": "n2-dai9-30",
+      "type": "usage",
+      "word": "プリンター",
+      "source_file": "resources/N2/goi/dai9.csv",
+      "source_line": 101,
+      "prompt": "プリンター",
+      "origin": "authored",
+      "options": [
+        "プリンターで紙の書類を直接電話した。",
+        "プリンターで資料を印刷する。",
+        "プリンターで食材を冷蔵した。",
+        "プリンターで画面を指で操作した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Máy in không thực hiện cuộc gọi; cần điện thoại.",
+        "プリンター（ぷりんたー）nghĩa máy in; câu này dùng đúng đối tượng và tình huống.",
+        "Bảo quản lạnh dùng 冷蔵庫; máy in không có chức năng này.",
+        "Màn hình cảm ứng của thiết bị khác; プリンター chủ yếu dùng in giấy."
+      ]
+    }
+  ]
+}

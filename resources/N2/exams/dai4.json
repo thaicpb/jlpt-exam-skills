@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai4-30",
+  "title": "N2 · Bài 4 · 30 câu",
+  "level": "N2",
+  "lesson": "dai4",
+  "questions": [
+    {
+      "id": "n2-dai4-01",
+      "type": "reading",
+      "word": "制限",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 2,
+      "prompt": "入場者の人数を【制限】する。",
+      "origin": "authored",
+      "options": [
+        "せいげん",
+        "はっせいげん",
+        "ぜいげん",
+        "けいげん"
+      ],
+      "answer": 0,
+      "explanations": [
+        "制限（せいげん）: hạn chế; giới hạn. Đây là cách đọc của từ được hỏi.",
+        "発生源（はっせいげん）: nguồn phát sinh. Đây là cách đọc của từ khác, không phải 制限.",
+        "税源（ぜいげん）: nguồn thu thuế. Đây là cách đọc của từ khác, không phải 制限.",
+        "軽減（けいげん）: giảm bớt. Đây là cách đọc của từ khác, không phải 制限."
+      ],
+      "option_lexemes": [
+        {
+          "word": "制限",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 2,
+          "reading": "せいげん"
+        },
+        {
+          "word": "発生源",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 23,
+          "reading": "はっせいげん"
+        },
+        {
+          "word": "税源",
+          "source_file": "resources/N1/goi/dai39.csv",
+          "source_line": 22,
+          "reading": "ぜいげん"
+        },
+        {
+          "word": "軽減",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 42,
+          "reading": "けいげん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai4-02",
+      "type": "reading",
+      "word": "制服",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 4,
+      "prompt": "学校では【制服】を着る。",
+      "origin": "authored",
+      "options": [
+        "かいふく",
+        "せいふく",
+        "せいそく",
+        "せいさく"
+      ],
+      "answer": 1,
+      "explanations": [
+        "回復（かいふく）: hồi phục. Đây là cách đọc của từ khác, không phải 制服.",
+        "制服（せいふく）: đồng phục. Đây là cách đọc của từ được hỏi.",
+        "生息（せいそく）: sinh sống của động vật. Đây là cách đọc của từ khác, không phải 制服.",
+        "政策（せいさく）: chính sách. Đây là cách đọc của từ khác, không phải 制服."
+      ],
+      "option_lexemes": [
+        {
+          "word": "回復",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 47,
+          "reading": "かいふく"
+        },
+        {
+          "word": "制服",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 4,
+          "reading": "せいふく"
+        },
+        {
+          "word": "生息",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 69,
+          "reading": "せいそく"
+        },
+        {
+          "word": "政策",
+          "source_file": "resources/N1/goi/dai3.csv",
+          "source_line": 22,
+          "reading": "せいさく"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai4-03",
+      "type": "reading",
+      "word": "設備",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 5,
+      "prompt": "このホテルは【設備】が整っている。",
+      "origin": "authored",
+      "options": [
+        "せつ",
+        "しせつ",
+        "せつび",
+        "かせつ"
+      ],
+      "answer": 2,
+      "explanations": [
+        "説（せつ）: thuyết; quan điểm. Đây là cách đọc của từ khác, không phải 設備.",
+        "施設（しせつ）: cơ sở; công trình. Đây là cách đọc của từ khác, không phải 設備.",
+        "設備（せつび）: thiết bị; cơ sở vật chất. Đây là cách đọc của từ được hỏi.",
+        "仮説（かせつ）: giả thuyết. Đây là cách đọc của từ khác, không phải 設備."
+      ],
+      "option_lexemes": [
+        {
+          "word": "説",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 53,
+          "reading": "せつ"
+        },
+        {
+          "word": "施設",
+          "source_file": "resources/N2/goi/dai14.csv",
+          "source_line": 2,
+          "reading": "しせつ"
+        },
+        {
+          "word": "設備",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 5,
+          "reading": "せつび"
+        },
+        {
+          "word": "仮説",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 83,
+          "reading": "かせつ"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai4-04",
+      "type": "reading",
+      "word": "先日",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 6,
+      "prompt": "【先日】はありがとうございました。",
+      "origin": "authored",
+      "options": [
+        "せんじゅつ",
+        "ほんじつ",
+        "がんじつ",
+        "せんじつ"
+      ],
+      "answer": 3,
+      "explanations": [
+        "戦術（せんじゅつ）: chiến thuật. Đây là cách đọc của từ khác, không phải 先日.",
+        "本日（ほんじつ）: hôm nay. Đây là cách đọc của từ khác, không phải 先日.",
+        "元日（がんじつ）: ngày đầu năm. Đây là cách đọc của từ khác, không phải 先日.",
+        "先日（せんじつ）: hôm trước. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "戦術",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 96,
+          "reading": "せんじゅつ"
+        },
+        {
+          "word": "本日",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 22,
+          "reading": "ほんじつ"
+        },
+        {
+          "word": "元日",
+          "source_file": "resources/N1/goi/dai12.csv",
+          "source_line": 84,
+          "reading": "がんじつ"
+        },
+        {
+          "word": "先日",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 6,
+          "reading": "せんじつ"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai4-05",
+      "type": "reading",
+      "word": "洗濯",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 7,
+      "prompt": "晴れた日に服を【洗濯】する。",
+      "origin": "authored",
+      "options": [
+        "せんたく",
+        "せんぱく",
+        "きたく",
+        "じたく"
+      ],
+      "answer": 0,
+      "explanations": [
+        "洗濯（せんたく）: giặt giũ. Đây là cách đọc của từ được hỏi.",
+        "船舶（せんぱく）: tàu thuyền. Đây là cách đọc của từ khác, không phải 洗濯.",
+        "帰宅（きたく）: về nhà. Đây là cách đọc của từ khác, không phải 洗濯.",
+        "自宅（じたく）: nhà riêng. Đây là cách đọc của từ khác, không phải 洗濯."
+      ],
+      "option_lexemes": [
+        {
+          "word": "洗濯",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 7,
+          "reading": "せんたく"
+        },
+        {
+          "word": "船舶",
+          "source_file": "resources/N1/goi/dai17.csv",
+          "source_line": 2,
+          "reading": "せんぱく"
+        },
+        {
+          "word": "帰宅",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 48,
+          "reading": "きたく"
+        },
+        {
+          "word": "自宅",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 77,
+          "reading": "じたく"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai4-06",
+      "type": "orthography",
+      "word": "宣伝",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 8,
+      "prompt": "新商品をテレビで【せんでん】する。",
+      "origin": "authored",
+      "options": [
+        "宣言",
+        "宣伝",
+        "専門",
+        "専念"
+      ],
+      "answer": 1,
+      "explanations": [
+        "宣言（せんげん）: tuyên bố. Cách viết này không diễn đạt tuyên truyền; quảng bá trong câu.",
+        "宣伝（せんでん）: tuyên truyền; quảng bá. Cách viết và nghĩa đều khớp câu.",
+        "専門（せんもん）: chuyên môn. Cách viết này không diễn đạt tuyên truyền; quảng bá trong câu.",
+        "専念（せんねん）: chuyên tâm. Cách viết này không diễn đạt tuyên truyền; quảng bá trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-07",
+      "type": "orthography",
+      "word": "先輩",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 9,
+      "prompt": "仕事のやり方を【せんぱい】に教わる。",
+      "origin": "authored",
+      "options": [
+        "繊維",
+        "心配",
+        "先輩",
+        "船舶"
+      ],
+      "answer": 2,
+      "explanations": [
+        "繊維（せんい）: sợi. Cách viết này không diễn đạt tiền bối trong câu.",
+        "心配（しんぱい）: lo lắng. Cách viết này không diễn đạt tiền bối trong câu.",
+        "先輩（せんぱい）: tiền bối. Cách viết và nghĩa đều khớp câu.",
+        "船舶（せんぱく）: tàu thuyền. Cách viết này không diễn đạt tiền bối trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-08",
+      "type": "orthography",
+      "word": "専門",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 10,
+      "prompt": "大学で経済を【せんもん】に学ぶ。",
+      "origin": "authored",
+      "options": [
+        "専門家",
+        "専門店",
+        "専念",
+        "専門"
+      ],
+      "answer": 3,
+      "explanations": [
+        "専門家（せんもんか）: chuyên gia. Cách viết này không diễn đạt chuyên môn trong câu.",
+        "専門店（せんもんてん）: cửa hàng chuyên doanh. Cách viết này không diễn đạt chuyên môn trong câu.",
+        "専念（せんねん）: chuyên tâm. Cách viết này không diễn đạt chuyên môn trong câu.",
+        "専門（せんもん）: chuyên môn. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-09",
+      "type": "orthography",
+      "word": "全員",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 11,
+      "prompt": "参加者【ぜんいん】が写真に写った。",
+      "origin": "authored",
+      "options": [
+        "全員",
+        "満員",
+        "全盛",
+        "全然"
+      ],
+      "answer": 0,
+      "explanations": [
+        "全員（ぜんいん）: toàn bộ mọi người. Cách viết và nghĩa đều khớp câu.",
+        "満員（まんいん）: đầy người; hết chỗ. Cách viết này không diễn đạt toàn bộ mọi người trong câu.",
+        "全盛（ぜんせい）: thời cực thịnh. Cách viết này không diễn đạt toàn bộ mọi người trong câu.",
+        "全然（ぜんぜん）: hoàn toàn; chút nào (thường đi với phủ định). Cách viết này không diễn đạt toàn bộ mọi người trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-10",
+      "type": "orthography",
+      "word": "前後",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 12,
+      "prompt": "到着時刻は五分ほど【ぜんご】する。",
+      "origin": "authored",
+      "options": [
+        "禅",
+        "前後",
+        "以前",
+        "前途"
+      ],
+      "answer": 1,
+      "explanations": [
+        "禅（ぜん）: thiền; Thiền tông. Cách viết này không diễn đạt trước sau; xê dịch trong câu.",
+        "前後（ぜんご）: trước sau; xê dịch. Cách viết và nghĩa đều khớp câu.",
+        "以前（いぜん）: trước đây; trước. Cách viết này không diễn đạt trước sau; xê dịch trong câu.",
+        "前途（ぜんと）: tương lai; con đường phía trước. Cách viết này không diễn đạt trước sau; xê dịch trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-11",
+      "type": "formation",
+      "word": "通勤",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 43,
+      "prompt": "毎朝、電車で会社へ通（　）する。",
+      "origin": "authored",
+      "options": [
+        "訳",
+        "勤",
+        "学",
+        "路"
+      ],
+      "answer": 1,
+      "explanations": [
+        "通訳: phiên dịch. Từ này không diễn đạt đi làm trong tình huống đã nêu.",
+        "通勤: đi làm. Ghép thành từ phù hợp với tình huống trong câu.",
+        "通学: đi học. Từ này không diễn đạt đi làm trong tình huống đã nêu.",
+        "通路: lối đi. Từ này không diễn đạt đi làm trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "通",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai4-12",
+      "type": "formation",
+      "word": "定員",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 46,
+      "prompt": "この教室の（　）員は三十人で、それ以上は入れない。",
+      "origin": "authored",
+      "options": [
+        "教",
+        "職",
+        "定",
+        "会"
+      ],
+      "answer": 2,
+      "explanations": [
+        "教員: giáo viên. Từ này không diễn đạt sức chứa; số người quy định trong tình huống đã nêu.",
+        "職員: nhân viên. Từ này không diễn đạt sức chứa; số người quy định trong tình huống đã nêu.",
+        "定員: sức chứa; số người quy định. Ghép thành từ phù hợp với tình huống trong câu.",
+        "会員: hội viên; thành viên. Từ này không diễn đạt sức chứa; số người quy định trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "員"
+      }
+    },
+    {
+      "id": "n2-dai4-13",
+      "type": "formation",
+      "word": "店長",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 55,
+      "prompt": "店の責任者である（　）長がお客様に謝った。",
+      "origin": "authored",
+      "options": [
+        "課",
+        "所",
+        "店",
+        "市"
+      ],
+      "answer": 2,
+      "explanations": [
+        "課長: trưởng phòng. Từ này không diễn đạt quản lý cửa hàng trong tình huống đã nêu.",
+        "所長: giám đốc cơ sở. Từ này không diễn đạt quản lý cửa hàng trong tình huống đã nêu.",
+        "店長: quản lý cửa hàng. Ghép thành từ phù hợp với tình huống trong câu.",
+        "市長: thị trưởng. Từ này không diễn đạt quản lý cửa hàng trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "長"
+      }
+    },
+    {
+      "id": "n2-dai4-14",
+      "type": "context",
+      "word": "前半",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 13,
+      "prompt": "一時間の授業の（　）三十分で文法を学び、後半は練習した。",
+      "origin": "authored",
+      "options": [
+        "後半",
+        "前半",
+        "前後",
+        "途中"
+      ],
+      "answer": 1,
+      "explanations": [
+        "後半 nghĩa nửa sau. Trong câu này cần nửa đầu, nên từ này làm đổi nghĩa sự việc.",
+        "前半 nghĩa nửa đầu. Chi tiết trong câu mô tả đúng nửa đầu.",
+        "前後 nghĩa trước sau; xê dịch. Trong câu này cần nửa đầu, nên từ này làm đổi nghĩa sự việc.",
+        "途中 nghĩa giữa đường; giữa chừng. Trong câu này cần nửa đầu, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai4-15",
+      "type": "context",
+      "word": "倉庫",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 14,
+      "prompt": "まだ販売しない商品を（　）に保管する。",
+      "origin": "authored",
+      "options": [
+        "売店",
+        "書店",
+        "倉庫",
+        "会場"
+      ],
+      "answer": 2,
+      "explanations": [
+        "売店 nghĩa quầy bán hàng. Trong câu này cần nhà kho, nên từ này làm đổi nghĩa sự việc.",
+        "書店 nghĩa hiệu sách. Trong câu này cần nhà kho, nên từ này làm đổi nghĩa sự việc.",
+        "倉庫 nghĩa nhà kho. Chi tiết trong câu mô tả đúng nhà kho.",
+        "会場 nghĩa địa điểm tổ chức. Trong câu này cần nhà kho, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai4-16",
+      "type": "context",
+      "word": "掃除",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 15,
+      "prompt": "週末に床のほこりを拭き、部屋を（　）した。",
+      "origin": "authored",
+      "options": [
+        "洗濯",
+        "修理",
+        "整理",
+        "掃除"
+      ],
+      "answer": 3,
+      "explanations": [
+        "洗濯 nghĩa giặt giũ. Trong câu này cần quét dọn; lau chùi, nên từ này làm đổi nghĩa sự việc.",
+        "修理 nghĩa sửa chữa. Trong câu này cần quét dọn; lau chùi, nên từ này làm đổi nghĩa sự việc.",
+        "整理 nghĩa sắp xếp. Trong câu này cần quét dọn; lau chùi, nên từ này làm đổi nghĩa sự việc.",
+        "掃除 nghĩa quét dọn; lau chùi. Chi tiết trong câu mô tả đúng quét dọn; lau chùi."
+      ]
+    },
+    {
+      "id": "n2-dai4-17",
+      "type": "context",
+      "word": "送信",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 16,
+      "prompt": "書いたメールを相手に（　）する前に内容を確認した。",
+      "origin": "authored",
+      "options": [
+        "送信",
+        "受信",
+        "返信",
+        "保存"
+      ],
+      "answer": 0,
+      "explanations": [
+        "送信 nghĩa gửi; truyền đi. Chi tiết trong câu mô tả đúng gửi; truyền đi.",
+        "受信 nghĩa nhận tin. Trong câu này cần gửi; truyền đi, nên từ này làm đổi nghĩa sự việc.",
+        "返信 nghĩa trả lời thư. Trong câu này cần gửi; truyền đi, nên từ này làm đổi nghĩa sự việc.",
+        "保存 nghĩa bảo quản; lưu. Trong câu này cần gửi; truyền đi, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai4-18",
+      "type": "context",
+      "word": "早朝",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 18,
+      "prompt": "まだ日の出前の（　）に家を出発した。",
+      "origin": "authored",
+      "options": [
+        "夜間",
+        "早朝",
+        "昼間",
+        "深夜"
+      ],
+      "answer": 1,
+      "explanations": [
+        "夜間 nghĩa ban đêm. Trong câu này cần sáng sớm, nên từ này làm đổi nghĩa sự việc.",
+        "早朝 nghĩa sáng sớm. Chi tiết trong câu mô tả đúng sáng sớm.",
+        "昼間 nghĩa ban ngày. Trong câu này cần sáng sớm, nên từ này làm đổi nghĩa sự việc.",
+        "深夜 nghĩa đêm khuya. Trong câu này cần sáng sớm, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai4-19",
+      "type": "context",
+      "word": "相当",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 19,
+      "prompt": "予想した一時間を大幅に超え、（　）な時間がかかった。",
+      "origin": "authored",
+      "options": [
+        "重要",
+        "大切",
+        "相当",
+        "一定"
+      ],
+      "answer": 2,
+      "explanations": [
+        "重要 nghĩa quan trọng. Trong câu này cần tương đương; khá nhiều, nên từ này làm đổi nghĩa sự việc.",
+        "大切 nghĩa quan trọng; đáng trân trọng. Trong câu này cần tương đương; khá nhiều, nên từ này làm đổi nghĩa sự việc.",
+        "相当 nghĩa khá; đáng kể; tương đương. Chi tiết trong câu mô tả đúng tương đương; khá nhiều.",
+        "一定 nghĩa nhất định; cố định. Trong câu này cần tương đương; khá nhiều, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai4-20",
+      "type": "context",
+      "word": "送料",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 20,
+      "prompt": "通販では一万円以上買うと、商品の配送にかかる（　）が無料だ。",
+      "origin": "authored",
+      "options": [
+        "代金",
+        "料金",
+        "家賃",
+        "送料"
+      ],
+      "answer": 3,
+      "explanations": [
+        "代金 nghĩa tiền hàng; khoản thanh toán. Trong câu này cần phí vận chuyển, nên từ này làm đổi nghĩa sự việc.",
+        "料金 nghĩa phí; cước. Trong câu này cần phí vận chuyển, nên từ này làm đổi nghĩa sự việc.",
+        "家賃 nghĩa tiền thuê nhà. Trong câu này cần phí vận chuyển, nên từ này làm đổi nghĩa sự việc.",
+        "送料 nghĩa phí vận chuyển. Chi tiết trong câu mô tả đúng phí vận chuyển."
+      ]
+    },
+    {
+      "id": "n2-dai4-21",
+      "type": "paraphrase",
+      "word": "尊敬",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 22,
+      "prompt": "私は祖父を【尊敬する】。",
+      "origin": "authored",
+      "options": [
+        "敬う",
+        "比べる",
+        "認めない",
+        "打ち込む"
+      ],
+      "answer": 0,
+      "explanations": [
+        "敬う diễn đạt 'tôn kính; kính trọng' trong câu; đây là cách nói gần nghĩa nhất với 尊敬.",
+        "比べる diễn đạt 'so sánh' của 比較; khác với nghĩa 'tôn kính; kính trọng' của 尊敬 trong câu.",
+        "認めない diễn đạt 'phủ định' của 否定; khác với nghĩa 'tôn kính; kính trọng' của 尊敬 trong câu.",
+        "打ち込む diễn đạt 'nhập dữ liệu' của 入力; khác với nghĩa 'tôn kính; kính trọng' của 尊敬 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-22",
+      "type": "paraphrase",
+      "word": "比較",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 94,
+      "prompt": "二つの商品の価格を【比較する】。",
+      "origin": "authored",
+      "options": [
+        "認めない",
+        "比べる",
+        "打ち込む",
+        "声に出して言う"
+      ],
+      "answer": 1,
+      "explanations": [
+        "認めない diễn đạt 'phủ định' của 否定; khác với nghĩa 'so sánh' của 比較 trong câu.",
+        "比べる diễn đạt 'so sánh' trong câu; đây là cách nói gần nghĩa nhất với 比較.",
+        "打ち込む diễn đạt 'nhập dữ liệu' của 入力; khác với nghĩa 'so sánh' của 比較 trong câu.",
+        "声に出して言う diễn đạt 'phát âm' của 発音; khác với nghĩa 'so sánh' của 比較 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-23",
+      "type": "paraphrase",
+      "word": "否定",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 96,
+      "prompt": "相手の意見を【否定する】。",
+      "origin": "authored",
+      "options": [
+        "打ち込む",
+        "声に出して言う",
+        "認めない",
+        "敬う"
+      ],
+      "answer": 2,
+      "explanations": [
+        "打ち込む diễn đạt 'nhập dữ liệu' của 入力; khác với nghĩa 'phủ định' của 否定 trong câu.",
+        "声に出して言う diễn đạt 'phát âm' của 発音; khác với nghĩa 'phủ định' của 否定 trong câu.",
+        "認めない diễn đạt 'phủ định' trong câu; đây là cách nói gần nghĩa nhất với 否定.",
+        "敬う diễn đạt 'tôn kính; kính trọng' của 尊敬; khác với nghĩa 'phủ định' của 否定 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-24",
+      "type": "paraphrase",
+      "word": "入力",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 80,
+      "prompt": "番号を画面に【入力する】。",
+      "origin": "authored",
+      "options": [
+        "声に出して言う",
+        "敬う",
+        "比べる",
+        "打ち込む"
+      ],
+      "answer": 3,
+      "explanations": [
+        "声に出して言う diễn đạt 'phát âm' của 発音; khác với nghĩa 'nhập dữ liệu' của 入力 trong câu.",
+        "敬う diễn đạt 'tôn kính; kính trọng' của 尊敬; khác với nghĩa 'nhập dữ liệu' của 入力 trong câu.",
+        "比べる diễn đạt 'so sánh' của 比較; khác với nghĩa 'nhập dữ liệu' của 入力 trong câu.",
+        "打ち込む diễn đạt 'nhập dữ liệu' trong câu; đây là cách nói gần nghĩa nhất với 入力."
+      ]
+    },
+    {
+      "id": "n2-dai4-25",
+      "type": "paraphrase",
+      "word": "発音",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 89,
+      "prompt": "この単語を正しく【発音する】。",
+      "origin": "authored",
+      "options": [
+        "声に出して言う",
+        "敬う",
+        "比べる",
+        "認めない"
+      ],
+      "answer": 0,
+      "explanations": [
+        "声に出して言う diễn đạt 'phát âm' trong câu; đây là cách nói gần nghĩa nhất với 発音.",
+        "敬う diễn đạt 'tôn kính; kính trọng' của 尊敬; khác với nghĩa 'phát âm' của 発音 trong câu.",
+        "比べる diễn đạt 'so sánh' của 比較; khác với nghĩa 'phát âm' của 発音 trong câu.",
+        "認めない diễn đạt 'phủ định' của 否定; khác với nghĩa 'phát âm' của 発音 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai4-26",
+      "type": "usage",
+      "word": "清掃",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 3,
+      "prompt": "清掃",
+      "origin": "authored",
+      "options": [
+        "教室の机を数えて清掃した。",
+        "毎朝、教室を清掃する。",
+        "汚れた床を写真に撮って清掃した。",
+        "学校の時間割を新しく清掃した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Đếm bàn là 数える; 清掃 là làm sạch.",
+        "清掃（せいそう）nghĩa quét dọn; vệ sinh; câu này dùng đúng đối tượng và tình huống.",
+        "Chụp ảnh ghi lại vết bẩn chưa phải lau dọn.",
+        "Thời khóa biểu cần 変更・作成, không thể làm sạch theo nghĩa này."
+      ]
+    },
+    {
+      "id": "n2-dai4-27",
+      "type": "usage",
+      "word": "想像",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 17,
+      "prompt": "想像",
+      "origin": "authored",
+      "options": [
+        "昨日の出来事を実際に見たので想像した。",
+        "温度計の数字を見て気温を想像した。",
+        "未来の生活を想像する。",
+        "先生の説明をそのまま紙に想像した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Nếu đã trực tiếp thấy, đó là 記憶・観察, không phải hình dung điều chưa thấy.",
+        "Đọc chỉ số cụ thể là 確認する; 想像 là hình dung.",
+        "想像（そうぞう）nghĩa tưởng tượng; câu này dùng đúng đối tượng và tình huống.",
+        "Ghi lại lời giải thích là 記録する, không phải 想像する."
+      ]
+    },
+    {
+      "id": "n2-dai4-28",
+      "type": "usage",
+      "word": "転勤",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 53,
+      "prompt": "転勤",
+      "origin": "authored",
+      "options": [
+        "父は同じ支店で机だけを移して転勤した。",
+        "父は休日の旅行で大阪へ転勤した。",
+        "父は会社を辞めて自営業を始めたので転勤した。",
+        "父は大阪支店へ転勤する。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Đổi chỗ ngồi trong cùng chi nhánh không phải đổi nơi làm việc.",
+        "Đi du lịch không phải điều chuyển công tác.",
+        "Nghỉ việc mở kinh doanh khác với chuyển nơi làm trong công ty.",
+        "転勤（てんきん）nghĩa chuyển công tác; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai4-29",
+      "type": "usage",
+      "word": "納得",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 73,
+      "prompt": "納得",
+      "origin": "authored",
+      "options": [
+        "説明を聞いて納得した。",
+        "意味が分からないまま説明を聞いて納得した。",
+        "書類を封筒に入れて納得した。",
+        "先生に質問を一つ納得した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "納得（なっとく）nghĩa hiểu và chấp nhận; thuyết phục; câu này dùng đúng đối tượng và tình huống.",
+        "納得 là hiểu và chấp nhận, trái với vẫn không hiểu.",
+        "Cho giấy vào phong bì là thao tác vật lý, không phải sự hiểu/chấp nhận.",
+        "Hỏi một câu là 質問する; 納得 không phải đặt câu hỏi."
+      ]
+    },
+    {
+      "id": "n2-dai4-30",
+      "type": "usage",
+      "word": "発売",
+      "source_file": "resources/N2/goi/dai4.csv",
+      "source_line": 92,
+      "prompt": "発売",
+      "origin": "authored",
+      "options": [
+        "新商品を工場内で完成させただけで発売した。",
+        "新しいゲームが来月発売される。",
+        "図書館で古い本を無料で貸し出して発売した。",
+        "新しい店の扉を開けて発売した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Sản xuất xong chưa đồng nghĩa bán ra thị trường.",
+        "発売（はつばい）nghĩa phát hành; bán ra; câu này dùng đúng đối tượng và tình huống.",
+        "Cho mượn sách miễn phí là 貸し出す, không phải bán.",
+        "Mở cửa cửa hàng là 開店, không phải 発売 sản phẩm."
+      ]
+    }
+  ]
+}

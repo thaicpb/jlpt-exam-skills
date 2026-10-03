@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai2-30",
+  "title": "N2 · Bài 2 · 30 câu",
+  "level": "N2",
+  "lesson": "dai2",
+  "questions": [
+    {
+      "id": "n2-dai2-01",
+      "type": "reading",
+      "word": "各地",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 2,
+      "prompt": "【各地】で祭りが開かれる。",
+      "origin": "authored",
+      "options": [
+        "かくち",
+        "かち",
+        "かく",
+        "かくちょう"
+      ],
+      "answer": 0,
+      "explanations": [
+        "各地（かくち）: các nơi; các địa phương. Đây là cách đọc của từ được hỏi.",
+        "価値（かち）: giá trị. Đây là cách đọc của từ khác, không phải 各地.",
+        "描く（かく）: vẽ; miêu tả. Đây là cách đọc của từ khác, không phải 各地.",
+        "拡張（かくちょう）: mở rộng. Đây là cách đọc của từ khác, không phải 各地."
+      ],
+      "option_lexemes": [
+        {
+          "word": "各地",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 2,
+          "reading": "かくち"
+        },
+        {
+          "word": "価値",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 7,
+          "reading": "かち"
+        },
+        {
+          "word": "描く",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 75,
+          "reading": "かく"
+        },
+        {
+          "word": "拡張",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 58,
+          "reading": "かくちょう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai2-02",
+      "type": "reading",
+      "word": "確認",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 3,
+      "prompt": "予約内容を【確認】する。",
+      "origin": "authored",
+      "options": [
+        "かくしん",
+        "かくにん",
+        "かくさん",
+        "かん"
+      ],
+      "answer": 1,
+      "explanations": [
+        "確信（かくしん）: tin chắc. Đây là cách đọc của từ khác, không phải 確認.",
+        "確認（かくにん）: xác nhận; kiểm tra. Đây là cách đọc của từ được hỏi.",
+        "拡散（かくさん）: lan truyền; khuếch tán. Đây là cách đọc của từ khác, không phải 確認.",
+        "缶（かん）: lon; hộp kim loại. Đây là cách đọc của từ khác, không phải 確認."
+      ],
+      "option_lexemes": [
+        {
+          "word": "確信",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 56,
+          "reading": "かくしん"
+        },
+        {
+          "word": "確認",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 3,
+          "reading": "かくにん"
+        },
+        {
+          "word": "拡散",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 40,
+          "reading": "かくさん"
+        },
+        {
+          "word": "缶",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 19,
+          "reading": "かん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai2-03",
+      "type": "reading",
+      "word": "過去",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 4,
+      "prompt": "【過去】の経験から学ぶ。",
+      "origin": "authored",
+      "options": [
+        "かいこ",
+        "かこくな",
+        "かこ",
+        "か"
+      ],
+      "answer": 2,
+      "explanations": [
+        "解雇（かいこ）: sa thải, cho nghỉ việc. Đây là cách đọc của từ khác, không phải 過去.",
+        "過酷な（かこくな）: khắc nghiệt; tàn khốc. Đây là cách đọc của từ khác, không phải 過去.",
+        "過去（かこ）: quá khứ. Đây là cách đọc của từ được hỏi.",
+        "課（か）: bài; khoa; phòng ban. Đây là cách đọc của từ khác, không phải 過去."
+      ],
+      "option_lexemes": [
+        {
+          "word": "解雇",
+          "source_file": "resources/N1/goi/dai1.csv",
+          "source_line": 30,
+          "reading": "かいこ"
+        },
+        {
+          "word": "過酷な",
+          "source_file": "resources/N1/goi/dai31.csv",
+          "source_line": 71,
+          "reading": "かこくな"
+        },
+        {
+          "word": "過去",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 4,
+          "reading": "かこ"
+        },
+        {
+          "word": "課",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 13,
+          "reading": "か"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai2-04",
+      "type": "reading",
+      "word": "火災",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 5,
+      "prompt": "【火災】の原因を調べる。",
+      "origin": "authored",
+      "options": [
+        "かいさい",
+        "かっさい",
+        "かい",
+        "かさい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "開催（かいさい）: tổ chức. Đây là cách đọc của từ khác, không phải 火災.",
+        "喝采（かっさい）: tiếng vỗ tay tán thưởng. Đây là cách đọc của từ khác, không phải 火災.",
+        "甲斐（かい）: giá trị; thành quả xứng đáng. Đây là cách đọc của từ khác, không phải 火災.",
+        "火災（かさい）: hỏa hoạn. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "開催",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 40,
+          "reading": "かいさい"
+        },
+        {
+          "word": "喝采",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 55,
+          "reading": "かっさい"
+        },
+        {
+          "word": "甲斐",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 34,
+          "reading": "かい"
+        },
+        {
+          "word": "火災",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 5,
+          "reading": "かさい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai2-05",
+      "type": "reading",
+      "word": "花壇",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 6,
+      "prompt": "【花壇】に花を植える。",
+      "origin": "authored",
+      "options": [
+        "かだん",
+        "かいだん",
+        "かん",
+        "かくだんに"
+      ],
+      "answer": 0,
+      "explanations": [
+        "花壇（かだん）: bồn hoa. Đây là cách đọc của từ được hỏi.",
+        "階段（かいだん）: cầu thang. Đây là cách đọc của từ khác, không phải 花壇.",
+        "缶（かん）: lon; hộp kim loại. Đây là cách đọc của từ khác, không phải 花壇.",
+        "格段に（かくだんに）: vượt bậc; hơn hẳn. Đây là cách đọc của từ khác, không phải 花壇."
+      ],
+      "option_lexemes": [
+        {
+          "word": "花壇",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 6,
+          "reading": "かだん"
+        },
+        {
+          "word": "階段",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 99,
+          "reading": "かいだん"
+        },
+        {
+          "word": "缶",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 19,
+          "reading": "かん"
+        },
+        {
+          "word": "格段に",
+          "source_file": "resources/N1/goi/dai34.csv",
+          "source_line": 34,
+          "reading": "かくだんに"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai2-06",
+      "type": "orthography",
+      "word": "各国",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 9,
+      "prompt": "【かっこく】の代表が集まった。",
+      "origin": "authored",
+      "options": [
+        "格好",
+        "各国",
+        "勧告",
+        "即刻"
+      ],
+      "answer": 1,
+      "explanations": [
+        "格好（かっこう）: hình dáng; trang phục. Cách viết này không diễn đạt các nước trong câu.",
+        "各国（かっこく）: các nước. Cách viết và nghĩa đều khớp câu.",
+        "勧告（かんこく）: khuyến cáo chính thức. Cách viết này không diễn đạt các nước trong câu.",
+        "即刻（そっこく）: ngay lập tức. Cách viết này không diễn đạt các nước trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-07",
+      "type": "orthography",
+      "word": "活動",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 10,
+      "prompt": "地域でボランティア【かつどう】をする。",
+      "origin": "authored",
+      "options": [
+        "稼働",
+        "集う",
+        "活動",
+        "感動"
+      ],
+      "answer": 2,
+      "explanations": [
+        "稼働（かどう）: hoạt động; vận hành máy móc. Cách viết này không diễn đạt hoạt động trong câu.",
+        "集う（つどう）: tụ họp. Cách viết này không diễn đạt hoạt động trong câu.",
+        "活動（かつどう）: hoạt động. Cách viết và nghĩa đều khớp câu.",
+        "感動（かんどう）: cảm động. Cách viết này không diễn đạt hoạt động trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-08",
+      "type": "orthography",
+      "word": "家庭",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 11,
+      "prompt": "【かてい】でごみを分別する。",
+      "origin": "authored",
+      "options": [
+        "確定",
+        "改訂",
+        "鑑定",
+        "家庭"
+      ],
+      "answer": 3,
+      "explanations": [
+        "確定（かくてい）: xác định; chốt. Cách viết này không diễn đạt gia đình; hộ gia đình trong câu.",
+        "改訂（かいてい）: sửa đổi nội dung sách, văn bản. Cách viết này không diễn đạt gia đình; hộ gia đình trong câu.",
+        "鑑定（かんてい）: giám định. Cách viết này không diễn đạt gia đình; hộ gia đình trong câu.",
+        "家庭（かてい）: gia đình; hộ gia đình. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-09",
+      "type": "orthography",
+      "word": "花瓶",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 12,
+      "prompt": "【かびん】にばらを飾る。",
+      "origin": "authored",
+      "options": [
+        "花瓶",
+        "缶",
+        "便",
+        "花壇"
+      ],
+      "answer": 0,
+      "explanations": [
+        "花瓶（かびん）: lọ hoa. Cách viết và nghĩa đều khớp câu.",
+        "缶（かん）: lon; hộp kim loại. Cách viết này không diễn đạt lọ hoa trong câu.",
+        "便（びん）: chuyến; sự tiện lợi; thư từ. Cách viết này không diễn đạt lọ hoa trong câu.",
+        "花壇（かだん）: bồn hoa. Cách viết này không diễn đạt lọ hoa trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-10",
+      "type": "orthography",
+      "word": "髪型",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 13,
+      "prompt": "新しい【かみがた】がよく似合う。",
+      "origin": "authored",
+      "options": [
+        "方々",
+        "髪型",
+        "加味",
+        "小型"
+      ],
+      "answer": 1,
+      "explanations": [
+        "方々（かたがた）: các vị; nhiều người. Cách viết này không diễn đạt kiểu tóc trong câu.",
+        "髪型（かみがた）: kiểu tóc. Cách viết và nghĩa đều khớp câu.",
+        "加味（かみ）: tính đến; đưa thêm yếu tố vào cân nhắc. Cách viết này không diễn đạt kiểu tóc trong câu.",
+        "小型（こがた）: cỡ nhỏ. Cách viết này không diễn đạt kiểu tóc trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-11",
+      "type": "formation",
+      "word": "課長",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 8,
+      "prompt": "部下が仕事の進み具合を（　）長に報告した。",
+      "origin": "authored",
+      "options": [
+        "係",
+        "課",
+        "市",
+        "店"
+      ],
+      "answer": 1,
+      "explanations": [
+        "係長: trưởng nhóm; trưởng bộ phận. Từ này không diễn đạt trưởng phòng trong tình huống đã nêu.",
+        "課長: trưởng phòng. Ghép thành từ phù hợp với tình huống trong câu.",
+        "市長: thị trưởng. Từ này không diễn đạt trưởng phòng trong tình huống đã nêu.",
+        "店長: quản lý cửa hàng. Từ này không diễn đạt trưởng phòng trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "長"
+      }
+    },
+    {
+      "id": "n2-dai2-12",
+      "type": "formation",
+      "word": "記録",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 57,
+      "prompt": "毎日の気温をノートに記（　）する。",
+      "origin": "authored",
+      "options": [
+        "憶",
+        "事",
+        "録",
+        "入"
+      ],
+      "answer": 2,
+      "explanations": [
+        "記憶: ký ức; ghi nhớ. Từ này không diễn đạt ghi chép; kỷ lục trong tình huống đã nêu.",
+        "記事: bài báo. Từ này không diễn đạt ghi chép; kỷ lục trong tình huống đã nêu.",
+        "記録: ghi chép; kỷ lục. Ghép thành từ phù hợp với tình huống trong câu.",
+        "記入: ghi chép, điền vào. Từ này không diễn đạt ghi chép; kỷ lục trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "記",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai2-13",
+      "type": "formation",
+      "word": "館内",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 29,
+      "prompt": "美術館に入ると、（　）内での撮影は禁止だと告げられた。",
+      "origin": "authored",
+      "options": [
+        "園",
+        "館",
+        "機",
+        "県"
+      ],
+      "answer": 1,
+      "explanations": [
+        "園内: bên trong công viên. Từ này không diễn đạt bên trong tòa nhà trong tình huống đã nêu.",
+        "館内: bên trong tòa nhà. Ghép thành từ phù hợp với tình huống trong câu.",
+        "機内: bên trong máy bay. Từ này không diễn đạt bên trong tòa nhà trong tình huống đã nêu.",
+        "県内: trong tỉnh. Từ này không diễn đạt bên trong tòa nhà trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "内"
+      }
+    },
+    {
+      "id": "n2-dai2-14",
+      "type": "context",
+      "word": "観客",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 14,
+      "prompt": "舞台が終わると、客席の（　）が一斉に拍手した。",
+      "origin": "authored",
+      "options": [
+        "乗客",
+        "観客",
+        "顧客",
+        "会員"
+      ],
+      "answer": 1,
+      "explanations": [
+        "乗客 nghĩa hành khách. Trong câu này cần khán giả, nên từ này làm đổi nghĩa sự việc.",
+        "観客 nghĩa khán giả. Chi tiết trong câu mô tả đúng khán giả.",
+        "顧客 nghĩa khách hàng, khách quen. Trong câu này cần khán giả, nên từ này làm đổi nghĩa sự việc.",
+        "会員 nghĩa hội viên; thành viên. Trong câu này cần khán giả, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai2-15",
+      "type": "context",
+      "word": "環境",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 15,
+      "prompt": "工場の排水を減らして自然（　）を守る。",
+      "origin": "authored",
+      "options": [
+        "景色",
+        "気温",
+        "環境",
+        "空間"
+      ],
+      "answer": 2,
+      "explanations": [
+        "景色 nghĩa phong cảnh. Trong câu này cần môi trường, nên từ này làm đổi nghĩa sự việc.",
+        "気温 nghĩa nhiệt độ không khí. Trong câu này cần môi trường, nên từ này làm đổi nghĩa sự việc.",
+        "環境 nghĩa môi trường, hoàn cảnh. Chi tiết trong câu mô tả đúng môi trường.",
+        "空間 nghĩa không gian. Trong câu này cần môi trường, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai2-16",
+      "type": "context",
+      "word": "歓迎",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 17,
+      "prompt": "新しい社員を拍手で（　）する。",
+      "origin": "authored",
+      "options": [
+        "確認",
+        "感謝",
+        "観察",
+        "歓迎"
+      ],
+      "answer": 3,
+      "explanations": [
+        "確認 nghĩa xác nhận; kiểm tra. Trong câu này cần hoan nghênh; chào đón, nên từ này làm đổi nghĩa sự việc.",
+        "感謝 nghĩa cảm tạ, biết ơn. Trong câu này cần hoan nghênh; chào đón, nên từ này làm đổi nghĩa sự việc.",
+        "観察 nghĩa quan sát. Trong câu này cần hoan nghênh; chào đón, nên từ này làm đổi nghĩa sự việc.",
+        "歓迎 nghĩa hoan nghênh; chào đón. Chi tiết trong câu mô tả đúng hoan nghênh; chào đón."
+      ]
+    },
+    {
+      "id": "n2-dai2-17",
+      "type": "context",
+      "word": "感激",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 18,
+      "prompt": "思いがけない拍手を受け、胸がいっぱいになって（　）した。",
+      "origin": "authored",
+      "options": [
+        "感激",
+        "感心",
+        "緊張",
+        "安心"
+      ],
+      "answer": 0,
+      "explanations": [
+        "感激 nghĩa cảm kích; xúc động mạnh. Chi tiết trong câu mô tả đúng cảm kích; xúc động mạnh.",
+        "感心 nghĩa ngưỡng mộ, thán phục. Trong câu này cần cảm kích; xúc động mạnh, nên từ này làm đổi nghĩa sự việc.",
+        "緊張 nghĩa căng thẳng. Trong câu này cần cảm kích; xúc động mạnh, nên từ này làm đổi nghĩa sự việc.",
+        "安心 nghĩa yên tâm. Trong câu này cần cảm kích; xúc động mạnh, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai2-18",
+      "type": "context",
+      "word": "観光",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 19,
+      "prompt": "旅行中、京都の寺や神社を巡って（　）した。",
+      "origin": "authored",
+      "options": [
+        "観察",
+        "観光",
+        "通勤",
+        "営業"
+      ],
+      "answer": 1,
+      "explanations": [
+        "観察 nghĩa quan sát. Trong câu này cần tham quan; du lịch, nên từ này làm đổi nghĩa sự việc.",
+        "観光 nghĩa tham quan; du lịch. Chi tiết trong câu mô tả đúng tham quan; du lịch.",
+        "通勤 nghĩa đi làm. Trong câu này cần tham quan; du lịch, nên từ này làm đổi nghĩa sự việc.",
+        "営業 nghĩa kinh doanh; chuyến đi thăm các chùa và đền là 観光."
+      ]
+    },
+    {
+      "id": "n2-dai2-19",
+      "type": "context",
+      "word": "看護",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 20,
+      "prompt": "看護師が入院中の患者の食事や着替えを手伝い、（　）する。",
+      "origin": "authored",
+      "options": [
+        "観察",
+        "検査",
+        "看護",
+        "解説"
+      ],
+      "answer": 2,
+      "explanations": [
+        "観察 nghĩa quan sát. Trong câu này cần điều dưỡng; chăm sóc bệnh nhân, nên từ này làm đổi nghĩa sự việc.",
+        "検査 nghĩa kiểm tra, xét nghiệm. Trong câu này cần điều dưỡng; chăm sóc bệnh nhân, nên từ này làm đổi nghĩa sự việc.",
+        "看護 nghĩa điều dưỡng; chăm sóc bệnh nhân. Chi tiết trong câu mô tả đúng điều dưỡng; chăm sóc bệnh nhân.",
+        "解説 nghĩa giải thích. Trong câu này cần điều dưỡng; chăm sóc bệnh nhân, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai2-20",
+      "type": "context",
+      "word": "観察",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 21,
+      "prompt": "芽が出てから毎日、植物の成長の様子を（　）した。",
+      "origin": "authored",
+      "options": [
+        "観光",
+        "観戦",
+        "看護",
+        "観察"
+      ],
+      "answer": 3,
+      "explanations": [
+        "観光 là đi tham quan; câu theo dõi sự phát triển của cây.",
+        "観戦 là xem thi đấu thể thao; cây không thi đấu.",
+        "看護 là chăm sóc người bệnh; cây đang được theo dõi.",
+        "観察 là theo dõi kỹ quá trình phát triển của cây."
+      ]
+    },
+    {
+      "id": "n2-dai2-21",
+      "type": "paraphrase",
+      "word": "価値",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 7,
+      "prompt": "この本には読む【価値】がある。",
+      "origin": "authored",
+      "options": [
+        "値打ち",
+        "興味",
+        "弱いところ",
+        "基礎"
+      ],
+      "answer": 0,
+      "explanations": [
+        "値打ち diễn đạt 'giá trị' trong câu; đây là cách nói gần nghĩa nhất với 価値.",
+        "興味 diễn đạt 'sự quan tâm' của 関心; khác với nghĩa 'giá trị' của 価値 trong câu.",
+        "弱いところ diễn đạt 'khuyết điểm' của 欠点; khác với nghĩa 'giá trị' của 価値 trong câu.",
+        "基礎 diễn đạt 'cơ bản; nền tảng' của 基本; khác với nghĩa 'giá trị' của 価値 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-22",
+      "type": "paraphrase",
+      "word": "関心",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 24,
+      "prompt": "環境問題に【関心】がある。",
+      "origin": "authored",
+      "options": [
+        "弱いところ",
+        "興味",
+        "基礎",
+        "考えたこと"
+      ],
+      "answer": 1,
+      "explanations": [
+        "弱いところ diễn đạt 'khuyết điểm' của 欠点; khác với nghĩa 'sự quan tâm' của 関心 trong câu.",
+        "興味 diễn đạt 'sự quan tâm' trong câu; đây là cách nói gần nghĩa nhất với 関心.",
+        "基礎 diễn đạt 'cơ bản; nền tảng' của 基本; khác với nghĩa 'sự quan tâm' của 関心 trong câu.",
+        "考えたこと diễn đạt cảm tưởng; cảm nghĩ; khác nghĩa với 関心 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-23",
+      "type": "paraphrase",
+      "word": "欠点",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 78,
+      "prompt": "自分の【欠点】を直したい。",
+      "origin": "authored",
+      "options": [
+        "基礎",
+        "考えたこと",
+        "弱いところ",
+        "値打ち"
+      ],
+      "answer": 2,
+      "explanations": [
+        "基礎 diễn đạt 'cơ bản; nền tảng' của 基本; khác với nghĩa 'khuyết điểm' của 欠点 trong câu.",
+        "考えたこと diễn đạt cảm tưởng; cảm nghĩ; khác nghĩa với 欠点 trong câu.",
+        "弱いところ diễn đạt 'khuyết điểm' trong câu; đây là cách nói gần nghĩa nhất với 欠点.",
+        "値打ち diễn đạt 'giá trị' của 価値; khác với nghĩa 'khuyết điểm' của 欠点 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-24",
+      "type": "paraphrase",
+      "word": "基本",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 51,
+      "prompt": "【基本】から丁寧に勉強する。",
+      "origin": "authored",
+      "options": [
+        "考えたこと",
+        "値打ち",
+        "興味",
+        "基礎"
+      ],
+      "answer": 3,
+      "explanations": [
+        "考えたこと diễn đạt cảm tưởng; cảm nghĩ; khác nghĩa với 基本 trong câu.",
+        "値打ち diễn đạt 'giá trị' của 価値; khác với nghĩa 'cơ bản; nền tảng' của 基本 trong câu.",
+        "興味 diễn đạt 'sự quan tâm' của 関心; khác với nghĩa 'cơ bản; nền tảng' của 基本 trong câu.",
+        "基礎 diễn đạt 'cơ bản; nền tảng' trong câu; đây là cách nói gần nghĩa nhất với 基本."
+      ]
+    },
+    {
+      "id": "n2-dai2-25",
+      "type": "paraphrase",
+      "word": "感想",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 27,
+      "prompt": "映画の【感想】を書く。",
+      "origin": "authored",
+      "options": [
+        "考えたこと",
+        "値打ち",
+        "興味",
+        "弱いところ"
+      ],
+      "answer": 0,
+      "explanations": [
+        "考えたこと diễn đạt cảm tưởng; cảm nghĩ, gần nghĩa nhất với 感想 trong câu.",
+        "値打ち diễn đạt 'giá trị' của 価値; khác với nghĩa 'quan hệ; liên quan' của 関係 trong câu.",
+        "興味 diễn đạt 'sự quan tâm' của 関心; khác với nghĩa 'quan hệ; liên quan' của 関係 trong câu.",
+        "弱いところ diễn đạt 'khuyết điểm' của 欠点; khác với nghĩa 'quan hệ; liên quan' của 関係 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai2-26",
+      "type": "usage",
+      "word": "感謝",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 22,
+      "prompt": "感謝",
+      "origin": "authored",
+      "options": [
+        "家族に約束の時刻を感謝した。",
+        "家族の支えに感謝する。",
+        "医師に検査結果の数字を感謝した。",
+        "空港で切符の有効期限を感謝した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Giờ hẹn cần 確認, không phải lời cảm ơn.",
+        "感謝（かんしゃ）nghĩa cảm ơn; biết ơn; câu này dùng đúng đối tượng và tình huống.",
+        "Kết quả xét nghiệm cần 確認 hoặc 説明; 感謝 hướng đến sự giúp đỡ.",
+        "Thời hạn vé cần kiểm tra, không phải đối tượng được cảm ơn."
+      ]
+    },
+    {
+      "id": "n2-dai2-27",
+      "type": "usage",
+      "word": "外食",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 31,
+      "prompt": "外食",
+      "origin": "authored",
+      "options": [
+        "週末は家の台所で家族と外食した。",
+        "弁当を作って自宅で外食した。",
+        "週末は家族と外食する。",
+        "冷蔵庫の残り物を自宅で外食した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Ăn tại nhà là 内食 hoặc ăn ở nhà; 外食 là ăn ngoài.",
+        "Ăn cơm hộp ở nhà không phải ăn tại quán.",
+        "外食（がいしょく）nghĩa ăn ngoài; câu này dùng đúng đối tượng và tình huống.",
+        "Đồ ăn ở nhà không biến thành 外食 chỉ vì đổi món."
+      ]
+    },
+    {
+      "id": "n2-dai2-28",
+      "type": "usage",
+      "word": "競争",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 53,
+      "prompt": "競争",
+      "origin": "authored",
+      "options": [
+        "二社は同じ商品を共同開発して競争した。",
+        "両チームは勝敗を決めずに交流するため競争した。",
+        "上司は部下に仕事の手順を競争した。",
+        "二社が市場で競争する。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Cùng phát triển sản phẩm là hợp tác; 競争 là giành ưu thế.",
+        "Giao lưu không phân thắng bại không diễn đạt rõ 競争.",
+        "Hướng dẫn quy trình là 説明・指導, không phải thi đua.",
+        "競争（きょうそう）nghĩa cạnh tranh; thi đua; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai2-29",
+      "type": "usage",
+      "word": "苦労",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 63,
+      "prompt": "苦労",
+      "origin": "authored",
+      "options": [
+        "日本語の発音で苦労した。",
+        "簡単な作業がすぐ終わったので苦労した。",
+        "旅行の写真を友人に苦労した。",
+        "料理の味がよかったので苦労した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "苦労（くろう）nghĩa vất vả; khổ công; câu này dùng đúng đối tượng và tình huống.",
+        "Không có trở ngại thì không thể nói 苦労 theo nghĩa vất vả.",
+        "Ảnh du lịch cần 見せる hoặc 送る; 苦労 không phải hành động đó.",
+        "Khen hương vị là đánh giá món ăn, không phải vất vả."
+      ]
+    },
+    {
+      "id": "n2-dai2-30",
+      "type": "usage",
+      "word": "交換",
+      "source_file": "resources/N2/goi/dai2.csv",
+      "source_line": 91,
+      "prompt": "交換",
+      "origin": "authored",
+      "options": [
+        "古い電池を捨てるだけで新しい物と交換した。",
+        "古い電池を新しい物と交換する。",
+        "友人に道を尋ねて場所を交換した。",
+        "店員に値段を聞いて商品を交換した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "交換 cần đổi giữa hai vật; chỉ vứt bỏ thì không phải đổi.",
+        "交換（こうかん）nghĩa trao đổi; thay thế; câu này dùng đúng đối tượng và tình huống.",
+        "Hỏi đường là hỏi thông tin; 交換 không diễn đạt hỏi một chiều.",
+        "Hỏi giá không tự tạo việc đổi sản phẩm."
+      ]
+    }
+  ]
+}

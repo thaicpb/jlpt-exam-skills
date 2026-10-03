@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai5-30",
+  "title": "N2 · Bài 5 · 30 câu",
+  "level": "N2",
+  "lesson": "dai5",
+  "questions": [
+    {
+      "id": "n2-dai5-01",
+      "type": "reading",
+      "word": "昼間",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 2,
+      "prompt": "【昼間】は家に誰もいない。",
+      "origin": "authored",
+      "options": [
+        "ひるま",
+        "ひめる",
+        "ひろがる",
+        "ひっぱる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "昼間（ひるま）: ban ngày. Đây là cách đọc của từ được hỏi.",
+        "秘める（ひめる）: giấu kín; ẩn chứa. Đây là cách đọc của từ khác, không phải 昼間.",
+        "広がる（ひろがる）: lan rộng; mở rộng. Đây là cách đọc của từ khác, không phải 昼間.",
+        "引っ張る（ひっぱる）: kéo; lôi kéo. Đây là cách đọc của từ khác, không phải 昼間."
+      ],
+      "option_lexemes": [
+        {
+          "word": "昼間",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 2,
+          "reading": "ひるま"
+        },
+        {
+          "word": "秘める",
+          "source_file": "resources/N1/goi/dai27.csv",
+          "source_line": 88,
+          "reading": "ひめる"
+        },
+        {
+          "word": "広がる",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 57,
+          "reading": "ひろがる"
+        },
+        {
+          "word": "引っ張る",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 11,
+          "reading": "ひっぱる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai5-02",
+      "type": "reading",
+      "word": "複数",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 4,
+      "prompt": "【複数】の案から一つを選ぶ。",
+      "origin": "authored",
+      "options": [
+        "ふくごう",
+        "ふくすう",
+        "ふくそう",
+        "ふくつう"
+      ],
+      "answer": 1,
+      "explanations": [
+        "複合（ふくごう）: kết hợp nhiều yếu tố; phức hợp. Đây là cách đọc của từ khác, không phải 複数.",
+        "複数（ふくすう）: nhiều; số nhiều. Đây là cách đọc của từ được hỏi.",
+        "服装（ふくそう）: trang phục. Đây là cách đọc của từ khác, không phải 複数.",
+        "腹痛（ふくつう）: đau bụng. Đây là cách đọc của từ khác, không phải 複数."
+      ],
+      "option_lexemes": [
+        {
+          "word": "複合",
+          "source_file": "resources/N1/goi/dai4.csv",
+          "source_line": 35,
+          "reading": "ふくごう"
+        },
+        {
+          "word": "複数",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 4,
+          "reading": "ふくすう"
+        },
+        {
+          "word": "服装",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 5,
+          "reading": "ふくそう"
+        },
+        {
+          "word": "腹痛",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 6,
+          "reading": "ふくつう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai5-03",
+      "type": "reading",
+      "word": "服装",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 5,
+      "prompt": "面接に合う【服装】を選ぶ。",
+      "origin": "authored",
+      "options": [
+        "ふくすう",
+        "ふくつう",
+        "ふくそう",
+        "どくそう"
+      ],
+      "answer": 2,
+      "explanations": [
+        "複数（ふくすう）: nhiều; số nhiều. Đây là cách đọc của từ khác, không phải 服装.",
+        "腹痛（ふくつう）: đau bụng. Đây là cách đọc của từ khác, không phải 服装.",
+        "服装（ふくそう）: trang phục. Đây là cách đọc của từ được hỏi.",
+        "独創（どくそう）: sáng tạo độc đáo. Đây là cách đọc của từ khác, không phải 服装."
+      ],
+      "option_lexemes": [
+        {
+          "word": "複数",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 4,
+          "reading": "ふくすう"
+        },
+        {
+          "word": "腹痛",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 6,
+          "reading": "ふくつう"
+        },
+        {
+          "word": "服装",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 5,
+          "reading": "ふくそう"
+        },
+        {
+          "word": "独創",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 13,
+          "reading": "どくそう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai5-04",
+      "type": "reading",
+      "word": "腹痛",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 6,
+      "prompt": "急な【腹痛】で病院へ行った。",
+      "origin": "authored",
+      "options": [
+        "くつう",
+        "ふくすう",
+        "ふくそう",
+        "ふくつう"
+      ],
+      "answer": 3,
+      "explanations": [
+        "苦痛（くつう）: đau đớn. Đây là cách đọc của từ khác, không phải 腹痛.",
+        "複数（ふくすう）: nhiều; số nhiều. Đây là cách đọc của từ khác, không phải 腹痛.",
+        "服装（ふくそう）: trang phục. Đây là cách đọc của từ khác, không phải 腹痛.",
+        "腹痛（ふくつう）: đau bụng. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "苦痛",
+          "source_file": "resources/N2/goi/dai12.csv",
+          "source_line": 65,
+          "reading": "くつう"
+        },
+        {
+          "word": "複数",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 4,
+          "reading": "ふくすう"
+        },
+        {
+          "word": "服装",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 5,
+          "reading": "ふくそう"
+        },
+        {
+          "word": "腹痛",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 6,
+          "reading": "ふくつう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai5-05",
+      "type": "reading",
+      "word": "不足",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 7,
+      "prompt": "運動が【不足】している。",
+      "origin": "authored",
+      "options": [
+        "ふそく",
+        "ふく",
+        "ふくろ",
+        "きそく"
+      ],
+      "answer": 0,
+      "explanations": [
+        "不足（ふそく）: thiếu; không đủ. Đây là cách đọc của từ được hỏi.",
+        "拭く（ふく）: lau; chùi. Đây là cách đọc của từ khác, không phải 不足.",
+        "袋（ふくろ）: túi; bao. Đây là cách đọc của từ khác, không phải 不足.",
+        "規則（きそく）: quy tắc; nội quy. Đây là cách đọc của từ khác, không phải 不足."
+      ],
+      "option_lexemes": [
+        {
+          "word": "不足",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 7,
+          "reading": "ふそく"
+        },
+        {
+          "word": "拭く",
+          "source_file": "resources/N2/goi/dai7.csv",
+          "source_line": 59,
+          "reading": "ふく"
+        },
+        {
+          "word": "袋",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 44,
+          "reading": "ふくろ"
+        },
+        {
+          "word": "規則",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 45,
+          "reading": "きそく"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai5-06",
+      "type": "orthography",
+      "word": "古着",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 8,
+      "prompt": "【ふるぎ】の店で上着を買った。",
+      "origin": "authored",
+      "options": [
+        "降る",
+        "古着",
+        "増える",
+        "悪気"
+      ],
+      "answer": 1,
+      "explanations": [
+        "降る（ふる）: rơi; mưa; tuyết rơi. Cách viết này không diễn đạt quần áo cũ; đồ đã qua sử dụng trong câu.",
+        "古着（ふるぎ）: quần áo cũ; đồ đã qua sử dụng. Cách viết và nghĩa đều khớp câu.",
+        "増える（ふえる）: tăng lên. Cách viết này không diễn đạt quần áo cũ; đồ đã qua sử dụng trong câu.",
+        "悪気（わるぎ）: ác ý; ý xấu. Cách viết này không diễn đạt quần áo cũ; đồ đã qua sử dụng trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-07",
+      "type": "orthography",
+      "word": "部下",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 9,
+      "prompt": "【ぶか】に仕事を任せる。",
+      "origin": "authored",
+      "options": [
+        "株価",
+        "課",
+        "部下",
+        "分解"
+      ],
+      "answer": 2,
+      "explanations": [
+        "株価（かぶか）: giá cổ phiếu. Cách viết này không diễn đạt cấp dưới trong câu.",
+        "課（か）: bài; khoa; phòng ban. Cách viết này không diễn đạt cấp dưới trong câu.",
+        "部下（ぶか）: cấp dưới. Cách viết và nghĩa đều khớp câu.",
+        "分解（ぶんかい）: tháo rời; phân giải; phân hủy. Cách viết này không diễn đạt cấp dưới trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-08",
+      "type": "orthography",
+      "word": "部品",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 10,
+      "prompt": "壊れた機械の【ぶひん】を交換する。",
+      "origin": "authored",
+      "options": [
+        "部分",
+        "気品",
+        "部門",
+        "部品"
+      ],
+      "answer": 3,
+      "explanations": [
+        "部分（ぶぶん）: bộ phận; phần. Cách viết này không diễn đạt linh kiện; phụ tùng trong câu.",
+        "気品（きひん）: sự thanh lịch; phẩm cách cao quý. Cách viết này không diễn đạt linh kiện; phụ tùng trong câu.",
+        "部門（ぶもん）: bộ phận; lĩnh vực; hạng mục. Cách viết này không diễn đạt linh kiện; phụ tùng trong câu.",
+        "部品（ぶひん）: linh kiện; phụ tùng. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-09",
+      "type": "orthography",
+      "word": "部分",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 11,
+      "prompt": "分からない【ぶぶん】を先生に聞く。",
+      "origin": "authored",
+      "options": [
+        "部分",
+        "部品",
+        "区分",
+        "部門"
+      ],
+      "answer": 0,
+      "explanations": [
+        "部分（ぶぶん）: bộ phận; phần. Cách viết và nghĩa đều khớp câu.",
+        "部品（ぶひん）: linh kiện; phụ tùng. Cách viết này không diễn đạt bộ phận; phần trong câu.",
+        "区分（くぶん）: phân chia; phân loại. Cách viết này không diễn đạt bộ phận; phần trong câu.",
+        "部門（ぶもん）: bộ phận; lĩnh vực; hạng mục. Cách viết này không diễn đạt bộ phận; phần trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-10",
+      "type": "orthography",
+      "word": "変化",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 13,
+      "prompt": "季節によって景色が【へんか】する。",
+      "origin": "authored",
+      "options": [
+        "変換",
+        "変化",
+        "変革",
+        "酸化"
+      ],
+      "answer": 1,
+      "explanations": [
+        "変換（へんかん）: chuyển đổi (dạng thức, mã, đơn vị). Cách viết này không diễn đạt thay đổi; biến đổi trong câu.",
+        "変化（へんか）: thay đổi; biến đổi. Cách viết và nghĩa đều khớp câu.",
+        "変革（へんかく）: biến đổi căn bản. Cách viết này không diễn đạt thay đổi; biến đổi trong câu.",
+        "酸化（さんか）: oxy hóa. Cách viết này không diễn đạt thay đổi; biến đổi trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-11",
+      "type": "formation",
+      "word": "有料",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 53,
+      "prompt": "一時間三百円かかるので、この駐車場は（　）料です。",
+      "origin": "authored",
+      "options": [
+        "無",
+        "有",
+        "送",
+        "食"
+      ],
+      "answer": 1,
+      "explanations": [
+        "無料: miễn phí. Từ này không diễn đạt có phí; tính phí trong tình huống đã nêu.",
+        "有料: có phí; tính phí. Ghép thành từ phù hợp với tình huống trong câu.",
+        "送料: phí vận chuyển. Từ này không diễn đạt có phí; tính phí trong tình huống đã nêu.",
+        "食料: lương thực. Từ này không diễn đạt có phí; tính phí trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "料"
+      }
+    },
+    {
+      "id": "n2-dai5-12",
+      "type": "formation",
+      "word": "満員",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 29,
+      "prompt": "立つ場所がないほど朝の電車は（　）員だった。",
+      "origin": "authored",
+      "options": [
+        "全",
+        "満",
+        "職",
+        "定"
+      ],
+      "answer": 1,
+      "explanations": [
+        "全員: toàn bộ mọi người. Từ này không diễn đạt đầy người; hết chỗ trong tình huống đã nêu.",
+        "満員: đầy người; hết chỗ. Ghép thành từ phù hợp với tình huống trong câu.",
+        "職員: nhân viên. Từ này không diễn đạt đầy người; hết chỗ trong tình huống đã nêu.",
+        "定員: sức chứa; số người quy định. Từ này không diễn đạt đầy người; hết chỗ trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "員"
+      }
+    },
+    {
+      "id": "n2-dai5-13",
+      "type": "formation",
+      "word": "夜間",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 44,
+      "prompt": "午後十時から翌朝までの（　）間は入口を閉めます。",
+      "origin": "authored",
+      "options": [
+        "昼",
+        "期",
+        "夜",
+        "区"
+      ],
+      "answer": 2,
+      "explanations": [
+        "昼間: ban ngày. Từ này không diễn đạt ban đêm trong tình huống đã nêu.",
+        "期間: thời gian; giai đoạn. Từ này không diễn đạt ban đêm trong tình huống đã nêu.",
+        "夜間: ban đêm. Ghép thành từ phù hợp với tình huống trong câu.",
+        "区間: đoạn; khu vực. Từ này không diễn đạt ban đêm trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "間"
+      }
+    },
+    {
+      "id": "n2-dai5-14",
+      "type": "context",
+      "word": "弁当",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 14,
+      "prompt": "自分で作って箱に詰めた（　）を昼休みに食べた。",
+      "origin": "authored",
+      "options": [
+        "朝食",
+        "弁当",
+        "夕食",
+        "給食"
+      ],
+      "answer": 1,
+      "explanations": [
+        "朝食 nghĩa bữa sáng. Trong câu này cần cơm hộp, nên từ này làm đổi nghĩa sự việc.",
+        "弁当 nghĩa cơm hộp. Chi tiết trong câu mô tả đúng cơm hộp.",
+        "夕食 nghĩa bữa tối. Trong câu này cần cơm hộp, nên từ này làm đổi nghĩa sự việc.",
+        "給食 nghĩa bữa ăn do trường, cơ quan cung cấp. Trong câu này cần cơm hộp, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai5-15",
+      "type": "context",
+      "word": "包丁",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 17,
+      "prompt": "まな板の上で野菜を切るために（　）を使う。",
+      "origin": "authored",
+      "options": [
+        "箸",
+        "棒",
+        "包丁",
+        "はさみ"
+      ],
+      "answer": 2,
+      "explanations": [
+        "箸 nghĩa đũa. Trong câu này cần dao làm bếp, nên từ này làm đổi nghĩa sự việc.",
+        "棒 nghĩa gậy; que. Trong câu này cần dao làm bếp, nên từ này làm đổi nghĩa sự việc.",
+        "包丁 nghĩa dao làm bếp. Chi tiết trong câu mô tả đúng dao làm bếp.",
+        "はさみ nghĩa cái kéo. Trong câu này cần dao làm bếp, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai5-16",
+      "type": "context",
+      "word": "方法",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 18,
+      "prompt": "より効率よく勉強する（　）を探している。",
+      "origin": "authored",
+      "options": [
+        "方向",
+        "見方",
+        "目標",
+        "方法"
+      ],
+      "answer": 3,
+      "explanations": [
+        "方向 nghĩa phương hướng. Trong câu này cần phương pháp, nên từ này làm đổi nghĩa sự việc.",
+        "見方 nghĩa cách nhìn; quan điểm. Trong câu này cần phương pháp, nên từ này làm đổi nghĩa sự việc.",
+        "目標 nghĩa mục tiêu. Trong câu này cần phương pháp, nên từ này làm đổi nghĩa sự việc.",
+        "方法 nghĩa phương pháp. Chi tiết trong câu mô tả đúng phương pháp."
+      ]
+    },
+    {
+      "id": "n2-dai5-17",
+      "type": "context",
+      "word": "保存",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 20,
+      "prompt": "作った資料のデータを消さないようパソコンに（　）した。",
+      "origin": "authored",
+      "options": [
+        "保存",
+        "印刷",
+        "送信",
+        "回収"
+      ],
+      "answer": 0,
+      "explanations": [
+        "保存 nghĩa bảo quản; lưu. Chi tiết trong câu mô tả đúng bảo quản; lưu.",
+        "印刷 nghĩa in ấn. Trong câu này cần bảo quản; lưu, nên từ này làm đổi nghĩa sự việc.",
+        "送信 nghĩa gửi; truyền đi. Trong câu này cần bảo quản; lưu, nên từ này làm đổi nghĩa sự việc.",
+        "回収 nghĩa thu hồi. Trong câu này cần bảo quản; lưu, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai5-18",
+      "type": "context",
+      "word": "歩道",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 21,
+      "prompt": "車から離れて安全に歩ける道路脇の（　）を歩く。",
+      "origin": "authored",
+      "options": [
+        "車道",
+        "歩道",
+        "高速道路",
+        "通路"
+      ],
+      "answer": 1,
+      "explanations": [
+        "車道 nghĩa phần đường cho xe. Trong câu này cần vỉa hè; lối đi bộ, nên từ này làm đổi nghĩa sự việc.",
+        "歩道 nghĩa vỉa hè; lối đi bộ. Chi tiết trong câu mô tả đúng vỉa hè; lối đi bộ.",
+        "高速道路 nghĩa đường cao tốc. Trong câu này cần vỉa hè; lối đi bộ, nên từ này làm đổi nghĩa sự việc.",
+        "通路 nghĩa lối đi. Trong câu này cần vỉa hè; lối đi bộ, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai5-19",
+      "type": "context",
+      "word": "本日",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 22,
+      "prompt": "店の入り口に「（　）は休業いたします」と今日の日付で掲示した。",
+      "origin": "authored",
+      "options": [
+        "翌日",
+        "先日",
+        "本日",
+        "昨日"
+      ],
+      "answer": 2,
+      "explanations": [
+        "翌日 nghĩa ngày hôm sau. Trong câu này cần hôm nay, nên từ này làm đổi nghĩa sự việc.",
+        "先日 nghĩa hôm trước. Trong câu này cần hôm nay, nên từ này làm đổi nghĩa sự việc.",
+        "本日 nghĩa hôm nay (trang trọng). Chi tiết trong câu mô tả đúng hôm nay.",
+        "昨日 nghĩa hôm qua. Trong câu này cần hôm nay, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai5-20",
+      "type": "context",
+      "word": "本棚",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 23,
+      "prompt": "背表紙が何冊も並ぶ部屋の（　）に、読んだ本を戻した。",
+      "origin": "authored",
+      "options": [
+        "書店",
+        "倉庫",
+        "机",
+        "本棚"
+      ],
+      "answer": 3,
+      "explanations": [
+        "書店 nghĩa hiệu sách. Trong câu này cần giá sách, nên từ này làm đổi nghĩa sự việc.",
+        "倉庫 nghĩa nhà kho. Trong câu này cần giá sách, nên từ này làm đổi nghĩa sự việc.",
+        "机 nghĩa bàn. Trong câu này cần giá sách, nên từ này làm đổi nghĩa sự việc.",
+        "本棚 nghĩa giá sách. Chi tiết trong câu mô tả đúng giá sách."
+      ]
+    },
+    {
+      "id": "n2-dai5-21",
+      "type": "paraphrase",
+      "word": "夫婦",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 3,
+      "prompt": "あの【夫婦】は仲がいい。",
+      "origin": "authored",
+      "options": [
+        "結婚した二人",
+        "向き",
+        "事実",
+        "友人同士の絆"
+      ],
+      "answer": 0,
+      "explanations": [
+        "結婚した二人 diễn đạt 'vợ chồng' trong câu; đây là cách nói gần nghĩa nhất với 夫婦.",
+        "向き diễn đạt 'phương hướng' của 方向; khác với nghĩa 'vợ chồng' của 夫婦 trong câu.",
+        "事実 diễn đạt 'sự thật; thực sự' của 本当; khác với nghĩa 'vợ chồng' của 夫婦 trong câu.",
+        "友人同士の絆 diễn đạt 'tình bạn' của 友情; khác với nghĩa 'vợ chồng' của 夫婦 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-22",
+      "type": "paraphrase",
+      "word": "方向",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 15,
+      "prompt": "駅の【方向】へ歩く。",
+      "origin": "authored",
+      "options": [
+        "事実",
+        "向き",
+        "友人同士の絆",
+        "当然"
+      ],
+      "answer": 1,
+      "explanations": [
+        "事実 diễn đạt 'sự thật; thực sự' của 本当; khác với nghĩa 'phương hướng' của 方向 trong câu.",
+        "向き diễn đạt 'phương hướng' trong câu; đây là cách nói gần nghĩa nhất với 方向.",
+        "友人同士の絆 diễn đạt 'tình bạn' của 友情; khác với nghĩa 'phương hướng' của 方向 trong câu.",
+        "当然 diễn đạt 'đương nhiên; hiển nhiên' của 当たり前; khác với nghĩa 'phương hướng' của 方向 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-23",
+      "type": "paraphrase",
+      "word": "本当",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 24,
+      "prompt": "その話は【本当】ですか。",
+      "origin": "authored",
+      "options": [
+        "友人同士の絆",
+        "当然",
+        "事実",
+        "結婚した二人"
+      ],
+      "answer": 2,
+      "explanations": [
+        "友人同士の絆 diễn đạt 'tình bạn' của 友情; khác với nghĩa 'sự thật; thực sự' của 本当 trong câu.",
+        "当然 diễn đạt 'đương nhiên; hiển nhiên' của 当たり前; khác với nghĩa 'sự thật; thực sự' của 本当 trong câu.",
+        "事実 diễn đạt 'sự thật; thực sự' trong câu; đây là cách nói gần nghĩa nhất với 本当.",
+        "結婚した二人 diễn đạt 'vợ chồng' của 夫婦; khác với nghĩa 'sự thật; thực sự' của 本当 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-24",
+      "type": "paraphrase",
+      "word": "友情",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 50,
+      "prompt": "長い【友情】を大切にする。",
+      "origin": "authored",
+      "options": [
+        "当然",
+        "結婚した二人",
+        "向き",
+        "友人同士の絆"
+      ],
+      "answer": 3,
+      "explanations": [
+        "当然 diễn đạt 'đương nhiên; hiển nhiên' của 当たり前; khác với nghĩa 'tình bạn' của 友情 trong câu.",
+        "結婚した二人 diễn đạt 'vợ chồng' của 夫婦; khác với nghĩa 'tình bạn' của 友情 trong câu.",
+        "向き diễn đạt 'phương hướng' của 方向; khác với nghĩa 'tình bạn' của 友情 trong câu.",
+        "友人同士の絆 diễn đạt 'tình bạn' trong câu; đây là cách nói gần nghĩa nhất với 友情."
+      ]
+    },
+    {
+      "id": "n2-dai5-25",
+      "type": "paraphrase",
+      "word": "当たり前",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 71,
+      "prompt": "約束を守るのは【当たり前】だ。",
+      "origin": "authored",
+      "options": [
+        "当然",
+        "結婚した二人",
+        "向き",
+        "事実"
+      ],
+      "answer": 0,
+      "explanations": [
+        "当然 diễn đạt 'đương nhiên; hiển nhiên' trong câu; đây là cách nói gần nghĩa nhất với 当たり前.",
+        "結婚した二人 diễn đạt 'vợ chồng' của 夫婦; khác với nghĩa 'đương nhiên; hiển nhiên' của 当たり前 trong câu.",
+        "向き diễn đạt 'phương hướng' của 方向; khác với nghĩa 'đương nhiên; hiển nhiên' của 当たり前 trong câu.",
+        "事実 diễn đạt 'sự thật; thực sự' của 本当; khác với nghĩa 'đương nhiên; hiển nhiên' của 当たり前 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai5-26",
+      "type": "usage",
+      "word": "分類",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 12,
+      "prompt": "分類",
+      "origin": "authored",
+      "options": [
+        "本の題名を声に出して分類した。",
+        "本を内容ごとに分類する。",
+        "資料を一枚だけコピーして分類した。",
+        "会議の開始時刻を決めて分類した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Đọc tên sách không phải chia thành nhóm.",
+        "分類（ぶんるい）nghĩa phân loại; câu này dùng đúng đối tượng và tình huống.",
+        "Sao chép một tờ là 複写, không phải 分類.",
+        "Ấn định giờ là 決める, không phải phân loại."
+      ]
+    },
+    {
+      "id": "n2-dai5-27",
+      "type": "usage",
+      "word": "報告",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 16,
+      "prompt": "報告",
+      "origin": "authored",
+      "options": [
+        "上司に会議の結果を質問して報告した。",
+        "調査を始める前に結果を事実として報告した。",
+        "調査の結果を上司に報告する。",
+        "家で一人、誰にも伝えずに報告した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Hỏi để biết kết quả là 質問; 報告 là trình bày thông tin đã biết.",
+        "Chưa điều tra thì không thể báo cáo kết quả như sự thật.",
+        "報告（ほうこく）nghĩa báo cáo; câu này dùng đúng đối tượng và tình huống.",
+        "報告 hướng đến người nhận thông tin; tự giữ kín không phải báo cáo."
+      ]
+    },
+    {
+      "id": "n2-dai5-28",
+      "type": "usage",
+      "word": "訪問",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 19,
+      "prompt": "訪問",
+      "origin": "authored",
+      "options": [
+        "来週、取引先に電話だけをかけて訪問する。",
+        "商品を郵送しただけで顧客を訪問した。",
+        "地図で友人の家を確認して訪問した。",
+        "来週、取引先を訪問する。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Chỉ gọi điện không phải đến tận nơi.",
+        "Gửi bưu điện không phải tới gặp khách.",
+        "Chỉ xem vị trí chưa phải đến thăm.",
+        "訪問（ほうもん）nghĩa thăm; đến thăm; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai5-29",
+      "type": "usage",
+      "word": "面接",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 39,
+      "prompt": "面接",
+      "origin": "authored",
+      "options": [
+        "明日、会社の面接を受ける。",
+        "会社の面接を受ける前に履歴書を面接した。",
+        "新しい靴のサイズを店で面接した。",
+        "友人と映画の感想を面接した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "面接（めんせつ）nghĩa phỏng vấn; câu này dùng đúng đối tượng và tình huống.",
+        "履歴書 là giấy tờ để đọc/xem; 面接 là cuộc gặp hỏi đáp với người.",
+        "Thử cỡ giày dùng 試着・確認, không phải 面接.",
+        "Trao đổi cảm nhận là 会話; 面接 là buổi phỏng vấn."
+      ]
+    },
+    {
+      "id": "n2-dai5-30",
+      "type": "usage",
+      "word": "流行",
+      "source_file": "resources/N2/goi/dai5.csv",
+      "source_line": 60,
+      "prompt": "流行",
+      "origin": "authored",
+      "options": [
+        "今年だけでなく昔から変わらない習慣が突然流行したと決めつけた。",
+        "今年は短い髪型が流行している。",
+        "店が一つ開いただけで町全体に流行した。",
+        "自分一人だけが着ている服を全国で流行したと言った。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Nếu không có sự lan rộng mới, câu không chứng minh 流行.",
+        "流行（りゅうこう）nghĩa thịnh hành; lưu hành; câu này dùng đúng đối tượng và tình huống.",
+        "Một cửa hàng mở chưa cho thấy xu hướng lan rộng.",
+        "Một người mặc chưa chứng minh đang thịnh hành trên toàn quốc."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai3-30",
+  "title": "N2 · Bài 3 · 30 câu",
+  "level": "N2",
+  "lesson": "dai3",
+  "questions": [
+    {
+      "id": "n2-dai3-01",
+      "type": "reading",
+      "word": "後方",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 3,
+      "prompt": "【後方】の席に座ってください。",
+      "origin": "authored",
+      "options": [
+        "こうほう",
+        "こうほ",
+        "ほうほう",
+        "こうくう"
+      ],
+      "answer": 0,
+      "explanations": [
+        "後方（こうほう）: phía sau; đằng sau. Đây là cách đọc của từ được hỏi.",
+        "候補（こうほ）: ứng viên. Đây là cách đọc của từ khác, không phải 後方.",
+        "方法（ほうほう）: phương pháp. Đây là cách đọc của từ khác, không phải 後方.",
+        "航空（こうくう）: hàng không. Đây là cách đọc của từ khác, không phải 後方."
+      ],
+      "option_lexemes": [
+        {
+          "word": "後方",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 3,
+          "reading": "こうほう"
+        },
+        {
+          "word": "候補",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 38,
+          "reading": "こうほ"
+        },
+        {
+          "word": "方法",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 18,
+          "reading": "ほうほう"
+        },
+        {
+          "word": "航空",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 96,
+          "reading": "こうくう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai3-02",
+      "type": "reading",
+      "word": "交流",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 4,
+      "prompt": "留学生と【交流】する機会がある。",
+      "origin": "authored",
+      "options": [
+        "こうきゅう",
+        "こうりゅう",
+        "こうしゅう",
+        "こうにゅう"
+      ],
+      "answer": 1,
+      "explanations": [
+        "高級（こうきゅう）: cao cấp. Đây là cách đọc của từ khác, không phải 交流.",
+        "交流（こうりゅう）: giao lưu; trao đổi. Đây là cách đọc của từ được hỏi.",
+        "公衆（こうしゅう）: công chúng. Đây là cách đọc của từ khác, không phải 交流.",
+        "購入（こうにゅう）: mua. Đây là cách đọc của từ khác, không phải 交流."
+      ],
+      "option_lexemes": [
+        {
+          "word": "高級",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 18,
+          "reading": "こうきゅう"
+        },
+        {
+          "word": "交流",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 4,
+          "reading": "こうりゅう"
+        },
+        {
+          "word": "公衆",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 28,
+          "reading": "こうしゅう"
+        },
+        {
+          "word": "購入",
+          "source_file": "resources/N2/goi/dai13.csv",
+          "source_line": 36,
+          "reading": "こうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai3-03",
+      "type": "reading",
+      "word": "国語",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 5,
+      "prompt": "【国語】の授業で小説を読む。",
+      "origin": "authored",
+      "options": [
+        "きこく",
+        "じこく",
+        "こくご",
+        "ちこく"
+      ],
+      "answer": 2,
+      "explanations": [
+        "帰国（きこく）: về nước. Đây là cách đọc của từ khác, không phải 国語.",
+        "時刻（じこく）: thời khắc; giờ. Đây là cách đọc của từ khác, không phải 国語.",
+        "国語（こくご）: quốc ngữ; môn tiếng Nhật. Đây là cách đọc của từ được hỏi.",
+        "遅刻（ちこく）: đến muộn. Đây là cách đọc của từ khác, không phải 国語."
+      ],
+      "option_lexemes": [
+        {
+          "word": "帰国",
+          "source_file": "resources/N2/goi/dai2.csv",
+          "source_line": 42,
+          "reading": "きこく"
+        },
+        {
+          "word": "時刻",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 72,
+          "reading": "じこく"
+        },
+        {
+          "word": "国語",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 5,
+          "reading": "こくご"
+        },
+        {
+          "word": "遅刻",
+          "source_file": "resources/N2/goi/dai4.csv",
+          "source_line": 34,
+          "reading": "ちこく"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai3-04",
+      "type": "reading",
+      "word": "国際",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 6,
+      "prompt": "【国際】会議が東京で開かれる。",
+      "origin": "authored",
+      "options": [
+        "どくさい",
+        "こくさいてきな",
+        "こい",
+        "こくさい"
+      ],
+      "answer": 3,
+      "explanations": [
+        "独裁（どくさい）: độc tài. Đây là cách đọc của từ khác, không phải 国際.",
+        "国際的な（こくさいてきな）: mang tính quốc tế. Đây là cách đọc của từ khác, không phải 国際.",
+        "濃い（こい）: đậm; đặc. Đây là cách đọc của từ khác, không phải 国際.",
+        "国際（こくさい）: quốc tế. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "独裁",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 12,
+          "reading": "どくさい"
+        },
+        {
+          "word": "国際的な",
+          "source_file": "resources/N1/goi/dai6.csv",
+          "source_line": 62,
+          "reading": "こくさいてきな"
+        },
+        {
+          "word": "濃い",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 34,
+          "reading": "こい"
+        },
+        {
+          "word": "国際",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 6,
+          "reading": "こくさい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai3-05",
+      "type": "reading",
+      "word": "混雑",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 8,
+      "prompt": "朝の電車はとても【混雑】する。",
+      "origin": "authored",
+      "options": [
+        "こんざつ",
+        "こんけつ",
+        "はんざつな",
+        "こじん"
+      ],
+      "answer": 0,
+      "explanations": [
+        "混雑（こんざつ）: đông đúc; tắc nghẽn. Đây là cách đọc của từ được hỏi.",
+        "混血（こんけつ）: sự lai giữa các chủng tộc. Đây là cách đọc của từ khác, không phải 混雑.",
+        "繁雑な（はんざつな）: nhiều và phức tạp; rườm rà. Đây là cách đọc của từ khác, không phải 混雑.",
+        "個人（こじん）: cá nhân. Đây là cách đọc của từ khác, không phải 混雑."
+      ],
+      "option_lexemes": [
+        {
+          "word": "混雑",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 8,
+          "reading": "こんざつ"
+        },
+        {
+          "word": "混血",
+          "source_file": "resources/N1/goi/dai13.csv",
+          "source_line": 69,
+          "reading": "こんけつ"
+        },
+        {
+          "word": "繁雑な",
+          "source_file": "resources/N1/goi/dai32.csv",
+          "source_line": 99,
+          "reading": "はんざつな"
+        },
+        {
+          "word": "個人",
+          "source_file": "resources/N2/goi/dai3.csv",
+          "source_line": 7,
+          "reading": "こじん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai3-06",
+      "type": "orthography",
+      "word": "合格",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 9,
+      "prompt": "日本語の試験に【ごうかく】した。",
+      "origin": "authored",
+      "options": [
+        "互角",
+        "合格",
+        "豪華",
+        "高額"
+      ],
+      "answer": 1,
+      "explanations": [
+        "互角（ごかく）nghĩa ngang sức; không diễn đạt 合格 trong câu.",
+        "合格 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "豪華（ごうか）nghĩa xa hoa; không diễn đạt 合格 trong câu.",
+        "高額（こうがく）nghĩa số tiền lớn; không diễn đạt 合格 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-07",
+      "type": "orthography",
+      "word": "合計",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 10,
+      "prompt": "代金を【ごうけい】すると五千円になる。",
+      "origin": "authored",
+      "options": [
+        "合意",
+        "合成",
+        "合計",
+        "豪邸"
+      ],
+      "answer": 2,
+      "explanations": [
+        "合意（ごうい）: thoả thuận, sự nhất trí. Cách viết này không diễn đạt tổng cộng; tính tổng trong câu.",
+        "合成（ごうせい）: tổng hợp. Cách viết này không diễn đạt tổng cộng; tính tổng trong câu.",
+        "合計（ごうけい）: tổng cộng; tính tổng. Cách viết và nghĩa đều khớp câu.",
+        "豪邸（ごうてい）: dinh thự sang trọng. Cách viết này không diễn đạt tổng cộng; tính tổng trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-08",
+      "type": "orthography",
+      "word": "最終",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 11,
+      "prompt": "【さいしゅう】電車に間に合った。",
+      "origin": "authored",
+      "options": [
+        "採取",
+        "最中",
+        "回収",
+        "最終"
+      ],
+      "answer": 3,
+      "explanations": [
+        "採取（さいしゅ）: lấy mẫu; thu lấy. Cách viết này không diễn đạt cuối cùng; sau cùng trong câu.",
+        "最中（さいちゅう）: đang lúc; giữa lúc. Cách viết này không diễn đạt cuối cùng; sau cùng trong câu.",
+        "回収（かいしゅう）: thu hồi; thu gom. Cách viết này không diễn đạt cuối cùng; sau cùng trong câu.",
+        "最終（さいしゅう）: cuối cùng; sau cùng. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-09",
+      "type": "orthography",
+      "word": "財布",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 13,
+      "prompt": "電車に【さいふ】を忘れた。",
+      "origin": "authored",
+      "options": [
+        "財布",
+        "配布",
+        "火災",
+        "浅い"
+      ],
+      "answer": 0,
+      "explanations": [
+        "財布（さいふ）: ví tiền. Cách viết và nghĩa đều khớp câu.",
+        "配布（はいふ）: phân phát. Cách viết này không diễn đạt ví tiền trong câu.",
+        "火災（かさい）: hỏa hoạn. Cách viết này không diễn đạt ví tiền trong câu.",
+        "浅い（あさい）: nông; cạn. Cách viết này không diễn đạt ví tiền trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-10",
+      "type": "orthography",
+      "word": "作業",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 14,
+      "prompt": "安全を確認してから【さぎょう】する。",
+      "origin": "authored",
+      "options": [
+        "産業",
+        "作業",
+        "企業",
+        "業務"
+      ],
+      "answer": 1,
+      "explanations": [
+        "産業（さんぎょう）: công nghiệp; ngành nghề. Cách viết này không diễn đạt công việc; thao tác trong câu.",
+        "作業（さぎょう）: công việc; thao tác. Cách viết và nghĩa đều khớp câu.",
+        "企業（きぎょう）: doanh nghiệp. Cách viết này không diễn đạt công việc; thao tác trong câu.",
+        "業務（ぎょうむ）: nghiệp vụ; công việc. Cách viết này không diễn đạt công việc; thao tác trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-11",
+      "type": "formation",
+      "word": "最初",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 12,
+      "prompt": "説明を始める前に、最（　）に名前を書いてください。",
+      "origin": "authored",
+      "options": [
+        "終",
+        "強",
+        "初",
+        "新"
+      ],
+      "answer": 2,
+      "explanations": [
+        "最終: cuối cùng; sau cùng. Từ này không diễn đạt đầu tiên; lúc đầu trong tình huống đã nêu.",
+        "最強: mạnh nhất. Từ này không diễn đạt đầu tiên; lúc đầu trong tình huống đã nêu.",
+        "最初: đầu tiên; lúc đầu. Ghép thành từ phù hợp với tình huống trong câu.",
+        "最新: mới nhất. Từ này không diễn đạt đầu tiên; lúc đầu trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "最",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai3-12",
+      "type": "formation",
+      "word": "資料",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 61,
+      "prompt": "会議で配る（　）料を十部準備した。",
+      "origin": "authored",
+      "options": [
+        "材",
+        "食",
+        "資",
+        "飲"
+      ],
+      "answer": 2,
+      "explanations": [
+        "材料: vật liệu; nguyên liệu. Từ này không diễn đạt tư liệu; tài liệu trong tình huống đã nêu.",
+        "食料: lương thực. Từ này không diễn đạt tư liệu; tài liệu trong tình huống đã nêu.",
+        "資料: tư liệu; tài liệu. Ghép thành từ phù hợp với tình huống trong câu.",
+        "飲料: đồ uống. Từ này không diễn đạt tư liệu; tài liệu trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "料"
+      }
+    },
+    {
+      "id": "n2-dai3-13",
+      "type": "formation",
+      "word": "実験",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 79,
+      "prompt": "科学室で水を使う実（　）をした。",
+      "origin": "authored",
+      "options": [
+        "感",
+        "習",
+        "験",
+        "施"
+      ],
+      "answer": 2,
+      "explanations": [
+        "実感: cảm nhận thực tế. Từ này không diễn đạt thí nghiệm trong tình huống đã nêu.",
+        "実習: thực tập. Từ này không diễn đạt thí nghiệm trong tình huống đã nêu.",
+        "実験: thí nghiệm. Ghép thành từ phù hợp với tình huống trong câu.",
+        "実施: tiến hành. Từ này không diễn đạt thí nghiệm trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "実",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai3-14",
+      "type": "context",
+      "word": "作者",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 15,
+      "prompt": "この小説を原作として書いた（　）は有名だ。",
+      "origin": "authored",
+      "options": [
+        "読者",
+        "作者",
+        "編集者",
+        "翻訳者"
+      ],
+      "answer": 1,
+      "explanations": [
+        "読者 nghĩa độc giả. Trong câu này cần tác giả, nên từ này làm đổi nghĩa sự việc.",
+        "作者 nghĩa tác giả. Chi tiết trong câu mô tả đúng tác giả.",
+        "編集者 nghĩa biên tập viên. Trong câu này cần tác giả, nên từ này làm đổi nghĩa sự việc.",
+        "翻訳者 nghĩa người dịch. Trong câu này cần tác giả, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai3-15",
+      "type": "context",
+      "word": "作品",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 16,
+      "prompt": "美術館で画家の新しい（　）を鑑賞した。",
+      "origin": "authored",
+      "options": [
+        "材料",
+        "商品",
+        "作品",
+        "資料"
+      ],
+      "answer": 2,
+      "explanations": [
+        "材料 nghĩa vật liệu; nguyên liệu. Trong câu này cần tác phẩm, nên từ này làm đổi nghĩa sự việc.",
+        "商品 nghĩa sản phẩm; hàng hóa. Trong câu này cần tác phẩm, nên từ này làm đổi nghĩa sự việc.",
+        "作品 nghĩa tác phẩm. Chi tiết trong câu mô tả đúng tác phẩm.",
+        "資料 nghĩa tư liệu; tài liệu. Trong câu này cần tác phẩm, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai3-16",
+      "type": "context",
+      "word": "昨夜",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 17,
+      "prompt": "朝から眠い。実は（　）、遅くまで勉強していた。",
+      "origin": "authored",
+      "options": [
+        "今夜",
+        "明日",
+        "先日",
+        "昨夜"
+      ],
+      "answer": 3,
+      "explanations": [
+        "今夜 nghĩa tối nay. Trong câu này cần đêm qua, nên từ này làm đổi nghĩa sự việc.",
+        "明日 nghĩa ngày mai. Trong câu này cần đêm qua, nên từ này làm đổi nghĩa sự việc.",
+        "先日 nghĩa hôm trước. Trong câu này cần đêm qua, nên từ này làm đổi nghĩa sự việc.",
+        "昨夜 nghĩa đêm qua (trang trọng). Chi tiết trong câu mô tả đúng đêm qua."
+      ]
+    },
+    {
+      "id": "n2-dai3-17",
+      "type": "context",
+      "word": "作家",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 18,
+      "prompt": "彼女は毎年小説を出版する人気のある（　）だ。",
+      "origin": "authored",
+      "options": [
+        "作家",
+        "画家",
+        "記者",
+        "学者"
+      ],
+      "answer": 0,
+      "explanations": [
+        "作家 nghĩa nhà văn; nghệ sĩ sáng tác. Chi tiết trong câu mô tả đúng nhà văn; nghệ sĩ sáng tác.",
+        "画家 nghĩa họa sĩ. Trong câu này cần nhà văn; nghệ sĩ sáng tác, nên từ này làm đổi nghĩa sự việc.",
+        "記者 nghĩa phóng viên. Trong câu này cần nhà văn; nghệ sĩ sáng tác, nên từ này làm đổi nghĩa sự việc.",
+        "学者 nghĩa học giả. Trong câu này cần nhà văn; nghệ sĩ sáng tác, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai3-18",
+      "type": "context",
+      "word": "算数",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 19,
+      "prompt": "小学二年生の弟は足し算や引き算を学ぶ（　）が得意だ。",
+      "origin": "authored",
+      "options": [
+        "数学",
+        "算数",
+        "国語",
+        "英語"
+      ],
+      "answer": 1,
+      "explanations": [
+        "数学 nghĩa toán học. Trong câu này cần số học; môn toán tiểu học, nên từ này làm đổi nghĩa sự việc.",
+        "算数 nghĩa số học; môn toán tiểu học. Chi tiết trong câu mô tả đúng số học; môn toán tiểu học.",
+        "国語 nghĩa quốc ngữ; môn tiếng Nhật. Trong câu này cần số học; môn toán tiểu học, nên từ này làm đổi nghĩa sự việc.",
+        "英語 nghĩa tiếng Anh. Trong câu này cần số học; môn toán tiểu học, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai3-19",
+      "type": "context",
+      "word": "賛成",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 20,
+      "prompt": "私はその提案が役立つと思うので（　）する。",
+      "origin": "authored",
+      "options": [
+        "反対",
+        "反論",
+        "賛成",
+        "否定"
+      ],
+      "answer": 2,
+      "explanations": [
+        "反対 nghĩa phản đối. Trong câu này cần tán thành; đồng ý, nên từ này làm đổi nghĩa sự việc.",
+        "反論 nghĩa phản biện. Trong câu này cần tán thành; đồng ý, nên từ này làm đổi nghĩa sự việc.",
+        "賛成 nghĩa tán thành; đồng ý. Chi tiết trong câu mô tả đúng tán thành; đồng ý.",
+        "否定 nghĩa phủ định. Trong câu này cần tán thành; đồng ý, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai3-20",
+      "type": "context",
+      "word": "材料",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 21,
+      "prompt": "カレーを作るため、肉や野菜などの（　）を買いに行く。",
+      "origin": "authored",
+      "options": [
+        "資料",
+        "食料",
+        "商品",
+        "材料"
+      ],
+      "answer": 3,
+      "explanations": [
+        "資料 nghĩa tư liệu; tài liệu. Trong câu này cần vật liệu; nguyên liệu, nên từ này làm đổi nghĩa sự việc.",
+        "食料 nghĩa lương thực. Trong câu này cần vật liệu; nguyên liệu, nên từ này làm đổi nghĩa sự việc.",
+        "商品 nghĩa sản phẩm; hàng hóa. Trong câu này cần vật liệu; nguyên liệu, nên từ này làm đổi nghĩa sự việc.",
+        "材料 nghĩa vật liệu; nguyên liệu. Chi tiết trong câu mô tả đúng vật liệu; nguyên liệu."
+      ]
+    },
+    {
+      "id": "n2-dai3-21",
+      "type": "paraphrase",
+      "word": "後半",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 2,
+      "prompt": "試合の【後半】で二点を取った。",
+      "origin": "authored",
+      "options": [
+        "後ろの半分",
+        "一人ひとり",
+        "山や森など",
+        "いつもすること"
+      ],
+      "answer": 0,
+      "explanations": [
+        "後ろの半分 diễn đạt 'nửa sau' trong câu; đây là cách nói gần nghĩa nhất với 後半.",
+        "一人ひとり diễn đạt 'cá nhân' của 個人; khác với nghĩa 'nửa sau' của 後半 trong câu.",
+        "山や森など diễn đạt 'tự nhiên; thiên nhiên' của 自然; khác với nghĩa 'nửa sau' của 後半 trong câu.",
+        "いつもすること diễn đạt 'thói quen; tập quán' của 習慣; khác với nghĩa 'nửa sau' của 後半 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-22",
+      "type": "paraphrase",
+      "word": "個人",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 7,
+      "prompt": "【個人】の意見を尊重する。",
+      "origin": "authored",
+      "options": [
+        "山や森など",
+        "一人ひとり",
+        "いつもすること",
+        "町に住む人々"
+      ],
+      "answer": 1,
+      "explanations": [
+        "山や森など diễn đạt 'tự nhiên; thiên nhiên' của 自然; khác với nghĩa 'cá nhân' của 個人 trong câu.",
+        "一人ひとり diễn đạt 'cá nhân' trong câu; đây là cách nói gần nghĩa nhất với 個人.",
+        "いつもすること diễn đạt 'thói quen; tập quán' của 習慣; khác với nghĩa 'cá nhân' của 個人 trong câu.",
+        "町に住む人々 diễn đạt người dân thành phố; khác nghĩa với 個人 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-23",
+      "type": "paraphrase",
+      "word": "自然",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 27,
+      "prompt": "この地域は【自然】が豊かだ。",
+      "origin": "authored",
+      "options": [
+        "いつもすること",
+        "町に住む人々",
+        "山や森など",
+        "後ろの半分"
+      ],
+      "answer": 2,
+      "explanations": [
+        "いつもすること diễn đạt 'thói quen; tập quán' của 習慣; khác với nghĩa 'tự nhiên; thiên nhiên' của 自然 trong câu.",
+        "町に住む人々 diễn đạt người dân thành phố; khác nghĩa với 自然 trong câu.",
+        "山や森など diễn đạt 'tự nhiên; thiên nhiên' trong câu; đây là cách nói gần nghĩa nhất với 自然.",
+        "後ろの半分 diễn đạt 'nửa sau' của 後半; khác với nghĩa 'tự nhiên; thiên nhiên' của 自然 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-24",
+      "type": "paraphrase",
+      "word": "習慣",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 38,
+      "prompt": "毎朝走ることを【習慣】にしている。",
+      "origin": "authored",
+      "options": [
+        "町に住む人々",
+        "後ろの半分",
+        "一人ひとり",
+        "いつもすること"
+      ],
+      "answer": 3,
+      "explanations": [
+        "町に住む人々 diễn đạt người dân thành phố; khác nghĩa với 習慣 trong câu.",
+        "後ろの半分 diễn đạt 'nửa sau' của 後半; khác với nghĩa 'thói quen; tập quán' của 習慣 trong câu.",
+        "一人ひとり diễn đạt 'cá nhân' của 個人; khác với nghĩa 'thói quen; tập quán' của 習慣 trong câu.",
+        "いつもすること diễn đạt 'thói quen; tập quán' trong câu; đây là cách nói gần nghĩa nhất với 習慣."
+      ]
+    },
+    {
+      "id": "n2-dai3-25",
+      "type": "paraphrase",
+      "word": "市民",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 35,
+      "prompt": "多くの【市民】がイベントに参加した。",
+      "origin": "authored",
+      "options": [
+        "町に住む人々",
+        "後ろの半分",
+        "一人ひとり",
+        "山や森など"
+      ],
+      "answer": 0,
+      "explanations": [
+        "町に住む人々 diễn đạt người dân thành phố, gần nghĩa nhất với 市民 trong câu.",
+        "後ろの半分 diễn đạt 'nửa sau' của 後半; khác với nghĩa 'tài nguyên' của 資源 trong câu.",
+        "一人ひとり diễn đạt 'cá nhân' của 個人; khác với nghĩa 'tài nguyên' của 資源 trong câu.",
+        "山や森など diễn đạt 'tự nhiên; thiên nhiên' của 自然; khác với nghĩa 'tài nguyên' của 資源 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai3-26",
+      "type": "usage",
+      "word": "集中",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 40,
+      "prompt": "集中",
+      "origin": "authored",
+      "options": [
+        "授業中、時計の時刻を集中した。",
+        "静かな部屋で勉強に集中する。",
+        "先生に宿題の提出日を集中した。",
+        "友達へ旅行の写真を集中した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Xem giờ là 確認; 集中 cần đối tượng chú ý như bài học.",
+        "集中（しゅうちゅう）nghĩa tập trung; câu này dùng đúng đối tượng và tình huống.",
+        "Ngày nộp cần 確認, không phải 集中.",
+        "Ảnh gửi cho bạn là 送る・見せる; 集中 là tập trung chú ý."
+      ]
+    },
+    {
+      "id": "n2-dai3-27",
+      "type": "usage",
+      "word": "紹介",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 51,
+      "prompt": "紹介",
+      "origin": "authored",
+      "options": [
+        "電卓で三桁の掛け算の答えを紹介した。",
+        "道に迷ったので駅までの経路を紹介してもらった。",
+        "友達に新しい先生を紹介する。",
+        "壊れた時計の原因を紹介して修理した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "電卓は答えを計算する。紹介は人や物事を相手に知らせること。",
+        "Đường đi cần 教えてもらう・案内; 紹介 không phải chỉ đường.",
+        "紹介（しょうかい）nghĩa giới thiệu; câu này dùng đúng đối tượng và tình huống.",
+        "Nguyên nhân hỏng cần 説明・分析, không phải giới thiệu."
+      ]
+    },
+    {
+      "id": "n2-dai3-28",
+      "type": "usage",
+      "word": "準備",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 89,
+      "prompt": "準備",
+      "origin": "authored",
+      "options": [
+        "旅行から帰った後で出発の準備を始めた。",
+        "会議の結論が決まったので、その結論を準備した。",
+        "試験が終わって採点も済んだので、受験の準備をした。",
+        "旅行の準備を始める。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Chuẩn bị khởi hành phải trước khi đi; câu đặt sau khi về.",
+        "Kết luận đã có thì nên 記録・共有; 準備 là sắp xếp trước.",
+        "準備 cho kỳ thi diễn ra trước kỳ thi.",
+        "準備（じゅんび）nghĩa chuẩn bị; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai3-29",
+      "type": "usage",
+      "word": "乗車",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 91,
+      "prompt": "乗車",
+      "origin": "authored",
+      "options": [
+        "切符を買って電車に乗車する。",
+        "切符を買って飛行機に乗車した。",
+        "駅で改札を通っただけで、まだ列車に乗らずに乗車した。",
+        "港で船に乗車して島へ向かった。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "乗車（じょうしゃ）nghĩa lên xe; câu này dùng đúng đối tượng và tình huống.",
+        "Lên máy bay dùng 搭乗; 乗車 dùng cho xe hoặc tàu.",
+        "Qua cổng vé chưa phải lên tàu; 乗車 là lên phương tiện.",
+        "Lên tàu thủy dùng 乗船, không dùng 乗車."
+      ]
+    },
+    {
+      "id": "n2-dai3-30",
+      "type": "usage",
+      "word": "使用",
+      "source_file": "resources/N2/goi/dai3.csv",
+      "source_line": 50,
+      "prompt": "使用",
+      "origin": "authored",
+      "options": [
+        "新しい機械の説明書を使用して読んだ。",
+        "この機械を使用する前に説明を読む。",
+        "先生の話を耳で使用して聞いた。",
+        "友人に住所を使用して尋ねた。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Đọc hướng dẫn là 読む; 使用 nghĩa dùng thiết bị hoặc đồ vật.",
+        "使用（しよう）nghĩa sử dụng; câu này dùng đúng đối tượng và tình huống.",
+        "Nghe bằng tai là 聞く; 使用 không thay thế 聞く.",
+        "Hỏi địa chỉ là 尋ねる; 使用 không có nghĩa hỏi."
+      ]
+    }
+  ]
+}

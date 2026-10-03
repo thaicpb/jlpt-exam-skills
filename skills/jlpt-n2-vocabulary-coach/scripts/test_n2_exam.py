@@ -68,20 +68,22 @@ class ExamValidationTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'orthography'):
                 validate(bank)
 
-    def test_published_dai1_full_exam(self):
-        bank = json.loads((ROOT.parent.parent / 'resources/N2/exams/dai1.json').read_text(encoding='utf-8'))
-        self.assertEqual(bank['id'], 'n2-dai1-30')
-        self.assertEqual(len(bank['questions']), 30)
-        self.assertEqual(len({q['word'] for q in bank['questions']}), 30)
-        self.assertEqual(Counter(q['type'] for q in bank['questions']),
-                         {kind: count for kind, (_, count) in TYPES.items()})
-        self.assertEqual({q['source_file'] for q in bank['questions']},
-                         {'resources/N2/goi/dai1.csv'})
-        html = render(bank, mode='exam', home_href='../../#/exams/N2', full=True)
-        payload = json.loads(html.split('id="exam-data">', 1)[1].split('</script>', 1)[0])
-        self.assertEqual(payload['home_href'], '../../#/exams/N2')
-        self.assertEqual(payload['title'], 'N2 · Bài 1 · 30 câu')
-        self.assertTrue(all(q['source']['word'] == q['word'] for q in payload['questions']))
+    def test_published_full_exams(self):
+        for lesson in range(1, 15):
+            with self.subTest(lesson=lesson):
+                bank = json.loads((ROOT.parent.parent / f'resources/N2/exams/dai{lesson}.json').read_text(encoding='utf-8'))
+                self.assertEqual(bank['id'], f'n2-dai{lesson}-30')
+                self.assertEqual(len(bank['questions']), 30)
+                self.assertEqual(len({q['word'] for q in bank['questions']}), 30)
+                self.assertEqual(Counter(q['type'] for q in bank['questions']),
+                                 {kind: count for kind, (_, count) in TYPES.items()})
+                self.assertEqual({q['source_file'] for q in bank['questions']},
+                                 {f'resources/N2/goi/dai{lesson}.csv'})
+                html = render(bank, mode='exam', home_href='../../#/exams/N2', full=True)
+                payload = json.loads(html.split('id="exam-data">', 1)[1].split('</script>', 1)[0])
+                self.assertEqual(payload['home_href'], '../../#/exams/N2')
+                self.assertEqual(payload['title'], f'N2 · Bài {lesson} · 30 câu')
+                self.assertTrue(all(q['source']['word'] == q['word'] for q in payload['questions']))
 
     def test_published_reading_evidence_must_match_choices(self):
         bank = json.loads((ROOT.parent.parent / 'resources/N2/exams/dai1.json').read_text(encoding='utf-8'))

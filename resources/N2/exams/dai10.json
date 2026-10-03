@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai10-30",
+  "title": "N2 · Bài 10 · 30 câu",
+  "level": "N2",
+  "lesson": "dai10",
+  "questions": [
+    {
+      "id": "n2-dai10-01",
+      "type": "reading",
+      "word": "汗",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 26,
+      "prompt": "暑くて【汗】をたくさんかいた。",
+      "origin": "authored",
+      "options": [
+        "あせ",
+        "あせる",
+        "しあわせ",
+        "あわせる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "汗（あせ）: mồ hôi. Đây là cách đọc của từ được hỏi.",
+        "焦る（あせる）: nóng vội; sốt ruột. Đây là cách đọc của từ khác, không phải 汗.",
+        "幸せ（しあわせ）: hạnh phúc. Đây là cách đọc của từ khác, không phải 汗.",
+        "合わせる（あわせる）: ghép; điều chỉnh cho phù hợp. Đây là cách đọc của từ khác, không phải 汗."
+      ],
+      "option_lexemes": [
+        {
+          "word": "汗",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 26,
+          "reading": "あせ"
+        },
+        {
+          "word": "焦る",
+          "source_file": "resources/N1/goi/dai26.csv",
+          "source_line": 83,
+          "reading": "あせる"
+        },
+        {
+          "word": "幸せ",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 6,
+          "reading": "しあわせ"
+        },
+        {
+          "word": "合わせる",
+          "source_file": "resources/N2/goi/dai6.csv",
+          "source_line": 54,
+          "reading": "あわせる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai10-02",
+      "type": "reading",
+      "word": "宛",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 27,
+      "prompt": "会社【宛】に書類を送る。",
+      "origin": "authored",
+      "options": [
+        "てあて",
+        "あて",
+        "めあて",
+        "あんてい"
+      ],
+      "answer": 1,
+      "explanations": [
+        "手当（てあて）: phụ cấp; sơ cứu. Đây là cách đọc của từ khác, không phải 宛.",
+        "宛（あて）: địa chỉ nhận; người nhận. Đây là cách đọc của từ được hỏi.",
+        "目当て（めあて）: mục tiêu; đối tượng cần tìm. Đây là cách đọc của từ khác, không phải 宛.",
+        "安定（あんてい）: ổn định. Đây là cách đọc của từ khác, không phải 宛."
+      ],
+      "option_lexemes": [
+        {
+          "word": "手当",
+          "source_file": "resources/N1/goi/dai15.csv",
+          "source_line": 7,
+          "reading": "てあて"
+        },
+        {
+          "word": "宛",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 27,
+          "reading": "あて"
+        },
+        {
+          "word": "目当て",
+          "source_file": "resources/N1/goi/dai24.csv",
+          "source_line": 74,
+          "reading": "めあて"
+        },
+        {
+          "word": "安定",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 91,
+          "reading": "あんてい"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai10-03",
+      "type": "reading",
+      "word": "板",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 28,
+      "prompt": "木の【板】で棚を作る。",
+      "origin": "authored",
+      "options": [
+        "いたい",
+        "いたく",
+        "いた",
+        "いたす"
+      ],
+      "answer": 2,
+      "explanations": [
+        "痛い（いたい）: đau. Đây là cách đọc của từ khác, không phải 板.",
+        "委託（いたく）: ủy thác; giao việc cho bên ngoài. Đây là cách đọc của từ khác, không phải 板.",
+        "板（いた）: tấm ván; bảng. Đây là cách đọc của từ được hỏi.",
+        "致す（いたす）: làm (khiêm nhường ngữ). Đây là cách đọc của từ khác, không phải 板."
+      ],
+      "option_lexemes": [
+        {
+          "word": "痛い",
+          "source_file": "resources/N2/goi/dai8.csv",
+          "source_line": 23,
+          "reading": "いたい"
+        },
+        {
+          "word": "委託",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 23,
+          "reading": "いたく"
+        },
+        {
+          "word": "板",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 28,
+          "reading": "いた"
+        },
+        {
+          "word": "致す",
+          "source_file": "resources/N1/goi/dai40.csv",
+          "source_line": 52,
+          "reading": "いたす"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai10-04",
+      "type": "reading",
+      "word": "運",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 29,
+      "prompt": "今日は【運】がよかった。",
+      "origin": "authored",
+      "options": [
+        "うんえい",
+        "かいうん",
+        "うんちん",
+        "うん"
+      ],
+      "answer": 3,
+      "explanations": [
+        "運営（うんえい）: vận hành; quản lý. Đây là cách đọc của từ khác, không phải 運.",
+        "海運（かいうん）: vận tải biển. Đây là cách đọc của từ khác, không phải 運.",
+        "運賃（うんちん）: cước vận chuyển; tiền đi tàu xe. Đây là cách đọc của từ khác, không phải 運.",
+        "運（うん）: vận may; số phận. Đây là cách đọc của từ được hỏi."
+      ],
+      "option_lexemes": [
+        {
+          "word": "運営",
+          "source_file": "resources/N2/goi/dai11.csv",
+          "source_line": 24,
+          "reading": "うんえい"
+        },
+        {
+          "word": "海運",
+          "source_file": "resources/N1/goi/dai10.csv",
+          "source_line": 17,
+          "reading": "かいうん"
+        },
+        {
+          "word": "運賃",
+          "source_file": "resources/N1/goi/dai9.csv",
+          "source_line": 52,
+          "reading": "うんちん"
+        },
+        {
+          "word": "運",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 29,
+          "reading": "うん"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai10-05",
+      "type": "reading",
+      "word": "沖",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 31,
+      "prompt": "船が【沖】へ向かって進む。",
+      "origin": "authored",
+      "options": [
+        "おき",
+        "おもむき",
+        "お",
+        "おしきる"
+      ],
+      "answer": 0,
+      "explanations": [
+        "沖（おき）: ngoài khơi. Đây là cách đọc của từ được hỏi.",
+        "趣（おもむき）: vẻ; nét duyên; phong vị. Đây là cách đọc của từ khác, không phải 沖.",
+        "尾（お）: đuôi. Đây là cách đọc của từ khác, không phải 沖.",
+        "押し切る（おしきる）: vượt qua sự phản đối; kiên quyết thực hiện. Đây là cách đọc của từ khác, không phải 沖."
+      ],
+      "option_lexemes": [
+        {
+          "word": "沖",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 31,
+          "reading": "おき"
+        },
+        {
+          "word": "趣",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 42,
+          "reading": "おもむき"
+        },
+        {
+          "word": "尾",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 76,
+          "reading": "お"
+        },
+        {
+          "word": "押し切る",
+          "source_file": "resources/N1/goi/dai28.csv",
+          "source_line": 90,
+          "reading": "おしきる"
+        }
+      ]
+    },
+    {
+      "id": "n2-dai10-06",
+      "type": "orthography",
+      "word": "可",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 32,
+      "prompt": "この申請は【か】と判断された。",
+      "origin": "authored",
+      "options": [
+        "課",
+        "可",
+        "蚊",
+        "貨"
+      ],
+      "answer": 1,
+      "explanations": [
+        "課（か）nghĩa bài học; phòng ban; không diễn đạt 可 trong câu.",
+        "可 là cách viết của từ được hỏi; khớp cách đọc và ngữ cảnh.",
+        "蚊（か）nghĩa con muỗi; không diễn đạt 可 trong câu.",
+        "貨（か）nghĩa hàng hóa; tiền tệ; không diễn đạt 可 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-07",
+      "type": "orthography",
+      "word": "勘",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 34,
+      "prompt": "【かん】を頼りに答えを選んだ。",
+      "origin": "authored",
+      "options": [
+        "花壇",
+        "花瓶",
+        "勘",
+        "看護"
+      ],
+      "answer": 2,
+      "explanations": [
+        "花壇（かだん）: bồn hoa. Cách viết này không diễn đạt trực giác; linh cảm trong câu.",
+        "花瓶（かびん）: lọ hoa. Cách viết này không diễn đạt trực giác; linh cảm trong câu.",
+        "勘（かん）: trực giác; linh cảm. Cách viết và nghĩa đều khớp câu.",
+        "看護（かんご）: điều dưỡng; chăm sóc bệnh nhân. Cách viết này không diễn đạt trực giác; linh cảm trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-08",
+      "type": "orthography",
+      "word": "害",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 35,
+      "prompt": "たばこは健康に【がい】がある。",
+      "origin": "authored",
+      "options": [
+        "危害",
+        "被害",
+        "以外",
+        "害"
+      ],
+      "answer": 3,
+      "explanations": [
+        "危害（きがい）: tổn hại; nguy hại. Cách viết này không diễn đạt tác hại trong câu.",
+        "被害（ひがい）: thiệt hại; tổn thất. Cách viết này không diễn đạt tác hại trong câu.",
+        "以外（いがい）: ngoài; ngoại trừ. Cách viết này không diễn đạt tác hại trong câu.",
+        "害（がい）: tác hại. Cách viết và nghĩa đều khớp câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-09",
+      "type": "orthography",
+      "word": "絹",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 36,
+      "prompt": "【きぬ】で作られた着物を着る。",
+      "origin": "authored",
+      "options": [
+        "絹",
+        "息抜き",
+        "息",
+        "咳"
+      ],
+      "answer": 0,
+      "explanations": [
+        "絹（きぬ）: lụa. Cách viết và nghĩa đều khớp câu.",
+        "息抜き（いきぬき）: thư giãn; nghỉ giải lao. Cách viết này không diễn đạt lụa trong câu.",
+        "息（いき）: hơi thở. Cách viết này không diễn đạt lụa trong câu.",
+        "咳（せき）: ho; cơn ho. Cách viết này không diễn đạt lụa trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-10",
+      "type": "orthography",
+      "word": "客",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 37,
+      "prompt": "今日は店に【きゃく】が多い。",
+      "origin": "authored",
+      "options": [
+        "顧客",
+        "客",
+        "聴く",
+        "観客"
+      ],
+      "answer": 1,
+      "explanations": [
+        "顧客（こきゃく）: khách hàng, khách quen. Cách viết này không diễn đạt khách trong câu.",
+        "客（きゃく）: khách. Cách viết và nghĩa đều khớp câu.",
+        "聴く（きく）: nghe chăm chú. Cách viết này không diễn đạt khách trong câu.",
+        "観客（かんきゃく）: khán giả. Cách viết này không diễn đạt khách trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-11",
+      "type": "formation",
+      "word": "意志",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 95,
+      "prompt": "困難があってもやり抜こうという意（　）が固い。",
+      "origin": "authored",
+      "options": [
+        "図",
+        "志",
+        "義",
+        "識"
+      ],
+      "answer": 1,
+      "explanations": [
+        "意図: ý đồ, ý định. Từ này không diễn đạt ý chí trong tình huống đã nêu.",
+        "意志: ý chí. Ghép thành từ phù hợp với tình huống trong câu.",
+        "意義: ý nghĩa; giá trị. Từ này không diễn đạt ý chí trong tình huống đã nêu.",
+        "意識: nhận thức. Từ này không diễn đạt ý chí trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "意",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai10-12",
+      "type": "formation",
+      "word": "愛着",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 84,
+      "prompt": "長年使ったかばんに愛（　）が湧いた。",
+      "origin": "authored",
+      "options": [
+        "飲",
+        "用",
+        "着",
+        "情"
+      ],
+      "answer": 2,
+      "explanations": [
+        "愛飲: thường xuyên uống; yêu thích đồ uống. Từ này không diễn đạt sự gắn bó; yêu mến trong tình huống đã nêu.",
+        "愛用: ưa dùng; dùng thường xuyên. Từ này không diễn đạt sự gắn bó; yêu mến trong tình huống đã nêu.",
+        "愛着: sự gắn bó; yêu mến. Ghép thành từ phù hợp với tình huống trong câu.",
+        "愛情: tình yêu; tình cảm. Từ này không diễn đạt sự gắn bó; yêu mến trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "愛",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai10-13",
+      "type": "formation",
+      "word": "安定",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 91,
+      "prompt": "収入が毎月ほぼ同じになり、生活が（　）定した。",
+      "origin": "authored",
+      "options": [
+        "決",
+        "安",
+        "限",
+        "確"
+      ],
+      "answer": 1,
+      "explanations": [
+        "決定: quyết định. Từ này không diễn đạt ổn định trong tình huống đã nêu.",
+        "安定: ổn định. Ghép thành từ phù hợp với tình huống trong câu.",
+        "限定: giới hạn. Từ này không diễn đạt ổn định trong tình huống đã nêu.",
+        "確定: xác định; chốt. Từ này không diễn đạt ổn định trong tình huống đã nêu."
+      ],
+      "formation": {
+        "prefix": "",
+        "suffix": "定"
+      }
+    },
+    {
+      "id": "n2-dai10-14",
+      "type": "context",
+      "word": "プログラム",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 2,
+      "prompt": "研修で何時に何をするか書かれた（　）を確認した。",
+      "origin": "authored",
+      "options": [
+        "メッセージ",
+        "プログラム",
+        "リスト",
+        "ポイント"
+      ],
+      "answer": 1,
+      "explanations": [
+        "メッセージ nghĩa tin nhắn; thông điệp. Trong câu này cần chương trình, nên từ này làm đổi nghĩa sự việc.",
+        "プログラム nghĩa chương trình. Chi tiết trong câu mô tả đúng chương trình.",
+        "リスト nghĩa danh sách. Trong câu này cần chương trình, nên từ này làm đổi nghĩa sự việc.",
+        "ポイント nghĩa điểm; điểm chính. Trong câu này cần chương trình, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai10-15",
+      "type": "context",
+      "word": "ペンキ",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 7,
+      "prompt": "古い壁を白く塗り直すため（　）を買った。",
+      "origin": "authored",
+      "options": [
+        "インク",
+        "絵の具",
+        "ペンキ",
+        "ガソリン"
+      ],
+      "answer": 2,
+      "explanations": [
+        "インク nghĩa mực. Trong câu này cần sơn, nên từ này làm đổi nghĩa sự việc.",
+        "絵の具 nghĩa màu vẽ. Trong câu này cần sơn, nên từ này làm đổi nghĩa sự việc.",
+        "ペンキ nghĩa sơn. Chi tiết trong câu mô tả đúng sơn.",
+        "ガソリン nghĩa xăng. Trong câu này cần sơn, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai10-16",
+      "type": "context",
+      "word": "ホームステイ",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 8,
+      "prompt": "留学中、現地の家庭に住む（　）を経験した。",
+      "origin": "authored",
+      "options": [
+        "ホームページ",
+        "留学",
+        "旅館",
+        "ホームステイ"
+      ],
+      "answer": 3,
+      "explanations": [
+        "ホームページ nghĩa trang chủ; website. Trong câu này cần ở cùng gia đình bản xứ, nên từ này làm đổi nghĩa sự việc.",
+        "留学 nghĩa du học. Trong câu này cần ở cùng gia đình bản xứ, nên từ này làm đổi nghĩa sự việc.",
+        "旅館 nghĩa nhà trọ kiểu Nhật. Trong câu này cần ở cùng gia đình bản xứ, nên từ này làm đổi nghĩa sự việc.",
+        "ホームステイ nghĩa ở cùng gia đình bản xứ. Chi tiết trong câu mô tả đúng ở cùng gia đình bản xứ."
+      ]
+    },
+    {
+      "id": "n2-dai10-17",
+      "type": "context",
+      "word": "ホームページ",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 9,
+      "prompt": "インターネットで店の（　）を開き営業時間を調べた。",
+      "origin": "authored",
+      "options": [
+        "ホームページ",
+        "ポスター",
+        "チラシ",
+        "メッセージ"
+      ],
+      "answer": 0,
+      "explanations": [
+        "ホームページ nghĩa trang chủ; website. Chi tiết trong câu mô tả đúng trang chủ; website.",
+        "ポスター nghĩa áp phích. Trong câu này cần trang chủ; website, nên từ này làm đổi nghĩa sự việc.",
+        "チラシ nghĩa tờ rơi. Trong câu này cần trang chủ; website, nên từ này làm đổi nghĩa sự việc.",
+        "メッセージ nghĩa tin nhắn; thông điệp. Trong câu này cần trang chủ; website, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai10-18",
+      "type": "context",
+      "word": "ホール",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 10,
+      "prompt": "数百人が座るコンサート用の（　）で演奏会が開かれた。",
+      "origin": "authored",
+      "options": [
+        "教室",
+        "ホール",
+        "体育館",
+        "グラウンド"
+      ],
+      "answer": 1,
+      "explanations": [
+        "教室 nghĩa phòng học. Trong câu này cần hội trường; sảnh, nên từ này làm đổi nghĩa sự việc.",
+        "ホール nghĩa hội trường; sảnh. Chi tiết trong câu mô tả đúng hội trường; sảnh.",
+        "体育館 nghĩa nhà thể chất. Trong câu này cần hội trường; sảnh, nên từ này làm đổi nghĩa sự việc.",
+        "グラウンド nghĩa sân vận động; sân trường. Trong câu này cần hội trường; sảnh, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai10-19",
+      "type": "context",
+      "word": "ポイント",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 11,
+      "prompt": "長い説明の中で特に重要な（　）をノートに書いた。",
+      "origin": "authored",
+      "options": [
+        "原因",
+        "結果",
+        "ポイント",
+        "目標"
+      ],
+      "answer": 2,
+      "explanations": [
+        "原因 nghĩa nguyên nhân. Trong câu này cần điểm; điểm chính, nên từ này làm đổi nghĩa sự việc.",
+        "結果 nghĩa kết quả. Trong câu này cần điểm; điểm chính, nên từ này làm đổi nghĩa sự việc.",
+        "ポイント nghĩa điểm; điểm chính. Chi tiết trong câu mô tả đúng điểm; điểm chính.",
+        "目標 nghĩa mục tiêu. Trong câu này cần điểm; điểm chính, nên từ này làm đổi nghĩa sự việc."
+      ]
+    },
+    {
+      "id": "n2-dai10-20",
+      "type": "context",
+      "word": "ポスター",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 12,
+      "prompt": "イベントの大きな告知用紙である（　）を壁に貼った。",
+      "origin": "authored",
+      "options": [
+        "チラシ",
+        "サイト",
+        "リスト",
+        "ポスター"
+      ],
+      "answer": 3,
+      "explanations": [
+        "チラシ nghĩa tờ rơi. Trong câu này cần áp phích, nên từ này làm đổi nghĩa sự việc.",
+        "サイト nghĩa trang web. Trong câu này cần áp phích, nên từ này làm đổi nghĩa sự việc.",
+        "リスト nghĩa danh sách. Trong câu này cần áp phích, nên từ này làm đổi nghĩa sự việc.",
+        "ポスター nghĩa áp phích. Chi tiết trong câu mô tả đúng áp phích."
+      ]
+    },
+    {
+      "id": "n2-dai10-21",
+      "type": "paraphrase",
+      "word": "縁",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 30,
+      "prompt": "不思議な【縁】で彼と知り合った。",
+      "origin": "authored",
+      "options": [
+        "つながり",
+        "価値",
+        "考え",
+        "普通でない状態"
+      ],
+      "answer": 0,
+      "explanations": [
+        "つながり diễn đạt 'duyên; mối liên hệ' trong câu; đây là cách nói gần nghĩa nhất với 縁.",
+        "価値 diễn đạt 'ý nghĩa; giá trị' của 意義; khác với nghĩa 'duyên; mối liên hệ' của 縁 trong câu.",
+        "考え diễn đạt 'ý định; ý muốn' của 意思; khác với nghĩa 'duyên; mối liên hệ' của 縁 trong câu.",
+        "普通でない状態 diễn đạt 'bất thường' của 異常; khác với nghĩa 'duyên; mối liên hệ' của 縁 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-22",
+      "type": "paraphrase",
+      "word": "意義",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 92,
+      "prompt": "この活動には大きな【意義】がある。",
+      "origin": "authored",
+      "options": [
+        "考え",
+        "価値",
+        "普通でない状態",
+        "売買が行われる場"
+      ],
+      "answer": 1,
+      "explanations": [
+        "考え diễn đạt 'ý định; ý muốn' của 意思; khác với nghĩa 'ý nghĩa; giá trị' của 意義 trong câu.",
+        "価値 diễn đạt 'ý nghĩa; giá trị' trong câu; đây là cách nói gần nghĩa nhất với 意義.",
+        "普通でない状態 diễn đạt 'bất thường' của 異常; khác với nghĩa 'ý nghĩa; giá trị' của 意義 trong câu.",
+        "売買が行われる場 diễn đạt 'chợ; thị trường' của 市場; khác với nghĩa 'ý nghĩa; giá trị' của 意義 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-23",
+      "type": "paraphrase",
+      "word": "意思",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 96,
+      "prompt": "本人の【意思】を尊重する。",
+      "origin": "authored",
+      "options": [
+        "普通でない状態",
+        "売買が行われる場",
+        "考え",
+        "つながり"
+      ],
+      "answer": 2,
+      "explanations": [
+        "普通でない状態 diễn đạt 'bất thường' của 異常; khác với nghĩa 'ý định; ý muốn' của 意思 trong câu.",
+        "売買が行われる場 diễn đạt 'chợ; thị trường' của 市場; khác với nghĩa 'ý định; ý muốn' của 意思 trong câu.",
+        "考え diễn đạt 'ý định; ý muốn' trong câu; đây là cách nói gần nghĩa nhất với 意思.",
+        "つながり diễn đạt 'duyên; mối liên hệ' của 縁; khác với nghĩa 'ý định; ý muốn' của 意思 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-24",
+      "type": "paraphrase",
+      "word": "異常",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 100,
+      "prompt": "機械に【異常】がないか確認する。",
+      "origin": "authored",
+      "options": [
+        "売買が行われる場",
+        "つながり",
+        "価値",
+        "普通でない状態"
+      ],
+      "answer": 3,
+      "explanations": [
+        "売買が行われる場 diễn đạt 'chợ; thị trường' của 市場; khác với nghĩa 'bất thường' của 異常 trong câu.",
+        "つながり diễn đạt 'duyên; mối liên hệ' của 縁; khác với nghĩa 'bất thường' của 異常 trong câu.",
+        "価値 diễn đạt 'ý nghĩa; giá trị' của 意義; khác với nghĩa 'bất thường' của 異常 trong câu.",
+        "普通でない状態 diễn đạt 'bất thường' trong câu; đây là cách nói gần nghĩa nhất với 異常."
+      ]
+    },
+    {
+      "id": "n2-dai10-25",
+      "type": "paraphrase",
+      "word": "市場",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 101,
+      "prompt": "朝、【市場】で新鮮な魚を買う。",
+      "origin": "authored",
+      "options": [
+        "売買が行われる場",
+        "つながり",
+        "価値",
+        "考え"
+      ],
+      "answer": 0,
+      "explanations": [
+        "売買が行われる場 diễn đạt 'chợ; thị trường' trong câu; đây là cách nói gần nghĩa nhất với 市場.",
+        "つながり diễn đạt 'duyên; mối liên hệ' của 縁; khác với nghĩa 'chợ; thị trường' của 市場 trong câu.",
+        "価値 diễn đạt 'ý nghĩa; giá trị' của 意義; khác với nghĩa 'chợ; thị trường' của 市場 trong câu.",
+        "考え diễn đạt 'ý định; ý muốn' của 意思; khác với nghĩa 'chợ; thị trường' của 市場 trong câu."
+      ]
+    },
+    {
+      "id": "n2-dai10-26",
+      "type": "usage",
+      "word": "ヘルメット",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 4,
+      "prompt": "ヘルメット",
+      "origin": "authored",
+      "options": [
+        "日差しを避けるために柔らかいヘルメットを首に巻いた。",
+        "自転車に乗るときヘルメットをかぶる。",
+        "雨を防ぐためにヘルメットを手に差した。",
+        "寒いので両足にヘルメットを履いた。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Cổ dùng khăn; ヘルメット là mũ bảo hộ đội đầu.",
+        "ヘルメット（へるめっと）nghĩa mũ bảo hiểm; câu này dùng đúng đối tượng và tình huống.",
+        "Cầm che mưa dùng ô; mũ bảo hộ đội trên đầu.",
+        "Chân đi giày/ủng; ヘルメット bảo vệ đầu."
+      ]
+    },
+    {
+      "id": "n2-dai10-27",
+      "type": "usage",
+      "word": "ベランダ",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 5,
+      "prompt": "ベランダ",
+      "origin": "authored",
+      "options": [
+        "料理の鍋をベランダで加熱した。",
+        "電車のベランダに座って通勤した。",
+        "ベランダに洗濯物を干す。",
+        "川のベランダで魚を釣った。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Ban công không phải thiết bị nấu; cần bếp.",
+        "Chỗ ngồi tàu là 座席; ベランダ là ban công của nhà.",
+        "ベランダ（べらんだ）nghĩa ban công; câu này dùng đúng đối tượng và tình huống.",
+        "Bờ sông không phải ベランダ của công trình."
+      ]
+    },
+    {
+      "id": "n2-dai10-28",
+      "type": "usage",
+      "word": "ペットボトル",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 6,
+      "prompt": "ペットボトル",
+      "origin": "authored",
+      "options": [
+        "熱い料理をペットボトルで焼いた。",
+        "ペットボトルを頭にかぶって自転車に乗った。",
+        "ペットボトルで窓ガラスを拭いた。",
+        "空のペットボトルを回収箱に入れる。"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Chai nhựa đựng đồ uống, không phải dụng cụ nướng.",
+        "Bảo vệ đầu cần ヘルメット; chai không phải mũ.",
+        "Lau kính cần khăn; chai nhựa chỉ có thể chứa nước.",
+        "ペットボトル（ぺっとぼとる）nghĩa chai nhựa PET; câu này dùng đúng đối tượng và tình huống."
+      ]
+    },
+    {
+      "id": "n2-dai10-29",
+      "type": "usage",
+      "word": "ロッカー",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 25,
+      "prompt": "ロッカー",
+      "origin": "authored",
+      "options": [
+        "荷物を駅のロッカーに預けた。",
+        "駅のロッカーに乗って隣町へ行った。",
+        "ロッカーで昼ご飯を温めた。",
+        "ロッカーの画面で映画を上映した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "ロッカー（ろっかー）nghĩa tủ khóa; câu này dùng đúng đối tượng và tình huống.",
+        "Phương tiện di chuyển là tàu/xe; ロッカー là tủ.",
+        "Làm nóng thức ăn dùng bếp hoặc lò vi sóng.",
+        "Phát phim dùng màn hình/máy chiếu, không phải tủ giữ đồ."
+      ]
+    },
+    {
+      "id": "n2-dai10-30",
+      "type": "usage",
+      "word": "革",
+      "source_file": "resources/N2/goi/dai10.csv",
+      "source_line": 33,
+      "prompt": "革",
+      "origin": "authored",
+      "options": [
+        "スープに革を少し入れて味を調えた。",
+        "革の財布を長く使っている。",
+        "窓の外に白い革が浮かんでいた。",
+        "川の底に革が泳いでいた。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Nêm canh dùng gia vị; 革 là da thuộc.",
+        "革（かわ）nghĩa da thuộc; câu này dùng đúng đối tượng và tình huống.",
+        "Trên trời là 雲; 革 không phải mây.",
+        "Bơi trong nước là cá hay sinh vật; 革 là vật liệu."
+      ]
+    }
+  ]
+}
