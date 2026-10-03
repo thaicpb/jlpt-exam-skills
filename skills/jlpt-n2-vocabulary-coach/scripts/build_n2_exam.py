@@ -26,6 +26,7 @@ def validate(bank):
                              "--level", "N2"], capture_output=True, text=True, check=True)
     corpus = json.loads(result.stdout)["items"]
     source = {(x["source_file"], x["source_line"]): x for x in corpus}
+    evidence_source = None
     questions = bank.get("questions")
     if not isinstance(questions, list) or not questions:
         raise ValueError("questions must be a nonempty list")
@@ -79,12 +80,48 @@ def validate(bank):
                 matches = [i for i, option in enumerate(options) if kana(option) in readings]
                 if matches != [q["answer"]]:
                     raise ValueError(f"{identity}: reading answer must uniquely match the CSV reading")
+                if "option_lexemes" in q:
+                    if evidence_source is None:
+                        n1_result = subprocess.run([sys.executable, str(ROOT / "scripts/load_vocabulary.py"),
+                                                    "--level", "N1"], capture_output=True, text=True, check=True)
+                        evidence_source = {**source, **{
+                            (x["source_file"], x["source_line"]): x
+                            for x in json.loads(n1_result.stdout)["items"]}}
+                    lexemes = q["option_lexemes"]
+                    if not isinstance(lexemes, list) or len(lexemes) != 4:
+                        raise ValueError(f"{identity}: four reading lexemes required")
+                    for option, lexeme in zip(options, lexemes):
+                        if not isinstance(lexeme, dict):
+                            raise ValueError(f"{identity}: invalid reading lexeme")
+                        evidence = evidence_source.get((lexeme.get("source_file"), lexeme.get("source_line")))
+                        if evidence is None or evidence["word"] != lexeme.get("word"):
+                            raise ValueError(f"{identity}: unattested reading lexeme")
+                        evidence_reading = re.sub(r"\s*\((?:する|な)\)$", "", kana(evidence["reading"]))
+                        if kana(lexeme.get("reading", "")) != kana(option) or kana(option) not in {
+                                part.strip() for part in re.split(r"[/／]", evidence_reading)}:
+                            raise ValueError(f"{identity}: reading lexeme does not match its option")
             elif options[q["answer"]] != row["word"] or kana(marked) not in readings:
                 raise ValueError(f"{identity}: orthography answer/marked reading must match CSV")
         if q["type"] == "usage" and not all(row["word"] in x for x in options):
             raise ValueError(f"{identity}: all usage sentences must contain target")
         q["source"] = row
     return bank
+
+
+def render(bank, mode="exam", home_href=None, full=False):
+    """Render a validated N2 bank for a standalone file or the web app."""
+    bank = validate(bank)
+    counts = {kind: sum(q["type"] == kind for q in bank["questions"]) for kind in TYPES}
+    if full and any(counts[k] != TYPES[k][1] for k in TYPES):
+        raise ValueError(f"Full exam requires 5/5/3/7/5/5; available: {counts}")
+    bank["mode"] = mode
+    bank["types"] = {k: v[0] for k, v in TYPES.items()}
+    bank["full"] = full
+    if home_href is not None:
+        bank["home_href"] = home_href
+    data = json.dumps(bank, ensure_ascii=False).replace("<", "\\u003c").replace("&", "\\u0026")
+    template = (ROOT / "assets/n2-exam.html").read_text(encoding="utf-8")
+    return template.replace("__EXAM_DATA__", data)
 
 
 def main():
@@ -96,21 +133,15 @@ def main():
     parser.add_argument("--full", action="store_true", help="Require 5/5/3/7/5/5 questions")
     args = parser.parse_args()
     try:
-        bank = validate(json.loads(args.bank.read_text(encoding="utf-8")))
+        bank = json.loads(args.bank.read_text(encoding="utf-8"))
         if args.type:
             bank["questions"] = [q for q in bank["questions"] if q["type"] == args.type]
-        counts = {kind: sum(q["type"] == kind for q in bank["questions"]) for kind in TYPES}
         if not bank["questions"]:
             raise ValueError("No questions for selected type")
-        if args.full and any(counts[k] != TYPES[k][1] for k in TYPES):
-            raise ValueError(f"Full exam requires 5/5/3/7/5/5; available: {counts}")
-        bank["mode"] = args.mode
-        bank["types"] = {k: v[0] for k, v in TYPES.items()}
-        bank["full"] = args.full
-        data = json.dumps(bank, ensure_ascii=False).replace("<", "\\u003c").replace("&", "\\u0026")
-        template = (ROOT / "assets/n2-exam.html").read_text(encoding="utf-8")
+        html = render(bank, mode=args.mode, full=args.full)
+        counts = {kind: sum(q["type"] == kind for q in bank["questions"]) for kind in TYPES}
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(template.replace("__EXAM_DATA__", data), encoding="utf-8")
+        args.output.write_text(html, encoding="utf-8")
         print(json.dumps({"output": str(args.output.resolve()), "counts": counts}, ensure_ascii=False))
     except (ValueError, KeyError, TypeError, OSError, subprocess.CalledProcessError) as error:
         parser.exit(2, f"Cannot build exam: {error}\n")

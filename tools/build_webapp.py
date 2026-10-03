@@ -22,29 +22,37 @@ PROJECT = Path(__file__).resolve().parent.parent
 RESOURCES = PROJECT / "resources"
 WEBAPP = PROJECT / "webapp"
 LOADER = PROJECT / "skills/jlpt-vocabulary-flashcards/scripts/load_vocabulary.py"
-EXAM_BUILDER = PROJECT / "skills/jlpt-n1-vocabulary-coach/scripts/build_n1_exam.py"
+EXAM_BUILDERS = {
+    "N1": PROJECT / "skills/jlpt-n1-vocabulary-coach/scripts/build_n1_exam.py",
+    "N2": PROJECT / "skills/jlpt-n2-vocabulary-coach/scripts/build_n2_exam.py",
+}
 
 
 def build_exams(level: str, lessons: list[str], out: Path, digest) -> list[dict]:
     banks = sorted((RESOURCES / level / "exams").glob("*.json"), key=lambda p: lesson_number(p.stem))
     if not banks:
         return []
-    if level != "N1":
+    if level not in EXAM_BUILDERS:
         raise ValueError(f"No exam builder configured for {level}")
-    spec = importlib.util.spec_from_file_location("n1_exam_builder", EXAM_BUILDER)
+    spec = importlib.util.spec_from_file_location(f"{level.lower()}_exam_builder", EXAM_BUILDERS[level])
     builder = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(builder)
     exams = []
     for path in banks:
         bank = json.loads(path.read_text(encoding="utf-8"))
         if (bank.get("lesson") != path.stem or path.stem not in lessons
-                or bank.get("id") != f"n1-{path.stem}-30"
+                or bank.get("id") != f"{level.lower()}-{path.stem}-30"
                 or not isinstance(bank.get("title"), str) or not bank["title"].strip()
-                or bank.get("reading_policy") != "attested-csv"
-                or bank.get("selection", {}).get("count") != 30):
+                or (level == "N1" and (bank.get("reading_policy") != "attested-csv"
+                    or bank.get("selection", {}).get("count") != 30))
+                or (level == "N2" and (len(bank.get("questions", [])) != 30
+                    or len({q.get("source_line") for q in bank["questions"]}) != 30
+                    or {q.get("source_file") for q in bank["questions"]}
+                    != {f"resources/N2/goi/{path.stem}.csv"}))):
             raise ValueError(f"Invalid published exam metadata: {path}")
         rel = f"exams/{level}/{path.stem}.html"
-        html = builder.render(bank, mode="exam", home_href="../../#/exams/N1")
+        html = builder.render(bank, mode="exam", home_href=f"../../#/exams/{level}",
+                              **({"full": True} if level == "N2" else {}))
         target = out / rel
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(html, encoding="utf-8")

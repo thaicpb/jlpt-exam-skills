@@ -1,0 +1,810 @@
+{
+  "id": "n2-dai1-30",
+  "title": "N2 · Bài 1 · 30 câu",
+  "level": "N2",
+  "lesson": "dai1",
+  "questions": [
+    {
+      "id": "n2-dai1-01",
+      "type": "reading",
+      "word": "襟",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 10,
+      "prompt": "面接の前に、シャツの【襟】を整えた。",
+      "origin": "authored",
+      "options": [
+        "えさ",
+        "えり",
+        "えだ",
+        "えん"
+      ],
+      "answer": 1,
+      "explanations": [
+        "餌（えさ）: thức ăn cho động vật. Đây là từ có thật nhưng không phải cách đọc của 襟.",
+        "襟（えり）: cổ áo. Đây là từ được hỏi trong câu.",
+        "枝（えだ）: cành cây. Đây là từ có thật nhưng không phải cách đọc của 襟.",
+        "縁（えん）: duyên; mối liên hệ. Đây là từ có thật nhưng không phải cách đọc của 襟."
+      ],
+      "option_lexemes": [
+        {
+          "word": "餌",
+          "reading": "えさ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 8
+        },
+        {
+          "word": "襟",
+          "reading": "えり",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 10
+        },
+        {
+          "word": "枝",
+          "reading": "えだ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 9
+        },
+        {
+          "word": "縁",
+          "reading": "えん",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 30
+        }
+      ]
+    },
+    {
+      "id": "n2-dai1-02",
+      "type": "reading",
+      "word": "咳",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 27,
+      "prompt": "風邪をひいて、夜中も【咳】が止まらなかった。",
+      "origin": "authored",
+      "options": [
+        "すみ",
+        "てき",
+        "せき",
+        "そこ"
+      ],
+      "answer": 2,
+      "explanations": [
+        "隅（すみ）: góc. Đây là từ có thật nhưng không phải cách đọc của 咳.",
+        "敵（てき）: kẻ địch; đối thủ. Đây là từ có thật nhưng không phải cách đọc của 咳.",
+        "咳（せき）: ho; cơn ho. Đây là từ được hỏi trong câu.",
+        "底（そこ）: đáy; dưới cùng. Đây là từ có thật nhưng không phải cách đọc của 咳."
+      ],
+      "option_lexemes": [
+        {
+          "word": "隅",
+          "reading": "すみ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 26
+        },
+        {
+          "word": "敵",
+          "reading": "てき",
+          "source_file": "resources/N2/goi/dai10.csv",
+          "source_line": 60
+        },
+        {
+          "word": "咳",
+          "reading": "せき",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 27
+        },
+        {
+          "word": "底",
+          "reading": "そこ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 28
+        }
+      ]
+    },
+    {
+      "id": "n2-dai1-03",
+      "type": "reading",
+      "word": "膝",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 43,
+      "prompt": "転んだとき、右の【膝】を打った。",
+      "origin": "authored",
+      "options": [
+        "みぞ",
+        "ひざ",
+        "わざ",
+        "ひげ"
+      ],
+      "answer": 1,
+      "explanations": [
+        "溝（みぞ）: rãnh; mương. Đây là từ có thật nhưng không phải cách đọc của 膝.",
+        "膝（ひざ）: đầu gối. Đây là từ được hỏi trong câu.",
+        "技（わざ）: kỹ thuật; kỹ năng; chiêu thức. Đây là từ có thật nhưng không phải cách đọc của 膝.",
+        "卑下（ひげ）: tự hạ thấp mình. Đây là từ có thật nhưng không phải cách đọc của 膝."
+      ],
+      "option_lexemes": [
+        {
+          "word": "溝",
+          "reading": "みぞ",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 26
+        },
+        {
+          "word": "膝",
+          "reading": "ひざ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 43
+        },
+        {
+          "word": "技",
+          "reading": "わざ",
+          "source_file": "resources/N1/goi/dai8.csv",
+          "source_line": 11
+        },
+        {
+          "word": "卑下",
+          "reading": "ひげ",
+          "source_file": "resources/N1/goi/dai19.csv",
+          "source_line": 92
+        }
+      ]
+    },
+    {
+      "id": "n2-dai1-04",
+      "type": "reading",
+      "word": "湖",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 49,
+      "prompt": "山に囲まれた【湖】でボートに乗った。",
+      "origin": "authored",
+      "options": [
+        "みずけ",
+        "みこみ",
+        "みずから",
+        "みずうみ"
+      ],
+      "answer": 3,
+      "explanations": [
+        "水気（みずけ）: hơi ẩm; nước còn bám. Đây là từ có thật nhưng không phải cách đọc của 湖.",
+        "見込み（みこみ）: triển vọng; khả năng. Đây là từ có thật nhưng không phải cách đọc của 湖.",
+        "自ら（みずから）: tự mình; đích thân. Đây là từ có thật nhưng không phải cách đọc của 湖.",
+        "湖（みずうみ）: hồ. Đây là từ được hỏi trong câu."
+      ],
+      "option_lexemes": [
+        {
+          "word": "水気",
+          "reading": "みずけ",
+          "source_file": "resources/N1/goi/dai16.csv",
+          "source_line": 49
+        },
+        {
+          "word": "見込み",
+          "reading": "みこみ",
+          "source_file": "resources/N1/goi/dai23.csv",
+          "source_line": 86
+        },
+        {
+          "word": "自ら",
+          "reading": "みずから",
+          "source_file": "resources/N1/goi/dai7.csv",
+          "source_line": 37
+        },
+        {
+          "word": "湖",
+          "reading": "みずうみ",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 49
+        }
+      ]
+    },
+    {
+      "id": "n2-dai1-05",
+      "type": "reading",
+      "word": "煙",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 22,
+      "prompt": "火事の現場から黒い【煙】が上がっている。",
+      "origin": "authored",
+      "options": [
+        "けむり",
+        "けむる",
+        "くもり",
+        "けむたい"
+      ],
+      "answer": 0,
+      "explanations": [
+        "煙（けむり）: khói. Đây là từ được hỏi trong câu.",
+        "煙る（けむる）: bốc khói; mờ trong khói. Đây là từ có thật nhưng không phải cách đọc của 煙.",
+        "曇り（くもり）: trời nhiều mây. Đây là từ có thật nhưng không phải cách đọc của 煙.",
+        "煙たい（けむたい）: nhiều khói; khiến e dè, khó gần. Đây là từ có thật nhưng không phải cách đọc của 煙."
+      ],
+      "option_lexemes": [
+        {
+          "word": "煙",
+          "reading": "けむり",
+          "source_file": "resources/N2/goi/dai1.csv",
+          "source_line": 22
+        },
+        {
+          "word": "煙る",
+          "reading": "けむる",
+          "source_file": "resources/N1/goi/dai25.csv",
+          "source_line": 73
+        },
+        {
+          "word": "曇り",
+          "reading": "くもり",
+          "source_file": "resources/N2/goi/dai5.csv",
+          "source_line": 93
+        },
+        {
+          "word": "煙たい",
+          "reading": "けむたい",
+          "source_file": "resources/N1/goi/dai30.csv",
+          "source_line": 48
+        }
+      ]
+    },
+    {
+      "id": "n2-dai1-06",
+      "type": "orthography",
+      "word": "塩",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 23,
+      "prompt": "このスープは【しお】を入れすぎて、少し辛い。",
+      "origin": "authored",
+      "options": [
+        "潮",
+        "塩",
+        "島",
+        "城"
+      ],
+      "answer": 1,
+      "explanations": [
+        "潮（しお）は海の満ち引きや海水を指す。スープの調味料ではない。",
+        "塩（しお）は食塩。スープの味を調える調味料として合う。",
+        "島（しま）は周囲を水に囲まれた陸地。読みも違う。",
+        "城（しろ）は城郭。読みも意味も違う。"
+      ]
+    },
+    {
+      "id": "n2-dai1-07",
+      "type": "orthography",
+      "word": "箸",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 39,
+      "prompt": "食事の前に、人数分の【はし】を並べた。",
+      "origin": "authored",
+      "options": [
+        "橋",
+        "端",
+        "箸",
+        "梯子"
+      ],
+      "answer": 2,
+      "explanations": [
+        "橋（はし）は川などに架ける構造物。食卓に並べる道具ではない。",
+        "端（はし）は物のはし・端部。人数分用意する食具ではない。",
+        "箸（はし）は食事に使う二本一組の道具。",
+        "梯子（はしご）は上り下りに使うはしご。読みも違う。"
+      ]
+    },
+    {
+      "id": "n2-dai1-08",
+      "type": "orthography",
+      "word": "位置",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 65,
+      "prompt": "駅とホテルの【いち】関係を地図で確認した。",
+      "origin": "authored",
+      "options": [
+        "位置",
+        "市",
+        "壱",
+        "一"
+      ],
+      "answer": 0,
+      "explanations": [
+        "位置（いち）は場所や相互の配置。「位置関係」に合う。",
+        "市（いち）は市・市場など。位置関係の「いち」ではない。",
+        "壱（いち）は数字一の大字。場所を表さない。",
+        "一（いち）は数字一。場所を表す「位置」とは異なる。"
+      ]
+    },
+    {
+      "id": "n2-dai1-09",
+      "type": "orthography",
+      "word": "価格",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 101,
+      "prompt": "同じ商品でも店によって【かかく】が違う。",
+      "origin": "authored",
+      "options": [
+        "化学",
+        "画角",
+        "科学",
+        "価格"
+      ],
+      "answer": 3,
+      "explanations": [
+        "化学（かがく）は物質を研究する学問。値段ではない。",
+        "画角（がかく）は撮影範囲を示す角度。値段ではない。",
+        "科学（かがく）は自然などを体系的に研究する学問。値段ではない。",
+        "価格（かかく）は商品を売買するときの値段。"
+      ]
+    },
+    {
+      "id": "n2-dai1-10",
+      "type": "orthography",
+      "word": "回収",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 94,
+      "prompt": "不具合が見つかったため、メーカーが製品を【かいしゅう】した。",
+      "origin": "authored",
+      "options": [
+        "改修",
+        "回収",
+        "改宗",
+        "回答"
+      ],
+      "answer": 1,
+      "explanations": [
+        "改修（かいしゅう）は建物などを直すこと。欠陥品を集める意味ではない。",
+        "回収（かいしゅう）は配布・販売した物を集めて戻すこと。欠陥品に合う。",
+        "改宗（かいしゅう）は信仰する宗教を変えること。製品に使わない。",
+        "回答（かいとう）は質問への返答。読みも意味も違う。"
+      ]
+    },
+    {
+      "id": "n2-dai1-11",
+      "type": "formation",
+      "word": "開始",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 95,
+      "prompt": "授業は午前九時に開（　）する予定です。",
+      "origin": "authored",
+      "options": [
+        "場",
+        "始",
+        "店",
+        "業"
+      ],
+      "answer": 1,
+      "explanations": [
+        "開場（かいじょう）は会場の扉を開いて入場可能にすること。授業そのものの開始ではない。",
+        "開始（かいし）は物事を始めること。授業が始まる時刻を表す。",
+        "開店（かいてん）は店を開くこと。授業には使わない。",
+        "開業（かいぎょう）は事業を始めること。授業には使わない。"
+      ],
+      "formation": {
+        "prefix": "開",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai1-12",
+      "type": "formation",
+      "word": "回数",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 97,
+      "prompt": "練習の回（　）を週二回から週四回に増やした。",
+      "origin": "authored",
+      "options": [
+        "収",
+        "転",
+        "数",
+        "答"
+      ],
+      "answer": 2,
+      "explanations": [
+        "回収（かいしゅう）は物を集めて戻すこと。週二回から四回という頻度ではない。",
+        "回転（かいてん）は回る動き。ここで数えている練習の頻度ではない。",
+        "回数（かいすう）は行った回数。週二回から四回という文脈に合う。",
+        "回答（かいとう）は質問への答え。練習の実施回数ではない。"
+      ],
+      "formation": {
+        "prefix": "回",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai1-13",
+      "type": "formation",
+      "word": "内側",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 74,
+      "prompt": "外からは見えないが、ドアの内（　）に注意書きが貼ってある。",
+      "origin": "authored",
+      "options": [
+        "線",
+        "側",
+        "科",
+        "容"
+      ],
+      "answer": 1,
+      "explanations": [
+        "内線（ないせん）は建物内の電話回線。ドアの面ではない。",
+        "内側（うちがわ）は物の内の面。ドアの内側に貼るという意味に合う。",
+        "内科（ないか）は診療科。ドアの面ではない。",
+        "内容（ないよう）は中身や話の内容。ドアの面ではない。"
+      ],
+      "formation": {
+        "prefix": "内",
+        "suffix": ""
+      }
+    },
+    {
+      "id": "n2-dai1-14",
+      "type": "context",
+      "word": "延期",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 80,
+      "prompt": "台風のため、明日の試合を来週に（　）することになった。",
+      "origin": "authored",
+      "options": [
+        "中止",
+        "延期",
+        "再開",
+        "延長"
+      ],
+      "answer": 1,
+      "explanations": [
+        "中止は取りやめること。来週に行う予定は残っている。",
+        "延期は予定の日を後に延ばすこと。明日から来週への変更に合う。",
+        "再開は中断したものをまた始めること。試合はまだ始まっていない。",
+        "延長は時間や期間を長くすること。開催日を後に移す意味とは違う。"
+      ]
+    },
+    {
+      "id": "n2-dai1-15",
+      "type": "context",
+      "word": "応募",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 84,
+      "prompt": "求人広告を見て、アルバイトに（　）した。",
+      "origin": "authored",
+      "options": [
+        "予約",
+        "応募",
+        "注文",
+        "返却"
+      ],
+      "answer": 1,
+      "explanations": [
+        "予約は前もって席やサービスを確保すること。求人への手続きではない。",
+        "応募は募集に応じて申し込むこと。求人広告と合う。",
+        "注文は商品や料理を頼むこと。求人には使わない。",
+        "返却は借りた物を返すこと。求人には使わない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-16",
+      "type": "context",
+      "word": "栄養",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 78,
+      "prompt": "野菜だけでなく魚や肉も食べ、必要な（　）をバランスよく取ろう。",
+      "origin": "authored",
+      "options": [
+        "体温",
+        "栄養",
+        "食欲",
+        "重量"
+      ],
+      "answer": 1,
+      "explanations": [
+        "体温は体の温度。食べ物から取る対象ではない。",
+        "栄養は体に必要な成分や働き。多様な食品からバランスよく取る。",
+        "食欲は食べたい気持ち。食品から摂取する物ではない。",
+        "重量は物の重さ。栄養バランスの対象ではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-17",
+      "type": "context",
+      "word": "影響",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 76,
+      "prompt": "大雨が続いたことが、野菜の収穫量に大きな（　）を与えた。",
+      "origin": "authored",
+      "options": [
+        "印象",
+        "影響",
+        "解説",
+        "合図"
+      ],
+      "answer": 1,
+      "explanations": [
+        "印象は見聞きした際の感じ。大雨と収穫量の因果関係ではない。",
+        "影響は一方の変化が他方に及ぼす作用。大雨と収穫量に合う。",
+        "解説は物事を分かりやすく説明すること。大雨は説明しない。",
+        "合図は行動のきっかけとなる知らせ。収穫量への作用ではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-18",
+      "type": "context",
+      "word": "大勢",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 86,
+      "prompt": "会場には（　）の人が集まり、立つ場所もないほどだった。",
+      "origin": "authored",
+      "options": [
+        "少数",
+        "大勢",
+        "大半",
+        "一部"
+      ],
+      "answer": 1,
+      "explanations": [
+        "少数は少ない人数。立つ場所もないほど集まったという説明に合わない。",
+        "大勢は人数が非常に多いこと。会場がいっぱいになった状況に合う。",
+        "大半はある集団の半分を超える部分。比較元の集団が示されていない。",
+        "一部はある集団の一部分。比較する全体が示されず、満員になるほどの人数も表さない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-19",
+      "type": "context",
+      "word": "以内",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 69,
+      "prompt": "申込書は今日から三日（　）に提出してください。四日目は受け付けません。",
+      "origin": "authored",
+      "options": [
+        "以前",
+        "以後",
+        "以内",
+        "以降"
+      ],
+      "answer": 2,
+      "explanations": [
+        "以前はある時点より前。三日という期間の上限を示さない。",
+        "以後はある時点から後。四日目も含み得るため締切に合わない。",
+        "以内は定めた期間を超えないこと。三日を上限とする締切に合う。",
+        "以降はその時点から後。四日目を受け付けない条件と逆。"
+      ]
+    },
+    {
+      "id": "n2-dai1-20",
+      "type": "context",
+      "word": "印刷",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 71,
+      "prompt": "会議の参加者が十人なので、この資料を十部（　）してください。",
+      "origin": "authored",
+      "options": [
+        "撮影",
+        "印刷",
+        "録音",
+        "保存"
+      ],
+      "answer": 1,
+      "explanations": [
+        "撮影は写真や映像に記録すること。紙の資料を十部用意しない。",
+        "印刷は文字や図を紙などに刷ること。「十部」と合う。",
+        "録音は音声を記録すること。紙の資料を増やさない。",
+        "保存はデータなどを残すこと。十部の紙を作らない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-21",
+      "type": "paraphrase",
+      "word": "以前",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 64,
+      "prompt": "私は【以前】、この町に住んでいました。",
+      "origin": "authored",
+      "options": [
+        "これから",
+        "今も",
+        "前に",
+        "もうすぐ"
+      ],
+      "answer": 2,
+      "explanations": [
+        "これからは今後を指す。過去の居住ではない。",
+        "今もは現在も継続している意味。過去の経験を表す語ではない。",
+        "前には過去のある時期を指す。この町に住んでいた時期を言い換えられる。",
+        "もうすぐは近い未来を指す。過去の居住ではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-22",
+      "type": "paraphrase",
+      "word": "一流",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 66,
+      "prompt": "彼は【一流の】料理人として知られている。",
+      "origin": "authored",
+      "options": [
+        "評判の悪い",
+        "腕の優れた",
+        "経験の浅い",
+        "無名の"
+      ],
+      "answer": 1,
+      "explanations": [
+        "評判の悪いは評価が低いこと。一流と逆方向。",
+        "腕の優れたは技量が高いこと。優秀な料理人という意味に近い。",
+        "経験の浅いは経験年数が少ないこと。技量の高さを表さない。",
+        "無名のは名が知られていないこと。一流という評価とは別。"
+      ]
+    },
+    {
+      "id": "n2-dai1-23",
+      "type": "paraphrase",
+      "word": "維持",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 62,
+      "prompt": "健康を【維持する】ため、毎日歩いている。",
+      "origin": "authored",
+      "options": [
+        "悪くする",
+        "調べる",
+        "保つ",
+        "比べる"
+      ],
+      "answer": 2,
+      "explanations": [
+        "悪くするは健康状態を下げること。意味が逆。",
+        "調べるは状態を確認すること。保ち続ける意味はない。",
+        "保つは良い状態をそのまま続けること。維持するに近い。",
+        "比べるは二つ以上を比較すること。健康を保つ意味ではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-24",
+      "type": "paraphrase",
+      "word": "解決",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 93,
+      "prompt": "話し合いによって、その問題は【解決した】。",
+      "origin": "authored",
+      "options": [
+        "発生した",
+        "片づいた",
+        "複雑になった",
+        "残った"
+      ],
+      "answer": 1,
+      "explanations": [
+        "発生したは問題が起きたこと。終わったことではない。",
+        "片づいたは問題が処理され、終わったこと。解決したに近い。",
+        "複雑になったは問題が難しくなったこと。意味が違う。",
+        "残ったは問題が解消せず続くこと。意味が逆。"
+      ]
+    },
+    {
+      "id": "n2-dai1-25",
+      "type": "paraphrase",
+      "word": "印象",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 72,
+      "prompt": "彼の話はとても【印象に残った】。",
+      "origin": "authored",
+      "options": [
+        "心に残った",
+        "聞き取れなかった",
+        "すぐに忘れた",
+        "短く終わった"
+      ],
+      "answer": 0,
+      "explanations": [
+        "心に残ったは強く記憶に残ったこと。印象に残ったに近い。",
+        "聞き取れなかったは音声を理解できなかったこと。記憶に残ったかどうかとは別。",
+        "すぐに忘れたは記憶から消えたこと。意味が逆。",
+        "短く終わったは話の長さを述べる。印象の強さではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-26",
+      "type": "usage",
+      "word": "餌",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 8,
+      "prompt": "餌",
+      "origin": "authored",
+      "options": [
+        "犬が待っていたので、決まった時間に餌をやった。",
+        "会議の参加者に温かい餌を配った。",
+        "病院の患者に昼の餌を運んだ。",
+        "店の客に注文した餌を出した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "餌は動物に与える食べ物。犬に餌をやる使い方が自然。",
+        "人への飲食物を中立的に言うなら食事・軽食。参加者に餌は失礼で不自然。",
+        "患者に提供するのは食事。人に餌という語は通常の医療場面に合わない。",
+        "客に出すのは料理・食事。普通の接客で餌とは言わない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-27",
+      "type": "usage",
+      "word": "演奏",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 81,
+      "prompt": "演奏",
+      "origin": "authored",
+      "options": [
+        "歌手が新曲の歌詞を演奏した。",
+        "指揮者が楽団員を演奏した。",
+        "彼女はピアノで新しい曲を演奏した。",
+        "調律師がピアノの音程を演奏した。"
+      ],
+      "answer": 2,
+      "explanations": [
+        "歌詞は声で歌うもので、歌詞そのものを演奏するとは言わない。",
+        "指揮者は楽団員を指揮する。人を演奏するとは言わない。",
+        "演奏は楽器で音楽を表現すること。ピアノで曲を演奏する使い方が自然。",
+        "調律師はピアノの音程を調整する。音程を演奏するとは言わない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-28",
+      "type": "usage",
+      "word": "寮",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 54,
+      "prompt": "寮",
+      "origin": "authored",
+      "options": [
+        "大学の寮に住んで、毎日そこから通学している。",
+        "旅行中は駅前の寮を一泊だけ予約した。",
+        "新幹線の寮に座って、東京まで移動した。",
+        "映画館の寮でチケットを買って入場した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "寮は学生や社員などが共同生活する住まい。大学の寮から通学する使い方が自然。",
+        "旅行で一泊する施設ならホテルや旅館。寮は通常、所属者が生活する施設。",
+        "新幹線で座る場所は座席・車両。寮は住まいを表す。",
+        "チケットを買う場所は窓口・受付。寮は映画館の売り場ではない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-29",
+      "type": "usage",
+      "word": "往復",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 83,
+      "prompt": "往復",
+      "origin": "authored",
+      "options": [
+        "駅から学校までの片道の距離を往復距離と呼んだ。",
+        "家と図書館の間を歩いて往復した。",
+        "東京から大阪へ向かうだけの便を往復便と呼んだ。",
+        "自宅にいたまま、駅と学校の間を往復した。"
+      ],
+      "answer": 1,
+      "explanations": [
+        "片道の距離は一方向だけの長さ。往復距離は行きと帰りを合わせた長さ。",
+        "往復は行きと帰りの両方を移動すること。家と図書館の間を歩いて行き、戻る状況に合う。",
+        "一方向だけの便は片道便。往復便は行き帰りの便。",
+        "自宅から移動していないので、駅と学校の間を往復したとはいえない。"
+      ]
+    },
+    {
+      "id": "n2-dai1-30",
+      "type": "usage",
+      "word": "会計",
+      "source_file": "resources/N2/goi/dai1.csv",
+      "source_line": 92,
+      "prompt": "会計",
+      "origin": "authored",
+      "options": [
+        "食事を終えたので、レジで会計を済ませた。",
+        "買い物の前に商品の会計を比べた。",
+        "レストランで料理の会計を注文した。",
+        "旅行の前にホテルの会計を予約した。"
+      ],
+      "answer": 0,
+      "explanations": [
+        "会計を済ませるは代金を精算すること。食後にレジで支払う状況に合う。",
+        "買う前に商品ごとに比べるのは価格。会計は代金を精算する行為や勘定。",
+        "店で注文するのは料理。会計は食事の後に代金を支払う段階。",
+        "旅行前に予約するのは部屋や宿泊。会計は支払い・勘定を指す。"
+      ]
+    }
+  ]
+}

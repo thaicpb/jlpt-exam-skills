@@ -179,7 +179,7 @@ function renderExams(levelId) {
     h('div', { class: 'topbar' },
       h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Quay lại danh sách bài', html: ICON.back, onclick: () => go('#/') }),
       h('div', { class: 'title' }, h('b', null, `Kiểm tra ${levelId}`), h('span', null, `${exams.length} đề theo bài học`))),
-    h('p', { class: 'exam-intro' }, 'Mỗi đề gồm 30 từ được chọn ngẫu nhiên từ bài tương ứng. Bộ câu hỏi được giữ cố định để ôn lại.'),
+    h('p', { class: 'exam-intro' }, 'Mỗi đề gồm 30 từ lấy từ bài tương ứng. Bộ câu hỏi được giữ cố định để ôn lại.'),
     h('p', { class: 'exam-intro' }, 'Chọn đáp án rồi nộp bài để xem điểm, giải thích và làm lại câu sai. Đề được đánh dấu hoàn tất khi đã trả lời và nộp đủ mọi câu. Khi tải lại trang, lượt làm hiện tại sẽ bắt đầu lại.'),
     h('div', { class: 'lessons' }, exams.map((exam) =>
       h('a', { class: 'lesson exam-link', href: exam.file },
